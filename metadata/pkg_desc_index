@@ -1,0 +1,9 @@
+app-misc/homeassistant 0.77.2 0.77.3 0.78.0 0.78.1 0.78.3 0.79.3 0.80.1 0.80.2 0.80.3 0.81.1 0.81.2 0.81.6 0.82.1 0.83.1 0.83.2 0.83.3: Open-source home automation platform running on Python 3.6
+dev-python/ifaddr 0.1.4: Enumerates all IP addresses on all network adapters of the system.
+dev-python/paho-mqtt 1.4.0: A client class with support for both MQTT v3.1 and v3.1.1
+dev-python/rxv 0.5.1 0.6.0: Automation Library for Yamaha RX-V473, RX-V573, RX-V673, RX-V773 receivers
+dev-python/sqlalchemy 1.2.11 1.2.13: Python SQL toolkit and Object Relational Mapper
+dev-python/typing 3.5.3.0: Work related to PEP 484: typing.py (released via PyPI)
+dev-python/ua-parser 0.8.0: Python port of Browserscope's user agent parser
+dev-python/user-agents 1.1.0: A library to identify devices (phones, tablets) and their capabilities by parsing (browser/HTTP) user agent strings
+media-libs/mutagen 1.41.1: Audio metadata tag reader and writer implemented in pure Python
