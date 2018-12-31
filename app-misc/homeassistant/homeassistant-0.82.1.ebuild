@@ -3,7 +3,7 @@
 
 EAPI="6"
 
-PYTHON_COMPAT=( python3_5 python3_6 )
+PYTHON_COMPAT=( python3_6 )
 
 inherit user readme.gentoo-r1 eutils distutils-r1
 
@@ -77,7 +77,7 @@ DEPEND="
 	>=dev-python/zeroconf-0.21.3[${PYTHON_USEDEP}]
 	dev-db/sqlite
 	dev-libs/libfastjson
-	dev-libs/openssl
+	dev-libs/openssl:0
 	>=media-libs/mutagen-1.41.1
 "
 
