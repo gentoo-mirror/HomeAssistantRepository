@@ -15,10 +15,11 @@ RESTRICT="mirror"
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64"
-IUSE="atv hs100 dropbox tradfri wemo mysql musiccast samsungtv sonos ssl firetv"
+IUSE="atv hs100 dropbox tradfri wemo mysql musiccast samsungtv sonos ssl firetv maxcube"
 
 DEPEND="${PYTHON_DEPS}
 	!app-misc/homeassistant-bin
+	>=dev-python/RestrictedPython-4.0_beta_pre7[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.4.4[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-cors-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/astral-1.7.1[${PYTHON_USEDEP}]
@@ -29,6 +30,7 @@ DEPEND="${PYTHON_DEPS}
 	>=dev-python/boto3-1.9.57[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.12.57[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup-4.6.0[${PYTHON_USEDEP}]
+	=dev-python/caldav-0.5.0[${PYTHON_USEDEP}]
 	>=dev-python/cdu-0.1.3[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2018.11.29[${PYTHON_USEDEP}]
 	>=dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
@@ -96,6 +98,7 @@ DEPEND="${PYTHON_DEPS}
 	        app-crypt/certbot
 		net-proxy/haproxy )
 	firetv? ( =dev-python/firetv-1.0.7[${PYTHON_USEDEP}] )
+	maxcube? ( =dev-python/maxcube-api-0.1.0[${PYTHON_USEDEP}] )
 	>=dev-python/jsonrpc-async-0.6[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-1.6.4[${PYTHON_USEDEP}]
 	>=dev-libs/xerces-c-3.1.4-r1

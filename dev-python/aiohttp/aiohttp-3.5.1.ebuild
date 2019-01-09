@@ -3,7 +3,7 @@
 
 EAPI="6"
 
-PYTHON_COMPAT=( python3_{5,6} )
+PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
@@ -21,6 +21,7 @@ CDEPEND="
 	>=dev-python/attrs-17.3.0[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
 	>=dev-python/multidict-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.6.5[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.0[${PYTHON_USEDEP}]
 	dev-python/idna-ssl[${PYTHON_USEDEP}]
 "
@@ -48,7 +49,6 @@ DEPEND="
 RDEPEND="${CDEPEND}"
 
 DOCS=( CHANGES.rst CONTRIBUTING.rst CONTRIBUTORS.txt HISTORY.rst README.rst )
-PATCHES=( "${FILESDIR}"/${PN}-3.0.5-tests.patch )
 
 python_prepare_all() {
 	# skip failing tests until cause is determined
