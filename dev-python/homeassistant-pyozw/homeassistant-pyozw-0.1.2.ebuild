@@ -4,12 +4,12 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://esphomelib.com/esphomeyaml/ https://pypi.org/project/aioesphomeapi/"
+DESCRIPTION="python_openzwave is a python wrapper for the openzwave c++ library."
+HOMEPAGE="https://home-assistant.io/ https://pypi.org/project/homeassistant-pyozw/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE=""

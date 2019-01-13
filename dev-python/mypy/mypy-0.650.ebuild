@@ -4,15 +4,15 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://esphomelib.com/esphomeyaml/ https://pypi.org/project/aioesphomeapi/"
+DESCRIPTION="Optional static typing for Python"
+HOMEPAGE="http://www.mypy-lang.org/ https://pypi.org/project/mypy/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE=""
+LICENSE="MIT License"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"

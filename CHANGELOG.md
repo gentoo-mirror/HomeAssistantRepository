@@ -1,3 +1,17 @@
+2019-01-13 some new ebuilds
+	pydocstyle-3.0.0 added
+	pytest-cov-2.6.1 added
+	mypy-0.650 added
+	pytest-4.1.0 update
+	last aioesphomeapi-1.3.0 added (1.4.1 too new)
+	pyunifi-2.16 added
+	pylast-3.0.0 added
+
+2019-01-12 esphomeyaml (python2_7)
+	add tzlocal-1.4 for esphomeyaml
+	add python2_7 compatibility in colorlog-4.0.2.ebuild for esphomeyaml
+	add esphomeyaml-1.10.0
+
 2019-01-11 Release 0.85.1
 	update ruamel-yaml-0.15.85
 	update mutagen-1.42.0
