@@ -2,9 +2,11 @@ app-misc/homeassistant 0.84.6 0.85.0_beta1 0.85.0: Open-source home automation p
 dev-python/firetv 1.0.7: Communicate with an Amazon Fire TV device via ADB over a network.
 dev-python/ifaddr 0.1.4: Enumerates all IP addresses on all network adapters of the system.
 dev-python/paho-mqtt 1.4.0: A client class with support for both MQTT v3.1 and v3.1.1
+dev-python/pylast 3.0.0: Python interface to last.fm and other api-compatible websites
 dev-python/pytz 2018.7: World timezone definitions for Python
 dev-python/rxv 0.5.1 0.6.0: Automation Library for Yamaha RX-V473, RX-V573, RX-V673, RX-V773 receivers
 dev-python/sqlalchemy 1.2.11 1.2.13: Python SQL toolkit and Object Relational Mapper
 dev-python/typing 3.5.3.0: Work related to PEP 484: typing.py (released via PyPI)
+dev-python/tzlocal 1.4: tzinfo object for the local timezone
 dev-python/user-agents 1.1.0: A library to identify devices (phones, tablets) and their capabilities by parsing (browser/HTTP) user agent strings
 media-libs/mutagen 1.41.1 1.42.0: Audio metadata tag reader and writer implemented in pure Python
