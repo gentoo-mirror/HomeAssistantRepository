@@ -1,4 +1,4 @@
-app-misc/homeassistant 0.84.6 0.85.0_beta1 0.85.0 0.85.1 0.86.0_beta0 0.86.0_beta2 0.86.0_beta3: Open-source home automation platform running on Python 3.6
+app-misc/homeassistant 0.84.6 0.85.0 0.85.1 0.86.0_beta3: Open-source home automation platform running on Python 3.6
 dev-python/firetv 1.0.7: Communicate with an Amazon Fire TV device via ADB over a network.
 dev-python/ifaddr 0.1.4: Enumerates all IP addresses on all network adapters of the system.
 dev-python/paho-mqtt 1.4.0: A client class with support for both MQTT v3.1 and v3.1.1
