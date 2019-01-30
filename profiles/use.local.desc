@@ -2,3 +2,4 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+dev-python/sphinx:net - enable internet capabilities
