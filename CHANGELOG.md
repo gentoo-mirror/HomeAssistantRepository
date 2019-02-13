@@ -1,4 +1,17 @@
 2019-02-12 div Updates
+	* Update sqlalchemy-1.2.17, remove sqlalchemy-1.2.11
+	* add aioambient-0.1.1
+	* add CO2Signal-0.4.2
+	* add PyChromecast-2.5.0
+	* add aioharmony-0.1.7
+	* add home-assistant-frontend==20190212.0, remove 20190120.0 - 20190130.0
+	* fixed SRC_URI handling for RestrictedPython, and added 4.0_beta8
+	* add home-assistant-frontend==20190212.0, remove 20190120.0 - 20190130.0
+	* add cryptography-2.5
+	* add pyatmo-1.8
+	* add pyarlo-0.2.3
+
+2019-02-12 div Updates
 	* Update pyHS100 to 0.3.4
 	* bump aioesphomeapi-1.5.0
 	* bump ruamel-yaml-0.15.87

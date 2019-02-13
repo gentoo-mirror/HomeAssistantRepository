@@ -1,5 +1,6 @@
-# Copyright 1999-2019 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+# $Id$
 
 EAPI=6
 
@@ -7,11 +8,11 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="The Home Assistant frontend"
-HOMEPAGE="https://github.com/home-assistant/home-assistant-polymer https://pypi.org/project/home-assistant-frontend/"
+DESCRIPTION="Python Arlo is a library written in Python 2.7/3x that exposes the Netgear Arlo cameras as Python objects."
+HOMEPAGE="https://github.com/tchellomello/python-arlo https://pypi.org/project/pyarlo/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache License 2.0"
+LICENSE="LGPLv3+"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
