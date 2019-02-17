@@ -3,10 +3,10 @@
 <pkgmetadata>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">PyChromecast</remote-id>
+    <remote-id type="pypi">lakeside</remote-id>
     <maintainer status="unknown">
-      <email>paulus@paulusschoutsen.nl</email>
-      <name>Paulus Schoutsen</name>
+      <email>mjg59@google.com</email>
+      <name>Matthew Garrett</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

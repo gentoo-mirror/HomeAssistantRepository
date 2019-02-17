@@ -3,10 +3,10 @@
 <pkgmetadata>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">PyChromecast</remote-id>
+    <remote-id type="pypi">konnected</remote-id>
     <maintainer status="unknown">
-      <email>paulus@paulusschoutsen.nl</email>
-      <name>Paulus Schoutsen</name>
+      <email>help@konnected.io</email>
+      <name>Nate Clark, Konnected Inc</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
