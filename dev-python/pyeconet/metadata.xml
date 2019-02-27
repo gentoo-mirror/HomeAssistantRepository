@@ -3,10 +3,6 @@
 <pkgmetadata>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">pysonos</remote-id>
-    <maintainer status="unknown">
-      <email>amelchio@nogoto.net</email>
-      <name>Anders Melchiorsen</name>
-    </maintainer>
+    <remote-id type="pypi">pyeconet</remote-id>
   </upstream>
 </pkgmetadata>

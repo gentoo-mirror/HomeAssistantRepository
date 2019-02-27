@@ -3,10 +3,10 @@
 <pkgmetadata>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">bcrypt</remote-id>
+    <remote-id type="pypi">pylinky</remote-id>
     <maintainer status="unknown">
-      <email>cryptography-dev@python.org</email>
-      <name>The Python Cryptographic Authority developers</name>
+      <email>grytes29@gmail.com</email>
+      <name>Dimitri Capitaine</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
