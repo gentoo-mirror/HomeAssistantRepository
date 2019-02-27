@@ -5,7 +5,7 @@ EAPI=6
 
 PYTHON_COMPAT=( python2_7 )
 
-inherit distutils-r1
+inherit user readme.gentoo-r1 distutils-r1
 
 DESCRIPTION="Make creating custom firmwares for ESP32/ESP8266 super easy."
 HOMEPAGE="https://github.com/esphome/esphome https://pypi.org/project/esphome/"
@@ -14,7 +14,7 @@ SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
-IUSE="test"
+IUSE="server test"
 
 RDEPEND=""
 DEPEND="${REDEPEND}
@@ -30,12 +30,55 @@ DEPEND="${REDEPEND}
 	>=dev-python/typing-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/protobuf-python-3.4[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-3.4[${PYTHON_USEDEP}]
+	server? ( >=dev-python/ifaddr-0.1.6 )
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
+DISABLE_AUTOFORMATTING=1
+DOC_CONTENTS="
+The ESPHome dashboard listens on port 6052
+ESPHome configuration is in: /etc/${PN}
+dashboard command line arguments are configured in: /etc/conf.d/${PN}
+logging is to: /var/log/${PN}/{dashboard,warnings}.log
+support at https://git.edevau.net/onkelbeh/HomeAssistantRepository
+"
+
+DOCS="README.md"
+
+pkg_setup() {
+	if use server; then
+		enewgroup "${PN}"
+		enewuser "${PN}" -1 -1 "/etc/${PN}" "${PN}"
+	fi
+}
+
+python_install_all() {
+	dodoc ${DOCS}
+	distutils-r1_python_install_all
+
+	if use server; then
+		keepdir "/etc/${PN}"
+		fowners -R "${PN}:${PN}" "/etc/${PN}"
+
+		keepdir "/var/log/${PN}"
+		fowners -R "${PN}:${PN}" "/var/log/${PN}"
+
+		newconfd "${FILESDIR}/${PN}.conf.d" "${PN}"
+		newinitd "${FILESDIR}/${PN}.init.d-r1" "${PN}"
+
+		readme.gentoo_create_doc
+	fi
+}
+
 python_test() {
 	nosetests --verbose || die
 	py.test -v -v || die
+}
+
+pkg_postinst() {
+	if use server; then
+		readme.gentoo_print_elog
+	fi
 }
