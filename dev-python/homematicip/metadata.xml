@@ -7,10 +7,10 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">pysonos</remote-id>
+    <remote-id type="pypi">homematicip</remote-id>
     <maintainer status="unknown">
-      <email>amelchio@nogoto.net</email>
-      <name>Anders Melchiorsen</name>
+      <email>stieg@corona-bytes.net</email>
+      <name>Heimo Stieg</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
