@@ -2,4 +2,25 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-misc/homeassistant:asuswrt - Api wrapper for Asuswrt
+app-misc/homeassistant:atv - Library for controlling an Apple TV
+app-misc/homeassistant:denonavr - Automation Library for Denon AVR receivers
+app-misc/homeassistant:esphome - Support for esphome sensors, covers and switches
+app-misc/homeassistant:firetv - Library for controlling an Apple TV
+app-misc/homeassistant:frontend - Install Home Assistant frontend
+app-misc/homeassistant:homematic - An API for the homematicip cloud
+app-misc/homeassistant:hs100 - Interface for TPLink Stuff
+app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
+app-misc/homeassistant:musiccast - add support for Yamaha MusicCast devices
+app-misc/homeassistant:mysql - install MySQL Libraries for use with HomeAssistant
+app-misc/homeassistant:qnap - Python API for obtaining QNAP NAS system stats
+app-misc/homeassistant:rxv - Library for Yamaha RX-* Receivers
+app-misc/homeassistant:samsungtv - Support for Samasung TV Sets
+app-misc/homeassistant:sonos - Sonos Media Player Support
+app-misc/homeassistant:speedtest - spedtest.net support
+app-misc/homeassistant:ssl - include support for haproxy
+app-misc/homeassistant:test - internal and devel use
+app-misc/homeassistant:tradfri - Control/observe IKEA Tradfri devices
+app-misc/homeassistant:wemo - discover and control WeMo devices
+app-misc/homeassistant:zoneminder - Support for ZoneMinder Cameras
 dev-python/sphinx:net - enable internet capabilities
