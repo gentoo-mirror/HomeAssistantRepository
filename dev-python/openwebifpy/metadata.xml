@@ -7,10 +7,10 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">nessclient</remote-id>
+    <remote-id type="pypi">openwebifpy</remote-id>
     <maintainer status="unknown">
-      <email>nick@nickwhyte.com</email>
-      <name>Nick Whyte</name>
+      <email>fbradyirl@github.io</email>
+      <name>Finbarr Brady</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
