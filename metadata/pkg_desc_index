@@ -3,7 +3,7 @@ dev-python/firetv 1.0.7: Communicate with an Amazon Fire TV device via ADB over 
 dev-python/ifaddr 0.1.4: Enumerates all IP addresses on all network adapters of the system.
 dev-python/paho-mqtt 1.4.0: A client class with support for both MQTT v3.1 and v3.1.1
 dev-python/pylast 3.0.0: Python interface to last.fm and other api-compatible websites
-dev-python/pytz 2018.7: World timezone definitions for Python
+dev-python/pytz 2018.7 2018.9: World timezone definitions for Python
 dev-python/requests 2.21.0-r1: HTTP library for human beings
 dev-python/rxv 0.5.1 0.6.0: Automation Library for Yamaha RX-V473, RX-V573, RX-V673, RX-V773 receivers
 dev-python/sphinx 1.8.3: Python documentation generator
