@@ -7,11 +7,11 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="ACME protocol implementation in Python"
-HOMEPAGE="https://github.com/letsencrypt/letsencrypt https://pypi.org/project/acme/"
+DESCRIPTION="Python API for obtaining QNAP NAS system stats"
+HOMEPAGE="https://github.com/colinodell/python-qnapstats https://pypi.org/project/qnapstats/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache License 2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"

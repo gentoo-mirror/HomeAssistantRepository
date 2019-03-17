@@ -7,10 +7,10 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">acme</remote-id>
+    <remote-id type="pypi">qnapstats</remote-id>
     <maintainer status="unknown">
-      <email>client-dev@letsencrypt.org</email>
-      <name>Certbot Project</name>
+      <email>colinodell@gmail.com</email>
+      <name>Colin O'Dell</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
