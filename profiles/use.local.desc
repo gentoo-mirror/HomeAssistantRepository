@@ -2,11 +2,11 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-misc/homeassistant:androidtv - Library for controlling an Android TV, formerly firetv
 app-misc/homeassistant:asuswrt - Api wrapper for Asuswrt
 app-misc/homeassistant:atv - Library for controlling an Apple TV
 app-misc/homeassistant:denonavr - Automation Library for Denon AVR receivers
 app-misc/homeassistant:esphome - Support for esphome sensors, covers and switches
-app-misc/homeassistant:firetv - Library for controlling an Apple TV
 app-misc/homeassistant:frontend - Install Home Assistant frontend
 app-misc/homeassistant:homematic - An API for the homematicip cloud
 app-misc/homeassistant:hs100 - Interface for TPLink Stuff
