@@ -7,6 +7,11 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">envs</remote-id>
+    <remote-id type="pypi">pyOpenSSL</remote-id>
+    <docs>https://pythonhosted.org/pyOpenSSL/</docs>
+    <maintainer status="unknown">
+      <email>hs@ox.cx</email>
+      <name>Hynek Schlawack</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>

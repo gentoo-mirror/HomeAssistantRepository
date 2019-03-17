@@ -7,6 +7,11 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">envs</remote-id>
+    <remote-id type="pypi">six</remote-id>
+    <docs>https://pythonhosted.org/six/</docs>
+    <maintainer status="unknown">
+      <email>benjamin@python.org</email>
+      <name>Benjamin Peterson</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>

@@ -7,6 +7,10 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">envs</remote-id>
+    <remote-id type="pypi">snitun</remote-id>
+    <maintainer status="unknown">
+      <email>opensource@nabucasa.com</email>
+      <name>Nabu Casa, Inc.</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>

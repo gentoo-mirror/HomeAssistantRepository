@@ -7,6 +7,10 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">envs</remote-id>
+    <remote-id type="pypi">jmespath</remote-id>
+    <maintainer status="unknown">
+      <email>js@jamesls.com</email>
+      <name>James Saryerwinnie</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>

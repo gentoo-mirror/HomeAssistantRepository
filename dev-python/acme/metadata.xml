@@ -7,6 +7,10 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">envs</remote-id>
+    <remote-id type="pypi">acme</remote-id>
+    <maintainer status="unknown">
+      <email>client-dev@letsencrypt.org</email>
+      <name>Certbot Project</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>

@@ -7,6 +7,10 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">envs</remote-id>
+    <remote-id type="pypi">asn1crypto</remote-id>
+    <maintainer status="unknown">
+      <email>will@wbond.net</email>
+      <name>wbond</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>

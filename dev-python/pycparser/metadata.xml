@@ -7,6 +7,10 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">envs</remote-id>
+    <remote-id type="pypi">pycparser</remote-id>
+    <maintainer status="unknown">
+      <email>eliben@gmail.com</email>
+      <name>Eli Bendersky</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>
