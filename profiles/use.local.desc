@@ -23,4 +23,5 @@ app-misc/homeassistant:test - internal and devel use
 app-misc/homeassistant:tradfri - Control/observe IKEA Tradfri devices
 app-misc/homeassistant:wemo - discover and control WeMo devices
 app-misc/homeassistant:zoneminder - Support for ZoneMinder Cameras
+dev-embedded/esphome:server - create user and install init-script to run ESPHome Dashboard
 dev-python/sphinx:net - enable internet capabilities
