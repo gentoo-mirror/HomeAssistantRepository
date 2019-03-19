@@ -1,15 +1,15 @@
 BDEPEND=python_targets_python3_5? ( dev-lang/python:3.5 ) python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_5(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_5(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=dev-python/setuptools[python_targets_python3_5(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_5(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] test? ( dev-python/nose[python_targets_python3_5(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_5(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] dev-python/pytest[python_targets_python3_5(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_5(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )
-DESCRIPTION=The Home Assistant frontend
+DESCRIPTION=PyTado from chrism0dwk, modfied by w.malgadey
 EAPI=7
-HOMEPAGE=https://github.com/home-assistant/home-assistant-polymer https://pypi.org/project/home-assistant-frontend/
+HOMEPAGE=https://github.com/wmalgadey/PyTado https://pypi.org/project/python-tado/
 IUSE=test python_targets_python3_5 python_targets_python3_6 python_targets_python3_7
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
-LICENSE=Apache License 2.0
+LICENSE=GPL3
 RDEPEND=python_targets_python3_5? ( dev-lang/python:3.5 ) python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_5(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_5(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]
 REQUIRED_USE=|| ( python_targets_python3_5 python_targets_python3_6 python_targets_python3_7 )
 SLOT=0
-SRC_URI=mirror://pypi/h/home-assistant-frontend/home-assistant-frontend-20190305.1.tar.gz
+SRC_URI=mirror://pypi/p/python-tado/python-tado-0.2.3.tar.gz
 _eclasses_=distutils-r1	30044897f9a75ab6414bdb19aa3c07d4	multibuild	40fe59465edacd730c644ec2bc197809	multilib	b2f01ad412baf81650c23fcf0975fa33	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	ce1cd23cfdc1848e8e32743efe34f299	python-utils-r1	12114a2a9aab35b93efc037a196b3234	toolchain-funcs	b45201c4e6c096b98e250336954e64b9
-_md5_=3fad5116a0940b872ac64a688371967c
+_md5_=c78e4a47031e852fc3f8f0c1de145909
