@@ -1,17 +1,17 @@
-# Copyright 1999-2019 Gentoo Authors Andreas Billmeier b (at) edevau.net
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v3.0
 
-EAPI="7"
+EAPI=6
 
 PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="The Home Assistant frontend"
-HOMEPAGE="https://github.com/home-assistant/home-assistant-polymer https://pypi.org/project/home-assistant-frontend/"
+DESCRIPTION=""
+HOMEPAGE="https://esphome.io/ https://pypi.org/project/aioesphomeapi/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache License 2.0"
+LICENSE=""
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
