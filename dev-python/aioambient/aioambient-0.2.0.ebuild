@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Communicate with an Android TV or Fire TV device via ADB over a network."
-HOMEPAGE="https://github.com/JeffLIrion/python-androidtv/ https://pypi.org/project/androidtv/"
+DESCRIPTION="A clean, async-friendly library for the Ambient Weather API"
+HOMEPAGE="https://github.com/bachya/aioambient https://pypi.org/project/aioambient/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -16,7 +16,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-#RDEPEND="~dev-python/pure-python-adb-0.1.6[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiodns[${PYTHON_USEDEP}]
+		 dev-python/aiohttp[${PYTHON_USEDEP}]
+		 dev-python/python-socketio[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
