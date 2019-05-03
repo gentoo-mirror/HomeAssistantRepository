@@ -7,10 +7,10 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">youtube_dl</remote-id>
+    <remote-id type="pypi">pyvesync-v2</remote-id>
     <maintainer status="unknown">
-      <email>dstftw@gmail.com</email>
-      <name>Sergey M.</name>
+      <email>webdjoe@gmail.com</email>
+      <name>Joseph Trabulsy</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

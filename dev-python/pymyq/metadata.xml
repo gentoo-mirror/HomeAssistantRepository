@@ -7,10 +7,6 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">youtube_dl</remote-id>
-    <maintainer status="unknown">
-      <email>dstftw@gmail.com</email>
-      <name>Sergey M.</name>
-    </maintainer>
+    <remote-id type="pypi">pymyq</remote-id>
   </upstream>
 </pkgmetadata>

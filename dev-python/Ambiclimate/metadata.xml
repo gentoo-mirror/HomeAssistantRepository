@@ -7,10 +7,10 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">youtube_dl</remote-id>
+    <remote-id type="pypi">Ambiclimate</remote-id>
     <maintainer status="unknown">
-      <email>dstftw@gmail.com</email>
-      <name>Sergey M.</name>
+      <email>mail@dahoiv.net</email>
+      <name>Daniel Hoyer Iversen</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

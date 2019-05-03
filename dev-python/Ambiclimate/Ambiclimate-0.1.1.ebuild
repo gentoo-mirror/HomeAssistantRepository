@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="An async python library for controlling HEOS devices through the HEOS CLI Protocol"
-HOMEPAGE="https://github.com/andrewsayre/pyheos https://pypi.org/project/pyheos/"
+DESCRIPTION="A python3 library to communicate with Ambiclimate"
+HOMEPAGE="https://github.com/Danielhiversen/pyAmbiclimate https://pypi.org/project/Ambiclimate/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
