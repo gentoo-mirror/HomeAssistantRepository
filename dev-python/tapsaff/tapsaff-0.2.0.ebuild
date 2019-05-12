@@ -7,16 +7,16 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="The Home Assistant frontend"
-HOMEPAGE="https://github.com/home-assistant/home-assistant-polymer https://pypi.org/project/home-assistant-frontend/"
+DESCRIPTION="Provides an API for requesting information from taps-aff.co.uk"
+HOMEPAGE="https://github.com/bazwilliams/python-taps-aff https://pypi.org/project/tapsaff/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache License 2.0"
+LICENSE=""
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="~dev-python/user-agents-1.1.0[${PYTHON_USEDEP}]"
+RDEPEND=""
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

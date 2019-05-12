@@ -1,14 +1,14 @@
-# Copyright 1999-2019 Gentoo Authors
-# Distributed under the terms of the GNU General Public License v2
+# Copyright 1999-2019 Gentoo Authors Andreas Billmeier b (at) edevau.net
+# Distributed under the terms of the GNU General Public License v3.0
 
-EAPI=6
+EAPI="7"
 
-PYTHON_COMPAT=( python2_7 python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://esphomelib.com/esphomeyaml/ https://pypi.org/project/aioesphomeapi/"
+DESCRIPTION="A aiohttp-based client for Genius Hub systems"
+HOMEPAGE="https://github.com/zxdavb/geniushub-client https://pypi.org/project/geniushub-client/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE=""
