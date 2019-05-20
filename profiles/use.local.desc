@@ -12,6 +12,7 @@ app-misc/homeassistant:frontend - Install Home Assistant frontend
 app-misc/homeassistant:homematic - An API for the homematicip cloud
 app-misc/homeassistant:hs100 - Interface for TPLink Stuff
 app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
+app-misc/homeassistant:mikrotik - add support for MikroTik RouterOS API
 app-misc/homeassistant:mqtt - install MQTT Broker and dependencies
 app-misc/homeassistant:musiccast - add support for Yamaha MusicCast devices
 app-misc/homeassistant:mysql - install MySQL Libraries for use with HomeAssistant
