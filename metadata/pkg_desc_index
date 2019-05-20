@@ -1,5 +1,5 @@
 app-misc/home-assistant-frontend 20190424.0 20190427.0 20190502.0 20190510.0 20190514.0: The Home Assistant frontend
-app-misc/homeassistant 0.91.4 0.92.0 0.92.1 0.92.2 0.93.0: Open-source home automation platform running on Python 3.6
+app-misc/homeassistant 0.91.4 0.92.0 0.92.1 0.92.2 0.93.0 0.93.1: Open-source home automation platform running on Python 3.6
 dev-embedded/esphome 1.12.0 1.12.0-r1: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-libs/protobuf 3.7.0: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-python/defusedxml 0.6.0: XML bomb protection for Python stdlib modules, an xml serialiser
