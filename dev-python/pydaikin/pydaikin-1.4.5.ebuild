@@ -7,16 +7,16 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Provides a python interface to interact with a device running OpenWebIf"
-HOMEPAGE="https://github.com/fbradyirl/openwebifpy https://pypi.org/project/openwebifpy/"
+DESCRIPTION="Python Daikin HVAC appliances interface"
+HOMEPAGE="https://bitbucket.org/mustang51/pydaikin https://pypi.org/project/pydaikin/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="GPL"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="=dev-python/requests-2.21.0-r1"
+RDEPEND=""
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
