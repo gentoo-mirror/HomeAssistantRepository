@@ -1,17 +1,17 @@
-# Copyright 1999-2019 Gentoo Authors
-# Distributed under the terms of the GNU General Public License v2
+# Copyright 1999-2019 Gentoo Authors Andreas Billmeier b (at) edevau.net
+# Distributed under the terms of the GNU General Public License v3.0
 
-EAPI=6
+EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7} )
+PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Homematic interface"
-HOMEPAGE="https://github.com/danielperna84/pyhomematic https://pypi.org/project/pyhomematic/"
+DESCRIPTION="Python API for talking to Vera Z-Wave controllers"
+HOMEPAGE="https://github.com/pavoni/pyvera https://pypi.org/project/pyvera/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT License"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
