@@ -1,18 +1,17 @@
-# Copyright 1999-2015 Gentoo Foundation
-# Distributed under the terms of the GNU General Public License v2
-# $Id$
+# Copyright 1999-2019 Gentoo Authors Andreas Billmeier b (at) edevau.net
+# Distributed under the terms of the GNU General Public License v3.0
 
-EAPI=6
+EAPI="7"
 
 PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="A clean, async-friendly library for the Ambient Weather API"
-HOMEPAGE="https://github.com/bachya/aioambient https://pypi.org/project/aioambient/"
+DESCRIPTION="Asynchronous Python client for the AdGuard Home API."
+HOMEPAGE="https://github.com/frenck/python-adguardhome https://pypi.org/project/adguardhome/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="MIT license"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
