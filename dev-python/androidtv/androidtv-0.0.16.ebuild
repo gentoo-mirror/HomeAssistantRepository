@@ -7,16 +7,18 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="A aiohttp-based client for Genius Hub systems"
-HOMEPAGE="https://github.com/zxdavb/geniushub-client https://pypi.org/project/geniushub-client/"
+DESCRIPTION="Communicate with an Android TV or Fire TV device via ADB over a network."
+HOMEPAGE="https://github.com/JeffLIrion/python-androidtv/ https://pypi.org/project/androidtv/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE=""
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND="dev-python/rsa[${PYTHON_USEDEP}]
+		 dev-python/pure-python-adb-homeassistant[${PYTHON_USEDEP}]
+		 dev-python/adb-homeassistant[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

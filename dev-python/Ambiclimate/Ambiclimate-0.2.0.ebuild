@@ -7,11 +7,11 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="A aiohttp-based client for Genius Hub systems"
-HOMEPAGE="https://github.com/zxdavb/geniushub-client https://pypi.org/project/geniushub-client/"
+DESCRIPTION="A python3 library to communicate with Ambiclimate"
+HOMEPAGE="https://github.com/Danielhiversen/pyAmbiclimate https://pypi.org/project/Ambiclimate/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE=""
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
