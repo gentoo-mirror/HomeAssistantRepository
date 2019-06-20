@@ -27,6 +27,7 @@ app-misc/homeassistant:tradfri - Control/observe IKEA Tradfri devices
 app-misc/homeassistant:vera - add support for Vera Z-Wave Controller
 app-misc/homeassistant:wemo - discover and control WeMo devices
 app-misc/homeassistant:wink - support for Wink Z-Wave Plus Smart Hub
+app-misc/homeassistant:z-wave - Support for Z-Wave Devices (uncomplete)
 app-misc/homeassistant:zoneminder - Support for ZoneMinder Cameras
 dev-embedded/esphome:server - create user and install init-script to run ESPHome Dashboard
 dev-python/sphinx:net - enable internet capabilities
