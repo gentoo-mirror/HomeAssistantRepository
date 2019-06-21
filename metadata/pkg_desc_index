@@ -11,6 +11,7 @@ dev-python/paho-mqtt 1.4.0: A client class with support for both MQTT v3.1 and v
 dev-python/protobuf-python 3.7.0: Google's Protocol Buffers - Python bindings
 dev-python/pylast 3.0.0: Python interface to last.fm and other api-compatible websites
 dev-python/pyrfc3339 1.1: Generates and parses RFC 3339 timestamps
+dev-python/python-miio 0.4.5: Python library for interfacing with Xiaomi smart appliances
 dev-python/pytz 2018.7 2018.9 2019.1: World timezone definitions for Python
 dev-python/requests 2.21.0-r1 2.22.0: HTTP library for human beings
 dev-python/requests-toolbelt 0.9.1: A utility belt for advanced users of python-requests
