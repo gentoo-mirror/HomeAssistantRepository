@@ -7,10 +7,6 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">zigpy-homeassistant</remote-id>
-    <maintainer status="unknown">
-      <email>rcloran@gmail.com</email>
-      <name>Russell Cloran</name>
-    </maintainer>
+    <remote-id type="pypi">pyserial-asyncio</remote-id>
   </upstream>
 </pkgmetadata>

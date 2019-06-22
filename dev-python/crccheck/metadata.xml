@@ -7,10 +7,11 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">zigpy-homeassistant</remote-id>
+    <remote-id type="pypi">crccheck</remote-id>
+    <docs>https://pythonhosted.org/crccheck/</docs>
     <maintainer status="unknown">
-      <email>rcloran@gmail.com</email>
-      <name>Russell Cloran</name>
+      <email>martin@scharrer-online.de</email>
+      <name>Martin Scharrer</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

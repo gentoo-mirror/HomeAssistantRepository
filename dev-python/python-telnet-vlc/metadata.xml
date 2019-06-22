@@ -7,10 +7,10 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">zigpy-homeassistant</remote-id>
+    <remote-id type="pypi">python-telnet-vlc</remote-id>
     <maintainer status="unknown">
-      <email>rcloran@gmail.com</email>
-      <name>Russell Cloran</name>
+      <email>rodripf@gmail.com</email>
+      <name>stephenmac7, rodripf</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

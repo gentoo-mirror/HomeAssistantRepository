@@ -7,10 +7,10 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">zigpy-homeassistant</remote-id>
+    <remote-id type="pypi">python-twitch-client</remote-id>
     <maintainer status="unknown">
-      <email>rcloran@gmail.com</email>
-      <name>Russell Cloran</name>
+      <email>tomazz.sifrer@gmail.com</email>
+      <name>Tomaz Sifrer</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

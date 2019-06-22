@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Library implementing a ZigBee stack"
-HOMEPAGE="http://github.com/zigpy/zigpy https://pypi.org/project/zigpy-homeassistant/"
+DESCRIPTION="A library which communicates with Deconz radios for zigpy"
+HOMEPAGE="https://github.com/zigpy/zigpy-deconz https://pypi.org/project/zigpy-deconz/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-3.0"
@@ -16,8 +16,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/pycryptodome[${PYTHON_USEDEP}]
-		 dev-python/crccheck[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
+		 dev-python/zigpy-homeassistant[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

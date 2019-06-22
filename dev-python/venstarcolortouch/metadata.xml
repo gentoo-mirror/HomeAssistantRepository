@@ -7,10 +7,10 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">zigpy-homeassistant</remote-id>
+    <remote-id type="pypi">venstarcolortouch</remote-id>
     <maintainer status="unknown">
-      <email>rcloran@gmail.com</email>
-      <name>Russell Cloran</name>
+      <email>hpeyerl+venstar@beer.org</email>
+      <name>Herb Peyerl</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
