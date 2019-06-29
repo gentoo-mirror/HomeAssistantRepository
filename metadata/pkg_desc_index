@@ -13,6 +13,7 @@ dev-python/pylast 3.0.0: Python interface to last.fm and other api-compatible we
 dev-python/pyrfc3339 1.1: Generates and parses RFC 3339 timestamps
 dev-python/python-miio 0.4.5: Python library for interfacing with Xiaomi smart appliances
 dev-python/pytz 2018.7 2018.9 2019.1: World timezone definitions for Python
+dev-python/pyyaml 5.1.1: YAML parser and emitter for Python
 dev-python/requests 2.21.0-r1 2.22.0: HTTP library for human beings
 dev-python/requests-toolbelt 0.9.1: A utility belt for advanced users of python-requests
 dev-python/rxv 0.5.1 0.6.0: Automation Library for Yamaha RX-V473, RX-V573, RX-V673, RX-V773 receivers
