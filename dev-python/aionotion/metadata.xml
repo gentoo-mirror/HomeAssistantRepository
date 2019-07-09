@@ -7,10 +7,10 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">mypy</remote-id>
+    <remote-id type="pypi">aionotion</remote-id>
     <maintainer status="unknown">
-      <email>jukka.lehtosalo@iki.fi</email>
-      <name>Jukka Lehtosalo</name>
+      <email>bachya1208@gmail.com</email>
+      <name>Aaron Bach</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
