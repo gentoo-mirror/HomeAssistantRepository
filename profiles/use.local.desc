@@ -22,6 +22,7 @@ app-misc/homeassistant:mysql - install MySQL Libraries for use with HomeAssistan
 app-misc/homeassistant:qnap - Python API for obtaining QNAP NAS system stats
 app-misc/homeassistant:rxv - Library for Yamaha RX-* Receivers
 app-misc/homeassistant:samsungtv - Support for Samasung TV Sets
+app-misc/homeassistant:sma - add Support for SMA Solar WebConnect
 app-misc/homeassistant:sonos - Sonos Media Player Support
 app-misc/homeassistant:speedtest - spedtest.net support
 app-misc/homeassistant:ssl - include support for haproxy
