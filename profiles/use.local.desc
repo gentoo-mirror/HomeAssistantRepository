@@ -11,6 +11,7 @@ app-misc/homeassistant:enigma - Support for Enigma2 boxes
 app-misc/homeassistant:esphome - Support for esphome sensors, covers and switches
 app-misc/homeassistant:fronius - add Support for Fronius Symo JSON Api
 app-misc/homeassistant:frontend - Install Home Assistant frontend
+app-misc/homeassistant:growl - add Support for Growl Notification Transport Protocol
 app-misc/homeassistant:homematic - An API for the homematicip cloud
 app-misc/homeassistant:hs100 - Interface for TPLink Stuff
 app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
