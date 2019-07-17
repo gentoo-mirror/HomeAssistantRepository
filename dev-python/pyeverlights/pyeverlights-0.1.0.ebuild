@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python API for interacting with luftdaten.info."
-HOMEPAGE="https://github.com/fabaff/python-luftdaten https://pypi.org/project/luftdaten/"
+DESCRIPTION="A library for controlling an EverLights lighting system."
+HOMEPAGE="https://github.com/joncar/pyeverlights https://pypi.org/project/pyeverlights/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -16,8 +16,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-		 dev-python/async_timeout[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
