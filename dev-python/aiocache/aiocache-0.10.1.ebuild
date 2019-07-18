@@ -7,16 +7,16 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="A simple Python API for the WWLLN"
-HOMEPAGE="https://github.com/bachya/aiowwlln https://pypi.org/project/aiowwlln/"
+DESCRIPTION="multi backend asyncio cache"
+HOMEPAGE="https://github.com/argaen/aiocache https://pypi.org/project/aiocache/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE=""
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/aiocache[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/ujson[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
