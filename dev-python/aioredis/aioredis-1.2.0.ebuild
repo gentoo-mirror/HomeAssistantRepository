@@ -7,19 +7,16 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="multi backend asyncio cache"
-HOMEPAGE="https://github.com/argaen/aiocache https://pypi.org/project/aiocache/"
+DESCRIPTION="asyncio (PEP 3156) Redis support"
+HOMEPAGE="https://github.com/aio-libs/aioredis https://pypi.org/project/aioredis/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE=""
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/ujson[${PYTHON_USEDEP}]
-		 >=dev-python/aioredis-0.3.3[${PYTHON_USEDEP}]
-		 >=dev-python/aiomcache-0.5.2[${PYTHON_USEDEP}]
-		 >=dev-python/msgpack-0.5.5[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/hiredis"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
