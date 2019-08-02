@@ -5,6 +5,8 @@
 app-misc/homeassistant:androidtv - Library for controlling an Android TV, formerly firetv
 app-misc/homeassistant:asuswrt - Api wrapper for Asuswrt
 app-misc/homeassistant:atv - Library for controlling an Apple TV
+app-misc/homeassistant:buienradar - use buienradar weather data
+app-misc/homeassistant:ciscomobilityexpress - install ciscomobilityexpress support
 app-misc/homeassistant:cli - install Home Assistant Cli hass-cli (lots of modules required)
 app-misc/homeassistant:daikin - Daikin wireless controllers
 app-misc/homeassistant:darksky - use dark sky weather data
@@ -33,6 +35,7 @@ app-misc/homeassistant:speedtest - spedtest.net support
 app-misc/homeassistant:ssl - include support for haproxy
 app-misc/homeassistant:test - internal and developer use
 app-misc/homeassistant:tradfri - Control/observe IKEA Tradfri devices
+app-misc/homeassistant:unify - talk with a Ubiquiti Unify Controller
 app-misc/homeassistant:vera - add support for Vera Z-Wave Controller
 app-misc/homeassistant:wemo - discover and control WeMo devices
 app-misc/homeassistant:wink - support for Wink Z-Wave Plus Smart Hub
