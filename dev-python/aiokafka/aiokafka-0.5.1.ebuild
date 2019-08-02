@@ -7,11 +7,11 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Library implementing Zigpy quirks for ZHA in Home Assistant"
-HOMEPAGE="https://github.com/dmulcahey/zha-device-handlers https://pypi.org/project/zha-quirks/"
+DESCRIPTION="Kafka integration with asyncio."
+HOMEPAGE="http://aiokafka.readthedocs.org https://pypi.org/project/aiokafka/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache License Version 2.0"
+LICENSE="Apache 2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
