@@ -2,9 +2,11 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-misc/homeassistant:abode - Library for the Abode alarm API
 app-misc/homeassistant:androidtv - Library for controlling an Android TV, formerly firetv
 app-misc/homeassistant:asuswrt - Api wrapper for Asuswrt
 app-misc/homeassistant:atv - Library for controlling an Apple TV
+app-misc/homeassistant:avea - Library for Elgato Avea bulbs
 app-misc/homeassistant:buienradar - use buienradar weather data
 app-misc/homeassistant:ciscomobilityexpress - install ciscomobilityexpress support
 app-misc/homeassistant:cli - install Home Assistant Cli hass-cli (lots of modules required)
@@ -13,6 +15,7 @@ app-misc/homeassistant:darksky - use dark sky weather data
 app-misc/homeassistant:denonavr - Automation Library for Denon AVR receivers
 app-misc/homeassistant:enigma - Support for Enigma2 boxes with openwebif support
 app-misc/homeassistant:esphome - Support for esphome sensors, covers and switches and it's dashboard
+app-misc/homeassistant:everlights - Library for controlling an EverLights lighting system
 app-misc/homeassistant:fronius - add (very basic) Support for Fronius Symo JSON Api
 app-misc/homeassistant:frontend - keep Home Assistant frontend out of virtualenv
 app-misc/homeassistant:growl - add Growl Notification Transport Protocol
@@ -40,6 +43,7 @@ app-misc/homeassistant:vera - add support for Vera Z-Wave Controller
 app-misc/homeassistant:wemo - discover and control WeMo devices
 app-misc/homeassistant:wink - support for Wink Z-Wave Plus Smart Hub
 app-misc/homeassistant:wwlln - install support for World Wide Lightning Location Network
+app-misc/homeassistant:xknx - Asynchronous Library for the KNX protocol
 app-misc/homeassistant:z-wave - Support for Z-Wave Devices (uncomplete)
 app-misc/homeassistant:zigbee - Support for ZHA/deconz based Zigbee/ZNet Devices
 app-misc/homeassistant:zoneminder - Support for ZoneMinder Cameras
