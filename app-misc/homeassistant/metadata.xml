@@ -7,8 +7,10 @@
   </maintainer>
   <use>
     <flag name="androidtv">Library for controlling an Android TV, formerly firetv</flag>
+    <flag name="abode">Library for the Abode alarm API</flag>
     <flag name="asuswrt">Api wrapper for Asuswrt</flag>
     <flag name="atv">Library for controlling an Apple TV</flag>
+    <flag name="avea">Library for Elgato Avea bulbs</flag>
     <flag name="buienradar">use buienradar weather data</flag>
     <flag name="cli">install Home Assistant Cli hass-cli (lots of modules required)</flag>
     <flag name="ciscomobilityexpress">install ciscomobilityexpress support</flag>
@@ -17,6 +19,7 @@
     <flag name="denonavr">Automation Library for Denon AVR receivers</flag>
     <flag name="enigma">Support for Enigma2 boxes with openwebif support</flag>
     <flag name="esphome">Support for esphome sensors, covers and switches and it's dashboard</flag>
+    <flag name="everlights">Library for controlling an EverLights lighting system</flag>
     <flag name="fronius">add (very basic) Support for Fronius Symo JSON Api</flag>
     <flag name="frontend">keep Home Assistant frontend out of virtualenv</flag>
     <flag name="growl">add Growl Notification Transport Protocol</flag>
@@ -44,6 +47,7 @@
     <flag name="wemo">discover and control WeMo devices</flag>
     <flag name="wink">support for Wink Z-Wave Plus Smart Hub</flag>
     <flag name="wwlln">install support for World Wide Lightning Location Network</flag>
+    <flag name="xknx">Asynchronous Library for the KNX protocol</flag>
     <flag name="zigbee">Support for ZHA/deconz based Zigbee/ZNet Devices</flag>
     <flag name="zoneminder">Support for ZoneMinder Cameras</flag>
     <flag name="z-wave">Support for Z-Wave Devices (uncomplete)</flag>
