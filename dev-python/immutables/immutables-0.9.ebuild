@@ -7,11 +7,11 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="An asynchronous Python library for communicating with Unifi Controller API"
-HOMEPAGE="https://github.com/Kane610/aiounifi https://pypi.org/project/aiounifi/"
+DESCRIPTION="Immutable Collections"
+HOMEPAGE="https://github.com/MagicStack/immutables https://pypi.org/project/immutables/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache License, Version 2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
