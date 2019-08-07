@@ -2,51 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-misc/homeassistant:abode - Library for the Abode alarm API
-app-misc/homeassistant:androidtv - Library for controlling an Android TV, formerly firetv
-app-misc/homeassistant:asuswrt - Api wrapper for Asuswrt
-app-misc/homeassistant:atv - Library for controlling an Apple TV
-app-misc/homeassistant:avea - Library for Elgato Avea bulbs
-app-misc/homeassistant:buienradar - use buienradar weather data
-app-misc/homeassistant:ciscomobilityexpress - install ciscomobilityexpress support
-app-misc/homeassistant:cli - install Home Assistant Cli hass-cli (lots of modules required)
-app-misc/homeassistant:daikin - Daikin wireless controllers
-app-misc/homeassistant:darksky - use dark sky weather data
-app-misc/homeassistant:denonavr - Automation Library for Denon AVR receivers
-app-misc/homeassistant:enigma - Support for Enigma2 boxes with openwebif support
-app-misc/homeassistant:esphome - Support for esphome sensors, covers and switches and it's dashboard
-app-misc/homeassistant:everlights - Library for controlling an EverLights lighting system
-app-misc/homeassistant:fronius - add (very basic) Support for Fronius Symo JSON Api
-app-misc/homeassistant:frontend - keep Home Assistant frontend out of virtualenv
-app-misc/homeassistant:growl - add Growl Notification Transport Protocol
-app-misc/homeassistant:homematic - An API for the homematicip cloud
-app-misc/homeassistant:hpilo - HP Integrated Lights out XML interface
-app-misc/homeassistant:hs100 - Interface for TPLink Stuff
-app-misc/homeassistant:hue - talk to Philips Hue
-app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
-app-misc/homeassistant:miio - add support for Xiaomi smart appliances
-app-misc/homeassistant:mikrotik - add support for MikroTik RouterOS API
-app-misc/homeassistant:mqtt - install MQTT Broker and dependencies
-app-misc/homeassistant:musiccast - add support for Yamaha MusicCast devices
-app-misc/homeassistant:mysql - install MySQL Libraries for use with HomeAssistant
-app-misc/homeassistant:qnap - Python API for obtaining QNAP NAS system stats
-app-misc/homeassistant:rxv - Library for Yamaha RX-* Receivers
-app-misc/homeassistant:samsungtv - Support for Samasung TV Sets
-app-misc/homeassistant:sma - add Support for SMA Solar WebConnect
-app-misc/homeassistant:sonos - Sonos Media Player Support
-app-misc/homeassistant:speedtest - spedtest.net support
-app-misc/homeassistant:ssl - include support for haproxy
-app-misc/homeassistant:test - internal and developer use
-app-misc/homeassistant:tradfri - Control/observe IKEA Tradfri devices
-app-misc/homeassistant:unify - talk with a Ubiquiti Unify Controller
-app-misc/homeassistant:vera - add support for Vera Z-Wave Controller
-app-misc/homeassistant:wemo - discover and control WeMo devices
-app-misc/homeassistant:wink - support for Wink Z-Wave Plus Smart Hub
-app-misc/homeassistant:wwlln - install support for World Wide Lightning Location Network
-app-misc/homeassistant:xknx - Asynchronous Library for the KNX protocol
-app-misc/homeassistant:z-wave - Support for Z-Wave Devices (uncomplete)
-app-misc/homeassistant:zigbee - Support for ZHA/deconz based Zigbee/ZNet Devices
-app-misc/homeassistant:zoneminder - Support for ZoneMinder Cameras
 dev-embedded/esphome:server - create user and install init-script to run ESPHome Dashboard
 dev-python/pyyaml:libyaml - enable support for C implementation using libyaml
 dev-python/sphinx:net - enable internet capabilities
