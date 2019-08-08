@@ -17,8 +17,8 @@ RESTRICT="mirror"
 
 LICENSE=""
 SLOT="0"
-KEYWORDS="~amd64"
-IUSE="abode androidtv asuswrt atv avea buienradar cli ciscomobilityexpress daikin darksky denonavr enigma esphome everlights fronius +frontend growl homematic hpilo hs100 hue maxcube miio mikrotik mqtt musiccast +mysql qnap roku rxv samsungtv sma socat sonos speedtest ssl test tradfri unify vera wemo wink wwlln xknx z-wave zigbee zoneminder"
+KEYWORDS="amd64"
+IUSE="abode androidtv asuswrt atv aurora avea buienradar cli ciscomobilityexpress daikin darksky denonavr enigma esphome everlights envoy fronius +frontend growl homekit homematic homematicip hpilo hs100 hue maxcube miio mikrotik mqtt musiccast +mysql qnap roku rxv samsungtv sma socat sonos shodan speedtest ssl test tradfri ubee unify vera wemo wink wwlln xknx z-wave zigbee zoneminder"
 
 RDEPEND="${PYTHON_DEPS}
 	!app-misc/homeassistant-bin
@@ -34,7 +34,9 @@ RDEPEND="${PYTHON_DEPS}
 	~dev-python/attrs-19.1.0[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-3.1.7[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2019.6.16[${PYTHON_USEDEP}]
+	~dev-python/contextvars-2.4[${PYTHON_USEDEP}]
 	~dev-python/cryptography-2.7[${PYTHON_USEDEP}]
+	>=dev-python/immutables-0.9[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-0.18[${PYTHON_USEDEP}]
 	>=dev-python/jinja-2.10[${PYTHON_USEDEP}]
 	~dev-python/passlib-1.7.1-r1[${PYTHON_USEDEP}]
@@ -123,6 +125,7 @@ RDEPEND="${PYTHON_DEPS}
 	androidtv? ( ~dev-python/androidtv-0.0.18[${PYTHON_USEDEP}] )
 	asuswrt? ( ~dev-python/aioasuswrt-1.1.21[${PYTHON_USEDEP}] )
 	atv? ( >=dev-python/pyatv-0.3.12[${PYTHON_USEDEP}] )
+	aurora? ( ~dev-python/aurorapy-0.2.6[${PYTHON_USEDEP}] )
 	avea? ( =dev-python/avea-1.2.8[${PYTHON_USEDEP}] )
 	buienradar? ( ~dev-python/buienradar-1.0.1[${PYTHON_USEDEP}] )
 	cli? ( app-misc/home-assistant-cli[${PYTHON_USEDEP}] )
@@ -134,11 +137,14 @@ RDEPEND="${PYTHON_DEPS}
 	esphome? ( dev-embedded/esphome
 			   ~dev-python/aioesphomeapi-2.2.0[${PYTHON_USEDEP}] )
 	everlights? ( ~dev-python/pyeverlights-0.1.0[${PYTHON_USEDEP}] )
+	envoy? ( ~dev-python/envoy-reader-0.8.6[${PYTHON_USEDEP}] )
 	fronius? ( ~dev-python/PyFronius-0.4.6[${PYTHON_USEDEP}] )
-	frontend? ( =app-misc/home-assistant-frontend-20190804.0[${PYTHON_USEDEP}] )
+	frontend? ( =app-misc/home-assistant-frontend-20190805.0[${PYTHON_USEDEP}] )
 	growl? ( ~dev-python/gntp-1.0.3[${PYTHON_USEDEP}] )
 	hpilo? ( ~dev-python/python-hpilo-4.3[${PYTHON_USEDEP}] )
+	homekit? ( ~dev-python/homekit-python-0.15.0[${PYTHON_USEDEP}] )
 	homematic? ( ~dev-python/pyhomematic-0.1.60[${PYTHON_USEDEP}] )
+	homematicip? ( ~dev-python/homematicip-0.10.10[${PYTHON_USEDEP}] )
 	hs100? ( >=dev-python/pyHS100-0.3.5[${PYTHON_USEDEP}] )
 	hue? ( ~dev-python/aiohue-1.9.1[${PYTHON_USEDEP}] )
 	maxcube? ( ~dev-python/maxcube-api-0.1.0[${PYTHON_USEDEP}] )
@@ -158,13 +164,15 @@ RDEPEND="${PYTHON_DEPS}
 	sma? ( ~dev-python/pysma-0.3.2[${PYTHON_USEDEP}] )
 	socat? ( net-misc/socat )
 	sonos? ( >=dev-python/pysonos-0.0.22[${PYTHON_USEDEP}] )
+	shodan? ( ~dev-python/shodan-1.13.0[${PYTHON_USEDEP}] )
 	speedtest? ( ~net-analyzer/speedtest-cli-2.1.1[${PYTHON_USEDEP}] )
 	ssl? ( 	dev-libs/openssl:0
 			app-crypt/certbot
 			net-proxy/haproxy )
 	tradfri? ( >=dev-python/pytradfri-6.0.1[${PYTHON_USEDEP}]
 		 sys-devel/autoconf:2.69 )
-	unify? ( ~dev-python/aiounify-9[${PYTHON_USEDEP}] )
+	ubee? ( ~dev-python/pyubee-0.7[${PYTHON_USEDEP}] )
+	unify? ( ~dev-python/aiounify-10[${PYTHON_USEDEP}] )
 	vera? ( ~dev-python/pyvera-0.3.2[${PYTHON_USEDEP}] )
 	wemo? ( >=dev-python/pywemo-0.4.34[${PYTHON_USEDEP}] )
 	wink? ( ~dev-python/pubnubsub-handler-1.0.8[${PYTHON_USEDEP}] )
