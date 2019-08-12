@@ -5,6 +5,7 @@
 app-misc/homeassistant:abode - Library for the Abode alarm API
 app-misc/homeassistant:androidtv - Library for controlling an Android TV, formerly firetv
 app-misc/homeassistant:asuswrt - Api wrapper for Asuswrt
+app-misc/homeassistant:atmo - Access to Netatmo weather station data
 app-misc/homeassistant:atv - Library for controlling an Apple TV
 app-misc/homeassistant:aurora - Support for Power-One Aurora inverters
 app-misc/homeassistant:avea - Library for Elgato Avea bulbs
