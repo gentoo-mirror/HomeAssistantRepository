@@ -1,22 +1,24 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2019 Gentoo Authors Andreas Billmeier b (at) edevau.net
 # Distributed under the terms of the GNU General Public License v3.0
 
-EAPI=6
+EAPI="7"
 
 PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Library implementing a ZigBee stack"
-HOMEPAGE="https://github.com/zigpy/zigpy https://pypi.org/project/zigpy-homeassistant/"
+DESCRIPTION="Communicate with an Android TV or Fire TV device via ADB over a network."
+HOMEPAGE="https://github.com/JeffLIrion/python-androidtv/ https://pypi.org/project/androidtv/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND="dev-python/rsa[${PYTHON_USEDEP}]
+		 >=dev-python/pure-python-adb-homeassistant-0.1.7[${PYTHON_USEDEP}]
+		 >=dev-python/adb-homeassistant-1.3.2[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

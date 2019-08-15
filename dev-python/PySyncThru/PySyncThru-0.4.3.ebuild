@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="An asynchronous Python library for communicating with Unifi Controller API"
-HOMEPAGE="https://github.com/Kane610/aiounifi https://pypi.org/project/aiounifi/"
+DESCRIPTION="Automated JSON API based communication with Samsung SyncThru Web Service"
+HOMEPAGE="https://github.com/nielstron/pysyncthru/ https://pypi.org/project/PySyncThru/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
