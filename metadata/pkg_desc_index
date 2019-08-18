@@ -24,7 +24,7 @@ dev-python/PyQRCode 1.2.1: A QR code generator written purely in Python with SVG
 dev-python/PySwitchbot 0.6 0.6.1 0.6.2: A library to communicate with Switchbot
 dev-python/PySwitchmate 0.4.5 0.4.6: A library to communicate with Switchmate
 dev-python/PySyncThru 0.4.3 0.4.4: Automated JSON API based communication with Samsung SyncThru Web Service
-dev-python/PyXiaomiGateway 0.11.2 0.12.0 0.12.2 0.12.3: A library to communicate with the Xiaomi Gateway
+dev-python/PyXiaomiGateway 0.11.2 0.12.0 0.12.2 0.12.3 0.12.4: A library to communicate with the Xiaomi Gateway
 dev-python/RPi-GPIO 0.6.5: A module to control Raspberry Pi GPIO channels
 dev-python/RestrictedPython 3.6.0 4.0_beta7 4.0_beta8 4.0: RestrictedPython is a defined subset of the Python language which allows to provide a program input into a trusted environment.
 dev-python/WazeRouteCalculator 0.6 0.9 0.10: Calculate actual route time and distance with waze api.
