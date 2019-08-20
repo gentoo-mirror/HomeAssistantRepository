@@ -59,3 +59,4 @@ app-misc/homeassistant:zoneminder - Support for ZoneMinder Cameras
 dev-embedded/esphome:server - create user and install init-script to run ESPHome Dashboard
 dev-python/pyyaml:libyaml - enable support for C implementation using libyaml
 dev-python/sphinx:net - enable internet capabilities
+sci-libs/tensorflow:cuda - Enable support for nVidia CUDA
