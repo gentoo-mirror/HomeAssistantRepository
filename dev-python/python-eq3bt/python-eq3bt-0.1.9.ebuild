@@ -7,11 +7,11 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Home Assistant cloud integration by Nabu Casa, inc."
-HOMEPAGE="https://www.nabucasa.com/ https://pypi.org/project/hass-nabucasa/"
+DESCRIPTION="EQ3 bluetooth thermostat support library"
+HOMEPAGE="https://github.com/rytilahti/python-eq3bt.git https://pypi.org/project/python-eq3bt/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
