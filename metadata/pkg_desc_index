@@ -1,5 +1,5 @@
 app-misc/home-assistant-cli 0.7.0 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/home-assistant-frontend 20190731.0 20190801.0 20190804.0 20190805.0 20190811.0: The Home Assistant frontend
+app-misc/home-assistant-frontend 20190801.0 20190804.0 20190805.0 20190811.0 20190820.0: The Home Assistant frontend
 app-misc/homeassistant 0.96.3 0.96.4 0.96.5 0.97.0_beta3 0.97.0-r1 0.97.1 0.97.2: Open-source home automation platform running on Python 3.6
 dev-embedded/esphome 1.11.1-r1 1.11.2-r1 1.12.0_beta3 1.12.0_beta4 1.12.0 1.12.0-r1 1.13.2 1.13.6: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
@@ -132,7 +132,7 @@ dev-python/fortiosapi 1.0.1: Python modules to use Fortigate APIs
 dev-python/future 0.17.1: Easy, clean, reliable Python 2/3 compatibility
 dev-python/gTTS-token 1.1.3: Calculates a token to run the Google Translate text to speech
 dev-python/gatt 0.2.7: Bluetooth GATT SDK for Python
-dev-python/geniushub-client 0.4.11 0.4.12 0.4.15 0.5.0: A aiohttp-based client for Genius Hub systems
+dev-python/geniushub-client 0.4.12 0.4.15 0.5.0 0.5.8 0.6.5: A aiohttp-based client for Genius Hub systems
 dev-python/geopy 1.19.0 1.20.0: A Geocoding Toolbox for Python
 dev-python/getmac 0.8.1: Get MAC addresses of remote hosts and local interfaces
 dev-python/gntp 1.0.3: Growl Notification Transport Protocol for Python
@@ -243,6 +243,7 @@ dev-python/pyhomematic 0.1.56 0.1.57 0.1.58 0.1.59 0.1.60: Homematic interface
 dev-python/pyiqvia 0.2.1: A clean, async-focused Python3 API for IQVIA data
 dev-python/pyiss 1.0.1: A simple python3 library for info about the current International Space Station location
 dev-python/pyjwt 1.6.4 1.7.1: JSON Web Token implementation in Python
+dev-python/pylacrosse 0.3.1 0.4: LaCrosse sensor library
 dev-python/pylast 3.0.0: Python interface to last.fm and other api-compatible websites
 dev-python/pylgtv 0.1.9: Library to control webOS based LG Tv devices
 dev-python/pylinky 0.3.0 0.3.3: Get your consumption data from your Enedis account (www.enedis.fr)
@@ -266,6 +267,7 @@ dev-python/pypandoc 1.4: Thin wrapper for pandoc.
 dev-python/pypck 0.6.0 0.6.1 0.6.2 0.6.3: LCN-PCK library
 dev-python/pypoint 1.0.7 1.0.8 1.1.1: API for Minut Point
 dev-python/pypollencom 2.2.3: A simple API for Pollen.com data
+dev-python/pyrainbird 0.1.6 0.2.1: Rain Bird Controller
 dev-python/pyrepetier 3.0.5: Repetier Server API library
 dev-python/pyrfc3339 1.1: Generates and parses RFC 3339 timestamps
 dev-python/pyruter 1.2.4: 
