@@ -7,16 +7,16 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="An async python library for controlling HEOS devices through the HEOS CLI Protocol"
-HOMEPAGE="https://github.com/andrewsayre/pyheos https://pypi.org/project/pyheos/"
+DESCRIPTION="Library implementing Zigpy quirks for ZHA in Home Assistant"
+HOMEPAGE="https://github.com/dmulcahey/zha-device-handlers https://pypi.org/project/zha-quirks/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache License Version 2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND=">=dev-python/zigpy-homeassistant-0.6.1[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
