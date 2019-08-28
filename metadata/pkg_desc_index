@@ -1,6 +1,6 @@
 app-misc/home-assistant-cli 0.7.0 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/home-assistant-frontend 20190805.0 20190811.0 20190820.0 20190820.1 20190821.0 20190822.0: The Home Assistant frontend
-app-misc/homeassistant 0.96.3 0.96.4 0.96.5 0.97.0_beta3 0.97.0-r1 0.97.1 0.97.2 0.98.0_beta0 0.98.0_beta1: Open-source home automation platform running on Python 3.6
+app-misc/home-assistant-frontend 20190811.0 20190820.0 20190820.1 20190821.0 20190822.0 20190825.0: The Home Assistant frontend
+app-misc/homeassistant 0.96.3 0.96.4 0.96.5 0.97.0_beta3 0.97.0-r1 0.97.1 0.97.2 0.98.0_beta0 0.98.0_beta1 0.98.0_beta2: Open-source home automation platform running on Python 3.6
 dev-embedded/esphome 1.11.1-r1 1.11.2-r1 1.12.0_beta3 1.12.0_beta4 1.12.0 1.12.0-r1 1.13.2 1.13.6: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 3.6.1-r1 3.6.3 3.6.4 3.6.5 3.6.7 4.0.0: An open source ecosystem for IoT development
@@ -152,7 +152,7 @@ dev-python/holidays 0.9.10 0.9.11: Generate and work with holidays in Python
 dev-python/homeassistant-pyozw 0.1.3 0.1.4: python_openzwave is a python wrapper for the openzwave c++ library.
 dev-python/homekit-python 0.15.0: HomeKit Python
 dev-python/homematicip 0.10.5 0.10.6 0.10.7 0.10.9 0.10.10: An API for the homematicip cloud
-dev-python/huawei-lte-api 1.2.0: API For huawei LAN/WAN LTE Modems
+dev-python/huawei-lte-api 1.2.0 1.3.0: API For huawei LAN/WAN LTE Modems
 dev-python/idna-ssl 1.1.0: Patch ssl.match_hostname for Unicode(idna) domains support
 dev-python/ifaddr 0.1.4 0.1.5 0.1.6: Enumerates all IP addresses on all network adapters of the system.
 dev-python/ihcsdk 2.3.0: IHC Python SDK
@@ -198,7 +198,7 @@ dev-python/numpy 1.16.0 1.16.2 1.16.3 1.16.4 1.17.0: Fast array and numerical py
 dev-python/opensensemap-api 0.1.4 0.1.5: Python client for interacting with the openSenseMap API.
 dev-python/openwebifpy 1.2.7 3.1.0 3.1.1: Provides a python interface to interact with a device running OpenWebIf
 dev-python/openwrt-luci-rpc 1.0.5 1.1.0: Module for interacting with OpenWrt Luci RPC interface
-dev-python/packaging 19.0: Core utilities for Python packages
+dev-python/packaging 19.0 19.1: Core utilities for Python packages
 dev-python/paho-mqtt 1.4.0: A client class with support for both MQTT v3.1 and v3.1.1
 dev-python/pbr 5.1.3: Inject some useful and sensible default behaviors into setuptools
 dev-python/pip 19.0.2: Installs python packages -- replacement for easy_install
@@ -221,7 +221,7 @@ dev-python/pyTibber 0.10.1 0.10.3 0.11.5 0.11.6: A python3 library to communicat
 dev-python/pyarlo 0.2.3: Python Arlo is a library written in Python 2.7/3x that exposes the Netgear Arlo cameras as Python objects.
 dev-python/pyasn1 0.4.4 0.4.5: ASN.1 library for Python
 dev-python/pyatmo 2.0.1 2.1.0 2.1.1 2.1.2 2.2.1: Simple API to access Netatmo weather station data from any python script. Design for Home-Assitant (but not only)
-dev-python/pyatv 0.3.9 0.3.12: Library for controlling an Apple TV
+dev-python/pyatv 0.3.9 0.3.12 0.3.13: Library for controlling an Apple TV
 dev-python/pyblackbird 0.5: Python API for talking to Monoprice Blackbird 4k 8x8 HDBaseT Matrix
 dev-python/pybotvac 0.0.15: Python package for controlling Neato pybotvac Connected vacuum robot
 dev-python/pycarwings2 2.8: Python library for interacting with the Nissan Leaf Carwings telematics service
@@ -238,7 +238,7 @@ dev-python/pyeverlights 0.1.0: A library for controlling an EverLights lighting 
 dev-python/pyfgt 0.5.1: Represents the base components of the Fortinet FortiGate REST interface with abstractions
 dev-python/pyflunearyou 1.0.2: A clean, well-tested Python3 API for Flu Near You
 dev-python/pyhaversion 2.2.0 2.2.1 3.0.2: 
-dev-python/pyheos 0.3.1 0.4.0 0.4.1 0.5.1 0.5.2: An async python library for controlling HEOS devices through the HEOS CLI Protocol
+dev-python/pyheos 0.4.0 0.4.1 0.5.1 0.5.2 0.6.0: An async python library for controlling HEOS devices through the HEOS CLI Protocol
 dev-python/pyhomematic 0.1.56 0.1.57 0.1.58 0.1.59 0.1.60: Homematic interface
 dev-python/pyiqvia 0.2.1: A clean, async-focused Python3 API for IQVIA data
 dev-python/pyiss 1.0.1: A simple python3 library for info about the current International Space Station location
@@ -389,7 +389,7 @@ dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeeligh
 dev-python/youtube_dl 2019.6.27 2019.7.2 2019.7.12 2019.7.16 2019.8.13: YouTube video downloader
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs
 dev-python/zeroconf 0.21.3 0.22.0 0.23.0: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
-dev-python/zha-quirks 0.0.17 0.0.18 0.0.19 0.0.20: Library implementing Zigpy quirks for ZHA in Home Assistant
+dev-python/zha-quirks 0.0.18 0.0.19 0.0.20 0.0.21 0.0.22: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zigpy-deconz 0.1.2 0.1.3 0.1.4 0.1.6 0.2.1 0.2.2: A library which communicates with Deconz radios for zigpy
 dev-python/zigpy-homeassistant 0.4.2 0.5.0 0.6.1 0.7.0 0.7.1: Library implementing a ZigBee stack
 dev-python/zigpy-xbee-homeassistant 0.1.3 0.2.0 0.2.1 0.3.0 0.4.0: A library which communicates with XBee radios for zigpy

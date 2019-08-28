@@ -22,6 +22,7 @@ app-misc/homeassistant:everlights - Library for controlling an EverLights lighti
 app-misc/homeassistant:fronius - add (very basic) Support for Fronius Symo JSON Api
 app-misc/homeassistant:frontend - keep Home Assistant frontend out of virtualenv
 app-misc/homeassistant:growl - add Growl Notification Transport Protocol
+app-misc/homeassistant:heos - controlling HEOS devices through the HEOS CLI Protocol
 app-misc/homeassistant:homekit - works as both HomeKit controller and accessory
 app-misc/homeassistant:homematic - An API for the homematicip cloud
 app-misc/homeassistant:homematicip - A python wrapper for the homematicIP REST API (Access Point Based)
