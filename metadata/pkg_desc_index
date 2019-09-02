@@ -1,6 +1,6 @@
 app-misc/home-assistant-cli 0.7.0 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/home-assistant-frontend 20190811.0 20190820.0 20190820.1 20190821.0 20190822.0 20190825.0 20190828.0: The Home Assistant frontend
-app-misc/homeassistant 0.96.3 0.96.4 0.96.5 0.97.0-r1 0.97.1 0.97.2 0.98.0_beta1 0.98.0_beta2 0.98.0 0.98.1: Open-source home automation platform running on Python 3.6
+app-misc/homeassistant 0.96.3 0.96.4 0.96.5 0.97.0-r1 0.97.1 0.97.2 0.98.0_beta1 0.98.0_beta2 0.98.0 0.98.1 0.98.2: Open-source home automation platform running on Python 3.6
 dev-embedded/esphome 1.11.1-r1 1.11.2-r1 1.12.0_beta3 1.12.0_beta4 1.12.0 1.12.0-r1 1.13.2 1.13.6: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 3.6.1-r1 3.6.3 3.6.4 3.6.5 3.6.7 4.0.0: An open source ecosystem for IoT development
