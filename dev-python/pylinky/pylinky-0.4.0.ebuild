@@ -1,22 +1,22 @@
-# Copyright 1999-2019 Gentoo Authors Andreas Billmeier b (at) edevau.net
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v3.0
 
-EAPI="7"
+EAPI=6
 
 PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="The Home Assistant frontend"
-HOMEPAGE="https://github.com/home-assistant/home-assistant-polymer https://pypi.org/project/home-assistant-frontend/"
+DESCRIPTION="Get your consumption data from your Enedis account (www.enedis.fr)"
+HOMEPAGE="https://github.com/Pirionfr/pyLinky https://pypi.org/project/pylinky/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="Apache 2.0"
 SLOT="0"
-KEYWORDS="amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="~dev-python/user-agents-2.0[${PYTHON_USEDEP}]"
+RDEPEND=""
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
