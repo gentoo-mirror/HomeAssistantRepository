@@ -17,8 +17,8 @@ RESTRICT="mirror"
 
 LICENSE=""
 SLOT="0"
-KEYWORDS="~amd64"
-IUSE="abode androidtv asuswrt atmo atv aurora avea buienradar cli ciscomobilityexpress daikin darksky denonavr enigma esphome everlights envoy fronius +frontend growl homekit homematic homematicip hpilo hs100 hue maxcube miio mikrotik mqtt musiccast +mysql qnap roku rxv samsungtv sma socat sonos shodan speedtest ssl test tradfri ubee unify vera wemo wink wwlln xknx z-wave zigbee zoneminder"
+KEYWORDS="amd64"
+IUSE="abode androidtv asuswrt atmo atv aurora avea buienradar cli ciscomobilityexpress daikin darksky denonavr enigma esphome everlights envoy fronius +frontend growl harmony heos homekit homematic homematicip hpilo hs100 hue maxcube miio mikrotik mqtt musiccast +mysql qnap roku rxv samsungtv sma socat sonos shodan speedtest ssl test tradfri ubee unify vera wemo wink wwlln xknx z-wave zigbee zoneminder"
 
 RDEPEND="${PYTHON_DEPS}
 	!app-misc/homeassistant-bin
@@ -83,15 +83,15 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/multidict-4.5.2[${PYTHON_USEDEP}]
 	>=dev-python/netdisco-2.6.0[${PYTHON_USEDEP}]
 	>=dev-python/nose-1.3.7[${PYTHON_USEDEP}]
-	>=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.1[${PYTHON_USEDEP}]
 	>=dev-python/paho-mqtt-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/pbr-5.1.3[${PYTHON_USEDEP}]
 	~dev-python/pillow-6.1.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.6.3[${PYTHON_USEDEP}]
-	>=dev-python/PyChromecast-3.2.2[${PYTHON_USEDEP}]
+	>=dev-python/PyChromecast-4.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pycparser-2.19[${PYTHON_USEDEP}]
 	|| ( >=dev-python/pycryptodome-3.7.3[${PYTHON_USEDEP}] dev-python/pycrypto[${PYTHON_USEDEP}] )
-	~dev-python/pyhaversion-3.0.2[${PYTHON_USEDEP}]
+	~dev-python/pyhaversion-3.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-19.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyotp-2.2.7[${PYTHON_USEDEP}]
 	>=dev-python/pyqrcode-1.2.1[${PYTHON_USEDEP}]
@@ -104,7 +104,7 @@ RDEPEND="${PYTHON_DEPS}
 	=dev-python/RestrictedPython-4.0[${PYTHON_USEDEP}]
 	~dev-python/setuptools-40.8.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
-	~dev-python/sqlalchemy-1.3.7[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.3.8[${PYTHON_USEDEP}]
 	~dev-python/transitions-0.6.9[${PYTHON_USEDEP}]
 	>=dev-python/typing-3.6.4-r1[${PYTHON_USEDEP}]
 	~dev-python/tzlocal-1.5.1[${PYTHON_USEDEP}]
@@ -122,10 +122,10 @@ RDEPEND="${PYTHON_DEPS}
 	>=media-libs/mutagen-1.42.0
 
 	abode? ( ~dev-python/abodepy-0.15.0[${PYTHON_USEDEP}] )
-	androidtv? ( ~dev-python/androidtv-0.0.23[${PYTHON_USEDEP}] )
+	androidtv? ( ~dev-python/androidtv-0.0.27[${PYTHON_USEDEP}] )
 	asuswrt? ( ~dev-python/aioasuswrt-1.1.21[${PYTHON_USEDEP}] )
 	atmo? ( ~dev-python/pyatmo-2.2.1[${PYTHON_USEDEP}] )
-	atv? ( >=dev-python/pyatv-0.3.12[${PYTHON_USEDEP}] )
+	atv? ( >=dev-python/pyatv-0.3.13[${PYTHON_USEDEP}] )
 	aurora? ( ~dev-python/aurorapy-0.2.6[${PYTHON_USEDEP}] )
 	avea? ( =dev-python/avea-1.2.8[${PYTHON_USEDEP}] )
 	buienradar? ( ~dev-python/buienradar-1.0.1[${PYTHON_USEDEP}] )
@@ -133,15 +133,17 @@ RDEPEND="${PYTHON_DEPS}
 	ciscomobilityexpress? ( ~dev-python/ciscomobilityexpress-0.3.3[${PYTHON_USEDEP}] )
 	daikin? ( ~dev-python/pydaikin-1.6.1[${PYTHON_USEDEP}] )
 	darksky? ( ~dev-python/python-forecastio-1.4.0[${PYTHON_USEDEP}] )
-	denonavr? ( ~dev-python/denonavr-0.7.9[${PYTHON_USEDEP}] )
+	denonavr? ( ~dev-python/denonavr-0.7.10[${PYTHON_USEDEP}] )
 	enigma? ( ~dev-python/openwebifpy-3.1.1[${PYTHON_USEDEP}] )
 	esphome? ( dev-embedded/esphome
 			   ~dev-python/aioesphomeapi-2.2.0[${PYTHON_USEDEP}] )
 	everlights? ( ~dev-python/pyeverlights-0.1.0[${PYTHON_USEDEP}] )
 	envoy? ( ~dev-python/envoy-reader-0.8.6[${PYTHON_USEDEP}] )
 	fronius? ( ~dev-python/PyFronius-0.4.6[${PYTHON_USEDEP}] )
-	frontend? ( =app-misc/home-assistant-frontend-20190822.0[${PYTHON_USEDEP}] )
+	frontend? ( =app-misc/home-assistant-frontend-20190918.1[${PYTHON_USEDEP}] )
 	growl? ( ~dev-python/gntp-1.0.3[${PYTHON_USEDEP}] )
+	harmony? ( ~dev-python/aioharmony-0.1.13[${PYTHON_USEDEP}] )
+	heos? ( ~dev-python/pyheos-0.6.0[${PYTHON_USEDEP}] )
 	hpilo? ( ~dev-python/python-hpilo-4.3[${PYTHON_USEDEP}] )
 	homekit? ( ~dev-python/homekit-python-0.15.0[${PYTHON_USEDEP}] )
 	homematic? ( ~dev-python/pyhomematic-0.1.60[${PYTHON_USEDEP}] )
@@ -177,12 +179,12 @@ RDEPEND="${PYTHON_DEPS}
 	vera? ( ~dev-python/pyvera-0.3.4[${PYTHON_USEDEP}] )
 	wemo? ( >=dev-python/pywemo-0.4.34[${PYTHON_USEDEP}] )
 	wink? ( ~dev-python/pubnubsub-handler-1.0.8[${PYTHON_USEDEP}] )
-	wwlln? ( ~dev-python/aiowwlln-1.0.0[${PYTHON_USEDEP}] )
+	wwlln? ( ~dev-python/aiowwlln-2.0.1[${PYTHON_USEDEP}] )
 	xknx? ( ~dev-python/xknx-0.11.1[${PYTHON_USEDEP}] )
-	zigbee? ( ~dev-python/zigpy-deconz-0.2.2[${PYTHON_USEDEP}]
-			  ~dev-python/zigpy-homeassistant-0.7.1[${PYTHON_USEDEP}]
+	zigbee? ( ~dev-python/zigpy-deconz-0.3.0[${PYTHON_USEDEP}]
+			  ~dev-python/zigpy-homeassistant-0.8.0[${PYTHON_USEDEP}]
 			  ~dev-python/bellows-homeassistant-0.9.1[${PYTHON_USEDEP}]
-			  ~dev-python/zha-quirks-0.0.21[${PYTHON_USEDEP}] )
+			  ~dev-python/zha-quirks-0.0.23[${PYTHON_USEDEP}] )
 	zoneminder? ( ~dev-python/zm-py-0.3.3[${PYTHON_USEDEP}] )
 	z-wave? ( ~dev-python/pynacl-1.3.0[${PYTHON_USEDEP}]
 			  ~dev-python/homeassistant-pyozw-0.1.4[${PYTHON_USEDEP}]
