@@ -1,9 +1,9 @@
 app-misc/home-assistant-cli 0.7.0 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/home-assistant-frontend 20190828.1 20190904.0 20190908.0 20190918.1 20190919.0 20190919.1: The Home Assistant frontend
-app-misc/homeassistant 0.96.5 0.97.0-r1 0.97.1 0.97.2 0.98.0_beta2 0.98.1 0.98.2 0.98.3 0.98.4 0.98.5 0.99.0 0.99.1 0.99.2 0.99.3: Open-source home automation platform running on Python 3.6
-dev-embedded/esphome 1.11.1-r1 1.11.2-r1 1.12.0_beta3 1.12.0_beta4 1.12.0 1.12.0-r1 1.13.2 1.13.6: Make creating custom firmwares for ESP32/ESP8266 super easy.
+app-misc/homeassistant 0.96.5 0.97.0-r1 0.97.1 0.97.2 0.98.0_beta2 0.98.1 0.98.2 0.98.3 0.98.4 0.98.5 0.99.0 0.99.1 0.99.2 0.99.2-r1 0.99.3 0.99.3-r1: Open-source home automation platform running on Python 3.6
+dev-embedded/esphome 1.11.1-r1 1.11.2-r1 1.12.0_beta3 1.12.0_beta4 1.12.0 1.12.0-r1 1.13.2 1.13.6 1.13.6-r1 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
-dev-embedded/platformio 3.6.1-r1 3.6.3 3.6.4 3.6.5 3.6.7 4.0.0: An open source ecosystem for IoT development
+dev-embedded/platformio 3.6.1-r1 3.6.3 3.6.4 3.6.5 3.6.7 4.0.0 4.0.3: An open source ecosystem for IoT development
 dev-libs/protobuf 3.7.0: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-python/Adafruit-Blinka 1.2.1 1.3.3 2.3.1: CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython.
 dev-python/Ambiclimate 0.1.1 0.1.2 0.1.3 0.2.0 0.2.1: A python3 library to communicate with Ambiclimate
@@ -241,6 +241,7 @@ dev-python/pydeconz 55 58 59 60 62: A Python library for communicating with deCO
 dev-python/pydelijn 0.5.1: Get realtime info on stop passages of De Lijn (api.delijn.be)
 dev-python/pydocstyle 3.0.0 4.0.1: Python docstring style checker
 dev-python/pyeconet 0.0.6 0.0.8 0.0.11: Interface to the unofficial EcoNet API
+dev-python/pyelftools 0.25: pure-Python library for analyzing ELF files and DWARF debugging information
 dev-python/pyeverlights 0.1.0: A library for controlling an EverLights lighting system.
 dev-python/pyfgt 0.5.1: Represents the base components of the Fortinet FortiGate REST interface with abstractions
 dev-python/pyflunearyou 1.0.2: A clean, well-tested Python3 API for Flu Near You
@@ -339,6 +340,7 @@ dev-python/ruamel-yaml 0.15.89 0.15.91 0.15.94 0.15.99 0.15.100: YAML parser/emi
 dev-python/rxv 0.5.1 0.6.0: Automation Library for Yamaha RX-V473, RX-V573, RX-V673, RX-V773 receivers
 dev-python/s3transfer 0.2.0: An Amazon S3 Transfer Manager
 dev-python/samsungctl 0.7.1 0.8.0_beta0: Remote control Samsung televisions via TCP/IP connection (kdschlosser version)
+dev-python/semantic_version 2.8.2: Python library providing a few tools handling SemVer in Python
 dev-python/sendgrid 5.6.0 6.0.5: Twilio SendGrid library for Python
 dev-python/setuptools-markdown 0.2: Use Markdown for your project description
 dev-python/shodan 1.11.0 1.11.1 1.13.0 1.15.0: Python library and command-line utility for Shodan (https://developer.shodan.io)
@@ -359,6 +361,7 @@ dev-python/sphinx-autodoc-typehints 1.6.0: Type hints (PEP 484) support for the 
 dev-python/spotcrime 1.0.3 1.0.4: Provides basic API to spotcrime.com.
 dev-python/sqlalchemy 1.3.0 1.3.5 1.3.7 1.3.8: Python SQL toolkit and Object Relational Mapper
 dev-python/streamlabswater 1.0.1: Unofficial Python library for the Streamlabs Water API
+dev-python/tabulate 0.8.5: Pretty-print tabular data
 dev-python/tapsaff 0.2.0 0.2.1: Provides an API for requesting information from taps-aff.co.uk
 dev-python/tellduslive 0.10.10: Communicate with Telldus Live
 dev-python/text-unidecode 1.2: The most basic Text::Unidecode port
