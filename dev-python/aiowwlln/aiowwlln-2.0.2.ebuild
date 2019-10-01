@@ -7,16 +7,16 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="An API for the homematicip cloud"
-HOMEPAGE="https://github.com/coreGreenberet/homematicip-rest-api https://pypi.org/project/homematicip/"
+DESCRIPTION="A simple Python API for the WWLLN"
+HOMEPAGE="https://github.com/bachya/aiowwlln https://pypi.org/project/aiowwlln/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE=""
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND="dev-python/aiocache[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

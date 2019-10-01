@@ -7,11 +7,11 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="An API for the homematicip cloud"
-HOMEPAGE="https://github.com/coreGreenberet/homematicip-rest-api https://pypi.org/project/homematicip/"
+DESCRIPTION="A library which communicates with ZiGate radios for zigpy"
+HOMEPAGE="http://github.com/doudz/zigpy-zigate https://pypi.org/project/zigpy-zigate/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE=""
+LICENSE="GPL-3.0"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"

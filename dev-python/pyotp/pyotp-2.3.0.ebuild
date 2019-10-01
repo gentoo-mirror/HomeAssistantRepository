@@ -1,17 +1,17 @@
-# Copyright 1999-2019 Gentoo Authors Andreas Billmeier b (at) edevau.net
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v3.0
 
-EAPI="7"
+EAPI=6
 
 PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="An API for the homematicip cloud"
-HOMEPAGE="https://github.com/coreGreenberet/homematicip-rest-api https://pypi.org/project/homematicip/"
+DESCRIPTION="Python One Time Password Library"
+HOMEPAGE="https://github.com/pyotp/pyotp https://pypi.org/project/pyotp/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE=""
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"

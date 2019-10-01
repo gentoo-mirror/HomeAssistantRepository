@@ -7,11 +7,12 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="An API for the homematicip cloud"
-HOMEPAGE="https://github.com/coreGreenberet/homematicip-rest-api https://pypi.org/project/homematicip/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+MY_PN=${PN//-/_}
+DESCRIPTION="A framework for managing and maintaining multi-language pre-commit hooks."
+HOMEPAGE="https://github.com/pre-commit/pre-commit https://pypi.org/project/pre-commit/"
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE=""
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
@@ -23,6 +24,8 @@ DEPEND="${REDEPEND}
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
+
+S="${WORKDIR}/${MY_PN}-${PV}"
 
 python_test() {
 	nosetests --verbose || die
