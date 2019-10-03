@@ -21,6 +21,7 @@ app-misc/homeassistant:esphome - Support for esphome sensors, covers and switche
 app-misc/homeassistant:everlights - Library for controlling an EverLights lighting system
 app-misc/homeassistant:fronius - add (very basic) Support for Fronius Symo JSON Api
 app-misc/homeassistant:frontend - keep Home Assistant frontend out of virtualenv
+app-misc/homeassistant:gpiozero - interface to GPIO devices on a Raspberry Pi
 app-misc/homeassistant:growl - add Growl Notification Transport Protocol
 app-misc/homeassistant:harmony - Logitech Harmony support
 app-misc/homeassistant:heos - controlling HEOS devices through the HEOS CLI Protocol
@@ -36,6 +37,7 @@ app-misc/homeassistant:mikrotik - add support for MikroTik RouterOS API
 app-misc/homeassistant:mqtt - install MQTT Broker and dependencies
 app-misc/homeassistant:musiccast - add support for Yamaha MusicCast devices
 app-misc/homeassistant:mysql - install MySQL Libraries for use with HomeAssistant
+app-misc/homeassistant:openwrt - fetch connected devices from your OpenWrt
 app-misc/homeassistant:qnap - Python API for obtaining QNAP NAS system stats
 app-misc/homeassistant:roku - add support for Roku players
 app-misc/homeassistant:rxv - Library for Yamaha RX-* Receivers
