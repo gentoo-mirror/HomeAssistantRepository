@@ -1,6 +1,6 @@
 app-misc/home-assistant-cli 0.7.0 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/home-assistant-frontend 20190828.1 20190904.0 20190908.0 20190918.1 20190919.0 20190919.1 20191002.0: The Home Assistant frontend
-app-misc/homeassistant 0.96.5 0.97.2 0.98.4 0.98.5 0.99.1 0.99.2 0.99.2-r1 0.99.3 0.99.3-r1 0.100.0_beta0 0.100.0_beta1 0.100.0_beta2: Open-source home automation platform running on Python 3.6
+app-misc/home-assistant-frontend 20190828.1 20190904.0 20190908.0 20190918.1 20190919.0 20190919.1 20191002.0 20191002.1: The Home Assistant frontend
+app-misc/homeassistant 0.98.5 0.99.1 0.99.2 0.99.2-r1 0.99.3 0.99.3-r1 0.100.0_beta0 0.100.0_beta1 0.100.0_beta2: Open-source home automation platform running on Python 3.6
 dev-embedded/esphome 1.11.1-r1 1.11.2-r1 1.12.0_beta3 1.12.0_beta4 1.12.0 1.12.0-r1 1.13.2 1.13.6 1.13.6-r1 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 3.6.1-r1 3.6.3 3.6.4 3.6.5 3.6.7 4.0.0 4.0.3: An open source ecosystem for IoT development
@@ -91,7 +91,7 @@ dev-python/buienradar 1.0.1: Library and CLI tools for interacting with buienrad
 dev-python/caldav 0.5.0 0.6.1: CalDAV (RFC4791) client library
 dev-python/casttube 0.2.0: YouTube chromecast api
 dev-python/cdu 0.1.3: Cloud Storage Disk Usage Analyzer
-dev-python/certifi 2019.3.9 2019.6.16: Python package for providing Mozilla's CA Bundle
+dev-python/certifi 2019.3.9 2019.6.16 2019.9.11: Python package for providing Mozilla's CA Bundle
 dev-python/cffi 1.12.2: Foreign Function Interface for Python calling C code
 dev-python/checkmyreqs 0.3.1: Check your project requirements for Python version compatibility
 dev-python/ciscomobilityexpress 0.1.2 0.1.5 0.3.1 0.3.3: Module to interact with Cisco Mobility Express APIs to fetch connected devices.
@@ -324,7 +324,7 @@ dev-python/python-velbus 2.0.21 2.0.22 2.0.23 2.0.26 2.0.27: Python Library for 
 dev-python/python-whois 0.7.1 0.7.2: Whois querying and parsing of domain registration information.
 dev-python/python-wink 1.10.3 1.10.5: Access Wink devices via the Wink API
 dev-python/pytradfri 6.0.1 6.3.1: Control/observe IKEA Tradfri devices
-dev-python/pytz 2018.7 2018.9 2019.1 2019.2: World timezone definitions for Python
+dev-python/pytz 2018.7 2018.9 2019.1 2019.2 2019.3: World timezone definitions for Python
 dev-python/pyubee 0.5 0.6 0.7: Simple library for getting stats from Ubee routers.
 dev-python/pyunifi 2.16: API for Ubiquity Networks UniFi controller
 dev-python/pyusb 1.0.2: Python USB access module
@@ -339,7 +339,7 @@ dev-python/pyyaml 5.1.1 5.1.2: YAML parser and emitter for Python
 dev-python/qnapstats 0.2.7 0.3.0: Python API for obtaining QNAP NAS system stats
 dev-python/quantum-gateway 0.0.3 0.0.5: Query a Quantum Gateway
 dev-python/regenmaschine 1.2.0 1.4.0 1.5.1: A simple API for RainMachine sprinkler controllers
-dev-python/regex 2019.04.14 2019.05.25 2019.06.02 2019.06.05 2019.06.08: Alternative regular expression module to replace re
+dev-python/regex 2019.04.14 2019.05.25 2019.06.02 2019.06.05 2019.06.08 2019.08.19: Alternative regular expression module to replace re
 dev-python/requests 2.20.1 2.21.0 2.21.0-r1 2.22.0: HTTP library for human beings
 dev-python/requests-async 0.6.2: async-await support for requests.
 dev-python/requests-mock 1.6.0 1.7.0: Mock out responses from the requests package
@@ -349,7 +349,7 @@ dev-python/responses 0.10.6: A utility library for mocking out the requests Pyth
 dev-python/rflink 0.0.37 0.0.46: Library and CLI tools for interacting with RFlink 433MHz transceiver.
 dev-python/roku 3.0 3.1: Client for the Roku media player
 dev-python/rsa 4.0: Pure-Python RSA implementation
-dev-python/ruamel-yaml 0.15.89 0.15.91 0.15.94 0.15.99 0.15.100: YAML parser/emitter that supports roundtrip comment preservation
+dev-python/ruamel-yaml 0.15.89 0.15.91 0.15.94 0.15.99 0.15.100 0.16.5: YAML parser/emitter that supports roundtrip comment preservation
 dev-python/rxv 0.5.1 0.6.0: Automation Library for Yamaha RX-V473, RX-V573, RX-V673, RX-V773 receivers
 dev-python/s3transfer 0.2.0: An Amazon S3 Transfer Manager
 dev-python/samsungctl 0.7.1 0.8.0_beta0: Remote control Samsung televisions via TCP/IP connection (kdschlosser version)
@@ -372,12 +372,12 @@ dev-python/sphinx 1.8.3: Python documentation generator
 dev-python/sphinx-autodoc-annotation 1.0-r1: Use Python 3 annotations in sphinx-enabled docstrings
 dev-python/sphinx-autodoc-typehints 1.6.0: Type hints (PEP 484) support for the Sphinx autodoc extension
 dev-python/spotcrime 1.0.3 1.0.4: Provides basic API to spotcrime.com.
-dev-python/sqlalchemy 1.3.0 1.3.5 1.3.7 1.3.8: Python SQL toolkit and Object Relational Mapper
+dev-python/sqlalchemy 1.3.0 1.3.5 1.3.7 1.3.8 1.3.9: Python SQL toolkit and Object Relational Mapper
 dev-python/streamlabswater 1.0.1: Unofficial Python library for the Streamlabs Water API
 dev-python/tabulate 0.8.5: Pretty-print tabular data
 dev-python/tapsaff 0.2.0 0.2.1: Provides an API for requesting information from taps-aff.co.uk
 dev-python/tellduslive 0.10.10: Communicate with Telldus Live
-dev-python/text-unidecode 1.2: The most basic Text::Unidecode port
+dev-python/text-unidecode 1.2 1.3: The most basic Text::Unidecode port
 dev-python/thermoworks-smoke 0.1.8: Pull data for your thermoworks smoke thermometer
 dev-python/todoist-python 8.0.2: todoist-python - The official Todoist Python API library
 dev-python/toonapilib 3.0.10 3.2.2 3.2.4: A library to interact with eneco's Toon smart meter via their official api https://api.toon.eu
