@@ -17,7 +17,7 @@ RESTRICT="mirror"
 
 LICENSE=""
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE="abode androidtv asuswrt atmo atv aurora avea buienradar cli ciscomobilityexpress daikin darksky denonavr enigma esphome everlights envoy fronius +frontend gpiozero growl harmony heos homekit homematic homematicip hpilo hs100 hue maxcube miio mikrotik mqtt musiccast +mysql openwrt qnap roku rxv samsungtv sma socat sonos shodan speedtest ssl test tradfri ubee unify vera wemo wink wwlln xknx z-wave zigbee zoneminder"
 
 RDEPEND="${PYTHON_DEPS}
@@ -140,7 +140,7 @@ RDEPEND="${PYTHON_DEPS}
 	everlights? ( ~dev-python/pyeverlights-0.1.0[${PYTHON_USEDEP}] )
 	envoy? ( ~dev-python/envoy-reader-0.8.6[${PYTHON_USEDEP}] )
 	fronius? ( ~dev-python/PyFronius-0.4.6[${PYTHON_USEDEP}] )
-	frontend? ( =app-misc/home-assistant-frontend-20191002.0[${PYTHON_USEDEP}] )
+	frontend? ( =app-misc/home-assistant-frontend-20191002.2[${PYTHON_USEDEP}] )
 	gpiozero? ( ~dev-python/gpiozero-1.5.1[${PYTHON_USEDEP}] )
 	growl? ( ~dev-python/gntp-1.0.3[${PYTHON_USEDEP}] )
 	harmony? ( ~dev-python/aioharmony-0.1.13[${PYTHON_USEDEP}] )
@@ -187,7 +187,7 @@ RDEPEND="${PYTHON_DEPS}
 			  ~dev-python/zigpy-homeassistant-0.9.0[${PYTHON_USEDEP}]
 			  ~dev-python/zigpy-xbee-homeassistant-0.5.0[${PYTHON_USEDEP}]
 			  ~dev-python/bellows-homeassistant-0.10.0[${PYTHON_USEDEP}]
-			  ~dev-python/zigpy-zigate-0.4.0[${PYTHON_USEDEP}]
+			  ~dev-python/zigpy-zigate-0.4.1[${PYTHON_USEDEP}]
 			  ~dev-python/zha-quirks-0.0.26[${PYTHON_USEDEP}] )
 	zoneminder? ( ~dev-python/zm-py-0.3.3[${PYTHON_USEDEP}] )
 	z-wave? ( ~dev-python/pynacl-1.3.0[${PYTHON_USEDEP}]
