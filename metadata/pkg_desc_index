@@ -237,7 +237,7 @@ dev-python/py17track 2.2.2: A Simple Python API for 17track.net
 dev-python/pyAtome 0.1.1: Get your energy consumption from Atome Linky device
 dev-python/pyEight 0.1.1: Provides a python api to interact with an Eight Sleep mattress cover.
 dev-python/pyHS100 0.3.3 0.3.4 0.3.5: Interface for TPLink HS1xx plugs, HS2xx wall switches & LB1xx bulbs
-dev-python/pyHik 0.2.2 0.2.3: Provides a python api to interact with a Hikvision camera event stream and toggle motion detection.
+dev-python/pyHik 0.2.2 0.2.3 0.2.4: Provides a python api to interact with a Hikvision camera event stream and toggle motion detection.
 dev-python/pySDCP 1: SDCP library to control Sony Projectors
 dev-python/pyTibber 0.10.1 0.10.3 0.11.5 0.11.6 0.11.7: A python3 library to communicate with Tibber
 dev-python/pyarlo 0.2.3: Python Arlo is a library written in Python 2.7/3x that exposes the Netgear Arlo cameras as Python objects.
