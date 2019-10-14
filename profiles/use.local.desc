@@ -55,6 +55,7 @@ app-misc/homeassistant:unify - talk with a Ubiquiti Unify Controller
 app-misc/homeassistant:vera - add support for Vera Z-Wave Controller
 app-misc/homeassistant:wemo - discover and control WeMo devices
 app-misc/homeassistant:wink - support for Wink Z-Wave Plus Smart Hub
+app-misc/homeassistant:withings - add support for Withings Health API
 app-misc/homeassistant:wwlln - install support for World Wide Lightning Location Network
 app-misc/homeassistant:xknx - Asynchronous Library for the KNX protocol
 app-misc/homeassistant:z-wave - Support for Z-Wave Devices (uncomplete)
