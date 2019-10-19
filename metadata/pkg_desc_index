@@ -98,6 +98,7 @@ dev-python/cffi 1.12.2: Foreign Function Interface for Python calling C code
 dev-python/checkmyreqs 0.3.1: Check your project requirements for Python version compatibility
 dev-python/ciscomobilityexpress 0.1.2 0.1.5 0.3.1 0.3.3: Module to interact with Cisco Mobility Express APIs to fetch connected devices.
 dev-python/ciscosparkapi 0.10.1: Simple, lightweight, scalable Python API wrapper for the Cisco Spark APIs
+dev-python/clearpasspy 1.0.2 1.1.3: ClearPass API Python Library
 dev-python/click-log 0.2.0 0.3.2: Logging integration for Click
 dev-python/codecov 2.0.15: Hosted coverage reports for Github, Bitbucket and Gitlab
 dev-python/colorlog 3.2.0 4.0.0 4.0.2: Log formatting with colors
@@ -108,7 +109,7 @@ dev-python/convertdate 2.1.3: Converts between Gregorian dates and other calenda
 dev-python/coverage 4.5.1 4.5.2: Code coverage measurement for Python
 dev-python/coveralls 1.2.0 1.5.1: Show coverage stats online via coveralls.io
 dev-python/crccheck 0.6: Calculation library for CRCs and checksums
-dev-python/cryptography 2.3.1 2.5 2.7: Library providing cryptographic recipes and primitives
+dev-python/cryptography 2.3.1 2.5 2.8: Library providing cryptographic recipes and primitives
 dev-python/curve25519-donna 1.3: Implementations of a fast Elliptic-curve Diffie-Hellman primitive
 dev-python/datadog 0.15.0 0.30.0: The Datadog Python library
 dev-python/dateparser 0.7.1: Date parsing library designed to parse dates from HTML pages
@@ -143,7 +144,7 @@ dev-python/fortiosapi 1.0.1: Python modules to use Fortigate APIs
 dev-python/future 0.17.1: Easy, clean, reliable Python 2/3 compatibility
 dev-python/gTTS-token 1.1.3: Calculates a token to run the Google Translate text to speech
 dev-python/gatt 0.2.7: Bluetooth GATT SDK for Python
-dev-python/geniushub-client 0.5.8 0.6.5 0.6.7 0.6.11 0.6.13 0.6.26: A aiohttp-based client for Genius Hub systems
+dev-python/geniushub-client 0.5.8 0.6.7 0.6.11 0.6.13 0.6.26 0.6.28: A aiohttp-based client for Genius Hub systems
 dev-python/geopy 1.19.0 1.20.0: A Geocoding Toolbox for Python
 dev-python/getmac 0.8.1: Get MAC addresses of remote hosts and local interfaces
 dev-python/gntp 1.0.3: Growl Notification Transport Protocol for Python
@@ -157,7 +158,7 @@ dev-python/habitipy 0.3.0: tools and library for Habitica restful API (http://ha
 dev-python/hangups 0.4.6 0.4.9: the first third-party instant messaging client for Google Hangouts
 dev-python/hass-nabucasa 0.13 0.14 0.15 0.16 0.17 0.22: Home Assistant cloud integration by Nabu Casa, inc.
 dev-python/hbmqtt 0.9.4 0.9.5: MQTT client/broker using Python 3.4 asyncio library
-dev-python/hdate 0.8.8 0.9.0: Hebrew date and Zmanim
+dev-python/hdate 0.8.8 0.9.0 0.9.1: Hebrew date and Zmanim
 dev-python/hiredis 1.0.0: Python extension that wraps hiredis
 dev-python/hkdf 0.0.3: HMAC-based Extract-and-Expand Key Derivation Function (HKDF)
 dev-python/hole 0.3.0 0.4.0 0.5.0: Python API for interacting with *hole.
@@ -184,7 +185,7 @@ dev-python/jsonrpc-async 0.6: a compact JSON-RPC client library for asyncio
 dev-python/jsonrpc-base 1.0 1.0.1 1.0.2: A JSON-RPC client library base interface
 dev-python/jsonrpc-websocket 0.6 1.0.1: A JSON-RPC websocket client library for asyncio
 dev-python/keba-kecontact 0.2.0: A python library to communicate with the KEBA charging stations via udp
-dev-python/keyring 17.1.0 17.1.1: Provides access to the system keyring service
+dev-python/keyring 17.1.0 17.1.1 19.2.0: Provides access to the system keyring service
 dev-python/keyrings_alt 3.1.1: Alternate keyring implementations
 dev-python/konnected 0.1.4: A Python library for interacting with Konnected home automation controllers (see https://konnected.io)
 dev-python/lakeside 0.12: Python API for controlling Eufy LED bulbs
@@ -213,7 +214,7 @@ dev-python/nessclient 0.9.10 0.9.13 0.9.14 0.9.15: Implementation/abstraction of
 dev-python/netdisco 2.2.0 2.3.0 2.4.0 2.5.0 2.6.0: Discover devices on your local network
 dev-python/nokia 1.2.0: Library for the Nokia Health API
 dev-python/nuheat 0.3.0: A Python library that allows control of connected NuHeat Signature radiant floor thermostats.
-dev-python/numpy 1.16.2 1.16.3 1.16.4 1.17.0 1.17.1: Fast array and numerical python library
+dev-python/numpy 1.16.2 1.16.3 1.16.4 1.17.0 1.17.1 1.17.3: Fast array and numerical python library
 dev-python/opensensemap-api 0.1.4 0.1.5: Python client for interacting with the openSenseMap API.
 dev-python/openwebifpy 1.2.7 3.1.0 3.1.1: Provides a python interface to interact with a device running OpenWebIf
 dev-python/openwrt-luci-rpc 1.0.5 1.1.0 1.1.1: Module for interacting with OpenWrt Luci RPC interface
@@ -280,8 +281,9 @@ dev-python/pyloopenergy 0.1.2 0.1.3: Access Loop Energy energy monitors via Sock
 dev-python/pylutron 0.2.2 0.2.5: Python library for Lutron RadioRA 2
 dev-python/pymailgunner 1.4: A simple mailgun client - pymailgun fork with Python 3 support
 dev-python/pymediaroom 0.6.4: Remote control your Mediaroom Set-up-box
-dev-python/pymfy 0.5.2: A Somfy Open API library
+dev-python/pymfy 0.5.2 0.6.0: A Somfy Open API library
 dev-python/pymitv 1.4.3: A Python 3 based Xiaomi TV remote
+dev-python/pymochad 0.2.0: A python library for interacting with moch
 dev-python/pymodbus 1.5.2 2.1.0: A fully featured modbus protocol stack in python
 dev-python/pymusiccast 0.1.6: This library brings support for Yamaha MusicCast devices to Home Assistant
 dev-python/pymyq 1.2.0 1.2.1: Python package for controlling MyQ-Enabled Garage Door
