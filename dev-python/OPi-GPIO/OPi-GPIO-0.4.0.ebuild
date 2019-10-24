@@ -7,25 +7,27 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Communicate with an Android TV or Fire TV device via ADB over a network."
-HOMEPAGE="https://github.com/JeffLIrion/python-androidtv/ https://pypi.org/project/androidtv/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+MY_PN="${PN/-/.}"
+MY_P="${MY_PN}-${PV}"
+
+DESCRIPTION="A drop-in replacement for RPi.GPIO for the Orange Pi Zero"
+HOMEPAGE="https://github.com/rm-hull/OPi.GPIO https://pypi.org/project/OPi.GPIO/"
+SRC_URI="mirror://pypi/${MY_P:0:1}/${MY_PN}/${MY_P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/rsa[${PYTHON_USEDEP}]
-		 >=dev-python/pure-python-adb-homeassistant-0.1.7[${PYTHON_USEDEP}]
-		 >=dev-python/adb-shell-0.0.7[${PYTHON_USEDEP}]
-		 dev-python/pyasn1[${PYTHON_USEDEP}]"
+RDEPEND=""
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
+
+S=${WORKDIR}/${MY_P}
 
 python_test() {
 	nosetests --verbose || die

@@ -7,19 +7,17 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Communicate with an Android TV or Fire TV device via ADB over a network."
-HOMEPAGE="https://github.com/JeffLIrion/python-androidtv/ https://pypi.org/project/androidtv/"
+DESCRIPTION="Library implementing a ZigBee stack"
+HOMEPAGE="http://github.com/zigpy/zigpy https://pypi.org/project/zigpy-homeassistant/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="GPL-3.0"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/rsa[${PYTHON_USEDEP}]
-		 >=dev-python/pure-python-adb-homeassistant-0.1.7[${PYTHON_USEDEP}]
-		 >=dev-python/adb-shell-0.0.7[${PYTHON_USEDEP}]
-		 dev-python/pyasn1[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/pycryptodome[${PYTHON_USEDEP}]
+		 dev-python/crccheck[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
