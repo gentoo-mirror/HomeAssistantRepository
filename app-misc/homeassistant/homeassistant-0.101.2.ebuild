@@ -27,7 +27,6 @@ RDEPEND="${PYTHON_DEPS}
 	dev-db/sqlite
 	dev-libs/libfastjson
 	>=dev-libs/xerces-c-3.1.4-r1
-	>=dev-libs/xml-security-c-1.7.3
 	~dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]
 	~dev-python/astral-1.10.1[${PYTHON_USEDEP}]
 	~dev-python/async_timeout-3.0.1[${PYTHON_USEDEP}]
@@ -106,7 +105,7 @@ RDEPEND="${PYTHON_DEPS}
 	~dev-python/sqlalchemy-1.3.10[${PYTHON_USEDEP}]
 	~dev-python/transitions-0.6.9[${PYTHON_USEDEP}]
 	>=dev-python/typing-3.6.4-r1[${PYTHON_USEDEP}]
-	~dev-python/tzlocal-1.5.1[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-1.5.1[${PYTHON_USEDEP}]
 	>=dev-python/ua-parser-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.25.3[${PYTHON_USEDEP}]
 	>=dev-python/user-agents-2.0[${PYTHON_USEDEP}]
