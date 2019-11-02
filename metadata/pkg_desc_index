@@ -308,7 +308,6 @@ dev-python/pypoint 1.0.7 1.0.8 1.1.1: API for Minut Point
 dev-python/pypollencom 2.2.3: A simple API for Pollen.com data
 dev-python/pyrainbird 0.1.6 0.2.1: Rain Bird Controller
 dev-python/pyrepetier 3.0.5: Repetier Server API library
-dev-python/pyrfc3339 1.1 1.1-r1: Generates and parses RFC 3339 timestamps
 dev-python/pyruter 1.2.4: A module to get information about the next departure from a stop
 dev-python/pysaj 0.0.9 0.0.13: Library to communicate with SAJ inverters
 dev-python/pyserial-asyncio 0.4: Python Serial Port Extension - Asynchronous I/O support
