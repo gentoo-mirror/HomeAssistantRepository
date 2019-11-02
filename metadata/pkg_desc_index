@@ -109,7 +109,7 @@ dev-python/connect-box 0.2.5: Python client for interacting with Compal CH7465LG
 dev-python/construct 2.9.45 2.9.45-r1: A powerful declarative parser for binary data
 dev-python/contextvars 2.4: PEP 567 Backport
 dev-python/convertdate 2.1.3: Converts between Gregorian dates and other calendar systems.Calendars included: Baha'i, French Republican, Hebrew, Indian Civil, Islamic, ISO, Julian, Mayan and Persian.
-dev-python/coverage 4.5.1 4.5.2 4.5.2-r1: Code coverage measurement for Python
+dev-python/coverage 4.5.1 4.5.2: Code coverage measurement for Python
 dev-python/coveralls 1.2.0 1.5.1: Show coverage stats online via coveralls.io
 dev-python/crccheck 0.6: Calculation library for CRCs and checksums
 dev-python/cryptography 2.3.1 2.5 2.8 2.8-r1: Library providing cryptographic recipes and primitives
