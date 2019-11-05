@@ -5,29 +5,29 @@ EAPI="7"
 
 PYTHON_COMPAT=( python3_{6,7} )
 
+#inherit python-single-r1 user readme.gentoo-r1 eutils # distutils-r1
 inherit user readme.gentoo-r1 eutils distutils-r1
 
 MY_P=${P/_beta/b}
 MY_PV=${PV/_beta/b}
 
-DESCRIPTION="Open-source home automation platform running on Python 3.6"
+DESCRIPTION="Open-source home automation platform running on Python on 3.7 (and 3.6 for a short time)"
 HOMEPAGE="https://home-assistant.io https://git.edevau.net/onkelbeh/HomeAssistantRepository"
 SRC_URI="https://github.com/home-assistant/home-assistant/archive/${MY_PV}.tar.gz -> ${MY_P}.tar.gz"
 RESTRICT="mirror"
 
 LICENSE=""
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE="abode androidtv asuswrt atmo atv aurora avea buienradar cli ciscomobilityexpress daikin darksky denonavr enigma esphome everlights envoy fronius +frontend gpiozero growl harmony heos homekit homematic homematicip hpilo hs100 hue maxcube miio mikrotik mqtt musiccast +mysql openwrt qnap roku rxv samsungtv sma socat sonos shodan speedtest ssl test tradfri ubee unify vera wemo wink withings wwlln xknx youtube z-wave zigbee zoneminder"
 
 RDEPEND="${PYTHON_DEPS}
 	!app-misc/homeassistant-bin
-	>=dev-lang/python-3.6.1
+	>=dev-lang/python-3.6.5
 	app-admin/logrotate
 	dev-db/sqlite
 	dev-libs/libfastjson
 	>=dev-libs/xerces-c-3.1.4-r1
-	>=dev-libs/xml-security-c-1.7.3
 	~dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]
 	~dev-python/astral-1.10.1[${PYTHON_USEDEP}]
 	~dev-python/async_timeout-3.0.1[${PYTHON_USEDEP}]
@@ -45,7 +45,7 @@ RDEPEND="${PYTHON_DEPS}
 	~dev-python/python-slugify-3.0.6[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]
-	=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	=dev-python/requests-2.22.0-r1[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.15.100[${PYTHON_USEDEP}]
 	~dev-python/voluptuous-0.11.7[${PYTHON_USEDEP}]
 	~dev-python/voluptuous-serialize-2.3.0[${PYTHON_USEDEP}]
@@ -56,7 +56,6 @@ RDEPEND="${PYTHON_DEPS}
 	~dev-python/beautifulsoup-4.8.1[${PYTHON_USEDEP}]
 	~dev-python/blinkpy-0.14.2[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.9.233[${PYTHON_USEDEP}]
-	>=dev-python/botocore-1.12.115[${PYTHON_USEDEP}]
 	~dev-python/caldav-0.6.1[${PYTHON_USEDEP}]
 	>=dev-python/cdu-0.1.3[${PYTHON_USEDEP}]
 	~dev-python/cffi-1.12.2[${PYTHON_USEDEP}]
@@ -94,7 +93,7 @@ RDEPEND="${PYTHON_DEPS}
 	~dev-python/pyhaversion-3.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-19.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyotp-2.3.0[${PYTHON_USEDEP}]
-	>=dev-python/pyqrcode-1.2.1[${PYTHON_USEDEP}]
+	>=dev-python/PyQRCode-1.2.1[${PYTHON_USEDEP}]
 	>=dev-python/pyrfc3339-1.1[${PYTHON_USEDEP}]
 	~dev-python/pysnmp-4.4.11[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
@@ -106,10 +105,10 @@ RDEPEND="${PYTHON_DEPS}
 	~dev-python/sqlalchemy-1.3.10[${PYTHON_USEDEP}]
 	~dev-python/transitions-0.6.9[${PYTHON_USEDEP}]
 	>=dev-python/typing-3.6.4-r1[${PYTHON_USEDEP}]
-	~dev-python/tzlocal-1.5.1[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-1.5.1[${PYTHON_USEDEP}]
 	>=dev-python/ua-parser-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.25.3[${PYTHON_USEDEP}]
-	>=dev-python/user-agents-2.0[${PYTHON_USEDEP}]
+	=dev-python/user-agents-2.0-r1[${PYTHON_USEDEP}]
 	>=dev-python/vobject-0.9.6.1[${PYTHON_USEDEP}]
 	>=dev-python/wakeonlan-1.1.6[${PYTHON_USEDEP}]
 	=dev-python/warrant-0.6.1-r1[${PYTHON_USEDEP}]
@@ -134,12 +133,11 @@ RDEPEND="${PYTHON_DEPS}
 	darksky? ( ~dev-python/python-forecastio-1.4.0[${PYTHON_USEDEP}] )
 	denonavr? ( ~dev-python/denonavr-0.7.10[${PYTHON_USEDEP}] )
 	enigma? ( ~dev-python/openwebifpy-3.1.1[${PYTHON_USEDEP}] )
-	esphome? ( dev-embedded/esphome
-			   ~dev-python/aioesphomeapi-2.4.2[${PYTHON_USEDEP}] )
+	esphome? ( ~dev-python/aioesphomeapi-2.4.2[${PYTHON_USEDEP}] )
 	everlights? ( ~dev-python/pyeverlights-0.1.0[${PYTHON_USEDEP}] )
 	envoy? ( ~dev-python/envoy-reader-0.8.6[${PYTHON_USEDEP}] )
 	fronius? ( ~dev-python/PyFronius-0.4.6[${PYTHON_USEDEP}] )
-	frontend? ( =app-misc/home-assistant-frontend-20191025.0[${PYTHON_USEDEP}] )
+	frontend? ( =app-misc/home-assistant-frontend-20191025.1[${PYTHON_USEDEP}] )
 	gpiozero? ( ~dev-python/gpiozero-1.5.1[${PYTHON_USEDEP}] )
 	growl? ( ~dev-python/gntp-1.0.3[${PYTHON_USEDEP}] )
 	harmony? ( ~dev-python/aioharmony-0.1.13[${PYTHON_USEDEP}] )
@@ -173,8 +171,7 @@ RDEPEND="${PYTHON_DEPS}
 	ssl? ( 	dev-libs/openssl:0
 			app-crypt/certbot
 			net-proxy/haproxy )
-	tradfri? ( >=dev-python/pytradfri-6.3.1[${PYTHON_USEDEP}]
-		 sys-devel/autoconf:2.69 )
+	tradfri? ( >=dev-python/pytradfri-6.3.1[${PYTHON_USEDEP}] )
 	ubee? ( ~dev-python/pyubee-0.7[${PYTHON_USEDEP}] )
 	unify? ( ~dev-python/aiounify-11[${PYTHON_USEDEP}] )
 	vera? ( ~dev-python/pyvera-0.3.6[${PYTHON_USEDEP}] )
