@@ -44,7 +44,7 @@ s://git.edevau.net/onkelbeh/HomeAssistantRepository/src/branch/python37dev/etc/p
 - start `emerge --ask --changed-use --deep @world`
 - already installed packages could require 2.7 and 3.6 targets, OK, i had to allow 18 of them, we'll clean this up later:
 
-    >=dev-python/asn1crypto-0.24.0 python_targets_python2_7 python_targets_python3_6
+`    >=dev-python/asn1crypto-0.24.0 python_targets_python2_7 python_targets_python3_6
     >=dev-python/async_timeout-3.0.1 python_targets_python3_6
     =dev-python/attrs-19.2.0 python_targets_python2_7 python_targets_python3_6
     >=dev-python/cffi-1.12.2 python_targets_python2_7 python_targets_python3_6
@@ -60,7 +60,7 @@ s://git.edevau.net/onkelbeh/HomeAssistantRepository/src/branch/python37dev/etc/p
     >=dev-python/pyyaml-5.1.2 python_targets_python2_7 python_targets_python3_6
     >=dev-python/six-1.12.0 python_targets_python2_7 python_targets_python3_6
     >=dev-python/yarl-1.3.0 python_targets_python3_6
-    >=dev-python/zope-interface-4.6.0 python_targets_python2_7 python_targets_python3_6
+    >=dev-python/zope-interface-4.6.0 python_targets_python2_7 python_targets_python3_6`
 
 - portage does not know in which slots python modules are already installed, some could still be missing in Python 3.7's site-packages, install them manually (after compile errors), in my case i had to install:
   - pyyaml
