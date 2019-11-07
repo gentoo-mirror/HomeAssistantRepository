@@ -233,7 +233,7 @@ dev-python/paho-mqtt 1.4.0 1.4.0-r1 1.5.0: A client class with support for both 
 dev-python/pbr 5.1.3: Inject some useful and sensible default behaviors into setuptools
 dev-python/pip 19.0.2: Installs python packages -- replacement for easy_install
 dev-python/plexauth 0.0.4 0.0.5: Handles the authorization flow to obtain tokens from Plex.tv via external redirection.
-dev-python/plexwebsocket 0.0.1 0.0.3: Support for issuing callbacks in response to Plex websocket client updates.
+dev-python/plexwebsocket 0.0.1 0.0.3 0.0.4: Support for issuing callbacks in response to Plex websocket client updates.
 dev-python/pluggy 0.12.0 0.12.0-r1: plugin and hook calling mechanisms for python
 dev-python/pmsensor 0.4: Library to read data from environment sensors
 dev-python/praw 6.1.1 6.3.1 6.4.0: PRAW, an acronym for Python Reddit API Wrapper, is a python package that allows for simple access to reddit's API.
