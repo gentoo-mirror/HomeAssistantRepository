@@ -36,7 +36,7 @@ dev-python/RPi-GPIO 0.6.5 0.7.0: A module to control Raspberry Pi GPIO channels
 dev-python/RestrictedPython 3.6.0 4.0_beta7 4.0_beta8 4.0 5.0: RestrictedPython is a defined subset of the Python language which allows to provide a program input into a trusted environment.
 dev-python/TwitterAPI 2.5.9 2.5.10: Minimal wrapper for Twitter's REST and Streaming APIs
 dev-python/WazeRouteCalculator 0.6 0.9 0.10: Calculate actual route time and distance with waze api.
-dev-python/abodepy 0.15.0 0.16.5 0.16.6: An Abode alarm Python library running on Python 3.
+dev-python/abodepy 0.15.0 0.16.5 0.16.6 0.16.7: An Abode alarm Python library running on Python 3.
 dev-python/adafruit-circuitpython-mcp230xx 1.1.2 2.0.1: CircuitPython library for controlling a MCP23008 or MCP23017 I2C GPIO expander.
 dev-python/adb 1.3.0: A pure python implementation of the Android ADB and Fastboot protocols
 dev-python/adb-homeassistant 1.3.1 1.3.2: A pure python implementation of the Android ADB and Fastboot protocols
