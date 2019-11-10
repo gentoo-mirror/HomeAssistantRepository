@@ -256,7 +256,7 @@ dev-python/pySDCP 1: SDCP library to control Sony Projectors
 dev-python/pyTibber 0.10.1 0.10.3 0.11.5 0.11.6 0.11.7: A python3 library to communicate with Tibber
 dev-python/pyarlo 0.2.3: Python Arlo is a library written in Python 2.7/3x that exposes the Netgear Arlo cameras as Python objects.
 dev-python/pyasn1 0.4.4 0.4.5: ASN.1 library for Python
-dev-python/pyatmo 2.0.1 2.1.0 2.1.1 2.1.2 2.2.1 2.3.2: Simple API to access Netatmo weather station data from any python script. Design for Home-Assitant (but not only)
+dev-python/pyatmo 2.0.1 2.1.0 2.1.1 2.1.2 2.2.1 2.3.2 2.3.3: Simple API to access Netatmo weather station data from any python script. Design for Home-Assitant (but not only)
 dev-python/pyatv 0.3.9 0.3.12 0.3.13: Library for controlling an Apple TV
 dev-python/pyblackbird 0.5: Python API for talking to Monoprice Blackbird 4k 8x8 HDBaseT Matrix
 dev-python/pybotvac 0.0.15 0.0.16 0.0.17: Python package for controlling Neato pybotvac Connected vacuum robot
