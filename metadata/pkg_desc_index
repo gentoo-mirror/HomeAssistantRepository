@@ -13,7 +13,6 @@ dev-python/DoorBirdPy 2.0.8: Python wrapper for the DoorBird LAN API v0.21
 dev-python/GitPython 2.1.11: Python Git Library
 dev-python/Mastodon-py 1.4.5 1.4.6 1.5.0: Python wrapper for the Mastodon API
 dev-python/OPi-GPIO 0.3.6 0.4.0: A drop-in replacement for RPi.GPIO for the Orange Pi Zero
-dev-python/Pillow 6.2.0 6.2.1: Python Imaging Library (Fork)
 dev-python/PlexAPI 3.0.6 3.1.0 3.2.0: Python bindings for the Plex API.
 dev-python/PyChromecast 3.1.0 3.2.0 3.2.1 3.2.2 4.0.1: Python module to talk to Google Chromecast.
 dev-python/PyDispatcher 2.0.5: Multi-producer-multi-consumer signal dispatching mechanism
@@ -86,7 +85,7 @@ dev-python/axis 20 22 23 24 25: A Python library for communicating with devices 
 dev-python/bcrypt 3.1.5 3.1.6 3.1.7 3.1.7-r1: Modern password hashing for software and servers
 dev-python/beautifulsoup 4.6.0 4.6.3 4.7.1 4.8.0 4.8.1: Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree
 dev-python/bellows-homeassistant 0.8.0 0.8.1 0.8.2 0.9.0 0.9.1 0.10.0: Library implementing EZSP
-dev-python/bimmer-connected 0.5.3 0.5.6 0.6.0: Library to read data from the BMW Connected Drive portal
+dev-python/bimmer-connected 0.5.3 0.5.6 0.6.0 0.6.2: Library to read data from the BMW Connected Drive portal
 dev-python/bizkaibus 0.1.4: Online information for buses of Biscay bus services (Basque Country, Spain).
 dev-python/blinkpy 0.12.1 0.13.1 0.14.0 0.14.1 0.14.1-r1 0.14.2: A Blink camera Python library running on Python 3.
 dev-python/blockchain 1.4.4: Blockchain API library (v1)
@@ -162,7 +161,7 @@ dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud AP
 dev-python/gpiozero 1.4.1 1.5.0 1.5.1: 
 dev-python/growattServer 0.0.1: A package to talk to growatt server
 dev-python/ha-ffmpeg 1.9 1.11 2.0: A library that handling with ffmpeg for home-assistant
-dev-python/haanna 0.10.0 0.10.1 0.13.5: Plugwise Anna API to use in conjunction with Home Assistant.
+dev-python/haanna 0.10.0 0.10.1 0.12.3 0.13.5: Plugwise Anna API to use in conjunction with Home Assistant.
 dev-python/habitipy 0.2.0 0.3.0: tools and library for Habitica restful API (http://habitica.com)
 dev-python/hangups 0.4.6 0.4.9: the first third-party instant messaging client for Google Hangouts
 dev-python/hass-nabucasa 0.16 0.17 0.22 0.23 0.29: Home Assistant cloud integration by Nabu Casa, inc.
@@ -385,17 +384,19 @@ dev-python/requirements-parser 0.2.0: Parses Pip requirement files
 dev-python/responses 0.10.6: A utility library for mocking out the requests Python library.
 dev-python/rflink 0.0.37 0.0.46: Library and CLI tools for interacting with RFlink 433MHz transceiver.
 dev-python/roku 3.0 3.1: Client for the Roku media player
+dev-python/roombapy 1.3.1: Python program and library to control Wi-Fi enabled iRobot Roomba vacuum cleaners
 dev-python/rsa 4.0 4.0-r1: Pure-Python RSA implementation
 dev-python/ruamel-yaml 0.15.89 0.15.91 0.15.94 0.15.99 0.15.100 0.16.5: YAML parser/emitter that supports roundtrip comment preservation
 dev-python/rxv 0.5.1 0.6.0: Automation Library for Yamaha RX-V473, RX-V573, RX-V673, RX-V773 receivers
 dev-python/s3transfer 0.2.0 0.2.0-r1: An Amazon S3 Transfer Manager
 dev-python/samsungctl 0.7.1 0.8.0_beta0: Remote control Samsung televisions via TCP/IP connection (kdschlosser version)
+dev-python/scikit-build 0.10.0: Improved build system generator for Python C/C++/Fortran/Cython extensions
 dev-python/semantic_version 2.8.2 2.8.2-r1: Python library providing a few tools handling SemVer in Python
 dev-python/sendgrid 5.6.0 6.0.5 6.1.0: Twilio SendGrid library for Python
 dev-python/setuptools-markdown 0.2: Use Markdown for your project description
 dev-python/shodan 1.11.0 1.11.1 1.13.0 1.15.0 1.17.0 1.19.0: Python library and command-line utility for Shodan (https://developer.shodan.io)
 dev-python/simplepush 1.1.4: Simplepush python library
-dev-python/simplisafe-python 3.4.2 4.0.0 4.0.1 4.2.0 4.3.0 5.0.1: A Python3, async interface to the SimpliSafe API
+dev-python/simplisafe-python 4.0.0 4.0.1 4.2.0 4.3.0 5.0.1 5.1.0: A Python3, async interface to the SimpliSafe API
 dev-python/sisyphus-control 2.2.1: Control your Sisyphus kinetic art tables (sisyphus-industries.com)
 dev-python/slacker 0.12.0 0.13.0: Slack API client
 dev-python/sleepyq 0.6 0.7: SleepIQ API for Python
@@ -468,6 +469,7 @@ dev-python/zigpy-xbee-homeassistant 0.1.3 0.2.0 0.2.1 0.3.0 0.4.0 0.5.0 0.6.0: A
 dev-python/zigpy-zigate 0.1.0 0.2.0 0.3.1 0.4.0 0.4.1 0.5.0: A library which communicates with ZiGate radios for zigpy
 dev-python/zipp 0.5.0 0.5.1 0.5.1-r1: Backport of pathlib-compatible object wrapper for zip files
 dev-python/zm-py 0.3.3: A loose python wrapper around the ZoneMinder REST API.
+media-libs/opencv 3.4.1-r7: A collection of algorithms and sample code for various computer vision problems
 net-analyzer/speedtest-cli 2.1.1: Command line interface for testing internet bandwidth using speedtest.net
 sci-libs/tensorflow 1.13.2: Computation framework using data flow graphs for scalable machine learning
 www-servers/tornado 5.1.1: Python web framework and asynchronous networking library

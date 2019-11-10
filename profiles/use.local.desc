@@ -64,5 +64,24 @@ app-misc/homeassistant:zigbee - Support for ZHA/deconz based Zigbee/ZNet Devices
 app-misc/homeassistant:zoneminder - Support for ZoneMinder Cameras
 dev-embedded/esphome:server - create user and install init-script to run ESPHome Dashboard
 dev-python/pyyaml:libyaml - enable support for C implementation using libyaml
+dev-python/roombapy:mqtt - Use paho mqtt client for communication
+dev-python/roombapy:opencv - Use opencv for map generation
+dev-python/roombapy:pillow - Use pillow for map generation
 dev-python/sphinx:net - enable internet capabilities
+media-libs/opencv:contrib - Install user contributed scripts from opencv_contrib (Experimental!)
+media-libs/opencv:contrib_cvv - CVV module requires Qt5
+media-libs/opencv:contrib_dnn - DNN module contrib requires tiny dnn
+media-libs/opencv:contrib_hdf - HDF module requires sci-libs/hdf5
+media-libs/opencv:contrib_sfm - SFM module requires eigen, gflags, and glog
+media-libs/opencv:contrib_xfeatures2d - Enables xfeatures2d and autodownload of samples in contrib
+media-libs/opencv:cuda - Enable NVIDIA Cuda computations support (Experimental!)
+media-libs/opencv:dnn_samples - Download dnn caffeemodel samples
+media-libs/opencv:eigen - Enable usage of dev-cpp/eigen for computations
+media-libs/opencv:gdal - Enable support for sci-libs/gdal library
+media-libs/opencv:gflags - Use Google's C++ argument parsing library
+media-libs/opencv:glog - Use Google's C++ loggin library
+media-libs/opencv:opencl - Add support for OpenCL
+media-libs/opencv:tesseract - Use Google's OCR Engine
+media-libs/opencv:testprograms - Build and install programs for testing OpenCV (performance)
+media-libs/opencv:vtk - Build new 3D visualization module viz based on sci-libs/vtk
 sci-libs/tensorflow:cuda - Enable support for nVidia CUDA
