@@ -7,16 +7,18 @@ PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python Imaging Library (Fork)"
-HOMEPAGE="http://python-pillow.org https://pypi.org/project/Pillow/"
+DESCRIPTION="Plugwise Anna API to use in conjunction with Home Assistant."
+HOMEPAGE="https://github.com/laetificat/haanna https://pypi.org/project/haanna/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="HPND"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+		 dev-python/datetime[${PYTHON_USEDEP}]
+		 dev-python/pytz[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

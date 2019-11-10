@@ -5,12 +5,16 @@
     <email>b@edevau.net</email>
     <name>Andreas Billmeier</name>
   </maintainer>
+  <use>
+    <flag name="opencv">Use opencv for map generation</flag>
+    <flag name="pillow">Use pillow for map generation</flag>
+    <flag name="mqtt">Use paho mqtt client for communication</flag>
+  </use>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">Pillow</remote-id>
+    <remote-id type="pypi">roombapy</remote-id>
     <maintainer status="unknown">
-      <email>aclark@python-pillow.org</email>
-      <name>Alex Clark (PIL Fork Author)</name>
+      <email>nick.waterton@med.ge.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>
