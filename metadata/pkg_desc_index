@@ -48,7 +48,7 @@ dev-python/aioautomatic 0.6.5: Asyncio library for the Automatic API
 dev-python/aiocache 0.10.1: multi backend asyncio cache
 dev-python/aiocoap 0.4_alpha3 0.4_alpha3-r1: The Python CoAP library
 dev-python/aiodns 1.1.1 2.0.0: Simple DNS resolver for asyncio
-dev-python/aioesphomeapi 1.7.0 2.0.0 2.0.1 2.1.0 2.2.0 2.4.0 2.4.1 2.4.2: ESPHome Native API Component for Home Assistant
+dev-python/aioesphomeapi 2.0.0 2.0.1 2.1.0 2.2.0 2.4.0 2.4.1 2.4.2-r1 2.5.0: ESPHome Native API Component for Home Assistant
 dev-python/aiofreepybox 0.0.8: Provides asynchronous authentication and access to Freebox servers
 dev-python/aioftp 0.10.1 0.12.0: ftp client/server for asyncio
 dev-python/aioharmony 0.1.7 0.1.8 0.1.11 0.1.13: Asyncio Python library for connecting to and controlling the Logitech Harmony
