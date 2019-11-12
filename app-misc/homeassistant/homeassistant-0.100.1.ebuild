@@ -13,9 +13,8 @@ MY_PV=${PV/_beta/b}
 DESCRIPTION="Open-source home automation platform running on Python 3.6"
 HOMEPAGE="https://home-assistant.io https://git.edevau.net/onkelbeh/HomeAssistantRepository"
 SRC_URI="https://github.com/home-assistant/home-assistant/archive/${MY_PV}.tar.gz -> ${MY_P}.tar.gz"
-RESTRICT="mirror"
 
-LICENSE=""
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64"
 IUSE="abode androidtv asuswrt atmo atv aurora avea buienradar cli ciscomobilityexpress daikin darksky denonavr enigma esphome everlights envoy fronius +frontend gpiozero growl harmony heos homekit homematic homematicip hpilo hs100 hue maxcube miio mikrotik mqtt musiccast +mysql openwrt qnap roku rxv samsungtv sma socat sonos shodan speedtest ssl test tradfri ubee unify vera wemo wink wwlln xknx z-wave zigbee zoneminder"
@@ -174,8 +173,7 @@ RDEPEND="${PYTHON_DEPS}
 	ssl? ( 	dev-libs/openssl:0
 			app-crypt/certbot
 			net-proxy/haproxy )
-	tradfri? ( >=dev-python/pytradfri-6.3.1[${PYTHON_USEDEP}]
-		 sys-devel/autoconf:2.69 )
+	tradfri? ( >=dev-python/pytradfri-6.3.1[${PYTHON_USEDEP}] )
 	ubee? ( ~dev-python/pyubee-0.7[${PYTHON_USEDEP}] )
 	unify? ( ~dev-python/aiounify-11[${PYTHON_USEDEP}] )
 	vera? ( ~dev-python/pyvera-0.3.6[${PYTHON_USEDEP}] )

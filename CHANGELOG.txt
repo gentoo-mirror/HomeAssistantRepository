@@ -40,6 +40,16 @@
 	* Change copyright years to "1999-2019"
 	* remove all stale CVS keywords "# $Id$"
 	* replace stale "Gentoo Foundation" copright notices with the current one
+	* update packages with unknown licenses to https://devmanual.gentoo.org/general-concepts/licenses/index.html
+	    - adb-shell
+	    - somecomfort
+	    - total-connect-client
+	* update license information for adb-shell
+	* remove unneeded sys-devel/autoconf RDEPEND from (older) ebuilds
+	* add correct license for app-misc/homeassistant (Apache-2.0)
+	* add correct license for dev-python/aioesphomeapi-2.4.2 (MIT)
+	* fix RDEPEND for aioesphomeapi-2.4.2
+	* bump aioesphomeapi-2.5.0
 
 2019-11-11 new modules from dev tree
 	* bump plexwebsocket-0.0.5
