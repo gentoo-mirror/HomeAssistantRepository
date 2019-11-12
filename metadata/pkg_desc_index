@@ -85,7 +85,7 @@ dev-python/axis 20 22 23 24 25: A Python library for communicating with devices 
 dev-python/bcrypt 3.1.5 3.1.6 3.1.7 3.1.7-r1: Modern password hashing for software and servers
 dev-python/beautifulsoup 4.6.0 4.6.3 4.7.1 4.8.0 4.8.1: Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree
 dev-python/bellows-homeassistant 0.8.1 0.8.2 0.9.0 0.9.1 0.10.0 0.11.0: Library implementing EZSP
-dev-python/bimmer-connected 0.5.3 0.5.6 0.6.0 0.6.2: Library to read data from the BMW Connected Drive portal
+dev-python/bimmer-connected 0.5.3 0.6.0 0.6.2: Library to read data from the BMW Connected Drive portal
 dev-python/bizkaibus 0.1.4: Online information for buses of Biscay bus services (Basque Country, Spain).
 dev-python/blinkpy 0.12.1 0.13.1 0.14.0 0.14.1 0.14.1-r1 0.14.2: A Blink camera Python library running on Python 3.
 dev-python/blockchain 1.4.4: Blockchain API library (v1)

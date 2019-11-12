@@ -3,6 +3,7 @@
 # * generated automatically using pmaint *
 
 app-misc/homeassistant:abode - Library for the Abode alarm API
+app-misc/homeassistant:ambiclimate - communicate with Ambiclimate
 app-misc/homeassistant:androidtv - Library for controlling an Android TV, formerly firetv
 app-misc/homeassistant:asuswrt - Api wrapper for Asuswrt
 app-misc/homeassistant:atmo - Access to Netatmo weather station data
@@ -38,6 +39,7 @@ app-misc/homeassistant:mqtt - install MQTT Broker and dependencies
 app-misc/homeassistant:musiccast - add support for Yamaha MusicCast devices
 app-misc/homeassistant:mysql - install MySQL Libraries for use with HomeAssistant
 app-misc/homeassistant:openwrt - fetch connected devices from your OpenWrt
+app-misc/homeassistant:plex - Python bindings for the Plex API
 app-misc/homeassistant:qnap - Python API for obtaining QNAP NAS system stats
 app-misc/homeassistant:roku - add support for Roku players
 app-misc/homeassistant:rxv - Library for Yamaha RX-* Receivers
@@ -45,6 +47,7 @@ app-misc/homeassistant:samsungtv - Support for Samsung TV Sets
 app-misc/homeassistant:shodan - Shodan is a search engine for Internet-connected devices
 app-misc/homeassistant:sma - add Support for SMA Solar WebConnect
 app-misc/homeassistant:socat - Install socat and socat-zwave startscript
+app-misc/homeassistant:somfy - Somfy devices via their online service
 app-misc/homeassistant:sonos - Sonos Media Player Support
 app-misc/homeassistant:speedtest - spedtest.net support
 app-misc/homeassistant:ssl - include support for haproxy
