@@ -7,16 +7,16 @@ PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="A simple Python API for Tile® Bluetooth trackers"
-HOMEPAGE="https://github.com/bachya/pytile https://pypi.org/project/pytile/"
+DESCRIPTION="Library implementing Zigpy quirks for ZHA in Home Assistant"
+HOMEPAGE="https://github.com/dmulcahey/zha-device-handlers https://pypi.org/project/zha-quirks/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND=">=dev-python/zigpy-homeassistant-0.8.0[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

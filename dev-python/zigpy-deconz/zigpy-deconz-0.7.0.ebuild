@@ -7,16 +7,17 @@ PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="A simple Python API for Tile® Bluetooth trackers"
-HOMEPAGE="https://github.com/bachya/pytile https://pypi.org/project/pytile/"
+DESCRIPTION="A library which communicates with Deconz radios for zigpy"
+HOMEPAGE="https://github.com/zigpy/zigpy-deconz https://pypi.org/project/zigpy-deconz/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND="dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
+		 >=dev-python/zigpy-homeassistant-0.10.0[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

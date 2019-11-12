@@ -1,5 +1,41 @@
 2019-11-11 new modules from dev tree
 	* aiodns & aionotify, fix checksums in manifest
+	* update bellows-homeassistant-0.11.0
+	* update zigpy-deconz-0.7.0
+	* update zigpy-homeassistant-0.11.0
+	* update zigpy-xbee-homeassistant-0.7.0
+	* update pyserial-asyncio-0.4-r1
+	* update zha-quirks-0.0.27-r1
+	* update PlexAPI-3.3.0
+	* add dependency for plexauth-0.0.5-r1
+	* fix uri.https for all ebuilds in
+	      - BlinkStick
+	      - PyRMVtransport
+	      - RPi-GPIO
+	      - aiodns
+	      - amcrest
+	      - bellows-homeassistant
+	      - broadlink
+	      - codecov
+	      - geopy
+	      - gntp
+	      - pyAtome
+	      - pyeconet
+	      - pyfido
+	      - pyfritzhome
+	      - pylacrosse
+	      - pyloopenergy
+	      - pylutron
+	      - pymediaroom
+	      - slacker
+	      - sleepyq
+	      - transitions
+	      - zengge
+	* add discogs-client-2.2.1
+	* bump discogs-client-2.2.2
+	* remove bad UTF character from pytile-3.0.x and add missing dependency
+	* esphome: remove olds and
+	* esphome-1.14.1: "Useless blank line on line: 22"
 
 2019-11-11 new modules from dev tree
 	* bump plexwebsocket-0.0.5

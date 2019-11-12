@@ -3,7 +3,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
@@ -20,7 +20,7 @@ RDEPEND="dev-python/click[${PYTHON_USEDEP}]
 		 ~dev-python/click-log-0.2.0[${PYTHON_USEDEP}]
 		 ~dev-python/pure_pcapy3-1.0.1[${PYTHON_USEDEP}]
 		 dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
-		 >=dev-python/zigpy-homeassistant-0.4.0[${PYTHON_USEDEP}]"
+		 >=dev-python/zigpy-homeassistant-0.9.0[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
