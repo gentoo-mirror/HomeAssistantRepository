@@ -73,7 +73,7 @@ dev-python/aprslib 0.6.46: Module for accessing APRS-IS and parsing APRS packets
 dev-python/aresponses 1.1.1: Asyncio testing server. Similar to the responses library used for 'requests'
 dev-python/astral 1.6.1 1.7.1 1.8 1.9.2 1.10.1: Calculations for the position of the sun and moon.
 dev-python/astroid 2.3.1 2.3.2: Abstract Syntax Tree for logilab packages
-dev-python/async-upnp-client 0.14.3 0.14.4 0.14.7 0.14.10 0.14.11: Async UPnP Client
+dev-python/async-upnp-client 0.14.4 0.14.7 0.14.10 0.14.11 0.14.12: Async UPnP Client
 dev-python/async_timeout 3.0.1: Timeout context manager for asyncio programs
 dev-python/asyncssh 1.15.0 1.16.0: AsyncSSH: Asynchronous SSHv2 client and server library
 dev-python/asynctest 0.13.0: Enhance the standard unittest package with features for testing asyncio libraries
@@ -242,7 +242,7 @@ dev-python/pmsensor 0.4: Library to read data from environment sensors
 dev-python/praw 6.1.1 6.3.1 6.4.0: PRAW, an acronym for Python Reddit API Wrapper, is a python package that allows for simple access to reddit's API.
 dev-python/pre-commit 1.17.0 1.18.2 1.18.3 1.20.0: A framework for managing and maintaining multi-language pre-commit hooks.
 dev-python/protobuf-python 3.7.0 3.10.0 3.10.0-r1: Google's Protocol Buffers - Python bindings
-dev-python/psutil 5.4.8 5.5.0 5.5.1 5.6.2 5.6.3 5.6.3-r1: Retrieve information on running processes and system utilization
+dev-python/psutil 5.5.0 5.5.1 5.6.2 5.6.3 5.6.3-r1 5.6.5: Retrieve information on running processes and system utilization
 dev-python/pubnubsub-handler 1.0.5 1.0.6 1.0.7 1.0.8: Handles the PubNub subscriptions between PubNub and Home-Assistant for Wink
 dev-python/pure-pcapy3 1.0.1: Pure Python reimplementation of pcapy. This package is API compatible and a drop-in replacement.
 dev-python/pure-python-adb 0.1.6: Pure python implementation of the adb client
@@ -315,7 +315,7 @@ dev-python/pyowlet 1.0.2: Python client for Owlet monitors
 dev-python/pyowm 2.10.0: A Python wrapper around OpenWeatherMap web APIs
 dev-python/pypandoc 1.4: Thin wrapper for pandoc.
 dev-python/pypck 0.6.0 0.6.1 0.6.2 0.6.3: Open source LCN-PCK library written in Python
-dev-python/pypoint 1.0.7 1.0.8 1.1.1: API for Minut Point
+dev-python/pypoint 1.0.7 1.0.8 1.1.1 1.1.2: API for Minut Point
 dev-python/pypollencom 2.2.3: A simple API for Pollen.com data
 dev-python/pyrainbird 0.1.6 0.2.1: Rain Bird Controller
 dev-python/pyrepetier 3.0.5: Repetier Server API library
