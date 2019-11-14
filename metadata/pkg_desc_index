@@ -396,7 +396,7 @@ dev-python/sendgrid 5.6.0 6.0.5 6.1.0: Twilio SendGrid library for Python
 dev-python/setuptools-markdown 0.2: Use Markdown for your project description
 dev-python/shodan 1.11.0 1.11.1 1.13.0 1.15.0 1.17.0 1.19.0: Python library and command-line utility for Shodan (https://developer.shodan.io)
 dev-python/simplepush 1.1.4: Simplepush python library
-dev-python/simplisafe-python 4.0.0 4.0.1 4.2.0 4.3.0 5.0.1 5.1.0: A Python3, async interface to the SimpliSafe API
+dev-python/simplisafe-python 4.2.0 4.3.0 5.0.1 5.1.0 5.2.0: A Python3, async interface to the SimpliSafe API
 dev-python/sisyphus-control 2.2.1: Control your Sisyphus kinetic art tables (sisyphus-industries.com)
 dev-python/slacker 0.12.0 0.13.0: Slack API client
 dev-python/sleepyq 0.6 0.7: SleepIQ API for Python
