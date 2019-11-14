@@ -7,18 +7,18 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-MY_P=${PN//-/_}-${PV}
+MY_P="${PN}-${PV/_beta/b}"
 
-DESCRIPTION="Interact with Total Connect 2 alarm systems"
-HOMEPAGE="https://github.com/craigjmidwinter/total-connect-client https://pypi.org/project/total-connect-client/"
+DESCRIPTION="A library to interface with the opentherm gateway through serial or network connection."
+HOMEPAGE="https://github.com/mvn23/pyotgw https://pypi.org/project/pyotgw/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${MY_P}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/zeep[${PYTHON_USEDEP}]"
+RDEPEND=""
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
@@ -26,7 +26,7 @@ DEPEND="${REDEPEND}
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
-S=${WORKDIR}/${MY_P}
+S="${WORKDIR}/${MY_P}"
 
 python_test() {
 	nosetests --verbose || die

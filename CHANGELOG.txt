@@ -1,8 +1,16 @@
-2019-11-12
+2019-11-14
+	* add MIT License to total-connect-client
+
+2019-11-12 homeassistant-0.102.0_beta0.ebuild
 	* update pypoint-1.1.2
 	* update async-upnp-client-0.14.12
 	* bump psutil-5.6.5
 	* homeassistant-0.101.3-r1 fix paho-mqtt-1.4.0
+	* (re-)add withings-api-2.1.3
+	* bump zha-quirks-0.0.28
+	* homeassistant-0.101.3-r2 RDEPENDs fixed
+	* bump pyotgw-0.5_beta1
+	* update homeassistant-0.102.0_beta0.ebuild
 
 2019-11-11 new modules from dev tree
 	* aiodns & aionotify, fix checksums in manifest
