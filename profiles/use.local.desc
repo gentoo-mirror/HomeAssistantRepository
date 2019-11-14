@@ -16,6 +16,7 @@ app-misc/homeassistant:cli - install Home Assistant Cli hass-cli (lots of module
 app-misc/homeassistant:daikin - Daikin wireless controllers
 app-misc/homeassistant:darksky - use dark sky weather data
 app-misc/homeassistant:denonavr - Automation Library for Denon AVR receivers
+app-misc/homeassistant:discogs - Discogs Client
 app-misc/homeassistant:enigma - Support for Enigma2 boxes with openwebif support
 app-misc/homeassistant:envoy - Reads electricity production and consumption from an Enphase Envoy
 app-misc/homeassistant:esphome - Support for esphome sensors, covers and switches and it's dashboard
@@ -32,6 +33,7 @@ app-misc/homeassistant:homematicip - A python wrapper for the homematicIP REST A
 app-misc/homeassistant:hpilo - HP Integrated Lights out XML interface
 app-misc/homeassistant:hs100 - Interface for TPLink Stuff
 app-misc/homeassistant:hue - talk to Philips Hue
+app-misc/homeassistant:incomfort - client for Intergas InComfort/InTouch Lan2RF systems
 app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant:miio - add support for Xiaomi smart appliances
 app-misc/homeassistant:mikrotik - add support for MikroTik RouterOS API
@@ -59,6 +61,7 @@ app-misc/homeassistant:vera - add support for Vera Z-Wave Controller
 app-misc/homeassistant:wemo - discover and control WeMo devices
 app-misc/homeassistant:wink - support for Wink Z-Wave Plus Smart Hub
 app-misc/homeassistant:withings - add support for Withings Health API
+app-misc/homeassistant:wled - add support for Aircookie's WLED
 app-misc/homeassistant:wwlln - install support for World Wide Lightning Location Network
 app-misc/homeassistant:xknx - Asynchronous Library for the KNX protocol
 app-misc/homeassistant:youtube - support for youtube_dl
