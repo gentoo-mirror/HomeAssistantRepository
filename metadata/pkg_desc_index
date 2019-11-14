@@ -380,7 +380,6 @@ dev-python/requests 2.20.1 2.21.0 2.21.0-r1 2.22.0 2.22.0-r1: HTTP library for h
 dev-python/requests-async 0.6.2: async-await support for requests.
 dev-python/requests-futures 0.9.7 1.0.0: Asynchronous Python HTTP for Humans.
 dev-python/requests-mock 1.6.0 1.7.0: Mock out responses from the requests package
-dev-python/requests-toolbelt 0.9.1: A utility belt for advanced users of python-requests
 dev-python/requirements-parser 0.2.0: Parses Pip requirement files
 dev-python/responses 0.10.6: A utility library for mocking out the requests Python library.
 dev-python/rflink 0.0.37 0.0.46: Library and CLI tools for interacting with RFlink 433MHz transceiver.
