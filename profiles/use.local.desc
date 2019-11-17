@@ -10,6 +10,9 @@ app-misc/homeassistant:atmo - Access to Netatmo weather station data
 app-misc/homeassistant:atv - Library for controlling an Apple TV
 app-misc/homeassistant:aurora - Support for Power-One Aurora inverters
 app-misc/homeassistant:avea - Library for Elgato Avea bulbs
+app-misc/homeassistant:axis - communicating with devices from Axis Communications
+app-misc/homeassistant:bitcoin - displays various details about the Bitcoin network
+app-misc/homeassistant:blockchain - displays Bitcoin wallet balances from blockchain.info
 app-misc/homeassistant:buienradar - use buienradar weather data
 app-misc/homeassistant:ciscomobilityexpress - install ciscomobilityexpress support
 app-misc/homeassistant:cli - install Home Assistant Cli hass-cli (lots of modules required)
@@ -18,6 +21,7 @@ app-misc/homeassistant:darksky - use dark sky weather data
 app-misc/homeassistant:denonavr - Automation Library for Denon AVR receivers
 app-misc/homeassistant:discogs - Discogs Client
 app-misc/homeassistant:enigma - Support for Enigma2 boxes with openwebif support
+app-misc/homeassistant:enocean - Support for Enocean devices
 app-misc/homeassistant:envoy - Reads electricity production and consumption from an Enphase Envoy
 app-misc/homeassistant:esphome - Support for esphome sensors, covers and switches and it's dashboard
 app-misc/homeassistant:everlights - Library for controlling an EverLights lighting system
@@ -27,6 +31,7 @@ app-misc/homeassistant:gpiozero - interface to GPIO devices on a Raspberry Pi
 app-misc/homeassistant:growl - add Growl Notification Transport Protocol
 app-misc/homeassistant:harmony - Logitech Harmony support
 app-misc/homeassistant:heos - controlling HEOS devices through the HEOS CLI Protocol
+app-misc/homeassistant:hkavr - allows you to control Harman Kardon Network Receivers
 app-misc/homeassistant:homekit - works as both HomeKit controller and accessory
 app-misc/homeassistant:homematic - An API for the homematicip cloud
 app-misc/homeassistant:homematicip - A python wrapper for the homematicIP REST API (Access Point Based)
@@ -34,7 +39,9 @@ app-misc/homeassistant:hpilo - HP Integrated Lights out XML interface
 app-misc/homeassistant:hs100 - Interface for TPLink Stuff
 app-misc/homeassistant:hue - talk to Philips Hue
 app-misc/homeassistant:incomfort - client for Intergas InComfort/InTouch Lan2RF systems
+app-misc/homeassistant:influxdb - transfer sensor data to a local InfluxDB database
 app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
+app-misc/homeassistant:maxcube_hack - apply Patch for https://github.com/home-assistant/home-assistant/issues/28811
 app-misc/homeassistant:miio - add support for Xiaomi smart appliances
 app-misc/homeassistant:mikrotik - add support for MikroTik RouterOS API
 app-misc/homeassistant:mqtt - install MQTT Broker and dependencies
