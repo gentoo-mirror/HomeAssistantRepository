@@ -32,6 +32,7 @@ app-misc/homeassistant:growl - add Growl Notification Transport Protocol
 app-misc/homeassistant:harmony - Logitech Harmony support
 app-misc/homeassistant:heos - controlling HEOS devices through the HEOS CLI Protocol
 app-misc/homeassistant:hkavr - allows you to control Harman Kardon Network Receivers
+app-misc/homeassistant:holidays - generating country, province and state specific sets of holidays on the fly
 app-misc/homeassistant:homekit - works as both HomeKit controller and accessory
 app-misc/homeassistant:homematic - An API for the homematicip cloud
 app-misc/homeassistant:homematicip - A python wrapper for the homematicIP REST API (Access Point Based)

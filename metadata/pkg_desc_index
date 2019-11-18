@@ -1,6 +1,6 @@
 app-misc/home-assistant-cli 0.7.0 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/home-assistant-frontend 20190828.1 20190919.0 20190919.1 20191002.2 20191025.1 20191108.0 20191114.0 20191115.0: The Home Assistant frontend
-app-misc/homeassistant 0.98.5 0.99.2-r1 0.99.3-r1 0.100.1 0.100.2 0.100.3 0.101.0 0.101.1 0.101.2-r3 0.101.3 0.101.3-r2 0.102.0_beta0 0.102.0_beta1 0.102.0_beta1-r1 0.102.0_beta1-r2: Open-source home automation platform running on Python on 3.7 (and 3.6 for a short time)
+app-misc/home-assistant-frontend 20190828.1 20190919.0 20190919.1 20191002.2 20191025.1 20191108.0 20191114.0 20191118.0: The Home Assistant frontend
+app-misc/homeassistant 0.98.5 0.99.2-r1 0.99.3-r1 0.100.1 0.100.2 0.100.3 0.101.0 0.101.1 0.101.2-r3 0.101.3 0.101.3-r2 0.102.0_beta0 0.102.0_beta1 0.102.0_beta1-r1 0.102.0_beta1-r2 0.102.0_beta2: Open-source home automation platform running on Python on 3.7 (and 3.6 for a short time)
 dev-embedded/esphome 1.11.2-r1 1.12.0 1.12.0-r1 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 3.6.1-r1 3.6.3 3.6.4 3.6.5 3.6.7 4.0.0 4.0.3 4.0.3-r1 4.0.3-r2: An open source ecosystem for IoT development
@@ -393,7 +393,8 @@ dev-python/requirements-parser 0.2.0: Parses Pip requirement files
 dev-python/responses 0.10.6: A utility library for mocking out the requests Python library.
 dev-python/rflink 0.0.37 0.0.46: Library and CLI tools for interacting with RFlink 433MHz transceiver.
 dev-python/roku 3.0 3.1: Client for the Roku media player
-dev-python/roombapy 1.3.1: Python program and library to control Wi-Fi enabled iRobot Roomba vacuum cleaners
+dev-python/roombapy 1.3.1 1.4.1: Python program and library to control Wi-Fi enabled iRobot Roomba vacuum cleaners
+dev-python/rova 0.1.0: API wrapper for ROVA calendar
 dev-python/rsa 4.0 4.0-r1: Pure-Python RSA implementation
 dev-python/ruamel-yaml 0.15.89 0.15.91 0.15.94 0.15.99 0.15.100 0.16.5: YAML parser/emitter that supports roundtrip comment preservation
 dev-python/rxv 0.5.1 0.6.0: Automation Library for Yamaha RX-V473, RX-V573, RX-V673, RX-V773 receivers
