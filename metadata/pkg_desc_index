@@ -1,7 +1,7 @@
 app-misc/home-assistant-cli 0.7.0 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/home-assistant-frontend 20190828.1 20190919.0 20190919.1 20191002.2 20191025.1 20191108.0 20191114.0 20191115.0: The Home Assistant frontend
 app-misc/homeassistant 0.98.5 0.99.2-r1 0.99.3-r1 0.100.1 0.100.2 0.100.3 0.101.0 0.101.1 0.101.2-r3 0.101.3 0.101.3-r2 0.102.0_beta0 0.102.0_beta1 0.102.0_beta1-r1 0.102.0_beta1-r2: Open-source home automation platform running on Python on 3.7 (and 3.6 for a short time)
-dev-embedded/esphome 1.11.1-r1 1.11.2-r1 1.12.0 1.12.0-r1 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 1.11.2-r1 1.12.0 1.12.0-r1 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 3.6.1-r1 3.6.3 3.6.4 3.6.5 3.6.7 4.0.0 4.0.3 4.0.3-r1 4.0.3-r2: An open source ecosystem for IoT development
 dev-libs/protobuf 3.7.0 3.10.0: Google's Protocol Buffers - Extensible mechanism for serializing structured data
@@ -49,7 +49,7 @@ dev-python/aiobotocore 0.10.1 0.10.2 0.10.4: Async client for aws services using
 dev-python/aiocache 0.10.1: multi backend asyncio cache
 dev-python/aiocoap 0.4_alpha3 0.4_alpha3-r1: The Python CoAP library
 dev-python/aiodns 1.1.1 2.0.0: Simple DNS resolver for asyncio
-dev-python/aioesphomeapi 2.0.0 2.0.1 2.1.0 2.2.0 2.4.0 2.4.1 2.4.2-r1 2.5.0: ESPHome Native API Component for Home Assistant
+dev-python/aioesphomeapi 2.0.1 2.1.0 2.2.0 2.4.0 2.4.1 2.4.2-r1 2.5.0 2.6.0: ESPHome Native API Component for Home Assistant
 dev-python/aiofreepybox 0.0.8: Provides asynchronous authentication and access to Freebox servers
 dev-python/aioftp 0.10.1 0.12.0: ftp client/server for asyncio
 dev-python/aioharmony 0.1.7 0.1.8 0.1.11 0.1.13: Asyncio Python library for connecting to and controlling the Logitech Harmony
@@ -250,7 +250,7 @@ dev-python/protobuf-python 3.7.0 3.10.0 3.10.0-r1: Google's Protocol Buffers - P
 dev-python/psutil 5.5.0 5.5.1 5.6.2 5.6.3 5.6.3-r1 5.6.5: Retrieve information on running processes and system utilization
 dev-python/pubnubsub-handler 1.0.5 1.0.6 1.0.7 1.0.8: Handles the PubNub subscriptions between PubNub and Home-Assistant for Wink
 dev-python/pure-pcapy3 1.0.1: Pure Python reimplementation of pcapy. This package is API compatible and a drop-in replacement.
-dev-python/pure-python-adb 0.1.6: Pure python implementation of the adb client
+dev-python/pure-python-adb 0.1.6 0.2.2: Pure python implementation of the adb client
 dev-python/pure-python-adb-homeassistant 0.1.6 0.1.7: Pure python implementation of the adb client
 dev-python/py-nextbus 0.1.2: Minimalistic Python client for the NextBus public API for real-time transit arrival data
 dev-python/py17track 2.2.2: A Simple Python API for 17track.net
@@ -263,7 +263,7 @@ dev-python/pyTibber 0.10.1 0.10.3 0.11.5 0.11.6 0.11.7: A python3 library to com
 dev-python/pyalmond 0.0.2: Python module to talk to the Web Almond API.
 dev-python/pyarlo 0.2.3: Python Arlo is a library written in Python 2.7/3x that exposes the Netgear Arlo cameras as Python objects.
 dev-python/pyasn1 0.4.4 0.4.5: ASN.1 library for Python
-dev-python/pyatmo 2.0.1 2.1.0 2.1.1 2.1.2 2.2.1 2.3.2 2.3.3: Simple API to access Netatmo weather station data from any python script. Design for Home-Assitant (but not only)
+dev-python/pyatmo 2.1.0 2.1.1 2.1.2 2.2.1 2.3.2 2.3.3 3.0.1: Simple API to access Netatmo weather station data from any python script. Design for Home-Assitant (but not only)
 dev-python/pyatv 0.3.9 0.3.12 0.3.13: Library for controlling an Apple TV
 dev-python/pyblackbird 0.5: Python API for talking to Monoprice Blackbird 4k 8x8 HDBaseT Matrix
 dev-python/pybotvac 0.0.15 0.0.16 0.0.17: Python package for controlling Neato pybotvac Connected vacuum robot
