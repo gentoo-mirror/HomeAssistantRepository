@@ -31,6 +31,7 @@ app-misc/homeassistant:gpiozero - interface to GPIO devices on a Raspberry Pi
 app-misc/homeassistant:growl - add Growl Notification Transport Protocol
 app-misc/homeassistant:harmony - Logitech Harmony support
 app-misc/homeassistant:heos - controlling HEOS devices through the HEOS CLI Protocol
+app-misc/homeassistant:here - here_travel_time sensor provides travel time from the HERE Routing API
 app-misc/homeassistant:hkavr - allows you to control Harman Kardon Network Receivers
 app-misc/homeassistant:holidays - generating country, province and state specific sets of holidays on the fly
 app-misc/homeassistant:homekit - works as both HomeKit controller and accessory
