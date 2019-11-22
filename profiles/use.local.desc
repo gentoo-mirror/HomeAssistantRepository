@@ -73,6 +73,7 @@ app-misc/homeassistant:withings - add support for Withings Health API
 app-misc/homeassistant:wled - add support for Aircookie's WLED
 app-misc/homeassistant:wwlln - install support for World Wide Lightning Location Network
 app-misc/homeassistant:xknx - Asynchronous Library for the KNX protocol
+app-misc/homeassistant:yeelight - allows you to control your Yeelight Wifi bulbs
 app-misc/homeassistant:youtube - support for youtube_dl
 app-misc/homeassistant:z-wave - Support for Z-Wave Devices (uncomplete)
 app-misc/homeassistant:zigbee - Support for ZHA/deconz based Zigbee/ZNet Devices
