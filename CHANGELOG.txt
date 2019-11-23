@@ -1,4 +1,15 @@
 2019-11-22
+	* add kiwiki-client-0.1.1
+	* add PyUserInput-0.1.11
+	* add ndms2-client-0.0.10
+	* add kaiterra-async-client-0.0.2
+	* add python-join-api-0.0.4
+	* add pyitachip2ir-0.0.7
+	* add prayer_times_calculator-0.0.3
+	* add pyirishrail-0.0.2
+	* add pyipma-1.2.1
+	* add PyOTA-2.1.0, phx-filters-2.0.2, phx-class-registry-3.0.5
+	* add georss-ign-sismologia-client-0.2
 	* add (old) iglo-1.2.5
 	* add pypca-0.0.6 (only current release in tar.gz)
 	* add rfk101py-0.0.1
