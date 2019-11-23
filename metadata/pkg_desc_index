@@ -157,6 +157,7 @@ dev-python/cryptography 2.3.1 2.5 2.8 2.8-r1: Library providing cryptographic re
 dev-python/csrmesh 0.9.0: Reverse engineered implementation of the CSRMesh bridge protocol
 dev-python/curve25519-donna 1.3 1.3-r1: Implementations of a fast Elliptic-curve Diffie-Hellman primitive
 dev-python/datadog 0.15.0 0.30.0: The Datadog Python library
+dev-python/datapoint 0.4.3 0.9.5: Python interface to the Met Office's Datapoint API
 dev-python/dateparser 0.7.1: Date parsing library designed to parse dates from HTML pages
 dev-python/decora 0.6: Python API for controlling Decora dimmer switches
 dev-python/decora-wifi 1.4: Python API for controlling Leviton Decora Smart WiFi switches
@@ -299,11 +300,19 @@ dev-python/linode-api 4.1.9_beta1: Linode API Library
 dev-python/liveboxplaytv 2.0.2: Python bindings for the Orange Livebox Play TV appliance
 dev-python/lmnotify 0.0.6: A package for sending notifications to LaMetric Time.
 dev-python/locationsharinglib 3.0.11 4.0.2 4.1.0: A library to retrieve coordinates from an google account that has been shared locations of other accounts.
+dev-python/logi-circle 0.2.2: A Python library to communicate with Logi Circle cameras
 dev-python/lomond 0.1.6 0.1.14 0.1.14-r1: Websocket Client Library
-dev-python/luftdaten 0.6.1 0.6.2: Python API for interacting with luftdaten.info.
+dev-python/london-tube-status 0.2: Parse London tube data into a dictionary
+dev-python/luftdaten 0.6.1 0.6.2 0.6.3: Python API for interacting with luftdaten.info.
+dev-python/lw12 0.9.2: Library to control the Lagute LW-12 WiFi LED controller.
+dev-python/lyft_rides 0.2: Unofficial Lyft Rides API Python SDK
+dev-python/magicseaweed 1.0.3: Provides API wrapper to magicseaweed.com.
+dev-python/matrix-client 0.2.0 0.3.2: Client-Server SDK for Matrix
 dev-python/maxcube-api 0.1.0: eQ-3/ELV MAX! Cube Python API
+dev-python/messagebird 1.5.0: MessageBird's REST API
 dev-python/meteoalertapi 0.0.8 0.1.3 0.1.5 0.1.6: A small api to get alerting messages from extreme weather in Europe from https://www.meteoalarm.eu.
 dev-python/meteofrance 0.3.4 0.3.7: Meteo-France weather forecast
+dev-python/mficlient 0.3.0: A remote control client for Ubiquiti's mFi system
 dev-python/minio 4.0.9 5.0.1: MinIO Python Library for Amazon S3 Compatible Cloud Storage for Python
 dev-python/mock-open 1.3.1: A better mock for file I/O
 dev-python/msgpack 0.6.1: MessagePack (de)serializer.
@@ -347,6 +356,7 @@ dev-python/pure-python-adb 0.1.6 0.2.2: Pure python implementation of the adb cl
 dev-python/pure-python-adb-homeassistant 0.1.6 0.1.7: Pure python implementation of the adb client
 dev-python/py-august 0.7.0 0.9.0: Python API for August Smart Lock and Doorbell
 dev-python/py-canary 0.5.0: Python API for Canary Security Camera
+dev-python/py-melissa-climate 2.1.3: Api wrapper for Melissa Climate http://seemelissa.com
 dev-python/py-nextbus 0.1.2: Minimalistic Python client for the NextBus public API for real-time transit arrival data
 dev-python/py17track 2.2.2: A Simple Python API for 17track.net
 dev-python/pyAtome 0.1.1: Get your energy consumption from Atome Linky device
