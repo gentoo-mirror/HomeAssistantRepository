@@ -1,5 +1,14 @@
 2019-11-22 (reverse added today)
 	*
+	* added (my own) release of pyowlet-1.0.3
+	* add orvibo-1.1.1
+	* add oru-0.1.10
+	* add openhomedevice-0.6.3
+	* add openevsewifi-0.4
+	* add onvif-zeep-async-0.2.0
+	* add oemthermostat-1.1
+	* add oasatelematics-0.3
+	* add pynzbgetapi-0.2.0
 	* add pynx584-0.5
 	* add pynut2-2.1.2
 	* downgrade to nuimo-0.1.0

@@ -1,17 +1,17 @@
 # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI="7"
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python client for Owlet monitors"
-HOMEPAGE="https://github.com/craigjmidwinter/pyowlet https://pypi.org/project/pyowlet/"
+DESCRIPTION="A package to interface with the HTTP API of the OpenEnergyMonitor Thermostat"
+HOMEPAGE="https://github.com/Cadair/openenergymonitor_thermostat https://pypi.org/project/oemthermostat/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
