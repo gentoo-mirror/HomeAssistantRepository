@@ -7,22 +7,25 @@ PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="a library to communicate with the RFXtrx family of devices"
-HOMEPAGE="https://github.com/Danielhiversen/pyRFXtrx https://pypi.org/project/pyRFXtrx/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+MY_PN=${PN//-/_}
+DESCRIPTION="A GeoRSS client library for the Queensland Bushfire Alert feed."
+HOMEPAGE="https://github.com/exxamalte/python-georss-qld-bushfire-alert-client https://pypi.org/project/georss-qld-bushfire-alert-client/"
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="LGPL-3"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/pyserial-2.7[${PYTHON_USEDEP}]"
+RDEPEND="~dev-python/georss-client-0.9[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
+
+S="${WORKDIR}/${MY_PN}-${PV}"
 
 python_test() {
 	nosetests --verbose || die

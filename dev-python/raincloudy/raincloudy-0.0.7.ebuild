@@ -7,16 +7,17 @@ PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="a library to communicate with the RFXtrx family of devices"
-HOMEPAGE="https://github.com/Danielhiversen/pyRFXtrx https://pypi.org/project/pyRFXtrx/"
+DESCRIPTION="A Python library to communicate with Melnor RainCloud Smart Garden Watering Irrigation Timer (https://wwww.melnor.com/)"
+HOMEPAGE="https://github.com/tchellomello/raincloudy https://pypi.org/project/raincloudy/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="LGPL-3"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/pyserial-2.7[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/beautifulsoup:4[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

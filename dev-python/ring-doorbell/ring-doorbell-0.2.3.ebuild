@@ -7,22 +7,26 @@ PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="a library to communicate with the RFXtrx family of devices"
-HOMEPAGE="https://github.com/Danielhiversen/pyRFXtrx https://pypi.org/project/pyRFXtrx/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+MY_PN=${PN/-/_}
+DESCRIPTION="A Python library to communicate with Ring Door Bell (https://ring.com/)"
+HOMEPAGE="https://github.com/tchellomello/python-ring-doorbell https://pypi.org/project/ring-doorbell/"
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="LGPL-3"
+LICENSE="LGPL-3+"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/pyserial-2.7[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/pytz[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
+
+S="${WORKDIR}/${MY_PN}-${PV}"
 
 python_test() {
 	nosetests --verbose || die

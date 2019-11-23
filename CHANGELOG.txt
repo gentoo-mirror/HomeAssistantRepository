@@ -1,5 +1,39 @@
 2019-11-22 (reverse added today)
-	*
+	* add rpi-rf-0.9.7
+	* add pifacecommon-4.2.2
+	* add pwmled-1.4.1, Adafruit-PCA9685-1.0.1, python-singleton-0.1.2
+	* add rocketchat-API-0.6.35
+	* add python-ripple-api-0.0.3
+	* add ring-doorbell-0.2.3
+	* downgrade to pyRFXtrx-0.23.0
+	* add RtmAPI-0.7.2
+	* add rjpl-0.3.5
+	* fix pylaunches/Manifest
+	* add pyrecswitch-1.0.2
+	* add recollect-waste-1.0.1
+	* add raspyrfm-client-1.2.8
+	* add raspihats-2.3.0
+	* add eagle200-reader-0.2.2
+	* add raincloudy-0.0.7
+	* bump pyrainbird-0.4.1
+	* add radiotherm-2.0.0
+	* add RachioPy-0.1.3
+	* add pyqwikswitch-0.94
+	* add georss-qld-bushfire-alert-client-0.3
+	* add pushetta-1.0.15
+	* bump ptvsd-4.2.8
+	* add pyps4-2ndscreen-1.0.3
+	* add proliphix-0.5.0
+	* add prezzibenzina-py-1.1.4
+	* add pocketcasts-0.1
+	* add plumlightpad-0.0.11
+	* add pypjlink2-1.2.0
+	* add pilight-0.1.1
+	* add piglow-1.2.5
+	* add ha-philipsjs-0.0.8
+	* add pencompy-0.0.4
+	* add panasonic-viera-0.3.4
+	* add panacotta-0.1
 	* added (my own) release of pyowlet-1.0.3
 	* add orvibo-1.1.1
 	* add oru-0.1.10

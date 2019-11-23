@@ -7,16 +7,16 @@ PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="a library to communicate with the RFXtrx family of devices"
-HOMEPAGE="https://github.com/Danielhiversen/pyRFXtrx https://pypi.org/project/pyRFXtrx/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+DESCRIPTION="Remote debugging server for Python support in Visual Studio and Visual Studio Code"
+HOMEPAGE="https://aka.ms/ptvs https://pypi.org/project/ptvsd/"
+SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.zip"
 
-LICENSE="LGPL-3"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/pyserial-2.7[${PYTHON_USEDEP}]"
+RDEPEND=""
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
