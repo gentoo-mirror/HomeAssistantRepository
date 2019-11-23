@@ -343,10 +343,17 @@ dev-python/nsw-fuel-api-client 1.0.10: API Client for NSW Government Fuel
 dev-python/nuheat 0.3.0: A Python library that allows control of connected NuHeat Signature radiant floor thermostats.
 dev-python/nuimo 0.1.0 0.3.6: Nuimo SDK for Python on Linux
 dev-python/numpy 1.16.2 1.16.3 1.16.4 1.17.0 1.17.1 1.17.3-r1: Fast array and numerical python library
+dev-python/oasatelematics 0.3: Python wrapper for the OASA Telematics API
 dev-python/oauth2client 4.0.0: Library for accessing resources protected by OAuth 2.0
+dev-python/oemthermostat 1.1: A package to interface with the HTTP API of the OpenEnergyMonitor Thermostat
+dev-python/onvif-zeep-async 0.2.0: Async Python Client for ONVIF Camera
+dev-python/openevsewifi 0.4: A python library for communicating with the ESP8266-based wifi module from OpenEVSE
+dev-python/openhomedevice 0.6.3: Provides an API for requesting information from an Openhome device
 dev-python/opensensemap-api 0.1.4 0.1.5: Python client for interacting with the openSenseMap API.
 dev-python/openwebifpy 1.2.7 3.1.0 3.1.1: Provides a python interface to interact with a device running OpenWebIf
 dev-python/openwrt-luci-rpc 1.0.5 1.1.0 1.1.1 1.1.2: Module for interacting with OpenWrt Luci RPC interface
+dev-python/oru 0.1.10: Python client for Orange and Rockland Utility smart energy meters
+dev-python/orvibo 1.1.1: Control Orvibo products.
 dev-python/oyaml 0.9: Ordered YAML: drop-in replacement for PyYAML which preserves dict ordering
 dev-python/packaging 19.0 19.1 19.1-r1: Core utilities for Python packages
 dev-python/paho-mqtt 1.4.0 1.4.0-r1 1.5.0-r1: A client class with support for both MQTT v3.1 and v3.1.1
@@ -477,13 +484,14 @@ dev-python/pynuki 1.3.2 1.3.3: Python bindings for nuki.io bridges
 dev-python/pynut2 2.1.2: A Python abstraction class to access NUT servers.
 dev-python/pynws 0.7.4 0.8.1: Python library to retrieve observations and forecasts from NWS/NOAA
 dev-python/pynx584 0.5: NX584/NX8E Interface Library and Server
+dev-python/pynzbgetapi 0.2.0: Basic Python NZBGet API client.
 dev-python/pyobihai 1.1.0 1.2.0: A Python wrapper for Obihai
 dev-python/pyombi 0.1.5 0.1.10: A python module to retrieve information from Ombi.
 dev-python/pyopenuv 1.0.9: A simple Python API data from openuv.io
 dev-python/pyoppleio 1.0.5: Python library for interfacing with opple mobile control light
 dev-python/pyotgw 0.5_beta0 0.5_beta1: A library to interface with the opentherm gateway through serial or network connection.
 dev-python/pyotp 2.2.6 2.2.7 2.3.0: Python One Time Password Library
-dev-python/pyowlet 1.0.2: Python client for Owlet monitors
+dev-python/pyowlet 1.0.2 1.0.3: Python client for Owlet monitors
 dev-python/pyowm 2.10.0: A Python wrapper around OpenWeatherMap web APIs
 dev-python/pypandoc 1.4: Thin wrapper for pandoc.
 dev-python/pypca 0.0.6: A python cli for PCA 301 smart plugs.
