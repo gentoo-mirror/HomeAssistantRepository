@@ -1,15 +1,15 @@
 BDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=dev-python/setuptools[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] test? ( dev-python/nose[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] dev-python/pytest[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )
-DESCRIPTION=a library to communicate with the RFXtrx family of devices
+DESCRIPTION=PS4 2nd Screen Python Library
 EAPI=7
-HOMEPAGE=https://github.com/Danielhiversen/pyRFXtrx https://pypi.org/project/pyRFXtrx/
+HOMEPAGE=https://github.com/ktnrg45/pyps4-2ndscreen https://pypi.org/project/pyps4-2ndscreen/
 IUSE=test python_targets_python3_6 python_targets_python3_7
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
-LICENSE=LGPL-3
-RDEPEND=>=dev-python/pyserial-2.7[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]
+LICENSE=LGPL-2+
+RDEPEND=>=dev-python/construct-2.9.45[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] >=dev-python/pycryptodomex-3.7.2[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] >=dev-python/aiohttp-3.5.4[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] >=dev-python/click-7.0[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]
 REQUIRED_USE=|| ( python_targets_python3_6 python_targets_python3_7 )
 SLOT=0
-SRC_URI=mirror://pypi/p/pyRFXtrx/pyRFXtrx-0.24.0.tar.gz
+SRC_URI=mirror://pypi/p/pyps4-2ndscreen/pyps4_2ndscreen-1.0.3.tar.gz -> pyps4-2ndscreen-1.0.3.tar.gz
 _eclasses_=distutils-r1	875cdbd904383003dd58e0ad4068470b	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	d21193dfc088687e048e829419568096	python-utils-r1	93ff6f0f8518926f2951ca70ce36e887	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=72e30b5563fe67c5fe0f01dd7ec92285
+_md5_=b43671ab597294017bed91517633bd14
