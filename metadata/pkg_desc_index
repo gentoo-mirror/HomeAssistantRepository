@@ -68,6 +68,7 @@ dev-python/aiohttp-cors 0.7.0: Implements CORS support for aiohttp asyncio-power
 dev-python/aiohue 1.9.0 1.9.1 1.9.2: Python module to talk to Philips Hue.
 dev-python/aioimaplib 0.7.13 0.7.15: Python asyncio IMAP4rev1 client library
 dev-python/aiokafka 0.5.1 0.5.2: Kafka integration with asyncio.
+dev-python/aiolifx 0.6.7: API for local communication with LIFX devices over a LAN with asyncio.
 dev-python/aiomcache 0.6.0: Minimal pure python memcached client
 dev-python/aionotify 0.2.0: Asyncio-powered inotify library
 dev-python/aionotion 1.1.0: A simple Python 3 library for Notion Home Monitoring
@@ -112,6 +113,7 @@ dev-python/beacontools 1.3.1: A Python library for working with various types of
 dev-python/beautifulsoup 4.6.0 4.6.3 4.7.1 4.8.0 4.8.1: Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree
 dev-python/bellows-homeassistant 0.8.1 0.8.2 0.9.0 0.9.1 0.10.0 0.11.0: Library implementing EZSP
 dev-python/bimmer-connected 0.5.3 0.6.0 0.6.2: Library to read data from the BMW Connected Drive portal
+dev-python/bitstring 3.1.5-r1: A pure Python module for creation and analysis of binary data
 dev-python/bizkaibus 0.1.1 0.1.4: Online information for buses of Biscay bus services (Basque Country, Spain).
 dev-python/blinkpy 0.12.1 0.13.1 0.14.0 0.14.1 0.14.1-r1 0.14.2: A Blink camera Python library running on Python 3.
 dev-python/blinkt 0.1.0 0.1.2: Python library for driving Pimoroni Blinkt!
@@ -280,7 +282,7 @@ dev-python/keba-kecontact 0.2.0: A python library to communicate with the KEBA c
 dev-python/keyring 17.1.0 17.1.1 19.2.0: Provides access to the system keyring service
 dev-python/keyrings_alt 3.1.1 3.1.1-r1: Alternate keyring implementations
 dev-python/kiwiki-client 0.1.1: KIWI Lock Client Library
-dev-python/konnected 0.1.4: A Python library for interacting with Konnected home automation controllers (see https://konnected.io)
+dev-python/konnected 0.1.4 0.1.5: A Python library for interacting with Konnected home automation controllers (see https://konnected.io)
 dev-python/lakeside 0.12: Python API for controlling Eufy LED bulbs
 dev-python/libpurecool 0.5.0: Dyson Pure Cool/Hot+Cool Link and 360 eye robot vacuum devices Python library
 dev-python/libpyfoscam 1.1: Python Library for Foscam IP Cameras
@@ -293,6 +295,7 @@ dev-python/liffylights 0.9.4: LIFX Python library
 dev-python/lightify 1.0.7.2: A library to work with OSRAM lightify.
 dev-python/lightwave 0.17: Python library to provide a realiable communication link with LightWaveRF lights and switches.
 dev-python/limitlessled 1.1.3: Control LimitlessLED products.
+dev-python/lmnotify 0.0.6: A package for sending notifications to LaMetric Time.
 dev-python/locationsharinglib 3.0.11 4.0.2 4.1.0: A library to retrieve coordinates from an google account that has been shared locations of other accounts.
 dev-python/lomond 0.1.6 0.1.14 0.1.14-r1: Websocket Client Library
 dev-python/luftdaten 0.6.1 0.6.2: Python API for interacting with luftdaten.info.
@@ -412,8 +415,11 @@ dev-python/pyiss 1.0.1: A simple python3 library for info about the current Inte
 dev-python/pyitachip2ir 0.0.7: A library for sending IR commands to an ITach IP2IR gateway
 dev-python/pyjwt 1.6.4 1.7.1 1.7.1-r1: JSON Web Token implementation in Python
 dev-python/pykira 0.1.1: Communicate with Kira IR-IP modules
+dev-python/pykwb 0.0.10: KWB Easyfire serial library, for inclusion into homeassistant
 dev-python/pylacrosse 0.3.1 0.4: LaCrosse sensor library
-dev-python/pylast 3.0.0 3.0.0-r1: Python interface to last.fm and other api-compatible websites
+dev-python/pylast 3.0.0 3.0.0-r1 3.1.0: A Python interface to Last.fm and Libre.fm
+dev-python/pylaunches 0.2.0: A python packages to get information form upcoming space launches.
+dev-python/pylgnetcast-homeassistant 0.2.0: Client for the LG Smart TV running NetCast 3 or 4.
 dev-python/pylgtv 0.1.9: Library to control webOS based LG Tv devices
 dev-python/pylinky 0.3.0 0.3.3 0.4.0: Get your consumption data from your Enedis account (www.enedis.fr)
 dev-python/pylint 2.2.2 2.4.2 2.4.3 2.4.3-r1 2.4.4: Python code static checker
@@ -564,6 +570,7 @@ dev-python/sunwatcher 0.2.1: Binding to SolarLog HTTP API
 dev-python/tabulate 0.8.5 0.8.5-r1: Pretty-print tabular data
 dev-python/tapsaff 0.2.0 0.2.1: Provides an API for requesting information from taps-aff.co.uk
 dev-python/tellduslive 0.10.10: Communicate with Telldus Live
+dev-python/temescal 0.1: Python API for controlling LG speakers
 dev-python/teslajsonpy 0.0.26 0.2.0: A library to work with Tesla API.
 dev-python/text-unidecode 1.2 1.3: The most basic Text::Unidecode port
 dev-python/thermoworks-smoke 0.1.8: Pull data for your thermoworks smoke thermometer
