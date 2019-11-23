@@ -1,5 +1,32 @@
 2019-11-22 (reverse added today)
 	*
+	* add python-nmap-0.6.1
+	* update pycarwings2-2.9
+	* add niluclient-0.1.2
+	* add niko-home-control-0.2.2 and nclib-0.8.3
+	* add py-nextbusnext-0.1.4
+	* add neurio-0.3.1
+	* add pynetio-0.1.9.1
+	* bump eternalegypt-0.0.10
+	* add pynetgear-0.6.1
+	* add netdata-0.1.2
+	* add python-nest-4.1.0 and sseclient-py-1.7
+	* add pynello-2.0.3
+	* add nsapi-2.7.4
+	* add pynanoleaf-0.0.5
+	* add nad_receiver-0.0.11
+	* add mbddns-0.1.2
+	* add pymysensors-0.18.0 and get-mac-0.8.1
+	* add mycroftapi-2.0 (Homepage dead and License missing)
+	* add mychevy-1.2.0
+	* add pymsteams-0.1.12
+	* add python-mpd2-1.0.0
+	* add motorparts-1.1.0
+	* add pymonoprice-0.3
+	* add basicmodem-0.7
+	* add mitemp-bt-0.0.3 and btlewrap-0.0.8
+	* add millheater-0.3.4
+	* downgrade to bluepy-1.1.4 for miflora==0.4.0
 	* add mficlient-0.3.0
 	* add datapoint-0.9.5 and datapoint-0.4.3
 	* add messagebird-1.5.0
