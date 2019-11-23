@@ -253,6 +253,7 @@ dev-python/i2csense 0.0.4: A library to handle i2c sensors with the Raspberry Pi
 dev-python/iaqualink 0.2.9 0.3.0: Asynchronous library for Jandy iAqualink
 dev-python/idna-ssl 1.1.0: Patch ssl.match_hostname for Unicode(idna) domains support
 dev-python/ifaddr 0.1.4 0.1.5 0.1.6 0.1.6-r1: Enumerates all IP addresses on all network adapters of the system.
+dev-python/iglo 1.2.5: Control iGlo based RGB lights
 dev-python/ihcsdk 2.3.0: IHC Python SDK
 dev-python/imageio 2.3.0 2.6.1: Python library for reading and writing image data
 dev-python/immutables 0.9: Immutable Collections
