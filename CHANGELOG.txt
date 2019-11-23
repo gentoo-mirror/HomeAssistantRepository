@@ -1,4 +1,13 @@
 2019-11-22
+	* add aiolifx-0.6.7, bump bitstring-3.1.5-r1 from main repo for compatibility
+	* add temescal-0.1.tar.gz
+	* add pylgnetcast-homeassistant-0.2.0
+	* add pylaunches-0.2.0
+	* update pylast-3.1.0
+	* add lmnotify-0.0.6
+	* update pylacrosse-0.4
+	* add pykwb-0.0.10
+	* bump konnected-0.1.5
 	* add kiwiki-client-0.1.1
 	* add PyUserInput-0.1.11
 	* add ndms2-client-0.0.10

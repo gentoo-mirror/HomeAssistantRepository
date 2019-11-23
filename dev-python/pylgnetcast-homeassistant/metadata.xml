@@ -7,10 +7,6 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">pylast</remote-id>
-    <maintainer status="unknown">
-      <email>amr.hassan@gmail.com</email>
-      <name>Amr Hassan &lt;amr.hassan@gmail.com&gt; and Contributors</name>
-    </maintainer>
+    <remote-id type="pypi">pylgnetcast-homeassistant</remote-id>
   </upstream>
 </pkgmetadata>

@@ -3,20 +3,20 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="LaCrosse sensor library"
-HOMEPAGE="https://github.com/hthiery/python-lacrosse https://pypi.org/project/pylacrosse/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+DESCRIPTION="Client for the LG Smart TV running NetCast 3 or 4."
+HOMEPAGE="https://github.com/wokar/pylgnetcast https://pypi.org/project/pylgnetcast-homeassistant/"
+SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.dev0.tar.gz -> ${P}.tar.gz"
 
-LICENSE="LGPL-2+"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/pyserial[${PYTHON_USEDEP}]"
+RDEPEND=""
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

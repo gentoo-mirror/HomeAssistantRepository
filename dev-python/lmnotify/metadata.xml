@@ -7,10 +7,10 @@
   </maintainer>
   <herd>python</herd>
   <upstream>
-    <remote-id type="pypi">pylast</remote-id>
+    <remote-id type="pypi">lmnotify</remote-id>
     <maintainer status="unknown">
-      <email>amr.hassan@gmail.com</email>
-      <name>Amr Hassan &lt;amr.hassan@gmail.com&gt; and Contributors</name>
+      <email>keans@gmx.de</email>
+      <name>Ansgar Kellner</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
