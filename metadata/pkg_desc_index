@@ -12,6 +12,8 @@ dev-python/BlinkStick 1.1.8: Python package to control BlinkStick USB devices.
 dev-python/CO2Signal 0.4.1 0.4.2: A package to access the co2signal API
 dev-python/DoorBirdPy 2.0.8: Python wrapper for the DoorBird LAN API v0.21
 dev-python/GitPython 2.1.11: Python Git Library
+dev-python/HAP-python 2.6.0: HomeKit Accessory Protocol implementation in python
+dev-python/Hydrawiser 0.1.1: A Python library to communicate with Hunter Wi-Fi irrigation controllers (https://www.hunter.com) that support the Hydrawise application (https://www.hydrawise.com).
 dev-python/Mastodon-py 1.4.5 1.4.6 1.5.0: Python wrapper for the Mastodon API
 dev-python/OPi-GPIO 0.3.6 0.4.0: A drop-in replacement for RPi.GPIO for the Orange Pi Zero
 dev-python/PlexAPI 3.0.6 3.1.0 3.2.0 3.3.0: Python bindings for the Plex API.
@@ -61,13 +63,14 @@ dev-python/aioftp 0.10.1 0.12.0: ftp client/server for asyncio
 dev-python/aioharmony 0.1.7 0.1.8 0.1.11 0.1.13: Asyncio Python library for connecting to and controlling the Logitech Harmony
 dev-python/aiohttp 3.5.1 3.5.3 3.5.4 3.6.0 3.6.1 3.6.2: http client/server for asyncio
 dev-python/aiohttp-cors 0.7.0: Implements CORS support for aiohttp asyncio-powered asynchronous HTTP server
-dev-python/aiohue 1.9.0 1.9.1: Python module to talk to Philips Hue.
+dev-python/aiohue 1.9.0 1.9.1 1.9.2: Python module to talk to Philips Hue.
 dev-python/aioimaplib 0.7.13 0.7.15: Python asyncio IMAP4rev1 client library
 dev-python/aiokafka 0.5.1 0.5.2: Kafka integration with asyncio.
 dev-python/aiomcache 0.6.0: Minimal pure python memcached client
 dev-python/aionotify 0.2.0: Asyncio-powered inotify library
 dev-python/aionotion 1.1.0: A simple Python 3 library for Notion Home Monitoring
 dev-python/aionursery 0.3.0: Manage background asyncio tasks
+dev-python/aiopvapi 1.6.14: Powerview blinds API wrapper
 dev-python/aioredis 1.2.0: asyncio (PEP 3156) Redis support
 dev-python/aioswitcher 2019.3.21 2019.4.26 2019.6.11: Switcher Boiler Unofficial Bridge and API
 dev-python/aiounifi 7 8 9 10 11: An asynchronous Python library for communicating with Unifi Controller API
@@ -238,11 +241,13 @@ dev-python/herepy 0.6.3.1 0.6.3.3: A Python wrapper around the HERE APIs
 dev-python/hiredis 1.0.0 1.0.0-r1: Python extension that wraps hiredis
 dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hkdf 0.0.3: HMAC-based Extract-and-Expand Key Derivation Function (HKDF)
+dev-python/hlk-sw16 0.0.7: Python client for HLK-SW16
 dev-python/hole 0.3.0 0.4.0 0.5.0: Python API for interacting with *hole.
 dev-python/holidays 0.9.10 0.9.11: Generate and work with holidays in Python
 dev-python/homeassistant-pyozw 0.1.3 0.1.4: python_openzwave is a python wrapper for the openzwave c++ library.
 dev-python/homekit-python 0.15.0: HomeKit Python
 dev-python/homematicip 0.10.6 0.10.7 0.10.9 0.10.10 0.10.11 0.10.13: An API for the homematicip cloud
+dev-python/horimote 0.4.1: Async API wrapper for Samsumgs set-top boxes SMT-G7400 and SMT-G7401.
 dev-python/huawei-lte-api 1.2.0 1.3.0 1.4.3: API For huawei LAN/WAN LTE Modems
 dev-python/i2csense 0.0.4: A library to handle i2c sensors with the Raspberry Pi
 dev-python/iaqualink 0.2.9 0.3.0: Asynchronous library for Jandy iAqualink
@@ -315,6 +320,7 @@ dev-python/plexauth 0.0.4 0.0.5-r1: Handles the authorization flow to obtain tok
 dev-python/plexwebsocket 0.0.1 0.0.3 0.0.4 0.0.5: Support for issuing callbacks in response to Plex websocket client updates.
 dev-python/pluggy 0.12.0 0.12.0-r1: plugin and hook calling mechanisms for python
 dev-python/pmsensor 0.4: Library to read data from environment sensors
+dev-python/poetry 0.12.17: Python dependency management and packaging made easy.
 dev-python/postnl-api 1.0.2 1.2.2: Python wrapper for the PostNL API, a way to track packages and letters.
 dev-python/praw 6.1.1 6.3.1 6.4.0: PRAW, an acronym for Python Reddit API Wrapper, is a python package that allows for simple access to reddit's API.
 dev-python/pre-commit 1.17.0 1.18.2 1.18.3 1.20.0: A framework for managing and maintaining multi-language pre-commit hooks.
@@ -386,6 +392,9 @@ dev-python/pyhaversion 2.2.0 2.2.1 3.0.2 3.1.0: A python module to the newest ve
 dev-python/pyheos 0.4.0 0.4.1 0.5.1 0.5.2 0.6.0: An async python library for controlling HEOS devices through the HEOS CLI Protocol
 dev-python/pyhiveapi 0.2.19.3: A Python library to interface with the Hive API
 dev-python/pyhomematic 0.1.56 0.1.57 0.1.58 0.1.59 0.1.60 0.1.61: Homematic interface
+dev-python/pyhomeworks 0.0.6: Lutron Homeworks Series 4 and 8 interface over Ethernet
+dev-python/pyialarm 0.3: A simple library to interface with iAlarm systems, built for use with Home-Assistant
+dev-python/pyicloud 0.9.1: PyiCloud is a module which allows pythonistas to interact with iCloud webservices.
 dev-python/pyiqvia 0.2.1: A clean, async-focused Python3 API for IQVIA data
 dev-python/pyiss 1.0.1: A simple python3 library for info about the current International Space Station location
 dev-python/pyjwt 1.6.4 1.7.1 1.7.1-r1: JSON Web Token implementation in Python
@@ -416,6 +425,7 @@ dev-python/pyotp 2.2.6 2.2.7 2.3.0: Python One Time Password Library
 dev-python/pyowlet 1.0.2: Python client for Owlet monitors
 dev-python/pyowm 2.10.0: A Python wrapper around OpenWeatherMap web APIs
 dev-python/pypandoc 1.4: Thin wrapper for pandoc.
+dev-python/pypca 0.0.6: A python cli for PCA 301 smart plugs.
 dev-python/pypck 0.6.0 0.6.1 0.6.2 0.6.3: Open source LCN-PCK library written in Python
 dev-python/pypoint 1.0.7 1.0.8 1.1.1 1.1.2: API for Minut Point
 dev-python/pypollencom 2.2.3: A simple API for Pollen.com data
@@ -495,6 +505,7 @@ dev-python/requests-futures 0.9.7 1.0.0: Asynchronous Python HTTP for Humans.
 dev-python/requests-mock 1.6.0 1.7.0: Mock out responses from the requests package
 dev-python/requirements-parser 0.2.0: Parses Pip requirement files
 dev-python/responses 0.10.6: A utility library for mocking out the requests Python library.
+dev-python/rfk101py 0.0.1: RFK101 Proximity card reader over Ethernet
 dev-python/rflink 0.0.37 0.0.46: Library and CLI tools for interacting with RFlink 433MHz transceiver.
 dev-python/ritassist 0.9.3: RitAssist API Access
 dev-python/roku 3.0 3.1: Client for the Roku media player
@@ -543,6 +554,7 @@ dev-python/teslajsonpy 0.0.26 0.2.0: A library to work with Tesla API.
 dev-python/text-unidecode 1.2 1.3: The most basic Text::Unidecode port
 dev-python/thermoworks-smoke 0.1.8: Pull data for your thermoworks smoke thermometer
 dev-python/thingspeak 1.0.0: Client library for the thingspeak.com API
+dev-python/tlslite-ng 0.7.5: Pure python implementation of SSL and TLS.
 dev-python/todoist-python 8.0.2: todoist-python - The official Todoist Python API library
 dev-python/toonapilib 3.0.10 3.2.2 3.2.4: A library to interact with eneco's Toon smart meter via their official api https://api.toon.eu
 dev-python/total-connect-client 0.26 0.27 0.28: Interact with Total Connect 2 alarm systems
@@ -560,6 +572,7 @@ dev-python/ua-parser 0.8.0 0.8.0-r1: Python port of Browserscope's user agent pa
 dev-python/unifiled 0.10 0.11 0.12: Easily connect to Ubiquiti Unifi led devices
 dev-python/uplink 0.9.0: A Declarative HTTP Client for Python.
 dev-python/uplink-protobuf 0.1.0: Protocol Buffers (Protobuf) support for Uplink.
+dev-python/url-normalize 1.4.1: URL normalization for Python
 dev-python/urllib3 1.24 1.24.1 1.24.2 1.25.3 1.25.3-r1: HTTP library with thread-safe connection pooling, file post, and more
 dev-python/user-agents 1.1.0 2.0 2.0-r1: A library to identify devices (phones, tablets) and their capabilities by parsing (browser/HTTP) user agent strings
 dev-python/uvcclient 0.11.0: A remote control client for Ubiquiti's UVC NVR
