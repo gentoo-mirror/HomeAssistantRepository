@@ -27,12 +27,14 @@ dev-python/PyISY 1.1.1 1.1.2: Python module to talk to ISY994 from UDI.
 dev-python/PyMata 2.18 2.20: A Python Protocol Abstraction Library For Arduino Firmata
 dev-python/PyMetno 0.4.6 0.5.0: A library to communicate with the met.no api
 dev-python/PyNaCl 1.3.0: Python binding to the Networking and Cryptography (NaCl) library
+dev-python/PyOTA 2.1.0: IOTA API library for Python
 dev-python/PyQRCode 1.2.1: A QR code generator written purely in Python with SVG, EPS, PNG and terminal output.
 dev-python/PyRMVtransport 0.2.9: Define module-level imports.
 dev-python/PySocks 1.7.1: A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.
 dev-python/PySwitchbot 0.6 0.6.1 0.6.2: A library to communicate with Switchbot
 dev-python/PySwitchmate 0.4.5 0.4.6: A library to communicate with Switchmate
 dev-python/PySyncThru 0.4.3 0.4.4 0.5.0: Automated JSON API based communication with Samsung SyncThru Web Service
+dev-python/PyUserInput 0.1.11: A simple, cross-platform module for mouse and keyboard control
 dev-python/PyViCare 0.1.1: Library to communicate with the Viessmann ViCare API
 dev-python/PyXiaomiGateway 0.11.2 0.12.0 0.12.2 0.12.3 0.12.4: A library to communicate with the Xiaomi Gateway
 dev-python/Pysher 1.0.4: Pusher websocket client for python, based on Erik Kulyk's PythonPusherClient
@@ -217,6 +219,7 @@ dev-python/geojson-client 0.4: A GeoJSON client library.
 dev-python/geopy 1.19.0 1.20.0 1.20.0-r1: A Geocoding Toolbox for Python
 dev-python/georss-client 0.9: A GeoRSS client library.
 dev-python/georss-generic-client 0.2: A GeoRSS generic client library.
+dev-python/georss-ign-sismologia-client 0.2: A GeoRSS client library for the IGN Sismologia feed.
 dev-python/getmac 0.8.1: Get MAC addresses of remote hosts and local interfaces
 dev-python/gitterpy 0.1.7: Python interface for the Gitter API
 dev-python/glances_api 0.2.0: Python API for interacting with Glances.
@@ -272,9 +275,11 @@ dev-python/jsonpath-rw 1.4.0: A robust and significantly extended implementation
 dev-python/jsonrpc-async 0.6 0.6-r1: a compact JSON-RPC client library for asyncio
 dev-python/jsonrpc-base 1.0 1.0.1 1.0.2: A JSON-RPC client library base interface
 dev-python/jsonrpc-websocket 0.6 1.0.1: A JSON-RPC websocket client library for asyncio
+dev-python/kaiterra-async-client 0.0.2: Kaiterra API Async Client
 dev-python/keba-kecontact 0.2.0: A python library to communicate with the KEBA charging stations via udp
 dev-python/keyring 17.1.0 17.1.1 19.2.0: Provides access to the system keyring service
 dev-python/keyrings_alt 3.1.1 3.1.1-r1: Alternate keyring implementations
+dev-python/kiwiki-client 0.1.1: KIWI Lock Client Library
 dev-python/konnected 0.1.4: A Python library for interacting with Konnected home automation controllers (see https://konnected.io)
 dev-python/lakeside 0.12: Python API for controlling Eufy LED bulbs
 dev-python/libpurecool 0.5.0: Dyson Pure Cool/Hot+Cool Link and 360 eye robot vacuum devices Python library
@@ -300,6 +305,7 @@ dev-python/msgpack 0.6.1: MessagePack (de)serializer.
 dev-python/mt_940 4.19.0: A library to parse MT940 files and returns smart Python collections for statistics and manipulation.
 dev-python/multidict 4.4.2 4.5.2: multidict implementation
 dev-python/mypy 0.660 0.710 0.711 0.720 0.740: Optional static typing for Python
+dev-python/ndms2-client 0.0.10: Keenetic NDMS 2.x and 3.x client
 dev-python/nessclient 0.9.10 0.9.13 0.9.14 0.9.15: Implementation/abstraction of the Ness D8x / D16x Serial Interface ASCII protocol
 dev-python/netdisco 2.2.0 2.3.0 2.4.0 2.5.0 2.6.0: Discover devices on your local network
 dev-python/nokia 1.2.0: Library for the Nokia Health API
@@ -315,6 +321,8 @@ dev-python/paho-mqtt 1.4.0 1.4.0-r1 1.5.0-r1: A client class with support for bo
 dev-python/pbr 5.1.3: Inject some useful and sensible default behaviors into setuptools
 dev-python/pcal9535a 0.7: A library to control NXP PCAL9535A GPIO expander
 dev-python/pdunehd 1.3: A Python wrapper for Dune HD media player API
+dev-python/phx-class-registry 3.0.5: Factory+Registry pattern for Python classes.
+dev-python/phx-filters 2.0.2: Validation and data pipelines made easy!
 dev-python/pip 19.0.2: Installs python packages -- replacement for easy_install
 dev-python/pizzapi 0.0.3 0.0.6: A Python wrapper for the Dominos Pizza API
 dev-python/plexauth 0.0.4 0.0.5-r1: Handles the authorization flow to obtain tokens from Plex.tv via external redirection.
@@ -324,6 +332,7 @@ dev-python/pmsensor 0.4: Library to read data from environment sensors
 dev-python/poetry 0.12.17: Python dependency management and packaging made easy.
 dev-python/postnl-api 1.0.2 1.2.2: Python wrapper for the PostNL API, a way to track packages and letters.
 dev-python/praw 6.1.1 6.3.1 6.4.0: PRAW, an acronym for Python Reddit API Wrapper, is a python package that allows for simple access to reddit's API.
+dev-python/prayer_times_calculator 0.0.3: Prayer Times Calculator
 dev-python/pre-commit 1.17.0 1.18.2 1.18.3 1.20.0: A framework for managing and maintaining multi-language pre-commit hooks.
 dev-python/protobuf-python 3.7.0 3.10.0 3.10.0-r1: Google's Protocol Buffers - Python bindings
 dev-python/psutil 5.5.0 5.5.1 5.6.2 5.6.3 5.6.3-r1 5.6.5: Retrieve information on running processes and system utilization
@@ -396,8 +405,11 @@ dev-python/pyhomematic 0.1.56 0.1.57 0.1.58 0.1.59 0.1.60 0.1.61: Homematic inte
 dev-python/pyhomeworks 0.0.6: Lutron Homeworks Series 4 and 8 interface over Ethernet
 dev-python/pyialarm 0.3: A simple library to interface with iAlarm systems, built for use with Home-Assistant
 dev-python/pyicloud 0.9.1: PyiCloud is a module which allows pythonistas to interact with iCloud webservices.
+dev-python/pyipma 1.2.1: Python library to retrieve information from Instituto Português do Mar e Atmosfera.
 dev-python/pyiqvia 0.2.1: A clean, async-focused Python3 API for IQVIA data
+dev-python/pyirishrail 0.0.2: Python library to get the real-time transport information (RTPI) from Irish Rail
 dev-python/pyiss 1.0.1: A simple python3 library for info about the current International Space Station location
+dev-python/pyitachip2ir 0.0.7: A library for sending IR commands to an ITach IP2IR gateway
 dev-python/pyjwt 1.6.4 1.7.1 1.7.1-r1: JSON Web Token implementation in Python
 dev-python/pykira 0.1.1: Communicate with Kira IR-IP modules
 dev-python/pylacrosse 0.3.1 0.4: LaCrosse sensor library
@@ -464,6 +476,7 @@ dev-python/python-gc100 1.0.3_alpha0: A Python-based socket client for Global Ca
 dev-python/python-gitlab 1.6.0 1.13.0: Interact with GitLab API
 dev-python/python-hpilo 3.9 4.3: Accessing the HP iLO XML interface from python
 dev-python/python-izone 1.1.1: A python interface to the iZone airconditioner controller
+dev-python/python-join-api 0.0.4: Python API for interacting with Join by joaoapps.
 dev-python/python-jose-cryptodome 1.3.2 1.3.2-r1: JOSE implementation in Python using pycryptodome
 dev-python/python-miio 0.4.5 0.4.6 0.4.7: Python library for interfacing with Xiaomi smart appliances
 dev-python/python-mystrom 0.5.0: Python API for interacting with myStrom devices
