@@ -7,20 +7,18 @@ PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python bindings for the Orange Livebox Play TV appliance"
-HOMEPAGE="https://github.com/pschmitt/python-liveboxplaytv https://pypi.org/project/liveboxplaytv/"
+DESCRIPTION="A simple library to interface with Alarm.com built for use with Home-Assistant"
+HOMEPAGE="https://github.com/Xorso/pyalarmdotcom https://pypi.org/project/pyalarmdotcom/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
-	dev-python/python-levenshtein[${PYTHON_USEDEP}]
-	>=dev-python/pyteleloisirs-3.3[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/wikipedia[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/beautifulsoup:4[${PYTHON_USEDEP}]
+	dev-python/async_timeout[${PYTHON_USEDEP}]
+	dev-python/aiohttp[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

@@ -1,3 +1,28 @@
+2019-11 23 (reverse added today)
+	* add my own release of pyW215-0.6.0
+	* dg to dlipower-0.7.165
+	* add concord232-0.15.tar (without license)
+	* add webexteamssdk-1.2
+	* add btsmarthub-devicelist-0.2.0
+	* add bthomehub5-devicelist
+	* add beewi-smartclim-0.0.7
+	* add pybbox-0.0.5_alpha0
+	* add Adafruit_BBIO-1.0.0 and Adafruit_BBIO-1.1.1
+	* dg to pyairvisual-3.0.1
+	* add pyairvisual-3.0.3
+	* fix liveboxplaytv Manifest
+	* add pyalarmdotcom-0.3.2
+	* add aladdin-connect-0.3
+	* add pysesame2-1.0.2
+	* add pysensibo-1.0.3
+	* sense-energy-0.7.0
+	* add scsgate-0.1.0
+	* add satel-integra-0.3.4
+	* update pysaj-0.0.14
+	* add pysabnzbd-1.1.0
+	* add russound-rio-0.1.7.ebuild
+	* add russound-0.1.9
+
 2019-11-22 (reverse added today)
 	* add my own hdate-0.9.3
 	* add my own lupupy-0.0.17

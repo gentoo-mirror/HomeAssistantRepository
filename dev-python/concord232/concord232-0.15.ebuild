@@ -7,20 +7,22 @@ PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python bindings for the Orange Livebox Play TV appliance"
-HOMEPAGE="https://github.com/pschmitt/python-liveboxplaytv https://pypi.org/project/liveboxplaytv/"
+DESCRIPTION="GE Concord 4 RS232 Serial Interface Library and Server"
+HOMEPAGE="http://github.com/JasonCarter80/concord232 https://pypi.org/project/concord232/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="all-rights-reserved"
+RESTRICT="mirror"
+
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
-	dev-python/python-levenshtein[${PYTHON_USEDEP}]
-	>=dev-python/pyteleloisirs-3.3[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/wikipedia[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/stevedore[${PYTHON_USEDEP}]
+	dev-python/prettytable[${PYTHON_USEDEP}]
+	dev-python/pyserial[${PYTHON_USEDEP}]
+	dev-python/flask[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
