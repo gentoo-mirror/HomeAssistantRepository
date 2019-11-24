@@ -1,5 +1,19 @@
 2019-11 23 (reverse added today)
-	* add clx-sdk-xms-1.0.0, skybellpy-0.4.0
+	* add pytfiac-0.4, tellsticknet-0.1.2
+	* add tensorflow-1.13.2.ebuild, tensorflow-2.0.0.ebuild
+	* add tellcore-net-0.4, tellcore-py-1.1.3, temperusb-1.5.3
+	* add pytautulli-0.5.0.ebuild & pytautulli-0.5.1.ebuild
+	* add tahoma-api-0.0.14, tank_utility-1.4.0
+	* bump python-tado-0.2.9
+	* add py-synology-0.3.0, python-synology-0.2.0, synology-srm-0.1.2
+	* add python_opendata_transport-0.1.4
+	* add pysupla-0.0.3, swisshydrodata-0.0.3
+	* add steamodd-4.22, pystiebeleltron-0.0.1, pysuez-0.1.17
+	* add spotipy-homeassistant-2.4.4, starlingbank-3.1
+	* update python-songpal-0.11.2
+	* add socialbladeclient-0.2, solaredge-0.0.2, somfy-mylink-synergy-1.0.6
+	* add SmartHab-0.20, smhi-pkg-1.0.10, python-sochain-api-0.0.2
+	* add clx-sdk-xms-1.0.0, skybellpy-0.4.0, smappy-0.2.16
 	* add Adafruit-GPIO-1.0.3, Adafruit-PureIO-0.2.3, Adafruit-SHT31-1.0.2
 	* dg pysesame2-1.0.1
 	* dg eagle200-reader-0.2.1, raspihats-2.2.3, rocketchat-API-0.6.1
