@@ -1,0 +1,16 @@
+BDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-python/setuptools[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] test? ( dev-python/nose[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] dev-python/pytest[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )
+DESCRIPTION=Universal feed parser, handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom 0.3, and Atom 1.0 feeds
+EAPI=7
+HOMEPAGE=https://github.com/kurtmckee/feedparser https://pypi.org/project/feedparser-homeassistant/
+IUSE=test python_targets_python3_6 python_targets_python3_7
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=all-rights-reserved
+RDEPEND=dev-python/sgmllib3k[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]
+REQUIRED_USE=|| ( python_targets_python3_6 python_targets_python3_7 )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://pypi/f/feedparser-homeassistant/feedparser-homeassistant-5.2.2.dev1.tar.gz -> feedparser-homeassistant-5.2.2.tar.gz
+_eclasses_=distutils-r1	875cdbd904383003dd58e0ad4068470b	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	d21193dfc088687e048e829419568096	python-utils-r1	93ff6f0f8518926f2951ca70ce36e887	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_md5_=bdfeba5643a99d58b846092e2eb1dbd0
