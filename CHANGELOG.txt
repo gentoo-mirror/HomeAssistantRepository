@@ -1,5 +1,13 @@
 2019-11 23 (reverse added today)
-	* add pytfiac-0.4, tellsticknet-0.1.2
+	* add my own release of uscisstatus-0.1.1
+	* add upcloud-api-0.4.3
+	* bump tuyaha-0.0.4
+	* add PyTransportNSW-0.1.1, TravisPy-0.3.5
+	* add pytrackr-0.0.5, pytrafikverket-0.1.5.9
+	* add tp-connected-0.0.4, Js2Py-0.66, pyjsparser-2.7.1
+	* add VL53L1X2-0.1.5 and smbus2-0.3.0
+	* add tikteck-0.4, dg to todoist-python-8.0.0
+	* add pytfiac-0.4, tellsticknet-0.1.2, pythinkingcleaner-0.0.3
 	* add tensorflow-1.13.2.ebuild, tensorflow-2.0.0.ebuild
 	* add tellcore-net-0.4, tellcore-py-1.1.3, temperusb-1.5.3
 	* add pytautulli-0.5.0.ebuild & pytautulli-0.5.1.ebuild
