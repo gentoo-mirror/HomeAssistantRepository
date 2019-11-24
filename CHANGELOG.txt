@@ -1,4 +1,9 @@
 2019-11 23 (reverse added today)
+	* add my own release of pypca-0.0.5
+	* fix pushetta/Manifest
+	* dg to pyedimax-0.1
+	* dg to beacontools-1.2.3
+	* dg to dsmr-parser-0.12
 	* add my own release of pyW215-0.6.0
 	* dg to dlipower-0.7.165
 	* add concord232-0.15.tar (without license)
