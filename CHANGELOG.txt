@@ -1,4 +1,16 @@
 2019-11 23 (reverse added today)
+	* bump youtube_dl-2019.11.22
+	* bump pypca-0.0.7, now back on pypi
+	* bump python-juicenet-0.1.6 (own release)
+	* bump mutagen-1.43.0 from main repo
+	* bump frontend-20191119.6
+	* bump shodan-1.20.0, zeroconf-0.24.0, ndms2-client-0.0.11
+	* add proxmoxer-1.0.3, PyFlume-0.2.1
+	* add python-vlc, pyW800rf32, waqiasync-1.0.0
+	* update PyViCare-0.1.2
+	* dg to vsure-1.5.2
+	* add vtjp-0.1.14, pyvizio-0.0.7
+	* bump venstarcolortouch-0.9 and my own release of vultr-1.0.2
 	* add my own release of uscisstatus-0.1.1
 	* add upcloud-api-0.4.3
 	* bump tuyaha-0.0.4
