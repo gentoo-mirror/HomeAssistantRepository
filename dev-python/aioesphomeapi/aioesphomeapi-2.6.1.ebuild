@@ -3,20 +3,22 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7} )
+PYTHON_COMPAT=( python3_{5,6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="TensorFlow is an open source machine learning framework for everyone."
-HOMEPAGE="https://www.tensorflow.org/ https://pypi.org/project/tensorflow/"
-SRC_URI="https://github.com/${PN}/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+DESCRIPTION="ESPHome Native API Component for Home Assistant"
+HOMEPAGE="https://github.com/esphome/aioesphomeapi https://pypi.org/project/aioesphomeapi/"
+SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND="dev-python/attrs[${PYTHON_USEDEP}]
+	~dev-python/protobuf-python-3.6.1[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.21.3[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
