@@ -409,7 +409,7 @@ dev-python/pilight 0.1.1: A pure python module to connect to a pilight daemon to
 dev-python/pip 19.0.2: Installs python packages -- replacement for easy_install
 dev-python/pizzapi 0.0.3 0.0.6: A Python wrapper for the Dominos Pizza API
 dev-python/plexauth 0.0.4 0.0.5-r1: Handles the authorization flow to obtain tokens from Plex.tv via external redirection.
-dev-python/plexwebsocket 0.0.1 0.0.3 0.0.4 0.0.5: Support for issuing callbacks in response to Plex websocket client updates.
+dev-python/plexwebsocket 0.0.1 0.0.3 0.0.4 0.0.5 0.0.6: Support for issuing callbacks in response to Plex websocket client updates.
 dev-python/pluggy 0.12.0 0.12.0-r1: plugin and hook calling mechanisms for python
 dev-python/plumlightpad 0.0.11: A python package that interacts with the Plum Lightpad
 dev-python/pmsensor 0.4: Library to read data from environment sensors
