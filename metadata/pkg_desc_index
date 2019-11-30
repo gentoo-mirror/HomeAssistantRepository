@@ -68,6 +68,7 @@ dev-python/aenum 2.1.2: Advanced Enumerations (compatible with Python's stdlib E
 dev-python/afsapi 0.0.4: Asynchronous Implementation of the Frontier Silicon API
 dev-python/aio-geojson-client 0.11: An async GeoJSON client library.
 dev-python/aio-geojson-geonetnz-quakes 0.11: An async GeoJSON client library for GeoNet NZ Quakes feed.
+dev-python/aio-geojson-nsw-rfs-incidents 0.1: An async GeoJSON client library for NSW Rural Fire Service Incidents.
 dev-python/aioambient 0.1.3 0.2.0 0.3.0 0.3.1 0.3.2: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioasuswrt 1.1.18 1.1.20 1.1.21 1.1.22: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/
 dev-python/aioautomatic 0.6.5: Asyncio library for the Automatic API
