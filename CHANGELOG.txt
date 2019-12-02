@@ -1,6 +1,14 @@
 2019-12-02
 	* add sucks-0.9.4
 	* add atenpdu-0.3.0 / atenpdu-0.3.1
+	* add missing dovado license
+	* substitute missing license in mycroftapi-2.0
+	* add license to pyaftership-0.1.2
+	* fix uri.https (111 cases)
+	* fix 2 illegal UTF chars in DESCRIPTION
+	* align 5 license strings
+	* add discogs-client license "all-rights-reserved"
+	* add 4 missing DESCRIPTION
 
 2019-12-01
 	* remove (wrong) double S="${WORKDIR}/home-assistant-${MY_PV}" in dev ebuild
