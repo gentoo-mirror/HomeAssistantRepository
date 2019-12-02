@@ -737,6 +737,7 @@ dev-python/starlingbank 3.1: An unofficial python package that provides access t
 dev-python/steamodd 4.21 4.22: High level Steam API implementation with low level reusable core
 dev-python/streamlabswater 1.0.1: Unofficial Python library for the Streamlabs Water API
 dev-python/stringcase 1.2.0: String case converter.
+dev-python/sucks 0.9.4: a library for controlling certain robot vacuums
 dev-python/sunwatcher 0.2.1: Binding to SolarLog HTTP API
 dev-python/swisshydrodata 0.0.3: A library to fetch data from the Swiss federal Office for Environment FEON
 dev-python/synology-srm 0.0.7 0.1.2: Synology SRM API
