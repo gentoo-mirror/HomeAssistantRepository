@@ -426,7 +426,7 @@ dev-python/prezzibenzina-py 1.1.4: A python package to get Prezzibenzina info
 dev-python/proliphix 0.4.1 0.5.0: API for Proliphix nt10e network thermostat.
 dev-python/protobuf-python 3.7.0 3.10.0 3.10.0-r1: Google's Protocol Buffers - Python bindings
 dev-python/proxmoxer 1.0.3: Python Wrapper for the Proxmox 2.x API (HTTP and SSH)
-dev-python/psutil 5.5.0 5.5.1 5.6.2 5.6.3 5.6.3-r1 5.6.6: Retrieve information on running processes and system utilization
+dev-python/psutil 5.5.0 5.5.1 5.6.2 5.6.3 5.6.3-r1 5.6.6 5.6.7: Retrieve information on running processes and system utilization
 dev-python/ptvsd 4.2.8: Remote debugging server for Python support in Visual Studio and Visual Studio Code
 dev-python/pubnubsub-handler 1.0.5 1.0.6 1.0.7 1.0.8: Handles the PubNub subscriptions between PubNub and Home-Assistant for Wink
 dev-python/pure-pcapy3 1.0.1: Pure Python reimplementation of pcapy. This package is API compatible and a drop-in replacement.
