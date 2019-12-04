@@ -210,7 +210,7 @@ dev-python/eliqonline 1.2.2: Eliq Online API Library
 dev-python/elkm1-lib 0.7.15: Library to interacting with ElkM1 alarm/automation panel.
 dev-python/emulated-roku 0.1.8: Library to emulate a roku server to serve as a proxyfor remotes such as Harmony
 dev-python/enocean 0.40 0.50.0 0.50.1: EnOcean serial protocol implementation
-dev-python/enturclient 0.2.0: An API client for public transport data from Entur.
+dev-python/enturclient 0.2.0 0.2.1: An API client for public transport data from Entur.
 dev-python/enum-compat 0.0.3: enum/enum34 compatibility package
 dev-python/env-canada 0.0.29 0.0.30: A package to access meteorological data from Environment Canada
 dev-python/envirophat 0.0.6 1.0.1: Enviro pHAT environmental sensor board driver
