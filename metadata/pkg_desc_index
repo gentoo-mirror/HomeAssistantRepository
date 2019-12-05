@@ -219,7 +219,7 @@ dev-python/envs 1.2.6 1.3: Easy access of environment variables from Python with
 dev-python/ephem 3.7.5.3 3.7.6.0: Compute positions of the planets and stars
 dev-python/epson-projector 0.1.3: Epson projector support for Python
 dev-python/epsonprinter 0.0.9: Communication package for Epson Workforce printer
-dev-python/eternalegypt 0.0.7 0.0.8 0.0.9 0.0.10: Netgear LTE modem API
+dev-python/eternalegypt 0.0.7 0.0.8 0.0.9 0.0.10 0.0.11: Netgear LTE modem API
 dev-python/evdev 0.6.1 0.6.2 1.1.2 1.2.0: Bindings to the Linux input handling subsystem
 dev-python/evohome-async 0.3.4_beta1: An async Python client for connecting to the Evohome webservice
 dev-python/evohomeclient 0.3.3 0.3.4: Python client for connecting to the Evohome webservice
@@ -775,7 +775,7 @@ dev-python/typing-extensions 3.6.6: Backported and Experimental Type Hints for P
 dev-python/tzlocal 1.4 1.5.1 2.0.0 2.0.0-r1: tzinfo object for the local timezone
 dev-python/ua-parser 0.8.0 0.8.0-r1: Python port of Browserscope's user agent parser
 dev-python/unifiled 0.10 0.11 0.12: Easily connect to Ubiquiti Unifi led devices
-dev-python/upcloud-api 0.4.3: UpCloud API Client
+dev-python/upcloud-api 0.4.3 0.4.5: UpCloud API Client
 dev-python/uplink 0.9.0: A Declarative HTTP Client for Python.
 dev-python/uplink-protobuf 0.1.0: Protocol Buffers (Protobuf) support for Uplink.
 dev-python/url-normalize 1.4.1: URL normalization for Python
