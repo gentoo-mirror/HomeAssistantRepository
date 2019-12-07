@@ -158,7 +158,7 @@ dev-python/caldav 0.5.0 0.6.1: CalDAV (RFC4791) client library
 dev-python/casttube 0.2.0: YouTube chromecast api
 dev-python/cattrs 0.9.0: Composable complex class support for attrs.
 dev-python/cdu 0.1.3 0.1.3-r1: Cloud Storage Disk Usage Analyzer
-dev-python/certifi 2019.3.9 2019.6.16 2019.9.11 2019.9.11-r1: Python package for providing Mozilla's CA Bundle
+dev-python/certifi 2019.3.9 2019.6.16 2019.9.11-r1: Python package for providing Mozilla's CA Bundle
 dev-python/cffi 1.12.2 1.12.2-r1: Foreign Function Interface for Python calling C code
 dev-python/checkmyreqs 0.3.1: Check your project requirements for Python version compatibility
 dev-python/ciscomobilityexpress 0.1.2 0.1.5 0.3.1 0.3.3: Module to interact with Cisco Mobility Express APIs to fetch connected devices.
@@ -250,8 +250,8 @@ dev-python/geniushub-client 0.6.7 0.6.11 0.6.13 0.6.26 0.6.28 0.6.30: A aiohttp-
 dev-python/geojson 2.5.0: Python bindings and utilities for GeoJSON
 dev-python/geojson-client 0.4: A GeoJSON client library.
 dev-python/geopy 1.19.0 1.20.0 1.20.0-r1: A Geocoding Toolbox for Python
-dev-python/georss-client 0.9: A GeoRSS client library.
-dev-python/georss-generic-client 0.2: A GeoRSS generic client library.
+dev-python/georss-client 0.9 0.10: A GeoRSS client library.
+dev-python/georss-generic-client 0.2 0.3: A GeoRSS generic client library.
 dev-python/georss-ign-sismologia-client 0.2: A GeoRSS client library for the IGN Sismologia feed.
 dev-python/georss-qld-bushfire-alert-client 0.3: A GeoRSS client library for the Queensland Bushfire Alert feed.
 dev-python/get-mac 0.8.1: Get MAC addresses of remote hosts and local interfaces
@@ -505,7 +505,7 @@ dev-python/pygtfs 0.1.5: Models GTFS data in a database.
 dev-python/pyhaversion 2.2.0 2.2.1 3.0.2 3.1.0: A python module to the newest version number of Home Assistant.
 dev-python/pyheos 0.4.0 0.4.1 0.5.1 0.5.2 0.6.0: An async python library for controlling HEOS devices through the HEOS CLI Protocol
 dev-python/pyhiveapi 0.2.19.3: A Python library to interface with the Hive API
-dev-python/pyhomematic 0.1.56 0.1.57 0.1.58 0.1.59 0.1.60 0.1.61: Homematic interface
+dev-python/pyhomematic 0.1.56 0.1.57 0.1.58 0.1.59 0.1.60 0.1.61 0.1.62: Homematic interface
 dev-python/pyhomeworks 0.0.6: Lutron Homeworks Series 4 and 8 interface over Ethernet
 dev-python/pyialarm 0.3: A simple library to interface with iAlarm systems, built for use with Home-Assistant
 dev-python/pyicloud 0.9.1: PyiCloud is a module which allows pythonistas to interact with iCloud webservices.
