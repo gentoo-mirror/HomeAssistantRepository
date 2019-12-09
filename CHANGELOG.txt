@@ -1,3 +1,14 @@
+2019-12-09
+	* bump pyyaml-5.2.0
+	* bump keyring-19.3.0
+	* bump keyrings_alt-3.2.0
+	* add pyintesishome-1.5
+	* bump pyvera-0.3.7
+	* add pysignalclirestapi-0.1.4
+	* bump homeassistant-pyozw-0.1.7
+	* add Signal API useflag
+	* bump home-assistant-frontend-20191204.1
+
 2019-12-05
 	* bump pyhomematic-0.1.62
 	* bump georss-generic-client-0.3 and georss-client-0.10
