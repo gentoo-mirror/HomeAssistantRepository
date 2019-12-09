@@ -56,6 +56,7 @@ app-misc/homeassistant:roku - add support for Roku players
 app-misc/homeassistant:rxv - Library for Yamaha RX-* Receivers
 app-misc/homeassistant:samsungtv - Support for Samsung TV Sets
 app-misc/homeassistant:shodan - Shodan is a search engine for Internet-connected devices
+app-misc/homeassistant:signal - add Support for Moxie's Signal API
 app-misc/homeassistant:sma - add Support for SMA Solar WebConnect
 app-misc/homeassistant:socat - Install socat and socat-zwave startscript
 app-misc/homeassistant:somfy - Somfy devices via their online service

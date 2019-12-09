@@ -1,5 +1,5 @@
 app-misc/home-assistant-cli 0.7.0 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/home-assistant-frontend 20190828.1 20190919.1 20191002.2 20191025.1 20191114.0 20191118.0 20191119.2 20191119.5 20191119.6 20191204.0: The Home Assistant frontend
+app-misc/home-assistant-frontend 20190828.1 20190919.1 20191002.2 20191025.1 20191114.0 20191118.0 20191119.2 20191119.5 20191119.6 20191204.0 20191204.1: The Home Assistant frontend
 app-misc/homeassistant 0.98.5 0.99.3-r1 0.100.1 0.100.2 0.100.3 0.101.1 0.101.2-r3 0.101.3-r2 0.102.0_beta1-r2 0.102.0_beta2 0.102.0_beta3 0.102.0 0.102.1 0.102.2 0.102.3 0.103.0_beta0 9999: Open-source home automation platform running on Python on 3.7 (and 3.6 for a short time)
 dev-embedded/esphome 1.11.2-r1 1.12.0 1.12.0-r1 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
@@ -287,7 +287,7 @@ dev-python/hkdf 0.0.3: HMAC-based Extract-and-Expand Key Derivation Function (HK
 dev-python/hlk-sw16 0.0.7: Python client for HLK-SW16
 dev-python/hole 0.3.0 0.4.0 0.5.0: Python API for interacting with *hole.
 dev-python/holidays 0.9.10 0.9.11: Generate and work with holidays in Python
-dev-python/homeassistant-pyozw 0.1.3 0.1.4 0.1.6: python_openzwave is a python wrapper for the openzwave c++ library.
+dev-python/homeassistant-pyozw 0.1.3 0.1.4 0.1.6 0.1.7: python_openzwave is a python wrapper for the openzwave c++ library.
 dev-python/homekit-python 0.15.0: HomeKit Python
 dev-python/homematicip 0.10.6 0.10.7 0.10.9 0.10.10 0.10.11 0.10.13: An API for the homematicip cloud
 dev-python/horimote 0.4.1: Async API wrapper for Samsumgs set-top boxes SMT-G7400 and SMT-G7401.
@@ -320,8 +320,8 @@ dev-python/jsonrpc-base 1.0 1.0.1 1.0.2: A JSON-RPC client library base interfac
 dev-python/jsonrpc-websocket 0.6 1.0.1: A JSON-RPC websocket client library for asyncio
 dev-python/kaiterra-async-client 0.0.2: Kaiterra API Async Client
 dev-python/keba-kecontact 0.2.0: A python library to communicate with the KEBA charging stations via udp
-dev-python/keyring 17.1.0 17.1.1 19.2.0: Provides access to the system keyring service
-dev-python/keyrings_alt 3.1.1 3.1.1-r1: Alternate keyring implementations
+dev-python/keyring 17.1.0 17.1.1 19.2.0 19.3.0: Provides access to the system keyring service
+dev-python/keyrings_alt 3.1.1 3.1.1-r1 3.2.0: Alternate keyring implementations
 dev-python/kiwiki-client 0.1.1: KIWI Lock Client Library
 dev-python/konnected 0.1.4 0.1.5: A Python library for interacting with Konnected home automation controllers (see https://konnected.io)
 dev-python/lakeside 0.12: Python API for controlling Eufy LED bulbs
@@ -509,6 +509,7 @@ dev-python/pyhomematic 0.1.56 0.1.57 0.1.58 0.1.59 0.1.60 0.1.61 0.1.62: Homemat
 dev-python/pyhomeworks 0.0.6: Lutron Homeworks Series 4 and 8 interface over Ethernet
 dev-python/pyialarm 0.3: A simple library to interface with iAlarm systems, built for use with Home-Assistant
 dev-python/pyicloud 0.9.1: PyiCloud is a module which allows pythonistas to interact with iCloud webservices.
+dev-python/pyintesishome 1.5: A python3 library for running asynchronus communications with IntesisHome Smart AC Controllers
 dev-python/pyipma 1.2.1: Python library to retrieve information from Instituto Portuguges do Mar e Atmosfera.
 dev-python/pyiqvia 0.2.1: A clean, async-focused Python3 API for IQVIA data
 dev-python/pyirishrail 0.0.2: Python library to get the real-time transport information (RTPI) from Irish Rail
@@ -576,6 +577,7 @@ dev-python/pysensibo 1.0.3: asyncio-friendly python API for Sensibo
 dev-python/pyserial 3.1.1: Python Serial Port extension
 dev-python/pyserial-asyncio 0.4-r1: Python Serial Port Extension - Asynchronous I/O support
 dev-python/pysesame2 1.0.1 1.0.2: Python API for Sesame Smartlock made by CANDY HOUSE, Inc.
+dev-python/pysignalclirestapi 0.1.4: Small python library for the Signal Cli REST API
 dev-python/pysma 0.3.1 0.3.2 0.3.4: Library to interface an SMA Solar WebConnect module
 dev-python/pysmartapp 0.3.2: A python library for building a SmartThings SmartApp
 dev-python/pysmartthings 0.6.7 0.6.8 0.6.9: A python library for interacting with the SmartThings cloud API build with asyncio and aiohttp.
@@ -648,7 +650,7 @@ dev-python/pytz 2018.7 2018.9 2019.1 2019.2 2019.3: World timezone definitions f
 dev-python/pyubee 0.5 0.6 0.7: Simple library for getting stats from Ubee routers.
 dev-python/pyunifi 2.16: API for Ubiquity Networks UniFi controller
 dev-python/pyusb 1.0.2: Python USB access module
-dev-python/pyvera 0.2.45 0.3.1 0.3.2 0.3.3 0.3.4 0.3.6: Python API for talking to Vera Z-Wave controllers
+dev-python/pyvera 0.2.45 0.3.1 0.3.2 0.3.3 0.3.4 0.3.6 0.3.7: Python API for talking to Vera Z-Wave controllers
 dev-python/pyversasense 0.0.6: Versasense API consumer
 dev-python/pyvesync 1.1.0: pyvesync is a library to manage Etekcity Switches
 dev-python/pyvesync-v2 0.9.6 0.9.7: Python library for vesync API for Etekcity Smart Outlets & switches
@@ -657,7 +659,7 @@ dev-python/pyvlx 0.2.9 0.2.11: PyVLX is a wrapper for the Velux KLF 200 API.
 dev-python/pywebpush 1.6.0 1.9.2: WebPush publication library
 dev-python/pywemo 0.4.34 0.4.38: Lightweight Python module to discover and control WeMo devices
 dev-python/pyxeoma 1.4.0 1.4.1: Python wrapper for Xeoma web server API
-dev-python/pyyaml 5.1.1 5.1.2: YAML parser and emitter for Python
+dev-python/pyyaml 5.1.1 5.1.2 5.2.0: YAML parser and emitter for Python
 dev-python/pyzabbix 0.7.5: Zabbix API Python interface
 dev-python/qnapstats 0.2.7 0.3.0: Python API for obtaining QNAP NAS system stats
 dev-python/quantum-gateway 0.0.3 0.0.5: Query a Quantum Gateway
