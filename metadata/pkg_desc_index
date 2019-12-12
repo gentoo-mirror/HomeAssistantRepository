@@ -69,7 +69,7 @@ dev-python/afsapi 0.0.4: Asynchronous Implementation of the Frontier Silicon API
 dev-python/aio-geojson-client 0.11: An async GeoJSON client library.
 dev-python/aio-geojson-geonetnz-quakes 0.11: An async GeoJSON client library for GeoNet NZ Quakes feed.
 dev-python/aio-geojson-nsw-rfs-incidents 0.1: An async GeoJSON client library for NSW Rural Fire Service Incidents.
-dev-python/aioambient 0.1.3 0.2.0 0.3.0 0.3.1 0.3.2: A clean, async-friendly library for the Ambient Weather API
+dev-python/aioambient 0.1.3 0.2.0 0.3.0 0.3.1 0.3.2 1.0.2: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioasuswrt 1.1.18 1.1.20 1.1.21 1.1.22: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/
 dev-python/aioautomatic 0.6.5: Asyncio library for the Automatic API
 dev-python/aiobotocore 0.10.1 0.10.2 0.10.4: Async client for aws services using botocore and aiohttp
@@ -480,7 +480,7 @@ dev-python/pydanfossair 0.0.7 0.1.0: Python interface for Danfoss Air HRV system
 dev-python/pydeconz 55 58 59 60 62 64: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
 dev-python/pydelijn 0.5.1: Get realtime info on stop passages of De Lijn (api.delijn.be)
 dev-python/pydispatcher 2.0.5-r1 2.1.2-r1: Multi-producer-multi-consumer signal dispatching mechanism
-dev-python/pydocstyle 3.0.0 4.0.1: Python docstring style checker
+dev-python/pydocstyle 3.0.0 4.0.1 5.0.1: Python docstring style checker
 dev-python/pydoods 1.0.2: A Python wrapper for the DOODS image detection service
 dev-python/pydroid-ipcam 0.8 1.1: A asyncio library for handling android ipcam
 dev-python/pydukeenergy 0.0.6: Interface to the unofficial Duke Energy API
@@ -617,7 +617,7 @@ dev-python/python-join-api 0.0.4: Python API for interacting with Join by joaoap
 dev-python/python-jose-cryptodome 1.3.2 1.3.2-r1: JOSE implementation in Python using pycryptodome
 dev-python/python-juicenet 0.1.5 0.1.6: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
 dev-python/python-lirc 1.2.3: Python bindings for LIRC.
-dev-python/python-miio 0.4.5 0.4.6 0.4.7: Python library for interfacing with Xiaomi smart appliances
+dev-python/python-miio 0.4.5 0.4.6 0.4.7 0.4.8: Python library for interfacing with Xiaomi smart appliances
 dev-python/python-mpd2 1.0.0: A Python MPD client library
 dev-python/python-mystrom 0.5.0: Python API for interacting with myStrom devices
 dev-python/python-nest 4.1.0: Python API and command line tool for talking to the Nest Thermostat
@@ -831,6 +831,7 @@ dev-python/zipp 0.5.0 0.5.1 0.5.1-r1: Backport of pathlib-compatible object wrap
 dev-python/zm-py 0.3.3 0.4.0: A loose python wrapper around the ZoneMinder REST API.
 media-libs/mutagen 1.43.0: Audio metadata tag reader and writer implemented in pure Python
 media-libs/opencv 3.4.1-r7: A collection of algorithms and sample code for various computer vision problems
+net-analyzer/fail2ban 0.10.4-r3: scans log files and bans IPs that show malicious signs
 net-analyzer/speedtest-cli 2.1.1: Command line interface for testing internet bandwidth using speedtest.net
 sci-libs/tensorflow 1.13.2: Computation framework using data flow graphs for scalable machine learning
 www-servers/tornado 5.1.1: Python web framework and asynchronous networking library
