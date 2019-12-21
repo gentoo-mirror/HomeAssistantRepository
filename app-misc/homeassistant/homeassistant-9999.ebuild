@@ -9,7 +9,7 @@ DESCRIPTION="Open-source home automation platform running on Python on 3.7 (and 
 HOMEPAGE="https://home-assistant.io https://git.edevau.net/onkelbeh/HomeAssistantRepository"
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
@@ -307,7 +307,7 @@ RDEPEND="${PYTHON_DEPS}
 	fleetgo? ( ~dev-python/ritassist-0.9.2[${PYTHON_USEDEP}] )
 	flexit? ( ~dev-python/pyflexit-0.3[${PYTHON_USEDEP}] )
 	flic? ( ~dev-python/pyflic-homeassistant-0.4[${PYTHON_USEDEP}] )
-	flume? ( ~dev-python/PyFlume-0.2.1[${PYTHON_USEDEP}] )
+	flume? ( ~dev-python/PyFlume-0.2.4[${PYTHON_USEDEP}] )
 	flunearyou? ( ~dev-python/pyflunearyou-1.0.3[${PYTHON_USEDEP}] )
 	flux_led? ( ~dev-python/flux-led-0.22[${PYTHON_USEDEP}] )
 	folder_watcher? ( ~dev-python/watchdog-0.8.3[${PYTHON_USEDEP}] )
@@ -608,7 +608,7 @@ RDEPEND="${PYTHON_DEPS}
 	repetier? ( ~dev-python/pyrepetier-3.0.5[${PYTHON_USEDEP}] )
 	rflink? ( ~dev-python/rflink-0.0.46[${PYTHON_USEDEP}] )
 	rfxtrx? ( ~dev-python/pyRFXtrx-0.24[${PYTHON_USEDEP}] )
-	ring? ( ~dev-python/ring-doorbell-0.2.3[${PYTHON_USEDEP}] )
+	ring? ( ~dev-python/ring-doorbell-0.2.5[${PYTHON_USEDEP}] )
 	ripple? ( ~dev-python/python-ripple-api-0.0.3[${PYTHON_USEDEP}] )
 	rmvtransport? ( ~dev-python/PyRMVtransport-0.2.9[${PYTHON_USEDEP}] )
 	rocketchat? ( ~dev-python/rocketchat-API-0.6.1[${PYTHON_USEDEP}] )
@@ -643,7 +643,7 @@ RDEPEND="${PYTHON_DEPS}
 	sht31? ( ~dev-python/Adafruit-GPIO-1.0.3[${PYTHON_USEDEP}]
 		   ~dev-python/Adafruit-SHT31-1.0.2[${PYTHON_USEDEP}] )
 	simplepush? ( ~dev-python/simplepush-1.1.4[${PYTHON_USEDEP}] )
-	simplisafe? ( ~dev-python/simplisafe-python-5.3.5[${PYTHON_USEDEP}] )
+	simplisafe? ( ~dev-python/simplisafe-python-5.3.6[${PYTHON_USEDEP}] )
 	sinch? ( ~dev-python/clx-sdk-xms-1.0.0[${PYTHON_USEDEP}] )
 	sisyphus? ( ~dev-python/sisyphus-control-2.2.1[${PYTHON_USEDEP}] )
 	skybeacon? ( ~dev-python/pygatt-4.0.5[${PYTHON_USEDEP}] )
@@ -683,7 +683,7 @@ RDEPEND="${PYTHON_DEPS}
 	ssdp? ( ~dev-python/defusedxml-0.6.0[${PYTHON_USEDEP}]
 		  ~dev-python/netdisco-2.6.0[${PYTHON_USEDEP}] )
 	starline? ( ~dev-python/starline-0.1.3[${PYTHON_USEDEP}] )
-	starlingbank? ( ~dev-python/starlingbank-3.1[${PYTHON_USEDEP}] )
+	starlingbank? ( ~dev-python/starlingbank-3.2[${PYTHON_USEDEP}] )
 	startca? ( ~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}] )
 	statsd? ( ~dev-python/statsd-3.2.1[${PYTHON_USEDEP}] )
 	steam_online? ( ~dev-python/steamodd-4.21[${PYTHON_USEDEP}] )
