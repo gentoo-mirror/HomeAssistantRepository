@@ -634,7 +634,7 @@ dev-python/python-tado 0.2.3 0.2.8 0.2.9: PyTado from chrism0dwk, modfied by w.m
 dev-python/python-telegram-bot 11.1.0: We have made you a wrapper you can't refuse
 dev-python/python-telnet-vlc 1.0.4: A library to control or get information about VLC using Telnet
 dev-python/python-twitch-client 0.6.0: Easy to use Python library for accessing the Twitch API
-dev-python/python-velbus 2.0.21 2.0.22 2.0.23 2.0.26 2.0.27: Python Library for the Velbus protocol
+dev-python/python-velbus 2.0.21 2.0.22 2.0.23 2.0.26 2.0.27 2.0.30: Python Library for the Velbus protocol
 dev-python/python-vlc 1.1.2 3.0.7110: VLC bindings for python.
 dev-python/python-whois 0.7.1 0.7.2: Whois querying and parsing of domain registration information.
 dev-python/python-wink 1.10.3 1.10.5: Access Wink devices via the Wink API
@@ -819,7 +819,7 @@ dev-python/yeelight 0.5.0: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
 dev-python/youtube_dl 2019.9.1 2019.10.16 2019.10.22 2019.10.29 2019.11.5 2019.11.22 2019.11.28: YouTube video downloader
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs
-dev-python/zeroconf 0.21.3 0.22.0 0.23.0 0.23.0-r1 0.24.0 0.24.1: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
+dev-python/zeroconf 0.21.3 0.22.0 0.23.0 0.23.0-r1 0.24.0 0.24.1 0.24.2: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-python/zha-quirks 0.0.21 0.0.22 0.0.23 0.0.25 0.0.26 0.0.27-r1 0.0.28: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
