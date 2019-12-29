@@ -23,6 +23,7 @@ dev-python/Js2Py 0.66: JavaScript to Python Translator & JavaScript interpreter 
 dev-python/Mastodon-py 1.4.5 1.4.6 1.5.0: Python wrapper for the Mastodon API
 dev-python/OPi-GPIO 0.3.6 0.4.0: A drop-in replacement for RPi.GPIO for the Orange Pi Zero
 dev-python/PlexAPI 3.0.6 3.1.0 3.2.0 3.3.0: Python bindings for the Plex API.
+dev-python/PsychroLib 2.3.0: Library of psychrometric functions to calculate thermodynamic properties of air
 dev-python/PyCRC 1.21: Python CRC Calculations Modules
 dev-python/PyChromecast 3.1.0 3.2.0 3.2.1 3.2.2 4.0.1: Python module to talk to Google Chromecast.
 dev-python/PyDispatcher 2.0.5: Multi-producer-multi-consumer signal dispatching mechanism
