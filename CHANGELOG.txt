@@ -1,5 +1,31 @@
+2020-01-03
+	* add gios-0.0.3
+	* bump liveboxplaytv-2.0.3
+	* bump homematicip-0.10.15
+	* bump pyvlx-0.2.12
+	* bump sphinx-2.3.1
+	* bump pyps4-2ndscreen-1.0.4
+	* bump alarmdecoder-1.13.9
+	* add aiopylgtv-0.2.4 (replaces pylgtv)
+	* bump youtube_dl-2020.1.1
+	* bump zeroconf-0.24.4
+	* bump python_opendata_transport-0.2.1
+	* bump pre-commit-1.21.0
+	* bump env-canada-0.0.31
+	* bump denonavr-0.7.11
+	* bump pydeconz-65/66
+	* add aiokef-0.2.2
+	* bump pydeconz-67, remove some oldies
+	* update ring-doorbell-0.2.9
+	* add sentry-sdk-0.13.5
+
 2019-12-31
 	* esphome tighten protobuf dependency
+	* dump rflink-0.0.50
+	* bump beautifulsoup-4.8.2.ebuild
+	* bump holidays-0.9.12
+	* bump ihcsdk-2.4.0
+	* bump pysmartthings-0.7.0
 
 2019-12-30
 	* make fail2ban survive the last python upgrade
@@ -66,7 +92,7 @@
 	* update keyrings_alt-3.4.0
 	* update deps in dev-ebuild, drop old use flag names, replace all with component names
 
-2019-12-12 
+2019-12-12
 	* bump sphinx-2.2.2
 	* bump sphinx-autodoc-typehints-1.10.3
 	* bump tahoma-api-0.0.16
@@ -947,7 +973,7 @@
 	* frontend-20191002.2
 	* homeassistant-0.100.0_beta3
 	* bump beautifulsoup-4.8.1
-	
+
 2019-10-09 go ahead
 	* hack some home-assistant-cli-9999 deps good again
 	* bump frontend-20191002.1
