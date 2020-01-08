@@ -454,7 +454,7 @@ dev-python/pyEight 0.1.1 0.1.2: Provides a python api to interact with an Eight 
 dev-python/pyEmby 1.6: Provides a python interface to interact with a Emby media server.
 dev-python/pyHS100 0.3.3 0.3.4 0.3.5: Interface for TPLink HS1xx plugs, HS2xx wall switches & LB1xx bulbs
 dev-python/pyHik 0.2.2 0.2.3 0.2.4 0.2.5: Provides a python api to interact with a Hikvision camera event stream and toggle motion detection.
-dev-python/pyRFXtrx 0.23.0 0.24.0: a library to communicate with the RFXtrx family of devices
+dev-python/pyRFXtrx 0.23.0 0.24.0 0.25.0: a library to communicate with the RFXtrx family of devices
 dev-python/pySDCP 1: SDCP library to control Sony Projectors
 dev-python/pyTibber 0.10.1 0.10.3 0.11.5 0.11.6 0.11.7 0.12.0: A python3 library to communicate with Tibber
 dev-python/pyW215 0.6.0: Interface for d-link W215 Smart Plugs.
