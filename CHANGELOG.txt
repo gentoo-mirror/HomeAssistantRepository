@@ -1,3 +1,7 @@
+2020-01-08
+  * allow some not so dusty libs for esphome
+  * fix manifest in dev-python/brother
+
 2020-01-07
 	* bump pyvizio-0.0.9
 	* bump python-velbus-2.0.35
