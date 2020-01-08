@@ -1,3 +1,31 @@
+2020-01-07
+	* bump pyvizio-0.0.9
+	* bump python-velbus-2.0.35
+	* bump teslajsonpy-0.2.2
+	* add surepy-0.1.10
+	* add brother-0.1.4
+	* update androidtv-0.0.37
+	* bump python-synology-0.3.0
+	* bump pyvizio-0.0.11
+	* bump hass-nabucasa-0.31
+	* bump androidtv-0.0.38
+	* bump adb-shell-0.1.1
+	* bump pyvizio-0.0.12
+	* add tmb-0.0.4
+	* bump frontend-20200107.0
+	* gios-0.0.3 fix license string
+	* aiokef-0.2.2 add MIT license
+	* aiopylgtv-0.2.4 add MIT license
+	* gios-0.0.3.ebuild remove illegal char from DESCRIPTION
+
+2020-01-04
+	* add elgato-0.1.0
+	* bump elgato-0.2.0
+	* bump adguardhome-0.4.0
+	* bump wled-0.2.1
+	* bump twentemilieu-0.2.0
+	* fix esphome manifest
+
 2020-01-03
 	* add gios-0.0.3
 	* bump liveboxplaytv-2.0.3
