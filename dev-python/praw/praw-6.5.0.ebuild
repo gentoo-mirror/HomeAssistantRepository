@@ -3,15 +3,15 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python3_{6,7} )
+PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Homematic interface"
-HOMEPAGE="https://github.com/danielperna84/pyhomematic https://pypi.org/project/pyhomematic/"
+DESCRIPTION="PRAW, an acronym for Python Reddit API Wrapper, is a python package that allows for simple access to reddit's API."
+HOMEPAGE="https://praw.readthedocs.org/ https://pypi.org/project/praw/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
