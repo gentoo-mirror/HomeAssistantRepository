@@ -95,6 +95,8 @@ dev-python/roombapy:mqtt - Use paho mqtt client for communication
 dev-python/roombapy:opencv - Use opencv for map generation
 dev-python/roombapy:pillow - Use pillow for map generation
 dev-python/sphinx:net - enable internet capabilities
+dev-python/sphinx-autodoc-annotation:net - enable internet capabilities
+dev-python/sphinx-autodoc-typehints:net - enable internet capabilities
 media-libs/opencv:contrib - Install user contributed scripts from opencv_contrib (Experimental!)
 media-libs/opencv:contrib_cvv - CVV module requires Qt5
 media-libs/opencv:contrib_dnn - DNN module contrib requires tiny dnn

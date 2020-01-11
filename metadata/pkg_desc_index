@@ -1,6 +1,6 @@
 app-misc/home-assistant-cli 0.7.0 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/home-assistant-frontend 20191002.2 20191025.1 20191114.0 20191119.2 20191119.5 20191119.6 20191204.1 20200108.0: The Home Assistant frontend
-app-misc/homeassistant 0.100.2 0.100.3 0.101.1 0.101.2-r3 0.101.3-r2 0.102.0_beta1-r2 0.102.0_beta3 0.102.0 0.102.1 0.102.2 0.102.3 0.103.0_beta1 0.103.0 0.103.1 0.103.2 0.103.3 0.103.4 0.103.5 0.103.6 0.104.0_beta0 9999: Open-source home automation platform running on Python on 3.7 (and 3.6 for a short time)
+app-misc/homeassistant 0.100.2 0.100.3 0.101.1 0.101.2-r3 0.101.3-r2 0.102.0_beta1-r2 0.102.1 0.102.2 0.102.3 0.103.0 0.103.1 0.103.2 0.103.3 0.103.4 0.103.5 0.103.6 0.104.0_beta0 0.104.0_beta2 9999: Open-source home automation platform running on Python on 3.7 (and 3.6 for a short time)
 dev-embedded/esphome 1.11.2-r1 1.12.0 1.12.0-r1 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3 1.14.3-r1 1.14.3-r2 1.14.3-r3 1.14.3-r4 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 3.6.1-r1 3.6.3 3.6.4 3.6.5 3.6.7 4.0.0 4.0.3 4.0.3-r1 4.0.3-r2: An open source ecosystem for IoT development
@@ -174,7 +174,7 @@ dev-python/clx-sdk-xms 1.0.0: Library for CLX Communications HTTP REST Messaging
 dev-python/codecov 2.0.15: Hosted coverage reports for Github, Bitbucket and Gitlab
 dev-python/coinbase 2.1.0: Coinbase API client library
 dev-python/coinmarketcap 5.0.3: Python wrapper around the coinmarketcap.com API.
-dev-python/colorlog 3.2.0 4.0.0 4.0.2 4.0.2-r1: Log formatting with colors
+dev-python/colorlog 3.2.0 4.0.0 4.0.2 4.0.2-r1 4.1.0: Log formatting with colors
 dev-python/concord232 0.15: GE Concord 4 RS232 Serial Interface Library and Server
 dev-python/connect-box 0.2.5: Python client for interacting with Compal CH7465LG devices.
 dev-python/construct 2.9.45 2.9.45-r1: A powerful declarative parser for binary data
@@ -425,7 +425,7 @@ dev-python/pmsensor 0.4: Library to read data from environment sensors
 dev-python/pocketcasts 0.1: python module to interact with the unofficial Pocket Casts API.
 dev-python/poetry 0.12.17: Python dependency management and packaging made easy.
 dev-python/postnl-api 1.0.2 1.2.2: Python wrapper for the PostNL API, a way to track packages and letters.
-dev-python/praw 6.1.1 6.3.1 6.4.0: PRAW, an acronym for Python Reddit API Wrapper, is a python package that allows for simple access to reddit's API.
+dev-python/praw 6.1.1 6.3.1 6.4.0 6.5.0: PRAW, an acronym for Python Reddit API Wrapper, is a python package that allows for simple access to reddit's API.
 dev-python/prayer_times_calculator 0.0.3: Prayer Times Calculator
 dev-python/pre-commit 1.17.0 1.18.2 1.18.3 1.20.0 1.21.0: A framework for managing and maintaining multi-language pre-commit hooks.
 dev-python/prezzibenzina-py 1.1.4: A python package to get Prezzibenzina info
@@ -460,13 +460,14 @@ dev-python/pyTibber 0.10.1 0.10.3 0.11.5 0.11.6 0.11.7 0.12.0: A python3 library
 dev-python/pyW215 0.6.0: Interface for d-link W215 Smart Plugs.
 dev-python/pyW800rf32 0.1 0.3: A library to communicate with the W800rf32 family of devices
 dev-python/pyads 3.0.7 3.1.2: Python wrapper for TwinCAT ADS library
+dev-python/pyaehw4a1 0.3.1 0.3.4: Python interface for Hisense AEH-W4A1 module
 dev-python/pyaftership 0.1.2: A module to get information pending parcels.
 dev-python/pyairvisual 3.0.1 3.0.3: A simple API for AirVisual air quality data
 dev-python/pyalarmdotcom 0.3.2: A simple library to interface with Alarm.com built for use with Home-Assistant
 dev-python/pyalmond 0.0.2: Python module to talk to the Web Almond API.
 dev-python/pyarlo 0.2.3: Python Arlo is a library written in Python 2.7/3x that exposes the Netgear Arlo cameras as Python objects.
 dev-python/pyasn1 0.4.4 0.4.5: ASN.1 library for Python
-dev-python/pyatmo 2.2.1 2.3.2 3.0.1 3.1.0: Simple API to access Netatmo weather station data from any python script. Design for Home-Assitant (but not only)
+dev-python/pyatmo 2.2.1 2.3.2 3.0.1 3.1.0 3.2.0: Simple API to access Netatmo weather station data from any python script. Design for Home-Assitant (but not only)
 dev-python/pyatv 0.3.9 0.3.12 0.3.13: Library for controlling an Apple TV
 dev-python/pybbox 0.0.5_alpha0: a simple python3 library for the Bouygues BBox Routeur API
 dev-python/pyblackbird 0.5: Python API for talking to Monoprice Blackbird 4k 8x8 HDBaseT Matrix
@@ -486,7 +487,7 @@ dev-python/pydanfossair 0.0.7 0.1.0: Python interface for Danfoss Air HRV system
 dev-python/pydeconz 60 62 64 65 66 67: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
 dev-python/pydelijn 0.5.1: Get realtime info on stop passages of De Lijn (api.delijn.be)
 dev-python/pydispatcher 2.0.5-r1 2.1.2-r1: Multi-producer-multi-consumer signal dispatching mechanism
-dev-python/pydocstyle 3.0.0 4.0.1 5.0.1: Python docstring style checker
+dev-python/pydocstyle 3.0.0 4.0.1 5.0.1 5.0.2: Python docstring style checker
 dev-python/pydoods 1.0.2: A Python wrapper for the DOODS image detection service
 dev-python/pydroid-ipcam 0.8 1.1: A asyncio library for handling android ipcam
 dev-python/pydukeenergy 0.0.6: Interface to the unofficial Duke Energy API
@@ -511,7 +512,7 @@ dev-python/pygtfs 0.1.5: Models GTFS data in a database.
 dev-python/pyhaversion 2.2.0 2.2.1 3.0.2 3.1.0: A python module to the newest version number of Home Assistant.
 dev-python/pyheos 0.4.0 0.4.1 0.5.1 0.5.2 0.6.0: An async python library for controlling HEOS devices through the HEOS CLI Protocol
 dev-python/pyhiveapi 0.2.19.3: A Python library to interface with the Hive API
-dev-python/pyhomematic 0.1.56 0.1.57 0.1.58 0.1.59 0.1.60 0.1.61 0.1.62: Homematic interface
+dev-python/pyhomematic 0.1.57 0.1.58 0.1.59 0.1.60 0.1.61 0.1.62 0.1.63: Homematic interface
 dev-python/pyhomeworks 0.0.6: Lutron Homeworks Series 4 and 8 interface over Ethernet
 dev-python/pyialarm 0.3: A simple library to interface with iAlarm systems, built for use with Home-Assistant
 dev-python/pyicloud 0.9.1: PyiCloud is a module which allows pythonistas to interact with iCloud webservices.
@@ -526,7 +527,7 @@ dev-python/pyjwt 1.6.4 1.7.1 1.7.1-r1: JSON Web Token implementation in Python
 dev-python/pykira 0.1.1: Communicate with Kira IR-IP modules
 dev-python/pykwb 0.0.8 0.0.10: KWB Easyfire serial library, for inclusion into homeassistant
 dev-python/pylacrosse 0.3.1 0.4: LaCrosse sensor library
-dev-python/pylast 3.0.0 3.0.0-r1 3.1.0: A Python interface to Last.fm and Libre.fm
+dev-python/pylast 3.0.0 3.0.0-r1 3.1.0 3.2.0: A Python interface to Last.fm and Libre.fm
 dev-python/pylaunches 0.2.0: A python packages to get information form upcoming space launches.
 dev-python/pylgnetcast-homeassistant 0.2.0: Client for the LG Smart TV running NetCast 3 or 4.
 dev-python/pylgtv 0.1.9: Library to control webOS based LG Tv devices
@@ -660,7 +661,7 @@ dev-python/pyvera 0.2.45 0.3.1 0.3.2 0.3.3 0.3.4 0.3.6 0.3.7: Python API for tal
 dev-python/pyversasense 0.0.6: Versasense API consumer
 dev-python/pyvesync 1.1.0: pyvesync is a library to manage Etekcity Switches
 dev-python/pyvesync-v2 0.9.6 0.9.7: Python library for vesync API for Etekcity Smart Outlets & switches
-dev-python/pyvizio 0.0.7 0.0.9 0.0.11 0.0.12: Python library for interfacing with Vizio SmartCast TVs and Sound Bars (2016+ models)
+dev-python/pyvizio 0.0.7 0.0.9 0.0.11 0.0.12 0.0.15: Python library for interfacing with Vizio SmartCast TVs and Sound Bars (2016+ models)
 dev-python/pyvlx 0.2.9 0.2.11 0.2.12: PyVLX is a wrapper for the Velux KLF 200 API.
 dev-python/pywebpush 1.6.0 1.9.2: WebPush publication library
 dev-python/pywemo 0.4.34 0.4.38: Lightweight Python module to discover and control WeMo devices
@@ -713,7 +714,7 @@ dev-python/sepaxml 2.2.0: Python SEPA XML implementations
 dev-python/setuptools-markdown 0.2: Use Markdown for your project description
 dev-python/sgmllib3k 1.0.0: Py3k port of sgmllib.
 dev-python/sharp_aquos_rc 0.3.2 0.4: Control Sharp Aquos SmartTVs through the IP interface.
-dev-python/shodan 1.13.0 1.15.0 1.17.0 1.19.0 1.19.1 1.20.0 1.21.0 1.21.1: Python library and command-line utility for Shodan (https://developer.shodan.io)
+dev-python/shodan 1.15.0 1.17.0 1.19.0 1.19.1 1.20.0 1.21.0 1.21.1 1.21.2: Python library and command-line utility for Shodan (https://developer.shodan.io)
 dev-python/simplepush 1.1.4: Simplepush python library
 dev-python/simplisafe-python 4.2.0 4.3.0 5.0.1 5.1.0 5.2.0 5.3.5 5.3.6: A Python3, async interface to the SimpliSafe API
 dev-python/sisyphus-control 2.2.1: Control your Sisyphus kinetic art tables (sisyphus-industries.com)
