@@ -7,16 +7,17 @@ PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="A library to work with Tesla API."
-HOMEPAGE="https://github.com/zabuldon/teslajsonpy https://pypi.org/project/teslajsonpy/"
+DESCRIPTION="Communicate with the AVM FritzBox"
+HOMEPAGE="https://github.com/kbr/fritzconnection https://pypi.org/project/fritzconnection/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
+RDEPEND="~dev-python/lxml-4.3.4[${PYTHON_USEDEP}]
+	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
