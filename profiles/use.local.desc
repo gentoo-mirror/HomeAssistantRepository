@@ -74,6 +74,7 @@ app-misc/homeassistant:tradfri - Control/observe IKEA Tradfri devices
 app-misc/homeassistant:ubee - getting stats from Ubee routers
 app-misc/homeassistant:unify - talk with a Ubiquiti Unify Controller
 app-misc/homeassistant:vera - add support for Vera Z-Wave Controller
+app-misc/homeassistant:webostv - allows you to control a LG webOS Smart TV
 app-misc/homeassistant:wemo - discover and control WeMo devices
 app-misc/homeassistant:wink - support for Wink Z-Wave Plus Smart Hub
 app-misc/homeassistant:withings - add support for Withings Health API
