@@ -21,6 +21,7 @@ app-misc/homeassistant:daikin - Daikin wireless controllers
 app-misc/homeassistant:darksky - use dark sky weather data
 app-misc/homeassistant:denonavr - Automation Library for Denon AVR receivers
 app-misc/homeassistant:discogs - Discogs Client
+app-misc/homeassistant:emulated_roku - emulate Roku API for Harmony and Android remotes
 app-misc/homeassistant:enigma - Support for Enigma2 boxes with openwebif support
 app-misc/homeassistant:enocean - Support for Enocean devices
 app-misc/homeassistant:envoy - Reads electricity production and consumption from an Enphase Envoy
