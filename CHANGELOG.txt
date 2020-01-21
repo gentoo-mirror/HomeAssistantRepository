@@ -1,3 +1,12 @@
+2020-01-21 homeassistant-0.104.3
+  * homeassistant-0.104.3
+  * bump emulated-roku-0.2.0
+  * bump aiokef-0.2.6
+  * bump zigpy-zigate-0.5.1
+  * bump PyYAML-5.3
+  * bump pyintesishome-1.6
+  * bump pyipma-2.0.2
+
 2020-01-18 homeassistant-0.104.2
   * bump pyvizio-0.1.1
   * bump pyatmo-3.2.2
