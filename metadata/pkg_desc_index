@@ -1,6 +1,6 @@
 app-misc/home-assistant-cli 0.7.0 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/home-assistant-frontend 20191002.2 20191025.1 20191119.5 20191119.6 20191204.1 20200108.0 20200108.2: The Home Assistant frontend
-app-misc/homeassistant 0.100.2 0.100.3 0.101.1 0.101.2-r3 0.101.3-r2 0.102.1 0.102.2 0.102.3 0.103.0 0.103.1 0.103.2 0.103.3 0.103.4 0.103.5 0.103.6 0.104.0_beta2 0.104.0_beta4 0.104.0_beta5 0.104.0 0.104.1 0.104.2 9999: Open-source home automation platform running on Python on 3.7 (and 3.6 for a short time)
+app-misc/homeassistant 0.100.2 0.100.3 0.101.1 0.101.2-r3 0.101.3-r2 0.102.1 0.102.2 0.102.3 0.103.0 0.103.1 0.103.2 0.103.3 0.103.4 0.103.5 0.103.6 0.104.0_beta2 0.104.0_beta4 0.104.0_beta5 0.104.0 0.104.1 0.104.2 0.104.3 9999: Open-source home automation platform running on Python on 3.7 (and 3.6 for a short time)
 dev-embedded/esphome 1.11.2-r1 1.12.0 1.12.0-r1 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3 1.14.3-r1 1.14.3-r2 1.14.3-r3 1.14.3-r4 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 3.6.1-r1 3.6.3 3.6.4 3.6.5 3.6.7 4.0.0 4.0.3 4.0.3-r1 4.0.3-r2: An open source ecosystem for IoT development
@@ -86,7 +86,7 @@ dev-python/aiohttp-cors 0.7.0: Implements CORS support for aiohttp asyncio-power
 dev-python/aiohue 1.9.0 1.9.1 1.9.2 1.10.1: Python module to talk to Philips Hue.
 dev-python/aioimaplib 0.7.13 0.7.15: Python asyncio IMAP4rev1 client library
 dev-python/aiokafka 0.5.1 0.5.2: Kafka integration with asyncio.
-dev-python/aiokef 0.2.2 0.2.5: A module for asynchronously interacting with KEF wireless speakers.
+dev-python/aiokef 0.2.2 0.2.5 0.2.6: A module for asynchronously interacting with KEF wireless speakers.
 dev-python/aiolifx 0.6.7: API for local communication with LIFX devices over a LAN with asyncio.
 dev-python/aiolifx-effects 0.2.2: aiolifx light effects
 dev-python/aiomcache 0.6.0: Minimal pure python memcached client
@@ -213,7 +213,7 @@ dev-python/eebrightbox 0.0.4: Connector for EE BrightBox routers.
 dev-python/elgato 0.1.0 0.2.0: Asynchronous Python client for Elgato Key Lights.
 dev-python/eliqonline 1.2.2: Eliq Online API Library
 dev-python/elkm1-lib 0.7.15: Library to interacting with ElkM1 alarm/automation panel.
-dev-python/emulated-roku 0.1.8 0.1.9: Library to emulate a roku server to serve as a proxyfor remotes such as Harmony
+dev-python/emulated-roku 0.1.8 0.1.9 0.2.0: Library to emulate a roku server to serve as a proxyfor remotes such as Harmony
 dev-python/enocean 0.40 0.50.0 0.50.1: EnOcean serial protocol implementation
 dev-python/enturclient 0.2.0 0.2.1: An API client for public transport data from Entur.
 dev-python/enum-compat 0.0.3: enum/enum34 compatibility package
@@ -516,8 +516,8 @@ dev-python/pyhomematic 0.1.57 0.1.58 0.1.59 0.1.60 0.1.61 0.1.62 0.1.63: Homemat
 dev-python/pyhomeworks 0.0.6: Lutron Homeworks Series 4 and 8 interface over Ethernet
 dev-python/pyialarm 0.3: A simple library to interface with iAlarm systems, built for use with Home-Assistant
 dev-python/pyicloud 0.9.1: PyiCloud is a module which allows pythonistas to interact with iCloud webservices.
-dev-python/pyintesishome 1.5: A python3 library for running asynchronus communications with IntesisHome Smart AC Controllers
-dev-python/pyipma 1.2.1: Python library to retrieve information from Instituto Portuguges do Mar e Atmosfera.
+dev-python/pyintesishome 1.5 1.6: A python3 library for running asynchronus communications with IntesisHome Smart AC Controllers
+dev-python/pyipma 1.2.1 2.0.2: Python library to retrieve information from Instituto Portuguges do Mar e Atmosfera.
 dev-python/pyiqvia 0.2.1: A clean, async-focused Python3 API for IQVIA data
 dev-python/pyirishrail 0.0.2: Python library to get the real-time transport information (RTPI) from Irish Rail
 dev-python/pyiss 1.0.1: A simple python3 library for info about the current International Space Station location
@@ -666,7 +666,7 @@ dev-python/pyvlx 0.2.9 0.2.11 0.2.12: PyVLX is a wrapper for the Velux KLF 200 A
 dev-python/pywebpush 1.6.0 1.9.2: WebPush publication library
 dev-python/pywemo 0.4.34 0.4.38: Lightweight Python module to discover and control WeMo devices
 dev-python/pyxeoma 1.4.0 1.4.1: Python wrapper for Xeoma web server API
-dev-python/pyyaml 5.1.1 5.1.2 5.2: YAML parser and emitter for Python
+dev-python/pyyaml 5.1.1 5.1.2 5.2 5.3: YAML parser and emitter for Python
 dev-python/pyzabbix 0.7.5: Zabbix API Python interface
 dev-python/qnapstats 0.2.7 0.3.0: Python API for obtaining QNAP NAS system stats
 dev-python/quantum-gateway 0.0.3 0.0.5: Query a Quantum Gateway
@@ -836,7 +836,7 @@ dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
 dev-python/zigpy-deconz 0.2.1 0.2.2 0.3.0 0.4.0 0.5.0 0.6.0 0.7.0: A library which communicates with Deconz radios for zigpy
 dev-python/zigpy-homeassistant 0.7.0 0.7.1 0.8.0 0.9.0 0.10.0 0.11.0 0.12.0: Library implementing a ZigBee stack
 dev-python/zigpy-xbee-homeassistant 0.2.0 0.2.1 0.3.0 0.4.0 0.5.0 0.6.0 0.7.0 0.8.0: A library which communicates with XBee radios for zigpy
-dev-python/zigpy-zigate 0.1.0 0.2.0 0.3.1 0.4.0 0.4.1 0.5.0: A library which communicates with ZiGate radios for zigpy
+dev-python/zigpy-zigate 0.1.0 0.2.0 0.3.1 0.4.0 0.4.1 0.5.0 0.5.1: A library which communicates with ZiGate radios for zigpy
 dev-python/zipp 0.5.0 0.5.1 0.5.1-r1: Backport of pathlib-compatible object wrapper for zip files
 dev-python/zm-py 0.3.3 0.4.0: A loose python wrapper around the ZoneMinder REST API.
 media-libs/mutagen 1.43.0: Audio metadata tag reader and writer implemented in pure Python
