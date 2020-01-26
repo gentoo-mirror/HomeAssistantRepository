@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python library for interfacing with Vizio SmartCast TVs and Sound Bars (2016+ models)"
-HOMEPAGE="https://github.com/vkorn/pyvizio https://pypi.org/project/pyvizio/"
+DESCRIPTION="Python library and command-line utility for Shodan (https://developer.shodan.io)"
+HOMEPAGE="https://github.com/achillean/shodan-python/tree/master https://pypi.org/project/shodan/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -16,10 +16,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/requests-2.2.1[${PYTHON_USEDEP}]
+	dev-python/click[${PYTHON_USEDEP}]
+	dev-python/click-plugins[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
