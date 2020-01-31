@@ -1,6 +1,6 @@
 app-misc/home-assistant-cli 0.7.0 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/home-assistant-frontend 20191002.2 20191025.1 20191119.5 20191119.6 20191204.1 20200108.0 20200108.2 20200129.0: The Home Assistant frontend
-app-misc/homeassistant 0.100.2 0.100.3 0.101.1 0.101.2-r3 0.101.3-r2 0.102.1 0.102.2 0.102.3 0.103.0 0.103.1 0.103.2 0.103.3 0.103.4 0.103.5 0.103.6 0.104.0_beta2 0.104.0_beta4 0.104.0_beta5 0.104.0 0.104.1 0.104.2 0.104.3 0.105.0_beta0 9999: Open-source home automation platform running on Python on 3.7 (and 3.6 for a short time)
+app-misc/home-assistant-frontend 20191002.2 20191025.1 20191119.5 20191119.6 20191204.1 20200108.0 20200108.2 20200129.0 20200130.0: The Home Assistant frontend
+app-misc/homeassistant 0.100.2 0.100.3 0.101.1 0.101.2-r3 0.101.3-r2 0.102.1 0.102.2 0.102.3 0.103.0 0.103.1 0.103.2 0.103.3 0.103.4 0.103.5 0.103.6 0.104.0_beta2 0.104.0_beta4 0.104.0_beta5 0.104.0 0.104.1 0.104.2 0.104.3 0.105.0_beta0 0.105.0_beta1 9999: Open-source home automation platform running on Python on 3.7 (and 3.6 for a short time)
 dev-embedded/esphome 1.11.2-r1 1.12.0 1.12.0-r1 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3 1.14.3-r1 1.14.3-r2 1.14.3-r3 1.14.3-r4 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 3.6.1-r1 3.6.3 3.6.4 3.6.5 3.6.7 4.0.0 4.0.3 4.0.3-r1 4.0.3-r2: An open source ecosystem for IoT development
@@ -136,7 +136,7 @@ dev-python/bcrypt 3.1.5 3.1.6 3.1.7 3.1.7-r1: Modern password hashing for softwa
 dev-python/beacontools 1.2.3 1.3.1: A Python library for working with various types of Bluetooth LE Beacons.
 dev-python/beautifulsoup 4.6.0 4.6.3 4.7.1 4.8.0 4.8.1 4.8.2: Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree
 dev-python/beewi-smartclim 0.0.7: Library to read data from BeeWi SmartClim sensor using Bluetooth LE
-dev-python/bellows-homeassistant 0.8.1 0.8.2 0.9.0 0.9.1 0.10.0 0.11.0 0.12.0: Library implementing EZSP
+dev-python/bellows-homeassistant 0.8.1 0.8.2 0.9.0 0.9.1 0.10.0 0.11.0 0.12.0 0.13.1: Library implementing EZSP
 dev-python/bimmer-connected 0.5.3 0.6.0 0.6.2: Library to read data from the BMW Connected Drive portal
 dev-python/bitstring 3.1.5-r1: A pure Python module for creation and analysis of binary data
 dev-python/bizkaibus 0.1.1 0.1.4: Online information for buses of Biscay bus services (Basque Country, Spain).
@@ -389,7 +389,7 @@ dev-python/nsapi 2.7.4 3.0.0: api wrapper for Dutch Railways (NS)
 dev-python/nsw-fuel-api-client 1.0.10: API Client for NSW Government Fuel
 dev-python/nuheat 0.3.0: A Python library that allows control of connected NuHeat Signature radiant floor thermostats.
 dev-python/nuimo 0.1.0 0.3.6: Nuimo SDK for Python on Linux
-dev-python/numpy 1.16.2 1.16.3 1.16.4 1.17.0 1.17.1 1.17.3-r1: Fast array and numerical python library
+dev-python/numpy 1.16.2 1.16.3 1.16.4 1.17.0 1.17.1 1.17.3-r1 1.17.4: Fast array and numerical python library
 dev-python/oasatelematics 0.3: Python wrapper for the OASA Telematics API
 dev-python/oauth2client 4.0.0: Library for accessing resources protected by OAuth 2.0
 dev-python/oemthermostat 1.1: A package to interface with the HTTP API of the OpenEnergyMonitor Thermostat
@@ -428,7 +428,7 @@ dev-python/poetry 0.12.17: Python dependency management and packaging made easy.
 dev-python/postnl-api 1.0.2 1.2.2: Python wrapper for the PostNL API, a way to track packages and letters.
 dev-python/praw 6.1.1 6.3.1 6.4.0 6.5.0: PRAW, an acronym for Python Reddit API Wrapper, is a python package that allows for simple access to reddit's API.
 dev-python/prayer_times_calculator 0.0.3: Prayer Times Calculator
-dev-python/pre-commit 1.17.0 1.18.2 1.18.3 1.20.0 1.21.0 2.0.0: A framework for managing and maintaining multi-language pre-commit hooks.
+dev-python/pre-commit 1.17.0 1.18.2 1.18.3 1.20.0 1.21.0 2.0.0 2.0.1: A framework for managing and maintaining multi-language pre-commit hooks.
 dev-python/prezzibenzina-py 1.1.4: A python package to get Prezzibenzina info
 dev-python/proliphix 0.4.1 0.5.0: API for Proliphix nt10e network thermostat.
 dev-python/protobuf-python 3.7.0 3.10.0 3.10.0-r1: Google's Protocol Buffers - Python bindings
@@ -573,7 +573,7 @@ dev-python/pypck 0.6.0 0.6.1 0.6.2 0.6.3: Open source LCN-PCK library written in
 dev-python/pypjlink2 1.2.0: PJLink is a standard for controlling data projectors.
 dev-python/pypoint 1.0.7 1.0.8 1.1.1 1.1.2: API for Minut Point
 dev-python/pypollencom 2.2.3: A simple API for Pollen.com data
-dev-python/pyps4-2ndscreen 1.0.1 1.0.3 1.0.4: PS4 2nd Screen Python Library
+dev-python/pyps4-2ndscreen 1.0.1 1.0.3 1.0.4 1.0.6: PS4 2nd Screen Python Library
 dev-python/pyqwikswitch 0.93 0.94: Library to interface Qwikswitch USB Hub
 dev-python/pyrail 0.0.3: Python wrapper for the iRail API
 dev-python/pyrainbird 0.1.6 0.2.1 0.4.1: Rain Bird Controller
@@ -840,8 +840,8 @@ dev-python/zha-quirks 0.0.22 0.0.23 0.0.25 0.0.26 0.0.27-r1 0.0.28 0.0.30 0.0.31
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
 dev-python/zigpy-deconz 0.2.1 0.2.2 0.3.0 0.4.0 0.5.0 0.6.0 0.7.0: A library which communicates with Deconz radios for zigpy
-dev-python/zigpy-homeassistant 0.7.0 0.7.1 0.8.0 0.9.0 0.10.0 0.11.0 0.12.0: Library implementing a ZigBee stack
-dev-python/zigpy-xbee-homeassistant 0.2.0 0.2.1 0.3.0 0.4.0 0.5.0 0.6.0 0.7.0 0.8.0: A library which communicates with XBee radios for zigpy
+dev-python/zigpy-homeassistant 0.7.0 0.7.1 0.8.0 0.9.0 0.10.0 0.11.0 0.12.0 0.13.0: Library implementing a ZigBee stack
+dev-python/zigpy-xbee-homeassistant 0.2.0 0.2.1 0.3.0 0.4.0 0.5.0 0.6.0 0.7.0 0.8.0 0.9.0: A library which communicates with XBee radios for zigpy
 dev-python/zigpy-zigate 0.1.0 0.2.0 0.3.1 0.4.0 0.4.1 0.5.0 0.5.1: A library which communicates with ZiGate radios for zigpy
 dev-python/zipp 0.5.0 0.5.1 0.5.1-r1: Backport of pathlib-compatible object wrapper for zip files
 dev-python/zm-py 0.3.3 0.4.0: A loose python wrapper around the ZoneMinder REST API.
