@@ -22,7 +22,7 @@ IUSE="abode ambiclimate ambient_station androidtv asuswrt atmo atv aurora avea a
 
 RDEPEND="${PYTHON_DEPS}
 	!app-misc/homeassistant-bin
-	>=dev-lang/python-3.6.5
+	|| ( dev-lang/python:3.7 dev-lang/python:3.8 )
 	app-admin/logrotate
 	dev-db/sqlite
 	dev-libs/libfastjson
@@ -44,7 +44,6 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/cdu-0.1.3[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2019.11.28[${PYTHON_USEDEP}]
 	$(python_gen_cond_dep '~dev-python/contextvars-2.4[${PYTHON_USEDEP}]' python3_6)
-	~dev-python/cffi-1.12.2[${PYTHON_USEDEP}]
 	>=dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
 	~dev-python/colorlog-4.0.2[${PYTHON_USEDEP}]
 	>=dev-python/coverage-4.5.2[${PYTHON_USEDEP}]
@@ -214,9 +213,9 @@ RDEPEND="${PYTHON_DEPS}
 	zoneminder? ( ~dev-python/zm-py-0.4.0[${PYTHON_USEDEP}] )
 	z-wave? ( ~dev-python/pynacl-1.3.0[${PYTHON_USEDEP}]
 			  ~dev-python/homeassistant-pyozw-0.1.7[${PYTHON_USEDEP}]
-			  ~dev-python/pydispatcher-2.0.5[${PYTHON_USEDEP}]
-			  ~dev-python/cffi-1.12.2[${PYTHON_USEDEP}] )
-"
+			  ~dev-python/pydispatcher-2.0.5[${PYTHON_USEDEP}] )"
+
+# ~dev-python/cffi-1.12.2[${PYTHON_USEDEP}]
 
 DEPEND="${RDEPEND}
 		test? (

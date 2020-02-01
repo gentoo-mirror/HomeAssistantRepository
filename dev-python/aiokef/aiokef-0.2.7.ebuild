@@ -7,17 +7,17 @@ PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Library to control webOS based LG Tv devices"
-HOMEPAGE="https://github.com/bendavid/aiopylgtv https://pypi.org/project/aiopylgtv/"
+DESCRIPTION="A module for asynchronously interacting with KEF wireless speakers."
+HOMEPAGE="https://github.com/basnijholt/aiokef https://pypi.org/project/aiokef/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64 ~x86"
+KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/tenacity[${PYTHON_USEDEP}]
+	dev-python/typing[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
