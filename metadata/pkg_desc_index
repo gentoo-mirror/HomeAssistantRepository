@@ -1,7 +1,7 @@
 app-misc/home-assistant-cli 0.7.0 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/home-assistant-frontend 20191002.2 20191025.1 20191119.5 20191119.6 20191204.1 20200108.0 20200108.2 20200129.0 20200130.0: The Home Assistant frontend
 app-misc/homeassistant 0.100.2 0.100.3 0.101.1 0.101.2-r3 0.101.3-r2 0.102.1 0.102.2 0.102.3 0.103.0 0.103.1 0.103.2 0.103.3 0.103.4 0.103.5 0.103.6 0.104.0_beta2 0.104.0_beta4 0.104.0_beta5 0.104.0 0.104.1 0.104.2 0.104.3 0.105.0_beta0 0.105.0_beta1 9999: Open-source home automation platform running on Python on 3.7 (and 3.6 for a short time)
-dev-embedded/esphome 1.11.2-r1 1.12.0 1.12.0-r1 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3 1.14.3-r1 1.14.3-r2 1.14.3-r3 1.14.3-r4 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 1.11.2-r1 1.12.0 1.12.0-r1 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3 1.14.3-r1 1.14.3-r2 1.14.3-r3 1.14.3-r4 1.14.3-r5 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 3.6.1-r1 3.6.3 3.6.4 3.6.5 3.6.7 4.0.0 4.0.3 4.0.3-r1 4.0.3-r2: An open source ecosystem for IoT development
 dev-libs/protobuf 3.7.0 3.10.0: Google's Protocol Buffers - Extensible mechanism for serializing structured data
@@ -73,7 +73,7 @@ dev-python/aio-geojson-nsw-rfs-incidents 0.1: An async GeoJSON client library fo
 dev-python/aioambient 0.1.3 0.2.0 0.3.0 0.3.1 0.3.2 1.0.2: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioasuswrt 1.1.18 1.1.20 1.1.21 1.1.22: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/
 dev-python/aioautomatic 0.6.5: Asyncio library for the Automatic API
-dev-python/aiobotocore 0.10.1 0.10.2 0.10.4 0.11.1: Async client for aws services using botocore and aiohttp
+dev-python/aiobotocore 0.10.1 0.10.2 0.10.4 0.11.1 0.11.1-r1: Async client for aws services using botocore and aiohttp
 dev-python/aiocache 0.10.1: multi backend asyncio cache
 dev-python/aiocoap 0.4_alpha3 0.4_alpha3-r1: The Python CoAP library
 dev-python/aiodns 1.1.1 2.0.0: Simple DNS resolver for asyncio
@@ -147,7 +147,7 @@ dev-python/bluepy 1.1.4 1.3.0: Python module for interfacing with BLE devices th
 dev-python/bme680 1.0.5: Python library for driving the Pimoroni BME680 Breakout
 dev-python/bomradarloop 0.1.2 0.1.3: Create animated GIFs from BOM radar imagery
 dev-python/boto3 1.9.35 1.9.57 1.9.115 1.9.116 1.9.233 1.9.233-r1 1.9.233-r2 1.9.252: The AWS SDK for Python
-dev-python/botocore 1.12.35 1.12.57 1.12.115 1.12.115-r1 1.12.252: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.12.35 1.12.57 1.12.115 1.12.115-r1 1.12.252 1.13.14: Low-level, data-driven core of boto 3.
 dev-python/braviarc-homeassistant 0.3.7: # BraviaRC Python Package
 dev-python/broadlink 0.9 0.10 0.11 0.11.1 0.12.0: Python API for controlling Broadlink IR controllers
 dev-python/brother 0.1.4: Python wrapper for getting data from Brother laser and inkjet printers via SNMP.
@@ -703,7 +703,7 @@ dev-python/ruamel-yaml 0.15.89 0.15.91 0.15.94 0.15.99 0.15.100 0.16.5: YAML par
 dev-python/russound 0.1.9: Python API for select Russound RNET commands to provide Russound support within home-assistant.io
 dev-python/russound-rio 0.1.7: Asyncio client for Russound RIO devices
 dev-python/rxv 0.5.1 0.6.0: Automation Library for Yamaha RX-V473, RX-V573, RX-V673, RX-V773 receivers
-dev-python/s3transfer 0.2.0 0.2.0-r1: An Amazon S3 Transfer Manager
+dev-python/s3transfer 0.2.0 0.2.0-r1 0.2.1: An Amazon S3 Transfer Manager
 dev-python/samsungctl 0.7.1 0.8.0_beta0: Remote control Samsung televisions via TCP/IP connection (kdschlosser version)
 dev-python/satel-integra 0.3.4: Communication library and basic testing tool for Satel Integra alarm system. Communication via tcpip protocol published by SATEL.
 dev-python/schiene 0.23: schiene is a Python library for interacting with Bahn.de
