@@ -88,8 +88,6 @@ app-misc/homeassistant:z-wave - Support for Z-Wave Devices (uncomplete)
 app-misc/homeassistant:zigbee - Support for ZHA/deconz based Zigbee/ZNet Devices
 app-misc/homeassistant:zoneminder - Support for ZoneMinder Cameras
 dev-embedded/esphome:server - create user and install init-script to run ESPHome Dashboard
-dev-python/cryptography:idna - enable support for the old, deprecated IDNA specification (RFC 3490)
-dev-python/cryptography:libressl - use libressl instead of openssl
 dev-python/geopy:timezone - Enables localized date support
 dev-python/geopy:yahoo - Enables use of YahooPlaceFinder
 dev-python/pyyaml:libyaml - enable support for C implementation using libyaml
