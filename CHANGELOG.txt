@@ -1,3 +1,23 @@
+2020-02-03
+  * update app-misc/homeassistant-0.105.0_beta5
+    - try out leaving cffi behind (experimental)
+    - try out leaving NabuCasa behind (problems with python-dateutil) (experimental)
+    - use EAPI7 acct-user/acct-group for homeassistant
+  * update app-misc/homeassistant-0.105.0_beta6
+  * remove broken ruamel-yaml WORKDIR
+
+2020-02-02
+  * bump pysignalclirestapi-0.2.4
+  * bump sendgrid-6.1.1
+  * bump holidays-0.10.1
+  * bump discord-py-1.3.1
+  * bump praw-6.5.1
+  * bump numpy-1.18.1
+  * bump pyhomematic-0.1.64
+  * bump rflink-0.0.51
+  * add saltbox-0.1.3
+  * bump alpha-vantage-2.1.3
+
 2020-02-01 homeassistant-0.105.0_beta4
   * expanded version patches on ESPHome:
     =dev-libs/protobuf-3.10.1
