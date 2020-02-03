@@ -151,7 +151,7 @@ dev-python/bluepy 1.1.4 1.3.0: Python module for interfacing with BLE devices th
 dev-python/bme680 1.0.5: Python library for driving the Pimoroni BME680 Breakout
 dev-python/bomradarloop 0.1.2 0.1.3: Create animated GIFs from BOM radar imagery
 dev-python/boto3 1.9.35 1.9.57 1.9.115 1.9.116 1.9.233 1.9.233-r1 1.9.233-r2 1.9.252: The AWS SDK for Python
-dev-python/botocore 1.12.35 1.12.57 1.12.115 1.12.115-r1 1.12.252 1.13.14: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.12.35 1.12.57 1.12.115 1.12.115-r1 1.12.252 1.12.252-r1 1.13.14: Low-level, data-driven core of boto 3.
 dev-python/bravia-tv 1.0: Python Bravia TV remote control
 dev-python/braviarc-homeassistant 0.3.7: # BraviaRC Python Package
 dev-python/broadlink 0.9 0.10 0.11 0.11.1 0.12.0: Python API for controlling Broadlink IR controllers
