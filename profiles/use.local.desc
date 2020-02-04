@@ -21,6 +21,7 @@ app-misc/homeassistant:daikin - Daikin wireless controllers
 app-misc/homeassistant:darksky - use dark sky weather data
 app-misc/homeassistant:denonavr - Automation Library for Denon AVR receivers
 app-misc/homeassistant:discogs - Discogs Client
+app-misc/homeassistant:dyson - integrate all Dyson related platforms
 app-misc/homeassistant:emulated_roku - emulate Roku API for Harmony and Android remotes
 app-misc/homeassistant:enigma - Support for Enigma2 boxes with openwebif support
 app-misc/homeassistant:enocean - Support for Enocean devices
@@ -50,10 +51,13 @@ app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant:maxcube_hack - apply Patch for https://github.com/home-assistant/home-assistant/issues/28811
 app-misc/homeassistant:miio - add support for Xiaomi smart appliances
 app-misc/homeassistant:mikrotik - add support for MikroTik RouterOS API
+app-misc/homeassistant:mobile_app - Home Assistant Mobile App Support
 app-misc/homeassistant:mqtt - install MQTT Broker and dependencies
 app-misc/homeassistant:musiccast - add support for Yamaha MusicCast devices
 app-misc/homeassistant:mysql - install MySQL Libraries for use with HomeAssistant
+app-misc/homeassistant:nederlandse_spoorwegen - train service in the Netherlands
 app-misc/homeassistant:openwrt - fetch connected devices from your OpenWrt
+app-misc/homeassistant:owntracks - OwnTracks: track your location and send it directly to Home Assistant
 app-misc/homeassistant:plex - Python bindings for the Plex API
 app-misc/homeassistant:qnap - Python API for obtaining QNAP NAS system stats
 app-misc/homeassistant:recorder - storing details in a database per sqlalchemy
@@ -95,8 +99,6 @@ dev-python/roombapy:mqtt - Use paho mqtt client for communication
 dev-python/roombapy:opencv - Use opencv for map generation
 dev-python/roombapy:pillow - Use pillow for map generation
 dev-python/sphinx:net - enable internet capabilities
-dev-python/sphinx-autodoc-annotation:net - enable internet capabilities
-dev-python/sphinx-autodoc-typehints:net - enable internet capabilities
 media-libs/opencv:contrib - Install user contributed scripts from opencv_contrib (Experimental!)
 media-libs/opencv:contrib_cvv - CVV module requires Qt5
 media-libs/opencv:contrib_dnn - DNN module contrib requires tiny dnn
