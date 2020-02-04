@@ -4,24 +4,23 @@
 EAPI="7"
 
 PYTHON_COMPAT=( python3_{7,8} )
-
-#inherit python-single-r1 user readme.gentoo-r1 eutils # distutils-r1
-inherit user readme.gentoo-r1 eutils distutils-r1
+inherit readme.gentoo-r1 eutils distutils-r1
 
 MY_P=${P/_beta/b}
 MY_PV=${PV/_beta/b}
 
-DESCRIPTION="Open-source home automation platform running on Python on 3.7 (and 3.6 for a short time)"
+DESCRIPTION="Open-source home automation platform running on Python on 3.7"
 HOMEPAGE="https://home-assistant.io https://git.edevau.net/onkelbeh/HomeAssistantRepository"
 SRC_URI="https://github.com/home-assistant/home-assistant/archive/${MY_PV}.tar.gz -> ${MY_P}.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86"
-IUSE="abode ambiclimate ambient_station androidtv asuswrt atmo atv aurora avea axis bitcoin blockchain buienradar cli ciscomobilityexpress daikin darksky denonavr discogs emulated_roku enigma enocean esphome everlights envoy flume flunearyou fronius +frontend gpiozero growl harmony heos here hkavr holidays homekit homematic homematicip hpilo hs100 hue incomfort influxdb maxcube maxcube_hack miio mikrotik +mqtt musiccast +mysql openwrt plex qnap +recorder ring roku rxv samsungtv signal sma socat somfy sonos shodan simplisafe speedtest +ssl test tradfri ubee unify vera webostv wemo wink withings wled wwlln xknx yeelight youtube z-wave zigbee zoneminder"
+IUSE="abode ambiclimate ambient_station androidtv asuswrt atmo atv aurora avea axis bitcoin blockchain buienradar cli ciscomobilityexpress daikin darksky denonavr discogs dyson emulated_roku enigma enocean esphome everlights envoy flume flunearyou fronius +frontend gpiozero growl harmony heos here hkavr holidays homekit homematic homematicip hpilo hs100 hue incomfort influxdb maxcube maxcube_hack miio mikrotik mobile_app +mqtt musiccast +mysql nederlandse_spoorwegen openwrt owntracks plex qnap +recorder ring roku rxv samsungtv signal sma socat somfy sonos shodan simplisafe speedtest +ssl test tradfri ubee unify vera webostv wemo wink withings wled wwlln xknx yeelight youtube z-wave zigbee zoneminder"
 
 RDEPEND="${PYTHON_DEPS}
-	!app-misc/homeassistant-bin
+	acct-group/${PN}
+	acct-user/${PN}
 	|| ( dev-lang/python:3.7 dev-lang/python:3.8 )
 	app-admin/logrotate
 	dev-db/sqlite
@@ -55,6 +54,7 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/envs-1.3[${PYTHON_USEDEP}]
 	>=dev-python/future-0.17.1[${PYTHON_USEDEP}]
 	~dev-python/gTTS-token-1.1.3[${PYTHON_USEDEP}]
+	~dev-python/hass-nabucasa-0.31[${PYTHON_USEDEP}]
 	>=dev-python/idna-2.8[${PYTHON_USEDEP}]
 	>=dev-python/idna-ssl-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/ifaddr-0.1.6[${PYTHON_USEDEP}]
@@ -71,8 +71,9 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/netdisco-2.6.0[${PYTHON_USEDEP}]
 	>=dev-python/nose-1.3.7[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17.4[${PYTHON_USEDEP}]
-	~dev-python/paho-mqtt-1.5.0[${PYTHON_USEDEP}]
-	~dev-python/passlib-1.7.1-r1[${PYTHON_USEDEP}]
+	mqtt? ( ~dev-python/hbmqtt-0.9.5[${PYTHON_USEDEP}]
+	    ~dev-python/paho-mqtt-1.5.0[${PYTHON_USEDEP}] )
+	~dev-python/passlib-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/pbr-5.1.3[${PYTHON_USEDEP}]
 	~dev-python/pillow-6.2.1[${PYTHON_USEDEP}]
 	>=dev-python/pip-8.0.3-r1[${PYTHON_USEDEP}]
@@ -92,9 +93,9 @@ RDEPEND="${PYTHON_DEPS}
 	~dev-python/python-slugify-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
-	=dev-python/requests-2.22.0-r1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
-	=dev-python/RestrictedPython-5.0[${PYTHON_USEDEP}]
+	~dev-python/RestrictedPython-5.0[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.15.100[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-40.8.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
@@ -104,14 +105,12 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/ua-parser-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.25.3[${PYTHON_USEDEP}]
 	=dev-python/user-agents-2.0-r1[${PYTHON_USEDEP}]
-	>=dev-python/vobject-0.9.6.1[${PYTHON_USEDEP}]
 	~dev-python/voluptuous-0.11.7[${PYTHON_USEDEP}]
 	~dev-python/voluptuous-serialize-2.3.0[${PYTHON_USEDEP}]
 	>=dev-python/wakeonlan-1.1.6[${PYTHON_USEDEP}]
 	=dev-python/warrant-0.6.1-r1[${PYTHON_USEDEP}]
 	>=dev-python/websocket-client-0.54.0[${PYTHON_USEDEP}]
 	~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
-	>=dev-python/yarl-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/zeroconf-0.24.4[${PYTHON_USEDEP}]
 	>=media-libs/mutagen-1.43.0
 
@@ -119,7 +118,7 @@ RDEPEND="${PYTHON_DEPS}
 	ambiclimate? ( ~dev-python/Ambiclimate-0.2.1[${PYTHON_USEDEP}] )
 	ambient_station? ( ~dev-python/aioambient-0.3.2[${PYTHON_USEDEP}] )
 	androidtv? ( ~dev-python/androidtv-0.0.39[${PYTHON_USEDEP}]
-			   ~dev-python/adb-shell-0.1.1[${PYTHON_USEDEP}] )
+			~dev-python/adb-shell-0.1.1[${PYTHON_USEDEP}] )
 	asuswrt? ( ~dev-python/aioasuswrt-1.1.22[${PYTHON_USEDEP}] )
 	atmo? ( ~dev-python/pyatmo-3.2.2[${PYTHON_USEDEP}] )
 	atv? ( >=dev-python/pyatv-0.3.13[${PYTHON_USEDEP}] )
@@ -135,6 +134,7 @@ RDEPEND="${PYTHON_DEPS}
 	darksky? ( ~dev-python/python-forecastio-1.4.0[${PYTHON_USEDEP}] )
 	denonavr? ( ~dev-python/denonavr-0.7.11[${PYTHON_USEDEP}] )
 	discogs? ( ~dev-python/discogs_client-2.2.2[${PYTHON_USEDEP}] )
+	dyson? ( ~dev-python/libpurecool-0.6.1[${PYTHON_USEDEP}] )
 	emulated_roku? ( ~dev-python/emulated-roku-0.2.1[${PYTHON_USEDEP}] )
 	enigma? ( ~dev-python/openwebifpy-3.1.1[${PYTHON_USEDEP}] )
 	esphome? ( ~dev-python/aioesphomeapi-2.6.1[${PYTHON_USEDEP}] )
@@ -144,7 +144,7 @@ RDEPEND="${PYTHON_DEPS}
 	flume? ( ~dev-python/PyFlume-0.2.4[${PYTHON_USEDEP}] )
 	flunearyou? ( ~dev-python/pyflunearyou-1.0.3[${PYTHON_USEDEP}] )
 	fronius? ( ~dev-python/PyFronius-0.4.6[${PYTHON_USEDEP}] )
-	frontend? ( ~app-misc/home-assistant-frontend-20200130.0[${PYTHON_USEDEP}] )
+	frontend? ( ~app-misc/home-assistant-frontend-20200130.1[${PYTHON_USEDEP}] )
 	gpiozero? ( ~dev-python/gpiozero-1.5.1[${PYTHON_USEDEP}] )
 	growl? ( ~dev-python/gntp-1.0.3[${PYTHON_USEDEP}] )
 	harmony? ( ~dev-python/aioharmony-0.1.13[${PYTHON_USEDEP}] )
@@ -160,23 +160,26 @@ RDEPEND="${PYTHON_DEPS}
 	hue? ( ~dev-python/aiohue-1.10.1[${PYTHON_USEDEP}] )
 	incomfort? ( ~dev-python/incomfort-client-0.4.0[${PYTHON_USEDEP}] )
 	influxdb? ( dev-db/influxdb
-			  ~dev-python/influxdb-5.2.3[${PYTHON_USEDEP}] )
+			~dev-python/influxdb-5.2.3[${PYTHON_USEDEP}] )
 	maxcube? ( ~dev-python/maxcube-api-0.1.0[${PYTHON_USEDEP}] )
 	miio? ( ~dev-python/python-miio-0.4.8[${PYTHON_USEDEP}] )
 	mikrotik? ( ~dev-python/librouteros-3.0.0[${PYTHON_USEDEP}] )
-	mqtt? ( ~dev-python/hbmqtt-0.9.5[${PYTHON_USEDEP}]
-			app-misc/mosquitto )
+	mobile_app? ( ~dev-python/pynacl-1.3.0[${PYTHON_USEDEP}] )
+	mqtt? ( virtual/mqtt )
 	musiccast? ( >=dev-python/pymusiccast-0.1.6[${PYTHON_USEDEP}] )
 	mysql? ( || ( dev-python/mysqlclient[${PYTHON_USEDEP}]
-			 dev-python/mysql-python[${PYTHON_USEDEP}] )
-			 virtual/mysql )
+			dev-python/mysql-python[${PYTHON_USEDEP}] )
+			virtual/mysql )
+  nederlandse_spoorwegen? ( ~dev-python/nsapi-3.0.2[${PYTHON_USEDEP}] )
 	openwrt? ( ~dev-python/openwrt-luci-rpc-1.1.2[${PYTHON_USEDEP}] )
+	owntracks? ( ~dev-python/pynacl-1.3.0[${PYTHON_USEDEP}]
+	    virtual/mqtt )
 	plex? ( ~dev-python/PlexAPI-3.3.0[${PYTHON_USEDEP}] )
 	qnap? ( ~dev-python/qnapstats-0.3.0[${PYTHON_USEDEP}] )
 	roku? ( ~dev-python/roku-4.0.0[${PYTHON_USEDEP}] )
 	recorder? ( ~dev-python/sqlalchemy-1.3.13[${PYTHON_USEDEP}] )
 	ring? ( ~dev-python/ring-doorbell-0.6.0[${PYTHON_USEDEP}] )
-	rxv? ( =dev-python/rxv-0.6.0[${PYTHON_USEDEP}]
+	rxv? ( ~dev-python/rxv-0.6.0[${PYTHON_USEDEP}]
 			~dev-python/defusedxml-0.6.0[${PYTHON_USEDEP}] )
 	samsungtv? ( ~dev-python/samsungctl-0.7.1[${PYTHON_USEDEP}] )
 	signal? ( ~dev-python/pysignalclirestapi-0.1.4[${PYTHON_USEDEP}] )
@@ -204,17 +207,15 @@ RDEPEND="${PYTHON_DEPS}
 	yeelight? ( ~dev-python/yeelight-0.5.0[${PYTHON_USEDEP}] )
 	youtube? ( ~dev-python/youtube_dl-2020.01.24[${PYTHON_USEDEP}] )
 	zigbee? ( ~dev-python/zigpy-deconz-0.7.0[${PYTHON_USEDEP}]
-			  ~dev-python/zigpy-homeassistant-0.13.0[${PYTHON_USEDEP}]
-			  ~dev-python/zigpy-xbee-homeassistant-0.9.0[${PYTHON_USEDEP}]
-			  ~dev-python/bellows-homeassistant-0.13.1[${PYTHON_USEDEP}]
-			  ~dev-python/zigpy-zigate-0.5.1[${PYTHON_USEDEP}]
-			  ~dev-python/zha-quirks-0.0.32[${PYTHON_USEDEP}] )
+			~dev-python/zigpy-homeassistant-0.13.0[${PYTHON_USEDEP}]
+			~dev-python/zigpy-xbee-homeassistant-0.9.0[${PYTHON_USEDEP}]
+			~dev-python/bellows-homeassistant-0.13.1[${PYTHON_USEDEP}]
+			~dev-python/zigpy-zigate-0.5.1[${PYTHON_USEDEP}]
+			~dev-python/zha-quirks-0.0.32[${PYTHON_USEDEP}] )
 	zoneminder? ( ~dev-python/zm-py-0.4.0[${PYTHON_USEDEP}] )
 	z-wave? ( ~dev-python/pynacl-1.3.0[${PYTHON_USEDEP}]
-			  ~dev-python/homeassistant-pyozw-0.1.8[${PYTHON_USEDEP}]
-			  ~dev-python/pydispatcher-2.0.5[${PYTHON_USEDEP}] )
-"
-#	~dev-python/hass-nabucasa-0.31[${PYTHON_USEDEP}]
+			~dev-python/homeassistant-pyozw-0.1.8[${PYTHON_USEDEP}]
+			~dev-python/pydispatcher-2.0.5[${PYTHON_USEDEP}] )"
 
 DEPEND="${RDEPEND}
 		test? (
@@ -253,51 +254,41 @@ S="${WORKDIR}/home-assistant-${MY_PV}"
 
 DOCS="README.rst"
 
-pkg_setup() {
-	enewgroup "${PN}"
-	enewuser "${PN}" -1 -1 "$INSTALL_DIR" "${PN}"
-}
+#pkg_setup() {
+#	enewgroup "${PN}"
+#	enewuser "${PN}" -1 -1 "$INSTALL_DIR" "${PN}"
+#}
 
 src_prepare() {
 	sed -e 's;astral==1.5;astral>=1.5;' \
 		-i "setup.py" \
 		-i homeassistant/package_constraints.txt
-
 	# https://github.com/home-assistant/home-assistant/issues/28811
 	if use maxcube_hack ; then
 	   eapply "${FILESDIR}/maxcube_TypeError_dirty_hack.patch"
 	fi
-
 	eapply_user
 }
 
 python_install_all() {
 	dodoc ${DOCS}
 	distutils-r1_python_install_all
-
 	keepdir "$INSTALL_DIR"
-
 	keepdir "/etc/${PN}"
 	fowners -R "${PN}:${PN}" "/etc/${PN}"
-
 	keepdir "/var/log/${PN}"
 	fowners -R "${PN}:${PN}" "/var/log/${PN}"
-
 	newconfd "${FILESDIR}/${PN}.conf.d" "${PN}"
 	newinitd "${FILESDIR}/${PN}.init.d" "${PN}"
-
 	if use socat ; then
 		newinitd "${FILESDIR}/socat-zwave.init.d" "socat-zwave"
 		sed -i -e 's/# need socat-zwave/need socat-zwave/g' "${D}/etc/init.d/${PN}" || die
 	fi
-
 	if use mqtt ; then
 		sed -i -e 's/# need mosquitto/need mosquitto/g' "${D}/etc/init.d/${PN}" || die
 	fi
-
 	insinto /etc/logrotate.d
 	newins "${FILESDIR}/${PN}.logrotate" "${PN}"
-
 	dobin "${FILESDIR}/hasstest"
 	readme.gentoo_create_doc
 }

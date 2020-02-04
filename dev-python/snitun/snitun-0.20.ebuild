@@ -3,17 +3,17 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python binding to the Networking and Cryptography (NaCl) library"
-HOMEPAGE="https://github.com/pyca/pynacl/ https://pypi.org/project/PyNaCl/"
+DESCRIPTION="SNI proxy with TCP multiplexer"
+HOMEPAGE="https://www.nabucasa.com/ https://pypi.org/project/snitun/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux ~arm64"
+KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
 RDEPEND=""
