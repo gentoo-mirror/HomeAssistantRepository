@@ -22,7 +22,7 @@ dev-python/CO2Signal 0.4.1 0.4.2: A package to access the co2signal API
 dev-python/DoorBirdPy 2.0.8: Python wrapper for the DoorBird LAN API v0.21
 dev-python/GitPython 2.1.11: Python Git Library
 dev-python/HAP-python 2.6.0 2.7.0: HomeKit Accessory Protocol implementation in python
-dev-python/Hydrawiser 0.1.1: A Python library to communicate with Hunter Wi-Fi irrigation controllers (https://www.hunter.com) that support the Hydrawise application (https://www.hydrawise.com).
+dev-python/Hydrawiser 0.1.1: A Python library to communicate with Hunter Wi-Fi irrigation controllers.
 dev-python/Js2Py 0.66: JavaScript to Python Translator & JavaScript interpreter written in 100% pure Python.
 dev-python/Mastodon-py 1.4.5 1.4.6 1.5.0: Python wrapper for the Mastodon API
 dev-python/OPi-GPIO 0.3.6 0.4.0: A drop-in replacement for RPi.GPIO for the Orange Pi Zero
