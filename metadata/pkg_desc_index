@@ -3,8 +3,8 @@ acct-group/homeassistant 0: Homeassistant program group
 acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-misc/home-assistant-cli 0.7.0 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/home-assistant-frontend 20191002.2 20191025.1 20191119.6 20191204.1 20200108.0 20200108.2 20200129.0 20200130.0 20200130.1: The Home Assistant frontend
-app-misc/homeassistant 0.100.3 0.101.3-r2 0.102.3 0.103.6 0.104.1 0.104.2 0.104.3 0.105.0_beta4 0.105.0_beta5 0.105.0_beta6 0.105.0_beta7 0.105.0 9999: Open-source home automation platform running on Python on 3.7
+app-misc/home-assistant-frontend 20191002.2 20191025.1 20191119.6 20191204.1 20200108.0 20200108.2 20200129.0 20200130.0 20200130.1 20200130.2: The Home Assistant frontend
+app-misc/homeassistant 0.100.3 0.101.3-r2 0.102.3 0.103.6 0.104.1 0.104.2 0.104.3 0.105.0_beta5 0.105.0_beta6 0.105.0_beta7 0.105.0 0.105.1 9999: Open-source home automation platform running on Python on 3.7
 dev-embedded/esphome 1.11.2-r1 1.12.0 1.12.0-r1 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3 1.14.3-r1 1.14.3-r2 1.14.3-r3 1.14.3-r4 1.14.3-r5 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 3.6.1-r1 3.6.3 3.6.4 3.6.5 3.6.7 4.0.0 4.0.3 4.0.3-r1 4.0.3-r2: An open source ecosystem for IoT development
