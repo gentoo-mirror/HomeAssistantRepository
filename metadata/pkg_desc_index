@@ -4,7 +4,7 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-misc/home-assistant-cli 0.7.0 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/home-assistant-frontend 20191002.2 20191025.1 20191119.6 20191204.1 20200108.0 20200108.2 20200129.0 20200130.0 20200130.1 20200130.2: The Home Assistant frontend
-app-misc/homeassistant 0.100.3 0.101.3-r2 0.102.3 0.103.6 0.104.1 0.104.2 0.104.3 0.105.0_beta5 0.105.0_beta6 0.105.0_beta7 0.105.0 0.105.1 9999: Open-source home automation platform running on Python on 3.7
+app-misc/homeassistant 0.100.3 0.101.3-r2 0.102.3 0.103.6 0.104.1 0.104.2 0.104.3 0.105.0_beta5 0.105.0_beta6 0.105.0_beta7 0.105.0 0.105.1 0.105.2 9999: Open-source home automation platform running on Python on 3.7
 dev-embedded/esphome 1.11.2-r1 1.12.0 1.12.0-r1 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3 1.14.3-r1 1.14.3-r2 1.14.3-r3 1.14.3-r4 1.14.3-r5 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 3.6.1-r1 3.6.3 3.6.4 3.6.5 3.6.7 4.0.0 4.0.3 4.0.3-r1 4.0.3-r2: An open source ecosystem for IoT development
@@ -73,6 +73,7 @@ dev-python/afsapi 0.0.4: Asynchronous Implementation of the Frontier Silicon API
 dev-python/aio-geojson-client 0.11: An async GeoJSON client library.
 dev-python/aio-geojson-geonetnz-quakes 0.11: An async GeoJSON client library for GeoNet NZ Quakes feed.
 dev-python/aio-geojson-nsw-rfs-incidents 0.1: An async GeoJSON client library for NSW Rural Fire Service Incidents.
+dev-python/aio-georss-gdacs 0.3: An async GeoRSS client library for GDACS feeds.
 dev-python/aioambient 0.1.3 0.2.0 0.3.0 0.3.1 0.3.2 1.0.2: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioasuswrt 1.1.18 1.1.20 1.1.21 1.1.22: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/
 dev-python/aioautomatic 0.6.5: Asyncio library for the Automatic API
@@ -97,7 +98,7 @@ dev-python/aionotify 0.2.0: Asyncio-powered inotify library
 dev-python/aionotion 1.1.0: A simple Python 3 library for Notion Home Monitoring
 dev-python/aionursery 0.3.0: Manage background asyncio tasks
 dev-python/aiopvapi 1.6.14: Powerview blinds API wrapper
-dev-python/aiopylgtv 0.2.5 0.2.6 0.2.7 0.3.0 0.3.2: Library to control webOS based LG Tv devices
+dev-python/aiopylgtv 0.2.5 0.2.6 0.2.7 0.3.0 0.3.2 0.3.3: Library to control webOS based LG Tv devices
 dev-python/aioredis 1.2.0: asyncio (PEP 3156) Redis support
 dev-python/aioswitcher 2019.3.21 2019.4.26 2019.6.11: Switcher Boiler Unofficial Bridge and API
 dev-python/aiounifi 7 8 9 10 11: An asynchronous Python library for communicating with Unifi Controller API
@@ -754,6 +755,7 @@ dev-python/spotcrime 1.0.3 1.0.4: Provides basic API to spotcrime.com.
 dev-python/spotipy 2.7.1: A light weight Python library for the Spotify Web API
 dev-python/spotipy-homeassistant 2.4.4: simple client for the Spotify Web API
 dev-python/sqlalchemy 1.3.0 1.3.7 1.3.8 1.3.9 1.3.10 1.3.10-r1 1.3.11 1.3.12 1.3.13: Python SQL toolkit and Object Relational Mapper
+dev-python/sqlitedict 1.6.0: Persistent dict in Python, backed up by sqlite3 and pickle, multithread-safe.
 dev-python/sseclient-py 1.7: SSE client for Python
 dev-python/starline 0.1.3: Unofficial python library for StarLine API
 dev-python/starlingbank 3.1 3.2: An unofficial python package that provides access to parts of the Starling bank API. Designed to be used for personal use (i.e. using personal access tokens).
