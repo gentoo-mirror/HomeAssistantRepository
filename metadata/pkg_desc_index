@@ -67,7 +67,7 @@ dev-python/adafruit-circuitpython-mcp230xx 1.1.2 2.0.1: CircuitPython library fo
 dev-python/adb 1.3.0: A pure python implementation of the Android ADB and Fastboot protocols
 dev-python/adb-homeassistant 1.3.1 1.3.2: A pure python implementation of the Android ADB and Fastboot protocols
 dev-python/adb-shell 0.0.3 0.0.4 0.0.7 0.0.8 0.0.9 0.1.0 0.1.1: ADB shell functionality
-dev-python/adguardhome 0.2.0 0.2.1 0.3.0 0.4.0: Asynchronous Python client for the AdGuard Home API.
+dev-python/adguardhome 0.2.0 0.2.1 0.3.0 0.4.0 0.4.1: Asynchronous Python client for the AdGuard Home API.
 dev-python/aenum 2.1.2: Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
 dev-python/afsapi 0.0.4: Asynchronous Implementation of the Frontier Silicon API
 dev-python/aio-geojson-client 0.11: An async GeoJSON client library.
@@ -107,7 +107,7 @@ dev-python/airly 0.0.2: Python wrapper for getting air quality data from Airly s
 dev-python/aladdin-connect 0.3: Python API for controlling Genie garage doors connected to Aladdin Connect devices
 dev-python/alarmdecoder 1.13.2 1.13.4 1.13.9: Python interface for the AlarmDecoder (AD2) family of alarm devices which includes the AD2USB, AD2SERIAL and AD2PI.
 dev-python/alpha-vantage 2.1.1 2.1.2 2.1.3: Python module to get stock data from the Alpha Vantage Api
-dev-python/amcrest 1.3.0 1.4.0 1.4.1 1.5.3: Python wrapper implementation for Amcrest cameras.
+dev-python/amcrest 1.3.0 1.4.0 1.4.1 1.5.3 1.5.6: Python wrapper implementation for Amcrest cameras.
 dev-python/androidtv 0.0.30 0.0.32 0.0.34 0.0.35 0.0.36 0.0.37 0.0.38 0.0.39: Communicate with an Android TV or Fire TV device via ADB over a network.
 dev-python/anel-pwrctrl-homeassistant 0.0.1: Discover and control ANEL NET-PwrCtrl devices.
 dev-python/anthemav 1.1.9 1.1.10: Python API for controlling Anthem Receivers
@@ -140,7 +140,7 @@ dev-python/bcrypt 3.1.5 3.1.6 3.1.7 3.1.7-r1: Modern password hashing for softwa
 dev-python/beacontools 1.2.3 1.3.1: A Python library for working with various types of Bluetooth LE Beacons.
 dev-python/beautifulsoup 4.6.0 4.6.3 4.7.1 4.8.0 4.8.1 4.8.2: Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree
 dev-python/beewi-smartclim 0.0.7: Library to read data from BeeWi SmartClim sensor using Bluetooth LE
-dev-python/bellows-homeassistant 0.8.1 0.8.2 0.9.0 0.9.1 0.10.0 0.11.0 0.12.0 0.13.1: Library implementing EZSP
+dev-python/bellows-homeassistant 0.8.2 0.9.0 0.9.1 0.10.0 0.11.0 0.12.0 0.13.1 0.13.2: Library implementing EZSP
 dev-python/bimmer-connected 0.5.3 0.6.0 0.6.2: Library to read data from the BMW Connected Drive portal
 dev-python/bitstring 3.1.5-r1: A pure Python module for creation and analysis of binary data
 dev-python/bizkaibus 0.1.1 0.1.4: Online information for buses of Biscay bus services (Basque Country, Spain).
@@ -363,6 +363,7 @@ dev-python/magicseaweed 1.0.3: Provides API wrapper to magicseaweed.com.
 dev-python/matrix-client 0.2.0 0.3.2: Client-Server SDK for Matrix
 dev-python/maxcube-api 0.1.0: eQ-3/ELV MAX! Cube Python API
 dev-python/mbddns 0.1.2: Mythic Beasts Dynamic DNS updater
+dev-python/mcstatus 2.3.0: A library to query Minecraft Servers for their status and capabilities.
 dev-python/messagebird 1.2.0 1.5.0: MessageBird's REST API
 dev-python/meteoalertapi 0.0.8 0.1.3 0.1.5 0.1.6: A small api to get alerting messages from extreme weather in Europe from https://www.meteoalarm.eu.
 dev-python/meteofrance 0.3.4 0.3.7: Meteo-France weather forecast
@@ -560,7 +561,7 @@ dev-python/pynetgear 0.6.1: Access Netgear routers using their SOAP API
 dev-python/pynetio 0.1.9.1: Binding library for Koukaam netio devices
 dev-python/pynuki 1.3.2 1.3.3: Python bindings for nuki.io bridges
 dev-python/pynut2 2.1.2: A Python abstraction class to access NUT servers.
-dev-python/pynws 0.7.4 0.8.1 0.10.1: Python library to retrieve observations and forecasts from NWS/NOAA
+dev-python/pynws 0.7.4 0.8.1 0.10.1 0.10.4: Python library to retrieve observations and forecasts from NWS/NOAA
 dev-python/pynx584 0.4 0.5: NX584/NX8E Interface Library and Server
 dev-python/pynzbgetapi 0.2.0: Basic Python NZBGet API client.
 dev-python/pyobihai 1.1.0 1.2.0: A Python wrapper for Obihai
@@ -847,7 +848,7 @@ dev-python/zha-quirks 0.0.23 0.0.25 0.0.26 0.0.27-r1 0.0.28 0.0.30 0.0.31 0.0.32
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
 dev-python/zigpy-deconz 0.2.1 0.2.2 0.3.0 0.4.0 0.5.0 0.6.0 0.7.0: A library which communicates with Deconz radios for zigpy
-dev-python/zigpy-homeassistant 0.7.0 0.7.1 0.8.0 0.9.0 0.10.0 0.11.0 0.12.0 0.13.0: Library implementing a ZigBee stack
+dev-python/zigpy-homeassistant 0.8.0 0.9.0 0.10.0 0.11.0 0.12.0 0.13.0 0.13.1 0.13.2: Library implementing a ZigBee stack
 dev-python/zigpy-xbee-homeassistant 0.2.0 0.2.1 0.3.0 0.4.0 0.5.0 0.6.0 0.7.0 0.8.0 0.9.0: A library which communicates with XBee radios for zigpy
 dev-python/zigpy-zigate 0.1.0 0.2.0 0.3.1 0.4.0 0.4.1 0.5.0 0.5.1: A library which communicates with ZiGate radios for zigpy
 dev-python/zipp 0.5.0 0.5.1 0.5.1-r1: Backport of pathlib-compatible object wrapper for zip files
