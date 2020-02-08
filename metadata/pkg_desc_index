@@ -198,7 +198,7 @@ dev-python/decora 0.6: Python API for controlling Decora dimmer switches
 dev-python/decora-wifi 1.4: Python API for controlling Leviton Decora Smart WiFi switches
 dev-python/defusedxml 0.6.0 0.6.0-r1: XML bomb protection for Python stdlib modules, an xml serialiser
 dev-python/deluge-client 1.4.0 1.7.1: Simple Deluge Client
-dev-python/denonavr 0.7.8 0.7.9 0.7.10 0.7.11: Automation Library for Denon AVR receivers
+dev-python/denonavr 0.7.8 0.7.9 0.7.10 0.7.11 0.7.12: Automation Library for Denon AVR receivers
 dev-python/directpy 0.5 0.6: A python library for interacting with DirecTV receivers
 dev-python/discogs-client 2.2.1 2.2.2: Official Python API client for Discogs
 dev-python/discord-py 1.2.2 1.2.3 1.2.4 1.2.5 1.3.1: A python wrapper for the Discord API
@@ -447,7 +447,7 @@ dev-python/pure-python-adb 0.1.6 0.1.7 0.2.2: Pure python implementation of the 
 dev-python/pure-python-adb-homeassistant 0.1.6 0.1.7: Pure python implementation of the adb client
 dev-python/pushetta 1.0.15: Client for Pushetta API
 dev-python/pwmled 1.4.1: Control LEDs connected to a micro controller using pwm.
-dev-python/py-august 0.7.0 0.9.0: Python API for August Smart Lock and Doorbell
+dev-python/py-august 0.7.0 0.8.1 0.9.0: Python API for August Smart Lock and Doorbell
 dev-python/py-canary 0.5.0: Python API for Canary Security Camera
 dev-python/py-melissa-climate 2.0.0 2.1.3: Api wrapper for Melissa Climate http://seemelissa.com
 dev-python/py-nextbus 0.1.2: Minimalistic Python client for the NextBus public API for real-time transit arrival data
