@@ -3,21 +3,20 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Library implementing a ZigBee stack"
-HOMEPAGE="https://github.com/zigpy/zigpy https://pypi.org/project/zigpy-homeassistant/"
+DESCRIPTION="Python wrapper implementation for Amcrest cameras."
+HOMEPAGE="https://github.com/tchellomello/python-amcrest https://pypi.org/project/amcrest/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/pycryptodome[${PYTHON_USEDEP}]
-		 dev-python/crccheck[${PYTHON_USEDEP}]"
+RDEPEND=""
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
