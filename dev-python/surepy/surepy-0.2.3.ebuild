@@ -3,20 +3,21 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python library for vesync API for Etekcity Smart Outlets & switches"
-HOMEPAGE="https://github.com/webdjoe/pyvesync_v2 https://pypi.org/project/pyvesync-v2/"
+DESCRIPTION="Library to interact with the flaps & doors from Sure Petcare"
+HOMEPAGE="https://github.com/benleb/surepy https://pypi.org/project/surepy/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND="dev-python/async_timeout[${PYTHON_USEDEP}]
+	dev-python/aiohttp[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
