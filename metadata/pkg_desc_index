@@ -166,6 +166,7 @@ dev-python/buienradar 1.0.1: Library and CLI tools for interacting with buienrad
 dev-python/caldav 0.5.0 0.6.1: CalDAV (RFC4791) client library
 dev-python/casttube 0.2.0: YouTube chromecast api
 dev-python/cattrs 0.9.0: Composable complex class support for attrs.
+dev-python/cbor 1.0.0-r1: RFC 7049 - Concise Binary Object Representation
 dev-python/cdu 0.1.3 0.1.3-r1: Cloud Storage Disk Usage Analyzer
 dev-python/certifi 2019.3.9 2019.6.16 2019.9.11-r1: Python package for providing Mozilla's CA Bundle
 dev-python/cffi 1.12.2 1.12.2-r1: Foreign Function Interface for Python calling C code
@@ -454,6 +455,7 @@ dev-python/py-nextbus 0.1.2: Minimalistic Python client for the NextBus public A
 dev-python/py-nextbusnext 0.1.4: Minimalistic Python client for the NextBus public API for real-time transit arrival data
 dev-python/py-noaa 0.3.0 1.0: Python wrapper to fetch data from NOAA APIs
 dev-python/py-synology 0.2.0 0.3.0: Python API for Synology Surveillance Station
+dev-python/py-ubjson 0.14.0: Universal Binary JSON encoder/decoder
 dev-python/py17track 2.2.2: A Simple Python API for 17track.net
 dev-python/pyAtome 0.1.1: Get your energy consumption from Atome Linky device
 dev-python/pyCEC 0.4.13: Provide HDMI CEC devices as objects, especially for use with Home Assistant
@@ -662,6 +664,7 @@ dev-python/pytraccar 0.9.0: Update and fetch device information from Traccar.
 dev-python/pytrackr 0.0.5: Interface to the TrackR API
 dev-python/pytradfri 6.0.1 6.3.1 6.4.0: Control/observe IKEA Tradfri devices
 dev-python/pytrafikverket 0.1.5.9 0.1.6.1: api for trafikverket in sweden
+dev-python/pytrie 0.3.1-r1: A pure Python implementation of the trie data structure
 dev-python/pytz 2018.7 2018.9 2019.1 2019.2 2019.3: World timezone definitions for Python
 dev-python/pyubee 0.5 0.6 0.7 0.8: Simple library for getting stats from Ubee routers.
 dev-python/pyunifi 2.16: API for Ubiquity Networks UniFi controller
@@ -831,6 +834,7 @@ dev-python/wikipedia 1.4.0: Wikipedia API for Python
 dev-python/wirelesstagpy 0.4.0: Simple python wrapper over wirelesstags REST API
 dev-python/withings-api 2.1.3: Library for the Withings API
 dev-python/wled 0.1.0 0.2.1: Asynchronous Python client for WLED.
+dev-python/wsaccel 0.6.2_p20170108-r1: Accelerator for ws4py, autobahn and tornado
 dev-python/wunderpy2 0.1.6: A Python library for the Wunderlist 2 REST API
 dev-python/xbee-helper 0.0.7: This project offers a high level API to an XBee device running an up- to-date version of the ZigBee firmware. It builds upon the existing XBee project by abstracting more functionality into methods.
 dev-python/xboxapi 0.1.1: A wrapper library for XboxAPI.com
@@ -856,8 +860,8 @@ dev-python/zipp 0.5.0 0.5.1 0.5.1-r1: Backport of pathlib-compatible object wrap
 dev-python/zm-py 0.3.3 0.4.0: A loose python wrapper around the ZoneMinder REST API.
 media-libs/mutagen 1.43.0: Audio metadata tag reader and writer implemented in pure Python
 media-libs/opencv 3.4.1-r7: A collection of algorithms and sample code for various computer vision problems
-net-analyzer/fail2ban 0.10.4-r3: scans log files and bans IPs that show malicious signs
+net-analyzer/fail2ban 0.11.1-r3: scans log files and bans IPs that show malicious signs
 net-analyzer/speedtest-cli 2.1.1: Command line interface for testing internet bandwidth using speedtest.net
 sci-libs/tensorflow 1.13.2: Computation framework using data flow graphs for scalable machine learning
-virtual/mqtt 0: Virtual for system loggers
+virtual/mqtt 0 1: Virtual for system loggers
 www-servers/tornado 5.1.1: Python web framework and asynchronous networking library
