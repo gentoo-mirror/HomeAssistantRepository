@@ -3,17 +3,17 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Hebrew date and Zmanim"
-HOMEPAGE="https://github.com/royi1000/py-libhdate https://pypi.org/project/hdate/"
+DESCRIPTION="Tool to read data from Rainforest Legacy Eagle."
+HOMEPAGE="https://github.com/jcalbert/uEagle https://pypi.org/project/uEagle/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3+"
+LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
 RDEPEND=""
