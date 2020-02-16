@@ -113,7 +113,7 @@ dev-python/anel-pwrctrl-homeassistant 0.0.1: Discover and control ANEL NET-PwrCt
 dev-python/anthemav 1.1.9 1.1.10: Python API for controlling Anthem Receivers
 dev-python/apcaccess 0.0.13: This project implements the apcaccess tool in pure Python and provides
 dev-python/apns2 0.3.0 0.7.1: Interacting with the Apple Push Notification Service via HTTP/2 protocol
-dev-python/apprise 0.8.1 0.8.2 0.8.3: Push Notifications that work with just about every platform!
+dev-python/apprise 0.8.1 0.8.2 0.8.3 0.8.4: Push Notifications that work with just about every platform!
 dev-python/aprslib 0.6.46: Module for accessing APRS-IS and parsing APRS packets
 dev-python/aqualogic 1.0: Library for a Hayward/Goldline AquaLogic/ProLogic pool controller.
 dev-python/arcam-fmj 0.4.3: A python library for speaking to Arcam receivers
@@ -290,7 +290,7 @@ dev-python/hangups 0.4.6 0.4.9: the first third-party instant messaging client f
 dev-python/hass-nabucasa 0.22 0.23 0.29 0.30 0.31: Home Assistant cloud integration by Nabu Casa, inc.
 dev-python/haversine 2.1.2: Calculate the distance between 2 points on Earth.
 dev-python/hbmqtt 0.9.4 0.9.5: MQTT client/broker using Python 3.4 asyncio library
-dev-python/hdate 0.8.8 0.9.0 0.9.1 0.9.2 0.9.3: Hebrew date and Zmanim
+dev-python/hdate 0.9.0 0.9.1 0.9.2 0.9.3 0.9.5: Hebrew date and Zmanim
 dev-python/heatmiserV3 0.9.1 1.1.9 1.1.18: A library to interact with Heatmiser Themostats using V3
 dev-python/herepy 0.6.3.1 0.6.3.3 2.0.0: A Python wrapper around the HERE APIs
 dev-python/hikvision 0.4 1.2: Provides a python interface to interact with a hikvision camera
@@ -467,7 +467,7 @@ dev-python/pyHS100 0.3.3 0.3.4 0.3.5: Interface for TPLink HS1xx plugs, HS2xx wa
 dev-python/pyHik 0.2.2 0.2.3 0.2.4 0.2.5: Interact with a Hikvision camera event stream and toggle motion detection.
 dev-python/pyRFXtrx 0.23.0 0.24.0 0.25.0: a library to communicate with the RFXtrx family of devices
 dev-python/pySDCP 1: SDCP library to control Sony Projectors
-dev-python/pyTibber 0.10.1 0.10.3 0.11.5 0.11.6 0.11.7 0.12.0: A python3 library to communicate with Tibber
+dev-python/pyTibber 0.10.3 0.11.5 0.11.6 0.11.7 0.12.0 0.12.2: A python3 library to communicate with Tibber
 dev-python/pyW215 0.6.0: Interface for d-link W215 Smart Plugs.
 dev-python/pyW800rf32 0.1 0.3: A library to communicate with the W800rf32 family of devices
 dev-python/pyads 3.0.7 3.1.2: Python wrapper for TwinCAT ADS library
@@ -550,7 +550,7 @@ dev-python/pylutron 0.2.2 0.2.5: Python library for Lutron RadioRA 2
 dev-python/pylutron-caseta 0.5.0 0.5.1: Provides an API to the Lutron Smartbridge
 dev-python/pymailgunner 1.4: A simple mailgun client - pymailgun fork with Python 3 support
 dev-python/pymediaroom 0.6.4: Remote control your Mediaroom Set-up-box
-dev-python/pymelcloud 2.0.0: Python MELCloud interface
+dev-python/pymelcloud 2.0.0 2.1.0: Python MELCloud interface
 dev-python/pymfy 0.5.2 0.6.0 0.6.1 0.7.1: A Somfy Open API library
 dev-python/pymitv 1.4.3: A Python 3 based Xiaomi TV remote
 dev-python/pymochad 0.2.0: A python library for interacting with moch
@@ -733,7 +733,7 @@ dev-python/sharp_aquos_rc 0.3.2 0.4: Control Sharp Aquos SmartTVs through the IP
 dev-python/shodan 1.19.0 1.19.1 1.20.0 1.21.0 1.21.1 1.21.2 1.21.3: Python library and command-line utility for Shodan (https://developer.shodan.io)
 dev-python/simplehound 0.3: Unofficial python API for Sighthound
 dev-python/simplepush 1.1.4: Simplepush python library
-dev-python/simplisafe-python 5.1.0 5.2.0 5.3.5 5.3.6 6.0.0 6.1.0 7.1.0: A Python3, async interface to the SimpliSafe API
+dev-python/simplisafe-python 5.2.0 5.3.5 5.3.6 6.0.0 6.1.0 7.1.0 7.3.0: A Python3, async interface to the SimpliSafe API
 dev-python/sisyphus-control 2.2.1: Control your Sisyphus kinetic art tables (sisyphus-industries.com)
 dev-python/skybellpy 0.4.0 0.5.0: An Skybell HD Python library running on Python 3.
 dev-python/slacker 0.12.0 0.13.0: Slack API client
@@ -805,6 +805,7 @@ dev-python/txaio 18.7.1 18.8.1: Compatibility API between asyncio/Twisted/Trolli
 dev-python/typing 3.5.3.0 3.6.4-r1 3.6.6 3.6.6-r1: Type Hints for Python
 dev-python/typing-extensions 3.6.6: Backported and Experimental Type Hints for Python 3.5+
 dev-python/tzlocal 1.4 1.5.1 2.0.0 2.0.0-r1: tzinfo object for the local timezone
+dev-python/uEagle 0.0.1: Tool to read data from Rainforest Legacy Eagle.
 dev-python/ua-parser 0.8.0 0.8.0-r1: Python port of Browserscope's user agent parser
 dev-python/unifiled 0.10 0.11 0.12: Easily connect to Ubiquiti Unifi led devices
 dev-python/upcloud-api 0.4.3 0.4.5: UpCloud API Client
