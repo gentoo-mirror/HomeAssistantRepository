@@ -3,20 +3,20 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python Reddit API Wrapper allows simple access to reddit's API."
-HOMEPAGE="https://praw.readthedocs.org/ https://pypi.org/project/praw/"
+DESCRIPTION="Python module to talk to Philips Hue."
+HOMEPAGE="https://github.com/balloob/aiohue https://pypi.org/project/aiohue/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="BSD"
+LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
