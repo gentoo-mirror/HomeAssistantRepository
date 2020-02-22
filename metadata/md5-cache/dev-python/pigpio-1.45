@@ -1,15 +1,15 @@
 BDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] dev-python/setuptools[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=dev-python/setuptools[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] test? ( dev-python/nose[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] dev-python/pytest[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] )
-DESCRIPTION=GPIO interface on the Raspberry Pi.
+DESCRIPTION=Raspberry Pi GPIO module
 EAPI=7
-HOMEPAGE=https://github.com/adafruit/Adafruit_Python_GPIO/ https://pypi.org/project/Adafruit-GPIO/
+HOMEPAGE=http://abyz.me.uk/rpi/pigpio/python.html https://pypi.org/project/pigpio/
 IUSE=test python_targets_python3_6 python_targets_python3_7 python_targets_python3_8
 KEYWORDS=~arm64
-LICENSE=MIT
-RDEPEND=dev-python/Adafruit-PureIO[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]
+LICENSE=Unlicense
+RDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]
 REQUIRED_USE=|| ( python_targets_python3_6 python_targets_python3_7 python_targets_python3_8 )
 SLOT=0
-SRC_URI=mirror://pypi/A/Adafruit-GPIO/Adafruit_GPIO-1.0.3.tar.gz -> Adafruit-GPIO-1.0.3.tar.gz
+SRC_URI=mirror://pypi/p/pigpio/pigpio-1.45.tar.gz
 _eclasses_=distutils-r1	0d71c97a0c899f1f11ee4453ebeae2cd	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	4eed5e0c72d4544a2291ae46515f5d79	python-utils-r1	611c493a4cfef5254350fabc04b606f5	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=469b230ecd1ad69b269a03be742859f3
+_md5_=d80c6486a1be48ac965ce4f2029613b6
