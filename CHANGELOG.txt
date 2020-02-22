@@ -1,3 +1,32 @@
+2020-02-22 homeassistant-0.106.0_beta2
+  * bump homematicip-0.10.17
+  * skip unused, remove olds and bump frontend-20200220.1
+  * bump py-august-0.14.0
+  * update simplisafe-python-8.1.1
+  * bump aio-geojson-client-0.12
+  * update aio-geojson-geonetnz-quakes-0.12
+  * update aio-geojson-nsw-rfs-incidents-0.3
+  * bump pyps4-2ndscreen-1.0.7
+  * update pwmled-1.5.0 and
+  * add pigpio/pigpio-1.35 ff.
+  * remove futile platforms from Pi/Ada libraries
+  * bump pre-commit-2.1.0
+  * bump aiounifi-13
+  * bump bimmer-connected-0.7.1
+  * bump vallox-websocket-api-2.4.0
+  * bump zha-quirks-0.0.33
+  * update python-ecobee-api-0.2.1
+  * bump pyhomematic-0.1.65
+  * update requests-2.23.0 from main repo
+  * bump pyatmo-3.2.4
+  * update pyvizio-0.1.26
+  * bump py-august-0.17.0
+  * bump brother-0.1.6
+  * add dynalite-0.1.32, bump dynalite-devices-0.1.22
+  * sort KEYWORDS.unsorted
+  * fix ebuild.minorsyn, remove leading spaces
+  * update homeassistant-0.106.0_beta2
+
 2020-02-18 homeassistant-0.105.5
   * bump Adafruit-Blinka-3.9.0
   * bump adafruit-circuitpython-mcp230xx-2.2.2
