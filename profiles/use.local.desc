@@ -60,6 +60,7 @@ app-misc/homeassistant:nederlandse_spoorwegen - train service in the Netherlands
 app-misc/homeassistant:openwrt - fetch connected devices from your OpenWrt
 app-misc/homeassistant:owntracks - OwnTracks: track your location and send it directly to Home Assistant
 app-misc/homeassistant:plex - Python bindings for the Plex API
+app-misc/homeassistant:plugwise - enables Plugwise Anna thermostats
 app-misc/homeassistant:qnap - Python API for obtaining QNAP NAS system stats
 app-misc/homeassistant:recorder - storing details in a database per sqlalchemy
 app-misc/homeassistant:ring - integrate your ring.com devices

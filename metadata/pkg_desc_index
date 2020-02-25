@@ -4,7 +4,7 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-misc/home-assistant-cli 0.7.0 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/home-assistant-frontend 20191002.2 20191025.1 20191119.6 20191204.1 20200108.2 20200130.1 20200130.2 20200130.3 20200220.1: The Home Assistant frontend
-app-misc/homeassistant 0.101.3-r2 0.102.3 0.103.6 0.104.2 0.104.3 0.105.0 0.105.1 0.105.2 0.105.3 0.105.4 0.105.5 0.106.0_beta2 9999: Open-source home automation platform running on Python on 3.7
+app-misc/homeassistant 0.101.3-r2 0.102.3 0.103.6 0.104.3 0.105.0 0.105.1 0.105.2 0.105.3 0.105.4 0.105.5 0.106.0_beta2 0.106.0_beta4 9999: Open-source home automation platform running on Python on 3.7
 dev-embedded/esphome 1.11.2-r1 1.12.0 1.12.0-r1 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3 1.14.3-r1 1.14.3-r2 1.14.3-r3 1.14.3-r4 1.14.3-r5 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 4.0.3-r3: An open source ecosystem for IoT development
@@ -74,7 +74,7 @@ dev-python/aio-geojson-client 0.11 0.12: An async GeoJSON client library.
 dev-python/aio-geojson-geonetnz-quakes 0.11 0.12: An async GeoJSON client library for GeoNet NZ Quakes feed.
 dev-python/aio-geojson-nsw-rfs-incidents 0.1 0.3: An async GeoJSON client library for NSW Rural Fire Service Incidents.
 dev-python/aio-georss-gdacs 0.3: An async GeoRSS client library for GDACS feeds.
-dev-python/aioambient 0.1.3 0.2.0 0.3.0 0.3.1 0.3.2 1.0.2: A clean, async-friendly library for the Ambient Weather API
+dev-python/aioambient 0.1.3 0.2.0 0.3.0 0.3.1 0.3.2 1.0.2 1.0.4: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioasuswrt 1.1.18 1.1.20 1.1.21 1.1.22: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/
 dev-python/aioautomatic 0.6.5: Asyncio library for the Automatic API
 dev-python/aiobotocore 0.10.1 0.10.2 0.10.4 0.11.1 0.11.1-r1: Async client for aws services using botocore and aiohttp
@@ -85,6 +85,7 @@ dev-python/aioesphomeapi 2.0.1 2.1.0 2.2.0 2.4.0 2.4.1 2.4.2-r1 2.5.0 2.6.0 2.6.
 dev-python/aiofreepybox 0.0.8: Provides asynchronous authentication and access to Freebox servers
 dev-python/aioftp 0.10.1 0.12.0: ftp client/server for asyncio
 dev-python/aioharmony 0.1.7 0.1.8 0.1.11 0.1.13 0.1.13-r1: Asyncio Python library for connecting to and controlling the Logitech Harmony
+dev-python/aiohomekit 0.2.10 0.2.11: An asyncio HomeKit client
 dev-python/aiohttp 3.5.1 3.5.3 3.5.4 3.6.0 3.6.1 3.6.2: http client/server for asyncio
 dev-python/aiohttp-cors 0.7.0: Implements CORS support for aiohttp asyncio-powered asynchronous HTTP server
 dev-python/aiohue 1.9.0 1.9.1 1.9.2 1.10.1 2.0.0: Python module to talk to Philips Hue.
@@ -173,7 +174,7 @@ dev-python/cffi 1.12.2 1.12.2-r1: Foreign Function Interface for Python calling 
 dev-python/checkmyreqs 0.3.1: Check your project requirements for Python version compatibility
 dev-python/ciscomobilityexpress 0.1.2 0.1.5 0.3.1 0.3.3: Module to interact with Cisco Mobility Express APIs to fetch connected devices.
 dev-python/ciscosparkapi 0.4.2 0.10.1: Simple, lightweight, scalable Python API wrapper for the Cisco Spark APIs
-dev-python/ciso8601 2.1.2: Fast ISO8601 date time parser for Python written in C
+dev-python/ciso8601 2.1.2 2.1.3: Fast ISO8601 date time parser for Python written in C
 dev-python/clearpasspy 1.0.2 1.1.3: ClearPass API Python Library
 dev-python/click-log 0.2.0 0.3.2: Logging integration for Click
 dev-python/clx-sdk-xms 1.0.0: Library for CLX Communications HTTP REST Messaging API
@@ -224,7 +225,7 @@ dev-python/emulated-roku 0.1.8 0.1.9 0.2.0 0.2.1: Library to emulate a roku serv
 dev-python/enocean 0.40 0.50.0 0.50.1: EnOcean serial protocol implementation
 dev-python/enturclient 0.2.0 0.2.1: An API client for public transport data from Entur.
 dev-python/enum-compat 0.0.3: enum/enum34 compatibility package
-dev-python/env-canada 0.0.29 0.0.30 0.0.31 0.0.34: A package to access meteorological data from Environment Canada
+dev-python/env-canada 0.0.29 0.0.30 0.0.31 0.0.34 0.0.35: A package to access meteorological data from Environment Canada
 dev-python/envirophat 0.0.6 1.0.1: Enviro pHAT environmental sensor board driver
 dev-python/envoy-reader 0.8 0.8.6 0.10.0 0.11.0: A program to read from an Enphase Envoy on the local network
 dev-python/envs 1.2.6 1.3: Easy access env variables with strings, booleans, list, tuples, and dicts.
@@ -285,7 +286,7 @@ dev-python/growattServer 0.0.1: A package to talk to growatt server
 dev-python/gstreamer-player 1.1.2: Python 3 wrapper for playing media via gstreamer
 dev-python/ha-ffmpeg 1.9 1.11 2.0: A library that handling with ffmpeg for home-assistant
 dev-python/ha-philipsjs 0.0.8: jointSPACE API for Home-Assistant
-dev-python/haanna 0.10.0 0.10.1 0.12.3 0.13.5 0.14.1: Plugwise Anna API to use in conjunction with Home Assistant.
+dev-python/haanna 0.10.0 0.10.1 0.12.3 0.13.5 0.14.1 0.14.3: Plugwise Anna API to use in conjunction with Home Assistant.
 dev-python/habitipy 0.2.0 0.3.0: tools and library for Habitica restful API (http://habitica.com)
 dev-python/hangups 0.4.6 0.4.9: the first third-party instant messaging client for Google Hangouts
 dev-python/hass-nabucasa 0.22 0.23 0.29 0.30 0.31: Home Assistant cloud integration by Nabu Casa, inc.
@@ -408,6 +409,7 @@ dev-python/openhomedevice 0.4.2 0.6.3: Provides an API for requesting informatio
 dev-python/opensensemap-api 0.1.4 0.1.5: Python client for interacting with the openSenseMap API.
 dev-python/openwebifpy 1.2.7 3.1.0 3.1.1: Provides a python interface to interact with a device running OpenWebIf
 dev-python/openwrt-luci-rpc 1.0.5 1.1.0 1.1.1 1.1.2: Module for interacting with OpenWrt Luci RPC interface
+dev-python/orjson 2.5.1: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
 dev-python/oru 0.1.9 0.1.10 0.1.11: Python client for Orange and Rockland Utility smart energy meters
 dev-python/orvibo 1.1.1: Control Orvibo products.
 dev-python/oyaml 0.9: Ordered YAML: drop-in replacement for PyYAML which preserves dict ordering
@@ -438,7 +440,7 @@ dev-python/poetry 0.12.17: Python dependency management and packaging made easy.
 dev-python/postnl-api 1.0.2 1.2.2: Python wrapper for the PostNL API, a way to track packages and letters.
 dev-python/praw 6.1.1 6.3.1 6.4.0 6.5.0 6.5.1: Python Reddit API Wrapper allows simple access to reddit's API.
 dev-python/prayer_times_calculator 0.0.3: Prayer Times Calculator
-dev-python/pre-commit 1.18.2 1.18.3 1.20.0 1.21.0 2.0.0 2.0.1 2.1.0: A framework for managing and maintaining multi-language pre-commit hooks.
+dev-python/pre-commit 1.18.2 1.18.3 1.20.0 1.21.0 2.0.0 2.0.1 2.1.0 2.1.1: A framework for managing and maintaining multi-language pre-commit hooks.
 dev-python/prezzibenzina-py 1.1.4: A python package to get Prezzibenzina info
 dev-python/proliphix 0.4.1 0.5.0: API for Proliphix nt10e network thermostat.
 dev-python/protobuf-python 3.7.0 3.10.0 3.10.0-r1: Google's Protocol Buffers - Python bindings
@@ -465,6 +467,7 @@ dev-python/pyAtome 0.1.1: Get your energy consumption from Atome Linky device
 dev-python/pyCEC 0.4.13: Provide HDMI CEC devices as objects, especially for use with Home Assistant
 dev-python/pyEight 0.1.1 0.1.2 0.1.3: Provides a python api to interact with an Eight Sleep mattress cover.
 dev-python/pyEmby 1.6: Provides a python interface to interact with a Emby media server.
+dev-python/pyEzviz 0.1.5.2: Pilot your Ezviz cameras
 dev-python/pyHS100 0.3.3 0.3.4 0.3.5: Interface for TPLink HS1xx plugs, HS2xx wall switches & LB1xx bulbs
 dev-python/pyHik 0.2.2 0.2.3 0.2.4 0.2.5: Interact with a Hikvision camera event stream and toggle motion detection.
 dev-python/pyRFXtrx 0.23.0 0.24.0 0.25.0: a library to communicate with the RFXtrx family of devices
@@ -524,7 +527,7 @@ dev-python/pygogogate2 0.1.1 0.2.1: Python package for controlling Gogogate2-Ena
 dev-python/pygtfs 0.1.5: Models GTFS data in a database.
 dev-python/pyhaversion 2.2.0 2.2.1 3.0.2 3.1.0 3.2.0: A python module to the newest version number of Home Assistant.
 dev-python/pyheos 0.4.0 0.4.1 0.5.1 0.5.2 0.6.0: Async python library: HEOS devices through the HEOS CLI Protocol
-dev-python/pyhiveapi 0.2.19.3: A Python library to interface with the Hive API
+dev-python/pyhiveapi 0.2.19.3 0.2.20.1: A Python library to interface with the Hive API
 dev-python/pyhomematic 0.1.58 0.1.59 0.1.60 0.1.61 0.1.62 0.1.63 0.1.64 0.1.65: Homematic interface
 dev-python/pyhomeworks 0.0.6: Lutron Homeworks Series 4 and 8 interface over Ethernet
 dev-python/pyialarm 0.3: A simple library to interface with iAlarm systems, built for Home-Assistant
