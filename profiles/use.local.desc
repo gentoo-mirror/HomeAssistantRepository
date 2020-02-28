@@ -72,6 +72,7 @@ app-misc/homeassistant:signal - add Support for Moxie's Signal API
 app-misc/homeassistant:simplisafe - integrates SimpliSafe home security (V2 and V3) systems
 app-misc/homeassistant:sma - add Support for SMA Solar WebConnect
 app-misc/homeassistant:socat - Install socat and socat-zwave startscript
+app-misc/homeassistant:socialblade - monitor Youtube Channels
 app-misc/homeassistant:somfy - Somfy devices via their online service
 app-misc/homeassistant:sonos - Sonos Media Player Support
 app-misc/homeassistant:speedtest - spedtest.net support

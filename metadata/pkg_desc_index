@@ -3,8 +3,8 @@ acct-group/homeassistant 0: Homeassistant program group
 acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-misc/home-assistant-cli 0.7.0 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/home-assistant-frontend 20191002.2 20191025.1 20191119.6 20191204.1 20200108.2 20200130.1 20200130.2 20200130.3 20200220.1: The Home Assistant frontend
-app-misc/homeassistant 0.101.3-r2 0.102.3 0.103.6 0.104.3 0.105.0 0.105.1 0.105.2 0.105.3 0.105.4 0.105.5 0.106.0_beta2 0.106.0_beta4 9999: Open-source home automation platform running on Python on 3.7
+app-misc/home-assistant-frontend 20191002.2 20191025.1 20191119.6 20191204.1 20200108.2 20200130.1 20200130.2 20200130.3 20200220.1 20200220.4: The Home Assistant frontend
+app-misc/homeassistant 0.101.3-r2 0.102.3 0.103.6 0.104.3 0.105.0 0.105.1 0.105.2 0.105.3 0.105.4 0.105.5 0.106.0_beta2 0.106.0_beta4 0.106.1 9999: Open-source home automation platform running on Python on 3.7
 dev-embedded/esphome 1.11.2-r1 1.12.0 1.12.0-r1 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3 1.14.3-r1 1.14.3-r2 1.14.3-r3 1.14.3-r4 1.14.3-r5 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 4.0.3-r3: An open source ecosystem for IoT development
@@ -533,7 +533,7 @@ dev-python/pyhomeworks 0.0.6: Lutron Homeworks Series 4 and 8 interface over Eth
 dev-python/pyialarm 0.3: A simple library to interface with iAlarm systems, built for Home-Assistant
 dev-python/pyicloud 0.9.1 0.9.2: PyiCloud is a module which allows pythonistas interact with iCloud webservices.
 dev-python/pyintesishome 1.5 1.6: Library running asynchronus communications with IntesisHome Smart AC Controllers
-dev-python/pyipma 1.2.1 2.0.2 2.0.3: Library to retrieve information from Instituto Portuguges do Mar e Atmosfera.
+dev-python/pyipma 1.2.1 2.0.2 2.0.3 2.0.4: Library to retrieve information from Instituto Portuguges do Mar e Atmosfera.
 dev-python/pyiqvia 0.2.1: A clean, async-focused Python3 API for IQVIA data
 dev-python/pyirishrail 0.0.2: Python library to get the real-time transport information (RTPI) from Irish Rail
 dev-python/pyiss 1.0.1: A simple library for info about the current International Space Station location
@@ -656,7 +656,7 @@ dev-python/python-slugify 1.2.6 3.0.2 3.0.3 3.0.4 3.0.6 4.0.0: A Python Slugify 
 dev-python/python-sochain-api 0.0.2: Python API for interacting with chain.so.
 dev-python/python-songpal 0.11.1 0.11.2: Python library for interfacing with Sony's Songpal devices
 dev-python/python-synology 0.2.0 0.3.0 0.4.0: Python API for communication with Synology DSM
-dev-python/python-tado 0.2.3 0.2.8 0.2.9: PyTado from chrism0dwk, modfied by w.malgadey
+dev-python/python-tado 0.2.3 0.2.8 0.2.9 0.3.0: PyTado from chrism0dwk, modfied by w.malgadey
 dev-python/python-telegram-bot 11.1.0: We have made you a wrapper you can't refuse
 dev-python/python-telnet-vlc 1.0.4: A library to control or get information about VLC using Telnet
 dev-python/python-twitch-client 0.6.0: Easy to use Python library for accessing the Twitch API
@@ -738,7 +738,7 @@ dev-python/sharp_aquos_rc 0.3.2 0.4: Control Sharp Aquos SmartTVs through the IP
 dev-python/shodan 1.19.0 1.19.1 1.20.0 1.21.0 1.21.1 1.21.2 1.21.3: Python library and command-line utility for Shodan (https://developer.shodan.io)
 dev-python/simplehound 0.3: Unofficial python API for Sighthound
 dev-python/simplepush 1.1.4: Simplepush python library
-dev-python/simplisafe-python 5.2.0 5.3.5 5.3.6 6.0.0 6.1.0 7.1.0 7.3.0 8.1.1: A Python3, async interface to the SimpliSafe API
+dev-python/simplisafe-python 5.2.0 5.3.5 5.3.6 6.0.0 6.1.0 7.1.0 7.3.0 8.1.1 9.0.2: A Python3, async interface to the SimpliSafe API
 dev-python/sisyphus-control 2.2.1: Control your Sisyphus kinetic art tables (sisyphus-industries.com)
 dev-python/skybellpy 0.4.0 0.5.0: An Skybell HD Python library running on Python 3.
 dev-python/slacker 0.12.0 0.13.0: Slack API client
@@ -751,7 +751,7 @@ dev-python/smbus2 0.3.0: smbus2 is a drop-in replacement for smbus-cffi/smbus-py
 dev-python/smhi-pkg 1.0.10: Gets the weather forecast data from Swedish weather institute
 dev-python/snapcast 2.0.9 2.0.10: Control Snapcast.
 dev-python/snitun 0.13 0.15 0.18 0.20: SNI proxy with TCP multiplexer
-dev-python/socialbladeclient 0.2: Social Blade Unofficial Client
+dev-python/socialbladeclient 0.2 0.5: Social Blade Unofficial Client
 dev-python/solaredge 0.0.2: A python API wrapper for Solaredge monitoring service
 dev-python/solaredge-local 0.1.4 0.2.0: API wrapper to communicate locally with SolarEdge Inverters
 dev-python/solax 0.1.0 0.1.1 0.1.2 0.2.2: Solax inverter API client
