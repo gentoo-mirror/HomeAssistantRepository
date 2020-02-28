@@ -7,16 +7,17 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy"
-HOMEPAGE="https://github.com/ijl/orjson https://pypi.org/project/orjson/"
+DESCRIPTION="Library to retrieve information from Instituto Portuguges do Mar e Atmosfera."
+HOMEPAGE="https://github.com/dgomes/pyipma https://pypi.org/project/pyipma/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="|| ( Apache-2.0 MIT )"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/geopy[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

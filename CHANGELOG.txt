@@ -1,3 +1,13 @@
+2020-02-28 homeassistant-0.106.1
+  * bump home-assistant-frontend-20200220.4
+  * fix a dep in 0.106.1 betas
+  * update homeassistant-0.106.1
+  * bump orjson-2.5.1.ebuild
+  * bump socialbladeclient-0.5
+  * bump pyipma-2.0.4
+  * bump python-tado-0.3.0
+  * bump simplisafe-python-9.0.2
+
 2020-02-25 homeassistant-0.106.0_beta4
   * add pyEzviz-0.1.5.2
   * bump aioambient-1.0.4

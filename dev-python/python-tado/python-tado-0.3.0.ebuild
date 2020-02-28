@@ -7,11 +7,12 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy"
-HOMEPAGE="https://github.com/ijl/orjson https://pypi.org/project/orjson/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+DESCRIPTION="PyTado from chrism0dwk, modfied by w.malgadey"
+HOMEPAGE="https://github.com/wmalgadey/PyTado https://pypi.org/project/python-tado/"
+#SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://github.com/wmalgadey/PyTado/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="|| ( Apache-2.0 MIT )"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
