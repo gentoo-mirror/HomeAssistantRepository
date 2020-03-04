@@ -1,3 +1,30 @@
+2020-03-04 homeassistant-0.106.5
+  * bump PyFlume-0.3.0
+  * bump aiounifi-14
+  * bump bravia-tv-1.0.1
+  * bump brother-0.1.8
+  * add coronavirus
+  * bump dynalite-devices-0.1.26
+  * bump dynalite-devices-0.1.30
+  * bump huawei-lte-api-1.4.10
+  * bump py-august-0.21.0
+  * bump py-august-0.22.0
+  * bump pyEight-0.1.4
+  * bump pyTibber-0.13.0
+  * bump pyipma-2.0.5
+  * add pyqvrpro-0.51
+  * add pytankerkoenig-0.0.6
+  * bump roombapy-1.4.2 & roombapy-1.4.3
+  * bump teslajsonpy-0.4.0
+  * bump total-connect-client-0.53
+  * add untangle-1.1.1
+  * bump youtube_dl-2020.3.1
+  * bump zha-quirks-0.0.34
+  * bump home-assistant-frontend-20200228.0
+  * bump zigpy-homeassistant-0.14.0
+  * update new homeassistant-core repo name @github
+  * update homeassistant-0.106.[3-5]
+
 2020-02-29 homeassistant-0.106.2
   * bump home-assistant-frontend-20200220.5
   * update homeassistant-0.106.2
