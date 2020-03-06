@@ -3,21 +3,22 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Library implementing a ZigBee stack"
-HOMEPAGE="https://github.com/zigpy/zigpy https://pypi.org/project/zigpy-homeassistant/"
+DESCRIPTION="Library for EDL21 smart meters using Smart Message Language (SML)"
+HOMEPAGE="https://github.com/mtdcr/pysml https://pypi.org/project/pysml/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/pycryptodome[${PYTHON_USEDEP}]
-		 dev-python/crccheck[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]
+	>=dev-python/bitstring-3.1.5[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-asyncio-0.4[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

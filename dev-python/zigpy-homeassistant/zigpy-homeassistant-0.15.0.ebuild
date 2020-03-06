@@ -3,20 +3,22 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="YouTube video downloader"
-HOMEPAGE="https://github.com/ytdl-org/youtube-dl https://pypi.org/project/youtube_dl/"
+DESCRIPTION="Library implementing a ZigBee stack"
+HOMEPAGE="https://github.com/zigpy/zigpy https://pypi.org/project/zigpy-homeassistant/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Unlicense"
+LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND="dev-python/pycryptodome[${PYTHON_USEDEP}]
+		 dev-python/aiohttp[${PYTHON_USEDEP}]
+		 dev-python/crccheck[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
