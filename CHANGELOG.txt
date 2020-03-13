@@ -1,3 +1,37 @@
+2020-03-13 homeassistant-0.106.6
+  * bump aiohomekit-0.2.24
+  * bump aiohomekit-0.2.25
+  * bump aiohomekit-0.2.29
+  * bump aiounifi-15
+  * bump bellows-homeassistant-0.14.0
+  * bump bomradarloop-0.1.4
+  * bump coronavirus-1.1.0
+  * bump denonavr-0.8.0
+  * bump hass-nabucasa-0.32.2
+  * bump py-august-0.24.0
+  * bump pyTibber-0.13.3
+  * bump pyatmo-3.3.0
+  * bump pyicloud-0.9.3
+  * bump pyicloud-0.9.4
+  * bump pymelcloud-2.4.0
+  * bump python-ecobee-api-0.2.2
+  * bump python-izone-1.1.2
+  * bump python-tado-0.4.0
+  * bump python-velbus-2.0.42
+  * bump pyubee-0.9
+  * bump rflink-0.0.52
+  * bump youtube_dl-2020.3.8
+  * bump zha-quirks-0.0.36
+  * bump zigpy-homeassistant-0.16.0
+  * bump zigpy-xbee-homeassistant-0.10.0
+  * bump home-assistant-frontend-20200311.0
+  * bump home-assistant-frontend-20200311.1
+  * add griddypower-0.1.0
+  * add iammeter-0.1.3
+  * add samsungtvws-1.4.0
+  * update homeassistant-0.106.6
+  * fix leading spaces in homeassistant-9999.ebuild
+
 2020-03-08
   * bump frontend-20200306.0, remove olds
   * bump aiohomekit-0.2.21
