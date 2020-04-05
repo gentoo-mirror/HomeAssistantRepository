@@ -1,3 +1,39 @@
+2020-04-05 homeassistant-0.108.0_beta3
+  * add tesla-powerwall-0.1.4
+  * bump apprise-0.8.5
+  * update python-tado-0.6.0
+  * bump zha:
+    - bellows-homeassistant-0.15.1
+    - zha-quirks-0.0.38
+    - zigpy-deconz-0.8.0
+    - zigpy-homeassistant-0.18.0
+    - zigpy-xbee-homeassistant-0.11.0
+  * bump home-assistant-frontend-20200401.0
+  * bump roku-4.1.0
+  * bump brother-0.1.11
+  * add directv-0.3.0
+  * bump pyotgw-0.6_beta1
+  * bump dynalite-devices-0.1.39
+  * bump pyipp-0.8.2
+  * bump HAP-python-2.8.0
+  * bump pyflunearyou-1.0.7
+  * bump python-miio-0.5.0.1
+  * bump pyipp-0.8.3
+  * bump pyvizio-0.1.45
+  * bump luftdaten-0.6.4
+  * bump gios-0.1.1
+  * bump Mastodon-py-1.5.1
+  * bump zeroconf-0.25.0
+  * bump adguardhome-0.4.2
+  * bump abodepy-0.19.0
+  * bump home-assistant-frontend-20200403.0
+  * bump pymelcloud-2.4.1
+  * bump twentemilieu-0.3.0
+  * bump bellows-homeassistant-0.15.2
+  * bump zigpy-homeassistant-0.18.1
+  * add openerz-api-0.1.0
+  * update homeassistant-0.108.0_beta3
+
 2020-03-31 homeassistant-0.107.7
   * bump frontend-20200330.0
   * bump aioambient-1.1.0
