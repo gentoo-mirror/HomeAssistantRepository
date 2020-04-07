@@ -3,8 +3,8 @@ acct-group/homeassistant 0: Homeassistant program group
 acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-misc/home-assistant-cli 0.7.0 0.8.0 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/home-assistant-frontend 20191025.1 20191119.6 20191204.1 20200108.2 20200130.1 20200130.2 20200130.3 20200220.1 20200220.4 20200220.5 20200306.0 20200311.0 20200311.1 20200312.0 20200313.0 20200316.0 20200316.1 20200318.0 20200318.1 20200330.0 20200401.0 20200403.0: The Home Assistant frontend
-app-misc/homeassistant 0.103.6 0.104.3 0.105.0 0.105.1 0.105.2 0.105.3 0.105.4 0.105.5 0.106.0_beta4 0.106.1 0.106.2 0.106.3 0.106.4 0.106.5 0.106.5-r1 0.106.6 0.107.0_beta2 0.107.0 0.107.1 0.107.2 0.107.3 0.107.4 0.107.5 0.107.6 0.107.7 0.108.0_beta3 9999: Open-source home automation platform running on Python on 3.7
+app-misc/home-assistant-frontend 20191204.1 20200108.2 20200130.1 20200130.2 20200130.3 20200220.1 20200220.4 20200220.5 20200312.0 20200318.0 20200318.1 20200403.0 20200406.0: The Home Assistant frontend
+app-misc/homeassistant 0.103.6 0.104.3 0.105.0 0.105.1 0.105.2 0.105.3 0.105.4 0.105.5 0.106.0_beta4 0.106.1 0.106.2 0.106.3 0.106.4 0.106.5 0.106.5-r1 0.106.6 0.107.0_beta2 0.107.0 0.107.1 0.107.2 0.107.3 0.107.4 0.107.5 0.107.6 0.107.7 0.108.0_beta3 0.108.0_beta5 9999: Open-source home automation platform running on Python on 3.7
 dev-embedded/esphome 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3-r4 1.14.3-r5 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 4.0.3-r3: An open source ecosystem for IoT development
@@ -21,7 +21,7 @@ dev-python/BlinkStick 1.1.8: Python package to control BlinkStick USB devices.
 dev-python/CO2Signal 0.4.1 0.4.2: A package to access the co2signal API
 dev-python/DoorBirdPy 2.0.8: Python wrapper for the DoorBird LAN API v0.21
 dev-python/GitPython 2.1.11: Python Git Library
-dev-python/HAP-python 2.6.0 2.7.0 2.8.0: HomeKit Accessory Protocol implementation in python
+dev-python/HAP-python 2.6.0 2.7.0 2.8.0 2.8.1: HomeKit Accessory Protocol implementation in python
 dev-python/Hydrawiser 0.1.1: A Python library to communicate with Hunter Wi-Fi irrigation controllers.
 dev-python/Js2Py 0.66: JavaScript to Python Translator & JavaScript interpreter.
 dev-python/Mastodon-py 1.4.5 1.4.6 1.5.0 1.5.1: Python wrapper for the Mastodon API
@@ -74,7 +74,7 @@ dev-python/aio-geojson-client 0.11 0.12: An async GeoJSON client library.
 dev-python/aio-geojson-geonetnz-quakes 0.11 0.12: An async GeoJSON client library for GeoNet NZ Quakes feed.
 dev-python/aio-geojson-nsw-rfs-incidents 0.1 0.3: An async GeoJSON client library for NSW Rural Fire Service Incidents.
 dev-python/aio-georss-gdacs 0.3: An async GeoRSS client library for GDACS feeds.
-dev-python/aioambient 0.3.0 0.3.1 0.3.2 1.0.2 1.0.4 1.1.0: A clean, async-friendly library for the Ambient Weather API
+dev-python/aioambient 0.3.0 0.3.1 0.3.2 1.0.2 1.0.4 1.1.0 1.1.1: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioasuswrt 1.1.18 1.1.20 1.1.21 1.1.22 1.2.2 1.2.3: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/
 dev-python/aioautomatic 0.6.5: Asyncio library for the Automatic API
 dev-python/aiobotocore 0.10.1 0.10.2 0.10.4 0.11.1 0.11.1-r1: Async client for aws services using botocore and aiohttp
@@ -430,6 +430,7 @@ dev-python/pdunehd 1.3: A Python wrapper for Dune HD media player API
 dev-python/pencompy 0.0.3 0.0.4: Pencom relay controller over Ethernet
 dev-python/phx-class-registry 3.0.5: Factory+Registry pattern for Python classes.
 dev-python/phx-filters 2.0.2: Validation and data pipelines made easy!
+dev-python/pi4ioe5v9xxxx 0.0.2: Driver for pi4ioe5v0xxxx I2C IO expander chips
 dev-python/pifacecommon 4.2.2: The PiFace common functions module.
 dev-python/pifacedigitalio 3.0.5: The PiFace Digital I/O module.
 dev-python/piglow 1.2.4 1.2.5: Drive the Pimoroni PiGlow board, based on the sn3218 i2c LED controller
@@ -751,7 +752,7 @@ dev-python/sharp_aquos_rc 0.3.2 0.4: Control Sharp Aquos SmartTVs through the IP
 dev-python/shodan 1.19.0 1.19.1 1.20.0 1.21.0 1.21.1 1.21.2 1.21.3 1.22.0: Python library and command-line utility for Shodan (https://developer.shodan.io)
 dev-python/simplehound 0.3: Unofficial python API for Sighthound
 dev-python/simplepush 1.1.4: Simplepush python library
-dev-python/simplisafe-python 6.1.0 7.1.0 7.3.0 8.1.1 9.0.2 9.0.3 9.0.4 9.0.5: A Python3, async interface to the SimpliSafe API
+dev-python/simplisafe-python 6.1.0 7.1.0 7.3.0 8.1.1 9.0.2 9.0.3 9.0.4 9.0.5 9.0.6: A Python3, async interface to the SimpliSafe API
 dev-python/sisyphus-control 2.2.1: Control your Sisyphus kinetic art tables (sisyphus-industries.com)
 dev-python/skybellpy 0.4.0 0.5.0: An Skybell HD Python library running on Python 3.
 dev-python/slackclient 2.5.0: Slack API clients for Web API and RTM API
