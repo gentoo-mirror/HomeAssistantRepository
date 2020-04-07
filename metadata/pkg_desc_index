@@ -694,7 +694,7 @@ dev-python/pyvesync 1.1.0: pyvesync is a library to manage Etekcity Switches
 dev-python/pyvesync-v2 0.9.6 0.9.7: Python library for vesync API for Etekcity Smart Outlets & switches
 dev-python/pyvizio 0.1.16 0.1.19 0.1.21 0.1.26 0.1.35 0.1.44 0.1.45: Python library for Vizio SmartCast TVs and Sound Bars (2016+ models)
 dev-python/pyvlx 0.2.9 0.2.11 0.2.12: PyVLX is a wrapper for the Velux KLF 200 API.
-dev-python/pywbem 0.16.0: pywbem - A WBEM client
+dev-python/pywbem 0.16.0 0.17.0: pywbem - A WBEM client
 dev-python/pywebpush 1.6.0 1.9.2: WebPush publication library
 dev-python/pywemo 0.4.34 0.4.38: Lightweight Python module to discover and control WeMo devices
 dev-python/pyxeoma 1.4.0 1.4.1: Python wrapper for Xeoma web server API
