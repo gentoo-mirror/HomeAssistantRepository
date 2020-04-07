@@ -3,20 +3,20 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{7,8} )
+PYTHON_COMPAT=( python3_{6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="The Home Assistant frontend"
-HOMEPAGE="https://github.com/home-assistant/home-assistant-polymer https://pypi.org/project/home-assistant-frontend/"
+DESCRIPTION="Driver for pi4ioe5v0xxxx I2C IO expander chips"
+HOMEPAGE="https://github.com/antonverburg/pi4ioe5v9xxxx https://pypi.org/project/pi4ioe5v9xxxx/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="LGPL-3"
 SLOT="0"
-KEYWORDS="amd64 arm64 x86 amd64-linux x86-linux"
+KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="~dev-python/user-agents-2.0[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/smbus2[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
