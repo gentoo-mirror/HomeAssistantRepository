@@ -5,9 +5,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 app-misc/home-assistant-cli 0.7.0 0.8.0 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/home-assistant-frontend 20191204.1 20200108.2 20200130.1 20200130.2 20200130.3 20200220.1 20200220.4 20200220.5 20200312.0 20200318.0 20200318.1 20200403.0 20200406.0 20200407.1 20200407.2: The Home Assistant frontend
 app-misc/homeassistant 0.103.6 0.104.3 0.105.5 0.106.5-r1 0.106.6 0.107.0_beta2 0.107.0 0.107.1 0.107.2 0.107.3 0.107.4 0.107.5 0.107.6 0.107.7 0.108.0_beta3 0.108.0_beta5 0.108.0 0.108.1 0.108.2 0.108.3 9999: Open-source home automation platform running on Python on 3.7
-dev-embedded/esphome 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3-r4 1.14.3-r5 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3-r4 1.14.3-r5 1.14.3-r6 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
-dev-embedded/platformio 4.0.3-r3: An open source ecosystem for IoT development
+dev-embedded/platformio 4.0.3-r3 4.3.1: An open source ecosystem for IoT development
 dev-libs/protobuf 3.7.0 3.10.0: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-python/Adafruit-Blinka 1.2.1 1.3.3 2.3.1 3.9.0: CircuitPython APIs.
 dev-python/Adafruit-DHT 1.4.0 1.4.1: Read DHT11, DHT22, and AM2302 humidity and temperature on a Raspberry Pi.
@@ -501,6 +501,7 @@ dev-python/pycarwings2 2.8 2.9: Python library for interacting with the Nissan L
 dev-python/pycfdns 0.0.1: A module for updating Cloudflare DNS records.
 dev-python/pychannels 1.0.0 1.1.0: API client for the Channels app - https://getchannels.com
 dev-python/pycmus 0.1.1: A python cmus remote library
+dev-python/pycognito 0.1.2: Python class to integrate Boto3's Cognito client so it is easy to login users. With SRP support.
 dev-python/pycomfoconnect 0.3: Python interface for the Zehnder ComfoConnect LAN C bridge.
 dev-python/pycoolmasternet 0.0.4 0.2.0: Lightweight Python API for CoolMasterNet HVAC bridges
 dev-python/pycountry-convert 0.7.2: Extension of Python package pycountry providing conversion functions.
@@ -653,6 +654,7 @@ dev-python/python-gitlab 1.6.0 1.13.0: Interact with GitLab API
 dev-python/python-hpilo 3.9 4.3: Accessing the HP iLO XML interface from python
 dev-python/python-izone 1.1.1 1.1.2: A python interface to the iZone airconditioner controller
 dev-python/python-join-api 0.0.4: Python API for interacting with Join by joaoapps.
+dev-python/python-jose 3.1.0: JOSE implementation in Python
 dev-python/python-jose-cryptodome 1.3.2 1.3.2-r1: JOSE implementation in Python using pycryptodome
 dev-python/python-juicenet 0.1.5 0.1.6: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
 dev-python/python-lirc 1.2.3: Python bindings for LIRC.
@@ -700,7 +702,7 @@ dev-python/pywbem 0.16.0 0.17.0: pywbem - A WBEM client
 dev-python/pywebpush 1.6.0 1.9.2: WebPush publication library
 dev-python/pywemo 0.4.34 0.4.38: Lightweight Python module to discover and control WeMo devices
 dev-python/pyxeoma 1.4.0 1.4.1: Python wrapper for Xeoma web server API
-dev-python/pyyaml 5.1.1 5.2 5.3 5.3.1: YAML parser and emitter for Python
+dev-python/pyyaml 5.1.1 5.2 5.3: YAML parser and emitter for Python
 dev-python/pyzabbix 0.7.5: Zabbix API Python interface
 dev-python/qnapstats 0.2.7 0.3.0: Python API for obtaining QNAP NAS system stats
 dev-python/quantum-gateway 0.0.3 0.0.5: Query a Quantum Gateway
@@ -729,7 +731,7 @@ dev-python/roku 3.0 3.1 4.0.0 4.1.0: Client for the Roku media player
 dev-python/roombapy 1.3.1 1.4.1 1.4.2 1.4.3 1.5.0: Python library to control Wi-Fi enabled iRobot Roomba vacuum cleaners
 dev-python/rova 0.1.0: API wrapper for ROVA calendar
 dev-python/rpi-rf 0.9.7: Send and receive 433/315MHz signals with GPIO RF modules on a Raspberry Pi
-dev-python/rsa 4.0 4.0-r1: Pure-Python RSA implementation
+dev-python/rsa 4.0 4.0-r1 4.0-r2: Pure-Python RSA implementation
 dev-python/ruamel-yaml 0.15.91 0.15.94 0.15.99 0.15.100 0.16.5: YAML parser/emitter that supports roundtrip comment preservation
 dev-python/russound 0.1.9: Python API for Russound RNET commands.
 dev-python/russound-rio 0.1.7: Asyncio client for Russound RIO devices
