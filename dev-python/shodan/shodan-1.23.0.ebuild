@@ -7,16 +7,18 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Driver for pi4ioe5v0xxxx I2C IO expander chips"
-HOMEPAGE="https://github.com/antonverburg/pi4ioe5v9xxxx https://pypi.org/project/pi4ioe5v9xxxx/"
+DESCRIPTION="Python library and command-line utility for Shodan (https://developer.shodan.io)"
+HOMEPAGE="https://github.com/achillean/shodan-python/tree/master https://pypi.org/project/shodan/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="LGPL-3"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/smbus2[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/requests-2.2.1[${PYTHON_USEDEP}]
+	dev-python/click[${PYTHON_USEDEP}]
+	dev-python/click-plugins[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

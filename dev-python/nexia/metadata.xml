@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pi4ioe5v9xxxx</remote-id>
+    <remote-id type="pypi">nexia</remote-id>
     <maintainer status="unknown">
-      <email>info@tec-V.nl</email>
-      <name>Anton Verburg</name>
+      <email>nick@koston.org</email>
+      <name>J. Nick Koston</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

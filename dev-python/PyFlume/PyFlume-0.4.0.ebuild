@@ -7,16 +7,18 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Driver for pi4ioe5v0xxxx I2C IO expander chips"
-HOMEPAGE="https://github.com/antonverburg/pi4ioe5v9xxxx https://pypi.org/project/pi4ioe5v9xxxx/"
+DESCRIPTION="Package to integrate with Flume Sensor"
+HOMEPAGE="https://github.com/ChrisMandich/PyFlume https://pypi.org/project/PyFlume/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="LGPL-3"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/smbus2[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/pytz[${PYTHON_USEDEP}]
+	dev-python/pyjwt[${PYTHON_USEDEP}]
+	dev-python/ratelimit[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
