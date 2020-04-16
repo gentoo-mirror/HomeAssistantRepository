@@ -4,7 +4,7 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-misc/home-assistant-cli 0.7.0 0.8.0 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/home-assistant-frontend 20191204.1 20200108.2 20200220.5 20200318.1 20200403.0 20200406.0 20200407.1 20200407.2: The Home Assistant frontend
-app-misc/homeassistant 0.103.6 0.104.3 0.106.6 0.107.7 0.108.0_beta3 0.108.0_beta5 0.108.0 0.108.1 0.108.2 0.108.3 0.108.3-r1 9999: Open-source home automation platform running on Python on 3.7
+app-misc/homeassistant 0.103.6 0.104.3 0.106.6 0.107.7 0.108.0_beta5 0.108.0 0.108.1 0.108.2 0.108.3 0.108.3-r1 0.108.4 0.108.5 9999: Open-source home automation platform running on Python on 3.7
 dev-embedded/esphome 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3-r4 1.14.3-r5 1.14.3-r6 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 4.0.3-r3 4.3.1: An open source ecosystem for IoT development
@@ -507,7 +507,7 @@ dev-python/pycountry-convert 0.7.2: Extension of Python package pycountry provid
 dev-python/pycryptodome 3.7.0 3.7.2 3.7.3 3.7.3-r1 3.9.6: A self-contained cryptographic library for Python
 dev-python/pycryptodomex 3.9.4: Cryptographic library for Python
 dev-python/pycsspeechtts 1.0.3: Python 3 interface to Microsoft Cognitive Services Text To Speech
-dev-python/pydaikin 1.4.4 1.4.5 1.6.1 1.6.2: Python Daikin HVAC appliances interface
+dev-python/pydaikin 1.4.4 1.4.5 1.6.1 1.6.2 1.6.3: Python Daikin HVAC appliances interface
 dev-python/pydanfossair 0.0.7 0.1.0: Python interface for Danfoss Air HRV systems
 dev-python/pydeconz 65 66 67 68 69 70: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
 dev-python/pydelijn 0.5.1: Get realtime info on stop passages of De Lijn (api.delijn.be)
