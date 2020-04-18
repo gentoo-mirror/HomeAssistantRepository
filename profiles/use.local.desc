@@ -16,6 +16,7 @@ app-misc/homeassistant:axis - communicating with devices from Axis Communication
 app-misc/homeassistant:bitcoin - displays various details about the Bitcoin network
 app-misc/homeassistant:blockchain - displays Bitcoin wallet balances from blockchain.info
 app-misc/homeassistant:buienradar - use buienradar weather data
+app-misc/homeassistant:caldav - integrate a CalDAV (RFC4791) calendar
 app-misc/homeassistant:cast - let me talk to Google Chromecast
 app-misc/homeassistant:ciscomobilityexpress - install ciscomobilityexpress support
 app-misc/homeassistant:cli - install Home Assistant Cli hass-cli (lots of modules required)
