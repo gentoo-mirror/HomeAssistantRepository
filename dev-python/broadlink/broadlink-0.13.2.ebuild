@@ -3,20 +3,20 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="A Blink camera Python library running on Python 3."
-HOMEPAGE="https://github.com/fronzbot/blinkpy https://pypi.org/project/blinkpy/"
-SRC_URI="https://github.com/fronzbot/blinkpy/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+DESCRIPTION="Python API for controlling Broadlink IR controllers"
+HOMEPAGE="https://github.com/mjg59/python-broadlink https://pypi.org/project/broadlink/"
+SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/requests-2.20.0[${PYTHON_USEDEP}]"
+RDEPEND="~dev-python/cryptography-2.6.1[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

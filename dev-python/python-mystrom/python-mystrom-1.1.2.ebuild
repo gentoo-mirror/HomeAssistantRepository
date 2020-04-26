@@ -3,20 +3,22 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7} )
+PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python API for communication with Synology DSM"
-HOMEPAGE="https://github.com/StaticCube/python-synology/ https://pypi.org/project/python-synology/"
+DESCRIPTION="Python API for interacting with myStrom devices"
+HOMEPAGE="https://github.com/fabaff/python-mystrom https://pypi.org/project/python-mystrom/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/requests-1.0[${PYTHON_USEDEP}]"
+RDEPEND="
+		dev-python/click[${PYTHON_USEDEP}]
+		dev-python/requests[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

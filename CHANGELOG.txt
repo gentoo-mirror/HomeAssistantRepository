@@ -1,5 +1,42 @@
-2020-04-16 homeassistant-0.108.6
+2020-04-25 homeassistant-0.108.9
+  * pin ~dev-python/zeroconf-0.25.0
+  * update homeassistant-0.108.6
+  * remove unused nabucasa versions
+  * update homeassistant-0.108.8
+  * update homeassistant-0.108.9
+
+2020-04-25 homeassistant-0.108.6
   * bump androidtv-0.0.41
+  * bump roombapy-1.5.1
+  * bump python-tado-0.8.1
+  * bump home-assistant-frontend-20200418.0
+  * bump PlexAPI-3.4.0
+  * bump nad_receiver-0.0.12
+  * bump pyTibber-0.13.8
+  * add fnvhash-0.1.0
+  * bump brother-0.1.13
+  * update openwrt-luci-rpc-1.1.3
+  * bump hass-nabucasa-0.34.1, remove olds
+  * update pychromecast-5.0.0 (not PyChromecast!)
+  * bump broadlink-0.13.2
+  * bump bravia-tv-1.0.2
+  * add base36-0.1.1
+  * add mychevy-2.0.1
+  * bump home-assistant-frontend-20200422.0
+  * bump aioasuswrt-1.2.5
+  * add pyatag-0.2.19
+  * bump blinkpy-0.14.3
+  * bump python-synology-0.7.0
+  * bump pyairvisual-4.3.0, remove unused
+  * bump simplisafe-python-9.1.0, remove unused
+  * bump tesla-powerwall-0.2.8
+  * update python-mystrom-1.1.2
+  * bump home-assistant-frontend-20200424.0
+  * bump dynalite-devices-0.1.40
+  * bump zigpy-deconz-0.8.1
+  * bump av-7.0.1
+  * remove old dep from wakeonlan-1.1.6, -> -r1
+  * fix SRC_URI in ruamel-yaml
 
 2020-04-16 homeassistant-0.108.6
   * add dep in bravia-tv-1.0.1
