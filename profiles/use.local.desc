@@ -12,8 +12,10 @@ app-misc/homeassistant:atmo - Access to Netatmo weather station data
 app-misc/homeassistant:atv - Library for controlling an Apple TV
 app-misc/homeassistant:aurora - Support for Power-One Aurora inverters
 app-misc/homeassistant:avea - Library for Elgato Avea bulbs
+app-misc/homeassistant:aws - interact with Amazon Web Services
 app-misc/homeassistant:axis - communicating with devices from Axis Communications
 app-misc/homeassistant:bitcoin - displays various details about the Bitcoin network
+app-misc/homeassistant:blink - events from Blink camera and security systems
 app-misc/homeassistant:blockchain - displays Bitcoin wallet balances from blockchain.info
 app-misc/homeassistant:buienradar - use buienradar weather data
 app-misc/homeassistant:caldav - integrate a CalDAV (RFC4791) calendar
@@ -80,11 +82,13 @@ app-misc/homeassistant:somfy - Somfy devices via their online service
 app-misc/homeassistant:sonos - Sonos Media Player Support
 app-misc/homeassistant:speedtest - spedtest.net support
 app-misc/homeassistant:ssl - include support for haproxy
+app-misc/homeassistant:systemmonitor - monitor your platform
 app-misc/homeassistant:test - internal and developer use
 app-misc/homeassistant:tradfri - Control/observe IKEA Tradfri devices
 app-misc/homeassistant:ubee - getting stats from Ubee routers
 app-misc/homeassistant:unify - talk with a Ubiquiti Unify Controller
 app-misc/homeassistant:vera - add support for Vera Z-Wave Controller
+app-misc/homeassistant:version - display the current Home Assistant versions
 app-misc/homeassistant:webostv - allows you to control a LG webOS Smart TV
 app-misc/homeassistant:wemo - discover and control WeMo devices
 app-misc/homeassistant:wink - support for Wink Z-Wave Plus Smart Hub
