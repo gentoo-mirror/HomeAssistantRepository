@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">PyChromecast</remote-id>
+    <remote-id type="pypi">pulsectl</remote-id>
     <maintainer status="unknown">
-      <email>paulus@paulusschoutsen.nl</email>
-      <name>Paulus Schoutsen</name>
+      <email>mk.fraggod@gmail.com</email>
+      <name>George Filipkin, Mike Kazantsev</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

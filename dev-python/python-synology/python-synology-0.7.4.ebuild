@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Api wrapper for Melissa Climate."
-HOMEPAGE="https://github.com/kennedyshead/py-melissa-climate https://pypi.org/project/py-melissa-climate/"
+DESCRIPTION="Python API for communication with Synology DSM"
+HOMEPAGE="https://github.com/StaticCube/python-synology/ https://pypi.org/project/python-synology/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -16,9 +16,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-futures[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.24.3[${PYTHON_USEDEP}]
+	<dev-python/urllib3-1.25[${PYTHON_USEDEP}]
+	>=dev-python/future-0.18.2[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
