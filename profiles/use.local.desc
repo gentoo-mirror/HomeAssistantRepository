@@ -17,6 +17,7 @@ app-misc/homeassistant:axis - communicating with devices from Axis Communication
 app-misc/homeassistant:bitcoin - displays various details about the Bitcoin network
 app-misc/homeassistant:blink - events from Blink camera and security systems
 app-misc/homeassistant:blockchain - displays Bitcoin wallet balances from blockchain.info
+app-misc/homeassistant:bravia-tv - Control almost all Sony Bravia TV 2013 and newer.
 app-misc/homeassistant:buienradar - use buienradar weather data
 app-misc/homeassistant:caldav - integrate a CalDAV (RFC4791) calendar
 app-misc/homeassistant:cast - let me talk to Google Chromecast
@@ -37,7 +38,7 @@ app-misc/homeassistant:everlights - Library for controlling an EverLights lighti
 app-misc/homeassistant:flume - monitors the real-time status of your home water meter
 app-misc/homeassistant:flunearyou - allows users in the US to get information from Flu Near You
 app-misc/homeassistant:fronius - add (very basic) Support for Fronius Symo JSON Api
-app-misc/homeassistant:frontend - keep Home Assistant frontend out of virtualenv
+app-misc/homeassistant:frontend - (obsolete frontend useflag, until 0.108.5)
 app-misc/homeassistant:gpiozero - interface to GPIO devices on a Raspberry Pi
 app-misc/homeassistant:growl - add Growl Notification Transport Protocol
 app-misc/homeassistant:harmony - Logitech Harmony support
@@ -70,6 +71,7 @@ app-misc/homeassistant:qnap - Python API for obtaining QNAP NAS system stats
 app-misc/homeassistant:recorder - storing details in a database per sqlalchemy
 app-misc/homeassistant:ring - integrate your ring.com devices
 app-misc/homeassistant:roku - add support for Roku players
+app-misc/homeassistant:roomba - control a iRobot Roomba vacuum or iRobot Braava m-series mop
 app-misc/homeassistant:rxv - Library for Yamaha RX-* Receivers
 app-misc/homeassistant:samsungtv - Support for Samsung TV Sets
 app-misc/homeassistant:shodan - Shodan is a search engine for Internet-connected devices
@@ -82,11 +84,12 @@ app-misc/homeassistant:somfy - Somfy devices via their online service
 app-misc/homeassistant:sonos - Sonos Media Player Support
 app-misc/homeassistant:speedtest - spedtest.net support
 app-misc/homeassistant:ssl - include support for haproxy
+app-misc/homeassistant:synologydsm - monitor getting various statistics from your Synology NAS
 app-misc/homeassistant:systemmonitor - monitor your platform
 app-misc/homeassistant:test - internal and developer use
 app-misc/homeassistant:tradfri - Control/observe IKEA Tradfri devices
 app-misc/homeassistant:ubee - getting stats from Ubee routers
-app-misc/homeassistant:unify - talk with a Ubiquiti Unify Controller
+app-misc/homeassistant:unifi - talk with a Ubiquiti unifi Controller
 app-misc/homeassistant:vera - add support for Vera Z-Wave Controller
 app-misc/homeassistant:version - display the current Home Assistant versions
 app-misc/homeassistant:webostv - allows you to control a LG webOS Smart TV
