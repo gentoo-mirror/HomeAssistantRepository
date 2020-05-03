@@ -28,6 +28,7 @@
     <flag name="bitcoin">displays various details about the Bitcoin network</flag>
     <flag name="blockchain">displays Bitcoin wallet balances from blockchain.info</flag>
     <flag name="blink">events from Blink camera and security systems</flag>
+    <flag name="bravia-tv">Control almost all Sony Bravia TV 2013 and newer.</flag>
     <flag name="buienradar">use buienradar weather data</flag>
     <flag name="caldav">integrate a CalDAV (RFC4791) calendar</flag>
     <flag name="cast">let me talk to Google Chromecast</flag>
@@ -48,7 +49,7 @@
     <flag name="flume">monitors the real-time status of your home water meter</flag>
     <flag name="flunearyou">allows users in the US to get information from Flu Near You</flag>
     <flag name="fronius">add (very basic) Support for Fronius Symo JSON Api</flag>
-    <flag name="frontend">keep Home Assistant frontend out of virtualenv</flag>
+    <flag name="frontend">(obsolete frontend useflag, until 0.108.5)</flag>
     <flag name="gpiozero">interface to GPIO devices on a Raspberry Pi</flag>
     <flag name="growl">add Growl Notification Transport Protocol</flag>
     <flag name="harmony">Logitech Harmony support</flag>
@@ -81,6 +82,7 @@
     <flag name="recorder">storing details in a database per sqlalchemy</flag>
     <flag name="ring">integrate your ring.com devices</flag>
     <flag name="roku">add support for Roku players</flag>
+    <flag name="roomba">control a iRobot Roomba vacuum or iRobot Braava m-series mop</flag>
     <flag name="rxv">Library for Yamaha RX-* Receivers</flag>
     <flag name="samsungtv">Support for Samsung TV Sets</flag>
     <flag name="signal">add Support for Moxie's Signal API</flag>
@@ -93,11 +95,12 @@
     <flag name="simplisafe">integrates SimpliSafe home security (V2 and V3) systems</flag>
     <flag name="speedtest">spedtest.net support</flag>
     <flag name="ssl">include support for haproxy</flag>
+    <flag name="synologydsm">monitor getting various statistics from your Synology NAS</flag>
     <flag name="systemmonitor">monitor your platform</flag>
     <flag name="test">internal and developer use</flag>
     <flag name="tradfri">Control/observe IKEA Tradfri devices</flag>
     <flag name="ubee">getting stats from Ubee routers</flag>
-    <flag name="unify">talk with a Ubiquiti Unify Controller</flag>
+    <flag name="unifi">talk with a Ubiquiti unifi Controller</flag>
     <flag name="vera">add support for Vera Z-Wave Controller</flag>
     <flag name="version">display the current Home Assistant versions</flag>
     <flag name="webostv">allows you to control a LG webOS Smart TV</flag>

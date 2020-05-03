@@ -7,11 +7,11 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Mock out responses from the requests package"
-HOMEPAGE="https://requests-mock.readthedocs.io/ https://pypi.org/project/requests-mock/"
+DESCRIPTION="YouTube video downloader"
+HOMEPAGE="https://github.com/ytdl-org/youtube-dl https://pypi.org/project/youtube_dl/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="Unlicense"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
