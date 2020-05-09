@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="A python3 library to communicate with Tibber"
-HOMEPAGE="https://github.com/Danielhiversen/pyTibber https://pypi.org/project/pyTibber/"
+DESCRIPTION="A SoCo fork with fixes for Home Assistant."
+HOMEPAGE="https://github.com/amelchio/pysonos https://pypi.org/project/pysonos/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -16,12 +16,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/graphql-subscription-manager-0.3.1[${PYTHON_USEDEP}]
-		 >=dev-python/aiohttp-3.0.6[${PYTHON_USEDEP}]
-		 >=dev-python/async_timeout-1.4.0[${PYTHON_USEDEP}]
-		 >=dev-python/websockets-6.0[${PYTHON_USEDEP}]
-		 dev-python/pytz[${PYTHON_USEDEP}]
-		 dev-python/python-dateutil[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/mock[${PYTHON_USEDEP}]
+		 dev-python/ifaddr[${PYTHON_USEDEP}]
+		 dev-python/requests[${PYTHON_USEDEP}]
+		 dev-python/xmltodict[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
