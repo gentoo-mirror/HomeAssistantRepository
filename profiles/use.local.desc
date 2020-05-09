@@ -52,6 +52,7 @@ app-misc/homeassistant:homematicip - A python wrapper for the homematicIP REST A
 app-misc/homeassistant:hpilo - HP Integrated Lights out XML interface
 app-misc/homeassistant:hs100 - Interface for TPLink Stuff
 app-misc/homeassistant:hue - talk to Philips Hue
+app-misc/homeassistant:icloud - iCloud allows users to track their location on iOS devices.
 app-misc/homeassistant:incomfort - client for Intergas InComfort/InTouch Lan2RF systems
 app-misc/homeassistant:influxdb - transfer sensor data to a local InfluxDB database
 app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
@@ -61,6 +62,7 @@ app-misc/homeassistant:mikrotik - add support for MikroTik RouterOS API
 app-misc/homeassistant:mobile_app - Home Assistant Mobile App Support
 app-misc/homeassistant:mqtt - install MQTT Broker and dependencies
 app-misc/homeassistant:musiccast - add support for Yamaha MusicCast devices
+app-misc/homeassistant:myq - lets you control MyQ-Enabled garage doors
 app-misc/homeassistant:mysql - install MySQL Libraries for use with HomeAssistant
 app-misc/homeassistant:nederlandse_spoorwegen - train service in the Netherlands
 app-misc/homeassistant:openwrt - fetch connected devices from your OpenWrt
@@ -105,6 +107,7 @@ app-misc/homeassistant:z-wave - Support for Z-Wave Devices (uncomplete)
 app-misc/homeassistant:zigbee - Support for ZHA/deconz based Zigbee/ZNet Devices
 app-misc/homeassistant:zoneminder - Support for ZoneMinder Cameras
 dev-embedded/esphome:server - create user and install init-script to run ESPHome Dashboard
+dev-python/cryptography:idna - enable support for the old, deprecated IDNA specification (RFC 3490)
 dev-python/geopy:timezone - Enables localized date support
 dev-python/geopy:yahoo - Enables use of YahooPlaceFinder
 dev-python/pyyaml:libyaml - enable support for C implementation using libyaml
