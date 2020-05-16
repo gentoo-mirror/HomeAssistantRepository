@@ -5,7 +5,7 @@ acct-user/homeassistant 0: Home Assistant Program User
 app-misc/home-assistant-cli 0.7.0 0.8.0 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/home-assistant-frontend 20191204.1 20200108.2 20200220.5 20200318.1 20200403.0 20200406.0 20200407.1 20200407.2 20200414.0 20200418.0 20200422.0 20200424.0 20200427.0 20200427.1 20200427.2 20200505.0 20200509.0 20200512.0 20200513.0 20200514.0 20200514.1 20200515.0: The Home Assistant frontend
 app-misc/homeassistant 0.104.3 0.106.6 0.107.7 0.108.8 0.108.9 0.109.2 0.109.3 0.109.6 0.110.0_beta3: Open-source home automation platform running on Python on 3.7
-dev-embedded/esphome 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3-r4 1.14.3-r5 1.14.3-r6 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3-r4 1.14.3-r5 1.14.3-r6 1.14.3-r7 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 4.0.3-r3 4.3.1: An open source ecosystem for IoT development
 dev-libs/protobuf 3.7.0 3.10.0: Google's Protocol Buffers - Extensible mechanism for serializing structured data
