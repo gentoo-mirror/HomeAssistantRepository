@@ -201,7 +201,7 @@ RDEPEND="${RDEPEND}
 	systemmonitor? ( >=dev-python/psutil-5.7.0[${PYTHON_USEDEP}] )
 	tradfri? ( >=dev-python/pytradfri-6.4.0[${PYTHON_USEDEP}] )
 	ubee? ( ~dev-python/pyubee-0.10[${PYTHON_USEDEP}] )
-	unifi? ( ~dev-python/aiounifi-18[${PYTHON_USEDEP}] )
+	unifi? ( ~dev-python/aiounifi-20[${PYTHON_USEDEP}] )
 	vallox? ( ~dev-python/vallox-websocket-api-2.4.0[${PYTHON_USEDEP}] )
 	vera? ( ~dev-python/pyvera-0.3.7[${PYTHON_USEDEP}] )
 	version? ( ~dev-python/pyhaversion-3.2.0[${PYTHON_USEDEP}] )
