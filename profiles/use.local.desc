@@ -6,7 +6,9 @@ app-misc/homeassistant:abode - Library for the Abode alarm API
 app-misc/homeassistant:adguard - monitor your ad- and tracker-blocking DNS server
 app-misc/homeassistant:ambiclimate - communicate with Ambiclimate
 app-misc/homeassistant:ambient_station - retrieves local weather information from Ambient Weather
+app-misc/homeassistant:amcrest - integrate your Amcrest or Dahua IP camera
 app-misc/homeassistant:androidtv - Library for controlling an Android TV, formerly firetv
+app-misc/homeassistant:apprise - just about every Notification platform
 app-misc/homeassistant:asuswrt - Api wrapper for Asuswrt
 app-misc/homeassistant:atmo - Access to Netatmo weather station data
 app-misc/homeassistant:atv - Library for controlling an Apple TV
@@ -17,6 +19,7 @@ app-misc/homeassistant:axis - communicating with devices from Axis Communication
 app-misc/homeassistant:bitcoin - displays various details about the Bitcoin network
 app-misc/homeassistant:blink - events from Blink camera and security systems
 app-misc/homeassistant:blockchain - displays Bitcoin wallet balances from blockchain.info
+app-misc/homeassistant:bmw_connected_drive - retrieve data from the BMW Connected Drive
 app-misc/homeassistant:bravia-tv - Control almost all Sony Bravia TV 2013 and newer.
 app-misc/homeassistant:buienradar - use buienradar weather data
 app-misc/homeassistant:caldav - integrate a CalDAV (RFC4791) calendar
@@ -55,6 +58,9 @@ app-misc/homeassistant:hue - talk to Philips Hue
 app-misc/homeassistant:icloud - iCloud allows users to track their location on iOS devices.
 app-misc/homeassistant:incomfort - client for Intergas InComfort/InTouch Lan2RF systems
 app-misc/homeassistant:influxdb - transfer sensor data to a local InfluxDB database
+app-misc/homeassistant:ipma - ipma weather platform
+app-misc/homeassistant:jewish_calendar - jewish_calendar
+app-misc/homeassistant:kef - KEF wireless speakers
 app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant:maxcube_hack - apply Patch for https://github.com/home-assistant/home-assistant/issues/28811
 app-misc/homeassistant:miio - add support for Xiaomi smart appliances
@@ -93,6 +99,8 @@ app-misc/homeassistant:test - internal and developer use
 app-misc/homeassistant:tradfri - Control/observe IKEA Tradfri devices
 app-misc/homeassistant:ubee - getting stats from Ubee routers
 app-misc/homeassistant:unifi - talk with a Ubiquiti unifi Controller
+app-misc/homeassistant:vallox - control any Vallox ventilation unit
+app-misc/homeassistant:velbus - supports the Velbus USB, serial and TCP/IP gateway
 app-misc/homeassistant:vera - add support for Vera Z-Wave Controller
 app-misc/homeassistant:version - display the current Home Assistant versions
 app-misc/homeassistant:webostv - allows you to control a LG webOS Smart TV
