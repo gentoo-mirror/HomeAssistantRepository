@@ -67,6 +67,7 @@ app-misc/homeassistant:mysql - install MySQL Libraries for use with HomeAssistan
 app-misc/homeassistant:nederlandse_spoorwegen - train service in the Netherlands
 app-misc/homeassistant:openwrt - fetch connected devices from your OpenWrt
 app-misc/homeassistant:owntracks - OwnTracks: track your location and send it directly to Home Assistant
+app-misc/homeassistant:ozw - Open Zwave MQTT
 app-misc/homeassistant:plex - Python bindings for the Plex API
 app-misc/homeassistant:plugwise - enables Plugwise Anna thermostats
 app-misc/homeassistant:qnap - Python API for obtaining QNAP NAS system stats
