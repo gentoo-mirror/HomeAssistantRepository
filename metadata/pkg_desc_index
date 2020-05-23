@@ -4,7 +4,7 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-misc/home-assistant-cli 0.7.0 0.8.0 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/home-assistant-frontend 20200108.2 20200220.5 20200318.1 20200407.2 20200427.1 20200427.2 20200515.0 20200519.0 20200519.1 20200519.3 20200519.4: The Home Assistant frontend
-app-misc/homeassistant 0.104.3 0.106.6 0.107.7 0.108.8 0.108.9 0.109.2 0.109.3 0.109.6 0.110.0_beta3 0.110.0 0.110.1: Open-source home automation platform running on Python on 3.7
+app-misc/homeassistant 0.104.3 0.106.6 0.107.7 0.108.8 0.108.9 0.109.2 0.109.3 0.109.6 0.110.0_beta3 0.110.0 0.110.1 0.110.1-r1: Open-source home automation platform running on Python on 3.7
 dev-embedded/esphome 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3-r4 1.14.3-r5 1.14.3-r6 1.14.3-r7 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 4.0.3-r3 4.3.1: An open source ecosystem for IoT development
@@ -39,6 +39,7 @@ dev-python/PyGithub 1.43.5: Use the full Github API v3
 dev-python/PyISY 1.1.1 1.1.2: Python module to talk to ISY994 from UDI.
 dev-python/PyMVGLive 1.1.4: get live-data from mvg-live.de
 dev-python/PyMata 2.18 2.20: A Python Protocol Abstraction Library For Arduino Firmata
+dev-python/PyMeeus 0.3.7: Python implementation of Jean Meeus astronomical routines
 dev-python/PyMetno 0.4.6 0.5.0: A library to communicate with the met.no api
 dev-python/PyOTA 2.0.5 2.1.0: IOTA API library for Python
 dev-python/PyQRCode 1.2.1: A QR code generator purely in Python with SVG, EPS, PNG and terminal output.
@@ -194,7 +195,7 @@ dev-python/concord232 0.15: GE Concord 4 RS232 Serial Interface Library and Serv
 dev-python/connect-box 0.2.5: Python client for interacting with Compal CH7465LG devices.
 dev-python/construct 2.9.45 2.9.45-r1: A powerful declarative parser for binary data
 dev-python/contextvars 2.4: PEP 567 Backport
-dev-python/convertdate 2.1.3 2.2.1: Converts between Gregorian dates and other calendar systems.
+dev-python/convertdate 2.1.3 2.2.1-r1: Converts between Gregorian dates and other calendar systems.
 dev-python/coronavirus 1.0.1 1.1.0: Asynchronous Python client for getting Corona virus info.
 dev-python/coverage 4.5.1: Code coverage measurement for Python
 dev-python/coveralls 1.2.0 1.5.1: Show coverage stats online via coveralls.io
