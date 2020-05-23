@@ -1,3 +1,22 @@
+2020-05-23 homeassistant-0.110.1
+  * bump rokuecp-0.4.1
+  * bump pydaikin-2.0.4
+  * bump av-8.0.1
+  * bump proxmoxer-1.1.0
+  * bump python-openzwave-mqtt-1.0.1
+  * bump onvif-zeep-async-0.4.0
+  * bump home-assistant-frontend-20200519.1
+  * bump home-assistant-frontend-20200519.3
+  * bump home-assistant-frontend-20200519.4
+  * remove old frontends
+  * update homeassistant-0.110.1
+  * bump convertdate-2.2.1
+  * remove idna-ssl-1.1.0 dupe
+  * remove coverage-4.5.2 dupe
+  * delete old regex
+  * did a full compile test
+  * bump iaqualink-0.3.3
+
 2020-05-21 homeassistant-0.110.0
   * add forgotten Manifest
   * update pynuki-1.3.7

@@ -3,20 +3,23 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{7,8} )
+PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="The Home Assistant frontend"
-HOMEPAGE="https://github.com/home-assistant/home-assistant-polymer https://pypi.org/project/home-assistant-frontend/"
+DESCRIPTION="Converts between Gregorian dates and other calendar systems."
+HOMEPAGE="https://github.com/fitnr/convertdate https://pypi.org/project/convertdate/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 arm64 x86 amd64-linux x86-linux"
+KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="~dev-python/user-agents-2.0[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/ephem-3.7.5.3
+		 <dev-python/ephem-3.8
+		 >=dev-python/pytz-2014.10"
+#		 >=dev-python/pymeeus-0.3.6.1
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
