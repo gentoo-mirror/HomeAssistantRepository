@@ -29,6 +29,7 @@ app-misc/homeassistant:cli - install Home Assistant Cli hass-cli (lots of module
 app-misc/homeassistant:coronavirus - add sensors for COVID-19 infections from Johns Hopkins University
 app-misc/homeassistant:daikin - Daikin wireless controllers
 app-misc/homeassistant:darksky - use dark sky weather data
+app-misc/homeassistant:delijn - De Lijn public transport network in Flanders
 app-misc/homeassistant:denonavr - Automation Library for Denon AVR receivers
 app-misc/homeassistant:discogs - Discogs Client
 app-misc/homeassistant:dyson - integrate all Dyson related platforms
