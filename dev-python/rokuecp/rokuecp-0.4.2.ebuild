@@ -7,21 +7,18 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="An asyncio HomeKit client"
-HOMEPAGE="https://github.com/Jc2k/aiohomekit https://pypi.org/project/aiohomekit/"
+DESCRIPTION="Asynchronous Python client for Roku (ECP)."
+HOMEPAGE="https://github.com/ctalkington/python-rokuecp https://pypi.org/project/rokuecp/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/attrs-18.1.0
-	>=dev-python/click-6.5
-	>=dev-python/pathspec-0.6
-	dev-python/regex
-	>=dev-python/toml-0.9.4
-	>=dev-python/typed-ast-1.4.0"
+RDEPEND="~dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
+	~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
+	~dev-python/yarl-1.4.2[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
