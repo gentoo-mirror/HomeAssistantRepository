@@ -56,6 +56,7 @@ app-misc/homeassistant:homematicip - A python wrapper for the homematicIP REST A
 app-misc/homeassistant:hpilo - HP Integrated Lights out XML interface
 app-misc/homeassistant:hs100 - Interface for TPLink Stuff
 app-misc/homeassistant:hue - talk to Philips Hue
+app-misc/homeassistant:iaqualink - iAqualink by Jandy allows you to control your pool via cloud service
 app-misc/homeassistant:icloud - iCloud allows users to track their location on iOS devices.
 app-misc/homeassistant:incomfort - client for Intergas InComfort/InTouch Lan2RF systems
 app-misc/homeassistant:influxdb - transfer sensor data to a local InfluxDB database
@@ -102,6 +103,7 @@ app-misc/homeassistant:ubee - getting stats from Ubee routers
 app-misc/homeassistant:unifi - talk with a Ubiquiti unifi Controller
 app-misc/homeassistant:vallox - control any Vallox ventilation unit
 app-misc/homeassistant:velbus - supports the Velbus USB, serial and TCP/IP gateway
+app-misc/homeassistant:velux - allows you to connect to a Velux KLF 200 interface
 app-misc/homeassistant:vera - add support for Vera Z-Wave Controller
 app-misc/homeassistant:version - display the current Home Assistant versions
 app-misc/homeassistant:webostv - allows you to control a LG webOS Smart TV
