@@ -3,20 +3,21 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7} )
+PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Support for issuing callbacks in response to Plex websocket client updates."
-HOMEPAGE="https://github.com/jjlawren/python-plexwebsocket/ https://pypi.org/project/plexwebsocket/"
+DESCRIPTION="Provides an API for requesting information from an Openhome device"
+HOMEPAGE="https://github.com/bazwilliams/openhomedevice https://pypi.org/project/openhomedevice/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/lxml[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

@@ -7,16 +7,17 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python Daikin HVAC appliances interface"
-HOMEPAGE="https://bitbucket.org/mustang51/pydaikin https://pypi.org/project/pydaikin/"
+DESCRIPTION="Asynchronous Python client for the Sonarr API."
+HOMEPAGE="https://github.com/ctalkington/python-sonarr https://pypi.org/project/sonarr/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND="~dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
+	~dev-python/yarl-1.4.2[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
