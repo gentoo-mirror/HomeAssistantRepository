@@ -628,6 +628,7 @@ dev-python/pypjlink2 1.2.0 1.2.1: PJLink is a standard for controlling data proj
 dev-python/pypoint 1.0.7 1.0.8 1.1.1 1.1.2: API for Minut Point
 dev-python/pypollencom 2.2.3: A simple API for Pollen.com data
 dev-python/pyps4-2ndscreen 1.0.1 1.0.3 1.0.4 1.0.6 1.0.7: PS4 2nd Screen Python Library
+dev-python/pypubsub 4.0.3: Python Publish-Subscribe Package
 dev-python/pyqvrpro 0.51 0.52: QVR Pro API wrapper.
 dev-python/pyqwikswitch 0.93 0.94: Library to interface Qwikswitch USB Hub
 dev-python/pyrail 0.0.3: Python wrapper for the iRail API
@@ -725,7 +726,7 @@ dev-python/pyvera 0.3.2 0.3.3 0.3.4 0.3.6 0.3.7: Python API for talking to Vera 
 dev-python/pyversasense 0.0.6: Versasense API consumer
 dev-python/pyvesync 1.1.0: pyvesync is a library to manage Etekcity Switches
 dev-python/pyvesync-v2 0.9.6 0.9.7: Python library for vesync API for Etekcity Smart Outlets & switches
-dev-python/pyvizio 0.1.21 0.1.26 0.1.35 0.1.44 0.1.45 0.1.46 0.1.47: Python library for Vizio SmartCast TVs and Sound Bars (2016+ models)
+dev-python/pyvizio 0.1.35 0.1.44 0.1.45 0.1.46 0.1.47 0.1.48: Python library for Vizio SmartCast TVs and Sound Bars (2016+ models)
 dev-python/pyvlx 0.2.9 0.2.11 0.2.12 0.2.14 0.2.16: PyVLX is a wrapper for the Velux KLF 200 API.
 dev-python/pywbem 0.16.0 0.17.0: pywbem - A WBEM client
 dev-python/pywebpush 1.6.0 1.9.2: WebPush publication library
