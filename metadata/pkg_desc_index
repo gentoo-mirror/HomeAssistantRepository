@@ -142,7 +142,7 @@ dev-python/autobahn 18.7.1: WebSocket and WAMP for Twisted and Asyncio
 dev-python/av 6.1.2 6.2.0 7.0.1 8.0.1: Pythonic bindings for FFmpeg's libraries.
 dev-python/avea 1.2.8 1.4: Control an Elgato Avea bulb using python
 dev-python/avion 0.10: Python API for controlling Avi-on Bluetooth dimmers
-dev-python/axis 24 25 26 27: A Python library for communicating with devices from Axis Communications
+dev-python/axis 24 25 26 27 28: A Python library for communicating with devices from Axis Communications
 dev-python/baidu-aip 1.6.6.0 2.2.18.0: Baidu AIP SDK
 dev-python/base36 0.1.1: Yet another implementation for the positional numeral system using 36 as the radix.
 dev-python/basicmodem 0.7: A basic modem implementation for receiving caller id.
