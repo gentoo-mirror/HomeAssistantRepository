@@ -7,20 +7,16 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="HomeKit Accessory Protocol implementation in python"
-HOMEPAGE="https://github.com/ikalchev/HAP-python https://pypi.org/project/HAP-python/"
+DESCRIPTION="Asynchronous library for Jandy iAqualink"
+HOMEPAGE="https://github.com/flz/iaqualink-py https://pypi.org/project/iaqualink/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/curve25519-donna[${PYTHON_USEDEP}]
-	dev-python/ed25519[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/tlslite-ng[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]"
+RDEPEND=""
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
