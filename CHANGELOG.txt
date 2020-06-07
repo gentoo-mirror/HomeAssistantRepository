@@ -1,3 +1,39 @@
+2020-06-07 homeassistant-0.110.5
+  * fix crashed gitea 3:)
+  * bump av-8.0.2
+  * bump axis-29
+  * bump pyinsteon-1.0.3
+  * skipped total_connect_client==0.55 and total_connect_client==0.54.1, no proper source files found.
+  * bump keba-kecontact-1.1.0
+  * bump python-synology-0.8.2
+  * bump sonarr-0.2.2
+  * bump numpy-1.18.5
+  * update pytile-3.0.6
+  * bump pychromecast-6.0.0
+  * update hass-nabucasa-0.34.5
+  * bump pymyq-2.0.3
+  * bump pysonos-0.0.31
+  * add notify-events-1.0.4
+  * bump tesla-powerwall-0.2.10
+  * bump zeroconf-0.27.1
+  * update zigpy-cc-0.4.2
+  * bump zigpy-cc-0.4.4
+  * bump netdisco-2.7.0
+  * update netdisco-2.7.0
+  * bump youtube_dl-2020.6.6
+  * bump arcam-fmj-0.5.1
+  * bump home-assistant-frontend-20200603.0
+  * bump home-assistant-frontend-20200603.1
+  * bump home-assistant-frontend-20200603.2
+  * update homeassistant-0.110.5
+
+2020-06-03
+  * bump pyforked-daapd-0.1.10
+  * update pytest-5.4.3
+  * bump PlexAPI-4.0.0
+  * bump wled-0.4.1
+  * bump pysqueezebox-0.2.1
+
 2020-06-02
   * bump teslajsonpy-0.8.1
   * bump iaqualink-0.3.4
