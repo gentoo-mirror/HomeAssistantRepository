@@ -3,21 +3,23 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Communicate with an Android TV or Fire TV device via ADB over a network."
-HOMEPAGE="https://github.com/JeffLIrion/python-androidtv/ https://pypi.org/project/androidtv/"
+DESCRIPTION="Asynchronous Python client for WLED."
+HOMEPAGE="https://github.com/frenck/python-wled https://pypi.org/project/wled/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/pure-python-adb-0.2.2[${PYTHON_USEDEP}]
-		 >=dev-python/adb-shell-0.0.7[${PYTHON_USEDEP}]"
+RDEPEND="~dev-python/aiohttp-3.6.2
+		 ~dev-python/attrs-19.3.0
+		 ~dev-python/cattrs-0.9.0
+		 ~dev-python/yarl-1.3.0"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
