@@ -77,7 +77,6 @@ app-misc/homeassistant:openwrt - fetch connected devices from your OpenWrt
 app-misc/homeassistant:owntracks - OwnTracks: track your location and send it directly to Home Assistant
 app-misc/homeassistant:ozw - Open Zwave MQTT
 app-misc/homeassistant:plex - Python bindings for the Plex API
-app-misc/homeassistant:plugwise - enables Plugwise Anna thermostats
 app-misc/homeassistant:qnap - Python API for obtaining QNAP NAS system stats
 app-misc/homeassistant:recorder - storing details in a database per sqlalchemy
 app-misc/homeassistant:ring - integrate your ring.com devices
@@ -111,7 +110,6 @@ app-misc/homeassistant:wemo - discover and control WeMo devices
 app-misc/homeassistant:wink - support for Wink Z-Wave Plus Smart Hub
 app-misc/homeassistant:withings - add support for Withings Health API
 app-misc/homeassistant:wled - add support for Aircookie's WLED
-app-misc/homeassistant:wwlln - install support for World Wide Lightning Location Network
 app-misc/homeassistant:xknx - Asynchronous Library for the KNX protocol
 app-misc/homeassistant:yeelight - allows you to control your Yeelight Wifi bulbs
 app-misc/homeassistant:youtube - support for youtube_dl
