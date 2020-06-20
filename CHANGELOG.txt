@@ -1,3 +1,18 @@
+2020-06-20
+  * bump aiokef-0.2.12
+  * add pysmappee-0.1.0
+  * bump youtube_dl-2020.6.16.1
+  * built-in importlib.metadata library in Python 3.8+
+  * bump axis-31
+  * update PyMetno-0.5.1, SRC_URI changed to Github
+  * bump plexwebsocket-0.0.11
+  * clean up old requests dupes
+  * bump netdisco-2.7.1
+  * bump axis-32
+
+2020-06-18
+  * throw out more old Python 3.6 stuff from README.md
+
 2020-06-17 homeassistant-0.111.3
   * bump wled-0.4.3
   * bump zha-quirks-0.0.40
@@ -10,6 +25,7 @@
   * update denonavr-0.9.3
   * bump growattServer-0.0.4
   * update homeassistant-0.111.3
+  * add missing ecdsa dep in nabucasa (https://github.com/onkelbeh/HomeAssistantRepository/issues/15)
 
 2020-06-14 homeassistant-0.111.2
   * bump bellows-0.17.0
