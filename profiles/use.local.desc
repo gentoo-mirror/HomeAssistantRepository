@@ -65,6 +65,7 @@ app-misc/homeassistant:jewish_calendar - jewish_calendar
 app-misc/homeassistant:kef - KEF wireless speakers
 app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant:maxcube_hack - apply Patch for https://github.com/home-assistant/home-assistant/issues/28811
+app-misc/homeassistant:metno - A library to communicate with the met.no api
 app-misc/homeassistant:miio - add support for Xiaomi smart appliances
 app-misc/homeassistant:mikrotik - add support for MikroTik RouterOS API
 app-misc/homeassistant:mobile_app - Home Assistant Mobile App Support
