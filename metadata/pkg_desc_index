@@ -92,7 +92,7 @@ dev-python/aioesphomeapi 2.4.0 2.4.1 2.4.2-r1 2.5.0 2.6.0 2.6.1: ESPHome Native 
 dev-python/aiofreepybox 0.0.8: Provides asynchronous authentication and access to Freebox servers
 dev-python/aioftp 0.10.1 0.12.0: ftp client/server for asyncio
 dev-python/aioguardian 0.2.3: A Python3 library for Elexa Guardian water valves and sensors
-dev-python/aioharmony 0.1.7 0.1.8 0.1.11 0.1.13 0.1.13-r1 0.2.4: Asyncio Python library for connecting to and controlling the Logitech Harmony
+dev-python/aioharmony 0.1.7 0.1.8 0.1.13 0.1.13-r1 0.2.4 0.2.5: Asyncio Python library for connecting to and controlling the Logitech Harmony
 dev-python/aiohomekit 0.2.21 0.2.24 0.2.25 0.2.29 0.2.29.1 0.2.29.2 0.2.34 0.2.35 0.2.37 0.2.38: An asyncio HomeKit client
 dev-python/aiohttp 3.5.3 3.5.4 3.6.0 3.6.1 3.6.2: http client/server for asyncio
 dev-python/aiohue 1.9.0 1.9.1 1.9.2 1.10.1 2.0.0 2.1.0: Python module to talk to Philips Hue.
@@ -526,7 +526,7 @@ dev-python/pycfdns 0.0.1: A module for updating Cloudflare DNS records.
 dev-python/pychannels 1.0.0 1.1.0: API client for the Channels app - https://getchannels.com
 dev-python/pychromecast 4.2.3 5.0.0 5.1.0 5.2.0 5.3.0 6.0.0: Python module to talk to Google Chromecast.
 dev-python/pycmus 0.1.1: A python cmus remote library
-dev-python/pycognito 0.1.2: Python class to integrate Boto3's Cognito client so it is easy to login users. With SRP support.
+dev-python/pycognito 0.1.2 0.1.3: Python class to integrate Boto3's Cognito client so it is easy to login users. With SRP support.
 dev-python/pycomfoconnect 0.3: Python interface for the Zehnder ComfoConnect LAN C bridge.
 dev-python/pycoolmasternet 0.0.4 0.2.0: Lightweight Python API for CoolMasterNet HVAC bridges
 dev-python/pycountry-convert 0.7.2: Extension of Python package pycountry providing conversion functions.
@@ -896,7 +896,7 @@ dev-python/waqiasync 1.0.0: asyncio-friendly python API for aqicn.org
 dev-python/warrant 0.6.1 0.6.1-r1: Integrate Boto3's Cognito client so it is easy to login users. With SRP support.
 dev-python/waterfurnace 1.1.0: Python interface for waterfurnace geothermal systems
 dev-python/webexteamssdk 1.1.1 1.2: Community-developed Python SDK for the Webex Teams APIs
-dev-python/websocket-client 0.54.0 0.54.0-r1: WebSocket client for python with hybi13 support
+dev-python/websocket-client 0.54.0 0.54.0-r1 0.56.0: WebSocket client for python with hybi13 support
 dev-python/websockets 6.0 7.0 8.1: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
 dev-python/wiffi 1.0.0: Python 3 package to interface devices from STALL WIFFI.
 dev-python/wikipedia 1.4.0: Wikipedia API for Python
