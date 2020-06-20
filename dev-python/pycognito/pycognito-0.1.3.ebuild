@@ -7,17 +7,19 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="A Python library for communicating with devices from Axis Communications"
-HOMEPAGE="https://github.com/Kane610/axis https://pypi.org/project/axis/"
+DESCRIPTION="Python class to integrate Boto3's Cognito client so it is easy to login users. With SRP support."
+HOMEPAGE="https://github.com/pvizeli/pycognito https://pypi.org/project/pycognito/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/boto3-1.10.49[${PYTHON_USEDEP}]
+		 >=dev-python/envs-1.3[${PYTHON_USEDEP}]
+		 >=dev-python/python-jose-3.1.0[${PYTHON_USEDEP}]
+		 >=dev-python/requests-2.22.0[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
