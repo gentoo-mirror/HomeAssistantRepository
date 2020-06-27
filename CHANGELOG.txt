@@ -1,5 +1,10 @@
 2020-06-27
   * bump dynalite-devices-0.1.41
+  * add emoji-0.5.4
+  * bump rokuecp-0.5.0
+  * bump python-awair-0.1.1
+  * bump Hydrawiser-0.2
+  * bump pyintesishome-1.7.5
 
 2020-06-21
   * bump ptvsd-4.3.2
