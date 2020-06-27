@@ -230,7 +230,7 @@ dev-python/dsmr-parser 0.12 0.18: Library to parse Dutch Smart Meter Requirement
 dev-python/dtlssocket 0.1.4: A cython wrapper for tinydtls with a Socket like interface
 dev-python/dweepy 0.3.0: Dweepy is a Python client for dweet.io
 dev-python/dynalite 0.1.32: An unofficial Dynalite DyNET interface.
-dev-python/dynalite-devices 0.1.17 0.1.22 0.1.26 0.1.30 0.1.32 0.1.39 0.1.40: An unofficial Dynalite DyNET interface creating devices.
+dev-python/dynalite-devices 0.1.17 0.1.22 0.1.26 0.1.30 0.1.32 0.1.39 0.1.40 0.1.41: An unofficial Dynalite DyNET interface creating devices.
 dev-python/eagle200-reader 0.2.1 0.2.2 0.2.4: A program to read from an Rainforest Eagle-200 on the local network
 dev-python/ebusdpy 0.0.16: eBusd python integration library
 dev-python/ecoaliface 0.4.0: Interface to eSterownik.pl eCoal water boiler controller.
