@@ -857,7 +857,7 @@ dev-python/tmb 0.0.4: Library that interacts with TMB API
 dev-python/todoist-python 8.0.0 8.0.2: todoist-python - The official Todoist Python API library
 dev-python/toonapi 0.1.0: Asynchronous Python client for the Quby ToonAPI.
 dev-python/toonapilib 3.0.10 3.2.2 3.2.4: A library to interact with eneco's Toon smart meter via their official api.
-dev-python/total-connect-client 0.26 0.27 0.28 0.50 0.53 0.54.1 0.54.2 0.55: Interact with Total Connect 2 alarm systems
+dev-python/total-connect-client 0.27 0.28 0.50 0.53 0.54.1 0.54.2 0.55 0.55.1: Interact with Total Connect 2 alarm systems
 dev-python/tox-travis 0.11: Seamless integration of Tox into Travis CI
 dev-python/tp-connected 0.0.4: TP-Link LTE modem API
 dev-python/tplink 0.2.1 0.2.3: Get the list of hosts connected to the router
