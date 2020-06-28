@@ -3,7 +3,7 @@ acct-group/homeassistant 0: Homeassistant program group
 acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-misc/home-assistant-cli 0.7.0 0.8.0 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 0.106.6 0.107.7 0.108.9 0.109.3 0.109.6 0.110.5 0.110.6 0.110.7 0.111.0 0.111.1 0.111.2 0.111.3 0.111.4: Open-source home automation platform running on Python on 3.7
+app-misc/homeassistant 0.106.6 0.107.7 0.108.9 0.109.6 0.110.6 0.110.7 0.111.0 0.111.1 0.111.2 0.111.3 0.111.4 0.112.0_beta2: Open-source home automation platform running on Python on 3.7
 dev-embedded/esphome 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3-r4 1.14.3-r5 1.14.3-r6 1.14.3-r7 1.14.4 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 4.0.3-r3 4.3.1 4.3.4: An open source ecosystem for IoT development
@@ -847,7 +847,7 @@ dev-python/tellsticknet 0.1.2: Listen for UDP sensor broadcasts from a Tellstick
 dev-python/temescal 0.1: Python API for controlling LG speakers
 dev-python/temperusb 1.5.3: Reads temperature from TEMPerV1 devices (USB 0c45:7401)
 dev-python/tesla-powerwall 0.2.3 0.2.4 0.2.5 0.2.8 0.2.10 0.2.11: API for Tesla Powerwall
-dev-python/teslajsonpy 0.5.1 0.6.0 0.7.0 0.8.0 0.8.1: A library to work with Tesla API.
+dev-python/teslajsonpy 0.6.0 0.7.0 0.8.0 0.8.1 0.9.0: A library to work with Tesla API.
 dev-python/text-unidecode 1.2 1.3: The most basic Text::Unidecode port
 dev-python/thermoworks-smoke 0.1.8: Pull data for your thermoworks smoke thermometer
 dev-python/thingspeak 1.0.0: Client library for the thingspeak.com API
