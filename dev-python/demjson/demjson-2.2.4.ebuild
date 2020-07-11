@@ -7,21 +7,16 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="An asyncio HomeKit client"
-HOMEPAGE="https://github.com/Jc2k/aiohomekit https://pypi.org/project/aiohomekit/"
+DESCRIPTION="encoder, decoder, and lint/validator for JSON (JavaScript Object Notation) compliant with RFC 7159"
+HOMEPAGE="https://github.com/dmeranda/demjson https://pypi.org/project/demjson/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="LGPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/attrs-18.1.0
-	>=dev-python/click-6.5
-	>=dev-python/pathspec-0.6
-	dev-python/regex
-	>=dev-python/toml-0.9.4
-	>=dev-python/typed-ast-1.4.0"
+RDEPEND=""
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
