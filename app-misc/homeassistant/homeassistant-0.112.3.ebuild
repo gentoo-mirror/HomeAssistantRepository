@@ -61,7 +61,7 @@ RDEPEND="${RDEPEND}
 	~dev-python/distro-1.5.0[${PYTHON_USEDEP}]
   ~dev-python/emoji-0.5.4[${PYTHON_USEDEP}]
 	~dev-python/hass-nabucasa-0.34.7[${PYTHON_USEDEP}]
-	~dev-python/home-assistant-frontend-20200626.1[${PYTHON_USEDEP}]
+	~dev-python/home-assistant-frontend-20200702.1[${PYTHON_USEDEP}]
 	>=dev-python/netdisco-2.7.1[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.3.18[${PYTHON_USEDEP}]
 	~dev-python/zeroconf-0.27.1[${PYTHON_USEDEP}]
@@ -128,7 +128,7 @@ RDEPEND="${RDEPEND}
   blink? ( ~dev-python/blinkpy-0.15.0[${PYTHON_USEDEP}] )
   blockchain? ( ~dev-python/python-blockchain-api-0.0.2[${PYTHON_USEDEP}] )
   bmw_connected_drive? ( ~dev-python/bimmer-connected-0.7.7[${PYTHON_USEDEP}] )
-  bravia-tv? ( ~dev-python/bravia-tv-1.0.5[${PYTHON_USEDEP}]
+  bravia-tv? ( ~dev-python/bravia-tv-1.0.6[${PYTHON_USEDEP}]
 	  ~dev-python/getmac-0.8.1[${PYTHON_USEDEP}] )
   buienradar? ( ~dev-python/buienradar-1.0.4[${PYTHON_USEDEP}] )
   caldav? ( ~dev-python/caldav-0.6.1[${PYTHON_USEDEP}] )
@@ -182,12 +182,12 @@ RDEPEND="${RDEPEND}
 	  ~dev-python/getmac-0.8.2[${PYTHON_USEDEP}] )
   maxcube? ( ~dev-python/maxcube-api-0.1.0[${PYTHON_USEDEP}] )
   metno? ( ~dev-python/PyMetno-0.5.1[${PYTHON_USEDEP}] )
-  miio? ( ~dev-python/python-miio-0.5.1[${PYTHON_USEDEP}] )
+  miio? ( ~dev-python/python-miio-0.5.2.1[${PYTHON_USEDEP}] )
   mikrotik? ( ~dev-python/librouteros-3.0.0[${PYTHON_USEDEP}] )
   mobile_app? ( ~dev-python/pynacl-1.3.0[${PYTHON_USEDEP}] )
   mqtt? ( ~dev-python/paho-mqtt-1.5.0[${PYTHON_USEDEP}] app-misc/mosquitto )
   musiccast? ( >=dev-python/pymusiccast-0.1.6[${PYTHON_USEDEP}] )
-  myq? ( ~dev-python/pymyq-2.0.4[${PYTHON_USEDEP}] )
+  myq? ( ~dev-python/pymyq-2.0.5[${PYTHON_USEDEP}] )
   mysql? ( || ( dev-python/mysqlclient[${PYTHON_USEDEP}]
 	  dev-python/mysql-python[${PYTHON_USEDEP}] ) virtual/mysql )
   nederlandse_spoorwegen? ( ~dev-python/nsapi-3.0.4[${PYTHON_USEDEP}] )
@@ -222,7 +222,7 @@ RDEPEND="${RDEPEND}
   synologydsm? ( ~dev-python/python-synology-0.8.2[${PYTHON_USEDEP}] )
   systemmonitor? ( >=dev-python/psutil-5.7.0[${PYTHON_USEDEP}] )
   tellduslive? ( ~dev-python/tellduslive-0.10.11[${PYTHON_USEDEP}] )
-  tile? ( ~dev-python/pytile-3.0.6[${PYTHON_USEDEP}] )
+  tile? ( ~dev-python/pytile-4.0.0[${PYTHON_USEDEP}] )
   toon? ( ~dev-python/toonapi-0.1.0[${PYTHON_USEDEP}] )
   tradfri? ( >=dev-python/pytradfri-6.4.0[${PYTHON_USEDEP}] )
   ubee? ( ~dev-python/pyubee-0.10[${PYTHON_USEDEP}] )
@@ -247,7 +247,7 @@ RDEPEND="${RDEPEND}
   	~dev-python/zigpy-xbee-0.12.1[${PYTHON_USEDEP}]
   	~dev-python/bellows-0.17.0[${PYTHON_USEDEP}]
   	~dev-python/zigpy-zigate-0.6.1[${PYTHON_USEDEP}]
-  	~dev-python/zha-quirks-0.0.40[${PYTHON_USEDEP}] )
+  	~dev-python/zha-quirks-0.0.41[${PYTHON_USEDEP}] )
   zoneminder? ( ~dev-python/zm-py-0.4.0[${PYTHON_USEDEP}] )
   z-wave? ( ~dev-python/pynacl-1.3.0[${PYTHON_USEDEP}]
   	~dev-python/homeassistant-pyozw-0.1.10[${PYTHON_USEDEP}]
