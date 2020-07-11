@@ -35,6 +35,7 @@ app-misc/homeassistant:darksky - use dark sky weather data
 app-misc/homeassistant:delijn - De Lijn public transport network in Flanders
 app-misc/homeassistant:denonavr - Automation Library for Denon AVR receivers
 app-misc/homeassistant:discogs - Discogs Client
+app-misc/homeassistant:dunehd - control a Dune HD media player
 app-misc/homeassistant:dynalite - Dynalite DyNET interface
 app-misc/homeassistant:dyson - integrate all Dyson related platforms
 app-misc/homeassistant:ecobee - talking to Ecobee thermostats
