@@ -109,7 +109,7 @@ dev-python/aiopvapi 1.6.14: Powerview blinds API wrapper
 dev-python/aiopylgtv 0.2.6 0.2.7 0.3.0 0.3.2 0.3.3: Library to control webOS based LG Tv devices
 dev-python/aioredis 1.2.0: asyncio (PEP 3156) Redis support
 dev-python/aioswitcher 1.1.1 1.2.0 2019.3.21 2019.4.26 2019.6.11: Switcher Boiler Unofficial Bridge and API
-dev-python/aiounifi 16 17 18 20 21 22: An asynchronous Python library for communicating with Unifi Controller API
+dev-python/aiounifi 17 18 20 21 22 23: An asynchronous Python library for communicating with Unifi Controller API
 dev-python/aiowwlln 1.0.0 2.0.1 2.0.2: A simple Python API for the WWLLN
 dev-python/airly 0.0.2: Python wrapper for getting air quality data from Airly sensors.
 dev-python/aladdin-connect 0.3: Python API controlling Genie garage doors connected to Aladdin Connect devices
@@ -157,13 +157,13 @@ dev-python/bimmer-connected 0.6.0 0.6.2 0.7.0 0.7.1 0.7.5 0.7.7: Library to read
 dev-python/bitstring 3.1.5-r1: A pure Python module for creation and analysis of binary data
 dev-python/bizkaibus 0.1.1 0.1.4: Online information for buses of Biscay bus services (Basque Country, Spain).
 dev-python/blebox-uniapi 1.3.2: Python API for accessing BleBox smart home devices
-dev-python/blinkpy 0.14.1-r1 0.14.2 0.14.3 0.15.0: A Blink camera Python library running on Python 3.
+dev-python/blinkpy 0.14.1-r1 0.14.2 0.14.3 0.15.0 0.15.1: A Blink camera Python library running on Python 3.
 dev-python/blinkt 0.1.0 0.1.2: Python library for driving Pimoroni Blinkt!
 dev-python/blockchain 1.4.4: Blockchain API library (v1)
 dev-python/bluepy 1.1.4 1.3.0: Python module for interfacing with BLE devices through Bluez
 dev-python/bme680 1.0.5: Python library for driving the Pimoroni BME680 Breakout
 dev-python/bomradarloop 0.1.2 0.1.3 0.1.4: Create animated GIFs from BOM radar imagery
-dev-python/bond-home 0.0.8: Python library for controlling BOND Home Hub
+dev-python/bond-home 0.0.8 0.0.9: Python library for controlling BOND Home Hub
 dev-python/boto3 1.9.115 1.9.116 1.9.233 1.9.233-r1 1.9.233-r2 1.9.252: The AWS SDK for Python
 dev-python/botocore 1.12.57 1.12.115 1.12.115-r1 1.12.252 1.12.252-r1 1.13.14: Low-level, data-driven core of boto 3.
 dev-python/bravia-tv 1.0.2 1.0.3 1.0.4 1.0.5 1.0.6: Python Bravia TV remote control
@@ -506,7 +506,7 @@ dev-python/pyCEC 0.4.13: Provide HDMI CEC devices as objects, especially for use
 dev-python/pyEight 0.1.1 0.1.2 0.1.3 0.1.4: Provides a python api to interact with an Eight Sleep mattress cover.
 dev-python/pyEmby 1.6: Provides a python interface to interact with a Emby media server.
 dev-python/pyEzviz 0.1.5.2: Pilot your Ezviz cameras
-dev-python/pyHS100 0.3.3 0.3.4 0.3.5: Interface for TPLink HS1xx plugs, HS2xx wall switches & LB1xx bulbs
+dev-python/pyHS100 0.3.3 0.3.4 0.3.5 0.3.5.1: Interface for TPLink HS1xx plugs, HS2xx wall switches & LB1xx bulbs
 dev-python/pyHik 0.2.2 0.2.3 0.2.4 0.2.5 0.2.7: Interact with a Hikvision camera event stream and toggle motion detection.
 dev-python/pyRFXtrx 0.23.0 0.24.0 0.25.0: a library to communicate with the RFXtrx family of devices
 dev-python/pySDCP 1: SDCP library to control Sony Projectors
@@ -852,7 +852,7 @@ dev-python/tellsticknet 0.1.2: Listen for UDP sensor broadcasts from a Tellstick
 dev-python/temescal 0.1: Python API for controlling LG speakers
 dev-python/temperusb 1.5.3: Reads temperature from TEMPerV1 devices (USB 0c45:7401)
 dev-python/tesla-powerwall 0.2.3 0.2.4 0.2.5 0.2.8 0.2.10 0.2.11: API for Tesla Powerwall
-dev-python/teslajsonpy 0.7.0 0.8.0 0.8.1 0.9.0 0.9.2: A library to work with Tesla API.
+dev-python/teslajsonpy 0.8.0 0.8.1 0.9.0 0.9.2 0.9.3: A library to work with Tesla API.
 dev-python/text-unidecode 1.2 1.3: The most basic Text::Unidecode port
 dev-python/thermoworks-smoke 0.1.8: Pull data for your thermoworks smoke thermometer
 dev-python/thingspeak 1.0.0: Client library for the thingspeak.com API
