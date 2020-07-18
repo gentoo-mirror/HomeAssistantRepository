@@ -32,6 +32,7 @@ app-misc/homeassistant:cli - install Home Assistant Cli hass-cli (lots of module
 app-misc/homeassistant:coronavirus - add sensors for COVID-19 infections from Johns Hopkins University
 app-misc/homeassistant:daikin - Daikin wireless controllers
 app-misc/homeassistant:darksky - use dark sky weather data
+app-misc/homeassistant:deconz - deCONZ ConBee/RaspBee Zigbee gateways
 app-misc/homeassistant:delijn - De Lijn public transport network in Flanders
 app-misc/homeassistant:denonavr - Automation Library for Denon AVR receivers
 app-misc/homeassistant:discogs - Discogs Client
@@ -104,6 +105,7 @@ app-misc/homeassistant:shodan - Shodan is a search engine for Internet-connected
 app-misc/homeassistant:signal - add Support for Moxie's Signal API
 app-misc/homeassistant:simplisafe - integrates SimpliSafe home security (V2 and V3) systems
 app-misc/homeassistant:sma - add Support for SMA Solar WebConnect
+app-misc/homeassistant:smappee - integrate Smappee monitors, plugs and switches
 app-misc/homeassistant:socat - Install socat and socat-zwave startscript
 app-misc/homeassistant:socialblade - monitor Youtube Channels
 app-misc/homeassistant:solax - Solax inverter API client
