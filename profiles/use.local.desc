@@ -4,11 +4,15 @@
 
 app-misc/homeassistant:abode - Library for the Abode alarm API
 app-misc/homeassistant:adguard - monitor your ad- and tracker-blocking DNS server
+app-misc/homeassistant:ads - Beckhoff automation devices running TwinCAT
+app-misc/homeassistant:agent_dvr - Agent DVR is a free* software DVR solution
+app-misc/homeassistant:aioguardian - integrates Elexa Guardian water valve controllers
 app-misc/homeassistant:alarmdecoder - AlarmDecoder extended
 app-misc/homeassistant:ambiclimate - communicate with Ambiclimate
 app-misc/homeassistant:ambient_station - retrieves local weather information from Ambient Weather
 app-misc/homeassistant:amcrest - integrate your Amcrest or Dahua IP camera
 app-misc/homeassistant:androidtv - Library for controlling an Android TV, formerly firetv
+app-misc/homeassistant:apache_kafka - sends all state changes to a Apache Kafka topic
 app-misc/homeassistant:apprise - just about every Notification platform
 app-misc/homeassistant:arcam_fmj - speaking to Arcam receivers
 app-misc/homeassistant:asuswrt - Api wrapper for Asuswrt
@@ -35,7 +39,9 @@ app-misc/homeassistant:darksky - use dark sky weather data
 app-misc/homeassistant:deconz - deCONZ ConBee/RaspBee Zigbee gateways
 app-misc/homeassistant:delijn - De Lijn public transport network in Flanders
 app-misc/homeassistant:denonavr - Automation Library for Denon AVR receivers
+app-misc/homeassistant:dexcom - view your CGM data from Dexcom
 app-misc/homeassistant:discogs - Discogs Client
+app-misc/homeassistant:discord - send messages to the user using Discord
 app-misc/homeassistant:dunehd - control a Dune HD media player
 app-misc/homeassistant:dynalite - Dynalite DyNET interface
 app-misc/homeassistant:dyson - integrate all Dyson related platforms
@@ -49,6 +55,7 @@ app-misc/homeassistant:esphome - Support for esphome sensors, covers and switche
 app-misc/homeassistant:everlights - Library for controlling an EverLights lighting system
 app-misc/homeassistant:flume - monitors the real-time status of your home water meter
 app-misc/homeassistant:flunearyou - allows users in the US to get information from Flu Near You
+app-misc/homeassistant:foobot - fetch air quality data from your Foobot device
 app-misc/homeassistant:fronius - add (very basic) Support for Fronius Symo JSON Api
 app-misc/homeassistant:frontend - (obsolete frontend useflag, until 0.108.5)
 app-misc/homeassistant:gpiozero - interface to GPIO devices on a Raspberry Pi
@@ -71,9 +78,11 @@ app-misc/homeassistant:icloud - iCloud allows users to track their location on i
 app-misc/homeassistant:ihc - use IHC Python SDK
 app-misc/homeassistant:incomfort - client for Intergas InComfort/InTouch Lan2RF systems
 app-misc/homeassistant:influxdb - transfer sensor data to a local InfluxDB database
+app-misc/homeassistant:insteon - allowing linked INSTEON devices to be used
 app-misc/homeassistant:intesishome - communications with IntesisHome Smart AC Controllers
 app-misc/homeassistant:ipma - ipma weather platform
 app-misc/homeassistant:jewish_calendar - jewish_calendar
+app-misc/homeassistant:joaoapps_join - joaoapps_join integration exposes services from Join
 app-misc/homeassistant:kef - KEF wireless speakers
 app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant:maxcube_hack - apply Patch for https://github.com/home-assistant/home-assistant/issues/28811
@@ -87,15 +96,20 @@ app-misc/homeassistant:myq - lets you control MyQ-Enabled garage doors
 app-misc/homeassistant:mysql - install MySQL Libraries for use with HomeAssistant
 app-misc/homeassistant:nederlandse_spoorwegen - train service in the Netherlands
 app-misc/homeassistant:netdata - API for interacting with Netdata
+app-misc/homeassistant:nuki - control Nuki Smart Locks
+app-misc/homeassistant:nws - uses the National Weather Service web API
 app-misc/homeassistant:nx584 - NX584/NX8E Interface Library and Server
 app-misc/homeassistant:openwrt - fetch connected devices from your OpenWrt
 app-misc/homeassistant:owntracks - OwnTracks: track your location and send it directly to Home Assistant
 app-misc/homeassistant:ozw - Open Zwave MQTT
 app-misc/homeassistant:plex - Python bindings for the Plex API
 app-misc/homeassistant:plugwise - Plugwise_Smile (Anna/Adam/P1) API
+app-misc/homeassistant:poolsense - PoolSense is a smart pool monitor
 app-misc/homeassistant:powerwall - API for Tesla Powerwall
+app-misc/homeassistant:ps4 - allows you to control a Sony PlayStation 4 console
 app-misc/homeassistant:qnap - Python API for obtaining QNAP NAS system stats
 app-misc/homeassistant:recorder - storing details in a database per sqlalchemy
+app-misc/homeassistant:rejseplanen - travel details for Danish public transport
 app-misc/homeassistant:ring - integrate your ring.com devices
 app-misc/homeassistant:roku - add support for Roku players
 app-misc/homeassistant:roomba - control a iRobot Roomba vacuum or iRobot Braava m-series mop
@@ -106,6 +120,8 @@ app-misc/homeassistant:signal - add Support for Moxie's Signal API
 app-misc/homeassistant:simplisafe - integrates SimpliSafe home security (V2 and V3) systems
 app-misc/homeassistant:sma - add Support for SMA Solar WebConnect
 app-misc/homeassistant:smappee - integrate Smappee monitors, plugs and switches
+app-misc/homeassistant:smarthab - control your lights and shutters with the SmartHab integration
+app-misc/homeassistant:smartthings - use the SmartThings Cloud API
 app-misc/homeassistant:socat - Install socat and socat-zwave startscript
 app-misc/homeassistant:socialblade - monitor Youtube Channels
 app-misc/homeassistant:solax - Solax inverter API client
@@ -116,10 +132,13 @@ app-misc/homeassistant:squeezebox - library to control Logitech Media Server
 app-misc/homeassistant:ssl - include support for haproxy
 app-misc/homeassistant:synologydsm - monitor getting various statistics from your Synology NAS
 app-misc/homeassistant:systemmonitor - monitor your platform
+app-misc/homeassistant:tesla - integration with the Tesla cloud service
 app-misc/homeassistant:test - internal and developer use
 app-misc/homeassistant:tile - API for Tile Bluetooth trackers
 app-misc/homeassistant:toon - client for the Quby ToonAPI
+app-misc/homeassistant:tplink - control your TP-Link Smart Home Devices
 app-misc/homeassistant:tradfri - Control/observe IKEA Tradfri devices
+app-misc/homeassistant:tuya - integrate all Tuya Smart related platforms
 app-misc/homeassistant:ubee - getting stats from Ubee routers
 app-misc/homeassistant:unifi - talk with a Ubiquiti unifi Controller
 app-misc/homeassistant:vallox - control any Vallox ventilation unit
@@ -128,16 +147,19 @@ app-misc/homeassistant:velux - allows you to connect to a Velux KLF 200 interfac
 app-misc/homeassistant:vera - add support for Vera Z-Wave Controller
 app-misc/homeassistant:version - display the current Home Assistant versions
 app-misc/homeassistant:vicare - communicate with the Viessmann ViCare API
+app-misc/homeassistant:vizio - allows you to control SmartCast-compatible TVs
 app-misc/homeassistant:webostv - allows you to control a LG webOS Smart TV
 app-misc/homeassistant:wemo - discover and control WeMo devices
 app-misc/homeassistant:wink - support for Wink Z-Wave Plus Smart Hub
 app-misc/homeassistant:withings - add support for Withings Health API
 app-misc/homeassistant:wled - add support for Aircookie's WLED
+app-misc/homeassistant:xbox_live - track Xbox profiles
 app-misc/homeassistant:xknx - Asynchronous Library for the KNX protocol
 app-misc/homeassistant:xs1 - get and set values of the EZcontrol XS1 Gateway
 app-misc/homeassistant:yeelight - allows you to control your Yeelight Wifi bulbs
 app-misc/homeassistant:youtube - support for youtube_dl
 app-misc/homeassistant:z-wave - Support for Z-Wave Devices (uncomplete)
+app-misc/homeassistant:zerproc - discovers nearby Zerproc lights
 app-misc/homeassistant:zigbee - Support for ZHA/deconz based Zigbee/ZNet Devices
 app-misc/homeassistant:zoneminder - Support for ZoneMinder Cameras
 dev-embedded/esphome:server - create user and install init-script to run ESPHome Dashboard
