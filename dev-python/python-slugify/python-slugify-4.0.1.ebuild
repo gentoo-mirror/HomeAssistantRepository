@@ -3,23 +3,21 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python module to talk to Google Chromecast."
-HOMEPAGE="https://github.com/balloob/pychromecast https://pypi.org/project/PyChromecast/"
+DESCRIPTION="A Python Slugify application that handles Unicode"
+HOMEPAGE="https://github.com/un33k/python-slugify https://pypi.org/project/python-slugify/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 arm64 x86 amd64-linux x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
-		 >=dev-python/protobuf-python-3.0.0[${PYTHON_USEDEP}]
-		 >=dev-python/zeroconf-0.17.7[${PYTHON_USEDEP}]
-		 >=dev-python/casttube-0.2.0[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/unidecode-1.1.1[${PYTHON_USEDEP}]
+		 >=dev-python/text-unidecode-1.3[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

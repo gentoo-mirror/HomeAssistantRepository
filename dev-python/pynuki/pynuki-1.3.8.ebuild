@@ -7,19 +7,20 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python module to talk to Google Chromecast."
-HOMEPAGE="https://github.com/balloob/pychromecast https://pypi.org/project/PyChromecast/"
+DESCRIPTION="Python bindings for nuki.io bridges"
+HOMEPAGE="https://github.com/pschmitt/pynuki https://pypi.org/project/pynuki/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 arm64 x86 amd64-linux x86-linux"
+KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
-		 >=dev-python/protobuf-python-3.0.0[${PYTHON_USEDEP}]
-		 >=dev-python/zeroconf-0.17.7[${PYTHON_USEDEP}]
-		 >=dev-python/casttube-0.2.0[${PYTHON_USEDEP}]"
+RDEPEND="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+		 ~dev-python/packaging-20.4[${PYTHON_USEDEP}]
+		 ~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
+		 ~dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+		 >=dev-python/six-1.14.0[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

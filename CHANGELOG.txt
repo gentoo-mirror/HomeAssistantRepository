@@ -1,3 +1,34 @@
+2020-07-25 homeassistant-0.113.1
+  * bump zeroconf-0.28.0
+  * bump pychromecast-7.1.2, remove many oldies
+  * add pyControl4-0.0.6
+  * bump pyobihai-1.2.3
+  * add httpx-0.13.3
+  * add hstspreload-2020.7.22
+  * add httpcore-0.9.1
+  * add sniffio-1.1.0
+  * add wolf_smartset-0.1.4
+  * bump pyinsteon-1.0.7
+  * bump bellows-0.18.0
+  * add pyskyqhub-0.1.0
+  * bump discord-py-1.3.4
+  * bump pysmartthings-0.7.2
+  * add bond-api-0.1.4.ebuild, bond-api-0.1.7.ebuild
+  * bump androidtv-0.0.46
+  * bump simplisafe-python-9.2.1
+  * bump pynuki-1.3.8
+  * update python-slugify-4.0.1
+  * bump coverage-5.2.1
+  * update xboxapi-2.0.0
+  * add accuweather-0.0.9
+  * update accuweather-0.0.9
+  * bump netdisco-2.8.1
+  * update homeassistant-0.113.0
+  * add some actual useflags to 0.113.0
+  * update homeassistant-0.113.1
+  * add some actual useflags to 0.113.1
+  * fix 2 typos
+
 2020-07-18 homeassistant-0.112.5.ebuild
   * remove typing
   * bump pydeconz-72
