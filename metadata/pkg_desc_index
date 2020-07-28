@@ -32,7 +32,7 @@ dev-python/PsychroLib 2.3.0: Library of psychrometric functions to calculate the
 dev-python/PyDispatcher 2.0.5: Multi-producer-multi-consumer signal dispatching mechanism
 dev-python/PyEssent 0.10 0.12 0.13: A wrapper around Essent's API
 dev-python/PyFlick 0.0.2: Python API For Flick Electric in New Zealand
-dev-python/PyFlume 0.2.1 0.2.4 0.3.0 0.4.0: Package to integrate with Flume Sensor
+dev-python/PyFlume 0.2.1 0.2.4 0.3.0 0.4.0 0.5.5: Package to integrate with Flume Sensor
 dev-python/PyFronius 0.4.6: Automated JSON API based communication with Fronius Symo
 dev-python/PyGithub 1.43.5: Use the full Github API v3
 dev-python/PyISY 1.1.1 1.1.2: Python module to talk to ISY994 from UDI.
