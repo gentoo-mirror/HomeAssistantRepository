@@ -5,7 +5,7 @@ acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.4.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.7.0 0.8.0 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/homeassistant 0.106.6 0.107.7 0.108.9 0.109.6 0.110.7 0.111.4 0.112.0 0.112.1 0.112.2 0.112.3 0.112.4 0.112.5 0.113.0 0.113.1: Open-source home automation platform running on Python on 3.7
-dev-embedded/esphome 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3-r4 1.14.3-r5 1.14.3-r6 1.14.3-r7 1.14.4 1.14.4-r1 1.14.5 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 1.13.2 1.13.6 1.13.6-r1 1.14.0_beta3 1.14.1 1.14.2 1.14.3-r4 1.14.3-r5 1.14.3-r6 1.14.3-r7 1.14.4 1.14.4-r1 1.14.5 1.15.0_beta1 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 4.0.3-r3 4.3.1 4.3.4: An open source ecosystem for IoT development
 dev-libs/protobuf 3.7.0 3.10.0: Google's Protocol Buffers - Extensible mechanism for serializing structured data
@@ -199,7 +199,7 @@ dev-python/clx-sdk-xms 1.0.0: Library for CLX Communications HTTP REST Messaging
 dev-python/codecov 2.0.15: Hosted coverage reports for Github, Bitbucket and Gitlab
 dev-python/coinbase 2.1.0: Coinbase API client library
 dev-python/coinmarketcap 5.0.3: Python wrapper around the coinmarketcap.com API.
-dev-python/colorlog 4.0.0 4.0.2 4.0.2-r1 4.1.0: Log formatting with colors
+dev-python/colorlog 4.0.0 4.0.2 4.0.2-r1 4.1.0 4.2.1: Log formatting with colors!
 dev-python/colorzero 1.1: Yet another Python color library.
 dev-python/concord232 0.15: GE Concord 4 RS232 Serial Interface Library and Server
 dev-python/connect-box 0.2.5: Python client for interacting with Compal CH7465LG devices.
@@ -347,7 +347,7 @@ dev-python/iaqualink 0.2.9 0.3.0 0.3.1 0.3.3 0.3.4: Asynchronous library for Jan
 dev-python/ibm-cloud-sdk-core 1.0.0 1.5.1: Client library for the IBM Cloud services
 dev-python/ibm-watson 4.0.1 4.0.4: Client library to use the IBM Watson Services
 dev-python/ibmiotf 0.3.4 0.4.0: Python Client for IBM Watson IoT Platform
-dev-python/ifaddr 0.1.4 0.1.5 0.1.6 0.1.6-r1: Enumerates all IP addresses on all network adapters of the system.
+dev-python/ifaddr 0.1.4 0.1.5 0.1.6 0.1.6-r1 0.1.7: Cross-platform network interface and IP address enumeration library
 dev-python/iglo 1.2.5 1.2.7: Control iGlo based RGB lights
 dev-python/ihcsdk 2.3.0 2.4.0 2.5.0 2.6.0 2.7.0: IHC Python SDK
 dev-python/imageio 2.3.0 2.6.1: Python library for reading and writing image data
