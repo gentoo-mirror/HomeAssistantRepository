@@ -7,19 +7,16 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Library to parse Dutch Smart Meter Requirements (DSMR)"
-HOMEPAGE="https://github.com/ndokter/dsmr_parser https://pypi.org/project/dsmr-parser/"
+DESCRIPTION="Python CRC Calculations Modules"
+HOMEPAGE="https://github.com/cristianav/PyCRC https://pypi.org/project/pythoncrc/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
-	dev-python/pythoncrc[${PYTHON_USEDEP}]"
+RDEPEND=""
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
