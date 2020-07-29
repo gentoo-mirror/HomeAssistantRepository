@@ -1,3 +1,8 @@
+2020-07-29 homeassistant-0.113.2
+  * update homeassistant-0.113.2
+  * update skybellpy-0.6.1
+  * bump tesla-powerwall-0.2.12
+
 2020-07-28
   * add pyvolumio-0.1.0
   * bump xboxapi-2.0.1
@@ -30,6 +35,8 @@
   * update esphome-1.15.0_beta1, read Ebuild before using it.
   * esphome-1.14.5: avoid downgrade of tzlocal
   * update PyFlume-0.5.5
+  * fix smhi-pkg/Manifest
+  * bump esphome-1.15.0_beta2, read Ebuild before using it
 
 2020-07-27
   * update teslajsonpy-0.10.1
