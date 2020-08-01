@@ -364,6 +364,7 @@ dev-python/jinja 2.10.3: A full-featured template engine for Python
 dev-python/jmespath 0.9.4: JSON Matching Expressions
 dev-python/jose 1.0.0 1.0.0-r1: An implementation of the JOSE draft
 dev-python/jsonpath 0.75 0.82: An XPath for JSON
+dev-python/jsonpath-ng 1.5.1: A final implementation of JSONPath for Python that aims to be standard compliant, including arithmetic and binary comparison operators and providing clear AST for metaprogramming.
 dev-python/jsonpath-rw 1.4.0: A robust and significantly extended implementation of JSONPath for Python.
 dev-python/jsonrpc-async 0.6 0.6-r1: a compact JSON-RPC client library for asyncio
 dev-python/jsonrpc-base 1.0 1.0.1 1.0.2: A JSON-RPC client library base interface
