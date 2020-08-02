@@ -407,6 +407,7 @@ dev-python/mcstatus 2.3.0: A library to query Minecraft Servers for their status
 dev-python/messagebird 1.2.0 1.5.0: MessageBird's REST API
 dev-python/meteoalertapi 0.0.8 0.1.3 0.1.5 0.1.6: A small api to get alerting messages from https://www.meteoalarm.eu.
 dev-python/meteofrance 0.3.4 0.3.7: Meteo-France weather forecast
+dev-python/meteofrance-api 0.1.0: Python client for Meteo-France API.
 dev-python/mficlient 0.3.0: A remote control client for Ubiquiti's mFi system
 dev-python/miflora 0.4 0.6: Library to read data from Mi Flora sensor
 dev-python/millheater 0.3.4: A python3 library to communicate with Mill
