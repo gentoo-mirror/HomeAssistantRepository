@@ -1,7 +1,7 @@
 # Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=6
 
 PYTHON_COMPAT=( python3_{6,7} )
 
@@ -15,8 +15,8 @@ if [[ ${PV} == *9999* ]]; then
 else
 	MY_P=${P/_beta/b}
 	MY_PV=${PV/_beta/b}
-	SRC_URI="https://github.com/${PN}/${PN}/archive/v${MY_PV}.tar.gz -> ${P}.tar.gz"
-	#SRC_URI="mirror://pypi/${P:0:1}/${PN}/${MY_P}.tar.gz"
+	# SRC_URI="https://github.com/${PN}/${PN}/archive/v${MY_PV}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 	S="${WORKDIR}/${MY_P}/"
 fi
 
@@ -25,24 +25,23 @@ HOMEPAGE="https://github.com/esphome/esphome https://pypi.org/project/esphome/"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
-IUSE="+server test"
+KEYWORDS="amd64 arm64 x86 amd64-linux x86-linux"
+IUSE="server test"
 
 RDEPEND=""
 DEPEND="${RDEPEND}
-	server? ( acct-group/${PN} acct-user/${PN}
-		~dev-python/ifaddr-0.1.7[${PYTHON_USEDEP}]
-		~www-servers/tornado-6.0.4[${PYTHON_USEDEP}] )
+	server? ( acct-group/${PN} acct-user/${PN} )
 	~dev-python/voluptuous-0.11.7[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	~dev-python/paho-mqtt-1.5.0[${PYTHON_USEDEP}]
 	~dev-python/colorlog-4.1.0[${PYTHON_USEDEP}]
-	~dev-python/protobuf-python-3.12.4[${PYTHON_USEDEP}]
-	~dev-libs/protobuf-3.12.4
+	~dev-python/ifaddr-0.1.7[${PYTHON_USEDEP}]
+	~www-servers/tornado-6.0.4[${PYTHON_USEDEP}]
+	~dev-python/protobuf-python-3.11.4[${PYTHON_USEDEP}]
+	~dev-libs/protobuf-3.11.4
 	~dev-python/tzlocal-2.1[${PYTHON_USEDEP}]
 	~dev-python/pytz-2020.1[${PYTHON_USEDEP}]
 	~dev-python/pyserial-3.4[${PYTHON_USEDEP}]
-	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
@@ -64,13 +63,19 @@ support at https://git.edevau.net/onkelbeh/HomeAssistantRepository
 
 DOCS="README.md"
 
-# site-packages/homeassistant/components/tensorflow has a dep to protobuf==3.6.1
-# which I ignored because tensorflow-1.13.2 is very outdated
-# site-packages/homeassistant/scripts/check_config.py:REQUIREMENTS = ("colorlog==4.1.0",)
 src_prepare() {
-	sed -e 's;colorlog==4.2.1;colorlog==4.1.0;' \
+	sed -e 's;tornado==5.1.1;tornado==6.0.4;' \
 		-i esphome.egg-info/requires.txt \
-		-i requirements.txt
+		-i setup.py
+	sed -e 's;protobuf==3.11.3;protobuf==3.11.4;' \
+		-i esphome.egg-info/requires.txt \
+		-i setup.py
+	sed -e 's;tzlocal==2.0.0;tzlocal==2.1;' \
+		-i esphome.egg-info/requires.txt \
+		-i setup.py
+	sed -e 's;ifaddr==0.1.6;ifaddr==0.1.7;' \
+		-i esphome.egg-info/requires.txt \
+		-i setup.py
 	eapply_user
 }
 
