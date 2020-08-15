@@ -1,3 +1,73 @@
+2020-08-15 homeassistant-0.114.1
+  * bump protobuf-python-3.12.2
+  * add pycocotools-2.0.1
+  * add tf-slim-1.1.0
+  * update regenmaschine-2.1.0
+  * bump teslajsonpy-0.10.3
+  * bump teslajsonpy-0.10.4
+  * bump home-assistant-frontend-20200807.1
+  * bump env-canada-0.2.0
+  * bump pyvolumio-0.1.1
+  * bump aiohomekit-0.2.46
+  * add aiopvpc-2.0.2
+  * add pycoolmasternet-async-0.1.0
+  * add py-nightscout-1.2.1
+  * bump pysmappee-0.2.9
+  * add aioflo-0.4.0
+  * bump aioflo-0.4.1
+  * add aioeafm-0.1.2
+  * update devolo-home-control-api-0.13.0
+  * update dynalite-devices-0.1.45
+  * bump pysmartthings-0.7.3
+  * bump libpurecool-0.6.3
+  * bump home-assistant-frontend-20200811.0
+  * bump RachioPy-0.1.4
+  * bump zha-quirks-0.0.43
+  * add dwdwfsapi-1.0.2
+  * bump onvif-zeep-async-0.5.0
+  * bump bellows-0.18.1
+  * bump androidtv-0.0.49
+  * bump pyvizio-0.1.51
+  * update simplisafe-python-9.3.0
+  * bump konnected-1.2.0
+  * bump pyipp-0.11.0
+  * bump rokuecp-0.6.0
+  * bump PySyncThru-0.7.0
+  * update pywemo-0.4.46, stupid filename on Pypi...
+  * bump ovoenergy-1.1.7
+  * bump growattServer-0.1.1
+  * bump apprise-0.8.7
+  * update homeassistant-0.114.0
+  * remove obsolete frontends
+  * bump pycognito-0.1.4
+  * change to dev-python/pyqrcode
+  * update homeassistant-0.114.1
+  * remove dupe of PyQRCode / pyqrcode
+
+2020-08-11
+  * bump blinkpy-0.16.3
+  * bump wiffi-1.0.1
+  * add ovoenergy-1.1.6
+  * bump home-assistant-frontend-20200805.0
+  * update androidtv-0.0.48
+  * bump pure-python-adb-0.3.0
+  * bump python-openzwave-mqtt-1.0.4
+  * bump dynalite-devices-0.1.44
+  * bump numpy-1.19.1
+  * bump DoorBirdPy-2.1.0
+
+2020-08-10
+  * bump pyskyqhub-0.1.1
+  * bump numato-gpio-0.8.0
+  * update hass-nabucasa-0.35.0
+  * bump home-assistant-frontend-20200803.0
+  * bump aioambient-1.2.1
+  * bump pyaehw4a1-0.3.9
+  * bump pyhomematic-0.1.68
+  * bump pyatmo-4.0.0
+  * bump toonapi-0.2.0
+  * bump PyMetno-0.7.0
+
 2020-08-02
   * bump protobuf-3.12.4
   * bump protobuf-python-3.12.4
