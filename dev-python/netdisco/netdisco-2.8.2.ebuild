@@ -3,20 +3,21 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Twilio SendGrid library for Python"
-HOMEPAGE="https://github.com/sendgrid/sendgrid-python/ https://pypi.org/project/sendgrid/"
+DESCRIPTION="Discover devices on your local network"
+HOMEPAGE="https://github.com/home-assistant/netdisco https://pypi.org/project/netdisco/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 arm64 x86 amd64-linux x86-linux"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.27.1[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
