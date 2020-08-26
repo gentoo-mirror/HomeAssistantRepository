@@ -7,16 +7,18 @@ PYTHON_COMPAT=( python3_{7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Offical Smappee dev API and MQTT python wrapper"
-HOMEPAGE="https://github.com/smappee/pysmappee https://pypi.org/project/pysmappee/"
+DESCRIPTION="An asyncio HomeKit client"
+HOMEPAGE="https://github.com/Jc2k/aiohomekit https://pypi.org/project/aiohomekit/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND=">=dev-python/cryptography-2.9.2[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.28.0[${PYTHON_USEDEP}]"
+BDEPEND="dev-python/poetry[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
