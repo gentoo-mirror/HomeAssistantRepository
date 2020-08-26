@@ -225,6 +225,7 @@ dev-python/dateparser 0.7.1: Date parsing library designed to parse dates from H
 dev-python/debugpy 1.0.0_beta11 1.0.0_beta12: An implementation of the Debug Adapter Protocol for Python
 dev-python/decora 0.6: Python API for controlling Decora dimmer switches
 dev-python/decora-wifi 1.4: Python API for controlling Leviton Decora Smart WiFi switches
+dev-python/deepmerge 0.1.0: a toolset to deeply merge python dictionaries.
 dev-python/defusedxml 0.6.0 0.6.0-r1: XML bomb protection for Python stdlib modules, an xml serialiser
 dev-python/deluge-client 1.4.0 1.7.1: Simple Deluge Client
 dev-python/demjson 2.2.4: encoder, decoder, and lint/validator for JSON (JavaScript Object Notation) compliant with RFC 7159
@@ -920,6 +921,7 @@ dev-python/uscisstatus 0.1.1: USCIS Status Checker
 dev-python/user-agents 1.1.0 2.0 2.0-r1: A library to identify devices and their capabilities parsing user agent strings
 dev-python/uvcclient 0.11.0: A remote control client for Ubiquiti's UVC NVR
 dev-python/vallox-websocket-api 2.0.0 2.2.0 2.4.0: Vallox WebSocket API
+dev-python/vcver 0.2.11: provide package versions with version control data.
 dev-python/venstarcolortouch 0.7 0.9 0.12: Interface Library for Venstar ColorTouch Thermostat API
 dev-python/vigilancemeteo 3.0.0 3.0.1: Python API to get active weather alerts from https://vigilance.meteofrance.com/
 dev-python/vilfo-api-client 0.3.2: Simple wrapper client for the Vilfo router API
