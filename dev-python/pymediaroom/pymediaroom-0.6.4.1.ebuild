@@ -3,20 +3,21 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Netgear LTE modem API"
-HOMEPAGE="https://github.com/amelchio/eternalegypt https://pypi.org/project/eternalegypt/"
+DESCRIPTION="Remote control your Mediaroom Set-up-box"
+HOMEPAGE="https://github.com/dgomes/pymediaroom https://pypi.org/project/pymediaroom/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND="dev-python/async_timeout[${PYTHON_USEDEP}]
+	dev-python/xmltodict[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

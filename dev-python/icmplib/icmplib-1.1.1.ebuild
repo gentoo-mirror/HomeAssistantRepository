@@ -3,20 +3,20 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{7..9} )
+PYTHON_COMPAT=( python3_{7..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="DIDL-Lite (Digital Item Declaration Language) tools for Python"
-HOMEPAGE="https://github.com/StevenLooman/python-didl-lite/ https://pypi.org/project/python-didl-lite/"
+DESCRIPTION="Easily forge ICMP packets and make your own ping and traceroute."
+HOMEPAGE="https://github.com/ValentinBELYN/icmplib https://pypi.org/project/icmplib/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/defusedxml-0.5.0"
+RDEPEND=""
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
