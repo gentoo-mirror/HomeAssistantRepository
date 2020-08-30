@@ -27,7 +27,8 @@ app-misc/homeassistant:bitcoin - displays various details about the Bitcoin netw
 app-misc/homeassistant:blink - events from Blink camera and security systems
 app-misc/homeassistant:blockchain - displays Bitcoin wallet balances from blockchain.info
 app-misc/homeassistant:bmw_connected_drive - retrieve data from the BMW Connected Drive
-app-misc/homeassistant:bravia-tv - Control almost all Sony Bravia TV 2013 and newer.
+app-misc/homeassistant:bravia-tv - Control almost all Sony Bravia TV 2013 and newer
+app-misc/homeassistant:brother - read current data from your local Brother printer
 app-misc/homeassistant:buienradar - use buienradar weather data
 app-misc/homeassistant:caldav - integrate a CalDAV (RFC4791) calendar
 app-misc/homeassistant:cast - let me talk to Google Chromecast
@@ -56,6 +57,7 @@ app-misc/homeassistant:everlights - Library for controlling an EverLights lighti
 app-misc/homeassistant:flume - monitors the real-time status of your home water meter
 app-misc/homeassistant:flunearyou - allows users in the US to get information from Flu Near You
 app-misc/homeassistant:foobot - fetch air quality data from your Foobot device
+app-misc/homeassistant:freebox - allows you to observe and control Freebox router
 app-misc/homeassistant:fronius - add (very basic) Support for Fronius Symo JSON Api
 app-misc/homeassistant:frontend - (obsolete frontend useflag, until 0.108.5)
 app-misc/homeassistant:gpiozero - interface to GPIO devices on a Raspberry Pi
@@ -143,6 +145,7 @@ app-misc/homeassistant:tradfri - Control/observe IKEA Tradfri devices
 app-misc/homeassistant:tuya - integrate all Tuya Smart related platforms
 app-misc/homeassistant:ubee - getting stats from Ubee routers
 app-misc/homeassistant:unifi - talk with a Ubiquiti unifi Controller
+app-misc/homeassistant:upnp - support UPnP/Internet Gateway Device (IGD) Protocol
 app-misc/homeassistant:vallox - control any Vallox ventilation unit
 app-misc/homeassistant:velbus - supports the Velbus USB, serial and TCP/IP gateway
 app-misc/homeassistant:velux - allows you to connect to a Velux KLF 200 interface
