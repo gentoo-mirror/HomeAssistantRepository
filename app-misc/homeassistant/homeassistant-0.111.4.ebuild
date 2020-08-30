@@ -120,7 +120,7 @@ RDEPEND="${RDEPEND}
 	blockchain? ( ~dev-python/python-blockchain-api-0.0.2[${PYTHON_USEDEP}] )
 	bmw_connected_drive? ( ~dev-python/bimmer-connected-0.7.5[${PYTHON_USEDEP}] )
 	bravia-tv? ( ~dev-python/bravia-tv-1.0.5[${PYTHON_USEDEP}]
-		~dev-python/getmac-0.8.1[${PYTHON_USEDEP}] )
+		~dev-python/getmac-0.8.2[${PYTHON_USEDEP}] )
 	buienradar? ( ~dev-python/buienradar-1.0.4[${PYTHON_USEDEP}] )
 	caldav? ( ~dev-python/caldav-0.6.1[${PYTHON_USEDEP}] )
 	cast? ( ~dev-python/pychromecast-6.0.0[${PYTHON_USEDEP}] )
@@ -131,7 +131,7 @@ RDEPEND="${RDEPEND}
 	darksky? ( ~dev-python/python-forecastio-1.4.0[${PYTHON_USEDEP}] )
 	delijn? ( ~dev-python/pydelijn-0.5.1[${PYTHON_USEDEP}] )
 	denonavr? ( ~dev-python/denonavr-0.8.1[${PYTHON_USEDEP}] )
-	discogs? ( ~dev-python/discogs_client-2.2.2[${PYTHON_USEDEP}] )
+	discogs? ( ~dev-python/discogs-client-2.2.2[${PYTHON_USEDEP}] )
 	dyson? ( ~dev-python/libpurecool-0.6.1[${PYTHON_USEDEP}] )
 	emulated_roku? ( ~dev-python/emulated-roku-0.2.1[${PYTHON_USEDEP}] )
 	enigma? ( ~dev-python/openwebifpy-3.1.1[${PYTHON_USEDEP}] )

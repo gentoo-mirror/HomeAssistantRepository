@@ -129,7 +129,7 @@ RDEPEND="${RDEPEND}
   blockchain? ( ~dev-python/python-blockchain-api-0.0.2[${PYTHON_USEDEP}] )
   bmw_connected_drive? ( ~dev-python/bimmer-connected-0.7.7[${PYTHON_USEDEP}] )
   bravia-tv? ( ~dev-python/bravia-tv-1.0.6[${PYTHON_USEDEP}]
-	  ~dev-python/getmac-0.8.1[${PYTHON_USEDEP}] )
+	  ~dev-python/getmac-0.8.2[${PYTHON_USEDEP}] )
   buienradar? ( ~dev-python/buienradar-1.0.4[${PYTHON_USEDEP}] )
   caldav? ( ~dev-python/caldav-0.6.1[${PYTHON_USEDEP}] )
   cast? ( ~dev-python/pychromecast-6.0.0[${PYTHON_USEDEP}] )
@@ -140,7 +140,7 @@ RDEPEND="${RDEPEND}
   darksky? ( ~dev-python/python-forecastio-1.4.0[${PYTHON_USEDEP}] )
   delijn? ( ~dev-python/pydelijn-0.5.1[${PYTHON_USEDEP}] )
   denonavr? ( ~dev-python/denonavr-0.9.4[${PYTHON_USEDEP}] )
-  discogs? ( ~dev-python/discogs_client-2.2.2[${PYTHON_USEDEP}] )
+  discogs? ( ~dev-python/discogs-client-2.2.2[${PYTHON_USEDEP}] )
 	dunehd? ( ~dev-python/pdunehd-1.3[${PYTHON_USEDEP}] )
   dynalite? ( ~dev-python/dynalite-devices-0.1.41[${PYTHON_USEDEP}] )
   dyson? ( ~dev-python/libpurecool-0.6.1[${PYTHON_USEDEP}] )

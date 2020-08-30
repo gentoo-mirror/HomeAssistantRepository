@@ -1,4 +1,4 @@
-2020-08-30
+2020-08-30 homeassistant-0.114.4
   * bump btlewrap-0.0.10
   * update xknx-0.12.0, change RDEPENDs
   * update certifi-2020.6.20
@@ -17,10 +17,46 @@
   * update aioshelly-0.2.2, add RDEPS in aioshelly-0.1.2
   * update pymediaroom-0.6.4.1, add RDEPS in pymediaroom-0.6.4
   * update eternalegypt-0.0.12
-  * update PyXiaomiGateway-0.13.2, add RDEPENDs in older versions
-  * update python-didl-lite-1.2.4, update old
+  * update PyXiaomiGateway-0.13.2, add RDEPENDs in older versions (https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/24)
+  * update python-didl-lite-1.2.4, update old (https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/23)
   * update async-upnp-client-0.14.14
-  * add queueman-0.5
+  * add queueman-0.5 (https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/17)
+  * update envoy-reader-0.16.1
+  * bump meteofrance-api-0.1.1
+  * update withings-api-2.1.6
+  * bump withings-api-2.1.8
+  * add requests-oauth-0.4.1
+  * fix PlexAPI Manifest
+  * update zigpy-0.22.2
+  * add zigpy-xbee-0.12.1
+  * update zigpy-zigate-0.6.1
+  * downgrade asynctest-0.12.2
+  * upgrade HA build/test DEPEND
+  * bump mock-open-1.4.0
+  * update mypy-0.780
+  * update codecov-2.1.0.ebuild
+  * update pylint-strict-informational-0.1
+  * update pytest-cov-2.10.0
+  * add pytest-test-groups-1.0.3
+  * update pytest-sugar
+  * add pytest-xdist-1.32.0
+  * fix pure-pcapy3 typo
+  * correct wled RDEPENDs
+  * correct velbus RDEPENDs
+  * remove all old dev-python/asyncio RDEPENDs
+  * remove all old dev-python/datetime RDEPENDs
+  * openwrt-luci-rpc, unpin requests version
+  * fix all remaining async-timeout -> async_timeout
+  * remove all old dev-python/typing RDEPENDs
+  * add python-socketio-4.6.0
+  * update lomond-0.3.3
+  * recheck and remove some hard coded version pins
+  * remove some misc typos
+  * old pylint versions removed
+  * fix dev-python/click-6.0 DEP in pyicloud
+  * fix inconsistant dev-python/getmac version pins
+  * fix 2 RDEPEND typos
+  * update homeassistant-0.114.4, 3 new useflags by request (https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/20)
 
 2020-08-26
   * fix https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/18#issuecomment-124

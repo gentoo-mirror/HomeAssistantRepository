@@ -134,7 +134,7 @@ RDEPEND="${RDEPEND}
   blockchain? ( ~dev-python/python-blockchain-api-0.0.2[${PYTHON_USEDEP}] )
   bmw_connected_drive? ( ~dev-python/bimmer-connected-0.7.7[${PYTHON_USEDEP}] )
   bravia-tv? ( ~dev-python/bravia-tv-1.0.6[${PYTHON_USEDEP}]
-	  ~dev-python/getmac-0.8.1[${PYTHON_USEDEP}] )
+	  ~dev-python/getmac-0.8.2[${PYTHON_USEDEP}] )
   buienradar? ( ~dev-python/buienradar-1.0.4[${PYTHON_USEDEP}] )
   caldav? ( ~dev-python/caldav-0.6.1[${PYTHON_USEDEP}] )
   cast? ( ~dev-python/pychromecast-7.2.0[${PYTHON_USEDEP}] )
@@ -147,7 +147,7 @@ RDEPEND="${RDEPEND}
   delijn? ( ~dev-python/pydelijn-0.5.1[${PYTHON_USEDEP}] )
   denonavr? ( ~dev-python/denonavr-0.9.4[${PYTHON_USEDEP}] )
 	dexcom? ( ~dev-python/pydexcom-0.2.0[${PYTHON_USEDEP}] )
-  discogs? ( ~dev-python/discogs_client-2.2.2[${PYTHON_USEDEP}] )
+  discogs? ( ~dev-python/discogs-client-2.2.2[${PYTHON_USEDEP}] )
 	discord? ( ~dev-python/discord-py-1.3.4[${PYTHON_USEDEP}] )
 	dunehd? ( ~dev-python/pdunehd-1.3[${PYTHON_USEDEP}] )
   dynalite? ( ~dev-python/dynalite-devices-0.1.41[${PYTHON_USEDEP}] )
@@ -231,7 +231,7 @@ RDEPEND="${RDEPEND}
 	skybell? ( ~dev-python/skybellpy-0.6.1[${PYTHON_USEDEP}] )
 	sma? ( ~dev-python/pysma-0.3.5[${PYTHON_USEDEP}] )
 	smappee? ( ~dev-python/pysmappee-0.1.5[${PYTHON_USEDEP}] )
-	smarthab? ( ~dev-python/smarthab-0.21[${PYTHON_USEDEP}] )
+	smarthab? ( ~dev-python/SmartHab-0.21[${PYTHON_USEDEP}] )
 	smartthings? ( ~dev-python/pysmartthings-0.7.3[${PYTHON_USEDEP}] )
   socat? ( net-misc/socat )
   socialblade? ( ~dev-python/socialbladeclient-0.2[${PYTHON_USEDEP}] )
@@ -283,24 +283,28 @@ RDEPEND="${RDEPEND}
 
 DEPEND="${RDEPEND}
 		test? (
-			  ~dev-python/asynctest-0.12.2[${PYTHON_USEDEP}]
-			  ~dev-python/coveralls-1.2.0[${PYTHON_USEDEP}]
-			  ~dev-python/flake8-docstrings-1.3.0[${PYTHON_USEDEP}]
-			  ~dev-python/flake8-3.7.5[${PYTHON_USEDEP}]
-			  ~dev-python/mock-open-1.3.1[${PYTHON_USEDEP}]
-			  dev-python/mock[${PYTHON_USEDEP}]
-			  ~dev-python/mypy-0.660[${PYTHON_USEDEP}]
-			  ~dev-python/pydocstyle-3.0.0[${PYTHON_USEDEP}]
-			  ~dev-python/pylint-2.2.2[${PYTHON_USEDEP}]
-			  ~dev-python/pytest-aiohttp-0.3.0[${PYTHON_USEDEP}]
-			  ~dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}]
-			  ~dev-python/pytest-sugar-0.9.2[${PYTHON_USEDEP}]
-			  ~dev-python/pytest-timeout-1.3.3[${PYTHON_USEDEP}]
-			  ~dev-python/pytest-4.2.1[${PYTHON_USEDEP}]
-			  ~dev-python/requests-mock-1.5.2[${PYTHON_USEDEP}]
-			  dev-python/nose[${PYTHON_USEDEP}]
-			  dev-python/coverage[${PYTHON_USEDEP}]
-			)"
+			~dev-python/asynctest-0.13.0[${PYTHON_USEDEP}]
+			~dev-python/codecov-2.1.0[${PYTHON_USEDEP}]
+			~dev-python/coverage-5.2.1[${PYTHON_USEDEP}]
+			~dev-python/mock-open-1.4.0[${PYTHON_USEDEP}]
+			~dev-python/mypy-0.780[${PYTHON_USEDEP}]
+			~dev-python/pre-commit-2.6.0[${PYTHON_USEDEP}]
+			dev-python/pylint[${PYTHON_USEDEP}]
+			~dev-python/astroid-2.3.3[${PYTHON_USEDEP}]
+			~dev-python/pylint-strict-informational-0.1[${PYTHON_USEDEP}]
+			~dev-python/pytest-aiohttp-0.3.0[${PYTHON_USEDEP}]
+			~dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}]
+			~dev-python/pytest-test-groups-1.0.3[${PYTHON_USEDEP}]
+			~dev-python/pytest-sugar-0.9.3[${PYTHON_USEDEP}]
+			~dev-python/pytest-timeout-1.3.4[${PYTHON_USEDEP}]
+			~dev-python/pytest-xdist-1.32.0[${PYTHON_USEDEP}]
+			~dev-python/pytest-5.4.3[${PYTHON_USEDEP}]
+			~dev-python/requests-mock-1.8.0[${PYTHON_USEDEP}]
+			~dev-python/responses-0.10.6[${PYTHON_USEDEP}]
+		  dev-python/mock[${PYTHON_USEDEP}]
+		  dev-python/nose[${PYTHON_USEDEP}]
+		  dev-python/coverage[${PYTHON_USEDEP}]
+		)"
 
 INSTALL_DIR="/opt/${PN}"
 
