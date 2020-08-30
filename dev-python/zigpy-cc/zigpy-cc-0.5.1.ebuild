@@ -7,17 +7,17 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="An Asynchronous Library for the KNX protocol."
-HOMEPAGE="https://github.com/XKNX/xknx https://xknx.io/ https://pypi.org/project/xknx/"
+DESCRIPTION="A library which communicates with Texas Instruments CC2531 radios for zigpy"
+HOMEPAGE="http://github.com/zigpy/zigpy-cc https://pypi.org/project/zigpy-cc/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/netifaces-0.10.9
-		 >=dev-python/pyyaml-5.1"
+RDEPEND="dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
+	>=dev-python/zigpy-0.20.1[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

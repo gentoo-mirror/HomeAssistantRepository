@@ -6,6 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">zeroconf</remote-id>
+    <remote-id type="pypi">readlike</remote-id>
+    <maintainer status="unknown">
+      <email>brandon@lightcones.net</email>
+      <name>Brandon Mulcahy</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>
