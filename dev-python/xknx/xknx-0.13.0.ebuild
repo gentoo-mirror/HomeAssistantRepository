@@ -7,21 +7,17 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="An API for the homematicip cloud"
-HOMEPAGE="https://github.com/coreGreenberet/homematicip-rest-api https://pypi.org/project/homematicip/"
+DESCRIPTION="An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/"
+HOMEPAGE="https://github.com/XKNX/xknx/ https://xknx.io/ https://pypi.org/project/xknx/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
-		>=dev-python/websocket-client-0.57.0[${PYTHON_USEDEP}]
-		>=dev-python/websockets-8.1[${PYTHON_USEDEP}]
-		>=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
-		>=dev-python/async_timeout-3.0.1[${PYTHON_USEDEP}]
-		>=dev-python/aenum-2.2.3[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/netifaces-0.10.9
+	>=dev-python/pyyaml-5.1"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
