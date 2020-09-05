@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="The Home Assistant frontend"
-HOMEPAGE="https://github.com/home-assistant/home-assistant-polymer https://pypi.org/project/home-assistant-frontend/"
+DESCRIPTION="Python wrapper for getting air quality data from GIOS servers."
+HOMEPAGE="https://github.com/bieniu/gios https://pypi.org/project/gios/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="Apache-2.0"
@@ -16,8 +16,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="~dev-python/user-agents-2.0[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 BDEPEND="${REDEPEND}
+	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	dev-python/pytest-cov[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
