@@ -7,27 +7,26 @@ PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Library for Sky Q hub"
-HOMEPAGE="https://github.com/RogerSelwyn/skyq_hub https://pypi.org/project/pyskyqhub/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+DESCRIPTION="Python API for interacting with ESPHome devices."
+HOMEPAGE="https://esphome.io/ https://pypi.org/project/aioesphomeapi/"
+# SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://github.com/esphome/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="~dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-python-3.12.2[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.28.0[${PYTHON_USEDEP}]"
 BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
+		~dev-python/pylint-2.5.3[${PYTHON_USEDEP}]
 	)"
-
-src_prepare() {
-	sed -i "s/packages=find_namespace_packages()/packages=find_namespace_packages(exclude=['tests','tests.*'])/g" -i setup.py || die
-	eapply_user
-}
 
 python_test() {
 	nosetests --verbose || die
