@@ -7,22 +7,16 @@ PYTHON_COMPAT=( python3_{7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Home Assistant cloud integration by Nabu Casa, inc."
-HOMEPAGE="https://www.nabucasa.com/ https://pypi.org/project/hass-nabucasa/"
+DESCRIPTION="The Home Assistant frontend"
+HOMEPAGE="https://github.com/home-assistant/home-assistant-polymer https://pypi.org/project/home-assistant-frontend/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm64 x86 amd64-linux x86-linux"
 IUSE="test"
 
-RDEPEND="~dev-python/pycognito-0.1.2[${PYTHON_USEDEP}]
-		 ~dev-python/snitun-0.20[${PYTHON_USEDEP}]
-		 ~app-crypt/acme-1.3.0
-		 >=dev-python/cryptography-2.8[${PYTHON_USEDEP}]
-		 >=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
-		 >=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
-		 >=dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]"
+RDEPEND="~dev-python/user-agents-2.0[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
