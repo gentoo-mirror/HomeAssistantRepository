@@ -656,7 +656,6 @@ dev-python/pyopnsense 0.2.0: A python API client for OPNsense
 dev-python/pyoppleio 1.0.5: Python library for interfacing with opple mobile control light
 dev-python/pyotgw 0.5_beta0 0.5_beta1 0.6_beta1: Opentherm gateway through serial or network connection.
 dev-python/pyotp 2.2.6 2.2.7 2.3.0: Python One Time Password Library
-dev-python/pyowlet 1.0.2 1.0.3: Python client for Owlet monitors
 dev-python/pyowm 2.10.0: A Python wrapper around OpenWeatherMap web APIs
 dev-python/pypandoc 1.4: Thin wrapper for pandoc.
 dev-python/pypca 0.0.5 0.0.6 0.0.7: A python cli for PCA 301 smart plugs.
