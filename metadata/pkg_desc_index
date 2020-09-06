@@ -312,7 +312,7 @@ dev-python/gios 0.0.3 0.0.4 0.0.5 0.1.1 0.1.3 0.1.4: Python wrapper for getting 
 dev-python/gitterpy 0.1.7: Python interface for the Gitter API
 dev-python/glances_api 0.2.0: Python API for interacting with Glances.
 dev-python/gntp 1.0.3: Growl Notification Transport Protocol for Python
-dev-python/gogogate2-api 1.0.3 1.0.4: Library for connecting to gogogate2 hubs
+dev-python/gogogate2-api 1.0.3 1.0.4 2.0.0: Library for connecting to GogoGate2 and iSmartGate hubs
 dev-python/googlemaps 2.5.1 3.0.2: Python client library for Google Maps API Web Services
 dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud API
 dev-python/gpiozero 1.4.1 1.5.0-r1 1.5.1 1.5.1-r1: A simple interface to GPIO devices with Raspberry Pi.
@@ -363,7 +363,8 @@ dev-python/iglo 1.2.7: Control iGlo based RGB lights
 dev-python/ihcsdk 2.3.0 2.4.0 2.5.0 2.6.0 2.7.0: IHC Python SDK
 dev-python/imageio 2.3.0 2.6.1: Python library for reading and writing image data
 dev-python/immutables 0.9: Immutable Collections
-dev-python/importlib_metadata 1.3.0 1.6.0-r1: Read metadata from Python packages
+dev-python/importlib_metadata 1.6.0-r1 1.6.0-r2: Read metadata from Python packages
+dev-python/importlib_resources 1.5.0-r1 3.0.0-r1: Read resources from Python packages
 dev-python/incomfort-client 0.3.1 0.3.5 0.4.0: A aiohttp-based client for Intergas InComfort/InTouch Lan2RF systems
 dev-python/influxdb 5.2.0 5.2.3: InfluxDB client
 dev-python/influxdb-client 1.6.0 1.7.0 1.8.0: InfluxDB 2.0 Python client library
@@ -831,7 +832,7 @@ dev-python/scikit-build 0.10.0: Improved build system generator for Python C/C++
 dev-python/scsgate 0.1.0: A Python module to interact with SCSGate
 dev-python/semantic_version 2.8.2 2.8.2-r1: Python library providing a few tools handling SemVer in Python
 dev-python/sendgrid 6.1.0 6.1.1 6.1.3 6.2.1 6.4.6: Twilio SendGrid library for Python
-dev-python/sense-energy 0.7.0 0.7.1 0.7.2: API for the Sense Energy Monitor
+dev-python/sense-energy 0.7.0 0.7.1 0.7.2 0.8.0: API for the Sense Energy Monitor
 dev-python/sentry-sdk 0.13.5 0.16.5 0.17.1 0.17.3: Python client for Sentry (https://sentry.io)
 dev-python/sepaxml 2.2.0: Python SEPA XML implementations
 dev-python/setuptools-markdown 0.2: Use Markdown for your project description
