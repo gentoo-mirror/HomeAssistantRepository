@@ -3,7 +3,7 @@ acct-group/homeassistant 0: Homeassistant program group
 acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.4.0: An implementation of the ACME protocol
-app-misc/home-assistant-cli 0.7.0 0.8.0 0.9.0 0.9.1 9999: The Home Assistant Command-line Interface (hass-cli)
+app-misc/home-assistant-cli 0.9.0 0.9.1 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/homeassistant 0.108.9 0.109.6 0.110.7 0.111.4 0.112.3 0.112.4 0.112.5 0.113.0 0.113.1 0.113.2 0.113.3 0.114.1 0.114.2 0.114.3 0.114.4: Open-source home automation platform running on Python on 3.7
 dev-embedded/esphome 1.13.2 1.13.6 1.13.6-r1 1.14.1 1.14.2 1.14.3-r4 1.14.3-r5 1.14.3-r6 1.14.3-r7 1.14.4 1.14.4-r1 1.14.5 1.14.5-r1 1.15.0_beta1 1.15.0_beta2 1.15.0_beta3 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
@@ -191,7 +191,7 @@ dev-python/caldav 0.5.0 0.6.1: CalDAV (RFC4791) client library
 dev-python/casttube 0.2.0: YouTube chromecast api
 dev-python/cattrs 0.9.0: Composable complex class support for attrs.
 dev-python/cbor 1.0.0-r1: RFC 7049 - Concise Binary Object Representation
-dev-python/cdu 0.1.3 0.1.3-r1: Cloud Storage Disk Usage Analyzer
+dev-python/cdu 0.1.3-r2: Cloud Storage Disk Usage Analyzer
 dev-python/certifi 2019.6.16 2019.9.11-r1 2019.11.28 2020.4.5.1 2020.6.20: Python package for providing Mozilla's CA Bundle
 dev-python/cffi 1.12.2 1.12.2-r1: Foreign Function Interface for Python calling C code
 dev-python/checkmyreqs 0.3.1: Check your project requirements for Python version compatibility
@@ -293,7 +293,7 @@ dev-python/freesms 0.1.2: Send SMS with Free Mobile
 dev-python/fritzconnection 0.8.4 1.2.0 1.3.0: Communicate with the AVM FritzBox
 dev-python/fritzhome 1.0.4 1.0.5: Query information from your FRITZ!Box (mostly energy)
 dev-python/future 0.17.1 0.17.1-r1: Easy, clean, reliable Python 2/3 compatibility
-dev-python/gTTS-token 1.1.3 1.1.3-r1: Calculates a token to run the Google Translate text to speech
+dev-python/gTTS-token 1.1.3-r2: Calculates a token to run the Google Translate text to speech
 dev-python/garminconnect 0.1.8 0.1.10 0.1.13: Python 3 API wrapper for Garmin Connect
 dev-python/gatt 0.2.7: Bluetooth GATT SDK for Python
 dev-python/gearbest-parser 1.0.7: Load an gearbest shop item
@@ -373,13 +373,12 @@ dev-python/ipify 1.0.0: The official client library for ipify: A Simple IP Addre
 dev-python/jdatetime 3.1.0 3.4.0: Jalali datetime binding for python
 dev-python/jinja 2.10.3: A full-featured template engine for Python
 dev-python/jmespath 0.9.4: JSON Matching Expressions
-dev-python/jose 1.0.0 1.0.0-r1: An implementation of the JOSE draft
 dev-python/jsonpath 0.75 0.82: An XPath for JSON
 dev-python/jsonpath-ng 1.5.1: A final implementation of JSONPath for Python that aims to be standard compliant, including arithmetic and binary comparison operators and providing clear AST for metaprogramming.
 dev-python/jsonpath-rw 1.4.0: A robust and significantly extended implementation of JSONPath for Python.
 dev-python/jsonrpc-async 0.6 0.6-r1: a compact JSON-RPC client library for asyncio
-dev-python/jsonrpc-base 1.0 1.0.1 1.0.2: A JSON-RPC client library base interface
-dev-python/jsonrpc-websocket 0.6 1.0.1: A JSON-RPC websocket client library for asyncio
+dev-python/jsonrpc-base 1.0 1.0.1 1.0.2 1.1.0: A JSON-RPC client library base interface
+dev-python/jsonrpc-websocket 0.6 1.0.1 1.2.0: A JSON-RPC websocket client library for asyncio
 dev-python/kaiterra-async-client 0.0.2: Kaiterra API Async Client
 dev-python/keba-kecontact 0.2.0 1.0.0 1.1.0: A python library to communicate with the KEBA charging stations via udp
 dev-python/keyring 17.1.0 17.1.1 19.2.0 19.3.0 20.0.0 21.2.0: Provides access to the system keyring service
@@ -431,7 +430,7 @@ dev-python/mt_940 4.19.0: Parse MT940 files returns Python collections for stati
 dev-python/multidict 4.4.2 4.5.2: multidict implementation
 dev-python/mychevy 1.2.0 2.0.1: Python interface to My Chevy online data
 dev-python/mycroftapi 2.0: a library to communicate with Mycroft API
-dev-python/mypy 0.660 0.710 0.711 0.720 0.740 0.761 0.780: Optional static typing for Python
+dev-python/mypy 0.660 0.710 0.780: Optional static typing for Python
 dev-python/n26 0.2.7 2.2.0: API and command line tools to interact with the https://n26.com/ API
 dev-python/nad_receiver 0.0.11 0.0.12: Library to interface with NAD receivers through RS232, TCP and telnet
 dev-python/nclib 0.8.3: Netcat as a library: convienent socket interfaces
@@ -505,7 +504,7 @@ dev-python/prezzibenzina-py 1.1.4: A python package to get Prezzibenzina info
 dev-python/proliphix 0.4.1 0.5.0: API for Proliphix nt10e network thermostat.
 dev-python/protobuf-python 3.7.0 3.10.0 3.10.0-r1 3.12.2 3.12.4: Google's Protocol Buffers - Python bindings
 dev-python/proxmoxer 1.0.3 1.0.4 1.1.0 1.1.1: Python Wrapper for the Proxmox 2.x API (HTTP and SSH)
-dev-python/psutil 5.6.2 5.6.3 5.6.3-r1 5.6.6 5.6.7 5.7.0 5.7.2: Retrieve information on running processes and system utilization
+dev-python/psutil 5.6.6 5.6.7 5.7.0 5.7.2: Retrieve information on running processes and system utilization
 dev-python/ptvsd 4.2.8 4.3.2: Remote debugging server, Python support in Visual Studio and Visual Studio Code
 dev-python/pubnubsub-handler 1.0.5 1.0.6 1.0.7 1.0.8: Handles the PubNub subscriptions between PubNub and Home-Assistant for Wink
 dev-python/pulsectl 20.4.3: Python high-level interface and ctypes-based bindings for PulseAudio (libpulse)
@@ -730,8 +729,8 @@ dev-python/python-hpilo 3.9 4.3: Accessing the HP iLO XML interface from python
 dev-python/python-http-client 3.3.1: HTTP REST client, simplified for Python
 dev-python/python-izone 1.1.1 1.1.2: A python interface to the iZone airconditioner controller
 dev-python/python-join-api 0.0.4 0.0.6: Python API for interacting with Join by joaoapps.
-dev-python/python-jose 3.1.0: JOSE implementation in Python
-dev-python/python-jose-cryptodome 1.3.2 1.3.2-r1: JOSE implementation in Python using pycryptodome
+dev-python/python-jose 1.0.0: A JavaScript Object Signing and Encryption (JOSE) implementation in Python
+dev-python/python-jose-cryptodome 1.3.2-r2: JOSE implementation in Python using pycryptodome
 dev-python/python-juicenet 0.1.5 0.1.6 1.0.1: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
 dev-python/python-lirc 1.2.3: Python bindings for LIRC.
 dev-python/python-miio 0.4.8 0.5.0.1 0.5.1 0.5.2.1 0.5.3: Python library for interfacing with Xiaomi smart appliances
@@ -818,7 +817,7 @@ dev-python/roombapy 1.4.1 1.4.2 1.4.3 1.5.0 1.5.1 1.5.2 1.5.3 1.6.1: Python libr
 dev-python/rova 0.1.0: API wrapper for ROVA calendar
 dev-python/rpi-rf 0.9.7: Send and receive 433/315MHz signals with GPIO RF modules on a Raspberry Pi
 dev-python/rsa 4.0 4.0-r1 4.0-r2: Pure-Python RSA implementation
-dev-python/ruamel-yaml 0.15.91 0.15.94 0.15.99 0.15.100 0.16.5: YAML parser/emitter that supports roundtrip comment preservation
+dev-python/ruamel-yaml 0.15.100: YAML parser/emitter that supports roundtrip comment preservation
 dev-python/russound 0.1.9: Python API for Russound RNET commands.
 dev-python/russound-rio 0.1.7: Asyncio client for Russound RIO devices
 dev-python/rxv 0.5.1 0.6.0: Automation Library for Yamaha RX-V473, RX-V573, RX-V673, RX-V773 receivers
@@ -873,7 +872,7 @@ dev-python/spiderpy 1.3.1: Python wrapper for the Spider API, a way to manage yo
 dev-python/spotcrime 1.0.3 1.0.4: Provides basic API to spotcrime.com.
 dev-python/spotipy 2.7.1 2.10.0 2.11.1 2.12.0: A light weight Python library for the Spotify Web API
 dev-python/spotipy-homeassistant 2.4.4: simple client for the Spotify Web API
-dev-python/sqlalchemy 1.3.10-r1 1.3.12 1.3.13 1.3.15 1.3.16 1.3.17 1.3.18 1.3.19: Python SQL toolkit and Object Relational Mapper
+dev-python/sqlalchemy 1.3.15 1.3.16 1.3.17 1.3.18 1.3.19: Python SQL toolkit and Object Relational Mapper
 dev-python/sqlitedict 1.6.0: Persistent dict in Python, backed up by sqlite3 and pickle, multithread-safe.
 dev-python/sseclient-py 1.7: SSE client for Python
 dev-python/starkbank-ecdsa 1.0.0: A lightweight and fast pure python ECDSA library
