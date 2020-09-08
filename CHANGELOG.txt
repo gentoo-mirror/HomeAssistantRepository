@@ -5,6 +5,16 @@
   * fix Typo: zigpy-znp-0.1.1
   * update PyOTA-2.1.0-r1
   * update some Maifests after cleanups
+  * update rokuecp-0.6.1, fix 0.6.0 deps
+    - https://github.com/ctalkington/python-rokuecp/issues/67
+    - https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/113
+  * fix deps in sonarr
+    - https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/113
+  * directv -> BDEPEND
+  * fix RDEPEND in georss-qld-bushfire-alert-client-0.3
+  * update numato-gpio-0.8.0 RDEPEND
+  * nad_receiver was renamed to nad-receiver on Pypi,
+    update nad-receiver-0.1.0, fix REDEPEND
 
 2020-09-07
   * update geopy-2.0.0.ebuild

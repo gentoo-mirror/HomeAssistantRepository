@@ -3,24 +3,23 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Asynchronous Python client for the Sonarr API."
-HOMEPAGE="https://github.com/ctalkington/python-sonarr https://pypi.org/project/sonarr/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+DESCRIPTION="Library to interface with NAD receivers through RS232, TCP and telnet"
+HOMEPAGE="https://github.com/joopert/nad_receiver https://pypi.org/project/nad-receiver/"
+MY_PN=${PN/-/_}
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}/${MY_PN}-${PV}"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.md"
-
-RDEPEND="~dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
-	~dev-python/yarl-1.4.2[${PYTHON_USEDEP}]"
-DEPEND="${REDEPEND}
+RDEPEND=">=dev-python/pyserial-3.2.1[${PYTHON_USEDEP}]"
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
