@@ -148,7 +148,7 @@ dev-python/atenpdu 0.3.0 0.3.1: Interface for ATEN-PE PDUs
 dev-python/attrs 18.2.0 19.1.0 19.2.0 19.2.0-r1 19.3.0: Attributes without boilerplate
 dev-python/aurorapy 0.2.6: Python implementation of Aurora Protocol
 dev-python/autobahn 18.7.1: WebSocket and WAMP for Twisted and Asyncio
-dev-python/av 6.1.2 6.2.0 7.0.1 8.0.1 8.0.2: Pythonic bindings for FFmpeg's libraries.
+dev-python/av 6.2.0 7.0.1 8.0.1 8.0.2: Pythonic bindings for FFmpeg's libraries.
 dev-python/avea 1.2.8 1.4: Control an Elgato Avea bulb using python
 dev-python/avion 0.10: Python API for controlling Avi-on Bluetooth dimmers
 dev-python/axis 29 30 31 32 33 35: A Python library for communicating with devices from Axis Communications
@@ -177,7 +177,6 @@ dev-python/bond-home 0.0.8 0.0.9: Python library for controlling BOND Home Hub
 dev-python/boto3 1.9.115 1.9.116 1.9.233 1.9.233-r1 1.9.233-r2 1.9.252: The AWS SDK for Python
 dev-python/botocore 1.12.57 1.12.115 1.12.115-r1 1.12.252 1.12.252-r1 1.13.14: Low-level, data-driven core of boto 3.
 dev-python/bravia-tv 1.0.2 1.0.3 1.0.4 1.0.5 1.0.6: Python Bravia TV remote control
-dev-python/braviarc-homeassistant 0.3.7: # BraviaRC Python Package
 dev-python/broadlink 0.13.0 0.13.1 0.13.2 0.14.0 0.14.1: Python API for controlling Broadlink IR controllers
 dev-python/brother 0.1.11 0.1.13 0.1.14 0.1.15 0.1.17: Python wrapper for getting data from Brother laser and inkjet printers via SNMP.
 dev-python/brottsplatskartan 0.0.1 1.0.5: Simple API wrapper to brottsplatskartan.se.
