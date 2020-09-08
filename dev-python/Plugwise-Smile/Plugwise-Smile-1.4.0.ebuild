@@ -7,22 +7,25 @@ PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="A library for zigpy which communicates with TI ZNP radios"
-HOMEPAGE="https://github.com/zha-ng/zigpy-znp https://pypi.org/project/zigpy-znp/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+DESCRIPTION="Plugwise_Smile (Anna/Adam/P1) API to use in conjunction with Home Assistant."
+HOMEPAGE="https://github.com/plugwise/Plugwise-Smile https://pypi.org/project/Plugwise-Smile/"
+MY_PN=${PN/-/_}
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}/${MY_PN}-${PV}"
 
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
-	>=dev-python/zigpy-0.23.0[${PYTHON_USEDEP}]
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/async_timeout[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]"
+	dev-python/lxml[${PYTHON_USEDEP}]
+	dev-python/pytz[${PYTHON_USEDEP}]
+	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	dev-python/semver[${PYTHON_USEDEP}]"
 BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
