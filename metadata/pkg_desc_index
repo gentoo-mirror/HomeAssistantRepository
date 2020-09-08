@@ -647,7 +647,7 @@ dev-python/pymonoprice 0.3: Python API for talking to Monoprice 6-zone amplifier
 dev-python/pymsteams 0.1.12: Format messages and post to Microsoft Teams.
 dev-python/pymusiccast 0.1.6 0.1.6-r1: This library brings support for Yamaha MusicCast devices to Home Assistant
 dev-python/pymyq 2.0.1 2.0.2 2.0.3 2.0.4 2.0.5: Python package for controlling MyQ-Enabled Garage Door
-dev-python/pymysensors 0.18.0: Python API for talking to a MySensors gateway
+dev-python/pymysensors 0.18.0 0.20.1: Python API for talking to a MySensors gateway
 dev-python/pynacl 1.3.0: Python binding to the Networking and Cryptography (NaCl) library
 dev-python/pynanoleaf 0.0.5: A Python3 wrapper for the Nanoleaf API
 dev-python/pynello 2.0.2 2.0.3: Python library for nello.io intercoms
