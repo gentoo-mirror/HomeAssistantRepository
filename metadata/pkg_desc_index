@@ -436,7 +436,7 @@ dev-python/mychevy 1.2.0 2.0.1: Python interface to My Chevy online data
 dev-python/mycroftapi 2.0: a library to communicate with Mycroft API
 dev-python/mypy 0.660 0.710 0.780: Optional static typing for Python
 dev-python/n26 0.2.7 2.2.0: API and command line tools to interact with the https://n26.com/ API
-dev-python/nad_receiver 0.0.11 0.0.12: Library to interface with NAD receivers through RS232, TCP and telnet
+dev-python/nad-receiver 0.0.11 0.0.12 0.1.0: Library to interface with NAD receivers through RS232, TCP and telnet
 dev-python/nclib 0.8.3: Netcat as a library: convienent socket interfaces
 dev-python/ndms2-client 0.0.10 0.0.11: Keenetic NDMS 2.x and 3.x client
 dev-python/nessclient 0.9.10 0.9.13 0.9.14 0.9.15: Implementation of the Ness D8x / D16x Serial Interface ASCII protocol
@@ -821,7 +821,7 @@ dev-python/ritassist 0.9.2 0.9.3: RitAssist API Access
 dev-python/rjpl 0.3.5 0.3.6: Interface with Rejseplanen API
 dev-python/rocketchat-API 0.6.1 0.6.35: Python API wrapper for Rocket.Chat
 dev-python/roku 3.0 3.1 4.0.0 4.1.0: Client for the Roku media player
-dev-python/rokuecp 0.2.3 0.3.2 0.4.0 0.4.1 0.4.2 0.5.0 0.6.0: Asynchronous Python client for Roku (ECP).
+dev-python/rokuecp 0.4.0 0.4.1 0.4.2 0.5.0 0.6.0 0.6.1: Asynchronous Python client for Roku (ECP).
 dev-python/roombapy 1.4.1 1.4.2 1.4.3 1.5.0 1.5.1 1.5.2 1.5.3 1.6.1: Python library to control Wi-Fi enabled iRobot Roomba vacuum cleaners
 dev-python/rova 0.1.0: API wrapper for ROVA calendar
 dev-python/rpi-rf 0.9.7: Send and receive 433/315MHz signals with GPIO RF modules on a Raspberry Pi
