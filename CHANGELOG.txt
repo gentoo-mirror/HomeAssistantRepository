@@ -34,6 +34,14 @@
   * insteonplm: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/136
   * pizzapi: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/139
   * proxmoxer: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/140
+  * pushetta-1.0.15: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/142
+  * pylinky: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/149
+  * pyowm: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/151
+  * pypck: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/152
+  * pysmartapp-0.3.2: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/155
+  * pytraccar-0.9.0: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/159
+  * pyvesync-1.1.0: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/160
+  * simplehound-0.3: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/163
 
 2020-09-07
   * update geopy-2.0.0.ebuild
