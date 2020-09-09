@@ -4,7 +4,7 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.4.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.0 0.9.1 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 0.108.9 0.109.6 0.110.7 0.111.4 0.112.3 0.112.4 0.112.5 0.113.0 0.113.1 0.113.2 0.113.3 0.114.1 0.114.2 0.114.3 0.114.4: Open-source home automation platform running on Python on 3.7
+app-misc/homeassistant 0.108.9 0.109.6 0.110.7 0.111.4 0.112.3 0.112.4 0.112.5 0.113.0 0.113.1 0.113.2 0.113.3 0.114.1 0.114.2 0.114.3 0.114.4 0.115.0_beta2: Open-source home automation platform running on Python on 3.7
 dev-embedded/esphome 1.13.2 1.13.6 1.13.6-r1 1.14.1 1.14.2 1.14.3-r4 1.14.3-r5 1.14.3-r6 1.14.3-r7 1.14.4 1.14.4-r1 1.14.5 1.14.5-r1 1.15.0_beta1 1.15.0_beta2 1.15.0_beta3 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 4.0.3-r3 4.3.1 4.3.4: An open source ecosystem for IoT development

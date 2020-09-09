@@ -40,6 +40,7 @@ app-misc/homeassistant:darksky - use dark sky weather data
 app-misc/homeassistant:deconz - deCONZ ConBee/RaspBee Zigbee gateways
 app-misc/homeassistant:delijn - De Lijn public transport network in Flanders
 app-misc/homeassistant:denonavr - Automation Library for Denon AVR receivers
+app-misc/homeassistant:devolo - Devolo Home-control
 app-misc/homeassistant:dexcom - view your CGM data from Dexcom
 app-misc/homeassistant:discogs - Discogs Client
 app-misc/homeassistant:discord - send messages to the user using Discord
@@ -60,6 +61,8 @@ app-misc/homeassistant:foobot - fetch air quality data from your Foobot device
 app-misc/homeassistant:freebox - allows you to observe and control Freebox router
 app-misc/homeassistant:fronius - add (very basic) Support for Fronius Symo JSON Api
 app-misc/homeassistant:frontend - (obsolete frontend useflag, until 0.108.5)
+app-misc/homeassistant:gios - source for air quality data
+app-misc/homeassistant:gogogate2 - lets you control Gogogate2-Enabled garage doors
 app-misc/homeassistant:gpiozero - interface to GPIO devices on a Raspberry Pi
 app-misc/homeassistant:growatt_server - talk to growatt server
 app-misc/homeassistant:growl - add Growl Notification Transport Protocol
@@ -86,13 +89,13 @@ app-misc/homeassistant:ipma - ipma weather platform
 app-misc/homeassistant:jewish_calendar - jewish_calendar
 app-misc/homeassistant:joaoapps_join - joaoapps_join integration exposes services from Join
 app-misc/homeassistant:kef - KEF wireless speakers
+app-misc/homeassistant:kodi - control a Kodi multimedia system
 app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant:maxcube_hack - apply Patch for https://github.com/home-assistant/home-assistant/issues/28811
 app-misc/homeassistant:meteo_france - uses the meteorological data from Meteo-France
 app-misc/homeassistant:metno - A library to communicate with the met.no api
 app-misc/homeassistant:miio - add support for Xiaomi smart appliances
 app-misc/homeassistant:mikrotik - add support for MikroTik RouterOS API
-app-misc/homeassistant:mobile_app - Home Assistant Mobile App Support
 app-misc/homeassistant:mqtt - install MQTT Broker and dependencies
 app-misc/homeassistant:musiccast - add support for Yamaha MusicCast devices
 app-misc/homeassistant:myq - lets you control MyQ-Enabled garage doors
@@ -105,6 +108,7 @@ app-misc/homeassistant:nx584 - NX584/NX8E Interface Library and Server
 app-misc/homeassistant:openwrt - fetch connected devices from your OpenWrt
 app-misc/homeassistant:owntracks - OwnTracks: track your location and send it directly to Home Assistant
 app-misc/homeassistant:ozw - Open Zwave MQTT
+app-misc/homeassistant:ping - ICMPLib
 app-misc/homeassistant:plex - Python bindings for the Plex API
 app-misc/homeassistant:plugwise - Plugwise_Smile (Anna/Adam/P1) API
 app-misc/homeassistant:poolsense - PoolSense is a smart pool monitor
@@ -118,6 +122,7 @@ app-misc/homeassistant:roku - add support for Roku players
 app-misc/homeassistant:roomba - control a iRobot Roomba vacuum or iRobot Braava m-series mop
 app-misc/homeassistant:rxv - Library for Yamaha RX-* Receivers
 app-misc/homeassistant:samsungtv - Support for Samsung TV Sets
+app-misc/homeassistant:shelly - Shelly devices
 app-misc/homeassistant:shodan - Shodan is a search engine for Internet-connected devices
 app-misc/homeassistant:signal - add Support for Moxie's Signal API
 app-misc/homeassistant:simplisafe - integrates SimpliSafe home security (V2 and V3) systems
@@ -155,6 +160,7 @@ app-misc/homeassistant:vicare - communicate with the Viessmann ViCare API
 app-misc/homeassistant:vizio - allows you to control SmartCast-compatible TVs
 app-misc/homeassistant:webostv - allows you to control a LG webOS Smart TV
 app-misc/homeassistant:wemo - discover and control WeMo devices
+app-misc/homeassistant:whois - perform daily WHOIS lookups
 app-misc/homeassistant:wink - support for Wink Z-Wave Plus Smart Hub
 app-misc/homeassistant:withings - add support for Withings Health API
 app-misc/homeassistant:wled - add support for Aircookie's WLED
