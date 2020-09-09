@@ -30,7 +30,6 @@ dev-python/PlexAPI 3.3.0 3.4.0 3.6.0 4.0.0 4.1.0: Python bindings for the Plex A
 dev-python/Plugwise-Smile 0.2.13 1.1.0 1.4.0: Plugwise_Smile (Anna/Adam/P1) API to use in conjunction with Home Assistant.
 dev-python/ProgettiHWSW 0.1.1: Controls ProgettiHWSW relay boards.
 dev-python/PsychroLib 2.3.0: Library of psychrometric functions to calculate thermodynamic properties of air
-dev-python/PyDispatcher 2.0.5: Multi-producer-multi-consumer signal dispatching mechanism
 dev-python/PyEssent 0.10 0.12 0.13: A wrapper around Essent's API
 dev-python/PyFlick 0.0.2: Python API For Flick Electric in New Zealand
 dev-python/PyFlume 0.2.1 0.2.4 0.3.0 0.4.0 0.5.5: Package to integrate with Flume Sensor
@@ -305,7 +304,6 @@ dev-python/georss-client 0.9 0.10: A GeoRSS client library.
 dev-python/georss-generic-client 0.2 0.3: A GeoRSS generic client library.
 dev-python/georss-ign-sismologia-client 0.2: A GeoRSS client library for the IGN Sismologia feed.
 dev-python/georss-qld-bushfire-alert-client 0.3: A GeoRSS client library for the Queensland Bushfire Alert feed.
-dev-python/get-mac 0.8.1: Get MAC addresses of remote hosts and local interfaces
 dev-python/getmac 0.8.1 0.8.2: Get MAC addresses of remote hosts and local interfaces
 dev-python/gios 0.0.3 0.0.4 0.0.5 0.1.1 0.1.3 0.1.4: Python wrapper for getting air quality data from GIOS servers.
 dev-python/gitterpy 0.1.7: Python interface for the Gitter API
@@ -340,7 +338,7 @@ dev-python/hkdf 0.0.3: HMAC-based Extract-and-Expand Key Derivation Function (HK
 dev-python/hlk-sw16 0.0.7 0.0.8 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.3.0 0.4.0 0.5.0 0.5.1: Python API for interacting with *hole.
 dev-python/holidays 0.9.11 0.9.12 0.10.1 0.10.2 0.10.3: Generate and work with holidays in Python
-dev-python/home-assistant-frontend 20200220.5 20200318.1 20200407.2 20200427.2 20200519.4 20200603.3 20200702.1 20200716.0 20200807.1 20200811.0 20200820.0 20200824.0 20200901.0 20200904.0 20200907.0: The Home Assistant frontend
+dev-python/home-assistant-frontend 20200220.5 20200318.1 20200407.2 20200427.2 20200519.4 20200603.3 20200702.1 20200716.0 20200807.1 20200811.0 20200820.0 20200824.0 20200901.0 20200904.0 20200908.0: The Home Assistant frontend
 dev-python/homeassistant-pyozw 0.1.3 0.1.4 0.1.6 0.1.7 0.1.8 0.1.9 0.1.10: python_openzwave is a python wrapper for the openzwave c++ library.
 dev-python/homeconnect 0.5: Python client for the BSH Home Connect REST API
 dev-python/homekit-python 0.15.0: HomeKit Python
@@ -421,7 +419,7 @@ dev-python/meteoalertapi 0.0.8 0.1.3 0.1.5 0.1.6: A small api to get alerting me
 dev-python/meteofrance 0.3.4 0.3.7: Meteo-France weather forecast
 dev-python/meteofrance-api 0.1.0 0.1.1: Python client for Meteo-France API.
 dev-python/mficlient 0.3.0: A remote control client for Ubiquiti's mFi system
-dev-python/miflora 0.4 0.6: Library to read data from Mi Flora sensor
+dev-python/miflora 0.4 0.6 0.7.0 0.7.1: Library to read data from Mi Flora sensor
 dev-python/millheater 0.3.4: A python3 library to communicate with Mill
 dev-python/minio 4.0.9 5.0.1: MinIO Python Library for Amazon S3 Compatible Cloud Storage for Python
 dev-python/mitemp-bt 0.0.1 0.0.3: Library to read data from Mi Temperature and Humidity Sensor (V2)
@@ -572,9 +570,9 @@ dev-python/pycsspeechtts 1.0.3: Python 3 interface to Microsoft Cognitive Servic
 dev-python/pydaikin 2.0.4 2.1.0 2.1.1 2.1.2 2.2.0 2.3.1: Python Daikin HVAC appliances interface
 dev-python/pydanfossair 0.0.7 0.1.0: Python interface for Danfoss Air HRV systems
 dev-python/pydeconz 68 69 70 71 72: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
-dev-python/pydelijn 0.5.1 0.6.0: Get realtime info on stop passages of De Lijn (api.delijn.be)
+dev-python/pydelijn 0.5.1 0.6.0 0.6.1: Get realtime info on stop passages of De Lijn (api.delijn.be)
 dev-python/pydexcom 0.2.0: Python API to interact with Dexcom Share API
-dev-python/pydispatcher 2.0.5-r1 2.1.2-r1: Multi-producer-multi-consumer signal dispatching mechanism
+dev-python/pydispatcher 2.0.5 2.1.2-r1: Multi-producer-multi-consumer signal dispatching mechanism
 dev-python/pydocstyle 4.0.1 5.0.1 5.1.0 5.1.1: Python docstring style checker
 dev-python/pydoods 1.0.2: A Python wrapper for the DOODS image detection service
 dev-python/pydroid-ipcam 0.8 1.1: A asyncio library for handling android ipcam
@@ -754,7 +752,7 @@ dev-python/python-slugify 3.0.3 3.0.4 3.0.6 4.0.0 4.0.1: A Python Slugify applic
 dev-python/python-sochain-api 0.0.2: Python API for interacting with chain.so.
 dev-python/python-socketio 4.6.0: Socket.IO server
 dev-python/python-songpal 0.11.1 0.11.2 0.12: Python library for interfacing with Sony's Songpal devices
-dev-python/python-synology 0.7.0 0.7.1 0.7.2 0.7.3 0.7.4 0.8.0 0.8.1 0.8.2 0.8.2-r1: Python API for communication with Synology DSM
+dev-python/python-synology 0.7.1 0.7.2 0.7.3 0.7.4 0.8.0 0.8.1 0.8.2 0.8.2-r1 0.9.0: Python API for communication with Synology DSM
 dev-python/python-tado 0.2.8 0.2.9 0.3.0 0.4.0 0.5.0 0.6.0 0.8.1: PyTado from chrism0dwk, modfied by w.malgadey
 dev-python/python-telegram-bot 11.1.0: We have made you a wrapper you can't refuse
 dev-python/python-telnet-vlc 1.0.4: A library to control or get information about VLC using Telnet
@@ -997,7 +995,7 @@ dev-python/zigpy-zigate 0.3.1 0.4.0 0.4.1 0.5.0 0.5.1 0.6.1 0.6.2: A library whi
 dev-python/zigpy-znp 0.1.1: A library for zigpy which communicates with TI ZNP radios
 dev-python/zipp 0.5.0 0.5.1 0.5.1-r1: Backport of pathlib-compatible object wrapper for zip files
 dev-python/zm-py 0.3.3 0.4.0: A loose python wrapper around the ZoneMinder REST API.
-media-libs/mutagen 1.43.0 1.45.0: Audio metadata tag reader and writer implemented in pure Python
+media-libs/mutagen 1.43.0 1.45.0 1.45.1: Audio metadata tag reader and writer implemented in pure Python
 media-libs/opencv 3.4.1-r7: A collection of algorithms and sample code for various computer vision problems
 net-analyzer/fail2ban 0.11.1-r3: scans log files and bans IPs that show malicious signs
 net-analyzer/speedtest-cli 2.1.1: Command line interface for testing internet bandwidth using speedtest.net
