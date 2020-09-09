@@ -681,7 +681,7 @@ dev-python/pyruter 1.2.4: A module to get information about the next departure f
 dev-python/pysabnzbd 1.1.0: Python wrapper for SABnzbd API
 dev-python/pysaj 0.0.9 0.0.13 0.0.14 0.0.16: Library to communicate with SAJ inverters
 dev-python/pysensibo 1.0.3: asyncio-friendly python API for Sensibo
-dev-python/pyserial 3.1.1 3.4: Python Serial Port extension
+dev-python/pyserial 3.1.1 3.3 3.4: Python Serial Port extension
 dev-python/pyserial-asyncio 0.4-r1: Python Serial Port Extension - Asynchronous I/O support
 dev-python/pysesame2 1.0.1 1.0.2: Python API for Sesame Smartlock made by CANDY HOUSE, Inc.
 dev-python/pysignalclirestapi 0.1.4 0.2.4 0.3.4: Small python library for the Signal Cli REST API
