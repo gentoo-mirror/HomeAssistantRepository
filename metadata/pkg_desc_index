@@ -363,7 +363,7 @@ dev-python/imageio 2.3.0 2.6.1: Python library for reading and writing image dat
 dev-python/immutables 0.9: Immutable Collections
 dev-python/importlib_metadata 1.6.0-r1 1.6.0-r2: Read metadata from Python packages
 dev-python/importlib_resources 1.5.0-r1 3.0.0-r1: Read resources from Python packages
-dev-python/incomfort-client 0.3.5 0.4.0 0.4.0-r1: A aiohttp-based client for Intergas InComfort/InTouch Lan2RF systems
+dev-python/incomfort-client 0.3.5 0.4.0-r1: A aiohttp-based client for Intergas InComfort/InTouch Lan2RF systems
 dev-python/influxdb 5.2.0 5.2.3: InfluxDB client
 dev-python/influxdb-client 1.6.0 1.7.0 1.8.0: InfluxDB 2.0 Python client library
 dev-python/insteonplm 0.15.4 0.16.0 0.16.5 0.16.6 0.16.7 0.16.8: Python API for controlling Insteon PowerLinc Modems
