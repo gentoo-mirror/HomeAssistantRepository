@@ -3,27 +3,21 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{5..9} )
+PYTHON_COMPAT=( python3_{7..8} )
 
 inherit distutils-r1
 
-MY_PN=${PN/-/_}
-MY_P=${MY_PN}-${PV}
+DESCRIPTION="Easily forge ICMP packets and make your own ping and traceroute."
+HOMEPAGE="https://github.com/ValentinBELYN/icmplib https://pypi.org/project/icmplib/"
+SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-DESCRIPTION="A python library to communicate with the KEBA charging stations via udp"
-HOMEPAGE="https://github.com/dannerph/keba-kecontact https://pypi.org/project/keba-kecontact/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${MY_P}.tar.gz -> ${P}.tar.gz"
-S=${WORKDIR}/${MY_PN}-${PV}
-
-LICENSE="MIT"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.md"
-
 RDEPEND=""
-BDEPEND="${REDEPEND}
+DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]

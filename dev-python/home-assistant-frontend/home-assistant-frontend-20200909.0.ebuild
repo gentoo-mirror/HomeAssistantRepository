@@ -3,26 +3,20 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{5..9} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-MY_PN=${PN/-/_}
-MY_P=${MY_PN}-${PV}
+DESCRIPTION="The Home Assistant frontend"
+HOMEPAGE="https://github.com/home-assistant/home-assistant-polymer https://pypi.org/project/home-assistant-frontend/"
+SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-DESCRIPTION="A python library to communicate with the KEBA charging stations via udp"
-HOMEPAGE="https://github.com/dannerph/keba-kecontact https://pypi.org/project/keba-kecontact/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${MY_P}.tar.gz -> ${P}.tar.gz"
-S=${WORKDIR}/${MY_PN}-${PV}
-
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.md"
-
-RDEPEND=""
+RDEPEND="~dev-python/user-agents-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
