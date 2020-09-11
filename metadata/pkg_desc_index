@@ -981,7 +981,7 @@ dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeeligh
 dev-python/youtube_dl 2020.3.8 2020.3.24 2020.5.3 2020.5.8 2020.5.29 2020.6.6 2020.6.16.1 2020.7.28: YouTube video downloader
 dev-python/zeep 3.4.0-r1: A modern/fast Python SOAP client based on lxml / requests
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs
-dev-python/zeroconf 0.27.1 0.28.0-r1 0.28.1 0.28.2 0.28.3 0.28.4: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
+dev-python/zeroconf 0.27.1 0.28.0-r1 0.28.1 0.28.2 0.28.3 0.28.4 0.28.5: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-python/zha-quirks 0.0.38 0.0.39 0.0.40 0.0.41 0.0.42 0.0.43-r1 0.0.44: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
