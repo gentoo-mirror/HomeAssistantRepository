@@ -673,7 +673,7 @@ dev-python/pypubsub 4.0.3: Python Publish-Subscribe Package
 dev-python/pyqvrpro 0.51 0.52: QVR Pro API wrapper.
 dev-python/pyqwikswitch 0.93 0.94: Library to interface Qwikswitch USB Hub
 dev-python/pyrail 0.0.3: Python wrapper for the iRail API
-dev-python/pyrainbird 0.1.6 0.2.1 0.4.1: Rain Bird Controller
+dev-python/pyrainbird 0.4.1 0.4.2: Rain Bird Controller
 dev-python/pyrecswitch 1.0.2: A pure-python interface for controlling Ankuoo RecSwitch MS6126
 dev-python/pyrepetier 3.0.5: Repetier Server API library
 dev-python/pyrisco 0.2.1 0.2.3 0.2.4 0.3.0: A python library to communicate with Risco Cloud.
