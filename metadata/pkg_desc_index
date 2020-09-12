@@ -792,7 +792,7 @@ dev-python/pyzabbix 0.7.5: Zabbix API Python interface
 dev-python/pyzerproc 0.2.4 0.2.5: Library to control Zerproc Bluetooth LED smart string lights
 dev-python/qnapstats 0.2.7 0.3.0: Python API for obtaining QNAP NAS system stats
 dev-python/quantum-gateway 0.0.3 0.0.5: Query a Quantum Gateway
-dev-python/queueman 0.5: 
+dev-python/queueman 0.5: simple queue manager for python
 dev-python/radiotherm 2.0.0: client library for wifi thermostats sold by radiothermostat.com
 dev-python/raincloudy 0.0.7: Melnor RainCloud Smart Garden Watering Irrigation Timer.
 dev-python/raspihats 2.2.3 2.3.0: package for controlling raspihats.com boards

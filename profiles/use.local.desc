@@ -96,6 +96,7 @@ app-misc/homeassistant:meteo_france - uses the meteorological data from Meteo-Fr
 app-misc/homeassistant:metno - A library to communicate with the met.no api
 app-misc/homeassistant:miio - add support for Xiaomi smart appliances
 app-misc/homeassistant:mikrotik - add support for MikroTik RouterOS API
+app-misc/homeassistant:mobile_app - mobile_app not needed anymore
 app-misc/homeassistant:mqtt - install MQTT Broker and dependencies
 app-misc/homeassistant:musiccast - add support for Yamaha MusicCast devices
 app-misc/homeassistant:myq - lets you control MyQ-Enabled garage doors
@@ -122,6 +123,7 @@ app-misc/homeassistant:roku - add support for Roku players
 app-misc/homeassistant:roomba - control a iRobot Roomba vacuum or iRobot Braava m-series mop
 app-misc/homeassistant:rxv - Library for Yamaha RX-* Receivers
 app-misc/homeassistant:samsungtv - Support for Samsung TV Sets
+app-misc/homeassistant:scrape - scraping information from websites
 app-misc/homeassistant:shelly - Shelly devices
 app-misc/homeassistant:shodan - Shodan is a search engine for Internet-connected devices
 app-misc/homeassistant:signal - add Support for Moxie's Signal API
@@ -141,6 +143,7 @@ app-misc/homeassistant:squeezebox - library to control Logitech Media Server
 app-misc/homeassistant:ssl - include support for haproxy
 app-misc/homeassistant:synologydsm - monitor getting various statistics from your Synology NAS
 app-misc/homeassistant:systemmonitor - monitor your platform
+app-misc/homeassistant:tellduslive - cloud platform that connects to your Tellstick
 app-misc/homeassistant:tesla - integration with the Tesla cloud service
 app-misc/homeassistant:test - internal and developer use
 app-misc/homeassistant:tile - API for Tile Bluetooth trackers
