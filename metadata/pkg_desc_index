@@ -30,6 +30,7 @@ dev-python/PlexAPI 3.3.0 3.4.0 3.6.0 4.0.0 4.1.0: Python bindings for the Plex A
 dev-python/Plugwise-Smile 0.2.13 1.1.0 1.4.0: Plugwise_Smile (Anna/Adam/P1) API to use in conjunction with Home Assistant.
 dev-python/ProgettiHWSW 0.1.1: Controls ProgettiHWSW relay boards.
 dev-python/PsychroLib 2.3.0: Library of psychrometric functions to calculate thermodynamic properties of air
+dev-python/PyDispatcher 2.0.5: Multi-producer-multi-consumer signal dispatching mechanism
 dev-python/PyEssent 0.10 0.12 0.13: A wrapper around Essent's API
 dev-python/PyFlick 0.0.2: Python API For Flick Electric in New Zealand
 dev-python/PyFlume 0.2.1 0.2.4 0.3.0 0.4.0 0.5.5: Package to integrate with Flume Sensor
