@@ -4,7 +4,7 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.4.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.0 0.9.1 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 0.109.6 0.110.7 0.111.4 0.112.5 0.113.0 0.113.1 0.113.2 0.113.3 0.114.1 0.114.2 0.114.3 0.114.4 0.115.0_beta5 0.115.0_beta6 0.115.0_beta7: Open-source home automation platform running on Python on 3.7
+app-misc/homeassistant 0.109.6 0.110.7 0.111.4 0.112.5 0.113.0 0.113.1 0.113.2 0.113.3 0.114.1 0.114.2 0.114.3 0.114.4 0.115.0_beta6 0.115.0_beta7 0.115.0_beta9: Open-source home automation platform running on Python on 3.7
 dev-embedded/esphome 1.13.2 1.13.6 1.13.6-r1 1.14.1 1.14.2 1.14.3-r5 1.14.3-r6 1.14.3-r7 1.14.4 1.14.4-r1 1.14.5 1.14.5-r1 1.14.5-r2 1.15.0_beta3 1.15.0_beta4 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 4.0.3-r3 4.3.1 4.3.4: An open source ecosystem for IoT development
@@ -68,7 +68,7 @@ dev-python/XBee 2.3.2: Python tools for working with XBee radios
 dev-python/YesssSMS 0.4.1 0.4.2: YesssSMS let's you send SMS via yesss.at's website.
 dev-python/abodepy 0.16.6 0.16.7 0.17.0 0.18.1 0.19.0 1.1.0: An Abode alarm Python library running on Python 3.
 dev-python/accuweather 0.0.9 0.0.10: Python wrapper for getting weather data from AccuWeather servers.
-dev-python/adafruit-circuitpython-bmp280 3.2.3: CircuitPython driver for the BMP280.
+dev-python/adafruit-circuitpython-bmp280 3.1.1 3.2.3: CircuitPython driver for the BMP280.
 dev-python/adafruit-circuitpython-busdevice 5.0.1: CircuitPython bus device classes to manage bus sharing.
 dev-python/adafruit-circuitpython-mcp230xx 1.1.2 2.0.1 2.2.2: CircuitPython library for controlling a MCP23008 or MCP23017 I2C GPIO expander.
 dev-python/adb 1.3.0: A pure python implementation of the Android ADB and Fastboot protocols
@@ -511,6 +511,7 @@ dev-python/prayer_times_calculator 0.0.3: Prayer Times Calculator
 dev-python/pre-commit 2.2.0 2.4.0 2.5.0 2.5.1 2.6.0: A framework for managing and maintaining multi-language pre-commit hooks.
 dev-python/prezzibenzina-py 1.1.4: A python package to get Prezzibenzina info
 dev-python/proliphix 0.4.1 0.5.0: API for Proliphix nt10e network thermostat.
+dev-python/prometheus_client 0.7.1: Python client for the Prometheus monitoring system
 dev-python/protobuf-python 3.7.0 3.10.0 3.10.0-r1 3.12.2 3.12.4: Google's Protocol Buffers - Python bindings
 dev-python/proxmoxer 1.0.3 1.0.4 1.1.0 1.1.1: Python Wrapper for the Proxmox 2.x API (HTTP and SSH)
 dev-python/psutil 5.6.6 5.6.7 5.7.0 5.7.2: Retrieve information on running processes and system utilization
