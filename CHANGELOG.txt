@@ -1,5 +1,3 @@
-2020-09-12 homeassistant-0.115.0_beta7
-
 Important notice about PyDispatcher/pydispatcher:
 During cleanups, I changed PyDispatcher to pydispatcher,
 this was a mistake, these are 2 different packages.
@@ -9,6 +7,24 @@ To remove the (conflicting) wrong one, do a:
 # emerge -cav dev-python/pydispatcher
 # emerge -1tav =app-misc/homeassistant --autounmask=y
 
+2020-09-14
+  * update PyGithub-1.43.8
+  * update PyGithub-1.52
+  * update evohome-async-0.3.5
+  * restore (still needed) pexpect-4.6.0 from archive
+  * add pybluez-0.22
+  * add pyownet-0.10.0
+  * downgrade pyzabbix-0.7.4
+  * update iammeter-0.1.7
+  * bump home-assistant-frontend-20200912.0
+  * update androidtv-0.0.50
+
+2020-09-13
+  * bump youtube_dl-2020.9.6
+  * bump pytest-timeout-1.4.2
+  * bump responses-0.12.0
+
+2020-09-12 homeassistant-0.115.0_beta7
   * bump pyloopenergy-0.2.1
   * update homeassistant-0.115.0_beta6
   * remove 0.11.1-r3 (not needed anymore)

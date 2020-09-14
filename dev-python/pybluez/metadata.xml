@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">PyGithub</remote-id>
+    <remote-id type="pypi">PyBluez</remote-id>
     <maintainer status="unknown">
-      <email>vincent@vincent-jacques.net</email>
-      <name>Vincent Jacques</name>
+      <email>ashuang@alum.mit.edu</email>
+      <name>Piotr Karulis</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
