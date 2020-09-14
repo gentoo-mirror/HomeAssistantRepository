@@ -7,7 +7,7 @@ app-misc/home-assistant-cli 0.9.0 0.9.1 9999: The Home Assistant Command-line In
 app-misc/homeassistant 0.109.6 0.110.7 0.111.4 0.112.5 0.113.0 0.113.1 0.113.2 0.113.3 0.114.1 0.114.2 0.114.3 0.114.4 0.115.0_beta6 0.115.0_beta7 0.115.0_beta9: Open-source home automation platform running on Python on 3.7
 dev-embedded/esphome 1.13.2 1.13.6 1.13.6-r1 1.14.1 1.14.2 1.14.3-r5 1.14.3-r6 1.14.3-r7 1.14.4 1.14.4-r1 1.14.5 1.14.5-r1 1.14.5-r2 1.15.0_beta3 1.15.0_beta4 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
-dev-embedded/platformio 4.0.3-r3 4.3.1 4.3.4: An open source ecosystem for IoT development
+dev-embedded/platformio 4.0.3-r3 4.3.1 4.3.4 5.0.1: A professional collaborative platform for embedded development. Cross-platform IDE and Unified Debugger. Static Code Analyzer and Remote Unit Testing. Multi-platform and Multi-architecture Build System. Firmware File Explorer and Memory Inspection. IoT, Arduino, CMSIS, ESP-IDF, FreeRTOS, libOpenCM3, mbedOS, Pulp OS, SPL, STM32Cube, Zephyr RTOS, ARM, AVR, Espressif (ESP8266/ESP32), FPGA, MCS-51 (8051), MSP430, Nordic (nRF51/nRF52), NXP i.MX RT, PIC32, RISC-V, STMicroelectronics (STM8/STM32), Teensy
 dev-libs/protobuf 3.7.0 3.10.0 3.12.4: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-python/Adafruit-Blinka 1.2.1 1.3.3 2.3.1 3.9.0: CircuitPython APIs.
 dev-python/Adafruit-DHT 1.4.0 1.4.1: Read DHT11, DHT22, and AM2302 humidity and temperature on a Raspberry Pi.
