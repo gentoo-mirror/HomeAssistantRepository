@@ -3,22 +3,23 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="API package for rememberthemilk.com"
-HOMEPAGE="https://bitbucket.org/rtmapi/rtmapi https://pypi.org/project/RtmAPI/"
+DESCRIPTION="A Python library to detect bad power supply on Raspberry Pi"
+HOMEPAGE="https://github.com/shenxn/rpi-bad-power https://pypi.org/project/rpi-bad-power/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~arm64"
 IUSE="test"
 
-# needs(!) httplib2-0.10.3-r1
-RDEPEND="~dev-python/httplib2-0.10.3[${PYTHON_USEDEP}]"
-DEPEND="${REDEPEND}
+DOCS="README.md"
+
+RDEPEND=""
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
