@@ -796,7 +796,7 @@ dev-python/pyvlx 0.2.9 0.2.11 0.2.12 0.2.14 0.2.16: PyVLX is a wrapper for the V
 dev-python/pyvolumio 0.1.0 0.1.1 0.1.2: A python library to control Volumio.
 dev-python/pywbem 0.16.0 0.17.0: pywbem - A WBEM client
 dev-python/pywebpush 1.6.0 1.9.2: WebPush publication library
-dev-python/pywemo 0.4.34 0.4.43 0.4.45 0.4.46: Lightweight Python module to discover and control WeMo devices
+dev-python/pywemo 0.4.34 0.4.43 0.4.45 0.4.46 0.5.0: Lightweight Python module to discover and control WeMo devices
 dev-python/pywilight 0.0.65: Python API for WiLight in Home Assistant
 dev-python/pyxeoma 1.4.0 1.4.1: Python wrapper for Xeoma web server API
 dev-python/pyyaml 5.1.1 5.2 5.3: YAML parser and emitter for Python
