@@ -18,7 +18,6 @@ To remove the (conflicting) wrong one, do a:
   * bump synology-srm-0.2.0
   * restore google-api-python-client-1.6.4 (still needed)
   * added aio-geojson-geonetnz-volcano-0.5
-  * removed speedtest-cli from dev-python
 
   * update homeassistant-0.115.0_beta10 (renamed MANY use flags)
   * removed speedtest-cli from dev-python
