@@ -888,7 +888,6 @@ dev-python/somecomfort 0.5.2: A client for Honeywell's US-based cloud devices
 dev-python/somfy-mylink-synergy 1.0.6: Python API to utilise the Somfy Synergy JsonRPC API
 dev-python/sonarr 0.2.1 0.2.2 0.2.3: Asynchronous Python client for the Sonarr API.
 dev-python/speak2mary 1.4.0: A Python wrapper for Mary TTS
-dev-python/speedtest-cli 2.1.1 2.1.2: Command line interface for testing internet bandwidth using speedtest.net
 dev-python/sphinx 1.8.3 1.8.3-r1 2.1.2 2.2.2 2.3.1: Python documentation generator
 dev-python/sphinx-autodoc-annotation 1.0-r1: Use Python 3 annotations in sphinx-enabled docstrings
 dev-python/sphinx-autodoc-typehints 1.6.0 1.10.3: Type hints (PEP 484) support for the Sphinx autodoc extension
