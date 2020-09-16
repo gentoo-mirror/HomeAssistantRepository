@@ -15,6 +15,7 @@ To remove the (conflicting) wrong one, do a:
   * bump synology-srm-0.2.0
   * restore google-api-python-client-1.6.4 (still needed)
   * added aio-geojson-geonetnz-volcano-0.5
+  * removed speedtest-cli from dev-python
 
 2020-09-15
   * update platformio-5.0.1
