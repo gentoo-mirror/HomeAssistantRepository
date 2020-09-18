@@ -3,32 +3,70 @@
 # * generated automatically using pmaint *
 
 app-misc/homeassistant:abode - Library for the Abode alarm API
+app-misc/homeassistant:accuweather - uses the AccuWeather web service as a source for weather data
+app-misc/homeassistant:acer_projector - allows you to control the state of RS232 connected projectors from Acer
+app-misc/homeassistant:acmeda - control and monitor covers via your Rolelase Acmeda Automate hub
 app-misc/homeassistant:adguard - monitor your ad- and tracker-blocking DNS server
 app-misc/homeassistant:ads - Beckhoff automation devices running TwinCAT
+app-misc/homeassistant:aftership - The aftership platform allows one to track deliveries by AfterShip
 app-misc/homeassistant:agent_dvr - Agent DVR is a free* software DVR solution
+app-misc/homeassistant:airly - uses the Airly web service as a source for air quality data
+app-misc/homeassistant:airvisual - airvisual sensor platform queries the AirVisual cloud API for air quality data
+app-misc/homeassistant:aladdin_connect - The aladdin_connect cover platform lets you control Genie Aladdin Connect garage
 app-misc/homeassistant:alarmdecoder - AlarmDecoder extended
+app-misc/homeassistant:almond - Almond is an open, privacy-preserving virtual assistant by Stanford Open Virtual
+app-misc/homeassistant:alpha_vantage - The alpha_vantage sensor platform uses Alpha Vantage to monitor the stock market
 app-misc/homeassistant:ambiclimate - communicate with Ambiclimate
 app-misc/homeassistant:ambient_station - retrieves local weather information from Ambient Weather
 app-misc/homeassistant:amcrest - integrate your Amcrest or Dahua IP camera
+app-misc/homeassistant:ampio - will query the open data API of ampio.pl to monitor air quality sensor station
+app-misc/homeassistant:android_ip_webcam - The android_ip_webcam integration turns any Android phone or tablet into a netwo
 app-misc/homeassistant:androidtv - Library for controlling an Android TV, formerly firetv
+app-misc/homeassistant:anel_pwrctrl - The anel_pwrctrl switch platform allows you to control ANEL PwrCtrl devices
+app-misc/homeassistant:anthemav - Both Anthem’s current and last generation of A/V Receivers and Processors suppor
 app-misc/homeassistant:apache_kafka - sends all state changes to a Apache Kafka topic
+app-misc/homeassistant:apcupsd - can be integrated into Home Assistant when the Network Information Server (NIS)
 app-misc/homeassistant:apple_tv - Library for controlling an Apple TV
 app-misc/homeassistant:apprise - just about every Notification platform
 app-misc/homeassistant:arcam_fmj - speaking to Arcam receivers
 app-misc/homeassistant:asuswrt - Api wrapper for Asuswrt
-app-misc/homeassistant:aurora - Support for Power-One Aurora inverters
+app-misc/homeassistant:aten_pe - The aten_pe integration lets you control ATEN Rack PDUs from Home Assistant
+app-misc/homeassistant:atome - The atome sensor platform is retrieving the consumption of your home from the Di
+app-misc/homeassistant:august - The august integration allows you to integrate your August devices in Home Assis
 app-misc/homeassistant:avea - Library for Elgato Avea bulbs
+app-misc/homeassistant:avion - Support for the Avi-on Bluetooth dimmer switch Avi-on
+app-misc/homeassistant:avri - allows you to track the next scheduled waste pickup and the type of waste from A
 app-misc/homeassistant:awair - library for the Awair GraphQL API
 app-misc/homeassistant:axis - communicating with devices from Axis Communications
+app-misc/homeassistant:baidu - text-to-speech platform uses Baidu TTS engine to read a text with natural soundi
+app-misc/homeassistant:beewi_smartclim - BeeWi SmartClim BLE is a Bluetooth Low Energy sensor device
+app-misc/homeassistant:bh1750 - allows you to read the ambient light level in Lux from a BH1750FVI sensor connec
 app-misc/homeassistant:bitcoin - displays various details about the Bitcoin network
+app-misc/homeassistant:bizkaibus - The bizkaibus sensor will give you the time until the next bus in the selected s
+app-misc/homeassistant:blackbird - control Monoprice Blackbird Matrix Switch using a serial connection
+app-misc/homeassistant:blebox - BleBox produces small, low-power, surprisingly affordable, feature-rich WiFi dev
 app-misc/homeassistant:blink - events from Blink camera and security systems
+app-misc/homeassistant:blinksticklight - The blinkstick platform lets you control your Blinkstick lights
+app-misc/homeassistant:blinkt - The blinkt light platform lets you control the Blinkt! board, featuring eight su
 app-misc/homeassistant:blockchain - displays Bitcoin wallet balances from blockchain.info
+app-misc/homeassistant:bluetooth_le_tracker - tracks Bluetooth low-energy devices periodically based on interval_seconds value
+app-misc/homeassistant:bluetooth_tracker - discovers new devices on boot and tracks Bluetooth devices periodically
+app-misc/homeassistant:bme280 - Bosch BME280 Environmental sensor connected via I2c bus (SDA, SCL pins)
+app-misc/homeassistant:bme680 - read temperature, humidity, pressure and gas resistance values of a Bosch BME680
 app-misc/homeassistant:bmw_connected_drive - retrieve data from the BMW Connected Drive
+app-misc/homeassistant:bom - weather platform uses the Australian Bureau of Meteorology (BOM) as a source for
+app-misc/homeassistant:bond - The Bond integration allows you to control appliances through your Bond Bridge.
 app-misc/homeassistant:braviatv - Control almost all Sony Bravia TV 2013 and newer
 app-misc/homeassistant:broadlink - allows you to interact with Broadlink remote control devices
 app-misc/homeassistant:brother - read current data from your local Brother printer
+app-misc/homeassistant:brottsplatskartan - brottsplatskartan sensor allows one to track reported incidents occurring in a g
+app-misc/homeassistant:brunt - The brunt platform allows one to control Blind Engines by Brunt
+app-misc/homeassistant:bsblan - interface with the heating system over Boiler-System-Bus, Local Process Bus and
+app-misc/homeassistant:bt_home_hub_5 - platform offers presence detection by looking at connected devices to a BT Home
+app-misc/homeassistant:bt_smarthub - presence detection by looking at connected devices
 app-misc/homeassistant:buienradar - use buienradar weather data
 app-misc/homeassistant:caldav - integrate a CalDAV (RFC4791) calendar
+app-misc/homeassistant:canary - allows you to integrate your Canary devices
 app-misc/homeassistant:cast - let me talk to Google Chromecast
 app-misc/homeassistant:cisco_mobility_express - install ciscomobilityexpress support
 app-misc/homeassistant:cli - set a dependency for Home Assistant Cli hass-cli (lots of modules required)
