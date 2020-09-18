@@ -7,17 +7,18 @@ PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Simple API wrapper to brottsplatskartan.se."
-HOMEPAGE="https://github.com/chrillux/brottsplatskartan https://pypi.org/project/brottsplatskartan/"
+DESCRIPTION="A python module to the newest version number of Home Assistant"
+HOMEPAGE="https://github.com/ludeeus/pyhaversion https://pypi.org/project/pyhaversion/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/requests-2.20.0[${PYTHON_USEDEP}]"
-DEPEND="${REDEPEND}
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/aresponses[${PYTHON_USEDEP}]"
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
