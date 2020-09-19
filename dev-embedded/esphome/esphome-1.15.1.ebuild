@@ -43,7 +43,7 @@ RDEPEND="
 	  ~dev-python/pytz-2020.1[${PYTHON_USEDEP}]
 	  ~dev-python/pyserial-3.4[${PYTHON_USEDEP}]
 	  server? ( ~dev-python/ifaddr-0.1.7[${PYTHON_USEDEP}] )
-	  ~dev-embedded/platformio-5.0.1
+	  ~dev-embedded/platformio-4.3.4
 	  ~dev-embedded/esptool-2.8[${PYTHON_USEDEP}]
 	  ~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	')"
@@ -68,7 +68,7 @@ support at https://git.edevau.net/onkelbeh/HomeAssistantRepository
 DOCS="README.md"
 
 src_prepare() {
-	sed -e 's;protobuf==3.13.0;protobuf==3.12.4;' \
+	sed -e 's;protobuf==3.12.2;protobuf==3.12.4;' \
 		-i requirements.txt || die
 	eapply_user
 }

@@ -3,12 +3,12 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python Library for the Velbus protocol"
-HOMEPAGE="https://github.com/thomasdelaet/python-velbus https://pypi.org/project/python-velbus/"
+DESCRIPTION="Python API for talking to Veracontrollers"
+HOMEPAGE="https://github.com/pavoni/pyvera https://pypi.org/project/pyvera/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -16,8 +16,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="~dev-python/pyserial-3.3[${PYTHON_USEDEP}]"
-DEPEND="${REDEPEND}
+DOCS="README.md"
+
+RDEPEND="dev-python/appdirs[${PYTHON_USEDEP}]
+>=dev-python/attrs-18.1.0[${PYTHON_USEDEP}]
+>=dev-python/click-6.5[${PYTHON_USEDEP}]
+>=dev-python/toml-0.9.4[${PYTHON_USEDEP}]"
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]

@@ -6,6 +6,6 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyvera</remote-id>
+    <remote-id type="pypi">ConfigArgParse</remote-id>
   </upstream>
 </pkgmetadata>
