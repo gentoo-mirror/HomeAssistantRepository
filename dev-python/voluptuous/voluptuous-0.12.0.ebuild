@@ -3,22 +3,21 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/"
-HOMEPAGE="https://xknx.io/ https://pypi.org/project/xknx/"
+DESCRIPTION=""
+HOMEPAGE="https://github.com/alecthomas/voluptuous https://pypi.org/project/voluptuous/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="~dev-python/netifaces-0.10.9
-		 >=dev-python/pyyaml-5.1"
-DEPEND="${REDEPEND}
+RDEPEND=""
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
