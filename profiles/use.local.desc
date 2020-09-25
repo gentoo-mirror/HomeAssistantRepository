@@ -77,7 +77,6 @@ app-misc/homeassistant:co2signal - queries the CO2Signal API for the CO2 intensi
 app-misc/homeassistant:coronavirus - add sensors for COVID-19 infections from Johns Hopkins University
 app-misc/homeassistant:daikin - Daikin wireless controllers
 app-misc/homeassistant:darksky - use dark sky weather data
-app-misc/homeassistant:ddwrt - presence detection by looking at connected devices to a DD-WRT based router
 app-misc/homeassistant:deconz - deCONZ ConBee/RaspBee Zigbee gateways
 app-misc/homeassistant:delijn - De Lijn public transport network in Flanders
 app-misc/homeassistant:denonavr - Automation Library for Denon AVR receivers
@@ -256,6 +255,782 @@ app-misc/homeassistant:zha - Support for ZHA/deconz based Zigbee/ZNet Devices
 app-misc/homeassistant:zhong_hong - lets you control Zhonghong HVAC Gateway Controller thermostats
 app-misc/homeassistant:zoneminder - Support for ZoneMinder Cameras
 app-misc/homeassistant:zwave - Support for Z-Wave Devices (uncomplete)
+app-misc/homeassistant-full:abode - Library for the Abode alarm API
+app-misc/homeassistant-full:accuweather - uses the AccuWeather web service as a source for weather data
+app-misc/homeassistant-full:acer_projector - allows you to control the state of RS232 connected projectors from Acer
+app-misc/homeassistant-full:acmeda - control and monitor covers via your Rolelase Acmeda Automate hub
+app-misc/homeassistant-full:adguard - monitor your ad- and tracker-blocking DNS server
+app-misc/homeassistant-full:ads - Beckhoff automation devices running TwinCAT
+app-misc/homeassistant-full:aftership - The aftership platform allows one to track deliveries by AfterShip
+app-misc/homeassistant-full:agent_dvr - Agent DVR is a free* software DVR solution
+app-misc/homeassistant-full:airly - uses the Airly web service as a source for air quality data
+app-misc/homeassistant-full:airvisual - airvisual sensor platform queries the AirVisual cloud API for air quality data
+app-misc/homeassistant-full:aladdin_connect - The aladdin_connect cover platform lets you control Genie Aladdin Connect garage
+app-misc/homeassistant-full:alarmdecoder - AlarmDecoder extended
+app-misc/homeassistant-full:almond - Almond is an open, privacy-preserving virtual assistant by Stanford Open Virtual
+app-misc/homeassistant-full:alpha_vantage - The alpha_vantage sensor platform uses Alpha Vantage to monitor the stock market
+app-misc/homeassistant-full:amazon_polly - 
+app-misc/homeassistant-full:ambiclimate - communicate with Ambiclimate
+app-misc/homeassistant-full:ambient_station - retrieves local weather information from Ambient Weather
+app-misc/homeassistant-full:amcrest - integrate your Amcrest or Dahua IP camera
+app-misc/homeassistant-full:ampio - will query the open data API of ampio.pl to monitor air quality sensor station
+app-misc/homeassistant-full:android_ip_webcam - The android_ip_webcam integration turns any Android phone or tablet into a netwo
+app-misc/homeassistant-full:androidtv - Library for controlling an Android TV, formerly firetv
+app-misc/homeassistant-full:anel_pwrctrl - The anel_pwrctrl switch platform allows you to control ANEL PwrCtrl devices
+app-misc/homeassistant-full:anthemav - Both Anthem’s current and last generation of A/V Receivers and Processors suppor
+app-misc/homeassistant-full:apache_kafka - sends all state changes to a Apache Kafka topic
+app-misc/homeassistant-full:apcupsd - can be integrated into Home Assistant when the Network Information Server (NIS)
+app-misc/homeassistant-full:apns - 
+app-misc/homeassistant-full:apple_tv - Library for controlling an Apple TV
+app-misc/homeassistant-full:apprise - just about every Notification platform
+app-misc/homeassistant-full:aprs - 
+app-misc/homeassistant-full:aqualogic - 
+app-misc/homeassistant-full:aquostv - The aquostv platform allows you to control a Sharp Aquos TV
+app-misc/homeassistant-full:arcam_fmj - speaking to Arcam receivers
+app-misc/homeassistant-full:arduino - 
+app-misc/homeassistant-full:arlo - 
+app-misc/homeassistant-full:arris_tg2492lg - 
+app-misc/homeassistant-full:aruba - detect presence by looking at connected devices to an Aruba Instant device
+app-misc/homeassistant-full:asterisk_mbox - 
+app-misc/homeassistant-full:asuswrt - Api wrapper for Asuswrt
+app-misc/homeassistant-full:atag - 
+app-misc/homeassistant-full:aten_pe - The aten_pe integration lets you control ATEN Rack PDUs from Home Assistant
+app-misc/homeassistant-full:atome - The atome sensor platform is retrieving the consumption of your home from the Di
+app-misc/homeassistant-full:august - The august integration allows you to integrate your August devices in Home Assis
+app-misc/homeassistant-full:aurora_abb_powerone - This implements a direct RS485 connection to a solar inverter in the PVI-3.0/3.6
+app-misc/homeassistant-full:avea - Library for Elgato Avea bulbs
+app-misc/homeassistant-full:avion - Support for the Avi-on Bluetooth dimmer switch Avi-on
+app-misc/homeassistant-full:avri - allows you to track the next scheduled waste pickup and the type of waste from A
+app-misc/homeassistant-full:awair - library for the Awair GraphQL API
+app-misc/homeassistant-full:aws - interact with Amazon Web Services
+app-misc/homeassistant-full:axis - communicating with devices from Axis Communications
+app-misc/homeassistant-full:azure_devops - 
+app-misc/homeassistant-full:azure_event_hub - 
+app-misc/homeassistant-full:azure_service_bus - 
+app-misc/homeassistant-full:baidu - text-to-speech platform uses Baidu TTS engine to read a text with natural soundi
+app-misc/homeassistant-full:bbb_gpio - 
+app-misc/homeassistant-full:bbox - 
+app-misc/homeassistant-full:beewi_smartclim - BeeWi SmartClim BLE is a Bluetooth Low Energy sensor device
+app-misc/homeassistant-full:bh1750 - allows you to read the ambient light level in Lux from a BH1750FVI sensor connec
+app-misc/homeassistant-full:bitcoin - displays various details about the Bitcoin network
+app-misc/homeassistant-full:bizkaibus - The bizkaibus sensor will give you the time until the next bus in the selected s
+app-misc/homeassistant-full:blackbird - control Monoprice Blackbird Matrix Switch using a serial connection
+app-misc/homeassistant-full:blebox - BleBox produces small, low-power, surprisingly affordable, feature-rich WiFi dev
+app-misc/homeassistant-full:blink - events from Blink camera and security systems
+app-misc/homeassistant-full:blinksticklight - The blinkstick platform lets you control your Blinkstick lights
+app-misc/homeassistant-full:blinkt - The blinkt light platform lets you control the Blinkt! board, featuring eight su
+app-misc/homeassistant-full:blockchain - displays Bitcoin wallet balances from blockchain.info
+app-misc/homeassistant-full:bluesound - allows you to control your Bluesound HiFi wireless speakers and audio integratio
+app-misc/homeassistant-full:bluetooth_le_tracker - tracks Bluetooth low-energy devices periodically based on interval_seconds value
+app-misc/homeassistant-full:bluetooth_tracker - discovers new devices on boot and tracks Bluetooth devices periodically
+app-misc/homeassistant-full:bme280 - Bosch BME280 Environmental sensor connected via I2c bus (SDA, SCL pins)
+app-misc/homeassistant-full:bme680 - read temperature, humidity, pressure and gas resistance values of a Bosch BME680
+app-misc/homeassistant-full:bmp280 - ead temperature and pressure values of a Bosch BMP280 Environmental sensor conne
+app-misc/homeassistant-full:bmw_connected_drive - retrieve data from the BMW Connected Drive
+app-misc/homeassistant-full:bom - weather platform uses the Australian Bureau of Meteorology (BOM) as a source for
+app-misc/homeassistant-full:bond - The Bond integration allows you to control appliances through your Bond Bridge.
+app-misc/homeassistant-full:braviatv - Control almost all Sony Bravia TV 2013 and newer
+app-misc/homeassistant-full:broadlink - allows you to interact with Broadlink remote control devices
+app-misc/homeassistant-full:brother - read current data from your local Brother printer
+app-misc/homeassistant-full:brottsplatskartan - brottsplatskartan sensor allows one to track reported incidents occurring in a g
+app-misc/homeassistant-full:brunt - The brunt platform allows one to control Blind Engines by Brunt
+app-misc/homeassistant-full:bsblan - interface with the heating system over Boiler-System-Bus, Local Process Bus and
+app-misc/homeassistant-full:bt_home_hub_5 - platform offers presence detection by looking at connected devices to a BT Home
+app-misc/homeassistant-full:bt_smarthub - presence detection by looking at connected devices
+app-misc/homeassistant-full:buienradar - use buienradar weather data
+app-misc/homeassistant-full:caldav - integrate a CalDAV (RFC4791) calendar
+app-misc/homeassistant-full:canary - allows you to integrate your Canary devices
+app-misc/homeassistant-full:cast - let me talk to Google Chromecast
+app-misc/homeassistant-full:channels - 
+app-misc/homeassistant-full:circuit - 
+app-misc/homeassistant-full:cisco_ios - 
+app-misc/homeassistant-full:cisco_mobility_express - install ciscomobilityexpress support
+app-misc/homeassistant-full:cisco_webex_teams - 
+app-misc/homeassistant-full:clementine - 
+app-misc/homeassistant-full:cli - set a dependency for Home Assistant Cli hass-cli (lots of modules required)
+app-misc/homeassistant-full:cloud - 
+app-misc/homeassistant-full:cloudflare - 
+app-misc/homeassistant-full:cmus - 
+app-misc/homeassistant-full:co2signal - queries the CO2Signal API for the CO2 intensity of a specific region
+app-misc/homeassistant-full:coinbase - 
+app-misc/homeassistant-full:coinmarketcap - 
+app-misc/homeassistant-full:comfoconnect - 
+app-misc/homeassistant-full:concord232 - 
+app-misc/homeassistant-full:control4 - 
+app-misc/homeassistant-full:coolmaster - 
+app-misc/homeassistant-full:coronavirus - add sensors for COVID-19 infections from Johns Hopkins University
+app-misc/homeassistant-full:cppm_tracker - 
+app-misc/homeassistant-full:cpuspeed - 
+app-misc/homeassistant-full:crimereports - 
+app-misc/homeassistant-full:cups - 
+app-misc/homeassistant-full:daikin - Daikin wireless controllers
+app-misc/homeassistant-full:danfoss_air - 
+app-misc/homeassistant-full:darksky - use dark sky weather data
+app-misc/homeassistant-full:datadog - 
+app-misc/homeassistant-full:debugpy - 
+app-misc/homeassistant-full:deconz - deCONZ ConBee/RaspBee Zigbee gateways
+app-misc/homeassistant-full:decora - 
+app-misc/homeassistant-full:decora_wifi - 
+app-misc/homeassistant-full:delijn - De Lijn public transport network in Flanders
+app-misc/homeassistant-full:deluge - 
+app-misc/homeassistant-full:denonavr - Automation Library for Denon AVR receivers
+app-misc/homeassistant-full:deutsche_bahn - will give you the departure time of the next train for the given connection
+app-misc/homeassistant-full:devolo_home_control - Devolo Home-control
+app-misc/homeassistant-full:dexcom - view your CGM data from Dexcom
+app-misc/homeassistant-full:dht - get the current temperature and humidity from a DHT11, DHT22 or AM2302 device
+app-misc/homeassistant-full:digital_ocean - 
+app-misc/homeassistant-full:digitalloggers - 
+app-misc/homeassistant-full:directv - 
+app-misc/homeassistant-full:discogs - Discogs Client
+app-misc/homeassistant-full:discord - send messages to the user using Discord
+app-misc/homeassistant-full:discovery - 
+app-misc/homeassistant-full:dlib_face_detect - 
+app-misc/homeassistant-full:dlib_face_identify - 
+app-misc/homeassistant-full:dlink - 
+app-misc/homeassistant-full:dlna_dmr - 
+app-misc/homeassistant-full:dnsip - 
+app-misc/homeassistant-full:dominos - 
+app-misc/homeassistant-full:doods - 
+app-misc/homeassistant-full:doorbird - The doorbird implementation allows you to integrate your DoorBird device
+app-misc/homeassistant-full:dovado - 
+app-misc/homeassistant-full:dsmr - 
+app-misc/homeassistant-full:dunehd - control a Dune HD media player
+app-misc/homeassistant-full:dwd_weather_warnings - 
+app-misc/homeassistant-full:dweet - 
+app-misc/homeassistant-full:dynalite - Dynalite DyNET interface
+app-misc/homeassistant-full:dyson - integrate all Dyson related platforms
+app-misc/homeassistant-full:eafm - 
+app-misc/homeassistant-full:ebox - 
+app-misc/homeassistant-full:ebusd - 
+app-misc/homeassistant-full:ecoal_boiler - 
+app-misc/homeassistant-full:ecobee - talking to Ecobee thermostats
+app-misc/homeassistant-full:econet - 
+app-misc/homeassistant-full:ecovacs - 
+app-misc/homeassistant-full:eddystone_temperature - 
+app-misc/homeassistant-full:edimax - 
+app-misc/homeassistant-full:edl21 - 
+app-misc/homeassistant-full:ee_brightbox - 
+app-misc/homeassistant-full:egardia - 
+app-misc/homeassistant-full:eight_sleep - 
+app-misc/homeassistant-full:elgato - 
+app-misc/homeassistant-full:eliqonline - 
+app-misc/homeassistant-full:elkm1 - 
+app-misc/homeassistant-full:elv - control the state of your ELV PCA 301 smart switch
+app-misc/homeassistant-full:emby - 
+app-misc/homeassistant-full:emulated_hue - 
+app-misc/homeassistant-full:emulated_kasa - 
+app-misc/homeassistant-full:emulated_roku - emulate Roku API for Harmony and Android remotes
+app-misc/homeassistant-full:enigma2 - Support for Enigma2 boxes with openwebif support
+app-misc/homeassistant-full:enocean - Support for Enocean devices
+app-misc/homeassistant-full:enphase_envoy - Reads electricity production and consumption from an Enphase Envoy
+app-misc/homeassistant-full:entur_public_transport - 
+app-misc/homeassistant-full:environment_canada - access meteorological data from Environment Canada
+app-misc/homeassistant-full:envirophat - 
+app-misc/homeassistant-full:envisalink - 
+app-misc/homeassistant-full:ephember - 
+app-misc/homeassistant-full:epson - 
+app-misc/homeassistant-full:epsonworkforce - 
+app-misc/homeassistant-full:eq3btsmart - 
+app-misc/homeassistant-full:esphome - Support for esphome sensors, covers and switches and it's dashboard
+app-misc/homeassistant-full:essent - 
+app-misc/homeassistant-full:etherscan - displays Ether and ERC-20 token balances from Etherscan.io
+app-misc/homeassistant-full:eufy - 
+app-misc/homeassistant-full:everlights - Library for controlling an EverLights lighting system
+app-misc/homeassistant-full:evohome - links with all non-US Honeywell Total Connect Comfort (TCC) CH/DHW systems
+app-misc/homeassistant-full:ezviz - 
+app-misc/homeassistant-full:familyhub - 
+app-misc/homeassistant-full:fastdotcom - 
+app-misc/homeassistant-full:feedreader - 
+app-misc/homeassistant-full:ffmpeg - 
+app-misc/homeassistant-full:fibaro - Fibaro hub is a controller mainly connecting to Z-Wave devices
+app-misc/homeassistant-full:fido - 
+app-misc/homeassistant-full:fints - 
+app-misc/homeassistant-full:firmata - 
+app-misc/homeassistant-full:fitbit - 
+app-misc/homeassistant-full:fixer - 
+app-misc/homeassistant-full:fleetgo - 
+app-misc/homeassistant-full:flexit - 
+app-misc/homeassistant-full:flic - 
+app-misc/homeassistant-full:flick_electric - 
+app-misc/homeassistant-full:flo - 
+app-misc/homeassistant-full:flume - monitors the real-time status of your home water meter
+app-misc/homeassistant-full:flunearyou - allows users in the US to get information from Flu Near You
+app-misc/homeassistant-full:flux_led - flux_led support is integrated into Home Assistant as a light platform
+app-misc/homeassistant-full:folder_watcher - 
+app-misc/homeassistant-full:foobot - fetch air quality data from your Foobot device
+app-misc/homeassistant-full:forked_daapd - 
+app-misc/homeassistant-full:fortios - device tracking of devices with a MAC address connected to a FortiGate
+app-misc/homeassistant-full:foscam - 
+app-misc/homeassistant-full:free_mobile - 
+app-misc/homeassistant-full:freebox - allows you to observe and control Freebox router
+app-misc/homeassistant-full:fritz - The fritz platform offers presence detection
+app-misc/homeassistant-full:fritzbox - allows you to integrate the switch and climate devices
+app-misc/homeassistant-full:fritzbox_callmonitor - monitors the call monitor exposed by AVM FRITZ!Box routers on TCP port 1012
+app-misc/homeassistant-full:fritzbox_netmonitor - sensor monitors the network statistics exposed by AVM FRITZ!Box routers
+app-misc/homeassistant-full:fronius - add (very basic) Support for Fronius Symo JSON Api
+app-misc/homeassistant-full:frontend - 
+app-misc/homeassistant-full:frontier_silicon - 
+app-misc/homeassistant-full:futurenow - 
+app-misc/homeassistant-full:garmin_connect - The Garmin Connect sensor allows you to expose data from Garmin Connect
+app-misc/homeassistant-full:gc100 - 
+app-misc/homeassistant-full:gdacs - 
+app-misc/homeassistant-full:geizhals - 
+app-misc/homeassistant-full:geniushub - 
+app-misc/homeassistant-full:geo_json_events - 
+app-misc/homeassistant-full:geo_rss_events - 
+app-misc/homeassistant-full:geonetnz_quakes - 
+app-misc/homeassistant-full:geonetnz_volcano - 
+app-misc/homeassistant-full:gios - source for air quality data
+app-misc/homeassistant-full:github - GitHub sensor integrates data from GitHub to monitor your favorite repositories
+app-misc/homeassistant-full:gitlab_ci - 
+app-misc/homeassistant-full:gitter - 
+app-misc/homeassistant-full:glances - 
+app-misc/homeassistant-full:gntp - 
+app-misc/homeassistant-full:goalfeed - 
+app-misc/homeassistant-full:gogogate2 - lets you control Gogogate2-Enabled garage doors
+app-misc/homeassistant-full:google - 
+app-misc/homeassistant-full:google_cloud - 
+app-misc/homeassistant-full:google_maps - 
+app-misc/homeassistant-full:google_pubsub - 
+app-misc/homeassistant-full:google_translate - 
+app-misc/homeassistant-full:google_travel_time - 
+app-misc/homeassistant-full:gpmdp - 
+app-misc/homeassistant-full:gpsd - 
+app-misc/homeassistant-full:greeneye_monitor - allows you to create sensors for the various data channels of the GEM
+app-misc/homeassistant-full:greenwave - 
+app-misc/homeassistant-full:griddy - 
+app-misc/homeassistant-full:growatt_server - talk to growatt server
+app-misc/homeassistant-full:gstreamer - 
+app-misc/homeassistant-full:gtfs - 
+app-misc/homeassistant-full:guardian - integrates Elexa Guardian water valve controllers
+app-misc/homeassistant-full:habitica - 
+app-misc/homeassistant-full:hangouts - 
+app-misc/homeassistant-full:harman_kardon_avr - allows you to control Harman Kardon Network Receivers
+app-misc/homeassistant-full:harmony - Logitech Harmony support
+app-misc/homeassistant-full:hdmi_cec - 
+app-misc/homeassistant-full:heatmiser - 
+app-misc/homeassistant-full:heos - controlling HEOS devices through the HEOS CLI Protocol
+app-misc/homeassistant-full:here_travel_time - here_travel_time sensor provides travel time from the HERE Routing API
+app-misc/homeassistant-full:hikvision - 
+app-misc/homeassistant-full:hikvisioncam - 
+app-misc/homeassistant-full:hisense_aehw4a1 - 
+app-misc/homeassistant-full:hive - 
+app-misc/homeassistant-full:hlk_sw16 - 
+app-misc/homeassistant-full:home_connect - 
+app-misc/homeassistant-full:homekit - works as both HomeKit controller and accessory
+app-misc/homeassistant-full:homekit_controller - 
+app-misc/homeassistant-full:homematic - An API for the homematicip cloud
+app-misc/homeassistant-full:homematicip_cloud - A python wrapper for the homematicIP REST API (Access Point Based)
+app-misc/homeassistant-full:homeworks - 
+app-misc/homeassistant-full:honeywell - 
+app-misc/homeassistant-full:horizon - 
+app-misc/homeassistant-full:hp_ilo - HP Integrated Lights out XML interface
+app-misc/homeassistant-full:html5 - 
+app-misc/homeassistant-full:http - serves all files and data required for the Home Assistant frontend
+app-misc/homeassistant-full:htu21d - 
+app-misc/homeassistant-full:huawei_lte - 
+app-misc/homeassistant-full:hue - talk to Philips Hue
+app-misc/homeassistant-full:hunterdouglas_powerview - 
+app-misc/homeassistant-full:hvv_departures - 
+app-misc/homeassistant-full:hydrawise - communicate with Hunter Wi-Fi irrigation controllers
+app-misc/homeassistant-full:ialarm - 
+app-misc/homeassistant-full:iammeter - 
+app-misc/homeassistant-full:iaqualink - iAqualink by Jandy allows you to control your pool via cloud service
+app-misc/homeassistant-full:icloud - iCloud allows users to track their location on iOS devices
+app-misc/homeassistant-full:idteck_prox - 
+app-misc/homeassistant-full:ifttt - 
+app-misc/homeassistant-full:iglo - 
+app-misc/homeassistant-full:ign_sismologia - 
+app-misc/homeassistant-full:ihc - use IHC Python SDK
+app-misc/homeassistant-full:image - 
+app-misc/homeassistant-full:imap - 
+app-misc/homeassistant-full:incomfort - client for Intergas InComfort/InTouch Lan2RF systems
+app-misc/homeassistant-full:influxdb - transfer sensor data to a local InfluxDB database
+app-misc/homeassistant-full:insteon - allowing linked INSTEON devices to be used
+app-misc/homeassistant-full:intesishome - communications with IntesisHome Smart AC Controllers
+app-misc/homeassistant-full:iota - 
+app-misc/homeassistant-full:iperf3 - 
+app-misc/homeassistant-full:ipma - ipma weather platform
+app-misc/homeassistant-full:ipp - 
+app-misc/homeassistant-full:iqvia - 
+app-misc/homeassistant-full:irish_rail_transport - 
+app-misc/homeassistant-full:islamic_prayer_times - integration displays the various prayer times for Muslims as sensors
+app-misc/homeassistant-full:iss - 
+app-misc/homeassistant-full:isy994 - 
+app-misc/homeassistant-full:itach - 
+app-misc/homeassistant-full:izone - 
+app-misc/homeassistant-full:jewish_calendar - jewish_calendar
+app-misc/homeassistant-full:joaoapps_join - joaoapps_join integration exposes services from Join
+app-misc/homeassistant-full:juicenet - 
+app-misc/homeassistant-full:kaiterra - 
+app-misc/homeassistant-full:keba - 
+app-misc/homeassistant-full:keenetic_ndms2 - 
+app-misc/homeassistant-full:kef - KEF wireless speakers
+app-misc/homeassistant-full:keyboard - 
+app-misc/homeassistant-full:keyboard_remote - 
+app-misc/homeassistant-full:kira - 
+app-misc/homeassistant-full:kiwi - 
+app-misc/homeassistant-full:knx - Asynchronous Library for the KNX protocol
+app-misc/homeassistant-full:kodi - control a Kodi multimedia system
+app-misc/homeassistant-full:konnected - 
+app-misc/homeassistant-full:kwb - 
+app-misc/homeassistant-full:lacrosse - 
+app-misc/homeassistant-full:lametric - 
+app-misc/homeassistant-full:lastfm - 
+app-misc/homeassistant-full:launch_library - 
+app-misc/homeassistant-full:lcn - 
+app-misc/homeassistant-full:lg_netcast - 
+app-misc/homeassistant-full:lg_soundbar - 
+app-misc/homeassistant-full:life360 - 
+app-misc/homeassistant-full:lifx - 
+app-misc/homeassistant-full:lifx_legacy - 
+app-misc/homeassistant-full:lightwave - 
+app-misc/homeassistant-full:limitlessled - 
+app-misc/homeassistant-full:linode - allows you to access the information about your Linode systems
+app-misc/homeassistant-full:linux_battery - 
+app-misc/homeassistant-full:lirc - 
+app-misc/homeassistant-full:litejet - 
+app-misc/homeassistant-full:logi_circle - 
+app-misc/homeassistant-full:london_underground - 
+app-misc/homeassistant-full:loopenergy - Integrate your Loop Energy meter information into Home Assistant
+app-misc/homeassistant-full:luci - fetch connected devices from your OpenWrt
+app-misc/homeassistant-full:luftdaten - query the open data API of luftdaten.info to monitor air quality
+app-misc/homeassistant-full:lupusec - 
+app-misc/homeassistant-full:lutron - 
+app-misc/homeassistant-full:lutron_caseta - 
+app-misc/homeassistant-full:lw12wifi - 
+app-misc/homeassistant-full:lyft - 
+app-misc/homeassistant-full:magicseaweed - 
+app-misc/homeassistant-full:mailgun - 
+app-misc/homeassistant-full:marytts - 
+app-misc/homeassistant-full:mastodon - 
+app-misc/homeassistant-full:matrix - 
+app-misc/homeassistant-full:maxcube - eQ-3 ELV MAX Cube Python API
+app-misc/homeassistant-full:maxcube_hack - apply Patch for https://github.com/home-assistant/home-assistant/issues/28811
+app-misc/homeassistant-full:mcp23017 - 
+app-misc/homeassistant-full:media_extractor - support for youtube_dl
+app-misc/homeassistant-full:mediaroom - 
+app-misc/homeassistant-full:melcloud - 
+app-misc/homeassistant-full:melissa - 
+app-misc/homeassistant-full:message_bird - 
+app-misc/homeassistant-full:met - 
+app-misc/homeassistant-full:meteo_france - uses the meteorological data from Meteo-France
+app-misc/homeassistant-full:meteoalarm - 
+app-misc/homeassistant-full:metoffice - 
+app-misc/homeassistant-full:mfi - sensor platform to allow you to monitor mFi mPort interface and sensors
+app-misc/homeassistant-full:mhz19 - 
+app-misc/homeassistant-full:microsoft - 
+app-misc/homeassistant-full:miflora - miflora sensor platform allows one to monitor plant soil and air conditions
+app-misc/homeassistant-full:mikrotik - add support for MikroTik RouterOS API
+app-misc/homeassistant-full:mill - 
+app-misc/homeassistant-full:minecraft_server - 
+app-misc/homeassistant-full:minio - 
+app-misc/homeassistant-full:mitemp_bt - mitemp_bt sensor platform allows one to monitor room temperature and humidity
+app-misc/homeassistant-full:mobile_app - allows Home Assistant mobile apps to easily integrate with Home Assistant
+app-misc/homeassistant-full:mochad - 
+app-misc/homeassistant-full:modbus - 
+app-misc/homeassistant-full:modem_callerid - 
+app-misc/homeassistant-full:monoprice - 
+app-misc/homeassistant-full:mpd - 
+app-misc/homeassistant-full:mqtt - install MQTT Broker and dependencies
+app-misc/homeassistant-full:msteams - 
+app-misc/homeassistant-full:mvglive - 
+app-misc/homeassistant-full:mychevy - 
+app-misc/homeassistant-full:mycroft - 
+app-misc/homeassistant-full:myq - lets you control MyQ-Enabled garage doors
+app-misc/homeassistant-full:mysensors - 
+app-misc/homeassistant-full:mysql - set dependencies to install MySQL Libraries for use with HomeAssistant
+app-misc/homeassistant-full:mystrom - 
+app-misc/homeassistant-full:mythicbeastsdns - 
+app-misc/homeassistant-full:n26 - 
+app-misc/homeassistant-full:nad - allows you to control a NAD receiver through RS232, TCP and Telnet
+app-misc/homeassistant-full:namecheapdns - 
+app-misc/homeassistant-full:nanoleaf - 
+app-misc/homeassistant-full:neato - 
+app-misc/homeassistant-full:nederlandse_spoorwegen - train service in the Netherlands
+app-misc/homeassistant-full:nello - 
+app-misc/homeassistant-full:ness_alarm - 
+app-misc/homeassistant-full:nest - 
+app-misc/homeassistant-full:netatmo - Access to Netatmo weather station data
+app-misc/homeassistant-full:netdata - API for interacting with Netdata
+app-misc/homeassistant-full:netgear - 
+app-misc/homeassistant-full:netgear_lte - 
+app-misc/homeassistant-full:netio - 
+app-misc/homeassistant-full:neurio_energy - 
+app-misc/homeassistant-full:nexia - 
+app-misc/homeassistant-full:nextbus - 
+app-misc/homeassistant-full:nextcloud - 
+app-misc/homeassistant-full:nightscout - 
+app-misc/homeassistant-full:niko_home_control - 
+app-misc/homeassistant-full:nilu - 
+app-misc/homeassistant-full:nissan_leaf - 
+app-misc/homeassistant-full:nmap_tracker - 
+app-misc/homeassistant-full:nmbs - 
+app-misc/homeassistant-full:noaa_tides - 
+app-misc/homeassistant-full:norway_air - 
+app-misc/homeassistant-full:notify_events - 
+app-misc/homeassistant-full:notion - 
+app-misc/homeassistant-full:nsw_fuel_station - 
+app-misc/homeassistant-full:nsw_rural_fire_service_feed - 
+app-misc/homeassistant-full:nuheat - 
+app-misc/homeassistant-full:nuimo_controller - 
+app-misc/homeassistant-full:nuki - control Nuki Smart Locks
+app-misc/homeassistant-full:numato - 
+app-misc/homeassistant-full:nut - 
+app-misc/homeassistant-full:nws - uses the National Weather Service web API
+app-misc/homeassistant-full:nx584 - NX584/NX8E Interface Library and Server
+app-misc/homeassistant-full:nzbget - 
+app-misc/homeassistant-full:oasa_telematics - 
+app-misc/homeassistant-full:obihai - 
+app-misc/homeassistant-full:oem - 
+app-misc/homeassistant-full:ohmconnect - 
+app-misc/homeassistant-full:ombi - 
+app-misc/homeassistant-full:onewire - 
+app-misc/homeassistant-full:onkyo - 
+app-misc/homeassistant-full:onvif - 
+app-misc/homeassistant-full:opencv - 
+app-misc/homeassistant-full:openerz - 
+app-misc/homeassistant-full:openevse - 
+app-misc/homeassistant-full:opengarage - opengarage cover platform lets you control the open-source OpenGarage.io device
+app-misc/homeassistant-full:openhome - 
+app-misc/homeassistant-full:opensensemap - query the open data API of openSenseMap.org air quality sensor station
+app-misc/homeassistant-full:opentherm_gw - 
+app-misc/homeassistant-full:openuv - 
+app-misc/homeassistant-full:openweathermap - 
+app-misc/homeassistant-full:opnsense - 
+app-misc/homeassistant-full:opple - 
+app-misc/homeassistant-full:orangepi_gpio - 
+app-misc/homeassistant-full:oru - 
+app-misc/homeassistant-full:orvibo - 
+app-misc/homeassistant-full:osramlightify - 
+app-misc/homeassistant-full:otp - generates One-Time Passwords according to RFC6238
+app-misc/homeassistant-full:ovo_energy - 
+app-misc/homeassistant-full:owntracks - OwnTracks: track your location and send it directly to Home Assistant
+app-misc/homeassistant-full:ozw - Open Zwave MQTT
+app-misc/homeassistant-full:panasonic_bluray - 
+app-misc/homeassistant-full:panasonic_viera - panasonic_viera platform allows you to control a Panasonic Viera TV
+app-misc/homeassistant-full:pandora - 
+app-misc/homeassistant-full:pcal9535a - 
+app-misc/homeassistant-full:pencom - 
+app-misc/homeassistant-full:philips_js - allows you to control Philips TVs which expose the jointSPACE JSON-API
+app-misc/homeassistant-full:pi4ioe5v9xxxx - 
+app-misc/homeassistant-full:pi_hole - 
+app-misc/homeassistant-full:piglow - 
+app-misc/homeassistant-full:pilight - Pilight is a open source solution to communicate with 433 MHz devices
+app-misc/homeassistant-full:ping - ICMPLib
+app-misc/homeassistant-full:pjlink - 
+app-misc/homeassistant-full:plex - Python bindings for the Plex API
+app-misc/homeassistant-full:plugwise - Plugwise_Smile (Anna/Adam/P1) API
+app-misc/homeassistant-full:plum_lightpad - 
+app-misc/homeassistant-full:pocketcasts - 
+app-misc/homeassistant-full:point - 
+app-misc/homeassistant-full:poolsense - PoolSense is a smart pool monitor
+app-misc/homeassistant-full:powerwall - API for Tesla Powerwall
+app-misc/homeassistant-full:progettihwsw - 
+app-misc/homeassistant-full:proliphix - 
+app-misc/homeassistant-full:prometheus - 
+app-misc/homeassistant-full:proxmoxve - 
+app-misc/homeassistant-full:proxy - 
+app-misc/homeassistant-full:ps4 - allows you to control a Sony PlayStation 4 console
+app-misc/homeassistant-full:ptvsd - 
+app-misc/homeassistant-full:pulseaudio_loopback - 
+app-misc/homeassistant-full:pushbullet - 
+app-misc/homeassistant-full:pushover - 
+app-misc/homeassistant-full:pvpc_hourly_pricing - 
+app-misc/homeassistant-full:python_script - 
+app-misc/homeassistant-full:qbittorrent - 
+app-misc/homeassistant-full:qld_bushfire - 
+app-misc/homeassistant-full:qnap - Python API for obtaining QNAP NAS system stats
+app-misc/homeassistant-full:qrcode - 
+app-misc/homeassistant-full:quantum_gateway - 
+app-misc/homeassistant-full:qvr_pro - 
+app-misc/homeassistant-full:qwikswitch - 
+app-misc/homeassistant-full:rachio - The rachio platform allows you to control your Rachio irrigation system
+app-misc/homeassistant-full:radiotherm - 
+app-misc/homeassistant-full:rainbird - allows interacting with LNK WiFi module of the Rain Bird Irrigation system
+app-misc/homeassistant-full:raincloud - 
+app-misc/homeassistant-full:rainforest_eagle - 
+app-misc/homeassistant-full:rainmachine - integrate all platforms related to RainMachine smart Wi-Fi sprinkler controllers
+app-misc/homeassistant-full:raspihats - 
+app-misc/homeassistant-full:raspyrfm - 
+app-misc/homeassistant-full:recollect_waste - 
+app-misc/homeassistant-full:recorder - storing details in a database per sqlalchemy
+app-misc/homeassistant-full:recswitch - 
+app-misc/homeassistant-full:reddit - 
+app-misc/homeassistant-full:rejseplanen - travel details for Danish public transport
+app-misc/homeassistant-full:remember_the_milk - 
+app-misc/homeassistant-full:remote_rpi_gpio - 
+app-misc/homeassistant-full:repetier - 
+app-misc/homeassistant-full:rest - 
+app-misc/homeassistant-full:rflink - 
+app-misc/homeassistant-full:rfxtrx - 
+app-misc/homeassistant-full:ring - integrate your ring.com devices
+app-misc/homeassistant-full:ripple - 
+app-misc/homeassistant-full:risco - 
+app-misc/homeassistant-full:rmvtransport - 
+app-misc/homeassistant-full:rocketchat - 
+app-misc/homeassistant-full:roku - add support for Roku players
+app-misc/homeassistant-full:roomba - control a iRobot Roomba vacuum or iRobot Braava m-series mop
+app-misc/homeassistant-full:roon - allows you to control RoonLabs music players
+app-misc/homeassistant-full:route53 - 
+app-misc/homeassistant-full:rova - 
+app-misc/homeassistant-full:rpi_gpio - 
+app-misc/homeassistant-full:rpi_gpio_pwm - 
+app-misc/homeassistant-full:rpi_pfio - 
+app-misc/homeassistant-full:rpi_rf - 
+app-misc/homeassistant-full:russound_rio - 
+app-misc/homeassistant-full:russound_rnet - 
+app-misc/homeassistant-full:sabnzbd - 
+app-misc/homeassistant-full:saj - 
+app-misc/homeassistant-full:salt - 
+app-misc/homeassistant-full:samsungtv - Support for Samsung TV Sets
+app-misc/homeassistant-full:satel_integra - 
+app-misc/homeassistant-full:schluter - 
+app-misc/homeassistant-full:scrape - scraping information from websites
+app-misc/homeassistant-full:scsgate - 
+app-misc/homeassistant-full:season - 
+app-misc/homeassistant-full:sendgrid - 
+app-misc/homeassistant-full:sense - 
+app-misc/homeassistant-full:sensehat - 
+app-misc/homeassistant-full:sensibo - 
+app-misc/homeassistant-full:sentry - 
+app-misc/homeassistant-full:serial - 
+app-misc/homeassistant-full:serial_pm - 
+app-misc/homeassistant-full:sesame - 
+app-misc/homeassistant-full:seven_segments - 
+app-misc/homeassistant-full:seventeentrack - 
+app-misc/homeassistant-full:sharkiq - 
+app-misc/homeassistant-full:shelly - Shelly devices
+app-misc/homeassistant-full:shiftr - 
+app-misc/homeassistant-full:shodan - Shodan is a search engine for Internet-connected devices
+app-misc/homeassistant-full:sht31 - 
+app-misc/homeassistant-full:sighthound - 
+app-misc/homeassistant-full:signal_messenger - add Support for Moxie's Signal API
+app-misc/homeassistant-full:simplepush - 
+app-misc/homeassistant-full:simplisafe - integrates SimpliSafe home security (V2 and V3) systems
+app-misc/homeassistant-full:sinch - 
+app-misc/homeassistant-full:sisyphus - 
+app-misc/homeassistant-full:sky_hub - 
+app-misc/homeassistant-full:skybeacon - 
+app-misc/homeassistant-full:skybell - integrate your Skybell.com doorbells
+app-misc/homeassistant-full:slack - 
+app-misc/homeassistant-full:sleepiq - 
+app-misc/homeassistant-full:slide - 
+app-misc/homeassistant-full:sma - add Support for SMA Solar WebConnect
+app-misc/homeassistant-full:smappee - integrate Smappee monitors, plugs and switches
+app-misc/homeassistant-full:smart_meter_texas - 
+app-misc/homeassistant-full:smarthab - control your lights and shutters with the SmartHab integration
+app-misc/homeassistant-full:smartthings - use the SmartThings Cloud API
+app-misc/homeassistant-full:smarty - 
+app-misc/homeassistant-full:smhi - 
+app-misc/homeassistant-full:sms - 
+app-misc/homeassistant-full:snapcast - 
+app-misc/homeassistant-full:snmp - Presence Detection, Sensor, Switch via SNMP
+app-misc/homeassistant-full:socat - Set a flag to install socat and socat-zwave startscript
+app-misc/homeassistant-full:sochain - 
+app-misc/homeassistant-full:socialblade - monitor Youtube Channels
+app-misc/homeassistant-full:solaredge - 
+app-misc/homeassistant-full:solaredge_local - 
+app-misc/homeassistant-full:solarlog - 
+app-misc/homeassistant-full:solax - Solax inverter API client
+app-misc/homeassistant-full:soma - 
+app-misc/homeassistant-full:somfy - Somfy devices via their online service
+app-misc/homeassistant-full:somfy_mylink - 
+app-misc/homeassistant-full:sonarr - 
+app-misc/homeassistant-full:songpal - 
+app-misc/homeassistant-full:sonos - Sonos Media Player Support
+app-misc/homeassistant-full:sony_projector - 
+app-misc/homeassistant-full:soundtouch - 
+app-misc/homeassistant-full:spc - 
+app-misc/homeassistant-full:speedtestdotnet - speedtest.net support
+app-misc/homeassistant-full:spider - 
+app-misc/homeassistant-full:spotcrime - 
+app-misc/homeassistant-full:spotify - 
+app-misc/homeassistant-full:sql - 
+app-misc/homeassistant-full:squeezebox - library to control Logitech Media Server
+app-misc/homeassistant-full:ssdp - 
+app-misc/homeassistant-full:ssl - include support for haproxy
+app-misc/homeassistant-full:starline - 
+app-misc/homeassistant-full:starlingbank - 
+app-misc/homeassistant-full:startca - 
+app-misc/homeassistant-full:statsd - transfer all state changes to an external StatsD instance
+app-misc/homeassistant-full:steam_online - 
+app-misc/homeassistant-full:stiebel_eltron - 
+app-misc/homeassistant-full:stookalert - 
+app-misc/homeassistant-full:stream - 
+app-misc/homeassistant-full:streamlabswater - 
+app-misc/homeassistant-full:suez_water - 
+app-misc/homeassistant-full:supla - 
+app-misc/homeassistant-full:surepetcare - 
+app-misc/homeassistant-full:swiss_hydrological_data - 
+app-misc/homeassistant-full:swiss_public_transport - 
+app-misc/homeassistant-full:switchbot - 
+app-misc/homeassistant-full:switcher_kis - 
+app-misc/homeassistant-full:switchmate - 
+app-misc/homeassistant-full:syncthru - 
+app-misc/homeassistant-full:synology - 
+app-misc/homeassistant-full:synology_dsm - monitor getting various statistics from your Synology NAS
+app-misc/homeassistant-full:synology_srm - 
+app-misc/homeassistant-full:systemmonitor - monitor your platform
+app-misc/homeassistant-full:tado - 
+app-misc/homeassistant-full:tag - 
+app-misc/homeassistant-full:tahoma - 
+app-misc/homeassistant-full:tank_utility - 
+app-misc/homeassistant-full:tankerkoenig - 
+app-misc/homeassistant-full:tapsaff - 
+app-misc/homeassistant-full:tautulli - 
+app-misc/homeassistant-full:ted5000 - 
+app-misc/homeassistant-full:telegram_bot - 
+app-misc/homeassistant-full:tellduslive - cloud platform that connects to your Tellstick
+app-misc/homeassistant-full:tellstick - 
+app-misc/homeassistant-full:temper - 
+app-misc/homeassistant-full:tensorflow - 
+app-misc/homeassistant-full:tesla - integration with the Tesla cloud service
+app-misc/homeassistant-full:test - internal and developer use
+app-misc/homeassistant-full:tfiac - 
+app-misc/homeassistant-full:thermoworks_smoke - 
+app-misc/homeassistant-full:thingspeak - 
+app-misc/homeassistant-full:thinkingcleaner - 
+app-misc/homeassistant-full:tibber - 
+app-misc/homeassistant-full:tikteck - 
+app-misc/homeassistant-full:tile - API for Tile Bluetooth trackers
+app-misc/homeassistant-full:tmb - 
+app-misc/homeassistant-full:todoist - 
+app-misc/homeassistant-full:tof - 
+app-misc/homeassistant-full:toon - client for the Quby ToonAPI
+app-misc/homeassistant-full:totalconnect - 
+app-misc/homeassistant-full:touchline - 
+app-misc/homeassistant-full:tplink - control your TP-Link Smart Home Devices
+app-misc/homeassistant-full:tplink_lte - 
+app-misc/homeassistant-full:traccar - 
+app-misc/homeassistant-full:trackr - 
+app-misc/homeassistant-full:tradfri - Control/observe IKEA Tradfri devices
+app-misc/homeassistant-full:trafikverket_train - 
+app-misc/homeassistant-full:trafikverket_weatherstation - 
+app-misc/homeassistant-full:transmission - 
+app-misc/homeassistant-full:transport_nsw - 
+app-misc/homeassistant-full:travisci - 
+app-misc/homeassistant-full:trend - 
+app-misc/homeassistant-full:tts - 
+app-misc/homeassistant-full:tuya - integrate all Tuya Smart related platforms
+app-misc/homeassistant-full:twentemilieu - 
+app-misc/homeassistant-full:twilio - 
+app-misc/homeassistant-full:twitch - 
+app-misc/homeassistant-full:twitter - 
+app-misc/homeassistant-full:ubee - getting stats from Ubee routers
+app-misc/homeassistant-full:unifi - talk with a Ubiquiti unifi Controller
+app-misc/homeassistant-full:unifi_direct - detect presence by looking at devices connected to a UniFi AP
+app-misc/homeassistant-full:unifiled - 
+app-misc/homeassistant-full:upb - 
+app-misc/homeassistant-full:upc_connect - 
+app-misc/homeassistant-full:upcloud - 
+app-misc/homeassistant-full:updater - 
+app-misc/homeassistant-full:upnp - support UPnP/Internet Gateway Device (IGD) Protocol
+app-misc/homeassistant-full:uptimerobot - 
+app-misc/homeassistant-full:uscis - 
+app-misc/homeassistant-full:usgs_earthquakes_feed - 
+app-misc/homeassistant-full:uvc - 
+app-misc/homeassistant-full:vallox - control any Vallox ventilation unit
+app-misc/homeassistant-full:vasttrafik - 
+app-misc/homeassistant-full:velbus - supports the Velbus USB, serial and TCP/IP gateway
+app-misc/homeassistant-full:velux - allows you to connect to a Velux KLF 200 interface
+app-misc/homeassistant-full:venstar - 
+app-misc/homeassistant-full:vera - add support for Vera Z-Wave Controller
+app-misc/homeassistant-full:verisure - 
+app-misc/homeassistant-full:versasense - 
+app-misc/homeassistant-full:version - display the current Home Assistant versions
+app-misc/homeassistant-full:vesync - 
+app-misc/homeassistant-full:vicare - communicate with the Viessmann ViCare API
+app-misc/homeassistant-full:vilfo - 
+app-misc/homeassistant-full:vivotek - 
+app-misc/homeassistant-full:vizio - allows you to control SmartCast-compatible TVs
+app-misc/homeassistant-full:vlc - 
+app-misc/homeassistant-full:vlc_telnet - 
+app-misc/homeassistant-full:volkszaehler - 
+app-misc/homeassistant-full:volumio - 
+app-misc/homeassistant-full:volvooncall - 
+app-misc/homeassistant-full:vultr - 
+app-misc/homeassistant-full:w800rf32 - 
+app-misc/homeassistant-full:wake_on_lan - 
+app-misc/homeassistant-full:waqi - will query World Air Quality Index service
+app-misc/homeassistant-full:waterfurnace - 
+app-misc/homeassistant-full:watson_iot - 
+app-misc/homeassistant-full:watson_tts - 
+app-misc/homeassistant-full:waze_travel_time - waze_travel_time sensor provides travel time from the Waze
+app-misc/homeassistant-full:webostv - allows you to control a LG webOS Smart TV
+app-misc/homeassistant-full:wemo - discover and control WeMo devices
+app-misc/homeassistant-full:whois - perform daily WHOIS lookups
+app-misc/homeassistant-full:wiffi - 
+app-misc/homeassistant-full:wilight - 
+app-misc/homeassistant-full:wink - support for Wink Z-Wave Plus Smart Hub
+app-misc/homeassistant-full:wirelesstag - 
+app-misc/homeassistant-full:withings - add support for Withings Health API
+app-misc/homeassistant-full:wled - add support for Aircookie's WLED
+app-misc/homeassistant-full:wolflink - 
+app-misc/homeassistant-full:workday - generating country, province and state specific sets of holidays on the fly
+app-misc/homeassistant-full:xbee - 
+app-misc/homeassistant-full:xbox_live - track Xbox profiles
+app-misc/homeassistant-full:xeoma - 
+app-misc/homeassistant-full:xfinity - 
+app-misc/homeassistant-full:xiaomi_aqara - allows you to integrate Xiaomi Aqara-compatible devices
+app-misc/homeassistant-full:xiaomi_miio - add support for Xiaomi smart appliances
+app-misc/homeassistant-full:xiaomi_tv - The xiaomi_tv platform allows you to control a Xiaomi TV
+app-misc/homeassistant-full:xmpp - 
+app-misc/homeassistant-full:xs1 - get and set values of the EZcontrol XS1 Gateway
+app-misc/homeassistant-full:yale_smart_alarm - 
+app-misc/homeassistant-full:yamaha - Library for Yamaha RX-* Receivers
+app-misc/homeassistant-full:yamaha_musiccast - add support for Yamaha MusicCast devices
+app-misc/homeassistant-full:yandex_transport - 
+app-misc/homeassistant-full:yeelight - allows you to control your Yeelight Wifi bulbs
+app-misc/homeassistant-full:yeelightsunflower - 
+app-misc/homeassistant-full:yessssms - 
+app-misc/homeassistant-full:yi - allows you to utilize Yi Home Cameras within Home Assistant
+app-misc/homeassistant-full:zabbix - 
+app-misc/homeassistant-full:zengge - 
+app-misc/homeassistant-full:zeroconf - 
+app-misc/homeassistant-full:zerproc - discovers nearby Zerproc lights
+app-misc/homeassistant-full:zestimate - 
+app-misc/homeassistant-full:zha - Support for ZHA/deconz based Zigbee/ZNet Devices
+app-misc/homeassistant-full:zhong_hong - lets you control Zhonghong HVAC Gateway Controller thermostats
+app-misc/homeassistant-full:ziggo_mediabox_xl - 
+app-misc/homeassistant-full:zoneminder - Support for ZoneMinder Cameras
+app-misc/homeassistant-full:zwave - Support for Z-Wave Devices (uncomplete)
+app-misc/homeassistant-min:androidtv - Library for controlling an Android TV, formerly firetv
+app-misc/homeassistant-min:axis - communicating with devices from Axis Communications
+app-misc/homeassistant-min:caldav - integrate a CalDAV (RFC4791) calendar
+app-misc/homeassistant-min:cli - set a dependency for Home Assistant Cli hass-cli (lots of modules required)
+app-misc/homeassistant-min:coronavirus - add sensors for COVID-19 infections from Johns Hopkins University
+app-misc/homeassistant-min:darksky - use dark sky weather data
+app-misc/homeassistant-min:enigma2 - Support for Enigma2 boxes with openwebif support
+app-misc/homeassistant-min:esphome - Support for esphome sensors, covers and switches and it's dashboard
+app-misc/homeassistant-min:fronius - add (very basic) Support for Fronius Symo JSON Api
+app-misc/homeassistant-min:github - GitHub sensor integrates data from GitHub to monitor your favorite repositories
+app-misc/homeassistant-min:influxdb - transfer sensor data to a local InfluxDB database
+app-misc/homeassistant-min:kodi - control a Kodi multimedia system
+app-misc/homeassistant-min:maxcube - eQ-3 ELV MAX Cube Python API
+app-misc/homeassistant-min:maxcube_hack - apply Patch for https://github.com/home-assistant/home-assistant/issues/28811
+app-misc/homeassistant-min:mikrotik - add support for MikroTik RouterOS API
+app-misc/homeassistant-min:mqtt - install MQTT Broker and dependencies
+app-misc/homeassistant-min:mysql - set dependencies to install MySQL Libraries for use with HomeAssistant
+app-misc/homeassistant-min:otp - generates One-Time Passwords according to RFC6238
+app-misc/homeassistant-min:owntracks - OwnTracks: track your location and send it directly to Home Assistant
+app-misc/homeassistant-min:ping - ICMPLib
+app-misc/homeassistant-min:qnap - Python API for obtaining QNAP NAS system stats
+app-misc/homeassistant-min:recorder - storing details in a database per sqlalchemy
+app-misc/homeassistant-min:samsungtv - Support for Samsung TV Sets
+app-misc/homeassistant-min:scrape - scraping information from websites
+app-misc/homeassistant-min:shelly - Shelly devices
+app-misc/homeassistant-min:signal_messenger - add Support for Moxie's Signal API
+app-misc/homeassistant-min:snmp - Presence Detection, Sensor, Switch via SNMP
+app-misc/homeassistant-min:socat - Set a flag to install socat and socat-zwave startscript
+app-misc/homeassistant-min:sonos - Sonos Media Player Support
+app-misc/homeassistant-min:ssl - include support for haproxy
+app-misc/homeassistant-min:test - internal and developer use
+app-misc/homeassistant-min:tradfri - Control/observe IKEA Tradfri devices
+app-misc/homeassistant-min:version - display the current Home Assistant versions
+app-misc/homeassistant-min:workday - generating country, province and state specific sets of holidays on the fly
+app-misc/homeassistant-min:yamaha - Library for Yamaha RX-* Receivers
+app-misc/homeassistant-min:yamaha_musiccast - add support for Yamaha MusicCast devices
 dev-embedded/esphome:server - create user and install init-script to run ESPHome Dashboard
 dev-python/cryptography:idna - enable support for the old, deprecated IDNA specification (RFC 3490)
 dev-python/passlib:bcrypt - bcrpyt hash algoryptm support
