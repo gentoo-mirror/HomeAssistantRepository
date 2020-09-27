@@ -240,7 +240,7 @@ dev-python/debugpy 1.0.0_beta11 1.0.0_beta12: An implementation of the Debug Ada
 dev-python/decora 0.6: Python API for controlling Decora dimmer switches
 dev-python/decora-wifi 1.4: Python API for controlling Leviton Decora Smart WiFi switches
 dev-python/deepmerge 0.1.0: a toolset to deeply merge python dictionaries.
-dev-python/defusedxml 0.6.0 0.6.0-r1: XML bomb protection for Python stdlib modules, an xml serialiser
+dev-python/defusedxml 0.6.0-r1: XML bomb protection for Python stdlib modules, an xml serialiser
 dev-python/deluge-client 1.4.0 1.7.1: Simple Deluge Client
 dev-python/demjson 2.2.4: encoder, decoder, and lint/validator for JSON (JavaScript Object Notation) compliant with RFC 7159
 dev-python/denonavr 0.7.8 0.7.9 0.8.0 0.8.1 0.9.3 0.9.4: Automation Library for Denon AVR receivers
