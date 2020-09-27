@@ -540,7 +540,7 @@ dev-python/py-cpuinfo 7.0.0: Get CPU info with pure Python 2 & 3
 dev-python/py-melissa-climate 2.0.0 2.1.4: Api wrapper for Melissa Climate http://seemelissa.com
 dev-python/py-nextbus 0.1.2: Python client for the NextBus public API for real-time transit arrival data
 dev-python/py-nextbusnext 0.1.4: Python client for the NextBus public API for real-time transit arrival data
-dev-python/py-nightscout 1.2.1: A library that provides a Python async interface to Nightscout
+dev-python/py-nightscout 1.2.1 1.2.2: A library that provides a Python async interface to Nightscout
 dev-python/py-noaa 0.3.0 1.0: Python wrapper to fetch data from NOAA APIs
 dev-python/py-schluter 0.1.7: Python API for Schluter DITRA-HEAT thermostat
 dev-python/py-synology 0.2.0 0.3.0: Python API for Synology Surveillance Station
@@ -780,7 +780,7 @@ dev-python/python-tado 0.2.9 0.3.0 0.4.0 0.5.0 0.6.0 0.8.1: PyTado from chrism0d
 dev-python/python-telegram-bot 11.1.0: We have made you a wrapper you can't refuse
 dev-python/python-telnet-vlc 1.0.4: A library to control or get information about VLC using Telnet
 dev-python/python-twitch-client 0.6.0: Easy to use Python library for accessing the Twitch API
-dev-python/python-velbus 2.0.43 2.0.44 2.0.45: Python Library for the Velbus protocol
+dev-python/python-velbus 2.0.43 2.0.44 2.0.45 2.0.46: Python Library for the Velbus protocol
 dev-python/python-vlc 1.1.2 3.0.7110: VLC bindings for python.
 dev-python/python-whois 0.7.1 0.7.2 0.7.3: Whois querying and parsing of domain registration information.
 dev-python/python-wink 1.10.3 1.10.5: Access Wink devices via the Wink API
