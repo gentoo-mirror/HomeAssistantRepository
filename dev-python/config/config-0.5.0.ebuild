@@ -3,22 +3,21 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{7..8} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Asynchronous library to control Shelly devices."
-HOMEPAGE="https://github.com/home-assistant-libs/aioshelly https://pypi.org/project/aioshelly/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+DESCRIPTION="A hierarchical, easy-to-use, powerful configuration module for Python"
+HOMEPAGE="https://github.com/vsajip/py-cfg-lib/ https://docs.red-dove.com/cfg/python.html https://pypi.org/project/config/"
+SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.zip"
 
-LICENSE="Apache-2.0"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="~dev-python/aiocoap-0.4_beta3[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]"
-DEPEND="${REDEPEND}
+RDEPEND=""
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]

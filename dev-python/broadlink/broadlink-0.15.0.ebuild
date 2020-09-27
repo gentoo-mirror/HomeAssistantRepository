@@ -3,12 +3,12 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="A light weight Python library for the Spotify Web API"
-HOMEPAGE="https://spotipy.readthedocs.org/ https://pypi.org/project/spotipy/"
+DESCRIPTION="Python API for controlling Broadlink IR controllers"
+HOMEPAGE="https://github.com/mjg59/python-broadlink https://pypi.org/project/broadlink/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -16,9 +16,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
-	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]"
-DEPEND="${REDEPEND}
+RDEPEND=">=dev-python/cryptography-2.1.1[${PYTHON_USEDEP}]"
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]

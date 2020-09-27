@@ -7,17 +7,20 @@ PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python API for controlling Broadlink IR controllers"
-HOMEPAGE="https://github.com/mjg59/python-broadlink https://pypi.org/project/broadlink/"
+DESCRIPTION="Integration for the Hayward OmniLogic pool control system"
+HOMEPAGE="https://github.com/djtimca/omnilogic-api https://pypi.org/project/omnilogic/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/cryptography-2.1.1[${PYTHON_USEDEP}]
-	dev-python/pythoncrc[${PYTHON_USEDEP}]"
+DOCS="README.md"
+
+RDEPEND="dev-python/xmltodict[${PYTHON_USEDEP}]
+	dev-python/config[${PYTHON_USEDEP}]
+	dev-python/aiohttp[${PYTHON_USEDEP}]"
 BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
