@@ -88,6 +88,7 @@ app-misc/homeassistant:discogs - Discogs Client
 app-misc/homeassistant:discord - send messages to the user using Discord
 app-misc/homeassistant:doorbird - The doorbird implementation allows you to integrate your DoorBird device
 app-misc/homeassistant:dunehd - control a Dune HD media player
+app-misc/homeassistant:dwd_weather_warnings - dwd_weather_warnings sensor platform uses DWD for warnings
 app-misc/homeassistant:dynalite - Dynalite DyNET interface
 app-misc/homeassistant:dyson - integrate all Dyson related platforms
 app-misc/homeassistant:ecobee - talking to Ecobee thermostats
@@ -186,6 +187,7 @@ app-misc/homeassistant:rainbird - allows interacting with LNK WiFi module of the
 app-misc/homeassistant:rainmachine - integrate all platforms related to RainMachine smart Wi-Fi sprinkler controllers
 app-misc/homeassistant:recorder - storing details in a database per sqlalchemy
 app-misc/homeassistant:rejseplanen - travel details for Danish public transport
+app-misc/homeassistant:rest - rest sensor platform for data exposed by a RESTful API
 app-misc/homeassistant:ring - integrate your ring.com devices
 app-misc/homeassistant:roku - add support for Roku players
 app-misc/homeassistant:roomba - control a iRobot Roomba vacuum or iRobot Braava m-series mop
@@ -208,6 +210,7 @@ app-misc/homeassistant:solax - Solax inverter API client
 app-misc/homeassistant:somfy - Somfy devices via their online service
 app-misc/homeassistant:sonos - Sonos Media Player Support
 app-misc/homeassistant:speedtestdotnet - speedtest.net support
+app-misc/homeassistant:sql - enables you to use an SQL database supported by the sqlalchemy library
 app-misc/homeassistant:squeezebox - library to control Logitech Media Server
 app-misc/homeassistant:ssl - include support for haproxy
 app-misc/homeassistant:statsd - transfer all state changes to an external StatsD instance
@@ -218,6 +221,7 @@ app-misc/homeassistant:tesla - integration with the Tesla cloud service
 app-misc/homeassistant:test - internal and developer use
 app-misc/homeassistant:tile - API for Tile Bluetooth trackers
 app-misc/homeassistant:toon - client for the Quby ToonAPI
+app-misc/homeassistant:totalconnect - provides connectivity with the Honeywell TotalConnect alarm systems
 app-misc/homeassistant:tplink - control your TP-Link Smart Home Devices
 app-misc/homeassistant:tradfri - Control/observe IKEA Tradfri devices
 app-misc/homeassistant:tuya - integrate all Tuya Smart related platforms
@@ -280,20 +284,20 @@ app-misc/homeassistant-full:anel_pwrctrl - The anel_pwrctrl switch platform allo
 app-misc/homeassistant-full:anthemav - Both Anthem’s current and last generation of A/V Receivers and Processors suppor
 app-misc/homeassistant-full:apache_kafka - sends all state changes to a Apache Kafka topic
 app-misc/homeassistant-full:apcupsd - can be integrated into Home Assistant when the Network Information Server (NIS)
-app-misc/homeassistant-full:apns - 
+app-misc/homeassistant-full:apns - uses the Apple Push Notification service (APNS) to deliver notifications
 app-misc/homeassistant-full:apple_tv - Library for controlling an Apple TV
 app-misc/homeassistant-full:apprise - just about every Notification platform
-app-misc/homeassistant-full:aprs - 
-app-misc/homeassistant-full:aqualogic - 
+app-misc/homeassistant-full:aprs - tracker integration connects to the APRS-IS
+app-misc/homeassistant-full:aqualogic - provides connectivity to a Hayward/Goldline AquaLogic/ProLogic pool controller
 app-misc/homeassistant-full:aquostv - The aquostv platform allows you to control a Sharp Aquos TV
 app-misc/homeassistant-full:arcam_fmj - speaking to Arcam receivers
-app-misc/homeassistant-full:arduino - 
-app-misc/homeassistant-full:arlo - 
-app-misc/homeassistant-full:arris_tg2492lg - 
+app-misc/homeassistant-full:arduino - Arduino device family are microcontroller boards
+app-misc/homeassistant-full:arlo - allows you to integrate your Arlo devices
+app-misc/homeassistant-full:arris_tg2492lg - presence from an Arris TG2492LG router
 app-misc/homeassistant-full:aruba - detect presence by looking at connected devices to an Aruba Instant device
-app-misc/homeassistant-full:asterisk_mbox - 
+app-misc/homeassistant-full:asterisk_mbox - asterisk_mbox Asterisk Voicemail integration
 app-misc/homeassistant-full:asuswrt - Api wrapper for Asuswrt
-app-misc/homeassistant-full:atag - 
+app-misc/homeassistant-full:atag - connect to Atag One thermostats, reporting and setting its status
 app-misc/homeassistant-full:aten_pe - The aten_pe integration lets you control ATEN Rack PDUs from Home Assistant
 app-misc/homeassistant-full:atome - The atome sensor platform is retrieving the consumption of your home from the Di
 app-misc/homeassistant-full:august - The august integration allows you to integrate your August devices in Home Assis
@@ -308,8 +312,8 @@ app-misc/homeassistant-full:azure_devops -
 app-misc/homeassistant-full:azure_event_hub - 
 app-misc/homeassistant-full:azure_service_bus - 
 app-misc/homeassistant-full:baidu - text-to-speech platform uses Baidu TTS engine to read a text with natural soundi
-app-misc/homeassistant-full:bbb_gpio - 
-app-misc/homeassistant-full:bbox - 
+app-misc/homeassistant-full:bbb_gpio - base for all BeagleBone Black related GPIO platforms
+app-misc/homeassistant-full:bbox - uses the Bbox Modem Router from the French Internet provider Bouygues Telecom
 app-misc/homeassistant-full:beewi_smartclim - BeeWi SmartClim BLE is a Bluetooth Low Energy sensor device
 app-misc/homeassistant-full:bh1750 - allows you to read the ambient light level in Lux from a BH1750FVI sensor connec
 app-misc/homeassistant-full:bitcoin - displays various details about the Bitcoin network
@@ -341,106 +345,106 @@ app-misc/homeassistant-full:buienradar - use buienradar weather data
 app-misc/homeassistant-full:caldav - integrate a CalDAV (RFC4791) calendar
 app-misc/homeassistant-full:canary - allows you to integrate your Canary devices
 app-misc/homeassistant-full:cast - let me talk to Google Chromecast
-app-misc/homeassistant-full:channels - 
-app-misc/homeassistant-full:circuit - 
-app-misc/homeassistant-full:cisco_ios - 
+app-misc/homeassistant-full:channels - allows you to control Channels from Home Assistant
+app-misc/homeassistant-full:circuit - Unify Circuit platform allows you to send notifications
+app-misc/homeassistant-full:cisco_ios - presence detection scanner for Cisco IOS devices
 app-misc/homeassistant-full:cisco_mobility_express - install ciscomobilityexpress support
-app-misc/homeassistant-full:cisco_webex_teams - 
-app-misc/homeassistant-full:clementine - 
+app-misc/homeassistant-full:cisco_webex_teams - deliver rich notifications from Home Assistant to Cisco Webex Teams
+app-misc/homeassistant-full:clementine - The clementine platform allows you to control a Clementine Music Player
 app-misc/homeassistant-full:cli - set a dependency for Home Assistant Cli hass-cli (lots of modules required)
-app-misc/homeassistant-full:cloud - 
-app-misc/homeassistant-full:cloudflare - 
-app-misc/homeassistant-full:cmus - 
+app-misc/homeassistant-full:cloud - quickly integrate your local Home Assistant with various cloud services
+app-misc/homeassistant-full:cloudflare - With the cloudflare integration, you can keep your Cloudflare records up to date
+app-misc/homeassistant-full:cmus - allows you to control a cmus music player
 app-misc/homeassistant-full:co2signal - queries the CO2Signal API for the CO2 intensity of a specific region
-app-misc/homeassistant-full:coinbase - 
-app-misc/homeassistant-full:coinmarketcap - 
-app-misc/homeassistant-full:comfoconnect - 
-app-misc/homeassistant-full:concord232 - 
-app-misc/homeassistant-full:control4 - 
-app-misc/homeassistant-full:coolmaster - 
+app-misc/homeassistant-full:coinbase - lets you access account balances and exchange rates from coinbase
+app-misc/homeassistant-full:coinmarketcap - displays various details about a cryptocurrency provided by CoinMarketCap
+app-misc/homeassistant-full:comfoconnect - comfoconnect integration lets you control Zehnder ComfoAir
+app-misc/homeassistant-full:concord232 - rovides integration with GE, Interlogix (and other brands) alarm panels
+app-misc/homeassistant-full:control4 - allows you to control and monitor lights from your local Control4 system
+app-misc/homeassistant-full:coolmaster - The coolmaster climate platform lets you control HVAC through CoolMasterNet
 app-misc/homeassistant-full:coronavirus - add sensors for COVID-19 infections from Johns Hopkins University
-app-misc/homeassistant-full:cppm_tracker - 
-app-misc/homeassistant-full:cpuspeed - 
-app-misc/homeassistant-full:crimereports - 
-app-misc/homeassistant-full:cups - 
+app-misc/homeassistant-full:cppm_tracker - detect presence by looking at connected devices to Aruba Clearpass
+app-misc/homeassistant-full:cpuspeed - The cpuspeed sensor platform to allow you to monitor the current CPU speed
+app-misc/homeassistant-full:crimereports - crimereports sensor allows one to track reported incidents
+app-misc/homeassistant-full:cups - using the open source printing system CUPS to show details about your printers
 app-misc/homeassistant-full:daikin - Daikin wireless controllers
-app-misc/homeassistant-full:danfoss_air - 
+app-misc/homeassistant-full:danfoss_air - The danfoss_air integration accesses information from your Danfoss Air HRV unit
 app-misc/homeassistant-full:darksky - use dark sky weather data
-app-misc/homeassistant-full:datadog - 
-app-misc/homeassistant-full:debugpy - 
+app-misc/homeassistant-full:datadog - The datadog integration sends all state changes to Datadog using a Datadog Agent
+app-misc/homeassistant-full:debugpy - useful in testing changes on a local development install
 app-misc/homeassistant-full:deconz - deCONZ ConBee/RaspBee Zigbee gateways
-app-misc/homeassistant-full:decora - 
-app-misc/homeassistant-full:decora_wifi - 
+app-misc/homeassistant-full:decora - Support for the Decora Bluetooth dimmer switch Leviton
+app-misc/homeassistant-full:decora_wifi - Support for Leviton Decora Wi-Fi dimmers/switches via the MyLeviton API
 app-misc/homeassistant-full:delijn - De Lijn public transport network in Flanders
-app-misc/homeassistant-full:deluge - 
+app-misc/homeassistant-full:deluge - local polling for Deluge Switches and Sensors
 app-misc/homeassistant-full:denonavr - Automation Library for Denon AVR receivers
 app-misc/homeassistant-full:deutsche_bahn - will give you the departure time of the next train for the given connection
 app-misc/homeassistant-full:devolo_home_control - Devolo Home-control
 app-misc/homeassistant-full:dexcom - view your CGM data from Dexcom
 app-misc/homeassistant-full:dht - get the current temperature and humidity from a DHT11, DHT22 or AM2302 device
-app-misc/homeassistant-full:digital_ocean - 
-app-misc/homeassistant-full:digitalloggers - 
-app-misc/homeassistant-full:directv - 
+app-misc/homeassistant-full:digital_ocean - access the information about your Digital Ocean droplets
+app-misc/homeassistant-full:digitalloggers - Switch platform controls the state of your Digital Loggers switches
+app-misc/homeassistant-full:directv - allows you to control a DirecTV receiver and its client devices
 app-misc/homeassistant-full:discogs - Discogs Client
 app-misc/homeassistant-full:discord - send messages to the user using Discord
-app-misc/homeassistant-full:discovery - 
-app-misc/homeassistant-full:dlib_face_detect - 
-app-misc/homeassistant-full:dlib_face_identify - 
-app-misc/homeassistant-full:dlink - 
-app-misc/homeassistant-full:dlna_dmr - 
-app-misc/homeassistant-full:dnsip - 
-app-misc/homeassistant-full:dominos - 
-app-misc/homeassistant-full:doods - 
+app-misc/homeassistant-full:discovery - automatically configure zeroconf/mDNS and UPnP devices on your network
+app-misc/homeassistant-full:dlib_face_detect - image processing platform allows you to use the Dlib
+app-misc/homeassistant-full:dlib_face_identify - image processing platform allows you to use the Dlib
+app-misc/homeassistant-full:dlink - allows you to control the state of your D-Link Wi-Fi Smart Plugs
+app-misc/homeassistant-full:dlna_dmr - allows you to control a DLNA Digital Media Renderer
+app-misc/homeassistant-full:dnsip - will expose an IP address, fetched via DNS resolution, as its value
+app-misc/homeassistant-full:dominos - dominos integration allows you to order Dominos Pizza
+app-misc/homeassistant-full:doods - image processing integration allows you to detect and recognize objects
 app-misc/homeassistant-full:doorbird - The doorbird implementation allows you to integrate your DoorBird device
-app-misc/homeassistant-full:dovado - 
-app-misc/homeassistant-full:dsmr - 
+app-misc/homeassistant-full:dovado - The dovado integration manages communication with the Dovado router
+app-misc/homeassistant-full:dsmr - Dutch Smart Meters which comply to DSMR (Dutch Smart Meter Requirements)
 app-misc/homeassistant-full:dunehd - control a Dune HD media player
-app-misc/homeassistant-full:dwd_weather_warnings - 
-app-misc/homeassistant-full:dweet - 
+app-misc/homeassistant-full:dwd_weather_warnings - dwd_weather_warnings sensor platform uses DWD for warnings
+app-misc/homeassistant-full:dweet - transfer details collected with Home Assistant to Dweet.io
 app-misc/homeassistant-full:dynalite - Dynalite DyNET interface
 app-misc/homeassistant-full:dyson - integrate all Dyson related platforms
-app-misc/homeassistant-full:eafm - 
-app-misc/homeassistant-full:ebox - 
-app-misc/homeassistant-full:ebusd - 
-app-misc/homeassistant-full:ecoal_boiler - 
+app-misc/homeassistant-full:eafm - UK Environment Agency Flood Monitoring API to provide sensors
+app-misc/homeassistant-full:ebox - Integrate your EBox account information into Home Assistant
+app-misc/homeassistant-full:ebusd - Integration between ebusd daemon for communication with eBUS heating systems
+app-misc/homeassistant-full:ecoal_boiler - The ecoal_boiler integration is the base for pumps and sensors
 app-misc/homeassistant-full:ecobee - talking to Ecobee thermostats
-app-misc/homeassistant-full:econet - 
-app-misc/homeassistant-full:ecovacs - 
-app-misc/homeassistant-full:eddystone_temperature - 
-app-misc/homeassistant-full:edimax - 
-app-misc/homeassistant-full:edl21 - 
-app-misc/homeassistant-full:ee_brightbox - 
-app-misc/homeassistant-full:egardia - 
-app-misc/homeassistant-full:eight_sleep - 
-app-misc/homeassistant-full:elgato - 
-app-misc/homeassistant-full:eliqonline - 
-app-misc/homeassistant-full:elkm1 - 
+app-misc/homeassistant-full:econet - consuming the information provided by a EcoNet enabled Rheem water heater
+app-misc/homeassistant-full:ecovacs - ecovacs integration to integrate all Ecovacs (Deebot) vacuums
+app-misc/homeassistant-full:eddystone_temperature - reads temperature information from Eddystone beacons
+app-misc/homeassistant-full:edimax - switch platform allows you to control the state of your Edimax switches
+app-misc/homeassistant-full:edl21 - edl21 integration lets you read German EDL21 smart meters using SML
+app-misc/homeassistant-full:ee_brightbox - presence detection by looking at connected devices to a EE Bright Box 2 router
+app-misc/homeassistant-full:egardia - control an Egardia/Woonveilig alarm control panel
+app-misc/homeassistant-full:eight_sleep - fetch data from your Eight Sleep smart cover or mattress
+app-misc/homeassistant-full:elgato - The Elgato Key Light sets the bar for high-end studio lighting
+app-misc/homeassistant-full:eliqonline - Integrate your ELIQ Online smart meter information
+app-misc/homeassistant-full:elkm1 - Elk-M1 is a home security and automation controller
 app-misc/homeassistant-full:elv - control the state of your ELV PCA 301 smart switch
-app-misc/homeassistant-full:emby - 
-app-misc/homeassistant-full:emulated_hue - 
-app-misc/homeassistant-full:emulated_kasa - 
+app-misc/homeassistant-full:emby - The emby platform allows you to control a Emby multimedia system
+app-misc/homeassistant-full:emulated_hue - emulated_hue integration provides a virtual Philips Hue bridge
+app-misc/homeassistant-full:emulated_kasa - emulates a TP-Link Kasa smart plug and announces the power usage
 app-misc/homeassistant-full:emulated_roku - emulate Roku API for Harmony and Android remotes
 app-misc/homeassistant-full:enigma2 - Support for Enigma2 boxes with openwebif support
 app-misc/homeassistant-full:enocean - Support for Enocean devices
 app-misc/homeassistant-full:enphase_envoy - Reads electricity production and consumption from an Enphase Envoy
-app-misc/homeassistant-full:entur_public_transport - 
+app-misc/homeassistant-full:entur_public_transport - entur_public_transport sensor gives real-time departure information
 app-misc/homeassistant-full:environment_canada - access meteorological data from Environment Canada
-app-misc/homeassistant-full:envirophat - 
-app-misc/homeassistant-full:envisalink - 
-app-misc/homeassistant-full:ephember - 
-app-misc/homeassistant-full:epson - 
-app-misc/homeassistant-full:epsonworkforce - 
-app-misc/homeassistant-full:eq3btsmart - 
+app-misc/homeassistant-full:envirophat - display information collected by an Enviro pHAT add-on board
+app-misc/homeassistant-full:envisalink - a device produced by Eyez On, known as the Envisalink
+app-misc/homeassistant-full:ephember - The ephember climate platform lets you control EPH Controls thermostats
+app-misc/homeassistant-full:epson - The epson platform allows you to control a Epson projector
+app-misc/homeassistant-full:epsonworkforce - monitor the ink levels of a Epson Workforce printer
+app-misc/homeassistant-full:eq3btsmart - integrate EQ3 Bluetooth Smart Thermostats
 app-misc/homeassistant-full:esphome - Support for esphome sensors, covers and switches and it's dashboard
-app-misc/homeassistant-full:essent - 
+app-misc/homeassistant-full:essent - communicate with the (undocumented) API of Dutch energy provider Essent
 app-misc/homeassistant-full:etherscan - displays Ether and ERC-20 token balances from Etherscan.io
-app-misc/homeassistant-full:eufy - 
+app-misc/homeassistant-full:eufy - eufy integration is the main integration to integrate various eufy devices
 app-misc/homeassistant-full:everlights - Library for controlling an EverLights lighting system
 app-misc/homeassistant-full:evohome - links with all non-US Honeywell Total Connect Comfort (TCC) CH/DHW systems
-app-misc/homeassistant-full:ezviz - 
-app-misc/homeassistant-full:familyhub - 
-app-misc/homeassistant-full:fastdotcom - 
-app-misc/homeassistant-full:feedreader - 
+app-misc/homeassistant-full:ezviz - ezviz sensor platform uses the EzvizLife API to interact with the devices
+app-misc/homeassistant-full:familyhub - get images of the inside of your Samsung Family Hub refrigerator
+app-misc/homeassistant-full:fastdotcom - uses the Fast.com web service to measure network bandwidth performance
+app-misc/homeassistant-full:feedreader - an RSS/Atom feed reader that polls feeds every hour
 app-misc/homeassistant-full:ffmpeg - 
 app-misc/homeassistant-full:fibaro - Fibaro hub is a controller mainly connecting to Z-Wave devices
 app-misc/homeassistant-full:fido - 
@@ -761,7 +765,7 @@ app-misc/homeassistant-full:rejseplanen - travel details for Danish public trans
 app-misc/homeassistant-full:remember_the_milk - 
 app-misc/homeassistant-full:remote_rpi_gpio - 
 app-misc/homeassistant-full:repetier - 
-app-misc/homeassistant-full:rest - 
+app-misc/homeassistant-full:rest - rest sensor platform for data exposed by a RESTful API
 app-misc/homeassistant-full:rflink - 
 app-misc/homeassistant-full:rfxtrx - 
 app-misc/homeassistant-full:ring - integrate your ring.com devices
@@ -846,7 +850,7 @@ app-misc/homeassistant-full:speedtestdotnet - speedtest.net support
 app-misc/homeassistant-full:spider - 
 app-misc/homeassistant-full:spotcrime - 
 app-misc/homeassistant-full:spotify - 
-app-misc/homeassistant-full:sql - 
+app-misc/homeassistant-full:sql - enables you to use an SQL database supported by the sqlalchemy library
 app-misc/homeassistant-full:squeezebox - library to control Logitech Media Server
 app-misc/homeassistant-full:ssdp - 
 app-misc/homeassistant-full:ssl - include support for haproxy
@@ -898,7 +902,7 @@ app-misc/homeassistant-full:tmb -
 app-misc/homeassistant-full:todoist - 
 app-misc/homeassistant-full:tof - 
 app-misc/homeassistant-full:toon - client for the Quby ToonAPI
-app-misc/homeassistant-full:totalconnect - 
+app-misc/homeassistant-full:totalconnect - provides connectivity with the Honeywell TotalConnect alarm systems
 app-misc/homeassistant-full:touchline - 
 app-misc/homeassistant-full:tplink - control your TP-Link Smart Home Devices
 app-misc/homeassistant-full:tplink_lte - 
@@ -1001,6 +1005,7 @@ app-misc/homeassistant-min:caldav - integrate a CalDAV (RFC4791) calendar
 app-misc/homeassistant-min:cli - set a dependency for Home Assistant Cli hass-cli (lots of modules required)
 app-misc/homeassistant-min:coronavirus - add sensors for COVID-19 infections from Johns Hopkins University
 app-misc/homeassistant-min:darksky - use dark sky weather data
+app-misc/homeassistant-min:dwd_weather_warnings - dwd_weather_warnings sensor platform uses DWD for warnings
 app-misc/homeassistant-min:enigma2 - Support for Enigma2 boxes with openwebif support
 app-misc/homeassistant-min:esphome - Support for esphome sensors, covers and switches and it's dashboard
 app-misc/homeassistant-min:fronius - add (very basic) Support for Fronius Symo JSON Api
@@ -1025,6 +1030,7 @@ app-misc/homeassistant-min:signal_messenger - add Support for Moxie's Signal API
 app-misc/homeassistant-min:snmp - Presence Detection, Sensor, Switch via SNMP
 app-misc/homeassistant-min:socat - Set a flag to install socat and socat-zwave startscript
 app-misc/homeassistant-min:sonos - Sonos Media Player Support
+app-misc/homeassistant-min:sql - enables you to use an SQL database supported by the sqlalchemy library
 app-misc/homeassistant-min:ssl - include support for haproxy
 app-misc/homeassistant-min:test - internal and developer use
 app-misc/homeassistant-min:tradfri - Control/observe IKEA Tradfri devices
@@ -1032,6 +1038,7 @@ app-misc/homeassistant-min:version - display the current Home Assistant versions
 app-misc/homeassistant-min:workday - generating country, province and state specific sets of holidays on the fly
 app-misc/homeassistant-min:yamaha - Library for Yamaha RX-* Receivers
 app-misc/homeassistant-min:yamaha_musiccast - add support for Yamaha MusicCast devices
+app-misc/homeassistant-min:zwave - Support for Z-Wave Devices (uncomplete)
 dev-embedded/esphome:server - create user and install init-script to run ESPHome Dashboard
 dev-python/cryptography:idna - enable support for the old, deprecated IDNA specification (RFC 3490)
 dev-python/passlib:bcrypt - bcrpyt hash algoryptm support
