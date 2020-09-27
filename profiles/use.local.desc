@@ -1017,6 +1017,7 @@ app-misc/homeassistant-min:owntracks - OwnTracks: track your location and send i
 app-misc/homeassistant-min:ping - ICMPLib
 app-misc/homeassistant-min:qnap - Python API for obtaining QNAP NAS system stats
 app-misc/homeassistant-min:recorder - storing details in a database per sqlalchemy
+app-misc/homeassistant-min:rest - rest sensor platform for data exposed by a RESTful API
 app-misc/homeassistant-min:samsungtv - Support for Samsung TV Sets
 app-misc/homeassistant-min:scrape - scraping information from websites
 app-misc/homeassistant-min:shelly - Shelly devices

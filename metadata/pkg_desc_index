@@ -6,7 +6,7 @@ app-crypt/acme 1.4.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.0 0.9.1 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/homeassistant 0.110.7 0.111.4 0.112.5 0.113.3 0.114.2 0.114.3 0.114.4 0.115.0_beta10 0.115.0_beta11 0.115.0_beta12 0.115.0 0.115.1-r1 0.115.2 0.115.2-r1 0.115.3: Open-source home automation platform running on Python 3.7 & 3.8
 app-misc/homeassistant-full 0.115.2 0.115.3: Open-source home automation platform running on Python 3.7 & 3.8
-app-misc/homeassistant-min 0.115.2 0.115.3 0.115.3-r1: Open-source home automation platform running on Python 3.7 & 3.8
+app-misc/homeassistant-min 0.115.2 0.115.3 0.115.3-r2: Open-source home automation platform running on Python 3.7 & 3.8
 dev-embedded/esphome 1.13.2 1.13.6-r1 1.14.1 1.14.2 1.14.3-r6 1.14.3-r7 1.14.4 1.14.4-r1 1.14.5 1.14.5-r1 1.14.5-r2 1.15.0_beta4 1.15.0 1.15.1 1.15.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 4.0.3-r3 4.3.1 4.3.4 5.0.1: A professional collaborative platform for embedded development. Cross-platform IDE and Unified Debugger. Static Code Analyzer and Remote Unit Testing. Multi-platform and Multi-architecture Build System. Firmware File Explorer and Memory Inspection. IoT, Arduino, CMSIS, ESP-IDF, FreeRTOS, libOpenCM3, mbedOS, Pulp OS, SPL, STM32Cube, Zephyr RTOS, ARM, AVR, Espressif (ESP8266/ESP32), FPGA, MCS-51 (8051), MSP430, Nordic (nRF51/nRF52), NXP i.MX RT, PIC32, RISC-V, STMicroelectronics (STM8/STM32), Teensy
