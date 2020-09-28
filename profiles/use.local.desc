@@ -679,47 +679,47 @@ app-misc/homeassistant-full:nsw_rural_fire_service_feed -
 app-misc/homeassistant-full:nuheat - 
 app-misc/homeassistant-full:nuimo_controller - 
 app-misc/homeassistant-full:nuki - control Nuki Smart Locks
-app-misc/homeassistant-full:numato - 
-app-misc/homeassistant-full:nut - 
+app-misc/homeassistant-full:numato - base for all related GPIO platforms of the Numato 32 Port USB GPIO expander
+app-misc/homeassistant-full:nut - monitor a UPS (battery backup) by using data from a NUT (Network UPS Tools)
 app-misc/homeassistant-full:nws - uses the National Weather Service web API
 app-misc/homeassistant-full:nx584 - NX584/NX8E Interface Library and Server
-app-misc/homeassistant-full:nzbget - 
-app-misc/homeassistant-full:oasa_telematics - 
-app-misc/homeassistant-full:obihai - 
-app-misc/homeassistant-full:oem - 
-app-misc/homeassistant-full:ohmconnect - 
-app-misc/homeassistant-full:ombi - 
-app-misc/homeassistant-full:onewire - 
-app-misc/homeassistant-full:onkyo - 
-app-misc/homeassistant-full:onvif - 
-app-misc/homeassistant-full:opencv - 
-app-misc/homeassistant-full:openerz - 
-app-misc/homeassistant-full:openevse - 
+app-misc/homeassistant-full:nzbget - monitor and control your downloads with NZBGet
+app-misc/homeassistant-full:oasa_telematics - bus and trolley arrival times for Greek public transport for Athens
+app-misc/homeassistant-full:obihai - view the call status for your Obihai devices
+app-misc/homeassistant-full:oem - ESP8266 based “WiFi MQTT Relay / Thermostat” sold by OpenEnergyMonitor
+app-misc/homeassistant-full:ohmconnect - show you the current OhmConnect status for the given OhmConnect ID
+app-misc/homeassistant-full:ombi - The Ombi integration monitors data from your Ombi instance
+app-misc/homeassistant-full:onewire - supports sensors which that using the One wire (1-wire) bus for communication
+app-misc/homeassistant-full:onkyo - allows you to control a Onkyo, Integra and some recent Pioneer receivers
+app-misc/homeassistant-full:onvif - allows you to use an ONVIF Profile S conformant device
+app-misc/homeassistant-full:opencv - OpenCV is an open source computer vision image and video processing library
+app-misc/homeassistant-full:openerz - uses OpenERZ API to access data from Entsorgung und Recycling Zürich (ERZ)
+app-misc/homeassistant-full:openevse - an OpenEVSE Charging station equipped with an ESP8266-based Wi-Fi
 app-misc/homeassistant-full:opengarage - opengarage cover platform lets you control the open-source OpenGarage.io device
-app-misc/homeassistant-full:openhome - 
+app-misc/homeassistant-full:openhome - connect an Openhome Compliant Renderer to Home Assistant
 app-misc/homeassistant-full:opensensemap - query the open data API of openSenseMap.org air quality sensor station
-app-misc/homeassistant-full:opentherm_gw - 
-app-misc/homeassistant-full:openuv - 
-app-misc/homeassistant-full:openweathermap - 
-app-misc/homeassistant-full:opnsense - 
-app-misc/homeassistant-full:opple - 
-app-misc/homeassistant-full:orangepi_gpio - 
-app-misc/homeassistant-full:oru - 
-app-misc/homeassistant-full:orvibo - 
-app-misc/homeassistant-full:osramlightify - 
+app-misc/homeassistant-full:opentherm_gw - control the OpenTherm Gateway from Home Assistant
+app-misc/homeassistant-full:openuv - The openuv integration displays UV and Ozone data from openuv.io
+app-misc/homeassistant-full:openweathermap - uses OpenWeatherMap as a source for current meteorological data
+app-misc/homeassistant-full:opnsense - Presence Detection with data from OPNsense firewall
+app-misc/homeassistant-full:opple - allows you to control the state of your Opple smart light
+app-misc/homeassistant-full:orangepi_gpio - The orangepi_gpio integration is the base for all related GPIO platforms
+app-misc/homeassistant-full:oru - fetches your current energy usage from your ORU smart meter
+app-misc/homeassistant-full:orvibo - allows you to toggle your (dangerous) Orvibo S20 Wifi Smart Sockets
+app-misc/homeassistant-full:osramlightify - allows you to integrate your Osram Lightify into Home Assistant
 app-misc/homeassistant-full:otp - generates One-Time Passwords according to RFC6238
-app-misc/homeassistant-full:ovo_energy - 
+app-misc/homeassistant-full:ovo_energy - allows you to monitor your energy consumption data
 app-misc/homeassistant-full:owntracks - OwnTracks: track your location and send it directly to Home Assistant
 app-misc/homeassistant-full:ozw - Open Zwave MQTT
-app-misc/homeassistant-full:panasonic_bluray - 
+app-misc/homeassistant-full:panasonic_bluray - allows you to control a Panasonic Blu-Ray player
 app-misc/homeassistant-full:panasonic_viera - panasonic_viera platform allows you to control a Panasonic Viera TV
-app-misc/homeassistant-full:pandora - 
-app-misc/homeassistant-full:pcal9535a - 
-app-misc/homeassistant-full:pencom - 
+app-misc/homeassistant-full:pandora - Pandora account, you can control it from Home Assistant with this media player
+app-misc/homeassistant-full:pcal9535a - pcal9535a integration is the base for all related pcal9535a platforms
+app-misc/homeassistant-full:pencom - Pencom is a computer-controlled relay, I/O and custom boards
 app-misc/homeassistant-full:philips_js - allows you to control Philips TVs which expose the jointSPACE JSON-API
-app-misc/homeassistant-full:pi4ioe5v9xxxx - 
+app-misc/homeassistant-full:pi4ioe5v9xxxx - support for the quasi-bidirectional devices pi4ioe5v9xxxx I2C I/O port expander
 app-misc/homeassistant-full:pi_hole - 
-app-misc/homeassistant-full:piglow - 
+app-misc/homeassistant-full:piglow - control the Piglow lights on your Raspberry Pi from within Home Assistant
 app-misc/homeassistant-full:pilight - Pilight is a open source solution to communicate with 433 MHz devices
 app-misc/homeassistant-full:ping - ICMPLib
 app-misc/homeassistant-full:pjlink - 
