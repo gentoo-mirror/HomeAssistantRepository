@@ -182,6 +182,7 @@ app-misc/homeassistant:plugwise - Plugwise_Smile (Anna/Adam/P1) API
 app-misc/homeassistant:poolsense - PoolSense is a smart pool monitor
 app-misc/homeassistant:powerwall - API for Tesla Powerwall
 app-misc/homeassistant:ps4 - allows you to control a Sony PlayStation 4 console
+app-misc/homeassistant:python_script - write Python scripts that are exposed as services in Home Assistant
 app-misc/homeassistant:qnap - Python API for obtaining QNAP NAS system stats
 app-misc/homeassistant:rachio - The rachio platform allows you to control your Rachio irrigation system
 app-misc/homeassistant:rainbird - allows interacting with LNK WiFi module of the Rain Bird Irrigation system
@@ -237,6 +238,7 @@ app-misc/homeassistant:vera - add support for Vera Z-Wave Controller
 app-misc/homeassistant:version - display the current Home Assistant versions
 app-misc/homeassistant:vicare - communicate with the Viessmann ViCare API
 app-misc/homeassistant:vizio - allows you to control SmartCast-compatible TVs
+app-misc/homeassistant:wake_on_lan - enables the ability to send magic packets to Wake on LAN capable devices
 app-misc/homeassistant:waqi - will query World Air Quality Index service
 app-misc/homeassistant:waze_travel_time - waze_travel_time sensor provides travel time from the Waze
 app-misc/homeassistant:webostv - allows you to control a LG webOS Smart TV
@@ -1010,6 +1012,7 @@ app-misc/homeassistant-min:enigma2 - Support for Enigma2 boxes with openwebif su
 app-misc/homeassistant-min:esphome - Support for esphome sensors, covers and switches and it's dashboard
 app-misc/homeassistant-min:fronius - add (very basic) Support for Fronius Symo JSON Api
 app-misc/homeassistant-min:github - GitHub sensor integrates data from GitHub to monitor your favorite repositories
+app-misc/homeassistant-min:homekit - works as both HomeKit controller and accessory
 app-misc/homeassistant-min:influxdb - transfer sensor data to a local InfluxDB database
 app-misc/homeassistant-min:kodi - control a Kodi multimedia system
 app-misc/homeassistant-min:maxcube - eQ-3 ELV MAX Cube Python API
@@ -1022,6 +1025,7 @@ app-misc/homeassistant-min:notify_events - The Notify.Events service is a platfo
 app-misc/homeassistant-min:otp - generates One-Time Passwords according to RFC6238
 app-misc/homeassistant-min:owntracks - OwnTracks: track your location and send it directly to Home Assistant
 app-misc/homeassistant-min:ping - ICMPLib
+app-misc/homeassistant-min:python_script - write Python scripts that are exposed as services in Home Assistant
 app-misc/homeassistant-min:qnap - Python API for obtaining QNAP NAS system stats
 app-misc/homeassistant-min:recorder - storing details in a database per sqlalchemy
 app-misc/homeassistant-min:rest - rest sensor platform for data exposed by a RESTful API
@@ -1037,6 +1041,7 @@ app-misc/homeassistant-min:ssl - include support for haproxy
 app-misc/homeassistant-min:test - internal and developer use
 app-misc/homeassistant-min:tradfri - Control/observe IKEA Tradfri devices
 app-misc/homeassistant-min:version - display the current Home Assistant versions
+app-misc/homeassistant-min:wake_on_lan - enables the ability to send magic packets to Wake on LAN capable devices
 app-misc/homeassistant-min:workday - generating country, province and state specific sets of holidays on the fly
 app-misc/homeassistant-min:yamaha - Library for Yamaha RX-* Receivers
 app-misc/homeassistant-min:yamaha_musiccast - add support for Yamaha MusicCast devices
