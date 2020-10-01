@@ -493,6 +493,7 @@ app-misc/homeassistant-full:gitter - sensor allows one to monitor a Gitter.im ch
 app-misc/homeassistant-full:glances - allows you to monitor the system information provided by the Glances API
 app-misc/homeassistant-full:gntp - 
 app-misc/homeassistant-full:goalfeed - use your Goalfeed account to trigger events in Home Assistant
+app-misc/homeassistant-full:goalzero - Goal Zero REST Api
 app-misc/homeassistant-full:gogogate2 - lets you control Gogogate2-Enabled garage doors
 app-misc/homeassistant-full:google - 
 app-misc/homeassistant-full:google_cloud - 
@@ -691,6 +692,7 @@ app-misc/homeassistant-full:obihai - view the call status for your Obihai device
 app-misc/homeassistant-full:oem - ESP8266 based “WiFi MQTT Relay / Thermostat” sold by OpenEnergyMonitor
 app-misc/homeassistant-full:ohmconnect - show you the current OhmConnect status for the given OhmConnect ID
 app-misc/homeassistant-full:ombi - The Ombi integration monitors data from your Ombi instance
+app-misc/homeassistant-full:omnilogic - Hayward Onmilogic pool control system
 app-misc/homeassistant-full:onewire - supports sensors which that using the One wire (1-wire) bus for communication
 app-misc/homeassistant-full:onkyo - allows you to control a Onkyo, Integra and some recent Pioneer receivers
 app-misc/homeassistant-full:onvif - allows you to use an ONVIF Profile S conformant device
@@ -783,6 +785,7 @@ app-misc/homeassistant-full:rova -
 app-misc/homeassistant-full:rpi_gpio - 
 app-misc/homeassistant-full:rpi_gpio_pwm - 
 app-misc/homeassistant-full:rpi_pfio - 
+app-misc/homeassistant-full:rpi_power - monitor your Raspis Power Supply
 app-misc/homeassistant-full:rpi_rf - 
 app-misc/homeassistant-full:russound_rio - 
 app-misc/homeassistant-full:russound_rnet - 
