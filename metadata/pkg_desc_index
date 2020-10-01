@@ -511,7 +511,7 @@ dev-python/pip 19.0.2: Installs python packages -- replacement for easy_install
 dev-python/pipdeptree 1.0.0: Command line utility to show dependency tree of packages
 dev-python/pizzapi 0.0.3 0.0.6: A Python wrapper for the Dominos Pizza API
 dev-python/plexauth 0.0.4 0.0.5-r1: Authorization flow to obtain tokens from Plex.tv via external redirection.
-dev-python/plexwebsocket 0.0.6 0.0.7 0.0.8 0.0.10 0.0.11: Support for issuing callbacks in response to Plex websocket client updates.
+dev-python/plexwebsocket 0.0.7 0.0.8 0.0.10 0.0.11 0.0.12: Support for issuing callbacks in response to Plex websocket client updates.
 dev-python/plumlightpad 0.0.11: A python package that interacts with the Plum Lightpad
 dev-python/pmsensor 0.4: Library to read data from environment sensors
 dev-python/pocketcasts 0.1: python module to interact with the unofficial Pocket Casts API.
@@ -557,7 +557,7 @@ dev-python/pyEmby 1.6: Provides a python interface to interact with a Emby media
 dev-python/pyEzviz 0.1.5.2: Pilot your Ezviz cameras
 dev-python/pyHS100 0.3.3 0.3.4 0.3.5 0.3.5.1: Interface for TPLink HS1xx plugs, HS2xx wall switches & LB1xx bulbs
 dev-python/pyHik 0.2.2 0.2.3 0.2.4 0.2.5 0.2.7: Interact with a Hikvision camera event stream and toggle motion detection.
-dev-python/pyRFXtrx 0.23.0 0.24.0 0.25.0: a library to communicate with the RFXtrx family of devices
+dev-python/pyRFXtrx 0.23.0 0.24.0 0.25.0 0.26.0: a library to communicate with the RFXtrx family of devices
 dev-python/pySDCP 1: SDCP library to control Sony Projectors
 dev-python/pyTibber 0.14.0 0.15.1 0.15.2 0.15.3: A python3 library to communicate with Tibber
 dev-python/pyW215 0.6.0 0.7.0: Interface for d-link W215 Smart Plugs.
@@ -921,7 +921,7 @@ dev-python/streamlabswater 1.0.1: Unofficial Python library for the Streamlabs W
 dev-python/stringcase 1.2.0: String case converter.
 dev-python/sucks 0.9.4: a library for controlling certain robot vacuums
 dev-python/sunwatcher 0.2.1: Binding to SolarLog HTTP API
-dev-python/surepy 0.1.10 0.2.3 0.2.5: Library to interact with the flaps & doors from Sure Petcare
+dev-python/surepy 0.1.10 0.2.3 0.2.5 0.2.6: Library to interact with the flaps & doors from Sure Petcare
 dev-python/swisshydrodata 0.0.3: A library to fetch data from the Swiss federal Office for Environment FEON
 dev-python/synology-srm 0.0.7 0.1.2 0.2.0: Synology SRM API
 dev-python/tabulate 0.8.5 0.8.5-r1: Pretty-print tabular data
