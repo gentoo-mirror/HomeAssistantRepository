@@ -120,7 +120,7 @@ dev-python/aiopvapi 1.6.14: Powerview blinds API wrapper
 dev-python/aiopvpc 2.0.2: Retrieval of Spanish Electricity hourly prices (PVPC)
 dev-python/aiopylgtv 0.2.6 0.2.7 0.3.0 0.3.2 0.3.3: Library to control webOS based LG Tv devices
 dev-python/aioredis 1.2.0: asyncio (PEP 3156) Redis support
-dev-python/aioshelly 0.2.2 0.3.0 0.3.1 0.3.2 0.3.3: Asynchronous library to control Shelly devices.
+dev-python/aioshelly 0.2.2 0.3.0 0.3.1 0.3.2 0.3.3 0.3.4: Asynchronous library to control Shelly devices.
 dev-python/aioswitcher 1.1.1 1.2.0 1.2.1: Switcher Water Heater Unofficial Bridge and API.
 dev-python/aiounifi 17 18 20 21 22 23: An asynchronous Python library for communicating with Unifi Controller API
 dev-python/aiowwlln 1.0.0 2.0.1 2.0.2: A simple Python API for the WWLLN
@@ -243,7 +243,7 @@ dev-python/deepmerge 0.1.0: a toolset to deeply merge python dictionaries.
 dev-python/defusedxml 0.6.0-r1: XML bomb protection for Python stdlib modules, an xml serialiser
 dev-python/deluge-client 1.4.0 1.7.1: Simple Deluge Client
 dev-python/demjson 2.2.4: encoder, decoder, and lint/validator for JSON (JavaScript Object Notation) compliant with RFC 7159
-dev-python/denonavr 0.7.8 0.7.9 0.8.0 0.8.1 0.9.3 0.9.4: Automation Library for Denon AVR receivers
+dev-python/denonavr 0.7.8 0.7.9 0.8.0 0.8.1 0.9.3 0.9.4 0.9.5: Automation Library for Denon AVR receivers
 dev-python/devolo-home-control-api 0.10.0 0.11.0 0.13.0 0.15.0: devolo Home Control API in Python
 dev-python/directpy 0.5 0.6 0.7: A python library for interacting with DirecTV receivers
 dev-python/directv 0.3.0: Asynchronous Python client for DirecTV (SHEF).
