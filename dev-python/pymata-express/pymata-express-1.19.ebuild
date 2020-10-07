@@ -7,20 +7,16 @@ PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Async single threaded connector to Splunk HEC using an asyncio session"
-HOMEPAGE="https://github.com/Bre77/hass_splunk https://pypi.org/project/hass-splunk/"
-MY_PN=${PN/-/_}
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
-S="${WORKDIR}/${MY_PN}-${PV}"
+DESCRIPTION="A Python Protocol Abstraction Library For Arduino Firmata using Python asyncio"
+HOMEPAGE="https://mryslab.github.io/pymata-express/ https://pypi.org/project/pymata-express/"
+SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="AGPL-3+"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.md"
-
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/pyserial[${PYTHON_USEDEP}]"
 BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
