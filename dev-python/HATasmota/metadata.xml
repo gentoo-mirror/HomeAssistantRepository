@@ -6,10 +6,6 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">tuyaha</remote-id>
-    <maintainer status="unknown">
-      <email>paul.annekov@gmail.com</email>
-      <name>Pavlo Annekov and original Tuya authors</name>
-    </maintainer>
+    <remote-id type="pypi">HATasmota</remote-id>
   </upstream>
 </pkgmetadata>
