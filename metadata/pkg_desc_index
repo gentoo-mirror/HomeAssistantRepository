@@ -549,6 +549,7 @@ dev-python/py-noaa 0.3.0 1.0: Python wrapper to fetch data from NOAA APIs
 dev-python/py-schluter 0.1.7: Python API for Schluter DITRA-HEAT thermostat
 dev-python/py-synology 0.2.0 0.3.0: Python API for Synology Surveillance Station
 dev-python/py-ubjson 0.14.0: Universal Binary JSON encoder/decoder
+dev-python/py-zabbix 1.1.7: Python module to work with zabbix.
 dev-python/py17track 2.2.2: A Simple Python API for 17track.net
 dev-python/pyAtome 0.1.1: Get your energy consumption from Atome Linky device
 dev-python/pyCEC 0.4.13 0.4.14: Provide HDMI CEC devices as objects, especially for use with Home Assistant
@@ -1012,7 +1013,7 @@ dev-python/xs1-api-client 2.3.5 3.0.0: A library to get and set values of the EZ
 dev-python/ya-ma 0.3.8: YANDEX transport API client library
 dev-python/yahooweather 0.10: a Python module that provides an interface to the Yahoo! Weather RSS feed.
 dev-python/yalesmartalarmclient 0.1.6: Interact with Yale Smart Alarm systems
-dev-python/yeelight 0.5.0 0.5.1 0.5.2 0.5.3: A Python library for controlling YeeLight RGB bulbs.
+dev-python/yeelight 0.5.0 0.5.1 0.5.2 0.5.3 0.5.4: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
 dev-python/youtube_dl 2020.6.6 2020.6.16.1 2020.7.28 2020.9.6 2020.9.14 2020.9.20: YouTube video downloader
 dev-python/zeep 3.4.0-r1: A modern/fast Python SOAP client based on lxml / requests
