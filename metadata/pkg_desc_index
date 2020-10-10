@@ -706,6 +706,7 @@ dev-python/pyrainbird 0.4.1 0.4.2: Rain Bird Controller
 dev-python/pyrecswitch 1.0.2: A pure-python interface for controlling Ankuoo RecSwitch MS6126
 dev-python/pyrepetier 3.0.5: Repetier Server API library
 dev-python/pyrisco 0.2.1 0.2.3 0.2.4 0.3.0 0.3.1: A python library to communicate with Risco Cloud.
+dev-python/pyruckus 0.7: Python API to interact with a Ruckus Unleashed device.
 dev-python/pyruter 1.2.4: A module to get information about the next departure from a stop
 dev-python/pysabnzbd 1.1.0: Python wrapper for SABnzbd API
 dev-python/pysaj 0.0.9 0.0.13 0.0.14 0.0.16: Library to communicate with SAJ inverters
