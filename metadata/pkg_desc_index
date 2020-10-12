@@ -24,7 +24,7 @@ dev-python/CO2Signal 0.4.1 0.4.2: A package to access the co2signal API
 dev-python/DoorBirdPy 2.0.8 2.1.0: Python wrapper for the DoorBird LAN API v0.21
 dev-python/GitPython 2.1.11: Python Git Library
 dev-python/HAP-python 2.8.3 2.8.4 2.9.1 2.9.2 3.0.0: HomeKit Accessory Protocol implementation in python
-dev-python/HATasmota 0.0.8 0.0.9 0.0.10: Python module to help parse and construct Tasmota MQTT messages.
+dev-python/HATasmota 0.0.8 0.0.9 0.0.10 0.0.11 0.0.13: Python module to help parse and construct Tasmota MQTT messages.
 dev-python/Hydrawiser 0.1.1 0.2: A Python library to communicate with Hunter Wi-Fi irrigation controllers (https://www.hunter.com) that support the Hydrawise application (https://www.hydrawise.com).
 dev-python/Js2Py 0.66: JavaScript to Python Translator & JavaScript interpreter.
 dev-python/Mastodon-py 1.4.5 1.4.6 1.5.0 1.5.1: Python wrapper for the Mastodon API
@@ -80,6 +80,7 @@ dev-python/adb-homeassistant 1.3.1 1.3.2: A pure python implementation of the An
 dev-python/adb-shell 0.0.8 0.0.9 0.1.0 0.1.1 0.1.3 0.2.0 0.2.1: ADB shell functionality
 dev-python/adext 0.3: AlarmDecoder extended
 dev-python/adguardhome 0.2.0 0.2.1 0.3.0 0.4.0 0.4.1 0.4.2: Asynchronous Python client for the AdGuard Home API.
+dev-python/advantage-air 0.2.1: API helper for Advantage Air's MyAir and e-zone API
 dev-python/aenum 2.1.2 2.2.4: Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
 dev-python/afsapi 0.0.4: Asynchronous Implementation of the Frontier Silicon API
 dev-python/agent-py 0.0.20 0.0.23: A python wrapper around the Agent REST API.
@@ -331,7 +332,7 @@ dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud AP
 dev-python/gpiozero 1.4.1 1.5.0-r1 1.5.1 1.5.1-r1: A simple interface to GPIO devices with Raspberry Pi.
 dev-python/gps3 0.33.3: Python 2.7-3.5 clients for gpsd
 dev-python/graphql-subscription-manager 0.3.2 0.3.5 0.3.6: A python3 library for graphql subscription manager
-dev-python/greeneye-monitor 1.0.1 2.0: Receive data packets from GreenEye Monitor(https://www.brultech.com/greeneye/)
+dev-python/greeneye-monitor 1.0.1 2.0 2.1: Receive data packets from GreenEye Monitor(https://www.brultech.com/greeneye/)
 dev-python/greenwavereality 0.5.1: Control of Greenwave Reality Lights
 dev-python/griddypower 0.1.0: Python API for Griddy Wholesale Electricity
 dev-python/growattServer 0.0.1 0.0.4 0.1.1: A package to talk to growatt server
@@ -502,6 +503,7 @@ dev-python/pencompy 0.0.3 0.0.4: Pencom relay controller over Ethernet
 dev-python/pexpect 4.6.0: Python module for spawning child apps and responding to expected patterns
 dev-python/phx-class-registry 3.0.5: Factory+Registry pattern for Python classes.
 dev-python/phx-filters 2.0.2: Validation and data pipelines made easy!
+dev-python/pi1wire 0.1.0: 1Wire Sensor Library for Raspberry PI
 dev-python/pi4ioe5v9xxxx 0.0.2: Driver for pi4ioe5v0xxxx I2C IO expander chips
 dev-python/pifacecommon 4.2.2: The PiFace common functions module.
 dev-python/pifacedigitalio 3.0.5: The PiFace Digital I/O module.
@@ -1030,7 +1032,7 @@ dev-python/zigpy-homeassistant 0.14.0 0.15.0 0.16.0 0.18.0 0.18.1 0.18.2 0.19.0:
 dev-python/zigpy-xbee 0.12.1 0.13.0: A library which communicates with XBee radios for zigpy
 dev-python/zigpy-xbee-homeassistant 0.4.0 0.5.0 0.6.0 0.7.0 0.8.0 0.9.0 0.10.0 0.11.0: A library which communicates with XBee radios for zigpy
 dev-python/zigpy-zigate 0.3.1 0.4.0 0.4.1 0.5.0 0.5.1 0.6.1 0.6.2: A library which communicates with ZiGate radios for zigpy
-dev-python/zigpy-znp 0.1.1 0.2.0 0.2.1: A library for zigpy which communicates with TI ZNP radios
+dev-python/zigpy-znp 0.1.1 0.2.0 0.2.1 0.2.2: A library for zigpy which communicates with TI ZNP radios
 dev-python/zipp 0.5.0 0.5.1 0.5.1-r1: Backport of pathlib-compatible object wrapper for zip files
 dev-python/zm-py 0.3.3 0.4.0: A loose python wrapper around the ZoneMinder REST API.
 media-libs/mutagen 1.43.0 1.45.0 1.45.1: Audio metadata tag reader and writer implemented in pure Python
