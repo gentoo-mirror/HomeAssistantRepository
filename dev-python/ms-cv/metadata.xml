@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pypoint</remote-id>
+    <remote-id type="pypi">ms-cv</remote-id>
     <maintainer status="unknown">
-      <email>fredrik.e@gmail.com</email>
-      <name>Fredrik Erlandsson</name>
+      <email>noreply@openxbox.org</email>
+      <name>OpenXbox</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
