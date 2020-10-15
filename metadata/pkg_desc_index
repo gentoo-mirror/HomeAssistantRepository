@@ -1013,7 +1013,7 @@ dev-python/wolf_smartset 0.1.4 0.1.6: A package to comunicate with Wolf Smart Se
 dev-python/wsaccel 0.6.2_p20170108-r1: Accelerator for ws4py, autobahn and tornado
 dev-python/wunderpy2 0.1.6: A Python library for the Wunderlist 2 REST API
 dev-python/xbee-helper 0.0.7: a high level API to an XBee device
-dev-python/xbox-webapi 2.0.7: A library to authenticate with Windows Live/Xbox Live and use their API
+dev-python/xbox-webapi 2.0.7 2.0.8: A library to authenticate with Windows Live/Xbox Live and use their API
 dev-python/xboxapi 0.1.1 2.0.0 2.0.1: A wrapper library for XboxAPI.com
 dev-python/xfinity-gateway 0.0.4: Query an Xfinity Gateway
 dev-python/xknx 0.11.2 0.11.3 0.12.0 0.13.0 0.14.2 0.14.3 0.14.4 0.15.0: An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/
