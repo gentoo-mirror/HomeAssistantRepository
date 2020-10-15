@@ -4,9 +4,9 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.4.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.0 0.9.1 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 0.110.7 0.111.4 0.112.5 0.113.3 0.114.4 0.115.5 0.115.6 0.116.0_beta4 0.116.0_beta5 0.116.0_beta6 0.116.0 0.116.1 0.116.2: Open-source home automation platform running on Python 3.7 & 3.8
-app-misc/homeassistant-full 0.115.2 0.115.3-r2 0.115.4-r1 0.115.5 0.115.6 0.116.0_beta4 0.116.0_beta5 0.116.0_beta6 0.116.0 0.116.1 0.116.2 9999: Open-source home automation platform running on Python 3.7 & 3.8
-app-misc/homeassistant-min 0.115.3-r2 0.115.4 0.115.5 0.115.6 0.116.0_beta4 0.116.0_beta5 0.116.0_beta6 0.116.0 0.116.1 0.116.2: Open-source home automation platform running on Python 3.7 & 3.8
+app-misc/homeassistant 0.110.7 0.111.4 0.112.5 0.113.3 0.114.4 0.115.5 0.115.6 0.116.0_beta4 0.116.0_beta5 0.116.0_beta6 0.116.0 0.116.1 0.116.2 0.116.3: Open-source home automation platform running on Python 3.7 & 3.8
+app-misc/homeassistant-full 0.115.2 0.115.3-r2 0.115.4-r1 0.115.5 0.115.6 0.116.0_beta4 0.116.0_beta5 0.116.0_beta6 0.116.0 0.116.1 0.116.2 0.116.3 9999: Open-source home automation platform running on Python 3.7 & 3.8
+app-misc/homeassistant-min 0.115.3-r2 0.115.4 0.115.5 0.115.6 0.116.0_beta5 0.116.0_beta6 0.116.0 0.116.1 0.116.2 0.116.3: Open-source home automation platform running on Python 3.7 & 3.8
 dev-embedded/esphome 1.13.2 1.13.6-r1 1.14.1 1.14.2 1.14.3-r6 1.14.3-r7 1.14.4 1.14.4-r1 1.14.5 1.14.5-r1 1.14.5-r2 1.15.0_beta4 1.15.0 1.15.1 1.15.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 4.0.3-r3 4.3.1 4.3.4 5.0.1: A professional collaborative platform for embedded development. Cross-platform IDE and Unified Debugger. Static Code Analyzer and Remote Unit Testing. Multi-platform and Multi-architecture Build System. Firmware File Explorer and Memory Inspection. IoT, Arduino, CMSIS, ESP-IDF, FreeRTOS, libOpenCM3, mbedOS, Pulp OS, SPL, STM32Cube, Zephyr RTOS, ARM, AVR, Espressif (ESP8266/ESP32), FPGA, MCS-51 (8051), MSP430, Nordic (nRF51/nRF52), NXP i.MX RT, PIC32, RISC-V, STMicroelectronics (STM8/STM32), Teensy
@@ -32,7 +32,7 @@ dev-python/Mastodon-py 1.4.5 1.4.6 1.5.0 1.5.1: Python wrapper for the Mastodon 
 dev-python/MechanicalSoup 0.6.0: A python library for automating interaction with websites
 dev-python/OPi-GPIO 0.3.6 0.4.0: A drop-in replacement for RPi.GPIO for the Orange Pi Zero
 dev-python/PlexAPI 3.4.0 3.6.0 4.0.0 4.1.0 4.1.1: Python bindings for the Plex API.
-dev-python/Plugwise-Smile 0.2.13 1.1.0 1.4.0 1.5.1: Plugwise_Smile (Anna/Adam/P1) API to use in conjunction with Home Assistant.
+dev-python/Plugwise-Smile 0.2.13 1.1.0 1.4.0 1.5.1 1.6.0: Plugwise_Smile (Anna/Adam/P1/Stretch) API to use in conjunction with Home Assistant.
 dev-python/ProgettiHWSW 0.1.1: Controls ProgettiHWSW relay boards.
 dev-python/PsychroLib 2.3.0: Library of psychrometric functions to calculate thermodynamic properties of air
 dev-python/PyDispatcher 2.0.5: Multi-producer-multi-consumer signal dispatching mechanism
@@ -712,7 +712,7 @@ dev-python/pyrainbird 0.4.1 0.4.2: Rain Bird Controller
 dev-python/pyrecswitch 1.0.2: A pure-python interface for controlling Ankuoo RecSwitch MS6126
 dev-python/pyrepetier 3.0.5: Repetier Server API library
 dev-python/pyrisco 0.2.1 0.2.3 0.2.4 0.3.0 0.3.1: A python library to communicate with Risco Cloud.
-dev-python/pyruckus 0.7: Python API to interact with a Ruckus Unleashed device.
+dev-python/pyruckus 0.7 0.12: Python API to interact with a Ruckus Unleashed device.
 dev-python/pyruter 1.2.4: A module to get information about the next departure from a stop
 dev-python/pysabnzbd 1.1.0: Python wrapper for SABnzbd API
 dev-python/pysaj 0.0.9 0.0.13 0.0.14 0.0.16: Library to communicate with SAJ inverters
@@ -817,7 +817,7 @@ dev-python/pyvesync 1.1.0 1.2.0 1.2.1: pyvesync is a library to manage Etekcity 
 dev-python/pyvesync-v2 0.9.6 0.9.7: Python library for vesync API for Etekcity Smart Outlets & switches
 dev-python/pyvizio 0.1.45 0.1.46 0.1.47 0.1.48 0.1.49 0.1.51 0.1.56: Python library for interfacing with Vizio SmartCast TVs and Sound Bars (2016+ models)
 dev-python/pyvlx 0.2.9 0.2.11 0.2.12 0.2.14 0.2.16 0.2.17: PyVLX is a wrapper for the Velux KLF 200 API.
-dev-python/pyvolumio 0.1.0 0.1.1 0.1.2: A python library to control Volumio.
+dev-python/pyvolumio 0.1.0 0.1.1 0.1.2 0.1.3: A python library to control Volumio.
 dev-python/pywbem 0.16.0 0.17.0: pywbem - A WBEM client
 dev-python/pywebpush 1.6.0 1.9.2: WebPush publication library
 dev-python/pywemo 0.4.34 0.4.43 0.4.45 0.4.46 0.5.0: Lightweight Python module to discover and control WeMo devices

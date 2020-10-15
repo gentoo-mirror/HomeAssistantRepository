@@ -178,7 +178,7 @@ app-misc/homeassistant:philips_js - allows you to control Philips TVs which expo
 app-misc/homeassistant:pilight - Pilight is a open source solution to communicate with 433 MHz devices
 app-misc/homeassistant:ping - ICMPLib
 app-misc/homeassistant:plex - Python bindings for the Plex API
-app-misc/homeassistant:plugwise - Plugwise_Smile (Anna/Adam/P1) API
+app-misc/homeassistant:plugwise - Plugwise_Smile (Anna/Adam/P1/Stretch) API to use in conjunction with Home Assist
 app-misc/homeassistant:poolsense - PoolSense is a smart pool monitor
 app-misc/homeassistant:powerwall - API for Tesla Powerwall
 app-misc/homeassistant:ps4 - allows you to control a Sony PlayStation 4 console
@@ -728,7 +728,7 @@ app-misc/homeassistant-full:pilight - Pilight is a open source solution to commu
 app-misc/homeassistant-full:ping - ICMPLib
 app-misc/homeassistant-full:pjlink - 
 app-misc/homeassistant-full:plex - Python bindings for the Plex API
-app-misc/homeassistant-full:plugwise - Plugwise_Smile (Anna/Adam/P1) API
+app-misc/homeassistant-full:plugwise - Plugwise_Smile (Anna/Adam/P1/Stretch) API to use in conjunction with Home Assist
 app-misc/homeassistant-full:plum_lightpad - 
 app-misc/homeassistant-full:pocketcasts - monitor unplayed episodes you have of your favorite podcasts at Pocket Casts
 app-misc/homeassistant-full:point - 
@@ -800,8 +800,8 @@ app-misc/homeassistant-full:scsgate -
 app-misc/homeassistant-full:season - display astronomical or meteorological season (Spring, Summer, Autumn, Winter)
 app-misc/homeassistant-full:sendgrid - 
 app-misc/homeassistant-full:sense - Integrate your Sense meter information into Home Assistant
-app-misc/homeassistant-full:sensehat - 
-app-misc/homeassistant-full:sensibo - 
+app-misc/homeassistant-full:sensehat - lets you control the Sense HAT board’s 8x8 RGB LED matrix on your Raspberry Pi
+app-misc/homeassistant-full:sensibo - Integrates Sensibo Air Conditioning controller into Home Assistant
 app-misc/homeassistant-full:sentry - The free Sentry account allows 5000 events per month
 app-misc/homeassistant-full:serial - use data provided by a device connected to the serial port of the system
 app-misc/homeassistant-full:serial_pm - Particulate matter sensors measure the amount of very small particles in the air
@@ -813,68 +813,68 @@ app-misc/homeassistant-full:shelly - Shelly devices
 app-misc/homeassistant-full:shiftr - transfer details collected with Home Assistant to Shiftr.io
 app-misc/homeassistant-full:shodan - Shodan is a search engine for Internet-connected devices
 app-misc/homeassistant-full:sht31 - 
-app-misc/homeassistant-full:sighthound - 
+app-misc/homeassistant-full:sighthound - Detect people in camera images using Sighthound Cloud
 app-misc/homeassistant-full:signal_messenger - add Support for Moxie's Signal API
-app-misc/homeassistant-full:simplepush - 
+app-misc/homeassistant-full:simplepush - deliver notifications from Home Assistant to your Android device
 app-misc/homeassistant-full:simplisafe - integrates SimpliSafe home security (V2 and V3) systems
-app-misc/homeassistant-full:sinch - 
-app-misc/homeassistant-full:sisyphus - 
-app-misc/homeassistant-full:sky_hub - 
-app-misc/homeassistant-full:skybeacon - 
+app-misc/homeassistant-full:sinch - The sinch platform uses Sinch to deliver notifications from Home Assistant
+app-misc/homeassistant-full:sisyphus - allows you to observe and control your Sisyphus Kinetic Art Table
+app-misc/homeassistant-full:sky_hub - presence detection at connected devices to a Sky Hub router based router
+app-misc/homeassistant-full:skybeacon - supports CR2477-powered iBeacon/eddystone sensors
 app-misc/homeassistant-full:skybell - integrate your Skybell.com doorbells
-app-misc/homeassistant-full:slack - 
-app-misc/homeassistant-full:sleepiq - 
-app-misc/homeassistant-full:slide - 
+app-misc/homeassistant-full:slack - The slack platform delivers notifications from Home Assistant to Slack
+app-misc/homeassistant-full:sleepiq - lets you view sensor data from SleepIQ by SleepNumber
+app-misc/homeassistant-full:slide - integrate your slide.store devices in Home Assistant using the official API
 app-misc/homeassistant-full:sma - add Support for SMA Solar WebConnect
 app-misc/homeassistant-full:smappee - integrate Smappee monitors, plugs and switches
-app-misc/homeassistant-full:smart_meter_texas - 
+app-misc/homeassistant-full:smart_meter_texas - allows Texas residents to integrate their electric meters into Home Assistant
 app-misc/homeassistant-full:smarthab - control your lights and shutters with the SmartHab integration
 app-misc/homeassistant-full:smartthings - use the SmartThings Cloud API
 app-misc/homeassistant-full:smarty - lets you control Salda Smarty ventilation units from Home Assistant
-app-misc/homeassistant-full:smhi - 
-app-misc/homeassistant-full:sms - 
+app-misc/homeassistant-full:smhi - support for the SMHI.se web service as a source for meteorological data
+app-misc/homeassistant-full:sms - allows having a local execution SMS notification via Gammu
 app-misc/homeassistant-full:snapcast - The snapcast platform allows you to control Snapcast from Home Assistant
 app-misc/homeassistant-full:snmp - Presence Detection, Sensor, Switch via SNMP
 app-misc/homeassistant-full:socat - Set a flag to install socat and socat-zwave startscript
-app-misc/homeassistant-full:sochain - 
+app-misc/homeassistant-full:sochain - displays supported cryptocurrency wallet balances
 app-misc/homeassistant-full:socialblade - monitor Youtube Channels
-app-misc/homeassistant-full:solaredge - 
-app-misc/homeassistant-full:solaredge_local - 
+app-misc/homeassistant-full:solaredge - details from your SolarEdge solar power setup
+app-misc/homeassistant-full:solaredge_local - uses the local API available on some SolarEdge Inverters
 app-misc/homeassistant-full:solarlog - uses the open JSON interface on Solar-Log PV monitoring systems
 app-misc/homeassistant-full:solax - Solax inverter API client
 app-misc/homeassistant-full:soma - integrate their Soma Smarthome devices into Home Assistant
 app-misc/homeassistant-full:somfy - Somfy devices via their online service
-app-misc/homeassistant-full:somfy_mylink - 
+app-misc/homeassistant-full:somfy_mylink - an interface to a compatible Somfy MyLink hub utilizing the Synergy API
 app-misc/homeassistant-full:sonarr - The Sonarr integration pulls data from a given Sonarr instance
-app-misc/homeassistant-full:songpal - 
+app-misc/homeassistant-full:songpal - control Sony’s Songpal (”Audio Control API”) compatible devices
 app-misc/homeassistant-full:sonos - Sonos Media Player Support
 app-misc/homeassistant-full:sony_projector - allows you to control the state of SDCP compatible network-connected projectors
-app-misc/homeassistant-full:soundtouch - 
-app-misc/homeassistant-full:spc - 
+app-misc/homeassistant-full:soundtouch - control your Bose Soundtouch speakers from Home Assistant
+app-misc/homeassistant-full:spc - integrate your Vanderbilt SPC alarm panel and any connected sensors
 app-misc/homeassistant-full:speedtestdotnet - speedtest.net support
-app-misc/homeassistant-full:spider - 
-app-misc/homeassistant-full:spotcrime - 
+app-misc/homeassistant-full:spider - integrate all Itho Daalderop Spider related platforms
+app-misc/homeassistant-full:spotcrime - SpotCrime is no longer handing out API keys to integrate their services
 app-misc/homeassistant-full:spotify - Spotify media player integration allows you to control Spotify playback
 app-misc/homeassistant-full:sql - enables you to use an SQL database supported by the sqlalchemy library
 app-misc/homeassistant-full:squeezebox - library to control Logitech Media Server
-app-misc/homeassistant-full:ssdp - 
+app-misc/homeassistant-full:ssdp - will scan the network for supported devices and services (Upnp)
 app-misc/homeassistant-full:ssl - include support for haproxy
 app-misc/homeassistant-full:starline - retrieve data of your StarLine security system from the StarLine portal
 app-misc/homeassistant-full:starlingbank - monitor your account balance data as sensors
-app-misc/homeassistant-full:startca - 
+app-misc/homeassistant-full:startca - Integrate your Start.ca account information into Home Assistant
 app-misc/homeassistant-full:statsd - transfer all state changes to an external StatsD instance
 app-misc/homeassistant-full:steam_online - 
 app-misc/homeassistant-full:stiebel_eltron - integral ventilation or heat pump units of STIEBEL ELTRON
 app-misc/homeassistant-full:stookalert - 
 app-misc/homeassistant-full:stream - provides a way to proxy live streams through Home Assistant
 app-misc/homeassistant-full:streamlabswater - interact with StreamLabs water monitoring devices
-app-misc/homeassistant-full:suez_water - 
+app-misc/homeassistant-full:suez_water - consumption of water from the French water provider Tout Sur Mon Eau
 app-misc/homeassistant-full:supla - Supla is an Open Source home automation system for ESP8266 based devices
-app-misc/homeassistant-full:surepetcare - 
+app-misc/homeassistant-full:surepetcare - information on your Sure Petcare Connect Pet or Cat Flap
 app-misc/homeassistant-full:swiss_hydrological_data - details (temperature, level, and discharge) of rivers and lakes in Switzerland
 app-misc/homeassistant-full:swiss_public_transport - 
 app-misc/homeassistant-full:switchbot - 
-app-misc/homeassistant-full:switcher_kis - 
+app-misc/homeassistant-full:switcher_kis - allows you to control the Switcher V2 Water Heater
 app-misc/homeassistant-full:switchmate - 
 app-misc/homeassistant-full:syncthru - allows you to read current data from your local Samsung printer
 app-misc/homeassistant-full:synology - camera platform to watch the live streams of your Synology Surveillance Station
