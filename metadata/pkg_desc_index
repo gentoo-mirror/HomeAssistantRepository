@@ -333,7 +333,7 @@ dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud AP
 dev-python/gpiozero 1.4.1 1.5.0-r1 1.5.1 1.5.1-r1: A simple interface to GPIO devices with Raspberry Pi.
 dev-python/gps3 0.33.3: Python 2.7-3.5 clients for gpsd
 dev-python/graphql-subscription-manager 0.3.2 0.3.5 0.3.6: A python3 library for graphql subscription manager
-dev-python/greeclimate 0.9.0: Discover, connect and control Gree based minisplit systems
+dev-python/greeclimate 0.9.0 0.9.1: Discover, connect and control Gree based minisplit systems
 dev-python/greeneye-monitor 1.0.1 2.0 2.1: Receive data packets from GreenEye Monitor(https://www.brultech.com/greeneye/)
 dev-python/greenwavereality 0.5.1: Control of Greenwave Reality Lights
 dev-python/griddypower 0.1.0: Python API for Griddy Wholesale Electricity
@@ -345,7 +345,7 @@ dev-python/ha-philipsjs 0.0.8: jointSPACE API for Home-Assistant
 dev-python/haanna 0.10.1 0.12.3 0.13.5 0.14.1 0.14.3 0.15.0: Plugwise Anna API to use in conjunction with Home Assistant.
 dev-python/habitipy 0.2.0 0.3.0: tools and library for Habitica restful API (https://habitica.com)
 dev-python/hangups 0.4.6 0.4.9 0.4.10 0.4.11: the first third-party instant messaging client for Google Hangouts
-dev-python/hass-nabucasa 0.34.3 0.34.4 0.34.5 0.34.6-r1 0.34.7 0.35.0 0.36.1 0.37.0: Home Assistant cloud integration by Nabu Casa, inc.
+dev-python/hass-nabucasa 0.34.6-r1 0.34.7 0.35.0 0.36.1 0.37.0 0.37.1: Home Assistant cloud integration by Nabu Casa, Inc.
 dev-python/hass-splunk 0.1.0 0.1.1: Async single threaded connector to Splunk HEC using an asyncio session
 dev-python/haversine 2.1.2: Calculate the distance between 2 points on Earth.
 dev-python/hbmqtt 0.9.4 0.9.5: MQTT client/broker using Python 3.4 asyncio library
@@ -366,9 +366,9 @@ dev-python/homekit-python 0.15.0: HomeKit Python
 dev-python/homematicip 0.10.13 0.10.14 0.10.15 0.10.17 0.10.18 0.10.19 0.11.0: An API for the homematicip cloud
 dev-python/horimote 0.4.1: Async API wrapper for Samsumgs set-top boxes SMT-G7400 and SMT-G7401.
 dev-python/hstspreload 2020.7.22: Chromium HSTS Preload list as a Python package and updated daily
-dev-python/httpcore 0.9.1: A minimal low-level HTTP client.
+dev-python/httpcore 0.9.1 0.12.0: A minimal low-level HTTP client.
 dev-python/httplib2 0.10.3-r1: A comprehensive HTTP client library
-dev-python/httpx 0.13.3: The next generation HTTP client.
+dev-python/httpx 0.13.3 0.16.1: The next generation HTTP client.
 dev-python/huawei-lte-api 1.4.4 1.4.6 1.4.7 1.4.10 1.4.11 1.4.12: API For huawei LAN/WAN LTE Modems
 dev-python/hyper 0.7.0: HTTP/2 Client for Python
 dev-python/hyperion-py 0.3.0: Hyperion Ambient Lighting Python Package
@@ -847,6 +847,7 @@ dev-python/requests-mock 1.6.0 1.8.0: Mock out responses from the requests packa
 dev-python/requests-oauth 0.4.1: Hook for adding Open Authentication support to Python-requests HTTP library.
 dev-python/requirements-parser 0.2.0: Parses Pip requirement files
 dev-python/responses 0.10.6 0.12.0: A utility library for mocking out the requests Python library.
+dev-python/respx 0.14.0: A utility for mocking out the Python HTTPX and HTTP Core libraries.
 dev-python/rfk101py 0.0.1: RFK101 Proximity card reader over Ethernet
 dev-python/rflink 0.0.50 0.0.51 0.0.52 0.0.54: Library and CLI tools for interacting with RFlink 433MHz transceiver.
 dev-python/ring-doorbell 0.2.5 0.2.8 0.2.9 0.5.0 0.6.0: A Python library to communicate with Ring Door Bell (https://ring.com/)
