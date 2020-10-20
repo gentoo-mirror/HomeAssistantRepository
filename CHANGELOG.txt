@@ -1,3 +1,18 @@
+2020-10-20
+  * bump elkm1-lib-0.8.4
+  * bump requests-file-1.5.1 from main repo
+  * update zeep-4.0.0
+  * update onvif-zeep-async-1.0.0
+  * bump androidtv-0.0.51
+  * update axis-39, bump axis-40
+  * update pymyq-2.0.8
+  * bump HATasmota-0.0.19, HATasmota-0.0.20
+  * bump lightwave-0.19
+
+2020-10-18
+  * bump homeconnect-0.6.3
+  * bump HATasmota-0.0.18
+
 2020-10-17
   * bump hass-nabucasa-0.37.1
   * update httpcore-0.12.0
@@ -6,9 +21,12 @@
   * update greeclimate-0.9.1, fixes
     - https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/187
     - https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/188
+  * bump oemthermostat-1.1.1
+  * bump pychromecast-7.5.1
+  * bump pyEmby-1.7
+  * remove olds: elkm1-lib, bump elkm1-lib-0.8.3
 
 2020-10-16 homeassistant-0.116.4
- * bump elkm1-lib-0.8.3
  * update homeassistant-0.116.4
  * update onvif-zeep-async-0.6.0
  * bump pyairvisual-5.0.3

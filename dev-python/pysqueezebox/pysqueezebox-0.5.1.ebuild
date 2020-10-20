@@ -3,21 +3,23 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Library to interacting with ElkM1 alarm/automation panel."
-HOMEPAGE="https://github.com/gwww/elkm1 https://pypi.org/project/elkm1-lib/"
+DESCRIPTION="Asynchronous library to control Logitech Media Server"
+HOMEPAGE="https://github.com/rajlaud/pysqueezebox https://pypi.org/project/pysqueezebox/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
-DEPEND="${REDEPEND}
+DOCS="README.md"
+
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
