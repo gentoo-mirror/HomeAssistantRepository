@@ -3,12 +3,12 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="A Python library for communicating with devices from Axis Communications"
-HOMEPAGE="https://github.com/Kane610/axis https://pypi.org/project/axis/"
+DESCRIPTION="Update Cloudflare DNS A-records."
+HOMEPAGE="https://github.com/ludeeus/pycfdns https://pypi.org/project/pycfdns/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -16,9 +16,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]"
-DEPEND="${REDEPEND}
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
