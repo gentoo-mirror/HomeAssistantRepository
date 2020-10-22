@@ -6,6 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyatag</remote-id>
+    <remote-id type="pypi">pushbullet.py</remote-id>
+    <maintainer status="unknown">
+      <email>pypi@richardb.me</email>
+      <name>Richard B</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>
