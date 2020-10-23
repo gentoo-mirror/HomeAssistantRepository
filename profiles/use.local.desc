@@ -312,7 +312,6 @@ app-misc/homeassistant-full:awair - library for the Awair GraphQL API
 app-misc/homeassistant-full:aws - interact with Amazon Web Services
 app-misc/homeassistant-full:axis - communicating with devices from Axis Communications
 app-misc/homeassistant-full:azure_devops - 
-app-misc/homeassistant-full:azure_event_hub - 
 app-misc/homeassistant-full:azure_service_bus - 
 app-misc/homeassistant-full:baidu - text-to-speech platform uses Baidu TTS engine to read a text with natural soundi
 app-misc/homeassistant-full:bbb_gpio - base for all BeagleBone Black related GPIO platforms
@@ -895,7 +894,6 @@ app-misc/homeassistant-full:telegram_bot - Use Telegram on your mobile or deskto
 app-misc/homeassistant-full:tellduslive - cloud platform that connects to your Tellstick
 app-misc/homeassistant-full:tellstick - integrates TellStick devices into Home Assistant
 app-misc/homeassistant-full:temper - 
-app-misc/homeassistant-full:tensorflow - 
 app-misc/homeassistant-full:tesla - integration with the Tesla cloud service
 app-misc/homeassistant-full:test - internal and developer use
 app-misc/homeassistant-full:tfiac - 
