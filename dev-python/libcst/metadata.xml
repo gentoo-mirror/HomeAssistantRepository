@@ -6,10 +6,6 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyEight</remote-id>
-    <maintainer status="unknown">
-      <email>mezz64@users.noreply.github.com</email>
-      <name>John Mihalic</name>
-    </maintainer>
+    <remote-id type="pypi">libcst</remote-id>
   </upstream>
 </pkgmetadata>

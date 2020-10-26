@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyEight</remote-id>
+    <remote-id type="pypi">pynumparser</remote-id>
     <maintainer status="unknown">
-      <email>mezz64@users.noreply.github.com</email>
-      <name>John Mihalic</name>
+      <email>nvram@users.sourceforge.net</email>
+      <name>NVRAM</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

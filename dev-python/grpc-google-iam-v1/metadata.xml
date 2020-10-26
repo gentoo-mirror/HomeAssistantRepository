@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyEight</remote-id>
+    <remote-id type="pypi">grpc-google-iam-v1</remote-id>
     <maintainer status="unknown">
-      <email>mezz64@users.noreply.github.com</email>
-      <name>John Mihalic</name>
+      <email>googleapis-packages@google.com</email>
+      <name>Google Inc</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
