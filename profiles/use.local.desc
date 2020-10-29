@@ -1050,7 +1050,6 @@ app-misc/homeassistant-min:yamaha - Library for Yamaha RX-* Receivers
 app-misc/homeassistant-min:yamaha_musiccast - add support for Yamaha MusicCast devices
 app-misc/homeassistant-min:zwave - Support for Z-Wave Devices (uncomplete)
 dev-embedded/esphome:server - create user and install init-script to run ESPHome Dashboard
-dev-python/cryptography:idna - enable support for the old, deprecated IDNA specification (RFC 3490)
 dev-python/passlib:bcrypt - bcrpyt hash algoryptm support
 dev-python/passlib:scrypt - accelerated scrypt algoythm support
 dev-python/passlib:totp - time based one time password support
