@@ -57,6 +57,7 @@ app-misc/homeassistant:bluetooth_tracker - discovers new devices on boot and tra
 app-misc/homeassistant:bme280 - Bosch BME280 Environmental sensor connected via I2c bus (SDA, SCL pins)
 app-misc/homeassistant:bme680 - read temperature, humidity, pressure and gas resistance values of a Bosch BME680
 app-misc/homeassistant:bmw_connected_drive - retrieve data from the BMW Connected Drive
+app-misc/homeassistant:bom - weather platform uses the Australian Bureau of Meteorology (BOM) as a source for
 app-misc/homeassistant:bond - Asynchronous Python wrapper library over Bond Local API
 app-misc/homeassistant:braviatv - Control almost all Sony Bravia TV 2013 and newer
 app-misc/homeassistant:broadlink - allows you to interact with Broadlink remote control devices
@@ -124,6 +125,7 @@ app-misc/homeassistant:harmony - Logitech Harmony support
 app-misc/homeassistant:heos - controlling HEOS devices through the HEOS CLI Protocol
 app-misc/homeassistant:here_travel_time - here_travel_time sensor provides travel time from the HERE Routing API
 app-misc/homeassistant:homekit - works as both HomeKit controller and accessory
+app-misc/homeassistant:homekit_controller - allows you to connect accessories with the “Works with HomeKit” logo
 app-misc/homeassistant:homematic - An API for the homematicip cloud
 app-misc/homeassistant:homematicip_cloud - A python wrapper for the homematicIP REST API (Access Point Based)
 app-misc/homeassistant:hp_ilo - HP Integrated Lights out XML interface
@@ -217,6 +219,7 @@ app-misc/homeassistant:ssl - include support for haproxy
 app-misc/homeassistant:statsd - transfer all state changes to an external StatsD instance
 app-misc/homeassistant:synology_dsm - monitor getting various statistics from your Synology NAS
 app-misc/homeassistant:systemmonitor - monitor your platform
+app-misc/homeassistant:tasmota - Python module to help parse and construct Tasmota MQTT messages
 app-misc/homeassistant:tellduslive - cloud platform that connects to your Tellstick
 app-misc/homeassistant:tesla - integration with the Tesla cloud service
 app-misc/homeassistant:test - internal and developer use
@@ -333,6 +336,7 @@ app-misc/homeassistant-full:bme280 - Bosch BME280 Environmental sensor connected
 app-misc/homeassistant-full:bme680 - read temperature, humidity, pressure and gas resistance values of a Bosch BME680
 app-misc/homeassistant-full:bmp280 - ead temperature and pressure values of a Bosch BMP280 Environmental sensor conne
 app-misc/homeassistant-full:bmw_connected_drive - retrieve data from the BMW Connected Drive
+app-misc/homeassistant-full:bom - weather platform uses the Australian Bureau of Meteorology (BOM) as a source for
 app-misc/homeassistant-full:bond - Asynchronous Python wrapper library over Bond Local API
 app-misc/homeassistant-full:braviatv - Control almost all Sony Bravia TV 2013 and newer
 app-misc/homeassistant-full:broadlink - allows you to interact with Broadlink remote control devices
@@ -539,6 +543,7 @@ app-misc/homeassistant-full:hue - talk to Philips Hue
 app-misc/homeassistant-full:hunterdouglas_powerview - integrate your Hunter Douglas PowerView devices
 app-misc/homeassistant-full:hvv_departures - departures of busses, trains and ferries in Hamburg
 app-misc/homeassistant-full:hydrawise - communicate with Hunter Wi-Fi irrigation controllers
+app-misc/homeassistant-full:hyperion - 
 app-misc/homeassistant-full:ialarm - A simple library to interface with iAlarm systems, built for Home-Assistant
 app-misc/homeassistant-full:iammeter - 
 app-misc/homeassistant-full:iaqualink - iAqualink by Jandy allows you to control your pool via cloud service
@@ -562,6 +567,7 @@ app-misc/homeassistant-full:iqvia - collects allergy, asthma and disease informa
 app-misc/homeassistant-full:irish_rail_transport - will give you the time until the next two departures
 app-misc/homeassistant-full:islamic_prayer_times - integration displays the various prayer times for Muslims as sensors
 app-misc/homeassistant-full:iss - know if the station is above your home location
+app-misc/homeassistant-full:isy994 - controller that is capable of controlling Insteon and X10 devices
 app-misc/homeassistant-full:itach - 
 app-misc/homeassistant-full:izone - 
 app-misc/homeassistant-full:jewish_calendar - jewish_calendar
@@ -853,6 +859,7 @@ app-misc/homeassistant-full:soundtouch - control your Bose Soundtouch speakers f
 app-misc/homeassistant-full:spc - integrate your Vanderbilt SPC alarm panel and any connected sensors
 app-misc/homeassistant-full:speedtestdotnet - speedtest.net support
 app-misc/homeassistant-full:spider - integrate all Itho Daalderop Spider related platforms
+app-misc/homeassistant-full:splunk - 
 app-misc/homeassistant-full:spotcrime - SpotCrime is no longer handing out API keys to integrate their services
 app-misc/homeassistant-full:spotify - Spotify media player integration allows you to control Spotify playback
 app-misc/homeassistant-full:sql - enables you to use an SQL database supported by the sqlalchemy library
@@ -1041,6 +1048,7 @@ app-misc/homeassistant-min:socat - Set a flag to install socat and socat-zwave s
 app-misc/homeassistant-min:sonos - Sonos Media Player Support
 app-misc/homeassistant-min:sql - enables you to use an SQL database supported by the sqlalchemy library
 app-misc/homeassistant-min:ssl - include support for haproxy
+app-misc/homeassistant-min:tasmota - Python module to help parse and construct Tasmota MQTT messages
 app-misc/homeassistant-min:test - internal and developer use
 app-misc/homeassistant-min:tradfri - Control/observe IKEA Tradfri devices
 app-misc/homeassistant-min:version - display the current Home Assistant versions
