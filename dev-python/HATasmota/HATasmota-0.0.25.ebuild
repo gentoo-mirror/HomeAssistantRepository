@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Library for interacting with ElkM1 alarm/automation panel."
-HOMEPAGE="https://github.com/gwww/elkm1 https://pypi.org/project/elkm1-lib/"
+DESCRIPTION="Python module to help parse and construct Tasmota MQTT messages."
+HOMEPAGE="https://github.com/emontnemery/hatasmota https://pypi.org/project/HATasmota/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,7 +18,8 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=""
+RDEPEND="~dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
+	~dev-python/voluptuous-0.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

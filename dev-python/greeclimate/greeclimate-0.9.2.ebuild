@@ -7,20 +7,21 @@ PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python module to help parse and construct Tasmota MQTT messages."
-HOMEPAGE="https://github.com/emontnemery/hatasmota https://pypi.org/project/HATasmota/"
+DESCRIPTION="Discover, connect and control Gree based minisplit systems"
+HOMEPAGE="https://github.com/cmroche/greeclimate https://pypi.org/project/greeclimate/"
+
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="GPL-3.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND="~dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
-	~dev-python/voluptuous-0.12.0[${PYTHON_USEDEP}]"
-BDEPEND="${REDEPEND}
+RDEPEND="~dev-python/netifaces-0.10.9[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.9.8[${PYTHON_USEDEP}]"
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]

@@ -3,26 +3,23 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="An asyncio HomeKit client"
-HOMEPAGE="https://github.com/Jc2k/aiohomekit https://pypi.org/project/aiohomekit/"
+DESCRIPTION="Library for interacting with ElkM1 alarm/automation panel."
+HOMEPAGE="https://github.com/gwww/elkm1 https://pypi.org/project/elkm1-lib/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/attrs-18.1.0
-	>=dev-python/click-6.5
-	>=dev-python/pathspec-0.6
-	dev-python/regex
-	>=dev-python/toml-0.9.4
-	>=dev-python/typed-ast-1.4.0"
-DEPEND="${REDEPEND}
+DOCS="README.md"
+
+RDEPEND="~dev-python/pyserial-asyncio-0.4.0[${PYTHON_USEDEP}]"
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
