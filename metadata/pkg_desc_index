@@ -870,7 +870,7 @@ dev-python/rocketchat-API 0.6.1 0.6.35: Python API wrapper for Rocket.Chat
 dev-python/roku 3.0 3.1 4.0.0 4.1.0: Client for the Roku media player
 dev-python/rokuecp 0.4.0 0.4.1 0.4.2 0.5.0 0.6.0 0.6.1: Asynchronous Python client for Roku (ECP).
 dev-python/roombapy 1.4.1 1.4.2 1.4.3 1.5.0 1.5.1 1.5.2 1.5.3 1.6.1: Python library to control Wi-Fi enabled iRobot Roomba vacuum cleaners
-dev-python/roonapi 0.0.21 0.0.22 0.0.23: Provides a python interface to interact with Roon
+dev-python/roonapi 0.0.21 0.0.22 0.0.23 0.0.25: Provides a python interface to interact with Roon
 dev-python/rova 0.1.0: API wrapper for ROVA calendar
 dev-python/rpi-bad-power 0.0.3: A Python library to detect bad power supply on Raspberry Pi
 dev-python/rpi-rf 0.9.7: Send and receive 433/315MHz signals with GPIO RF modules on a Raspberry Pi
