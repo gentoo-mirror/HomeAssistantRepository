@@ -4,9 +4,9 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.4.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.0 0.9.1 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 0.110.7 0.111.4 0.112.5 0.113.3 0.114.4 0.115.6 0.116.1 0.116.2 0.116.3 0.116.4 0.117.0_beta6 0.117.0 0.117.1: Open-source home automation platform running on Python 3.7 & 3.8
-app-misc/homeassistant-full 0.115.4-r1 0.115.5 0.115.6 0.116.0 0.116.1 0.116.2 0.116.3 0.116.4 0.117.0_beta6 0.117.0 0.117.1 9999: Open-source home automation platform running on Python 3.7 & 3.8
-app-misc/homeassistant-min 0.115.3-r2 0.115.5 0.115.6 0.116.0 0.116.1 0.116.2 0.116.3 0.116.4 0.117.0_beta6 0.117.0 0.117.1: Open-source home automation platform running on Python 3.7 & 3.8
+app-misc/homeassistant 0.110.7 0.111.4 0.112.5 0.113.3 0.114.4 0.115.6 0.116.1 0.116.2 0.116.3 0.116.4 0.117.0_beta6 0.117.0 0.117.1 0.117.2: Open-source home automation platform running on Python 3.7 & 3.8
+app-misc/homeassistant-full 0.115.4-r1 0.115.5 0.115.6 0.116.0 0.116.1 0.116.2 0.116.3 0.116.4 0.117.0_beta6 0.117.0 0.117.1 0.117.2 9999: Open-source home automation platform running on Python 3.7 & 3.8
+app-misc/homeassistant-min 0.115.3-r2 0.115.5 0.115.6 0.116.0 0.116.1 0.116.2 0.116.3 0.116.4 0.117.0_beta6 0.117.0 0.117.1 0.117.2: Open-source home automation platform running on Python 3.7 & 3.8
 dev-embedded/esphome 1.13.2 1.13.6-r1 1.14.1 1.14.2 1.14.3-r6 1.14.3-r7 1.14.4 1.14.4-r1 1.14.5 1.14.5-r1 1.14.5-r2 1.15.0_beta4 1.15.0 1.15.1 1.15.2 1.15.3 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 4.0.3-r3 4.3.1 4.3.4 5.0.1: A professional collaborative platform for embedded development. Cross-platform IDE and Unified Debugger. Static Code Analyzer and Remote Unit Testing. Multi-platform and Multi-architecture Build System. Firmware File Explorer and Memory Inspection. IoT, Arduino, CMSIS, ESP-IDF, FreeRTOS, libOpenCM3, mbedOS, Pulp OS, SPL, STM32Cube, Zephyr RTOS, ARM, AVR, Espressif (ESP8266/ESP32), FPGA, MCS-51 (8051), MSP430, Nordic (nRF51/nRF52), NXP i.MX RT, PIC32, RISC-V, STMicroelectronics (STM8/STM32), Teensy
@@ -76,6 +76,8 @@ dev-python/accuweather 0.0.9 0.0.10 0.0.11: Python wrapper for getting weather d
 dev-python/adafruit-circuitpython-bmp280 3.1.1 3.2.3: CircuitPython driver for the BMP280.
 dev-python/adafruit-circuitpython-busdevice 5.0.1: CircuitPython bus device classes to manage bus sharing.
 dev-python/adafruit-circuitpython-mcp230xx 1.1.2 2.0.1 2.2.2: CircuitPython library for controlling a MCP23008 or MCP23017 I2C GPIO expander.
+dev-python/adafruit-circuitpython-pca9685 3.3.2: CircuitPython driver for motor, stepper, and servo based on PCA9685.
+dev-python/adafruit-circuitpython-register 1.9.1: CircuitPython data descriptor classes to represent hardware registers on I2C and SPI devices.
 dev-python/adb 1.3.0: A pure python implementation of the Android ADB and Fastboot protocols
 dev-python/adb-homeassistant 1.3.1 1.3.2: A pure python implementation of the Android ADB and Fastboot protocols
 dev-python/adb-shell 0.0.8 0.0.9 0.1.0 0.1.1 0.1.3 0.2.0 0.2.1: ADB shell functionality
@@ -124,8 +126,10 @@ dev-python/aiopvpc 2.0.2: Retrieval of Spanish Electricity hourly prices (PVPC)
 dev-python/aiopylgtv 0.2.6 0.2.7 0.3.0 0.3.2 0.3.3: Library to control webOS based LG Tv devices
 dev-python/aioredis 1.2.0: asyncio (PEP 3156) Redis support
 dev-python/aioshelly 0.3.1 0.3.2 0.3.3 0.3.4 0.4.0: Asynchronous library to control Shelly devices.
+dev-python/aiosqlite 0.15.0: asyncio bridge to the standard sqlite3 module
 dev-python/aioswitcher 1.1.1 1.2.0 1.2.1: Switcher Water Heater Unofficial Bridge and API.
 dev-python/aiounifi 17 18 20 21 22 23: An asynchronous Python library for communicating with Unifi Controller API
+dev-python/aiounittest 1.4.0: Test asyncio code more easily.
 dev-python/aiowwlln 1.0.0 2.0.1 2.0.2: A simple Python API for the WWLLN
 dev-python/aioymaps 1.0.0 1.1.0: Async client for Yandex Maps
 dev-python/airly 0.0.2 0.0.2-r1 1.0.0: Python wrapper for getting air quality data from Airly sensors.
@@ -552,7 +556,7 @@ dev-python/pure-python-adb-homeassistant 0.1.6 0.1.7: Pure python implementation
 dev-python/pushbullet-py 0.11.0 0.12.0: A simple python client for pushbullet.com
 dev-python/pushetta 1.0.15: Client for Pushetta API
 dev-python/pushover_complete 1.1.1: A Python package for interacting with *all* aspects of the Pushover API
-dev-python/pwmled 1.4.1 1.5.0 1.5.3: Control LEDs connected to a micro controller using pwm.
+dev-python/pwmled 1.4.1 1.5.0 1.5.3 1.6.6: Control LEDs connected to a micro controller using pwm.
 dev-python/py-august 0.17.0 0.21.0 0.22.0 0.24.0 0.25.0: Python API for August Smart Lock and Doorbell
 dev-python/py-canary 0.5.0: Python API for Canary Security Camera
 dev-python/py-cpuinfo 7.0.0: Get CPU info with pure Python 2 & 3
@@ -673,7 +677,7 @@ dev-python/pylint-strict-informational 0.1: A pylint plugin to make pylint fail 
 dev-python/pylitejet 0.1.0: A library for controlling a LiteJet lighting system.
 dev-python/pyloopenergy 0.1.2 0.1.3 0.2.1: Access Loop Energy energy monitors via Socket.IO API
 dev-python/pylutron 0.2.2 0.2.5: Python library for Lutron RadioRA 2
-dev-python/pylutron-caseta 0.5.0 0.5.1 0.6.0 0.6.1 0.7.0: Provides an API to the Lutron Smartbridge
+dev-python/pylutron-caseta 0.5.1 0.6.0 0.6.1 0.7.0 0.7.1: Provides an API to the Lutron Smartbridge
 dev-python/pymailgunner 1.4: A simple mailgun client - pymailgun fork with Python 3 support
 dev-python/pymata-express 1.13 1.17 1.19: A Python Protocol Abstraction Library For Arduino Firmata using Python asyncio
 dev-python/pymediaroom 0.6.4 0.6.4.1: Remote control your Mediaroom Set-up-box
@@ -1038,14 +1042,14 @@ dev-python/yalesmartalarmclient 0.1.6: Interact with Yale Smart Alarm systems
 dev-python/yarl 1.4.2: Yet another URL library
 dev-python/yeelight 0.5.0 0.5.1 0.5.2 0.5.3 0.5.4: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
-dev-python/youtube_dl 2020.6.6 2020.6.16.1 2020.7.28 2020.9.6 2020.9.14 2020.9.20: YouTube video downloader
+dev-python/youtube_dl 2020.6.16.1 2020.7.28 2020.9.6 2020.9.14 2020.9.20 2020.11.1.1: YouTube video downloader
 dev-python/zeep 3.4.0-r1 4.0.0: A modern/fast Python SOAP client based on lxml / requests
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs
 dev-python/zeroconf 0.28.0-r1 0.28.1 0.28.2 0.28.3 0.28.4 0.28.5 0.28.6: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-python/zha-quirks 0.0.41 0.0.42 0.0.43-r1 0.0.44 0.0.45: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
-dev-python/zigpy 0.22.2 0.23.1 0.23.2 0.24.1 0.24.3 0.25.0 0.26.0: Library implementing a ZigBee stack
+dev-python/zigpy 0.23.2 0.24.1 0.24.3 0.25.0 0.26.0 0.27.0: Library implementing a ZigBee stack
 dev-python/zigpy-cc 0.3.0 0.3.1 0.4.2 0.4.4 0.5.1 0.5.2: A library which communicates with Texas Instruments CC2531 radios for zigpy
 dev-python/zigpy-deconz 0.8.0 0.8.1 0.9.1 0.9.2-r1 0.10.0 0.11.0: A library which communicates with Deconz radios for zigpy
 dev-python/zigpy-homeassistant 0.14.0 0.15.0 0.16.0 0.18.0 0.18.1 0.18.2 0.19.0: Library implementing a ZigBee stack
