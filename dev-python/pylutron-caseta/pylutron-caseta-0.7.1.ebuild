@@ -7,17 +7,19 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="YouTube video downloader"
-HOMEPAGE="https://github.com/ytdl-org/youtube-dl https://pypi.org/project/youtube_dl/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+DESCRIPTION="Provides an API to the Lutron Smartbridge"
+HOMEPAGE="https://github.com/gurumitts/pylutron-caseta https://pypi.org/project/pylutron-caseta/"
+MY_PN=${PN/-/_}
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}/${MY_PN}-${PV}"
 
-LICENSE="Unlicense"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
 RDEPEND=""
-DEPEND="${REDEPEND}
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
