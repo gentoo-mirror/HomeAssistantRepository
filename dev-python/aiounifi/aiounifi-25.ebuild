@@ -7,18 +7,17 @@ PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python client for Sentry (https://getsentry.com)"
-HOMEPAGE="https://github.com/getsentry/sentry-python https://pypi.org/project/sentry-sdk/"
+DESCRIPTION="An asynchronous Python library for communicating with Unifi Controller API"
+HOMEPAGE="https://github.com/Kane610/aiounifi https://pypi.org/project/aiounifi/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="BSD"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/certifi[${PYTHON_USEDEP}]
-	>=dev-python/urllib3-1.10.0[${PYTHON_USEDEP}]"
-DEPEND="${REDEPEND}
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
