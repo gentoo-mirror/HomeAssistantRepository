@@ -150,7 +150,6 @@ app-misc/homeassistant:loopenergy - Integrate your Loop Energy meter information
 app-misc/homeassistant:luci - fetch connected devices from your OpenWrt
 app-misc/homeassistant:luftdaten - query the open data API of luftdaten.info to monitor air quality
 app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
-app-misc/homeassistant:maxcube_hack - apply Patch for https://github.com/home-assistant/home-assistant/issues/28811
 app-misc/homeassistant:media_extractor - support for youtube_dl
 app-misc/homeassistant:meteo_france - uses the meteorological data from Meteo-France
 app-misc/homeassistant:mfi - sensor platform to allow you to monitor mFi mPort interface and sensors
@@ -617,7 +616,6 @@ app-misc/homeassistant-full:marytts -
 app-misc/homeassistant-full:mastodon - 
 app-misc/homeassistant-full:matrix - allows you to send messages to matrix rooms
 app-misc/homeassistant-full:maxcube - eQ-3 ELV MAX Cube Python API
-app-misc/homeassistant-full:maxcube_hack - apply Patch for https://github.com/home-assistant/home-assistant/issues/28811
 app-misc/homeassistant-full:mcp23017 - base for all related mcp23017 platforms in Home Assistant
 app-misc/homeassistant-full:media_extractor - support for youtube_dl
 app-misc/homeassistant-full:mediaroom - 
@@ -1026,7 +1024,6 @@ app-misc/homeassistant-min:homekit - works as both HomeKit controller and access
 app-misc/homeassistant-min:influxdb - transfer sensor data to a local InfluxDB database
 app-misc/homeassistant-min:kodi - control a Kodi multimedia system
 app-misc/homeassistant-min:maxcube - eQ-3 ELV MAX Cube Python API
-app-misc/homeassistant-min:maxcube_hack - apply Patch for https://github.com/home-assistant/home-assistant/issues/28811
 app-misc/homeassistant-min:mikrotik - add support for MikroTik RouterOS API
 app-misc/homeassistant-min:mobile_app - allows Home Assistant mobile apps to easily integrate with Home Assistant
 app-misc/homeassistant-min:mqtt - install MQTT Broker and dependencies
