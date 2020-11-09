@@ -3,23 +3,24 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6..8} )
+PYTHON_COMPAT=( python3_{5..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python module to help parse and construct Tasmota MQTT messages."
-HOMEPAGE="https://github.com/emontnemery/hatasmota https://pypi.org/project/HATasmota/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+DESCRIPTION="Control your Sisyphus kinetic art tables (sisyphus-industries.com)"
+HOMEPAGE="https://github.com/jkeljo/sisyphus-control https://pypi.org/project/sisyphus-control/"
+SRC_URI="https://github.com/jkeljo/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.md"
+DOCS="README.rst"
 
-RDEPEND="~dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
-	~dev-python/voluptuous-0.12.0[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/netifaces[${PYTHON_USEDEP}]
+	dev-python/python-socketio[${PYTHON_USEDEP}]"
 BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

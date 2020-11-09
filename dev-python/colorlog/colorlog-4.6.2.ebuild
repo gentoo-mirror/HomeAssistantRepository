@@ -3,21 +3,20 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{6..9} )
 
 inherit distutils-r1
 
-DESCRIPTION="An Asynchronous Library for the KNX protocol."
-HOMEPAGE="https://github.com/XKNX/xknx https://xknx.io/ https://pypi.org/project/xknx/"
+DESCRIPTION="Log formatting with colors!"
+HOMEPAGE="https://github.com/borntyping/python-colorlog https://pypi.org/project/colorlog/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 arm64 x86 amd64-linux x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/netifaces-0.10.9
-		 >=dev-python/pyyaml-5.1"
+RDEPEND=""
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
@@ -27,5 +26,5 @@ DEPEND="${REDEPEND}
 
 python_test() {
 	nosetests --verbose || die
-	py.test -v -v || die
+	py.test -vv -p no:logging || die
 }

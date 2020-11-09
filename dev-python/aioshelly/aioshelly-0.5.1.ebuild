@@ -3,22 +3,23 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="An Asynchronous Library for the KNX protocol."
-HOMEPAGE="https://xknx.io/ https://pypi.org/project/xknx/"
+DESCRIPTION="Asynchronous library to control Shelly devices."
+HOMEPAGE="https://github.com/home-assistant-libs/aioshelly https://pypi.org/project/aioshelly/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/netifaces-0.10.9
-		 >=dev-python/pyyaml-5.1"
-DEPEND="${REDEPEND}
+DOCS="README.md"
+
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
