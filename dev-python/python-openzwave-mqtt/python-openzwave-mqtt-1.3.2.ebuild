@@ -3,12 +3,12 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{7,8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Asynchronous library to control Logitech Media Server"
-HOMEPAGE="https://github.com/rajlaud/pysqueezebox https://pypi.org/project/pysqueezebox/"
+DESCRIPTION="Converts MQTT messages from qt-openzwave into Python objects and events"
+HOMEPAGE="https://github.com/cgarwood/python-openzwave-mqtt https://pypi.org/project/python-openzwave-mqtt/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="Apache-2.0"
@@ -16,11 +16,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
+DOCS="README.md"
+
 RDEPEND=""
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
+		dev-python/tox[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
