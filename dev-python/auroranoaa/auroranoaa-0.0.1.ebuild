@@ -7,18 +7,18 @@ PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Calculates a token to run the Google Translate text to speech"
-HOMEPAGE="https://github.com/boudewijn26/gTTS-token https://pypi.org/project/gTTS-token/"
+DESCRIPTION="NOAA Aurora Wrapper for Home Assistant Integration."
+HOMEPAGE="https://github.com/djtimca/aurora-api https://pypi.org/project/auroranoaa/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
