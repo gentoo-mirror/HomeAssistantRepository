@@ -344,7 +344,7 @@ dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud AP
 dev-python/gpiozero 1.4.1 1.5.0-r1 1.5.1 1.5.1-r1: A simple interface to GPIO devices with Raspberry Pi.
 dev-python/gps3 0.33.3: Python 2.7-3.5 clients for gpsd
 dev-python/graphql-subscription-manager 0.3.2 0.3.5 0.3.6: A python3 library for graphql subscription manager
-dev-python/greeclimate 0.9.0 0.9.1 0.9.2 0.9.5 0.9.6 0.9.9: Discover, connect and control Gree based minisplit systems
+dev-python/greeclimate 0.9.1 0.9.2 0.9.5 0.9.6 0.10.2: Discover, connect and control Gree based minisplit systems
 dev-python/greeneye-monitor 1.0.1 2.0 2.1: Receive data packets from GreenEye Monitor(https://www.brultech.com/greeneye/)
 dev-python/greenwavereality 0.5.1: Control of Greenwave Reality Lights
 dev-python/griddypower 0.1.0: Python API for Griddy Wholesale Electricity
