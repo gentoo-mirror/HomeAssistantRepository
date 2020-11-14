@@ -1,7 +1,7 @@
 DEFINED_PHASES=-
 DESCRIPTION=Virtual for Home Assistant MQTT
 EAPI=6
-KEYWORDS=~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux
+KEYWORDS=~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux
 RDEPEND=|| ( app-misc/mosquitto dev-python/hbmqtt )
 SLOT=0
-_md5_=11e08d1c85c62243715924d98cc854c6
+_md5_=a0a7596e41b1e2223a38bb0571050931
