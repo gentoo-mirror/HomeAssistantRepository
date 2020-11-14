@@ -7,17 +7,20 @@ PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python client for Sentry (https://sentry.io)"
-HOMEPAGE="https://github.com/getsentry/sentry-python https://pypi.org/project/sentry-sdk/"
+DESCRIPTION="A SoCo fork with fixes for Home Assistant."
+HOMEPAGE="https://github.com/amelchio/pysonos https://pypi.org/project/pysonos/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="BSD"
+LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/certifi[${PYTHON_USEDEP}]
-	>=dev-python/urllib3-1.10.0[${PYTHON_USEDEP}]"
+DOCS="README.rst"
+
+RDEPEND="dev-python/ifaddr[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/xmltodict[${PYTHON_USEDEP}]"
 BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

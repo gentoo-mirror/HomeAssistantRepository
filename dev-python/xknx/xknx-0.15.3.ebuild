@@ -3,24 +3,25 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="A SoCo fork with fixes for Home Assistant."
-HOMEPAGE="https://github.com/amelchio/pysonos https://pypi.org/project/pysonos/"
+DESCRIPTION="An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/"
+HOMEPAGE="https://github.com/XKNX/xknx/ https://xknx.io/ https://pypi.org/project/xknx/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/mock[${PYTHON_USEDEP}]
-		 dev-python/ifaddr[${PYTHON_USEDEP}]
-		 dev-python/requests[${PYTHON_USEDEP}]
-		 dev-python/xmltodict[${PYTHON_USEDEP}]"
-DEPEND="${REDEPEND}
+DOCS="README.md"
+
+RDEPEND=">=dev-python/netifaces-0.10.9
+	>=dev-python/pyyaml-5.1
+	>=dev-python/voluptuous-0.12.0"
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]

@@ -7,17 +7,18 @@ PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python client for Sentry (https://sentry.io)"
-HOMEPAGE="https://github.com/getsentry/sentry-python https://pypi.org/project/sentry-sdk/"
+DESCRIPTION="A library which communicates with ZiGate radios for zigpy"
+HOMEPAGE="http://github.com/zigpy/zigpy-zigate https://pypi.org/project/zigpy-zigate/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="BSD"
+LICENSE="GPL-3.0"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/certifi[${PYTHON_USEDEP}]
-	>=dev-python/urllib3-1.10.0[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
+	dev-python/pyusb[${PYTHON_USEDEP}]
+	>=dev-python/zigpy-0.22.2[${PYTHON_USEDEP}]"
 BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
