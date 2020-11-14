@@ -108,7 +108,7 @@ dev-python/aiofreepybox 0.0.8: Provides asynchronous authentication and access t
 dev-python/aioftp 0.10.1 0.12.0 0.18.0: ftp client/server for asyncio
 dev-python/aioguardian 0.2.3 1.0.0 1.0.1: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aioharmony 0.1.7 0.1.8 0.1.13 0.1.13-r1 0.2.4 0.2.5 0.2.6: Asyncio Python library for connecting to and controlling the Logitech Harmony
-dev-python/aiohomekit 0.2.41 0.2.45 0.2.46 0.2.47 0.2.49 0.2.53 0.2.54: An asyncio HomeKit client
+dev-python/aiohomekit 0.2.46 0.2.47 0.2.49 0.2.53 0.2.54 0.2.57: An asyncio HomeKit client
 dev-python/aiohttp 3.5.3 3.5.4 3.6.0 3.6.1: http client/server for asyncio
 dev-python/aiohue 1.9.0 1.9.1 1.9.2 1.10.1 2.0.0 2.1.0: Python module to talk to Philips Hue.
 dev-python/aioimaplib 0.7.13 0.7.15: Python asyncio IMAP4rev1 client library
@@ -276,7 +276,7 @@ dev-python/ed25519 1.4 1.4-r1: Python bindings to the Ed25519 public-key signatu
 dev-python/eebrightbox 0.0.4: Connector for EE BrightBox routers.
 dev-python/elgato 0.1.0 0.2.0: Asynchronous Python client for Elgato Key Lights.
 dev-python/eliqonline 1.2.2: Eliq Online API Library
-dev-python/elkm1-lib 0.8.2 0.8.3 0.8.4 0.8.5 0.8.7: Library for interacting with ElkM1 alarm/automation panel.
+dev-python/elkm1-lib 0.8.3 0.8.4 0.8.5 0.8.7 0.8.8: Library for interacting with ElkM1 alarm/automation panel.
 dev-python/emoji 0.5.4: Emoji for Python
 dev-python/emulated-roku 0.1.8 0.1.9 0.2.0 0.2.1: Library to emulate a roku server to serve as a proxyfor remotes such as Harmony
 dev-python/enocean 0.40 0.50.0 0.50.1: EnOcean serial protocol implementation
