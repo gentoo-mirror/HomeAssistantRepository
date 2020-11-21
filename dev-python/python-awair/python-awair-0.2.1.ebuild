@@ -3,22 +3,23 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{7..8} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="A library which communicates with ZiGate radios for zigpy"
-HOMEPAGE="https://github.com/doudz/zigpy-zigate https://pypi.org/project/zigpy-zigate/"
+DESCRIPTION="asyncio client for the Awair GraphQL API"
+HOMEPAGE="https://github.com/ahayworth/python_awair https://pypi.org/project/python-awair/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
-	>=dev-python/zigpy-0.20_alpha1[${PYTHON_USEDEP}]"
-DEPEND="${REDEPEND}
+RDEPEND=">=dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.11.7[${PYTHON_USEDEP}]
+	dev-python/async_timeout[${PYTHON_USEDEP}]"
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]

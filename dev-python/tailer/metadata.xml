@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">beewi-smartclim</remote-id>
+    <remote-id type="pypi">tailer</remote-id>
     <maintainer status="unknown">
-      <email>hello@aleix.cloud</email>
-      <name>alemuro</name>
+      <email>six8@devdetails.com</email>
+      <name>Mike Thornton</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
