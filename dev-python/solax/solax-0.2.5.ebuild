@@ -3,12 +3,12 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/"
-HOMEPAGE="https://github.com/kennedyshead/aioasuswrt https://pypi.org/project/aioasuswrt/"
+DESCRIPTION="Solax inverter API client"
+HOMEPAGE="https://github.com/squishykid/solax https://pypi.org/project/solax/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -16,14 +16,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
-DEPEND="${REDEPEND}
+DOCS="README.md"
+
+RDEPEND=">=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.11.5[${PYTHON_USEDEP}]"
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pytest-runner[${PYTHON_USEDEP}]
-	dev-python/setuptools-markdown[${PYTHON_USEDEP}]
-	dev-python/pypandoc[${PYTHON_USEDEP}]
-	>=dev-python/wheel-0.25.0[${PYTHON_USEDEP}]
-	~dev-python/asyncssh-1.15.0[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]

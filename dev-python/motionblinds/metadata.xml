@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">millheater</remote-id>
+    <remote-id type="pypi">motionblinds</remote-id>
     <maintainer status="unknown">
-      <email>mail@dahoiv.net</email>
-      <name>Daniel Hjelseth Hoyer</name>
+      <email>starkiller.og@gmail.com</email>
+      <name>starkillerOG</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -3,21 +3,25 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="A Python library for communicating with deCONZ REST-API from Dresden Elektronik"
-HOMEPAGE="https://github.com/Kane610/deconz https://pypi.org/project/pydeconz/"
+DESCRIPTION="A SoCo fork with fixes for Home Assistant."
+HOMEPAGE="https://github.com/amelchio/pysonos https://pypi.org/project/pysonos/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
-DEPEND="${REDEPEND}
+DOCS="README.rst"
+
+RDEPEND="dev-python/ifaddr[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/xmltodict[${PYTHON_USEDEP}]"
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]

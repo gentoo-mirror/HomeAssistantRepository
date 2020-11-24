@@ -3,12 +3,12 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="A SoCo fork with fixes for Home Assistant."
-HOMEPAGE="https://github.com/amelchio/pysonos https://pypi.org/project/pysonos/"
+DESCRIPTION="SleepIQ API for Python"
+HOMEPAGE="https://github.com/technicalpickles/sleepyq https://pypi.org/project/sleepyq/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -16,10 +16,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/ifaddr[${PYTHON_USEDEP}]
-		 dev-python/requests[${PYTHON_USEDEP}]
-		 dev-python/xmltodict[${PYTHON_USEDEP}]"
-DEPEND="${REDEPEND}
+DOCS="README.rst"
+
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/inflection[${PYTHON_USEDEP}]"
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
