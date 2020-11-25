@@ -3,12 +3,12 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6..8} )
+PYTHON_COMPAT=( python3_{6..9} )
 
 inherit distutils-r1
 
-DESCRIPTION="An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/"
-HOMEPAGE="https://github.com/XKNX/xknx/ https://xknx.io/ https://pypi.org/project/xknx/"
+DESCRIPTION="Control an Elgato Avea bulb using python3"
+HOMEPAGE="https://github.com/k0rventen/avea https://pypi.org/project/avea/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,9 +18,8 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/netifaces-0.10.9
-	>=dev-python/pyyaml-5.1"
-BDEPEND="${REDEPEND}
+RDEPEND="dev-python/bluepy[${PYTHON_USEDEP}]"
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]

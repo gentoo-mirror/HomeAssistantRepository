@@ -1,22 +1,23 @@
 # Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=6
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{6..9} )
 
 inherit distutils-r1
 
-DESCRIPTION="A simple interface to GPIO devices with Raspberry Pi."
-HOMEPAGE="https://github.com/RPi-Distro/python-gpiozero https://pypi.org/project/gpiozero/"
+DESCRIPTION="Interface for TPLink HS1xx plugs, HS2xx wall switches & LB1xx bulbs"
+HOMEPAGE="https://github.com/GadgetReactor/pyHS100 https://pypi.org/project/pyHS100/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="BSD"
+LICENSE="GPL-3"
 SLOT="0"
-#KEYWORDS="~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND="dev-python/click[${PYTHON_USEDEP}]
+	dev-python/deprecation[${PYTHON_USEDEP}]"
 DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
