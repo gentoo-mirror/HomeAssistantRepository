@@ -4,9 +4,9 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.4.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.0 0.9.1 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 0.115.6 0.116.4 0.117.5-r1 0.117.6 0.118.0_beta3 0.118.0 0.118.1 0.118.2 0.118.3: Open-source home automation platform running on Python 3.7 & 3.8
-app-misc/homeassistant-full 0.115.6 0.116.4 0.117.5 0.117.6 0.118.0_beta3 0.118.0 0.118.1 0.118.2 0.118.3 9999: Open-source home automation platform running on Python 3.7 & 3.8
-app-misc/homeassistant-min 0.115.6 0.116.4 0.117.5-r1 0.117.6 0.118.0_beta3 0.118.0 0.118.1 0.118.2 0.118.3: Open-source home automation platform running on Python 3.7 & 3.8
+app-misc/homeassistant 0.115.6 0.116.4 0.117.5-r1 0.117.6 0.118.0_beta3 0.118.0 0.118.1 0.118.2 0.118.3 0.118.4: Open-source home automation platform running on Python 3.7 & 3.8
+app-misc/homeassistant-full 0.115.6 0.116.4 0.117.5 0.117.6 0.118.0_beta3 0.118.0 0.118.1 0.118.2 0.118.3 0.118.4 9999: Open-source home automation platform running on Python 3.7 & 3.8
+app-misc/homeassistant-min 0.115.6 0.116.4 0.117.5-r1 0.117.6 0.118.0_beta3 0.118.0 0.118.1 0.118.2 0.118.3 0.118.4: Open-source home automation platform running on Python 3.7 & 3.8
 dev-embedded/esphome 1.14.3-r7 1.14.4-r1 1.14.5 1.14.5-r1 1.14.5-r2 1.15.0 1.15.1 1.15.2 1.15.3 1.15.3-r1 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.6 2.7 2.7-r1 2.8: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 4.0.3-r3 4.3.1 4.3.4 5.0.1: A professional collaborative platform for embedded development. Cross-platform IDE and Unified Debugger. Static Code Analyzer and Remote Unit Testing. Multi-platform and Multi-architecture Build System. Firmware File Explorer and Memory Inspection. IoT, Arduino, CMSIS, ESP-IDF, FreeRTOS, libOpenCM3, mbedOS, Pulp OS, SPL, STM32Cube, Zephyr RTOS, ARM, AVR, Espressif (ESP8266/ESP32), FPGA, MCS-51 (8051), MSP430, Nordic (nRF51/nRF52), NXP i.MX RT, PIC32, RISC-V, STMicroelectronics (STM8/STM32), Teensy
@@ -406,7 +406,7 @@ dev-python/influxdb-client 1.6.0 1.7.0 1.8.0: InfluxDB 2.0 Python client library
 dev-python/insteonplm 0.15.4 0.16.0 0.16.5 0.16.6 0.16.7 0.16.8: Python API for controlling Insteon PowerLinc Modems
 dev-python/iperf3 0.1.10 0.1.11: Python wrapper around iperf3
 dev-python/ipify 1.0.0: The official client library for ipify: A Simple IP Address API.
-dev-python/isort 5.5.1 5.5.2 5.5.3: A Python utility / library to sort Python imports.
+dev-python/isort 5.5.1 5.5.2 5.5.3 5.6.3-r1: A python utility/library to sort imports
 dev-python/jdatetime 3.1.0 3.4.0: Jalali datetime binding for python
 dev-python/jinja 2.10.3: A full-featured template engine for Python
 dev-python/jmespath 0.9.4: JSON Matching Expressions
@@ -540,7 +540,7 @@ dev-python/plumlightpad 0.0.11: A python package that interacts with the Plum Li
 dev-python/pmsensor 0.4: Library to read data from environment sensors
 dev-python/pocketcasts 0.1: python module to interact with the unofficial Pocket Casts API.
 dev-python/poetry 0.12.17 1.0.10: Python dependency management and packaging made easy.
-dev-python/poetry-core 1.0.0_alpha9: Core utilities for Poetry
+dev-python/poetry-core 1.0.0_alpha9 1.0.0: Core utilities for Poetry
 dev-python/poolsense 0.0.5 0.0.8: Asynchronous Python client for getting PoolSense data.
 dev-python/postnl-api 1.0.2 1.2.2: Python wrapper for the PostNL API, a way to track packages and letters.
 dev-python/praw 6.1.1 6.3.1 6.4.0 6.5.0 6.5.1 7.1.0: Python Reddit API Wrapper allows simple access to reddit's API.
@@ -880,7 +880,7 @@ dev-python/rjpl 0.3.5 0.3.6: Interface with Rejseplanen API
 dev-python/rocketchat-API 0.6.1 0.6.35: Python API wrapper for Rocket.Chat
 dev-python/roku 3.0 3.1 4.0.0 4.1.0: Client for the Roku media player
 dev-python/rokuecp 0.4.0 0.4.1 0.4.2 0.5.0 0.6.0 0.6.1: Asynchronous Python client for Roku (ECP).
-dev-python/roombapy 1.4.1 1.4.2 1.4.3 1.5.0 1.5.1 1.5.2 1.5.3 1.6.1: Python library to control Wi-Fi enabled iRobot Roomba vacuum cleaners
+dev-python/roombapy 1.4.3 1.5.0 1.5.1 1.5.2 1.5.3 1.6.1 1.6.2: Python library to control Wi-Fi enabled iRobot Roomba vacuum cleaners
 dev-python/roonapi 0.0.21 0.0.22 0.0.23 0.0.25: Provides a python interface to interact with Roon
 dev-python/rova 0.1.0: API wrapper for ROVA calendar
 dev-python/rpi-bad-power 0.0.3 0.1.0: A Python library to detect bad power supply on Raspberry Pi
@@ -988,6 +988,7 @@ dev-python/total-connect-client 0.50 0.53 0.54.1 0.55 0.55.1: Interact with Tota
 dev-python/tox-travis 0.11: Seamless integration of Tox into Travis CI
 dev-python/tp-connected 0.0.4: TP-Link LTE modem API
 dev-python/tplink 0.2.1 0.2.3: Get the list of hosts connected to the router
+dev-python/tqdm 4.49.0: Add a progress meter to your loops in a second
 dev-python/transitions 0.6.9: A lightweight, object-oriented Python state machine implementation.
 dev-python/transmissionrpc 0.11: Python module that implements the Transmission bittorent client RPC protocol.
 dev-python/trio 0.16.0: A friendly Python library for async concurrency and I/O
