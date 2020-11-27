@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">roombapy</remote-id>
+    <remote-id type="pypi">tqdm</remote-id>
     <maintainer status="unknown">
-      <email>philipp@schmitt.co</email>
-      <name>Philipp Schmitt</name>
+      <email>python.tqdm@gmail.com</email>
+      <name>tqdm developers</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
