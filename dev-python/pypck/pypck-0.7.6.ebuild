@@ -3,27 +3,33 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{7..9} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python wrapper for getting data from Brother laser and inkjet printers via SNMP."
-HOMEPAGE="https://github.com/bieniu/brother https://pypi.org/project/brother/"
+DESCRIPTION="Open source LCN-PCK library written in Python"
+HOMEPAGE="https://github.com/alengwenus/pypck https://pypi.org/project/pypck/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="EPL-1.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/pysnmp[${PYTHON_USEDEP}]"
-BDEPEND="dev-python/pytest-runner[${PYTHON_USEDEP}]"
-DEPEND="${REDEPEND}
+DOCS="README.md"
+
+RDEPEND=""
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
+
+src_prepare() {
+	sed "s/packages=setuptools.find_packages(exclude=(\"tests\",))/packages=setuptools.find_packages(exclude=['tests','tests.*'])/g" -i setup.py || die
+	eapply_user
+}
 
 python_test() {
 	nosetests --verbose || die

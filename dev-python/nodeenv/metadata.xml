@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">abodepy</remote-id>
+    <remote-id type="pypi">nodeenv</remote-id>
     <maintainer status="unknown">
-      <email>wilrader@gmail.com</email>
-      <name>Wil Schrader</name>
+      <email>e.v.kalinin@gmail.com</email>
+      <name>Eugene Kalinin</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
