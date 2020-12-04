@@ -1,3 +1,26 @@
+2020-12-04
+  * bump home-assistant-frontend-20201203.0
+  * bump HATasmota-0.1.4
+  * bump HATasmota-0.2.2
+  * bump auroranoaa-0.0.2
+  * bump respx-0.16.2
+
+2020-12-03
+  * bump pysml-0.0.3
+  * update libpurecool-0.6.4
+  * bump TwitterAPI-2.6.2.1
+  * bump pylast-4.0.0
+  * update pypck-0.7.7, remove patch
+  * update pyatv-0.7.4
+  * bump androidtv-0.0.56
+  * bump pydeconz-76
+  * add synologydsm-api-1.0.1
+  * bump python-openzwave-mqtt-1.4.0
+  * bump home-assistant-frontend-20201202.0
+  * add gTTS-2.2.1
+  * add pykulersky-0.4.0
+  * update icmplib-2.0
+
 2020-12-01
   * bump colorlog-4.6.2
   * update pyatmo-4.2.1
@@ -5,6 +28,7 @@
   * update hyperion-py-0.6.0
   * update elgato-1.0.0
   * update aiorecollect-0.2.2
+  * removed ubee from USE-lists
 
 2020-11-29
   * bump brother-0.1.20

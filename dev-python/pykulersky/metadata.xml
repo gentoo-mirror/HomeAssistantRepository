@@ -6,11 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">TwitterAPI</remote-id>
-    <docs>https://pythonhosted.org/TwitterAPI/</docs>
+    <remote-id type="pypi">pykulersky</remote-id>
     <maintainer status="unknown">
-      <email>boxnumber03@gmail.com</email>
-      <name>geduldig</name>
+      <email>emily@emlove.me</email>
+      <name>Emily Mills</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

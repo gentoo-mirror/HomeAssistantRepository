@@ -6,11 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">TwitterAPI</remote-id>
-    <docs>https://pythonhosted.org/TwitterAPI/</docs>
+    <remote-id type="pypi">gTTS</remote-id>
     <maintainer status="unknown">
-      <email>boxnumber03@gmail.com</email>
-      <name>geduldig</name>
+      <email>pndurette@gmail.com</email>
+      <name>Pierre Nicolas Durette</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -3,12 +3,12 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6..8} )
+PYTHON_COMPAT=( python3_{7..9} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python module to help parse and construct Tasmota MQTT messages."
-HOMEPAGE="https://github.com/emontnemery/hatasmota https://pypi.org/project/HATasmota/"
+DESCRIPTION="Library for EDL21 smart meters using Smart Message Language (SML)"
+HOMEPAGE="https://github.com/mtdcr/pysml https://pypi.org/project/pysml/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,9 +18,10 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND="~dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
-	~dev-python/voluptuous-0.12.0[${PYTHON_USEDEP}]"
-BDEPEND="${REDEPEND}
+RDEPEND=">=dev-python/async_timeout-3.0.1[${PYTHON_USEDEP}]
+	>=dev-python/bitstring-3.1.5[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-asyncio-0.4[${PYTHON_USEDEP}]"
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
