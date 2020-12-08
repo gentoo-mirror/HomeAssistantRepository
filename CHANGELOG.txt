@@ -1,3 +1,21 @@
+2020-12-08 homeassistant-1.0.0_beta2
+  * update ring-doorbell-0.6.2
+  * update voluptuous-0.12.1
+  * bump fritzconnection-1.4.0
+  * bump pymyq-2.0.11
+  * bump simplisafe-python-9.6.1
+  * bump simplisafe-python-9.6.2
+  * bump homematicip-0.13.0
+  * bump zha:
+    * zha-quirks-0.0.48
+    * zigpy-0.28.2
+    * zigpy-znp-0.3.0
+  * bump tuyaha-0.0.9
+  * bump ciscomobilityexpress-0.3.9
+  * bump pyatv-0.7.4 -> pyatv-0.7.5
+  * bump aiohomekit-0.2.60
+  * update homeassistant-1.0.0_beta2
+
 2020-12-05 homeassistant-1.0.0_beta1
   * bump home-assistant-frontend-20201204.0
   * bump pyzerproc-0.3.0
