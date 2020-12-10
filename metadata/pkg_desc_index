@@ -597,7 +597,7 @@ dev-python/pyaftership 0.1.2: A module to get information pending parcels.
 dev-python/pyairvisual 3.0.1 4.3.0 4.4.0 5.0.2 5.0.3 5.0.4: A simple API for AirVisual air quality data
 dev-python/pyalarmdotcom 0.3.2: A simple library to interface with Alarm.com built for use with Home-Assistant
 dev-python/pyalmond 0.0.2 0.0.3: Python module to talk to the Web Almond API.
-dev-python/pyarlo 0.2.3: Python library that exposes the Netgear Arlo cameras as Python objects.
+dev-python/pyarlo 0.2.3 0.2.4: Python Arlo is a library written in Python 2.7/3x that exposes the Netgear Arlo cameras as Python objects.
 dev-python/pyasn1 0.4.4 0.4.5: ASN.1 library for Python
 dev-python/pyatag 0.2.19 0.3.1.1 0.3.1.2 0.3.3.4 0.3.4.4: Connection to ATAG One Thermostat
 dev-python/pyatmo 3.3.1 4.0.0 4.1.0 4.2.0 4.2.1: Simple API to access Netatmo weather station data from any Python 3 script. Designed for Home-Assitant (but not only)
