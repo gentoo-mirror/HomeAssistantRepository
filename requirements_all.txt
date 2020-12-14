@@ -21,7 +21,6 @@ aio-georss-client==0.6
 aio-georss-gdacs==0.4
 aioambient==1.2.1
 aioasuswrt==1.3.1
-aioazuredevops==1.3.5
 aiocoap==0.4_beta3
 aiodns==2.0.0
 aioeafm==0.1.2
@@ -32,7 +31,7 @@ aiofreepybox==0.0.8
 aioftp==0.12.0
 aioguardian==1.0.4
 aioharmony==0.2.6
-aiohomekit==0.2.57
+aiohomekit==0.2.60
 aiohttp-cors==0.7.0
 aiohttp==3.6.2
 aiohttp==3.7.1
@@ -47,13 +46,12 @@ aionotion==1.1.0
 aionursery==0.3.0
 aiopulse==0.4.2
 aiopvapi==1.6.14
-aiopvpc==2.0.2
 aiopylgtv==0.3.3
 aiorecollect==0.2.2
 aioshelly==0.5.1
 aiosqlite==0.16.0
 aioswitcher==1.2.1
-aiounifi==25
+aiounifi==26
 aioymaps==1.1.0
 airly==1.0.0
 aladdin-connect==0.3
@@ -101,8 +99,6 @@ avea==1.5.1
 avion==0.10
 awk==1
 axis==41
-azure-common==1.1.25
-azure-servicebus==0.50.3
 backoff==1.10.0
 baidu-aip==1.6.6.0
 basicmodem==0.7
@@ -217,7 +213,6 @@ directv==0.4.0
 discogs-client==2.3.0
 discord-py==1.5.1
 distro==1.5.0
-dlib==19.18.0
 dlipower==0.7.165
 dnspython==2.0.0
 docopt==0.6.2
@@ -259,8 +254,6 @@ eudev==3.2.9
 evdev==1.1.2
 evohome-async==0.3.5
 expat==2.2.8
-face_recognition==1.2.3
-face_recognition_models==0.3.0
 fastdotcom==0.0.3
 feedparser-homeassistant==5.2.2
 feedparser==6.0.2
@@ -325,7 +318,6 @@ grpc-google-iam-v1==0.12.3
 grpcio==1.31.0
 gstreamer-player==1.1.2
 gTTS-token==1.1.3
-gTTS==2.2.1
 guppy3==3.1.0
 gzip==1.10
 h11==0.11.0
@@ -333,7 +325,7 @@ ha-ffmpeg==3.0.2
 ha-philipsjs==0.0.8
 habitipy==0.2.0
 hangups==0.4.11
-hass-nabucasa==0.38.0
+hass-nabucasa==0.39.0
 hass-splunk==0.1.1
 HATasmota==0.1.4
 haversine==2.1.2
@@ -348,7 +340,7 @@ hole==0.5.1
 holidays==0.10.3
 home-assistant-cli==0.9.1
 home-assistant-cli==9999
-home-assistant-frontend==20201204.0
+home-assistant-frontend==20201212.0
 homeassistant
 homeconnect==0.6.3
 horimote==0.4.1
@@ -370,8 +362,6 @@ hyperlink==20.0.1
 i2csense==0.0.4
 iammeter==0.1.7
 iaqualink==0.3.4
-ibm-cloud-sdk-core==1.0.0
-ibm-watson==4.0.1
 ibmiotf==0.3.4
 idna-ssl==1.1.0
 idna==2.10
@@ -404,7 +394,6 @@ jsonrpc-async==1.1.1
 jsonrpc-base==1.1.0
 jsonrpc-websocket==1.2.1
 kaiterra-async-client==0.0.2
-keba-kecontact==1.1.0
 keyring==21.4.0
 kiwiki-client==0.1.1
 konnected==1.2.0
@@ -449,7 +438,6 @@ lmnotify==0.0.4
 locationsharinglib==4.1.0
 logi-circle==0.2.2
 lomond==0.3.3
-london-tube-status==0.2
 luftdaten==0.6.4
 lupupy==0.0.18
 lw12==0.9.2
@@ -466,7 +454,6 @@ matrix-client==0.3.2
 mawk==1.3.4_p20200106
 maxcube-api==0.1.0
 mbddns==0.1.2
-mcstatus==2.3.0
 MechanicalSoup==0.6.0
 messagebird==1.2.0
 meteoalertapi==0.1.6
@@ -479,8 +466,6 @@ monotonic==1.5
 mpc==1.2.1
 mpfr==4.1.0
 ms-cv==0.1.1
-msrest==0.6.19
-msrestazure==0.6.4
 mt_940==4.19.0
 multidict==5.0.0
 mutagen==1.45.1
@@ -527,7 +512,7 @@ openerz-api==0.1.0
 openevsewifi==1.1.0
 openhomedevice==0.7.2
 opensensemap-api==0.1.5
-openssl==1.1.1g
+openssl==1.1.1i
 openwebifpy==3.1.1
 openwrt-luci-rpc==1.1.6
 oru==0.1.11
@@ -609,13 +594,13 @@ pyaes==1.6.1
 pyaftership==0.1.2
 pyairvisual==5.0.4
 pyalmond==0.0.2
-pyarlo==0.2.3
+pyarlo==0.2.4
 pyasn1-modules==0.2.8
 pyasn1==0.4.8
 pyatag==0.3.4.4
 pyatmo==4.2.1
 pyAtome==0.1.1
-pyatv==0.7.3
+pyatv==0.7.5
 pybbox==0.0.5_alpha0
 pyblackbird==0.5
 pybluez==0.22
@@ -652,7 +637,6 @@ pyedimax==0.2.1
 pyEight==0.1.5
 pyelftools==0.26
 pyEmby==1.7
-pyenvisalink==4.0
 pyephember==0.3.1
 PyEssent==0.14
 pyeverlights==0.1.0
@@ -718,7 +702,7 @@ pymonoprice==0.3
 pymsteams==0.1.12
 pymusiccast==0.1.6
 PyMVGLive==1.1.4
-pymyq==2.0.10
+pymyq==2.0.11
 pymysensors==0.18.0
 pynacl==1.3.0
 pynacl==1.4.0
@@ -765,7 +749,9 @@ pysaj==0.0.16
 pySDCP==1
 pysensibo==1.0.3
 pyserial-asyncio==0.4
+pyserial-asyncio==0.5
 pyserial==3.4
+pyserial==3.5
 pysesame2==1.0.1
 Pysher==1.0.1
 pysignalclirestapi==0.3.4
@@ -931,7 +917,7 @@ shodan==1.24.0
 simplehound==0.3
 simplejson==3.17.2
 simplepush==1.1.4
-simplisafe-python==9.6.0
+simplisafe-python==9.6.2
 sisyphus-control==3.0
 six==1.15.0
 skybellpy==0.6.1
@@ -968,7 +954,6 @@ sqlitedict==1.6.0
 sseclient-py==1.7
 starkbank-ecdsa==1.0.0
 starline==0.1.3
-starlingbank==3.2
 statsd==3.2.1
 steamodd==4.21
 stevedore==3.2.2
@@ -1009,7 +994,7 @@ tp-connected==0.0.4
 tqdm==4.51.0
 transmissionrpc==0.11
 TravisPy==0.3.5
-tuyaha==0.0.8
+tuyaha==0.0.9
 twentemilieu==0.3.0
 twilio==6.32.0
 twisted==20.3.0
@@ -1019,7 +1004,6 @@ txaio==20.4.1
 typing-extensions==3.7.4.3
 tzlocal==2.1
 u-msgpack==2.7.1
-uamqp==1.2.11
 udev==245.5
 uEagle==0.0.2
 ujson==4.0.1
@@ -1047,7 +1031,6 @@ voluptuous==0.12.0
 voluptuous==0.12.1
 volvooncall==0.8.12
 vsure==1.5.4
-vtjp==0.1.14
 vultr==0.1.2
 wakeonlan==1.1.6
 waqiasync==1.0.0
@@ -1090,16 +1073,15 @@ youtube_dl==2020.11.12
 zbar==0.23
 zeep==4.0.0
 zengge==0.2
-zeroconf==0.28.6
-zha-quirks==0.0.47
+zeroconf==0.28.7
+zha-quirks==0.0.49
 zhong-hong-hvac==1.0.9
 ziggo-mediabox-xl==1.1.0
 zigpy-cc==0.5.2
 zigpy-deconz==0.11.0
 zigpy-xbee==0.13.0
 zigpy-zigate==0.7.3
-zigpy-znp==0.2.2
-zigpy==0.28.1
+zigpy-znp==0.3.0
 zigpy==0.28.2
 zipp==3.4.0
 zlib==1.2.11
