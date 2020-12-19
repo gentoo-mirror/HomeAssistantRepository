@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyserial</remote-id>
+    <remote-id type="pypi">pycketcasts</remote-id>
     <maintainer status="unknown">
-      <email>cliechti@gmx.net</email>
-      <name>Chris Liechti</name>
+      <email>n8gr8gbln@gmail.com</email>
+      <name>Nate Harris</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

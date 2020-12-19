@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyserial</remote-id>
+    <remote-id type="pypi">bandit</remote-id>
     <maintainer status="unknown">
-      <email>cliechti@gmx.net</email>
-      <name>Chris Liechti</name>
+      <email>code-quality@python.org</email>
+      <name>PyCQA</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -3,21 +3,23 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6..9} )
 
 inherit distutils-r1
 
-DESCRIPTION="A Somfy Open API library"
-HOMEPAGE="https://github.com/tetienne/somfy-open-api https://pypi.org/project/pymfy/"
+DESCRIPTION="Python wrapper for qBittorrent >4.1.x"
+HOMEPAGE="https://github.com/v1k45/python-qbittorrent https://pypi.org/project/python-qbittorrent/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=""
-DEPEND="${REDEPEND}
+DOCS="README.rst"
+
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
