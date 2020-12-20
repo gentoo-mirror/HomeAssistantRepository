@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pydaikin</remote-id>
+    <remote-id type="pypi">bleak</remote-id>
     <maintainer status="unknown">
-      <email>mustang@yadan.org</email>
-      <name>Fredrik Erlandsson &lt;fredrik.e+pydaikin@gmail.com&gt;, Matthias Lemainque &lt;matthias.lemainque+pydaikin@gmail.com&gt;</name>
+      <email>henrik.blidh@nedomkull.com</email>
+      <name>Henrik Blidh</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

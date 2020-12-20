@@ -4,6 +4,12 @@
   * bump platformio-5.0.3
   * adjust esphome-1.15.3-r2 to homeassistant-2020.12.1 DEPS
   * update esphome-9999 (for testing)
+  * add txdbus-1.1.2
+  * add bleak-0.10.0
+  * update pyzerproc-0.4.4
+  * bump androidtv-0.0.57
+  * update venstarcolortouch-0.13
+  * update pydaikin-2.4.0
 
 2020-12-19
   * update dtlssocket-0.1.11, dtlssocket-0.1.12

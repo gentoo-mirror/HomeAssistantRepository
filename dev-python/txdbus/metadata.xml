@@ -6,10 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pydaikin</remote-id>
+    <remote-id type="pypi">txdbus</remote-id>
+    <doc>https://pythonhosted.org/txdbus/</doc>
     <maintainer status="unknown">
-      <email>mustang@yadan.org</email>
-      <name>Fredrik Erlandsson &lt;fredrik.e+pydaikin@gmail.com&gt;, Matthias Lemainque &lt;matthias.lemainque+pydaikin@gmail.com&gt;</name>
+      <email>tom.cocagne@gmail.com</email>
+      <name>Tom Cocagne</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

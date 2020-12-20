@@ -3,29 +3,27 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{6..9} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python Daikin HVAC appliances interface"
-HOMEPAGE="https://bitbucket.org/mustang51/pydaikin https://pypi.org/project/pydaikin/"
+DESCRIPTION="Interface Library for Venstar ColorTouch Thermostat API v5"
+HOMEPAGE="https://github.com/hpeyerl/venstar_colortouch https://pypi.org/project/venstarcolortouch/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/netifaces[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
-DEPEND="${REDEPEND}
+DOCS="README.md"
+
+RDEPEND=">=dev-python/requests-2.14.1[${PYTHON_USEDEP}]"
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/freezegun[${PYTHON_USEDEP}]
-		dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
 	)"
 
 python_test() {
