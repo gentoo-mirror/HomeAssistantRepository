@@ -255,7 +255,7 @@ dev-python/deepmerge 0.1.0: a toolset to deeply merge python dictionaries.
 dev-python/defusedxml 0.6.0-r1: XML bomb protection for Python stdlib modules, an xml serialiser
 dev-python/deluge-client 1.4.0 1.7.1: Simple Deluge Client
 dev-python/demjson 2.2.4: encoder, decoder, and lint/validator for JSON (JavaScript Object Notation) compliant with RFC 7159
-dev-python/denonavr 0.9.4 0.9.5 0.9.6 0.9.7 0.9.8: Automation Library for Denon AVR receivers
+dev-python/denonavr 0.9.5 0.9.6 0.9.7 0.9.8 0.9.9: Automation Library for Denon AVR receivers
 dev-python/devolo-home-control-api 0.11.0 0.13.0 0.15.0 0.15.1 0.16.0: devolo Home Control API in Python
 dev-python/directpy 0.5 0.6 0.7: A python library for interacting with DirecTV receivers
 dev-python/directv 0.3.0 0.4.0: Asynchronous Python client for DirecTV (SHEF).
@@ -458,7 +458,7 @@ dev-python/mcstatus 2.3.0: A library to query Minecraft Servers for their status
 dev-python/messagebird 1.2.0 1.5.0: MessageBird's REST API
 dev-python/meteoalertapi 0.0.8 0.1.3 0.1.5 0.1.6: A small api to get alerting messages from https://www.meteoalarm.eu.
 dev-python/meteofrance 0.3.4 0.3.7: Meteo-France weather forecast
-dev-python/meteofrance-api 0.1.0 0.1.1: Python client for Meteo-France API.
+dev-python/meteofrance-api 0.1.0 0.1.1 1.0.1: Python client for Meteo-France API.
 dev-python/mficlient 0.3.0: A remote control client for Ubiquiti's mFi system
 dev-python/miflora 0.4 0.6 0.7.0 0.7.1: Library to read data from Mi Flora sensor
 dev-python/millheater 0.3.4 0.4.0: A python3 library to communicate with Mill
