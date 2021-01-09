@@ -72,6 +72,8 @@
   * dg google-nest-sdm-0.2.5
   * update homeassistant-2021.1.0
   * clean up home-assistant-frontend-*
+  * fix static colorlog dep
+  * update esphome-1.15.3-r3 (for homeassistant-2021.1.0)
 
 2020-12-21
   * update meteofrance-api-1.0.1
