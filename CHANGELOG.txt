@@ -1,3 +1,25 @@
+2021-01-09 homeassistant-2020.12.2
+  * update pyzerproc-0.4.7
+  * update aiokef-0.2.17
+  * update zigpy-deconz-0.11.0
+  * update hyperion-py-0.6.1
+  * bump motionblinds-0.4.7
+  * update pywemo-0.5.6
+  * update python-mpd2-3.0.1
+  * bump huawei-lte-api-1.4.17
+  * update huawei-lte-api-1.4.17
+  * update pydeconz-77
+  * update google-nest-sdm-0.2.7
+  * update pyotgw-1.0_beta1
+  * bump envoy-reader-0.18.2
+  * bump envoy-reader-0.18.3
+  * bump skybellpy-0.6.3
+  * bump home-assistant-frontend-20201229.0
+  * bump env-canada-0.2.5, update env-canada-0.3.1
+  * update pycarwings2-2.10
+  * add (still needed) watchdog-0.8.3
+  * update homeassistant-2020.12.2
+
 2020-12-21
   * update meteofrance-api-1.0.1
   * bump denonavr-0.9.9

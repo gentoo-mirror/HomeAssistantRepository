@@ -3,23 +3,24 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python3_{6..9} )
 
 inherit distutils-r1
 
-DESCRIPTION="API For huawei LAN/WAN LTE Modems"
-HOMEPAGE="https://github.com/Salamek/huawei-lte-api https://pypi.org/project/huawei-lte-api/"
+DESCRIPTION="Asyncio Python API for KEF speakers."
+HOMEPAGE="https://github.com/basnijholt/aiokef https://pypi.org/project/aiokef/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="LGPL-3"
+LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
-		 dev-python/dicttoxml[${PYTHON_USEDEP}]
-		 dev-python/xmltodict[${PYTHON_USEDEP}]"
-DEPEND="${REDEPEND}
+DOCS=""
+
+RDEPEND="dev-python/tenacity[${PYTHON_USEDEP}]
+	dev-python/async_timeout[${PYTHON_USEDEP}]"
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
