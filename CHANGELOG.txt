@@ -1,4 +1,4 @@
-2021-01-09 homeassistant-2020.12.2
+2021-01-09 homeassistant-2021.1.0
   * update pyzerproc-0.4.7
   * update aiokef-0.2.17
   * update zigpy-deconz-0.11.0
@@ -19,6 +19,59 @@
   * update pycarwings2-2.10
   * add (still needed) watchdog-0.8.3
   * update homeassistant-2020.12.2
+  * update psutil-5.8.0
+  * bump youtube_dl-2020.12.29
+  * update sendgrid-6.4.8
+  * bump zha-quirks-0.0.50
+  * update zm-py-0.5.2
+  * add pyairnow-1.1.0
+  * bump vsure-1.6.1
+  * add vol-0.1.1
+  * update py-august-0.25.2
+  * update py-canary-0.5.1
+  * update pytradfri-7.0.6
+  * bump zha-quirks-0.0.51
+  * update zigpy-deconz-0.11.1
+  * bump zigpy-0.29.0
+  * add pubnub-4.8.0
+  * update pubnubsub-handler-1.0.9
+  * update elkm1-lib-0.8.10
+  * update upb-lib-0.4.12
+  * update sqlalchemy-1.3.22 (from main repo)
+  * update slixmpp-1.6.0
+  * bump pyowm-3.1.1
+  * update alpha-vantage-2.3.1
+  * update volkszaehler-0.2.1
+  * bump pyhomematic-0.1.71
+  * update sentry-sdk-0.19.5
+  * bump debugpy-1.2.1
+  * bump pre-commit-2.9.3
+  * update locationsharinglib-4.1.5
+  * update surepy-0.4.0
+  * bump pyRFXtrx-0.26.1
+  * update xknx-0.16.0
+  * bump python-tado-0.10.0
+  * bump denonavr-0.9.10
+  * bump roonapi-0.0.30
+  * bump pyobihai-1.3.1
+  * add ondilo-0.2.0
+  * remove dupes and olds (zeroconf)
+  * update caldav-0.7.1
+  * bump pypck-0.7.8
+  * bump openwebifpy-3.2.7
+  * bump home-assistant-frontend-20201229.1
+  * update pychromecast-7.7.1
+  * bump python-ecobee-api-0.2.8
+  * bump pychromecast-7.7.2
+  * dg google-nest-sdm-0.2.6
+  * bump pydaikin-2.4.1
+  * bump plugwise-0.8.5
+  * bump nexia-0.9.5
+  * bump discord-py-1.6.0
+  * bump youtube_dl-2021.1.3
+  * dg google-nest-sdm-0.2.5
+  * update homeassistant-2021.1.0
+  * clean up home-assistant-frontend-*
 
 2020-12-21
   * update meteofrance-api-1.0.1
