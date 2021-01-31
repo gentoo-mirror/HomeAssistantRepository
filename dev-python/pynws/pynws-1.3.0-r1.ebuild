@@ -1,25 +1,26 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6..9} )
+PYTHON_COMPAT=( python3_{7..9} )
 
 inherit distutils-r1
 
-DESCRIPTION="Library implementing Zigpy quirks for ZHA in Home Assistant"
-HOMEPAGE="https://github.com/dmulcahey/zha-device-handlers https://pypi.org/project/zha-quirks/"
+DESCRIPTION="Python library to retrieve observations and forecasts from NWS/NOAA"
+HOMEPAGE="https://github.com/MatthewFlamm/pynws https://pypi.org/project/pynws/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/zigpy-0.28.2[${PYTHON_USEDEP}]"
-BDEPEND="
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/python-metar[${PYTHON_USEDEP}]"
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
