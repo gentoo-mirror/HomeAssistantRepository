@@ -1,3 +1,19 @@
+2021-01-31 homeassistant-2021.1.5
+  * bump HATasmota-0.2.6 & HATasmota-0.2.7
+  * bump TwitterAPI-2.6.3
+  * bump pylast-4.1.0
+  * update hass-nabucasa-0.41.0
+  * bump pycognito-0.1.5
+  * bump sendgrid-6.5.0
+  * bump zwave-js-server-python-0.12.0
+  * bump axis-43
+  * update pylutron-caseta-0.8.0
+  * bump aiolifx-0.6.9
+  * bump youtube_dl-2021.1.16
+  * update pywemo-0.6.1
+  * bump radiotherm-2.1.0
+  * update homeassistant-2021.1.5
+
 2021-01-21
   * add scapy-2.4.4
   * bump maxcube-api-0.3.0

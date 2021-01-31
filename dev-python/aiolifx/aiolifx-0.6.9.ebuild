@@ -1,14 +1,14 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6..9} )
+PYTHON_COMPAT=( python3_{7..9} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python module to help parse and construct Tasmota MQTT messages."
-HOMEPAGE="https://github.com/emontnemery/hatasmota https://pypi.org/project/HATasmota/"
+DESCRIPTION="API for local communication with LIFX devices over a LAN with asyncio."
+HOMEPAGE="https://github.com/frawau/aiolifx https://pypi.org/project/aiolifx/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,9 +18,9 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND="~dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
-	~dev-python/voluptuous-0.12.0[${PYTHON_USEDEP}]"
-BDEPEND="${REDEPEND}
+RDEPEND="dev-python/bitstring[${PYTHON_USEDEP}]
+	dev-python/ifaddr[${PYTHON_USEDEP}]"
+DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
