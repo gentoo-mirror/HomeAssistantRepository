@@ -41,6 +41,18 @@
   * add aiolip-1.0.1
   * bump pylutron-caseta-0.9.0
   * update aioesphomeapi-2.6.4
+  * bump zwave-js-server-python-0.14.1
+  * update pytile-5.1.0
+  * bump pyinsteon-1.0.9
+  * update httpcore-0.12.3
+  * update pysmappee-0.2.16
+  * bump home-assistant-frontend-20210127.3 & home-assistant-frontend-20210127.5
+  * bump simplisafe-python-9.6.4
+  * bump youtube_dl-2021.1.24.1
+  * add awesomeversion-21.1.3, bump awesomeversion-21.1.8
+  * bump pysonos-0.0.40
+  * bump home-assistant-frontend-20210127.6
+  * bump rova-0.2.1
 
 2021-01-21
   * add scapy-2.4.4
