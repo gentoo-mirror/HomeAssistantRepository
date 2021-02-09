@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">praw</remote-id>
+    <remote-id type="pypi">freebox-api</remote-id>
     <maintainer status="unknown">
-      <email>bbzbryce@gmail.com</email>
-      <name>Bryce Boe</name>
+      <email>luc_touraille@yahoo.fr</email>
+      <name>stilllman</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

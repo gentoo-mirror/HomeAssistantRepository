@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">praw</remote-id>
+    <remote-id type="pypi">pyplaato</remote-id>
     <maintainer status="unknown">
-      <email>bbzbryce@gmail.com</email>
-      <name>Bryce Boe</name>
+      <email>johan.nanzen@gmail.com</email>
+      <name>JohNan</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

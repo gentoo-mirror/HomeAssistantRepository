@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">praw</remote-id>
+    <remote-id type="pypi">aiolyric</remote-id>
     <maintainer status="unknown">
-      <email>bbzbryce@gmail.com</email>
-      <name>Bryce Boe</name>
+      <email>contact@timmo.xyz</email>
+      <name>Aidan Timson (Timmo)</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
