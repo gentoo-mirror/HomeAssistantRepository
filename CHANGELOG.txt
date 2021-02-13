@@ -1,3 +1,29 @@
+2021-02-12
+  * bump aioharmony-0.2.7
+  * bump xknx-0.16.3
+  * bump praw-7.1.3
+  * bump vsure-1.7.2
+  * bump gTTS-2.2.2
+  * bump pre-commit-2.10.1
+  * bump pyvera-0.3.13
+  * bump home-assistant-frontend-20210208.0
+  * update bond-api-0.1.9
+  * bump pysmappee-0.2.17
+  * update pyhiveapi-0.3.4.4
+  * bump roonapi-0.0.32
+  * bump av-8.0.3
+  * bump aioshelly-0.6.0
+  * bump pychromecast-8.1.0
+  * update teslajsonpy-0.11.5
+  * bump pywilight-0.0.68
+  * bump HATasmota-0.2.8
+  * bump aiolip-1.1.4
+  * bump tesla-powerwall-0.3.5
+  * add pkce-1.0.3
+  * update pymyq-3.0.1
+  * update ha-philipsjs-1.1.0
+  * bump rflink-0.0.58
+
 2021-02-09
   * bump pychromecast-8.0.0
   * add aiolyric-1.0.5
