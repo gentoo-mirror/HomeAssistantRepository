@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">prezzibenzina-py</remote-id>
+    <remote-id type="pypi">AEMET-OpenData</remote-id>
     <maintainer status="unknown">
-      <email>me@eliseomartelli.it</email>
-      <name>Eliseo Martelli</name>
+      <email>noltari@gmail.com</email>
+      <name>noltari</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
