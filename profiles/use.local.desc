@@ -175,6 +175,7 @@ app-misc/homeassistant:owntracks - OwnTracks: track your location and send it di
 app-misc/homeassistant:ozw - Open Zwave MQTT
 app-misc/homeassistant:panasonic_viera - panasonic_viera platform allows you to control a Panasonic Viera TV
 app-misc/homeassistant:philips_js - allows you to control Philips TVs which expose the jointSPACE JSON-API
+app-misc/homeassistant:pi_hole - retrieve statistics and interact with a Pi-hole system
 app-misc/homeassistant:pilight - Pilight is a open source solution to communicate with 433 MHz devices
 app-misc/homeassistant:ping - ICMPLib
 app-misc/homeassistant:plex - Python bindings for the Plex API
@@ -218,6 +219,7 @@ app-misc/homeassistant:squeezebox - library to control Logitech Media Server
 app-misc/homeassistant:ssl - include support for haproxy
 app-misc/homeassistant:statsd - transfer all state changes to an external StatsD instance
 app-misc/homeassistant:synology_dsm - monitor getting various statistics from your Synology NAS
+app-misc/homeassistant:systemd - internal and developer use
 app-misc/homeassistant:systemmonitor - monitor your platform
 app-misc/homeassistant:tasmota - Python module to help parse and construct Tasmota MQTT messages
 app-misc/homeassistant:tellduslive - cloud platform that connects to your Tellstick
@@ -873,6 +875,7 @@ app-misc/homeassistant-full:syncthru - allows you to read current data from your
 app-misc/homeassistant-full:synology - camera platform to watch the live streams of your Synology Surveillance Station
 app-misc/homeassistant-full:synology_dsm - monitor getting various statistics from your Synology NAS
 app-misc/homeassistant-full:synology_srm - detect presence by looking at connected devices to a Synology SRM router
+app-misc/homeassistant-full:systemd - internal and developer use
 app-misc/homeassistant-full:systemmonitor - monitor your platform
 app-misc/homeassistant-full:tado - an interface to the my.tado.com website
 app-misc/homeassistant-full:tahoma - interface to the tahomalink.com website. It adds covers, scenes and a sun sensor
@@ -1030,6 +1033,7 @@ app-misc/homeassistant-min:socat - Set a flag to install socat and socat-zwave s
 app-misc/homeassistant-min:sonos - Sonos Media Player Support
 app-misc/homeassistant-min:sql - enables you to use an SQL database supported by the sqlalchemy library
 app-misc/homeassistant-min:ssl - include support for haproxy
+app-misc/homeassistant-min:systemd - internal and developer use
 app-misc/homeassistant-min:tasmota - Python module to help parse and construct Tasmota MQTT messages
 app-misc/homeassistant-min:test - internal and developer use
 app-misc/homeassistant-min:tradfri - Control/observe IKEA Tradfri devices
