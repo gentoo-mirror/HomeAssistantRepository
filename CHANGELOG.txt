@@ -1,4 +1,7 @@
-2021-02-12
+2021-02-15
+  * add homeassistant-2021.2.0 (experimental, systemd support) as suggested by @Tatsh
+
+2021-02-14
   * bump brother-0.2.1
   * bump dsmr-parser-0.28
   * bump sentry-sdk-0.20.1
@@ -6,6 +9,10 @@
   * bump HAP-python-3.3.0
   * add AEMET-OpenData-0.1.8
   * remove prezzibenzina-py, won't compile
+  * update aioesphomeapi-2.6.3-r2, fix missing requirements.txt
+  * bump httplib2-0.18.1
+  * update PyRMVtransport-0.2.10
+  * add (from main repo): jinja-2.11.2-r1 (still needed)
 
 2021-02-12
   * bump aioharmony-0.2.7
