@@ -1,14 +1,14 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{7..9} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python API for talking to Ecobee thermostats"
-HOMEPAGE="https://github.com/nkgilley/python-ecobee-api https://pypi.org/project/python-ecobee-api/"
+DESCRIPTION="A Python library that implements a Tuya API endpoint that was specially designed for Home Assistant"
+HOMEPAGE="https://github.com/PaulAnnekov/tuyaha https://pypi.org/project/tuyaha/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -16,8 +16,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND=">=dev-python/requests-2.20.0[${PYTHON_USEDEP}]"
-DEPEND="${REDEPEND}
+DOCS="README.md"
+
+RDEPEND=""
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]

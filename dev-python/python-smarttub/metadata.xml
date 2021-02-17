@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">python-telnet-vlc</remote-id>
+    <remote-id type="pypi">python-smarttub</remote-id>
     <maintainer status="unknown">
-      <email>rodripf@gmail.com</email>
-      <name>stephenmac7, rodripf, BilliAlpha, David McClosky</name>
+      <email>mdz@alcor.net</email>
+      <name>Matt Zimmerman</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
