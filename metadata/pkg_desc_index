@@ -26,7 +26,7 @@ dev-python/CO2Signal 0.4.1 0.4.2: A package to access the co2signal API
 dev-python/DoorBirdPy 2.0.8 2.1.0: Python wrapper for the DoorBird LAN API v0.21
 dev-python/GitPython 2.1.11: Python Git Library
 dev-python/HAP-python 2.9.2 3.0.0 3.1.0 3.2.0 3.3.0: HomeKit Accessory Protocol implementation in python
-dev-python/HATasmota 0.1.6 0.2.5 0.2.6 0.2.7 0.2.8: Python module to help parse and construct Tasmota MQTT messages.
+dev-python/HATasmota 0.2.5 0.2.6 0.2.7 0.2.8 0.2.9: Python module to help parse and construct Tasmota MQTT messages.
 dev-python/Hydrawiser 0.1.1 0.2: A Python library to communicate with Hunter Wi-Fi irrigation controllers (https://www.hunter.com) that support the Hydrawise application (https://www.hydrawise.com).
 dev-python/Js2Py 0.66: JavaScript to Python Translator & JavaScript interpreter.
 dev-python/Mastodon-py 1.4.5 1.4.6 1.5.0 1.5.1: Python wrapper for the Mastodon API
@@ -103,7 +103,7 @@ dev-python/aiocache 0.10.1: multi backend asyncio cache
 dev-python/aiocoap 0.4_alpha1 0.4_alpha3 0.4_alpha3-r1 0.4_beta3: The Python CoAP library
 dev-python/aiodns 1.1.1 2.0.0: Simple DNS resolver for asyncio
 dev-python/aioeafm 0.1.2: An asyncio wrapper for the UK Environment Agency Flood Monitoring API
-dev-python/aioesphomeapi 2.4.2-r1 2.5.0 2.6.0 2.6.1 2.6.3 2.6.3-r2 2.6.4: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 2.6.0 2.6.1 2.6.3 2.6.3-r2 2.6.4 2.6.5: Python API for interacting with ESPHome devices.
 dev-python/aioflo 0.4.0 0.4.1: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aiofreepybox 0.0.8: Provides asynchronous authentication and access to Freebox servers
 dev-python/aioftp 0.10.1 0.12.0 0.18.0: ftp client/server for asyncio
@@ -191,7 +191,7 @@ dev-python/bitstring 3.1.5-r1: A pure Python module for creation and analysis of
 dev-python/bizkaibus 0.1.1 0.1.4: Online information for buses of Biscay bus services (Basque Country, Spain).
 dev-python/bleak 0.10.0: Bluetooth Low Energy platform Agnostic Klient
 dev-python/blebox-uniapi 1.3.2: Python API for accessing BleBox smart home devices
-dev-python/blinkpy 0.14.3 0.15.0 0.15.1 0.16.3 0.16.4: A Blink camera Python library running on Python 3.
+dev-python/blinkpy 0.15.0 0.15.1 0.16.3 0.16.4 0.17.0: A Blink camera Python library running on Python 3.
 dev-python/blinkt 0.1.0 0.1.2: Python library for driving Pimoroni Blinkt!
 dev-python/blockchain 1.4.4: Blockchain API library (v1)
 dev-python/bluepy 1.1.4 1.3.0: Python module for interfacing with BLE devices through Bluez
@@ -800,7 +800,7 @@ dev-python/python-clementine-remote 1.0.1 1.0.3: Python library and CLI for the 
 dev-python/python-dateutil 2.8.0 2.8.0-r1: Extensions to the standard Python datetime module
 dev-python/python-didl-lite 1.2.3 1.2.4: DIDL-Lite (Digital Item Declaration Language) tools for Python
 dev-python/python-digitalocean 1.13.2: digitalocean.com API to manage Droplets and Images
-dev-python/python-ecobee-api 0.2.1 0.2.2 0.2.3 0.2.5 0.2.7 0.2.8: Python API for talking to Ecobee thermostats
+dev-python/python-ecobee-api 0.2.3 0.2.5 0.2.7 0.2.8 0.2.10: Python API for talking to Ecobee thermostats
 dev-python/python-eq3bt 0.1.9 0.1.11: EQ3 bluetooth thermostat support library
 dev-python/python-etherscan-api 0.0.3: Python API for interacting with etherscan.io.
 dev-python/python-family-hub-local 0.0.2: Python API for accessing information from Samsung FamilyHub fridges locally.
@@ -829,13 +829,14 @@ dev-python/python-qbittorrent 0.3.1 0.4.1 0.4.2: Python wrapper for qBittorrent 
 dev-python/python-ripple-api 0.0.3: Python API for interacting with ripple.com.
 dev-python/python-singleton 0.1.2: Singleton Metaclass.
 dev-python/python-slugify 3.0.3 3.0.4 3.0.6 4.0.0 4.0.1: A Python Slugify application that handles Unicode
+dev-python/python-smarttub 0.0.6: API to query and control hot tubs using the SmartTub system
 dev-python/python-sochain-api 0.0.2: Python API for interacting with chain.so.
 dev-python/python-socketio 4.6.0: Socket.IO server
 dev-python/python-songpal 0.11.1 0.11.2 0.12: Python library for interfacing with Sony's Songpal devices
 dev-python/python-synology 0.7.4 0.8.0 0.8.1 0.8.2 0.8.2-r1 0.9.0 1.0.0: Python API for communication with Synology DSM
 dev-python/python-tado 0.4.0 0.5.0 0.6.0 0.8.1 0.10.0: PyTado from chrism0dwk, modfied by w.malgadey
 dev-python/python-telegram-bot 11.1.0 13.1: We have made you a wrapper you can't refuse
-dev-python/python-telnet-vlc 1.0.4: A library to control or get information about VLC using Telnet
+dev-python/python-telnet-vlc 1.0.4 2.0.1: A library to control or get information about VLC using Telnet
 dev-python/python-twitch-client 0.6.0: Easy to use Python library for accessing the Twitch API
 dev-python/python-velbus 2.0.45 2.0.46 2.0.47 2.1.1 2.1.2: Python Library for the Velbus protocol
 dev-python/python-vlc 1.1.2 3.0.7110: VLC bindings for python.
@@ -922,8 +923,8 @@ dev-python/scikit-build 0.10.0: Improved build system generator for Python C/C++
 dev-python/scsgate 0.1.0: A Python module to interact with SCSGate
 dev-python/semantic_version 2.8.2 2.8.2-r1: Python library providing a few tools handling SemVer in Python
 dev-python/sendgrid 6.1.3 6.2.1 6.4.6 6.4.8 6.5.0: Twilio SendGrid library for Python
-dev-python/sense-energy 0.7.0 0.7.1 0.7.2 0.8.0 0.8.1: API for the Sense Energy Monitor
-dev-python/sentry-sdk 0.19.2 0.19.3 0.19.4 0.19.5 0.20.1: Python client for Sentry (https://sentry.io)
+dev-python/sense-energy 0.7.1 0.7.2 0.8.0 0.8.1 0.9.0: API for the Sense Energy Monitor
+dev-python/sentry-sdk 0.19.3 0.19.4 0.19.5 0.20.1 0.20.2: Python client for Sentry (https://sentry.io)
 dev-python/sepaxml 2.2.0: Python SEPA XML implementations
 dev-python/setuptools-markdown 0.2: Use Markdown for your project description
 dev-python/sgmllib3k 1.0.0: Py3k port of sgmllib.
@@ -1015,7 +1016,7 @@ dev-python/tqdm 4.49.0: Add a progress meter to your loops in a second
 dev-python/transitions 0.6.9: A lightweight, object-oriented Python state machine implementation.
 dev-python/transmissionrpc 0.11: Python module that implements the Transmission bittorent client RPC protocol.
 dev-python/trio 0.16.0: A friendly Python library for async concurrency and I/O
-dev-python/tuyaha 0.0.5 0.0.6 0.0.7 0.0.8 0.0.9: A Python library that implements a Tuya API endpoint that was specially designed for Home Assistant
+dev-python/tuyaha 0.0.6 0.0.7 0.0.8 0.0.9 0.0.10: A Python library that implements a Tuya API endpoint that was specially designed for Home Assistant
 dev-python/twentemilieu 0.1.0 0.2.0 0.3.0: Asynchronous Python client for Twente Milieu API.
 dev-python/twilio 6.19.1 6.32.0: Helper library for the Twilio API
 dev-python/twinkly-client 0.0.2: A package to communicate with Twinkly LED strings
