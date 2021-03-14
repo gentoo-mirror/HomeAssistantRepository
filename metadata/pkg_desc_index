@@ -110,7 +110,7 @@ dev-python/aioftp 0.10.1 0.12.0 0.18.0: ftp client/server for asyncio
 dev-python/aioguardian 0.2.3 1.0.0 1.0.1 1.0.4: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aioharmony 0.1.8 0.1.13-r1 0.2.4 0.2.5 0.2.6 0.2.7: Asyncio Python library for connecting to and controlling the Logitech Harmony
 dev-python/aiohomekit 0.2.49 0.2.53 0.2.54 0.2.57 0.2.60: An asyncio HomeKit client
-dev-python/aiohttp 3.5.3 3.5.4 3.6.0 3.6.1: http client/server for asyncio
+dev-python/aiohttp 3.5.4 3.6.0 3.6.1 3.7.3: http client/server for asyncio
 dev-python/aiohue 1.9.0 1.9.1 1.9.2 1.10.1 2.0.0 2.1.0: Python module to talk to Philips Hue.
 dev-python/aioimaplib 0.7.13 0.7.15: Python asyncio IMAP4rev1 client library
 dev-python/aiokafka 0.5.1 0.6.0: Kafka integration with asyncio.
