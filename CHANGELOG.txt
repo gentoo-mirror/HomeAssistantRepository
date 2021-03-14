@@ -1,5 +1,69 @@
 2021-03-14
  * add aiohttp-3.7.3 from main repo, still needed, fix https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/198
+ * update PyRMVtransport-0.3.0, bump PyRMVtransport-0.3.1
+ * bump pylutron-0.2.7
+ * update async-upnp-client
+ * add openwrt-ubus-rpc-0.0.2, bump openwrt-ubus-rpc-0.0.3
+ * bump sentry-sdk-0.20.3
+ * remove cryptography-2.9.2
+ * update pywemo-0.6.2
+ * update bond-api-0.1.10, bond-api-0.1.11
+ * bump zwave-js-server-python-0.18.0
+ * bump TwitterAPI-2.6.6
+ * bump rokuecp-0.8.0, bump rokuecp-0.8.1
+ * bump xknx-0.17.0, xknx-0.17.1, xknx-0.17.2
+ * bump pywemo-0.6.3
+ * add pyrituals-0.0.2
+ * bump zigpy-znp-0.4.0
+ * add stdiomask-0.0.6, add subarulink-0.3.12
+ * update python-smarttub-0.0.12, bump python-smarttub-0.0.17
+ * add pykmtronic-0.0.3
+ * update samsungtvws-1.6.0
+ * add pylitterbot-2021.2.5
+ * bump home-assistant-frontend-20210222.0
+ * update pyisy-2.1.1
+ * bump accuweather-0.1.0
+ * bump pylitejet-0.3.0
+ * bump pymyq-3.0.4
+ * add pyclimacell-0.14.0 - pyclimacell-0.18.0
+ * add mullvad-api-1.0.0
+ * bump awesomeversion-21.2.3
+ * bump PlexAPI-4.4.0, PlexAPI-4.4.1
+ * add faadelays-0.0.6
+ * bump home-assistant-frontend-20210222.0
+ * bump zwave-js-server-python-0.19.0
+ * bump TwitterAPI-2.6.8, TwitterAPI-2.6.9
+ * bump icmplib-2.0.2
+ * update pyowm-3.2.0
+ * bump sendgrid-6.6.0
+ * bump gios-0.1.5, gios-0.2.0
+ * bump garminconnect-0.1.19
+ * bump home-assistant-frontend-20210225.0
+ * bump zwave-js-server-python-0.20.0
+ * bump youtube_dl-2021.2.22
+ * bump pychromecast-8.1.2, pychromecast-9.1.1
+ * bump pychromecast-9.0.0
+ * bump bimmer-connected-0.7.15
+ * update ha-philipsjs-2.3.0
+ * bump aioshelly-0.6.1
+ * bump google-nest-sdm-0.2.10, google-nest-sdm-0.2.12
+ * bump home-assistant-frontend-20210226.0
+ * bump airly-1.1.0
+ * bump zha-quirks-0.0.54
+ * bump HAP-python-3.3.1, HAP-python-3.4.0
+ * bump adext-0.4.1, alarmdecoder-1.13.10
+ * update simplisafe-python-9.6.7
+ * bump HAP-python-3.3.2
+ * update spotipy-2.17.1
+ * udpate asyncio-dgram-1.2.0
+ * update mcstatus-5.1.1
+ * bump home-assistant-frontend-20210301.0, 20210302.0, 20210302.[3-6]
+ * bump simplisafe-python-9.6.8
+ * bump python-izone-1.1.4
+ * bump simplisafe-python-9.6.9
+ * update bellows-0.22.0
+ * update pure-pcapy3-1.0.1-r1
+ * bump zwave-js-server-python-0.20.1
 
 2021-02-17
  * bump HATasmota-0.2.9
