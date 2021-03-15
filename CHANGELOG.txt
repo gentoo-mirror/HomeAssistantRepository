@@ -64,6 +64,17 @@
  * update bellows-0.22.0
  * update pure-pcapy3-1.0.1-r1
  * bump zwave-js-server-python-0.20.1
+ * bump python-smarttub-0.0.19
+ * bump solax-0.2.6
+ * bump zwave-js-server-python-0.21.0
+ * bump zwave-js-server-python-0.21.1
+ * bump ha-philipsjs-2.3.1
+ * bump pyzerproc-0.4.8
+ * bump pyotgw-1.1_beta1
+ * bump pykulersky-0.5.2
+ * bump zigpy-0.33.0
+ * bump amcrest-1.7.1, amcrest-1.7.2
+ * update upcloud-api-1.0.1
 
 2021-02-17
  * bump HATasmota-0.2.9
