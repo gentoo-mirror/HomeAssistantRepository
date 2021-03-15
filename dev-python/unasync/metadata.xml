@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">openwrt-luci-rpc</remote-id>
+    <remote-id type="pypi">unasync</remote-id>
     <maintainer status="unknown">
-      <email>fbradyirl@github.io</email>
-      <name>Finbarr Brady</name>
+      <email>ratan.shreshtha@gmail.com</email>
+      <name>Ratan Kulshreshtha</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
