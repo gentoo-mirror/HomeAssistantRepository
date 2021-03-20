@@ -3,12 +3,12 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{7..9} )
+PYTHON_COMPAT=( python3_{8..9} )
 
 inherit distutils-r1
 
-DESCRIPTION="An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/"
-HOMEPAGE="https://github.com/XKNX/xknx/ https://xknx.io/ https://pypi.org/project/xknx/"
+DESCRIPTION="jointSPACE API for Home-Assistant"
+HOMEPAGE="https://github.com/danielperna84/ha-philipsjs https://pypi.org/project/ha-philipsjs/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,22 +18,20 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/netifaces-0.10.9
-	>=dev-python/pyyaml-5.1
-	>=dev-python/voluptuous-0.12.0"
-BDEPEND="${REDEPEND}
+RDEPEND="dev-python/cryptography[${PYTHON_USEDEP}]
+	dev-python/httpx[${PYTHON_USEDEP}]"
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-cov[${PYTHON_USEDEP}]
+		dev-python/pytest-mock[${PYTHON_USEDEP}]
+		dev-python/respx[${PYTHON_USEDEP}]
+		dev-python/requests-mock[${PYTHON_USEDEP}]
 	)"
 
 python_test() {
 	nosetests --verbose || die
 	py.test -v -v || die
-}
-
-src_prepare() {
-	sed "s/packages=find_packages()/packages=find_packages(exclude=['test','test.*'])/g" -i setup.py || die
-	eapply_user
 }

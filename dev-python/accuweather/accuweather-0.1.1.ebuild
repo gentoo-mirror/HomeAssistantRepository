@@ -3,28 +3,27 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6..9} )
+PYTHON_COMPAT=( python3_{7..9} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python Daikin HVAC appliances interface"
-HOMEPAGE="https://bitbucket.org/mustang51/pydaikin https://pypi.org/project/pydaikin/"
+DESCRIPTION="Python wrapper for getting weather data from AccuWeather servers."
+HOMEPAGE="https://github.com/bieniu/accuweather https://pypi.org/project/accuweather/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS=""
+DOCS="README.md"
 
-RDEPEND="dev-python/netifaces[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
-BDEPEND="
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+BDEPEND="${REDEPEND}
+	dev-python/pytest-runner[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
-		dev-python/freezegun[${PYTHON_USEDEP}]
+		dev-python/pytest-cov[${PYTHON_USEDEP}]
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
