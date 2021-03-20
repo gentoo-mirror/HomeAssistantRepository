@@ -4,9 +4,9 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.11.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.0 0.9.1 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 0.117.6 0.118.4 0.118.5-r1 2020.12.2 2021.1.3 2021.1.4 2021.1.5 2021.2.0 2021.2.1 2021.2.2 2021.2.3-r1: Open-source home automation platform running on Python 3.7 & 3.8
-app-misc/homeassistant-full 0.117.6 0.118.4 0.118.5-r1 2020.12.2 2021.1.3 2021.1.4 2021.1.5 2021.2.0 2021.2.1 2021.2.2 2021.2.3-r1 9999: Open-source home automation platform running on Python 3.7 & 3.8
-app-misc/homeassistant-min 0.117.6 0.118.4 0.118.5-r1 2020.12.2 2021.1.3 2021.1.4 2021.1.5 2021.2.0 2021.2.1 2021.2.2 2021.2.3-r1: Open-source home automation platform running on Python 3.7 & 3.8
+app-misc/homeassistant 0.117.6 0.118.4 0.118.5-r1 2020.12.2 2021.1.3 2021.1.4 2021.1.5 2021.2.0 2021.2.1 2021.2.2 2021.2.3-r1 2021.3.0 2021.3.1 2021.3.2 2021.3.3 2021.3.4: Open-source home automation platform running on Python 3.7 & 3.8
+app-misc/homeassistant-full 0.117.6 0.118.4 0.118.5-r1 2020.12.2 2021.1.3 2021.1.4 2021.1.5 2021.2.0 2021.2.1 2021.2.2 2021.2.3-r1 2021.3.0 2021.3.1 2021.3.2 2021.3.3 2021.3.4 9999: Open-source home automation platform running on Python 3.7 & 3.8
+app-misc/homeassistant-min 0.117.6 0.118.4 0.118.5-r1 2020.12.2 2021.1.3 2021.1.4 2021.1.5 2021.2.0 2021.2.1 2021.2.2 2021.2.3-r1 2021.3.0 2021.3.1 2021.3.2 2021.3.2-r1 2021.3.3 2021.3.4: Open-source home automation platform running on Python 3.7 & 3.8
 dev-embedded/esphome 1.14.5-r1 1.14.5-r2 1.15.0 1.15.1 1.15.2 1.15.3-r1 1.15.3-r2 1.15.3-r3 1.16.1 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.7-r1 2.8 3.0: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
 dev-embedded/platformio 4.0.3-r3 4.3.1 4.3.4 5.0.1 5.0.3 5.0.4: A professional collaborative platform for embedded development. Cross-platform IDE and Unified Debugger. Static Code Analyzer and Remote Unit Testing. Multi-platform and Multi-architecture Build System. Firmware File Explorer and Memory Inspection. IoT, Arduino, CMSIS, ESP-IDF, FreeRTOS, libOpenCM3, mbedOS, Pulp OS, SPL, STM32Cube, Zephyr RTOS, ARM, AVR, Espressif (ESP8266/ESP32), FPGA, MCS-51 (8051), MSP430, Nordic (nRF51/nRF52), NXP i.MX RT, PIC32, RISC-V, STMicroelectronics (STM8/STM32), Teensy
@@ -394,6 +394,7 @@ dev-python/httplib2 0.10.3-r1 0.18.1: A comprehensive HTTP client library
 dev-python/httpsig 1.3.0: Secure HTTP request signing using the HTTP Signature draft specification
 dev-python/httpx 0.13.3 0.16.1: The next generation HTTP client.
 dev-python/huawei-lte-api 1.4.7 1.4.10 1.4.11 1.4.12 1.4.17: API For huawei LAN/WAN LTE Modems
+dev-python/huisbaasje-client 0.1.0: Client for Huisbaasje
 dev-python/hyper 0.7.0: HTTP/2 Client for Python
 dev-python/hyperion-py 0.3.0 0.6.0 0.6.1 0.7.0: Hyperion Ambient Lighting Python Package
 dev-python/i2csense 0.0.4: A library to handle i2c sensors with the Raspberry Pi
@@ -473,7 +474,7 @@ dev-python/millheater 0.3.4 0.4.0: A python3 library to communicate with Mill
 dev-python/minio 4.0.9 5.0.1: MinIO Python Library for Amazon S3 Compatible Cloud Storage for Python
 dev-python/mitemp-bt 0.0.1 0.0.3: Library to read data from Mi Temperature and Humidity Sensor (V2)
 dev-python/mock-open 1.3.1 1.4.0: A better mock for file I/O
-dev-python/motionblinds 0.1.6 0.4.7: Python library for interfacing with Motion Blinds
+dev-python/motionblinds 0.1.6 0.4.7 0.4.8: Python library for interfacing with Motion Blinds
 dev-python/motorparts 1.1.0: Python 3 API for mopar.com.
 dev-python/ms-cv 0.1.1: A correlation vector implementation in python
 dev-python/msgpack 0.6.1: MessagePack (de)serializer.
@@ -923,7 +924,6 @@ dev-python/saltbox 0.1.3 0.1.3-r1: Interface with your Salt Fiber Box router in 
 dev-python/samsungctl 0.7.1 0.8.0_beta0: Remote control Samsung televisions via TCP/IP connection (kdschlosser version)
 dev-python/samsungtvws 1.4.0 1.6.0: Samsung Smart TV WS API wrapper
 dev-python/satel-integra 0.3.4: Communication library for Satel Integra alarm system.
-dev-python/scapy 2.4.4: Scapy: interactive packet manipulation tool
 dev-python/schiene 0.23: schiene is a Python library for interacting with Bahn.de
 dev-python/scikit-build 0.10.0: Improved build system generator for Python C/C++/Fortran/Cython extensions
 dev-python/screenlogicpy 0.2.0: Interface for Pentair ScreenLogic connected pool controllers over IP via Python
