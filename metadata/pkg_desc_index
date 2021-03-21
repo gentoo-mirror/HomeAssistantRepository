@@ -59,7 +59,7 @@ dev-python/PyUserInput 0.1.11: A simple, cross-platform module for mouse and key
 dev-python/PyViCare 0.1.2 0.1.7 0.1.10 0.2.0 0.2.5: Library to communicate with the Viessmann ViCare API
 dev-python/PyXiaomiGateway 0.12.3 0.12.4 0.13.2 0.13.3 0.13.4: A library to communicate with the Xiaomi Gateway
 dev-python/Pysher 1.0.1 1.0.4 1.0.6: Pusher websocket client for python, based on Erik Kulyk's PythonPusherClient
-dev-python/RPi-GPIO 0.6.5 0.7.0: A module to control Raspberry Pi GPIO channels
+dev-python/RPi-GPIO 0.6.5 0.7.0 0.7.1_alpha4: A module to control Raspberry Pi GPIO channels
 dev-python/RachioPy 0.1.3 0.1.4 1.0.3: A Python module for the Rachio API.
 dev-python/ReParser 1.4.3: Simple regex-based lexer/parser for inline markup
 dev-python/RestrictedPython 4.0_beta8 4.0 5.0 5.1: subset of Python which allows program input into a trusted environment.
