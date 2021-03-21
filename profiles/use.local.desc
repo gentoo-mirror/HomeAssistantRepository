@@ -1030,6 +1030,7 @@ app-misc/homeassistant-min:esphome - Support for esphome sensors, covers and swi
 app-misc/homeassistant-min:fronius - Add (very basic) Support for Fronius Symo JSON Api to Home Assistant
 app-misc/homeassistant-min:github - GitHub sensor integrates data from GitHub to monitor your favorite repositories
 app-misc/homeassistant-min:homekit - Integrate HomeKit controller and accessory in Home Assistant
+app-misc/homeassistant-min:hyperion - integrate your Hyperion into Home Assistant
 app-misc/homeassistant-min:influxdb - transfer sensor data to a local InfluxDB database
 app-misc/homeassistant-min:kodi - control a Kodi multimedia system
 app-misc/homeassistant-min:maxcube - eQ-3 ELV MAX Cube Python API
