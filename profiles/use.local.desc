@@ -1041,6 +1041,7 @@ app-misc/homeassistant-min:notify_events - The Notify.Events service is a platfo
 app-misc/homeassistant-min:otp - generates One-Time Passwords according to RFC6238
 app-misc/homeassistant-min:owntracks - OwnTracks: track your location and send it directly to Home Assistant
 app-misc/homeassistant-min:ping - ICMPLib
+app-misc/homeassistant-min:plex - Python bindings for the Plex API
 app-misc/homeassistant-min:python_script - write Python scripts that are exposed as services in Home Assistant
 app-misc/homeassistant-min:qnap - Python API for obtaining QNAP NAS system stats
 app-misc/homeassistant-min:qvr_pro - QVR Pro allows you to connect to cams configured on your QNAP NAS
