@@ -260,11 +260,13 @@ app-misc/homeassistant:yamaha - Library for Yamaha RX-* Receivers
 app-misc/homeassistant:yamaha_musiccast - add support for Yamaha MusicCast devices
 app-misc/homeassistant:yeelight - allows you to control your Yeelight Wifi bulbs
 app-misc/homeassistant:yi - allows you to utilize Yi Home Cameras within Home Assistant
+app-misc/homeassistant:zeroconf - will scan the network for supported devices and services
 app-misc/homeassistant:zerproc - discovers nearby Zerproc lights
 app-misc/homeassistant:zha - Support for ZHA/deconz based Zigbee/ZNet Devices
 app-misc/homeassistant:zhong_hong - lets you control Zhonghong HVAC Gateway Controller thermostats
 app-misc/homeassistant:zoneminder - Support for ZoneMinder Cameras
 app-misc/homeassistant:zwave - Support for Z-Wave Devices (uncomplete)
+app-misc/homeassistant:zwave_js - control a Z-Wave network via the Z-Wave JS driver
 app-misc/homeassistant-full:abode - Library for the Abode alarm API
 app-misc/homeassistant-full:accuweather - Uses the AccuWeather web service as a source for weather data
 app-misc/homeassistant-full:acer_projector - Allows you to control the state of RS232 connected projectors from Acer
@@ -1032,6 +1034,7 @@ app-misc/homeassistant-min:github - GitHub sensor integrates data from GitHub to
 app-misc/homeassistant-min:homekit - Integrate HomeKit controller and accessory in Home Assistant
 app-misc/homeassistant-min:hyperion - integrate your Hyperion into Home Assistant
 app-misc/homeassistant-min:influxdb - transfer sensor data to a local InfluxDB database
+app-misc/homeassistant-min:knx - Asynchronous Library for the KNX protocol
 app-misc/homeassistant-min:kodi - control a Kodi multimedia system
 app-misc/homeassistant-min:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant-min:mikrotik - add support for MikroTik RouterOS API
@@ -1066,7 +1069,9 @@ app-misc/homeassistant-min:wake_on_lan - enables the ability to send magic packe
 app-misc/homeassistant-min:workday - generating country, province and state specific sets of holidays on the fly
 app-misc/homeassistant-min:yamaha - Library for Yamaha RX-* Receivers
 app-misc/homeassistant-min:yamaha_musiccast - add support for Yamaha MusicCast devices
+app-misc/homeassistant-min:zeroconf - will scan the network for supported devices and services
 app-misc/homeassistant-min:zwave - Support for Z-Wave Devices (uncomplete)
+app-misc/homeassistant-min:zwave_js - control a Z-Wave network via the Z-Wave JS driver
 dev-embedded/esphome:server - create user and install init-script to run ESPHome Dashboard
 dev-python/passlib:bcrypt - bcrpyt hash algoryptm support
 dev-python/passlib:scrypt - accelerated scrypt algoythm support
