@@ -1,3 +1,61 @@
+2021-04-04
+ * add aiodiscover-1.1.0
+ * bump aiodiscover-1.1.2
+ * bump aiodiscover-1.2.0
+ * bump aiodiscover-1.3.0
+ * bump aiodiscover-1.3.2
+ * bump aiodiscover-1.3.3
+ * update aioshelly-0.6.2
+ * update aqualogic-2.6
+ * bump python-didl-lite-1.2.6
+ * bump async-upnp-client-0.16.0
+ * bump axis-44
+ * bump colorlog-4.8.0
+ * bump denonavr-0.10.5
+ * bump devolo-home-control-api-0.17.1
+ * bump freebox-api-0.0.10
+ * bump HAP-python-3.4.1
+ * bump home-assistant-frontend-20210324.0
+ * bump home-assistant-frontend-20210328.0
+ * bump home-assistant-frontend-20210330.0
+ * bump home-assistant-frontend-20210331.0
+ * bump home-assistant-frontend-20210402.0
+ * bump home-assistant-frontend-20210402.1
+ * add homepluscontrol-0.0.5
+ * update httpx-0.17.1
+ * bump icmplib-2.1.1
+ * bump meteofrance-api-1.0.2
+ * bump motionblinds-0.4.10
+ * bump numpy-1.20.2
+ * bump omnilogic-0.4.3
+ * bump PlexAPI-4.5.0, PlexAPI-4.5.1
+ * bump plexwebsocket-0.0.13
+ * bump pydeconz-78
+ * bump pyeconet-0.1.13
+ * update pyhaversion-21.3.0
+ * bump pyhiveapi-0.4.1
+ * bump pykodi-0.2.3
+ * bump pylast-4.2.0
+ * bump pynanoleaf-0.1.0
+ * bump pypoint-2.1.0
+ * bump pysonos-0.0.41
+ * bump screenlogicpy-0.2.1, screenlogicpy-0.3.0
+ * bump snapcast-2.1.2
+ * bump synologydsm-api-1.0.2
+ * bump xknx-0.17.4, xknx-0.17.5
+ * add yalexs-1.1.4
+ * bump yalexs-1.1.5
+ * bump yalexs-1.1.6
+ * bump yalexs-1.1.9
+ * bump yalexs-1.1.10
+ * bump zha-quirks-0.0.55
+ * bump zigpy-deconz-0.12.0
+ * update zwave-js-server-python-0.23.0
+ * add tokenize-rt-4.1.0
+ * add pyupgrade-2.11.0
+ * bump pre-commit-2.11.1
+ * update pytest-6.2.3
+
 2021-03-21
  * bump RPi-GPIO-0.7.1_alpha4
  * pin aiohttp-3.7.4 (avoid 3.7.4_p0)
