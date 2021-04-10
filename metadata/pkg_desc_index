@@ -1057,7 +1057,7 @@ dev-python/vallox-websocket-api 2.0.0 2.2.0 2.4.0: Vallox WebSocket API
 dev-python/vcver 0.2.11: provide package versions with version control data.
 dev-python/venstarcolortouch 0.7 0.9 0.12 0.13: Interface Library for Venstar ColorTouch Thermostat API v5
 dev-python/vigilancemeteo 3.0.0 3.0.1: Python API to get active weather alerts from https://vigilance.meteofrance.com/
-dev-python/vilfo-api-client 0.3.2: Simple wrapper client for the Vilfo router API
+dev-python/vilfo-api-client 0.3.2-r1: Simple wrapper client for the Vilfo router API
 dev-python/vincenty 0.1.4: Calculate the geographical distance between 2 points with extreme accuracy.
 dev-python/vol 0.1.1: volume control in the shell for your mac
 dev-python/volkszaehler 0.1.2 0.1.3 0.2.1: Python Wrapper for interacting with the Volkszahler API.
