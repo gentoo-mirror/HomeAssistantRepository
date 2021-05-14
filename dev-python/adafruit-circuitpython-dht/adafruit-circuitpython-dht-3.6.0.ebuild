@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{7..9} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python API for Yale Access (formerly August) Smart Lock and Doorbell"
-HOMEPAGE="https://github.com/bdraco/yalexs https://pypi.org/project/yalexs/"
+DESCRIPTION="CircuitPython support for DHT11 and DHT22 type temperature/humidity devices"
+HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_DHT https://pypi.org/project/adafruit-circuitpython-dht/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -16,13 +16,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.md"
+DOCS="README.rst"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/pubnub[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/Adafruit-Blinka[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

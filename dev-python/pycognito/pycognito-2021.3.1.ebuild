@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{7..9} )
 
 inherit distutils-r1
 
-DESCRIPTION="Discover hosts by arp and ptr lookup"
-HOMEPAGE="https://github.com/bdraco/aiodiscover https://pypi.org/project/aiodiscover/"
+DESCRIPTION="Python class to integrate Boto3's Cognito client so it is easy to login users. With SRP support."
+HOMEPAGE="https://github.com/pvizeli/pycognito https://pypi.org/project/pycognito/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="Apache-2.0"
@@ -18,10 +18,11 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=""
+RDEPEND=">=dev-python/boto3-1.10.49[${PYTHON_USEDEP}]
+		 >=dev-python/envs-1.3[${PYTHON_USEDEP}]
+		 >=dev-python/requests-2.22.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pytest-runner[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
