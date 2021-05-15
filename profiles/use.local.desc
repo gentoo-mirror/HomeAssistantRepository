@@ -74,6 +74,7 @@ app-misc/homeassistant:cast - Let Home Assitant talk to Google Chromecast
 app-misc/homeassistant:cisco_mobility_express - ciscomobilityexpress support for Home Assistant
 app-misc/homeassistant:cli - Set a dependency for Home Assistant Cli hass-cli (lots of modules required)
 app-misc/homeassistant:co2signal - Queries the CO2Signal API for the CO2 intensity of a specific region
+app-misc/homeassistant:compensation - Compensation integration consumes the state from other sensors
 app-misc/homeassistant:coronavirus - Add sensors for COVID-19 infections from Johns Hopkins University
 app-misc/homeassistant:daikin - Integrate Daikin wireless controllers into Home Assistant
 app-misc/homeassistant:darksky - Use dark sky weather data from Home Assistant
@@ -370,6 +371,7 @@ app-misc/homeassistant-full:coinbase - Lets you access account balances and exch
 app-misc/homeassistant-full:coinmarketcap - Displays various details about a cryptocurrency provided by CoinMarketCap
 app-misc/homeassistant-full:color_extractor - color_extractor extracts the predominant color from a given image
 app-misc/homeassistant-full:comfoconnect - Comfoconnect integration lets you control Zehnder ComfoAir
+app-misc/homeassistant-full:compensation - Compensation integration consumes the state from other sensors
 app-misc/homeassistant-full:concord232 - Provides integration with GE, Interlogix (and other brands) alarm panels
 app-misc/homeassistant-full:control4 - Allows you to control and monitor lights from your local Control4 system
 app-misc/homeassistant-full:coolmaster - The coolmaster climate platform lets you control HVAC through CoolMasterNet
@@ -431,6 +433,7 @@ app-misc/homeassistant-full:eliqonline - Integrate your ELIQ Online smart meter 
 app-misc/homeassistant-full:elkm1 - Elk-M1 is a home security and automation controller
 app-misc/homeassistant-full:elv - control the state of your ELV PCA 301 smart switch
 app-misc/homeassistant-full:emby - The emby platform allows you to control a Emby multimedia system
+app-misc/homeassistant-full:emonitor - SiteSage Emonitor allows local power monitoring on a per circuit basis
 app-misc/homeassistant-full:emulated_hue - Emulated_hue integration provides a virtual Philips Hue bridge
 app-misc/homeassistant-full:emulated_kasa - Emulates a TP-Link Kasa smart plug and announces the power usage
 app-misc/homeassistant-full:emulated_roku - Emulate Roku API for Harmony and Android remotes
@@ -590,6 +593,7 @@ app-misc/homeassistant-full:kmtronic - IP-connected relays
 app-misc/homeassistant-full:knx - Asynchronous Library for the KNX protocol
 app-misc/homeassistant-full:kodi - control a Kodi multimedia system
 app-misc/homeassistant-full:konnected - connect wired sensors and switches to a Konnected Alarm Panel
+app-misc/homeassistant-full:kostal_plenticore - allows you to get data from Kostal Plenticore solar inverters
 app-misc/homeassistant-full:kulersky - connects Brightech Kuler Sky floor lamps to Home Assistant
 app-misc/homeassistant-full:kwb - integrates the sensors of KWB Easyfire pellet central heating units
 app-misc/homeassistant-full:lacrosse - using the data provided by a Jeelink USB dongle or this Arduino sketch
@@ -633,6 +637,7 @@ app-misc/homeassistant-full:melcloud - Python MELCloud interface
 app-misc/homeassistant-full:melissa - main integration to connect to a Melissa Climate A/C control
 app-misc/homeassistant-full:message_bird - MessageBird's REST API
 app-misc/homeassistant-full:met - met platform uses the Met.no web service as a source for meteorological data
+app-misc/homeassistant-full:met_eireann - Met Éireann (The Irish Meteorological Service) Public Weather Forecast API
 app-misc/homeassistant-full:meteo_france - uses the meteorological data from Meteo-France
 app-misc/homeassistant-full:meteoalarm - watch for weather alerts in europe from MeteoAlarm
 app-misc/homeassistant-full:metoffice - weather platform uses the Met Office’s DataPoint API
@@ -650,10 +655,12 @@ app-misc/homeassistant-full:modbus - sensors and switches controlled over MODBUS
 app-misc/homeassistant-full:modem_callerid - Uses an available modem for collecting caller ID information
 app-misc/homeassistant-full:monoprice - Python API for talking to Monoprice 6-zone amplifier
 app-misc/homeassistant-full:motion_blinds - control Motion Blinds from Coulisse B.V.
+app-misc/homeassistant-full:motioneye - integrate your motionEye server into Home Assistant
 app-misc/homeassistant-full:mpd - allows you to control a Music Player Daemon from Home Assistant
 app-misc/homeassistant-full:mqtt - install MQTT Broker and dependencies
 app-misc/homeassistant-full:msteams - send notifications from Home Assistant to a team channel in Microsoft Teams
 app-misc/homeassistant-full:mullvad - Mullvad VPN integration pulls Mullvad VPN status information
+app-misc/homeassistant-full:mutesync - mutesync integration for Home Assistant connects to the mütesync virtual button
 app-misc/homeassistant-full:mvglive - departure times bus, tram, subway, train of Munich public transport network
 app-misc/homeassistant-full:mychevy - communicates with the my.chevrolet website using the javascript API
 app-misc/homeassistant-full:mycroft - allows you to send notifications and more to Mycroft from Home Assistant
@@ -735,6 +742,7 @@ app-misc/homeassistant-full:pencom - Pencom is a computer-controlled relay, I/O 
 app-misc/homeassistant-full:philips_js - allows you to control Philips TVs which expose the jointSPACE JSON-API
 app-misc/homeassistant-full:pi4ioe5v9xxxx - support for the quasi-bidirectional devices pi4ioe5v9xxxx I2C I/O port expander
 app-misc/homeassistant-full:pi_hole - retrieve statistics and interact with a Pi-hole system
+app-misc/homeassistant-full:picnic - get information from Picnic about orders, deliveries and cart content
 app-misc/homeassistant-full:piglow - control the Piglow lights on your Raspberry Pi from within Home Assistant
 app-misc/homeassistant-full:pilight - Pilight is a open source solution to communicate with 433 MHz devices
 app-misc/homeassistant-full:ping - ICMPLib
@@ -1026,6 +1034,7 @@ app-misc/homeassistant-min:androidtv - Library for controlling an Android TV, fo
 app-misc/homeassistant-min:axis - Communicating with newer devices from Axis Communications
 app-misc/homeassistant-min:caldav - Integrate a CalDAV (RFC4791) calendar in Home Assistant
 app-misc/homeassistant-min:cli - Set a dependency for Home Assistant Cli hass-cli (lots of modules required)
+app-misc/homeassistant-min:compensation - Compensation integration consumes the state from other sensors
 app-misc/homeassistant-min:coronavirus - Add sensors for COVID-19 infections from Johns Hopkins University
 app-misc/homeassistant-min:darksky - Use dark sky weather data from Home Assistant
 app-misc/homeassistant-min:dwd_weather_warnings - dwd_weather_warnings sensor platform uses DWD for warnings
