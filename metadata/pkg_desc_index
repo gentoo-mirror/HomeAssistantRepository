@@ -468,7 +468,7 @@ dev-python/lw12 0.9.2: Library to control the Lagute LW-12 WiFi LED controller.
 dev-python/lyft_rides 0.2: Unofficial Lyft Rides API Python SDK
 dev-python/magicseaweed 1.0.3: Provides API wrapper to magicseaweed.com.
 dev-python/matrix-client 0.2.0 0.3.2: Client-Server SDK for Matrix
-dev-python/maxcube-api 0.1.0-r1 0.3.0 0.4.1 0.4.2 9999: eQ-3/ELV MAX! Cube Python API
+dev-python/maxcube-api 0.1.0-r1 0.3.0 0.4.1 0.4.2 0.4.3 9999: eQ-3/ELV MAX! Cube Python API
 dev-python/mbddns 0.1.2: Mythic Beasts Dynamic DNS updater
 dev-python/mcstatus 2.3.0 5.1.1: A library to query Minecraft Servers for their status and capabilities.
 dev-python/messagebird 1.2.0 1.5.0: MessageBird's REST API
