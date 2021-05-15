@@ -1,4 +1,38 @@
-2021-14-05
+2021-05-x15
+ * update pyialarm-1.5
+ * bump pykmtronic-0.3.0
+ * bump xknx-0.18.1
+ * bump pylitterbot-2021.3.1
+ * bump youtube_dl-2021.4.17
+ * bump PyMetno-0.8.3
+ * update pymodbus-2.5.1
+ * update pynuki-1.4.1
+ * bump omnilogic-0.4.5
+ * bump aiorecollect-1.0.4
+ * update roombapy-1.6.3
+ * bump screenlogicpy-0.4.1
+ * update simplisafe-python-9.6.10
+ * update pysma-0.4.3
+ * bump roonapi-0.0.36
+ * bump pysmappee-0.2.25
+ * bump python-smarttub-0.0.24
+ * bump pysonos-0.0.44
+ * bump surepy-0.6.0
+ * bump swisshydrodata-0.1.0
+ * bump HATasmota-0.2.11
+ * update teslajsonpy-0.18.3
+ * bump TwitterAPI-2.7.2
+ * bump pyvlx-0.2.19
+ * bump xbox-webapi-2.0.11
+ * update python-miio-0.5.6
+ * update yeelight-0.6.2
+ * bump bellows-0.24.0
+ * restored boto3-1.16.52 from main repo
+ * update aiobotocore-1.2.2
+ * bump zha-quirks-0.0.57
+ * bump zwave-js-server-python-0.24.0
+
+2021-05-14
  * update astral-2.2
  * update watchdog-2.0.3
  * bump snapcast-2.1.3
