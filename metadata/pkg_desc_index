@@ -141,6 +141,7 @@ dev-python/aiounittest 1.4.0: Test asyncio code more easily.
 dev-python/aiowwlln 1.0.0 2.0.1 2.0.2: A simple Python API for the WWLLN
 dev-python/aioymaps 1.0.0 1.1.0: Async client for Yandex Maps
 dev-python/airly 0.0.2 0.0.2-r1 1.0.0 1.1.0: Python wrapper for getting air quality data from Airly sensors.
+dev-python/ajsonrpc 1.1.0: Async JSON-RPC 2.0 protocol + server powered by asyncio
 dev-python/aladdin-connect 0.3: Python API controlling Genie garage doors connected to Aladdin Connect devices
 dev-python/alarmdecoder 1.13.2 1.13.4 1.13.9 1.13.10: Python interface for the AlarmDecoder (AD2) family of alarm devices which includes the AD2USB, AD2SERIAL and AD2PI.
 dev-python/alpha-vantage 2.1.1 2.1.2 2.1.3 2.2.0 2.3.1: Python module to get stock data from the Alpha Vantage Api
@@ -988,6 +989,7 @@ dev-python/sqlitedict 1.6.0: Persistent dict in Python, backed up by sqlite3 and
 dev-python/srpenergy 1.3.2: An unofficial Python module for interacting with Srp Energy data.
 dev-python/sseclient-py 1.7: SSE client for Python
 dev-python/starkbank-ecdsa 1.0.0: A lightweight and fast pure python ECDSA library
+dev-python/starlette 0.14.2: The little ASGI library that shines.
 dev-python/starline 0.1.3 0.1.5: Unofficial python library for StarLine API
 dev-python/starlingbank 3.1 3.2: Python package that provides access to parts of the Starling bank API.
 dev-python/statsd 3.2.1 3.3.0: A simple statsd client.
