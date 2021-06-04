@@ -1088,7 +1088,6 @@ dev-python/passlib:bcrypt - bcrpyt hash algoryptm support
 dev-python/passlib:scrypt - accelerated scrypt algoythm support
 dev-python/passlib:totp - time based one time password support
 dev-python/pyyaml:libyaml - enable support for C implementation using libyaml
-dev-python/sphinx:net - enable internet capabilities
 media-libs/opencv:contrib - Install user contributed scripts from opencv_contrib (Experimental!)
 media-libs/opencv:contrib_cvv - CVV module requires Qt5
 media-libs/opencv:contrib_dnn - DNN module contrib requires tiny dnn
