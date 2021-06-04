@@ -1,3 +1,6 @@
+2021-06-04
+ * cleanup PYTHON_COMPAT, remove unused Ebuilds (https://bugs.gentoo.org/793464)
+
 2021-05-15 homeassistant-2021.5.4
  * update pyialarm-1.5
  * bump pykmtronic-0.3.0
@@ -60,6 +63,7 @@
  * add starlette-0.14.2
  * add ajsonrpc-1.1.0
  * update missing platformio-5.1.1 deps
+ * add License to somecomfort-0.5.2 (https://github.com/kk7ds/somecomfort/issues/27)
 
 2021-05-14
  * update astral-2.2
