@@ -84,6 +84,7 @@ app-misc/homeassistant:denonavr - Automation Library for Denon AVR receivers
 app-misc/homeassistant:deutsche_bahn - will give you the departure time of the next train for the given connection
 app-misc/homeassistant:devolo_home_control - Add Devolo Home-control to Home Assistant
 app-misc/homeassistant:dexcom - View your CGM data from Dexcom from Home Assistant
+app-misc/homeassistant:dhcp - will watch the network for DHCP requests for supported devices and services
 app-misc/homeassistant:dht - Get the current temperature and humidity from a DHT11, DHT22 or AM2302 device
 app-misc/homeassistant:discogs - Discogs Client for Home Assistant
 app-misc/homeassistant:discord - Send messages to the user using Discord from Home Assistant
@@ -146,6 +147,7 @@ app-misc/homeassistant:joaoapps_join - joaoapps_join integration exposes service
 app-misc/homeassistant:kef - KEF wireless speakers
 app-misc/homeassistant:knx - Asynchronous Library for the KNX protocol
 app-misc/homeassistant:kodi - control a Kodi multimedia system
+app-misc/homeassistant:kraken - allows you to monitor exchange rates on kraken.com
 app-misc/homeassistant:linode - allows you to access the information about your Linode systems
 app-misc/homeassistant:loopenergy - Integrate your Loop Energy meter information into Home Assistant
 app-misc/homeassistant:luci - fetch connected devices from your OpenWrt
@@ -178,7 +180,7 @@ app-misc/homeassistant:panasonic_viera - panasonic_viera platform allows you to 
 app-misc/homeassistant:philips_js - allows you to control Philips TVs which expose the jointSPACE JSON-API
 app-misc/homeassistant:pi_hole - retrieve statistics and interact with a Pi-hole system
 app-misc/homeassistant:pilight - Pilight is a open source solution to communicate with 433 MHz devices
-app-misc/homeassistant:ping - ICMPLib
+app-misc/homeassistant:ping - use the great ICMPLib for Presence Detection and as a binary Sensor
 app-misc/homeassistant:plex - Python bindings for the Plex API
 app-misc/homeassistant:plugwise - Plugwise_Smile (Anna/Adam/P1/Stretch) API to use in conjunction with Home Assist
 app-misc/homeassistant:poolsense - PoolSense is a smart pool monitor
@@ -343,6 +345,7 @@ app-misc/homeassistant-full:bmp280 - Get temperature and pressure values of a Bo
 app-misc/homeassistant-full:bmw_connected_drive - Retrieve data from the BMW Connected Drive
 app-misc/homeassistant-full:bom - Weather platform uses the Australian Bureau of Meteorology (BOM) as a source for
 app-misc/homeassistant-full:bond - Asynchronous Python wrapper library over Bond Local API
+app-misc/homeassistant-full:bosch_shc - integrate your Bosch SHC into Home Assistant
 app-misc/homeassistant-full:braviatv - Control almost all Sony Bravia TV 2013 and newer
 app-misc/homeassistant-full:broadlink - Allows you to interact with Broadlink remote control devices
 app-misc/homeassistant-full:brother - Read current data from your local Brother printer
@@ -394,7 +397,7 @@ app-misc/homeassistant-full:denonavr - Automation Library for Denon AVR receiver
 app-misc/homeassistant-full:deutsche_bahn - will give you the departure time of the next train for the given connection
 app-misc/homeassistant-full:devolo_home_control - Add Devolo Home-control to Home Assistant
 app-misc/homeassistant-full:dexcom - View your CGM data from Dexcom from Home Assistant
-app-misc/homeassistant-full:dhcp - 
+app-misc/homeassistant-full:dhcp - will watch the network for DHCP requests for supported devices and services
 app-misc/homeassistant-full:dht - Get the current temperature and humidity from a DHT11, DHT22 or AM2302 device
 app-misc/homeassistant-full:digital_ocean - Access information about your Digital Ocean droplets from Home Assistant
 app-misc/homeassistant-full:digitalloggers - Switch platform controls the state of your Digital Loggers switches
@@ -488,6 +491,7 @@ app-misc/homeassistant-full:fritzbox_netmonitor - sensor monitors the network st
 app-misc/homeassistant-full:fronius - Add (very basic) Support for Fronius Symo JSON Api to Home Assistant
 app-misc/homeassistant-full:frontier_silicon - Support for Internet Radios based on the Frontier Silicon chipset
 app-misc/homeassistant-full:futurenow - Allows you to use P5 FutureNow relay/dimmer units as lights
+app-misc/homeassistant-full:garages_amsterdam - measure the occupancy of Amsterdam parking garages in the Netherlands
 app-misc/homeassistant-full:garmin_connect - The Garmin Connect sensor allows you to expose data from Garmin Connect
 app-misc/homeassistant-full:gc100 - The Global Caché GC-100 can be integrated into Home Assistant
 app-misc/homeassistant-full:gdacs - lets you use a GeoRSS feed provided by GDACS
@@ -534,7 +538,7 @@ app-misc/homeassistant-full:hisense_aehw4a1 - Give Wi-Fi connectivity to some Hi
 app-misc/homeassistant-full:hive - Set up and integrate all supported Hive devices in Home Assistant
 app-misc/homeassistant-full:hlk_sw16 - HLK-SW16 by Hi-Link is a simple networkable 16 port relay device
 app-misc/homeassistant-full:home_connect - Home Connect standard for Bosch and Siemens
-app-misc/homeassistant-full:home_plus_control - 
+app-misc/homeassistant-full:home_plus_control - allows you to control a range of Legrand in-wall switches and power outlets
 app-misc/homeassistant-full:homekit - Integrate HomeKit controller and accessory in Home Assistant
 app-misc/homeassistant-full:homekit_controller - Allows you to connect accessories with the “Works with HomeKit” logo
 app-misc/homeassistant-full:homematic - An API for the homematicip cloud
@@ -594,6 +598,7 @@ app-misc/homeassistant-full:knx - Asynchronous Library for the KNX protocol
 app-misc/homeassistant-full:kodi - control a Kodi multimedia system
 app-misc/homeassistant-full:konnected - connect wired sensors and switches to a Konnected Alarm Panel
 app-misc/homeassistant-full:kostal_plenticore - allows you to get data from Kostal Plenticore solar inverters
+app-misc/homeassistant-full:kraken - allows you to monitor exchange rates on kraken.com
 app-misc/homeassistant-full:kulersky - connects Brightech Kuler Sky floor lamps to Home Assistant
 app-misc/homeassistant-full:kwb - integrates the sensors of KWB Easyfire pellet central heating units
 app-misc/homeassistant-full:lacrosse - using the data provided by a Jeelink USB dongle or this Arduino sketch
@@ -640,6 +645,7 @@ app-misc/homeassistant-full:met - met platform uses the Met.no web service as a 
 app-misc/homeassistant-full:met_eireann - Met Éireann (The Irish Meteorological Service) Public Weather Forecast API
 app-misc/homeassistant-full:meteo_france - uses the meteorological data from Meteo-France
 app-misc/homeassistant-full:meteoalarm - watch for weather alerts in europe from MeteoAlarm
+app-misc/homeassistant-full:meteoclimatic - use Meteoclimatic web service as a source for meteorological data
 app-misc/homeassistant-full:metoffice - weather platform uses the Met Office’s DataPoint API
 app-misc/homeassistant-full:mfi - sensor platform to allow you to monitor mFi mPort interface and sensors
 app-misc/homeassistant-full:mhz19 - small non-dispersive infrared sensor that can measure CO2 level
@@ -671,6 +677,7 @@ app-misc/homeassistant-full:mystrom - Python API for interacting with myStrom de
 app-misc/homeassistant-full:mythicbeastsdns - automatically update your dynamic DNS entry at Mythic Beasts
 app-misc/homeassistant-full:n26 - allows you to track your N26 account
 app-misc/homeassistant-full:nad - allows you to control a NAD receiver through RS232, TCP and Telnet
+app-misc/homeassistant-full:nam - get temperature, humidity, pressure , air quality from Nettigo devices
 app-misc/homeassistant-full:nanoleaf - allows you to control Nanoleaf Light Panels from Home Assistant
 app-misc/homeassistant-full:neato - Python package for controlling Neato pybotvac Connected vacuum robot
 app-misc/homeassistant-full:nederlandse_spoorwegen - train service in the Netherlands
@@ -682,6 +689,7 @@ app-misc/homeassistant-full:netdata - API for interacting with Netdata
 app-misc/homeassistant-full:netgear - detect presence by looking at connected devices to a NETGEAR device
 app-misc/homeassistant-full:netgear_lte - observe and control NETGEAR LTE modems
 app-misc/homeassistant-full:netio - Binding library for Koukaam netio devices
+app-misc/homeassistant-full:network - provides network configuration for integrations such as Zeroconf
 app-misc/homeassistant-full:neurio_energy - Integrate your Neurio meter information into Home Assistant
 app-misc/homeassistant-full:nexia - allows you to integrate your Nexia thermostats into Home Assistant
 app-misc/homeassistant-full:nextbus - will give you the next departure time and associated data fro NextBus
@@ -745,7 +753,7 @@ app-misc/homeassistant-full:pi_hole - retrieve statistics and interact with a Pi
 app-misc/homeassistant-full:picnic - get information from Picnic about orders, deliveries and cart content
 app-misc/homeassistant-full:piglow - control the Piglow lights on your Raspberry Pi from within Home Assistant
 app-misc/homeassistant-full:pilight - Pilight is a open source solution to communicate with 433 MHz devices
-app-misc/homeassistant-full:ping - ICMPLib
+app-misc/homeassistant-full:ping - use the great ICMPLib for Presence Detection and as a binary Sensor
 app-misc/homeassistant-full:pjlink - control projectors with support for the PJLink protocol from Home Assistant
 app-misc/homeassistant-full:plaato - sets up integration with Plaato Airlock and Keg
 app-misc/homeassistant-full:plex - Python bindings for the Plex API
@@ -819,7 +827,7 @@ app-misc/homeassistant-full:samsungtv - Support for Samsung TV Sets
 app-misc/homeassistant-full:satel_integra - Satel Integra alarm panel to leverage
 app-misc/homeassistant-full:schluter - integrate your Schluter-DITRA-HEAT-E-WiFi electric floor heating thermostat
 app-misc/homeassistant-full:scrape - scraping information from websites
-app-misc/homeassistant-full:screenlogic - 
+app-misc/homeassistant-full:screenlogic - allows you to integrate your Pentair IntelliTouch or EasyTouch pool controller
 app-misc/homeassistant-full:scsgate - allows to interact with the MyHome system from BTicino/Legrande
 app-misc/homeassistant-full:season - display astronomical or meteorological season (Spring, Summer, Autumn, Winter)
 app-misc/homeassistant-full:sendgrid - Notification platform sends email notifications via SendGrid
@@ -837,6 +845,7 @@ app-misc/homeassistant-full:shelly - Shelly devices
 app-misc/homeassistant-full:shiftr - transfer details collected with Home Assistant to Shiftr.io
 app-misc/homeassistant-full:shodan - Shodan is a search engine for Internet-connected devices
 app-misc/homeassistant-full:sht31 - allows you to get the current temperature and humidity from a Sensirion SHT31
+app-misc/homeassistant-full:sia - provides integration with several alarm systems that implement the SIA Protocol
 app-misc/homeassistant-full:sighthound - Detect people in camera images using Sighthound Cloud
 app-misc/homeassistant-full:signal_messenger - add Support for Moxie's Signal API
 app-misc/homeassistant-full:simplepush - deliver notifications from Home Assistant to your Android device
@@ -887,6 +896,7 @@ app-misc/homeassistant-full:srp_energy - SRP Energy integration hourly energy us
 app-misc/homeassistant-full:ssdp - will scan the network for supported devices and services (Upnp)
 app-misc/homeassistant-full:ssl - include support for haproxy
 app-misc/homeassistant-full:starline - retrieve data of your StarLine security system from the StarLine portal
+app-misc/homeassistant-full:starlingbank - monitor your account balance data as sensors
 app-misc/homeassistant-full:startca - Integrate your Start.ca account information into Home Assistant
 app-misc/homeassistant-full:statsd - transfer all state changes to an external StatsD instance
 app-misc/homeassistant-full:steam_online - allows you to track the online status of public Steam accounts
@@ -903,10 +913,12 @@ app-misc/homeassistant-full:swiss_public_transport - give you the next three SBB
 app-misc/homeassistant-full:switchbot - allows you to control SwitchBot devices from Home Assistant
 app-misc/homeassistant-full:switcher_kis - allows you to control the Switcher V2 Water Heater
 app-misc/homeassistant-full:switchmate - allows you to control Switchmate devices from Home Assistant
+app-misc/homeassistant-full:syncthing - allows you to monitor states of your synced folders from Syncthing
 app-misc/homeassistant-full:syncthru - allows you to read current data from your local Samsung printer
 app-misc/homeassistant-full:synology - camera platform to watch the live streams of your Synology Surveillance Station
 app-misc/homeassistant-full:synology_dsm - monitor getting various statistics from your Synology NAS
 app-misc/homeassistant-full:synology_srm - detect presence by looking at connected devices to a Synology SRM router
+app-misc/homeassistant-full:system_bridge - System Bridge runs on your local machine to share system information via its AP
 app-misc/homeassistant-full:systemd - internal and developer use
 app-misc/homeassistant-full:systemmonitor - monitor your platform
 app-misc/homeassistant-full:tado - an interface to the my.tado.com website
@@ -954,6 +966,7 @@ app-misc/homeassistant-full:twilio - enables the sending of notifications via SM
 app-misc/homeassistant-full:twinkly - control Twinkly LED string from Home Assistant
 app-misc/homeassistant-full:twitch - monitor Twitch channel status from within Home Assistant
 app-misc/homeassistant-full:twitter - notification platform uses Twitter to deliver notifications from Home Assistant
+app-misc/homeassistant-full:ubee - getting stats from Ubee routers
 app-misc/homeassistant-full:unifi - talk with a Ubiquiti unifi Controller
 app-misc/homeassistant-full:unifi_direct - detect presence by looking at devices connected to a UniFi AP
 app-misc/homeassistant-full:unifiled - control lights from a UniFi LED by Ubiquiti Networks controller
@@ -986,6 +999,7 @@ app-misc/homeassistant-full:volvooncall - offers presence detection as well as s
 app-misc/homeassistant-full:vultr - access information about and interact with your Vultr subscriptions
 app-misc/homeassistant-full:w800rf32 - supports W800RF32 devices by WGL Designs
 app-misc/homeassistant-full:wake_on_lan - enables the ability to send magic packets to Wake on LAN capable devices
+app-misc/homeassistant-full:wallbox - pulls data from the MyWallbox Portal for your Wallbox charging station
 app-misc/homeassistant-full:waqi - will query World Air Quality Index service
 app-misc/homeassistant-full:waterfurnace - Python interface for waterfurnace geothermal systems
 app-misc/homeassistant-full:watson_iot - link Home Assistant with an IBM Watson IoT Platform instance
@@ -1047,6 +1061,7 @@ app-misc/homeassistant-min:hyperion - integrate your Hyperion into Home Assistan
 app-misc/homeassistant-min:influxdb - transfer sensor data to a local InfluxDB database
 app-misc/homeassistant-min:knx - Asynchronous Library for the KNX protocol
 app-misc/homeassistant-min:kodi - control a Kodi multimedia system
+app-misc/homeassistant-min:kraken - allows you to monitor exchange rates on kraken.com
 app-misc/homeassistant-min:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant-min:mikrotik - add support for MikroTik RouterOS API
 app-misc/homeassistant-min:mobile_app - allows Home Assistant mobile apps to easily integrate with Home Assistant
@@ -1055,7 +1070,7 @@ app-misc/homeassistant-min:mysql - set dependencies to install MySQL Libraries f
 app-misc/homeassistant-min:notify_events - The Notify.Events service is a platform for the notify component
 app-misc/homeassistant-min:otp - generates One-Time Passwords according to RFC6238
 app-misc/homeassistant-min:owntracks - OwnTracks: track your location and send it directly to Home Assistant
-app-misc/homeassistant-min:ping - ICMPLib
+app-misc/homeassistant-min:ping - use the great ICMPLib for Presence Detection and as a binary Sensor
 app-misc/homeassistant-min:plex - Python bindings for the Plex API
 app-misc/homeassistant-min:python_script - write Python scripts that are exposed as services in Home Assistant
 app-misc/homeassistant-min:qnap - Python API for obtaining QNAP NAS system stats
