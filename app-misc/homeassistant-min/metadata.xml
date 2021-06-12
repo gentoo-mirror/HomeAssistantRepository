@@ -31,6 +31,7 @@
     <flag name="influxdb">transfer sensor data to a local InfluxDB database</flag>
     <flag name="knx">Asynchronous Library for the KNX protocol</flag>
     <flag name="kodi">control a Kodi multimedia system</flag>
+    <flag name="kraken">allows you to monitor exchange rates on kraken.com</flag>
     <flag name="maxcube">eQ-3 ELV MAX Cube Python API</flag>
     <flag name="mikrotik">add support for MikroTik RouterOS API</flag>
     <flag name="mobile_app">allows Home Assistant mobile apps to easily integrate with Home Assistant</flag>
@@ -39,7 +40,7 @@
     <flag name="notify_events">The Notify.Events service is a platform for the notify component</flag>
     <flag name="otp">generates One-Time Passwords according to RFC6238</flag>
     <flag name="owntracks">OwnTracks: track your location and send it directly to Home Assistant</flag>
-    <flag name="ping">ICMPLib</flag>
+    <flag name="ping">use the great ICMPLib for Presence Detection and as a binary Sensor</flag>
     <flag name="plex">Python bindings for the Plex API</flag>
     <flag name="python_script">write Python scripts that are exposed as services in Home Assistant</flag>
     <flag name="qnap">Python API for obtaining QNAP NAS system stats</flag>

@@ -1,3 +1,120 @@
+2021-06-12 homeassistant-2021.6.4
+  * update AEMET-OpenData-0.2.1
+  * update HAP-python-3.5.0
+  * update HATasmota-0.2.14
+  * update PyRMVtransport-0.3.2
+  * update PySyncThru-0.7.3
+  * update PyTurboJPEG-1.5.0
+  * update TwitterAPI-2.7.3
+  * update accuweather-0.2.0
+  * update adext-0.4.2
+  * update aiodiscover-1.4.2
+  * update aioesphomeapi-2.8.0
+  * update aiohomekit-0.2.67
+  * update aiohttp-3.7.4_p0 (still _post0)
+  * update aiohue-2.5.0
+  * update aioshelly-0.6.4
+  * update alarmdecoder-1.13.11
+  * update apprise-0.9.3
+  * update async-upnp-client-0.18.0
+  * update awesomeversion-21.4.0
+  * add beacontools-1.2.3
+  * update blebox-uniapi-1.3.3
+  * update bravia-tv-1.0.8
+  * update brother-1.0.2
+  * add datadog-0.15.0
+  * update debugpy-1.3.0
+  * update discord-py-1.7.2
+  * update dlipower-1.0.176
+  * update elgato-2.1.0
+  * update envoy-reader-0.19.0
+  * update epson-projector-0.4.2
+  * update evdev-1.4.0
+  * update evohome-async-0.3.15
+  * update freesms-0.2.0
+  * update garminconnect-0.1.19
+  * update geojson-client-0.6
+  * update geopy-2.1.0
+  * update gios-1.0.1
+  * update goalzero-0.1.7
+  * update graphql-subscription-manager-0.4.0
+  * update growattServer-1.0.1
+  * bump home-assistant-frontend-20210603.0
+  * add ismartgate-4.0.0
+  * update luftdaten-0.6.5
+  * update millheater-0.4.1
+  * update netdisco-2.8.3
+  * update nexia-0.9.7
+  * update numpy-1.20.3-r1
+  * update openhomedevice-2.0.1
+  * update poetry-1.1.6
+  * update praw-7.2.0
+  * update pyTibber-0.17.0
+  * update pyatmo-5.0.1
+  * add pyflic-2.0.3
+  * update pyhiveapi-0.4.2
+  * update pyialarm-1.7
+  * update pyiqvia-1.0.0
+  * update pyisy-3.0.0
+  * add pylgnetcast-0.3.3
+  * update pylutron-caseta-0.10.0
+  * update pymazda-0.1.6
+  * update pymelcloud-2.5.3
+  * update pymodbus-2.5.2
+  * update pyrituals-0.0.3
+  * update pysonos-0.0.49
+  * update pytest-6.2.4
+  * update python-http-client-3.3.2
+  * update python-juicenet-1.0.2
+  * update python-smarttub-0.0.25
+  * update pyvesync-1.4.0
+  * update pywilight-0.0.70
+  * update roonapi-0.0.37
+  * update sendgrid-6.7.0
+  * update simplisafe-python-10.0.0
+  * update smhi-pkg-1.0.15
+  * update starkbank-ecdsa-1.1.1
+  * update tesla-powerwall-0.3.10
+  * update upcloud-api-2.0.0
+  * update venstarcolortouch-0.14
+  * update watchdog-2.1.2
+  * update xknx-0.18.2
+  * update yalesmartalarmclient-0.3.3
+  * update yeelight-0.6.3
+  * update youtube_dl-2021.4.26
+  * update zeroconf-0.31.0
+  * update zigpy-znp-0.5.1
+  * update zwave-js-server-python-0.26.1
+  * update backoff-1.10.0
+  * update demjson-2.2.4
+  * add aiosyncthing-0.6.3
+  * add boschshcpy-0.2.19, boschshcpy-0.2.17
+  * add garages-amsterdam-2.1.1
+  * add garminconnect-aio-0.1.1
+  * add krakenex-2.1.0
+  * add nettigo-air-monitor-0.2.6
+  * add pykrakenapi-0.2.1
+  * add pysiaalarm-3.0.0
+  * add aiosyncthing-0.5.1
+  * bump aiosyncthing-0.6.3
+  * add systembridge-1.1.5, bump systembridge-1.2.4
+  * add wallbox-0.4.4.ebuild, bump wallbox-0.4.5.ebuild
+  * update homeassistant-2021.6.1
+  * bump elgato-2.1.1
+  * bump iaqualink-0.3.90
+  * bump xknx-0.18.4
+  * bump aiolyric-1.0.7
+  * add pymeteoclimatic-0.0.6
+  * update home-assistant-cli-0.9.3, home-assistant-cli-9999
+  * update homeassistant-2021.6.2, remove many olds, allow Python 3.9 (not fully tested)
+  * remove broken homeassistant-min-2021.5.3-r1.ebuild
+  * update dwdwfsapi-1.0.4
+  * bump garminconnect-aio-0.1.4
+  * bump pyialarm-1.8.1
+  * bump aiorecollect-1.0.4
+  * update homeassistant-min-2021.6.3
+  * update homeassistant-min-2021.6.4
+
 2021-06-04
  * cleanup PYTHON_COMPAT, remove unused Ebuilds (https://bugs.gentoo.org/793464)
  * re-add cryptography-3.3.2 from main archive, fix https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/203
