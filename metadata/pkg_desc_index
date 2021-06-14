@@ -3,10 +3,10 @@ acct-group/homeassistant 0: Homeassistant program group
 acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.11.0 1.12.0 1.14.0: An implementation of the ACME protocol
-app-misc/home-assistant-cli 0.9.0 0.9.1 0.9.3 9999: The Home Assistant Command-line Interface (hass-cli)
+app-misc/home-assistant-cli 0.9.0 0.9.1 0.9.3 0.9.3-r1 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/homeassistant 2021.3.4-r1 2021.4.6 2021.5.1 2021.5.2 2021.5.3 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4: Open-source home automation platform running on Python 3.8
 app-misc/homeassistant-full 2021.3.4-r1 2021.4.6 2021.5.1 2021.5.2 2021.5.3 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4 9999: Open-source home automation platform running on Python 3.8
-app-misc/homeassistant-min 2021.3.4-r1 2021.3.4-r2 2021.4.6 2021.5.1 2021.5.2 2021.5.3 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4: Open-source home automation platform running on Python 3.8
+app-misc/homeassistant-min 2021.3.4-r1 2021.3.4-r2 2021.4.6 2021.5.1 2021.5.2 2021.5.3 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4 2021.6.4-r1: Open-source home automation platform running on Python 3.8
 dev-embedded/esphome 1.15.3-r3 1.16.1 1.16.2 1.17.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esptool 2.8 3.0: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
 dev-embedded/platformio 4.3.4 5.0.1 5.0.3 5.0.4 5.1.1: A professional collaborative platform for embedded development. Cross-platform IDE and Unified Debugger. Static Code Analyzer and Remote Unit Testing. Multi-platform and Multi-architecture Build System. Firmware File Explorer and Memory Inspection. IoT, Arduino, CMSIS, ESP-IDF, FreeRTOS, libOpenCM3, mbedOS, Pulp OS, SPL, STM32Cube, Zephyr RTOS, ARM, AVR, Espressif (ESP8266/ESP32), FPGA, MCS-51 (8051), MSP430, Nordic (nRF51/nRF52), NXP i.MX RT, PIC32, RISC-V, STMicroelectronics (STM8/STM32), Teensy

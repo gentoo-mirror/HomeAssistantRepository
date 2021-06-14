@@ -1044,8 +1044,13 @@ app-misc/homeassistant-full:ziggo_mediabox_xl - allows you to control a Ziggo Me
 app-misc/homeassistant-full:zoneminder - Support for ZoneMinder Cameras
 app-misc/homeassistant-full:zwave - Support for Z-Wave Devices (uncomplete)
 app-misc/homeassistant-full:zwave_js - control a Z-Wave network via the Z-Wave JS driver
+app-misc/homeassistant-min:accuweather - Uses the AccuWeather web service as a source for weather data
+app-misc/homeassistant-min:airly - Uses the Airly web service as a source for air quality data
+app-misc/homeassistant-min:alpha_vantage - The alpha_vantage sensor platform uses Alpha Vantage to monitor the stock market
+app-misc/homeassistant-min:android_ip_webcam - The android_ip_webcam integration turns any Android phone or tablet into a netwo
 app-misc/homeassistant-min:androidtv - Library for controlling an Android TV, formerly firetv
 app-misc/homeassistant-min:axis - Communicating with newer devices from Axis Communications
+app-misc/homeassistant-min:bluetooth_le_tracker - Tracks Bluetooth low-energy devices periodically based on interval_seconds value
 app-misc/homeassistant-min:caldav - Integrate a CalDAV (RFC4791) calendar in Home Assistant
 app-misc/homeassistant-min:cli - Set a dependency for Home Assistant Cli hass-cli (lots of modules required)
 app-misc/homeassistant-min:compensation - Compensation integration consumes the state from other sensors
@@ -1066,17 +1071,21 @@ app-misc/homeassistant-min:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant-min:mikrotik - add support for MikroTik RouterOS API
 app-misc/homeassistant-min:mobile_app - allows Home Assistant mobile apps to easily integrate with Home Assistant
 app-misc/homeassistant-min:mqtt - install MQTT Broker and dependencies
+app-misc/homeassistant-min:myq - lets you control MyQ-Enabled garage doors
+app-misc/homeassistant-min:mysensors - combines devices like Arduino, ESP8266, Raspberry Pi, NRF24L01+ and RFM69
 app-misc/homeassistant-min:mysql - set dependencies to install MySQL Libraries for use with HomeAssistant
 app-misc/homeassistant-min:notify_events - The Notify.Events service is a platform for the notify component
 app-misc/homeassistant-min:otp - generates One-Time Passwords according to RFC6238
 app-misc/homeassistant-min:owntracks - OwnTracks: track your location and send it directly to Home Assistant
 app-misc/homeassistant-min:ping - use the great ICMPLib for Presence Detection and as a binary Sensor
 app-misc/homeassistant-min:plex - Python bindings for the Plex API
+app-misc/homeassistant-min:ps4 - allows you to control a Sony PlayStation 4 console
 app-misc/homeassistant-min:python_script - write Python scripts that are exposed as services in Home Assistant
 app-misc/homeassistant-min:qnap - Python API for obtaining QNAP NAS system stats
 app-misc/homeassistant-min:qvr_pro - QVR Pro allows you to connect to cams configured on your QNAP NAS
 app-misc/homeassistant-min:recorder - storing details in a database per sqlalchemy
 app-misc/homeassistant-min:rest - rest sensor platform for data exposed by a RESTful API
+app-misc/homeassistant-min:ring - integrate your ring.com devices
 app-misc/homeassistant-min:samsungtv - Support for Samsung TV Sets
 app-misc/homeassistant-min:scrape - scraping information from websites
 app-misc/homeassistant-min:shelly - Shelly devices
@@ -1087,11 +1096,16 @@ app-misc/homeassistant-min:sonos - Sonos Media Player Support
 app-misc/homeassistant-min:sql - enables you to use an SQL database supported by the sqlalchemy library
 app-misc/homeassistant-min:ssl - include support for haproxy
 app-misc/homeassistant-min:systemd - internal and developer use
+app-misc/homeassistant-min:systemmonitor - monitor your platform
 app-misc/homeassistant-min:tasmota - Python module to help parse and construct Tasmota MQTT messages
 app-misc/homeassistant-min:test - internal and developer use
+app-misc/homeassistant-min:tile - API for Tile Bluetooth trackers
+app-misc/homeassistant-min:tplink - control your TP-Link Smart Home Devices
 app-misc/homeassistant-min:tradfri - Control/observe IKEA Tradfri devices
 app-misc/homeassistant-min:version - display the current Home Assistant versions
 app-misc/homeassistant-min:wake_on_lan - enables the ability to send magic packets to Wake on LAN capable devices
+app-misc/homeassistant-min:wemo - discover and control WeMo devices
+app-misc/homeassistant-min:whois - perform daily WHOIS lookups
 app-misc/homeassistant-min:workday - generating country, province and state specific sets of holidays on the fly
 app-misc/homeassistant-min:yamaha - Library for Yamaha RX-* Receivers
 app-misc/homeassistant-min:yamaha_musiccast - add support for Yamaha MusicCast devices
