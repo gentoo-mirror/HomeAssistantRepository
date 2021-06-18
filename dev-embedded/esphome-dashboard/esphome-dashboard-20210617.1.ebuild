@@ -7,20 +7,18 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips."
-HOMEPAGE="https://github.com/espressif/esptool https://pypi.org/project/esptool/"
+DESCRIPTION="ESPHome dashboard"
+HOMEPAGE="https://github.com/esphome/dashboard https://pypi.org/project/esphome-dashboard/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPLv2+"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 ~arm arm64 x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS=""
+DOCS="README.md"
 
-RDEPEND=">=dev-python/pyserial-3.0[${PYTHON_USEDEP}]
-	dev-python/pyaes[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]"
+RDEPEND=""
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

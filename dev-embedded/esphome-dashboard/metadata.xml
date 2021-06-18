@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">esphome</remote-id>
+    <remote-id type="pypi">esphome-dashboard</remote-id>
     <maintainer status="unknown">
-      <email>esphome@nabucasa.com</email>
-      <name>ESPHome</name>
+      <email>hello@nabucasa.com</email>
+      <name>Nabu Casa</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
