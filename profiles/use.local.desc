@@ -1081,6 +1081,7 @@ app-misc/homeassistant-min:mysql - set dependencies to install MySQL Libraries f
 app-misc/homeassistant-min:notify_events - The Notify.Events service is a platform for the notify component
 app-misc/homeassistant-min:otp - generates One-Time Passwords according to RFC6238
 app-misc/homeassistant-min:owntracks - OwnTracks: track your location and send it directly to Home Assistant
+app-misc/homeassistant-min:ozw - Open Zwave MQTT
 app-misc/homeassistant-min:ping - use the great ICMPLib for Presence Detection and as a binary Sensor
 app-misc/homeassistant-min:plex - Python bindings for the Plex API
 app-misc/homeassistant-min:ps4 - allows you to control a Sony PlayStation 4 console
