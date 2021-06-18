@@ -1,15 +1,15 @@
 BDEPEND=dev-python/setuptools[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?,-python_single_target_python3_8(-),-python_single_target_python3_9(-),-python_single_target_python3_10(-)] test? ( dev-python/nose[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?,-python_single_target_python3_8(-),-python_single_target_python3_9(-),-python_single_target_python3_10(-)] dev-python/pytest[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?,-python_single_target_python3_8(-),-python_single_target_python3_9(-),-python_single_target_python3_10(-)] ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?,-python_single_target_python3_8(-),-python_single_target_python3_9(-),-python_single_target_python3_10(-)] >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?,-python_single_target_python3_8(-),-python_single_target_python3_9(-),-python_single_target_python3_10(-)]
 DEFINED_PHASES=compile configure install prepare test
-DESCRIPTION=A list of Python Standard Libraries (2.6-7, 3.2-9).
+DESCRIPTION=A utility library for mocking out the requests Python library.
 EAPI=7
-HOMEPAGE=https://github.com/jackmaney/python-stdlib-list https://pypi.org/project/stdlib-list/
+HOMEPAGE=https://github.com/getsentry/responses https://pypi.org/project/responses/
 INHERIT=distutils-r1
 IUSE=test python_targets_python3_8 python_targets_python3_9 python_targets_python3_10
 KEYWORDS=~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux
-LICENSE=MIT
-RDEPEND=python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?,-python_single_target_python3_8(-),-python_single_target_python3_9(-),-python_single_target_python3_10(-)]
+LICENSE=Apache 2.0
+RDEPEND=>=dev-python/requests-2.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?,-python_single_target_python3_8(-),-python_single_target_python3_9(-),-python_single_target_python3_10(-)] dev-python/six[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?,-python_single_target_python3_8(-),-python_single_target_python3_9(-),-python_single_target_python3_10(-)] dev-python/urllib3[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?,-python_single_target_python3_8(-),-python_single_target_python3_9(-),-python_single_target_python3_10(-)] dev-python/cookies[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?,-python_single_target_python3_8(-),-python_single_target_python3_9(-),-python_single_target_python3_10(-)] python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?,-python_single_target_python3_8(-),-python_single_target_python3_9(-),-python_single_target_python3_10(-)]
 REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 )
 SLOT=0
-SRC_URI=mirror://pypi/s/stdlib-list/stdlib-list-0.7.0.tar.gz
+SRC_URI=mirror://pypi/r/responses/responses-0.13.3.tar.gz
 _eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-r1	26e4ad0a4190b14f70973dc253e86535	distutils-r1	c21cf58c1e3c67e0ea53c96a7b37eddd
-_md5_=0157011758c4ca69914a014fe751db19
+_md5_=c3bfa66ebadcd25a9669bb20c9a3ee2a
