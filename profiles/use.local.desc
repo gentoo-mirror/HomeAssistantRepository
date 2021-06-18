@@ -1046,12 +1046,14 @@ app-misc/homeassistant-full:zwave - Support for Z-Wave Devices (uncomplete)
 app-misc/homeassistant-full:zwave_js - control a Z-Wave network via the Z-Wave JS driver
 app-misc/homeassistant-min:accuweather - Uses the AccuWeather web service as a source for weather data
 app-misc/homeassistant-min:airly - Uses the Airly web service as a source for air quality data
+app-misc/homeassistant-min:airvisual - Airvisual sensor platform queries the AirVisual cloud API for air quality data
 app-misc/homeassistant-min:alpha_vantage - The alpha_vantage sensor platform uses Alpha Vantage to monitor the stock market
 app-misc/homeassistant-min:android_ip_webcam - The android_ip_webcam integration turns any Android phone or tablet into a netwo
 app-misc/homeassistant-min:androidtv - Library for controlling an Android TV, formerly firetv
 app-misc/homeassistant-min:axis - Communicating with newer devices from Axis Communications
 app-misc/homeassistant-min:bluetooth_le_tracker - Tracks Bluetooth low-energy devices periodically based on interval_seconds value
 app-misc/homeassistant-min:caldav - Integrate a CalDAV (RFC4791) calendar in Home Assistant
+app-misc/homeassistant-min:cast - Let Home Assitant talk to Google Chromecast
 app-misc/homeassistant-min:cli - Set a dependency for Home Assistant Cli hass-cli (lots of modules required)
 app-misc/homeassistant-min:compensation - Compensation integration consumes the state from other sensors
 app-misc/homeassistant-min:coronavirus - Add sensors for COVID-19 infections from Johns Hopkins University
@@ -1062,6 +1064,8 @@ app-misc/homeassistant-min:esphome - Support for esphome sensors, covers and swi
 app-misc/homeassistant-min:fronius - Add (very basic) Support for Fronius Symo JSON Api to Home Assistant
 app-misc/homeassistant-min:github - GitHub sensor integrates data from GitHub to monitor your favorite repositories
 app-misc/homeassistant-min:homekit - Integrate HomeKit controller and accessory in Home Assistant
+app-misc/homeassistant-min:homekit_controller - Allows you to connect accessories with the “Works with HomeKit” logo
+app-misc/homeassistant-min:http - Serves all files and data required for the Home Assistant frontend
 app-misc/homeassistant-min:hyperion - integrate your Hyperion into Home Assistant
 app-misc/homeassistant-min:influxdb - transfer sensor data to a local InfluxDB database
 app-misc/homeassistant-min:knx - Asynchronous Library for the KNX protocol
@@ -1093,6 +1097,7 @@ app-misc/homeassistant-min:signal_messenger - add Support for Moxie's Signal API
 app-misc/homeassistant-min:snmp - Presence Detection, Sensor, Switch via SNMP
 app-misc/homeassistant-min:socat - Set a flag to install socat and socat-zwave startscript
 app-misc/homeassistant-min:sonos - Sonos Media Player Support
+app-misc/homeassistant-min:speedtestdotnet - speedtest.net support
 app-misc/homeassistant-min:sql - enables you to use an SQL database supported by the sqlalchemy library
 app-misc/homeassistant-min:ssl - include support for haproxy
 app-misc/homeassistant-min:systemd - internal and developer use
