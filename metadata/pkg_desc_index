@@ -46,7 +46,7 @@ dev-python/PyGithub 1.43.5 1.43.8 1.53: Use the full Github API v3
 dev-python/PyISY 1.1.2: Python module to talk to ISY994 from UDI.
 dev-python/PyMVGLive 1.1.4: get live-data from mvg-live.de
 dev-python/PyMata 2.20: A Python Protocol Abstraction Library For Arduino Firmata
-dev-python/PyMeeus 0.3.7: Python implementation of Jean Meeus astronomical routines
+dev-python/PyMeeus 0.3.7 0.5.11: Python implementation of Jean Meeus astronomical routines
 dev-python/PyMetEireann 0.2: A library to communicate with the Met Eireann Public Weather Forecast API
 dev-python/PyMetno 0.7.0 0.7.1 0.8.1 0.8.2 0.8.3: A library to communicate with the met.no api
 dev-python/PyOTA 2.0.5 2.1.0-r1: IOTA API library for Python
@@ -430,7 +430,7 @@ dev-python/jdatetime 3.4.0: Jalali datetime binding for python
 dev-python/jinja 2.10.3 2.11.2-r1: A full-featured template engine for Python
 dev-python/jmespath 0.9.4: JSON Matching Expressions
 dev-python/jsonpath 0.82: An XPath for JSON
-dev-python/jsonpath-ng 1.5.1: A final implementation of JSONPath for Python that aims to be standard compliant, including arithmetic and binary comparison operators and providing clear AST for metaprogramming.
+dev-python/jsonpath-ng 1.5.1 1.5.2: A final implementation of JSONPath for Python that aims to be standard compliant, including arithmetic and binary comparison operators and providing clear AST for metaprogramming.
 dev-python/jsonpath-rw 1.4.0: A robust and significantly extended implementation of JSONPath for Python.
 dev-python/jsonpickle 1.4.1-r1: Python library for serializing any arbitrary object graph into JSON
 dev-python/jsonrpc-async 1.1.1 2.0.0: A JSON-RPC client library for asyncio
