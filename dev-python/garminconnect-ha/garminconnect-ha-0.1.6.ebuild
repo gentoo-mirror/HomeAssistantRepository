@@ -7,18 +7,20 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Cryptographic library for Python"
-HOMEPAGE="https://www.pycryptodome.org https://pypi.org/project/pycryptodomex/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+DESCRIPTION="Garmin Connect Python 3 API wrapper for Home Assistant"
+HOMEPAGE="https://github.com/cyberjunky/python-garminconnect-ha https://pypi.org/project/garminconnect-ha/"
+MY_PN=${PN/-/_}
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}/${MY_PN}-${PV}"
 
-LICENSE="BSD"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.rst"
+DOCS="README.md"
 
-RDEPEND=""
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
