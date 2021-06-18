@@ -7,18 +7,21 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A list of Python Standard Libraries (2.6-7, 3.2-9)."
-HOMEPAGE="https://github.com/jackmaney/python-stdlib-list https://pypi.org/project/stdlib-list/"
+DESCRIPTION="A utility library for mocking out the requests Python library."
+HOMEPAGE="https://github.com/getsentry/responses https://pypi.org/project/responses/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache 2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.md"
+DOCS="README.rst"
 
-RDEPEND=""
+RDEPEND=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	dev-python/six[${PYTHON_USEDEP}]
+	dev-python/urllib3[${PYTHON_USEDEP}]
+	dev-python/cookies[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
