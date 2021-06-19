@@ -484,7 +484,6 @@ dev-python/mitemp-bt 0.0.3: Library to read data from Mi Temperature and Humidit
 dev-python/mock-open 1.4.0: A better mock for file I/O
 dev-python/motionblinds 0.1.6 0.4.7 0.4.8 0.4.10: Python library for interfacing with Motion Blinds
 dev-python/motioneye-client 0.3.6: motionEye client library Python Package
-dev-python/motorparts 1.1.0: Python 3 API for mopar.com.
 dev-python/ms-cv 0.1.1: A correlation vector implementation in python
 dev-python/msgpack 0.6.1: MessagePack (de)serializer.
 dev-python/mt_940 4.19.0: Parse MT940 files returns Python collections for statistics and manipulation.
