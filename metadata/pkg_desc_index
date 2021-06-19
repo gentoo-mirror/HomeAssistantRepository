@@ -335,7 +335,6 @@ dev-python/garminconnect 0.1.8 0.1.10 0.1.13 0.1.16 0.1.19: Python 3 API wrapper
 dev-python/garminconnect-aio 0.1.1 0.1.4: Asynchronous Garmin Connect Python 3 API wrapper
 dev-python/garminconnect-ha 0.1.6: Garmin Connect Python 3 API wrapper for Home Assistant
 dev-python/gatt 0.2.7: Bluetooth GATT SDK for Python
-dev-python/gearbest-parser 1.0.7 1.0.7-r1: Load an gearbest shop item
 dev-python/geizhals 0.0.9: A parser for the Geizhals.eu website.
 dev-python/geniushub-client 0.6.11 0.6.13 0.6.26 0.6.28 0.6.30: A aiohttp-based client for Genius Hub systems
 dev-python/geojson 2.5.0: Python bindings and utilities for GeoJSON
