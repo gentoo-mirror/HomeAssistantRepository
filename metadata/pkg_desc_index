@@ -36,7 +36,7 @@ dev-python/OPi-GPIO 0.4.0: A drop-in replacement for RPi.GPIO for the Orange Pi 
 dev-python/PlexAPI 4.4.1 4.5.1: Python bindings for the Plex API.
 dev-python/Plugwise-Smile 0.2.13 1.1.0 1.4.0 1.5.1 1.6.0: Plugwise_Smile (Anna/Adam/P1/Stretch) API to use in conjunction with Home Assistant.
 dev-python/ProgettiHWSW 0.1.1: Controls ProgettiHWSW relay boards.
-dev-python/PsychroLib 2.3.0: Library of psychrometric functions to calculate thermodynamic properties of air
+dev-python/PsychroLib 2.3.0 2.5.0: Library of psychrometric functions to calculate thermodynamic properties of air
 dev-python/PyDispatcher 2.0.5: Multi-producer-multi-consumer signal dispatching mechanism
 dev-python/PyEssent 0.10 0.12 0.13 0.14: A wrapper around Essent's API
 dev-python/PyFlick 0.0.2: Python API For Flick Electric in New Zealand
