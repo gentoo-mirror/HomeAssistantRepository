@@ -59,7 +59,7 @@ dev-python/PyTransportNSW 0.1.1: Get transport information from TransportNSW
 dev-python/PyTurboJPEG 1.4.0 1.5.0: A Python wrapper of libjpeg-turbo for decoding and encoding JPEG image.
 dev-python/PyUserInput 0.1.11: A simple, cross-platform module for mouse and keyboard control
 dev-python/PyViCare 0.1.2 0.1.7 0.1.10 0.2.0 0.2.5: Library to communicate with the Viessmann ViCare API
-dev-python/PyXiaomiGateway 0.12.3 0.12.4 0.13.2 0.13.3 0.13.4: A library to communicate with the Xiaomi Gateway
+dev-python/PyXiaomiGateway 0.13.4: A library to communicate with the Xiaomi Gateway
 dev-python/Pysher 1.0.1 1.0.4 1.0.6: Pusher websocket client for python, based on Erik Kulyk's PythonPusherClient
 dev-python/RPi-GPIO 0.7.1_alpha4: A module to control Raspberry Pi GPIO channels
 dev-python/RachioPy 0.1.3 0.1.4 1.0.3: A Python module for the Rachio API.
@@ -105,7 +105,6 @@ dev-python/aiobotocore 0.11.1-r1 1.2.2: Async client for aws services using boto
 dev-python/aiocache 0.10.1: multi backend asyncio cache
 dev-python/aiocoap 0.4_beta3: The Python CoAP library
 dev-python/aiodiscover 1.3.3 1.3.4 1.4.0 1.4.2: Discover hosts by arp and ptr lookup
-dev-python/aiodns 2.0.0: Simple DNS resolver for asyncio
 dev-python/aioeafm 0.1.2: An asyncio wrapper for the UK Environment Agency Flood Monitoring API
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
 dev-python/aioesphomeapi 2.6.3-r2 2.6.5 2.6.6 2.8.0: Python API for interacting with ESPHome devices.
@@ -494,7 +493,7 @@ dev-python/mychevy 1.2.0 2.0.1 2.1.1: Python interface to My Chevy online data
 dev-python/mycroftapi 2.0: a library to communicate with Mycroft API
 dev-python/mypy 0.782 0.790: Optional static typing for Python
 dev-python/n26 0.2.7 2.2.0: API and command line tools to interact with the https://n26.com/ API
-dev-python/nad-receiver 0.0.11 0.0.12 0.1.0: Library to interface with NAD receivers through RS232, TCP and telnet
+dev-python/nad-receiver 0.0.12 0.1.0: Library to interface with NAD receivers through RS232, TCP and telnet
 dev-python/nclib 0.8.3: Netcat as a library: convienent socket interfaces
 dev-python/ndms2-client 0.1.1: Keenetic NDMS 2.x and 3.x client
 dev-python/nessclient 0.9.15: Implementation of the Ness D8x / D16x Serial Interface ASCII protocol
