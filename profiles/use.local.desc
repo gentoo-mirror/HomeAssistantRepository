@@ -136,6 +136,7 @@ app-misc/homeassistant:hue - talk to Philips Hue
 app-misc/homeassistant:hydrawise - communicate with Hunter Wi-Fi irrigation controllers
 app-misc/homeassistant:iaqualink - iAqualink by Jandy allows you to control your pool via cloud service
 app-misc/homeassistant:ihc - use IHC Python SDK
+app-misc/homeassistant:imap - observing your IMAP server and reporting the amount of unread emails
 app-misc/homeassistant:incomfort - client for Intergas InComfort/InTouch Lan2RF systems
 app-misc/homeassistant:influxdb - transfer sensor data to a local InfluxDB database
 app-misc/homeassistant:insteon - allowing linked INSTEON devices to be used
@@ -291,6 +292,7 @@ app-misc/homeassistant-full:alarmdecoder - AlarmDecoder extended
 app-misc/homeassistant-full:almond - Almond is an open, privacy-preserving virtual assistant by Stanford Open Virtual
 app-misc/homeassistant-full:alpha_vantage - The alpha_vantage sensor platform uses Alpha Vantage to monitor the stock market
 app-misc/homeassistant-full:amazon_polly - Text-to-speech platform that works with Amazon Polly
+app-misc/homeassistant-full:ambee - Asynchronous Python client for the Ambee API
 app-misc/homeassistant-full:ambiclimate - Communicate with Ambiclimate devices
 app-misc/homeassistant-full:ambient_station - Retrieves local weather information from Ambient Weather
 app-misc/homeassistant-full:amcrest - Integrate your Amcrest or Dahua IP camera
@@ -449,6 +451,7 @@ app-misc/homeassistant-full:enphase_envoy - Reads electricity production and con
 app-misc/homeassistant-full:entur_public_transport - entur_public_transport sensor gives real-time departure information
 app-misc/homeassistant-full:environment_canada - Access meteorological data from Environment Canada from Home Assistant
 app-misc/homeassistant-full:envirophat - Display information collected by an Enviro pHAT add-on board
+app-misc/homeassistant-full:envisalink - Link Envisalink devices to Home Assistant
 app-misc/homeassistant-full:ephember - The ephember climate platform lets you control EPH Controls thermostats
 app-misc/homeassistant-full:epson - The epson platform allows you to control a Epson projector
 app-misc/homeassistant-full:epsonworkforce - monitor the ink levels of a Epson Workforce printer
@@ -482,11 +485,13 @@ app-misc/homeassistant-full:flunearyou - allows users in the US to get informati
 app-misc/homeassistant-full:flux_led - flux_led support is integrated into Home Assistant as a light platform
 app-misc/homeassistant-full:folder_watcher - publishing events on the bus on the creation/deletion/modification of files
 app-misc/homeassistant-full:foobot - fetch air quality data from your Foobot device
+app-misc/homeassistant-full:forecast_solar - Asynchronous Python client for getting forecast solar information
 app-misc/homeassistant-full:forked_daapd - allows you to control your forked-daapd server from Home Assistant
 app-misc/homeassistant-full:fortios - device tracking of devices with a MAC address connected to a FortiGate
 app-misc/homeassistant-full:foscam - watch the live stream of your Foscam IP camera
 app-misc/homeassistant-full:free_mobile - free_mobile platform is using the French mobile operator Free Mobile to send SMS
 app-misc/homeassistant-full:freebox - allows you to observe and control Freebox router
+app-misc/homeassistant-full:freedompro - Python library for Freedompro API
 app-misc/homeassistant-full:fritz - The fritz platform offers presence detection for Home Assistant
 app-misc/homeassistant-full:fritzbox - Allows you to integrate the switch and climate devices in Home Assistant
 app-misc/homeassistant-full:fritzbox_callmonitor - monitors the call monitor exposed by AVM FRITZ!Box routers on TCP port 1012
@@ -516,6 +521,7 @@ app-misc/homeassistant-full:gogogate2 - Control Gogogate2-Enabled garage doors f
 app-misc/homeassistant-full:google - Intergrate Google Calendar into Home Assistant
 app-misc/homeassistant-full:google_maps - google_maps platform allows you to detect presence
 app-misc/homeassistant-full:google_pubsub - Send events to Google Cloud Pub/Sub from Home Assistant
+app-misc/homeassistant-full:google_translate - google_translate text-to-speech platform for Home Assistant
 app-misc/homeassistant-full:google_travel_time - provides travel time from the Google Distance Matrix API
 app-misc/homeassistant-full:gpmdp - Allows you to control a GPMDP instance from Home Assistant
 app-misc/homeassistant-full:gpsd - GPS information collected by gpsd and a GPS receiver
@@ -590,6 +596,7 @@ app-misc/homeassistant-full:jewish_calendar - jewish_calendar
 app-misc/homeassistant-full:joaoapps_join - joaoapps_join integration exposes services from Join
 app-misc/homeassistant-full:juicenet - pulls data from a JuiceNet charging station
 app-misc/homeassistant-full:kaiterra - view the readings from your Laser Egg or Sensedge device
+app-misc/homeassistant-full:keba - integrates your Keba charging station (wallbox)
 app-misc/homeassistant-full:keenetic_ndms2 - presence detection for Keenetic Routers
 app-misc/homeassistant-full:kef - KEF wireless speakers
 app-misc/homeassistant-full:keyboard - The keyboard integration simulates key presses on the host machine
@@ -622,6 +629,7 @@ app-misc/homeassistant-full:lirc - Python bindings for LIRC
 app-misc/homeassistant-full:litejet - allows a computer to control the system via LiteJet’s third party protocol
 app-misc/homeassistant-full:litterrobot - Wi-Fi-enabled, automatic, self-cleaning litter box for cats
 app-misc/homeassistant-full:logi_circle - integrate your Logi Circle cameras in Home Assistant
+app-misc/homeassistant-full:london_underground - display the status of London underground lines
 app-misc/homeassistant-full:loopenergy - Integrate your Loop Energy meter information into Home Assistant
 app-misc/homeassistant-full:luci - fetch connected devices from your OpenWrt
 app-misc/homeassistant-full:luftdaten - query the open data API of luftdaten.info to monitor air quality
@@ -656,12 +664,14 @@ app-misc/homeassistant-full:microsoft - text-to-speech platform uses the TTS eng
 app-misc/homeassistant-full:miflora - miflora sensor platform allows one to monitor plant soil and air conditions
 app-misc/homeassistant-full:mikrotik - add support for MikroTik RouterOS API
 app-misc/homeassistant-full:mill - A python3 library to communicate with Mill
+app-misc/homeassistant-full:minecraft_server - retrieve information from a Minecraft server
 app-misc/homeassistant-full:minio - This integration adds interaction with Minio
 app-misc/homeassistant-full:mitemp_bt - mitemp_bt sensor platform allows one to monitor room temperature and humidity
 app-misc/homeassistant-full:mobile_app - allows Home Assistant mobile apps to easily integrate with Home Assistant
 app-misc/homeassistant-full:mochad - main integration to integrate all Mochad X10 platforms
 app-misc/homeassistant-full:modbus - sensors and switches controlled over MODBUS serial, TCP, and UDP connections
 app-misc/homeassistant-full:modem_callerid - Uses an available modem for collecting caller ID information
+app-misc/homeassistant-full:modern_forms - Asynchronous Python client for Modern Forms fans
 app-misc/homeassistant-full:monoprice - Python API for talking to Monoprice 6-zone amplifier
 app-misc/homeassistant-full:motion_blinds - control Motion Blinds from Coulisse B.V.
 app-misc/homeassistant-full:motioneye - integrate your motionEye server into Home Assistant
@@ -681,6 +691,7 @@ app-misc/homeassistant-full:mythicbeastsdns - automatically update your dynamic 
 app-misc/homeassistant-full:n26 - allows you to track your N26 account
 app-misc/homeassistant-full:nad - allows you to control a NAD receiver through RS232, TCP and Telnet
 app-misc/homeassistant-full:nam - get temperature, humidity, pressure , air quality from Nettigo devices
+app-misc/homeassistant-full:namecheapdns - automatically update your dynamic DNS entry at namecheapdns
 app-misc/homeassistant-full:nanoleaf - allows you to control Nanoleaf Light Panels from Home Assistant
 app-misc/homeassistant-full:neato - Python package for controlling Neato pybotvac Connected vacuum robot
 app-misc/homeassistant-full:nederlandse_spoorwegen - train service in the Netherlands
@@ -777,6 +788,7 @@ app-misc/homeassistant-full:ptvsd - allows you to use the Visual Studio Code PTV
 app-misc/homeassistant-full:pulseaudio_loopback - whole home audio system based upon PulseAudio
 app-misc/homeassistant-full:pushbullet - sensor platform reads messages from Pushbullet
 app-misc/homeassistant-full:pushover - allows integrations to send messages to the user using Pushover
+app-misc/homeassistant-full:pvpc_hourly_pricing - hourly price of electricity in Spain from PVPC
 app-misc/homeassistant-full:python_script - write Python scripts that are exposed as services in Home Assistant
 app-misc/homeassistant-full:qbittorrent - monitor your downloads with qBittorrent from within Home Assistant
 app-misc/homeassistant-full:qld_bushfire - GeoRSS feed containing bushfire alerts for Queensland
@@ -970,6 +982,7 @@ app-misc/homeassistant-full:twinkly - control Twinkly LED string from Home Assis
 app-misc/homeassistant-full:twitch - monitor Twitch channel status from within Home Assistant
 app-misc/homeassistant-full:twitter - notification platform uses Twitter to deliver notifications from Home Assistant
 app-misc/homeassistant-full:ubee - getting stats from Ubee routers
+app-misc/homeassistant-full:ubus - a presence detection scanner for OpenWrt using ubus
 app-misc/homeassistant-full:unifi - talk with a Ubiquiti unifi Controller
 app-misc/homeassistant-full:unifi_direct - detect presence by looking at devices connected to a UniFi AP
 app-misc/homeassistant-full:unifiled - control lights from a UniFi LED by Ubiquiti Networks controller
@@ -982,6 +995,7 @@ app-misc/homeassistant-full:uscis - updates on your USCIS case using your case/r
 app-misc/homeassistant-full:usgs_earthquakes_feed - a GeoJSON feed provided by the U.S. Geological Survey
 app-misc/homeassistant-full:uvc - allows you to integrate UniFi Video Camera (UVC) into Home Assistant
 app-misc/homeassistant-full:vallox - control any Vallox ventilation unit
+app-misc/homeassistant-full:vasttrafik - traveling details for the larger Göteborg area in Sweden from the Västtrafik
 app-misc/homeassistant-full:velbus - supports the Velbus USB, serial and TCP/IP gateway
 app-misc/homeassistant-full:velux - allows you to connect to a Velux KLF 200 interface
 app-misc/homeassistant-full:venstar - allows you to control Venstar thermostats from Home Assistant
