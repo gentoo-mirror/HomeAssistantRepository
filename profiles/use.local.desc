@@ -88,6 +88,7 @@ app-misc/homeassistant:dhcp - will watch the network for DHCP requests for suppo
 app-misc/homeassistant:dht - Get the current temperature and humidity from a DHT11, DHT22 or AM2302 device
 app-misc/homeassistant:discogs - Discogs Client for Home Assistant
 app-misc/homeassistant:discord - Send messages to the user using Discord from Home Assistant
+app-misc/homeassistant:discovery - Automatically configure zeroconf/mDNS and UPnP devices in Home Assistant
 app-misc/homeassistant:doorbird - The doorbird implementation allows you to integrate your DoorBird device
 app-misc/homeassistant:dunehd - control a Dune HD media player
 app-misc/homeassistant:dwd_weather_warnings - dwd_weather_warnings sensor platform uses DWD for warnings
