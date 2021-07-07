@@ -4,9 +4,9 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.11.0 1.12.0 1.14.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.0 0.9.1 0.9.3 0.9.3-r1 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.3.4-r1 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4 2021.6.5 2021.6.6 2021.6.6-r1 2021.7.0_beta1 2021.7.0_beta2 2021.7.0_beta4: Open-source home automation platform running on Python 3.9
-app-misc/homeassistant-full 2021.3.4-r1 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4 2021.6.5 2021.6.6 2021.6.6-r1 2021.7.0_beta1 2021.7.0_beta2 2021.7.0_beta4 9999: Open-source home automation platform running on Python 3.9
-app-misc/homeassistant-min 2021.3.4-r1 2021.3.4-r2 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4-r1 2021.6.5 2021.6.5-r1 2021.6.6 2021.6.6-r1 2021.7.0_beta1 2021.7.0_beta2 2021.7.0_beta2-r1 2021.7.0_beta4: Open-source home automation platform running on Python 3.9
+app-misc/homeassistant 2021.3.4-r1 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4 2021.6.5 2021.6.6-r1 2021.7.0_beta2 2021.7.0_beta4 2021.7.0_beta5: Open-source home automation platform running on Python 3.9
+app-misc/homeassistant-full 2021.3.4-r1 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4 2021.6.5 2021.6.6-r1 2021.7.0_beta2 2021.7.0_beta4 2021.7.0_beta5 9999: Open-source home automation platform running on Python 3.9
+app-misc/homeassistant-min 2021.3.4-r1 2021.3.4-r2 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4-r1 2021.6.5-r1 2021.6.6-r1 2021.7.0_beta2-r1 2021.7.0_beta4 2021.7.0_beta5: Open-source home automation platform running on Python 3.9
 dev-embedded/esphome 1.16.1 1.16.2 1.17.2 1.19.1 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20210617.1: ESPHome dashboard
 dev-embedded/esptool 2.8 3.0 3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -395,7 +395,7 @@ dev-python/hkdf 0.0.3: HMAC-based Extract-and-Expand Key Derivation Function (HK
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.5.0 0.5.1: Python API for interacting with *hole.
 dev-python/holidays 0.10.5.2-r1 0.11.1: Generate and work with holidays in Python
-dev-python/home-assistant-frontend 20210302.3 20210302.4 20210302.5 20210302.6 20210402.1 20210407.1 20210407.2 20210504.0 20210603.0 20210630.0 20210706.0: The Home Assistant frontend
+dev-python/home-assistant-frontend 20210302.6 20210407.3 20210504.0 20210603.0 20210630.0 20210706.0 20210707.0: The Home Assistant frontend
 dev-python/homeassistant-pyozw 0.1.10: python_openzwave is a python wrapper for the openzwave c++ library.
 dev-python/homeconnect 0.5 0.6.3: Python client for the BSH Home Connect REST API
 dev-python/homekit-python 0.15.0: HomeKit Python
@@ -730,7 +730,7 @@ dev-python/pymediaroom 0.6.4 0.6.4.1: Remote control your Mediaroom Set-up-box
 dev-python/pymelcloud 2.5.2 2.5.3: Python MELCloud interface
 dev-python/pymetar 1.1-r1: PyMETAR is a python module and command line tool designed to fetch Metar reports from the NOAA
 dev-python/pymeteoclimatic 0.0.6: A Python wrapper around the Meteoclimatic service
-dev-python/pymfy 0.9.3: A Somfy Open API library
+dev-python/pymfy 0.9.3 0.11.0: A Somfy Open API library
 dev-python/pymitv 1.4.3: A Python 3 based Xiaomi TV remote
 dev-python/pymochad 0.2.0: A python library for interacting with moch
 dev-python/pymodbus 1.5.2 2.1.0 2.3.0 2.5.1 2.5.2: A fully featured modbus protocol stack in python
@@ -953,7 +953,7 @@ dev-python/sharp_aquos_rc 0.3.2 0.4: Control Sharp Aquos SmartTVs through the IP
 dev-python/shodan 1.25.0: Python library and command-line utility for Shodan (https://developer.shodan.io)
 dev-python/simplehound 0.3: Unofficial python API for Sighthound
 dev-python/simplepush 1.1.4: Simplepush python library
-dev-python/simplisafe-python 9.6.9 9.6.10 10.0.0: A Python3, async interface to the SimpliSafe API
+dev-python/simplisafe-python 9.6.9 9.6.10 10.0.0 11.0.0: A Python3, async interface to the SimpliSafe API
 dev-python/sisyphus-control 2.2.1-r1 3.0: Control your Sisyphus kinetic art tables (sisyphus-industries.com)
 dev-python/skybellpy 0.6.3: An Skybell HD Python library running on Python 3.
 dev-python/slackclient 2.5.0: Slack API clients for Web API and RTM API
@@ -1102,7 +1102,7 @@ dev-python/youtube_dl 2021.1.24.1 2021.3.14 2021.4.17 2021.4.26: YouTube video d
 dev-python/zeep 3.4.0-r1 4.0.0: A modern/fast Python SOAP client based on lxml / requests
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs
 dev-python/zeroconf 0.31.0 0.32.1: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
-dev-python/zha-quirks 0.0.53 0.0.54 0.0.55 0.0.56 0.0.57 0.0.58: Library implementing Zigpy quirks for ZHA in Home Assistant
+dev-python/zha-quirks 0.0.54 0.0.56 0.0.57 0.0.58 0.0.59: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
 dev-python/zigpy 0.30.0 0.30.1 0.31.0 0.32.0 0.33.0 0.34.0 0.35.0 0.35.1: Library implementing a ZigBee stack
