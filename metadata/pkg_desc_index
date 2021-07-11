@@ -40,7 +40,7 @@ dev-python/PsychroLib 2.3.0 2.5.0: Library of psychrometric functions to calcula
 dev-python/PyDispatcher 2.0.5: Multi-producer-multi-consumer signal dispatching mechanism
 dev-python/PyEssent 0.10 0.12 0.13 0.14: A wrapper around Essent's API
 dev-python/PyFlick 0.0.2: Python API For Flick Electric in New Zealand
-dev-python/PyFlume 0.4.0 0.5.5: Package to integrate with Flume Sensor
+dev-python/PyFlume 0.5.5: Package to integrate with Flume Sensor
 dev-python/PyFronius 0.4.6 0.5.2: Automated JSON API based communication with Fronius Symo
 dev-python/PyGithub 1.43.5 1.43.8 1.53: Use the full Github API v3
 dev-python/PyISY 1.1.2: Python module to talk to ISY994 from UDI.
@@ -297,10 +297,10 @@ dev-python/eliqonline 1.2.2: Eliq Online API Library
 dev-python/elkm1-lib 0.8.4 0.8.5 0.8.7 0.8.8 0.8.10: Library for interacting with ElkM1 alarm/automation panel.
 dev-python/emoji 0.5.4 1.2.0: Emoji for Python
 dev-python/emulated-roku 0.2.1: Library to emulate a roku server to serve as a proxyfor remotes such as Harmony
-dev-python/enocean 0.50.0 0.50.1: EnOcean serial protocol implementation
+dev-python/enocean 0.50.1: EnOcean serial protocol implementation
 dev-python/enturclient 0.2.1 0.2.2: An API client for public transport data from Entur.
 dev-python/enum-compat 0.0.3: enum/enum34 compatibility package
-dev-python/env-canada 0.1.0 0.2.0-r1 0.2.2 0.2.4 0.2.5 0.3.1: A package to access meteorological data from Environment Canada
+dev-python/env-canada 0.2.5: A package to access meteorological data from Environment Canada
 dev-python/envirophat 0.0.6 1.0.1: Enviro pHAT environmental sensor board driver
 dev-python/envoy-reader 0.18.3 0.18.4 0.19.0: A program to read from an Enphase Envoy on the local network
 dev-python/envs 1.2.6 1.3: Easy access env variables with strings, booleans, list, tuples, and dicts.
@@ -325,12 +325,12 @@ dev-python/flake8-docstrings 1.3.0 1.6.0: Extension for flake8 which uses pydocs
 dev-python/flatten-json 0.1.7: Flatten JSON objects
 dev-python/flux-led 0.22: A Python library to communicate with the flux_led smart bulbs
 dev-python/fnvhash 0.1.0: Pure Python FNV hash implementation
-dev-python/foobot_async 0.3.1 0.3.2 1.0.0: API Client for Foobot Air Quality Monitoring devices.
+dev-python/foobot_async 1.0.0: API Client for Foobot Air Quality Monitoring devices.
 dev-python/forecast-solar 1.3.1: Asynchronous Python client for getting forecast solar information
 dev-python/fortiosapi 0.10.8 1.0.1 1.0.5: Python modules to use Fortigate APIs
 dev-python/freebox-api 0.0.9 0.0.10: Provides asynchronous authentication and access to Freebox servers
 dev-python/freesms 0.1.2 0.2.0: Send SMS with Free Mobile
-dev-python/fritzconnection 1.2.0 1.3.0 1.3.4 1.4.0 1.4.2: Communicate with the AVM FRITZ!Box
+dev-python/fritzconnection 1.4.0 1.4.2: Communicate with the AVM FRITZ!Box
 dev-python/fritzprofiles 0.6.1: A tool to switch the online time of profiles in the AVM Fritz!Box
 dev-python/future 0.17.1-r1: Easy, clean, reliable Python 2/3 compatibility
 dev-python/gTTS 2.2.3: gTTS (Google Text-to-Speech), a Python library and CLI tool to interface with Google Translate text-to-speech API
@@ -822,7 +822,7 @@ dev-python/python-clementine-remote 1.0.1 1.0.3: Python library and CLI for the 
 dev-python/python-dateutil 2.8.0 2.8.0-r1: Extensions to the standard Python datetime module
 dev-python/python-didl-lite 1.2.3 1.2.4 1.2.6: DIDL-Lite (Digital Item Declaration Language) tools for Python
 dev-python/python-digitalocean 1.13.2: digitalocean.com API to manage Droplets and Images
-dev-python/python-ecobee-api 0.2.5 0.2.7 0.2.8 0.2.10 0.2.11: Python API for talking to Ecobee thermostats
+dev-python/python-ecobee-api 0.2.10 0.2.11: Python API for talking to Ecobee thermostats
 dev-python/python-eq3bt 0.1.11: EQ3 bluetooth thermostat support library
 dev-python/python-etherscan-api 0.0.3: Python API for interacting with etherscan.io.
 dev-python/python-family-hub-local 0.0.2: Python API for accessing information from Samsung FamilyHub fridges locally.
