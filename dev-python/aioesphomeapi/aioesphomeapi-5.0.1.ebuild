@@ -7,24 +7,25 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python library for connecting to nexia"
-HOMEPAGE="https://github.com/bdraco/nexia https://pypi.org/project/nexia/"
+DESCRIPTION="Python API for interacting with ESPHome devices."
+HOMEPAGE="https://github.com/esphome/aioesphomeapi https://esphome.io/ https://pypi.org/project/aioesphomeapi/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 arm arm64 x86 amd64-linux x86-linux"
 IUSE="test"
 
 DOCS="README.rst"
 
-RDEPEND=""
+RDEPEND=">=dev-python/protobuf-python-3.12.2[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.32.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pytest-runner[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pylint[${PYTHON_USEDEP}]
 	)"
 
 python_test() {
