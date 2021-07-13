@@ -4,9 +4,9 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.11.0 1.12.0 1.14.0 1.15.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.0 0.9.1 0.9.3 0.9.3-r1 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.3.4-r1 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4 2021.6.5 2021.6.6-r1 2021.7.0_beta5 2021.7.0 2021.7.1: Open-source home automation platform running on Python 3.9
-app-misc/homeassistant-full 2021.3.4-r1 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4 2021.6.5 2021.6.6-r1 2021.7.0_beta5 2021.7.0 2021.7.1 9999: Open-source home automation platform running on Python 3.9
-app-misc/homeassistant-min 2021.3.4-r1 2021.3.4-r2 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4-r1 2021.6.5-r1 2021.6.6-r1 2021.7.0_beta5 2021.7.0 2021.7.1: Open-source home automation platform running on Python 3.9
+app-misc/homeassistant 2021.3.4-r1 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4 2021.6.5 2021.6.6-r1 2021.7.0_beta5 2021.7.0 2021.7.1 2021.7.2: Open-source home automation platform running on Python 3.9
+app-misc/homeassistant-full 2021.3.4-r1 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4 2021.6.5 2021.6.6-r1 2021.7.0_beta5 2021.7.0 2021.7.1 2021.7.2 9999: Open-source home automation platform running on Python 3.9
+app-misc/homeassistant-min 2021.3.4-r1 2021.3.4-r2 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4-r1 2021.6.5-r1 2021.6.6-r1 2021.7.0_beta5 2021.7.0 2021.7.1 2021.7.2: Open-source home automation platform running on Python 3.9
 dev-embedded/esphome 1.16.1 1.16.2 1.17.2 1.19.1 1.19.4 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20210617.1 20210623.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.0 3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -107,13 +107,13 @@ dev-python/aiocoap 0.4_beta3: The Python CoAP library
 dev-python/aiodiscover 1.3.4 1.4.0 1.4.2: Discover hosts by arp and ptr lookup
 dev-python/aioeafm 0.1.2: An asyncio wrapper for the UK Environment Agency Flood Monitoring API
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 2.6.5 2.6.6 2.8.0 4.0.1 5.0.0: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 2.6.5 2.6.6 2.8.0 4.0.1 5.0.0 5.0.1: Python API for interacting with ESPHome devices.
 dev-python/aioflo 0.4.0 0.4.1: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aiofreepybox 0.0.8: Provides asynchronous authentication and access to Freebox servers
 dev-python/aioftp 0.10.1 0.12.0 0.18.0: ftp client/server for asyncio
 dev-python/aioguardian 1.0.4: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aioharmony 0.2.7: Asyncio Python library for connecting to and controlling the Logitech Harmony
-dev-python/aiohomekit 0.2.60 0.2.61 0.2.67 0.4.0 0.4.2: An asyncio HomeKit client
+dev-python/aiohomekit 0.2.60 0.2.61 0.2.67 0.4.2 0.5.1: An asyncio HomeKit client
 dev-python/aiohttp 3.6.1 3.7.3 3.7.4_p0: http client/server for asyncio
 dev-python/aiohue 2.1.0 2.3.1 2.5.0 2.5.1: Python module to talk to Philips Hue.
 dev-python/aioimaplib 0.7.15 0.9.0: Python asyncio IMAP4rev1 client library
@@ -158,7 +158,7 @@ dev-python/apns2 0.3.0: Interacting with the Apple Push Notification Service via
 dev-python/apprise 0.8.8 0.8.9 0.9.3: Push Notifications that work with just about every platform!
 dev-python/aprslib 0.6.46: Module for accessing APRS-IS and parsing APRS packets
 dev-python/aqualogic 1.0 2.6: Library for interfacing with a Hayward/Goldline AquaLogic/ProLogic pool controller.
-dev-python/arcam-fmj 0.5.3: A python library for speaking to Arcam receivers
+dev-python/arcam-fmj 0.5.3 0.7.0: A python library for speaking to Arcam receivers
 dev-python/aresponses 1.1.1 2.0.0: Asyncio testing server. Similar to the responses library used for 'requests'
 dev-python/arris-tg2492lg 1.1.0: Python client for the Arris TG2492LG
 dev-python/asmog 0.0.6: Python API for Ampio Smog Sensors
@@ -509,7 +509,7 @@ dev-python/netdisco 2.8.2 2.8.3 2.9.0: Discover devices on your local network
 dev-python/netmap 0.7.0.2: This is a python class to use nmap and access scan results from python3
 dev-python/nettigo-air-monitor 0.2.6 1.0.0: Python wrapper for getting air quality data from Nettigo Air Monitor devices.
 dev-python/neurio 0.3.1: Neurio energy sensor and appliance automation API library
-dev-python/nexia 0.9.5 0.9.6 0.9.7: Python library for connecting to nexia
+dev-python/nexia 0.9.5 0.9.6 0.9.7 0.9.9: Python library for connecting to nexia
 dev-python/nextcloudmonitor 1.1.0: Python wrapper around nextcloud monitor api
 dev-python/niko-home-control 0.2.1 0.2.2: SDK for Niko Home Control
 dev-python/niluclient 0.1.2: An API client for getting pollution data from NILU sensor stations in Norway.
@@ -655,7 +655,7 @@ dev-python/pycsspeechtts 1.0.3 1.0.4: Python 3 interface to Microsoft Cognitive 
 dev-python/pydaikin 2.4.1 2.4.2 2.4.3 2.4.4: Python Daikin HVAC appliances interface
 dev-python/pydanfossair 0.1.0: Python interface for Danfoss Air HRV systems
 dev-python/pydantic 1.6.1: Data validation and settings management using python 3.6 type hinting
-dev-python/pydeconz 77 78 79 80: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
+dev-python/pydeconz 77 78 79 80 81: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
 dev-python/pydelijn 0.6.1: Get realtime info on stop passages of De Lijn (api.delijn.be)
 dev-python/pydexcom 0.2.0: Python API to interact with Dexcom Share API
 dev-python/pydocstyle 5.1.0 5.1.1: Python docstring style checker
@@ -671,7 +671,7 @@ dev-python/pyephember 0.3.1: Python library to work with ember from EPH Controls
 dev-python/pyeverlights 0.1.0: A library for controlling an EverLights lighting system.
 dev-python/pyfgt 0.5.1: Base components of the Fortinet FortiGate REST interface with abstractions
 dev-python/pyfido 2.1.1: Get your Fido consumption (wwww.fido.ca)
-dev-python/pyfireservicerota 0.0.40: Python 3 API wrapper for FireServiceRota/BrandweerRooster
+dev-python/pyfireservicerota 0.0.40 0.0.42: Python 3 API wrapper for FireServiceRota/BrandweerRooster
 dev-python/pyflexit 0.3: Flexit CI66 helper library
 dev-python/pyflic 2.0.3: Python library to connect to and interact with Flic buttons.
 dev-python/pyflic-homeassistant 0.4: Python library to connect to and interact with Flic buttons.
@@ -685,14 +685,14 @@ dev-python/pyfunctional 1.4.1 1.4.3: Package for creating data pipelines with ch
 dev-python/pygatt 4.0.5: Python Bluetooth LE (Low Energy) and GATT Library
 dev-python/pygtfs 0.1.5 0.1.6: Models GTFS data in a database.
 dev-python/pygti 0.6.0 0.9.2: access public transport information in hamburg, germany.
-dev-python/pyhaversion 3.4.2 21.3.0 21.5.0: Get the latest Home Assistant version from various sources.
+dev-python/pyhaversion 3.4.2 21.3.0 21.5.0 21.7.0: Get the latest Home Assistant version from various sources.
 dev-python/pyheos 0.7.2: An async python library for controlling HEOS devices through the HEOS CLI Protocol
 dev-python/pyhiveapi 0.3.4.4 0.3.9 0.4.1 0.4.2: A Python library to interface with the Hive API
 dev-python/pyhomematic 0.1.71 0.1.72 0.1.73: Homematic interface
 dev-python/pyhomeworks 0.0.6: Lutron Homeworks Series 4 and 8 interface over Ethernet
 dev-python/pyialarm 0.3 1.5 1.7 1.8.1 1.9.0: A simple library to interface with iAlarm systems, built for use with Home-Assistant
 dev-python/pyicloud 0.9.5 0.9.6 0.9.6.1 0.9.7 0.10.2: PyiCloud is a module which allows pythonistas to interact with iCloud webservices.
-dev-python/pyinsteon 1.0.9: Python API for controlling Insteon devices
+dev-python/pyinsteon 1.0.9 1.0.11: Python API for controlling Insteon devices
 dev-python/pyintesishome 1.7.5 1.7.6: A python3 library for running asynchronus communications with IntesisHome Smart AC Controllers
 dev-python/pyipma 2.0.5: Library to retrieve information from Instituto Portuguges do Mar e Atmosfera.
 dev-python/pyipp 0.10.1 0.11.0: Asynchronous Python client for Internet Printing Protocol (IPP).
@@ -725,7 +725,7 @@ dev-python/pylutron 0.2.7 0.2.8: Python library for Lutron RadioRA 2
 dev-python/pylutron-caseta 0.9.0 0.10.0: Provides an API to the Lutron Smartbridge
 dev-python/pymailgunner 1.4: A simple mailgun client - pymailgun fork with Python 3 support
 dev-python/pymata-express 1.17 1.19: A Python Protocol Abstraction Library For Arduino Firmata using Python asyncio
-dev-python/pymazda 0.0.8 0.0.9 0.1.6: An API client for interacting with the MyMazda (Mazda Connected Services) API
+dev-python/pymazda 0.0.8 0.0.9 0.1.6 0.2.0: An API client for interacting with the MyMazda (Mazda Connected Services) API
 dev-python/pymediaroom 0.6.4 0.6.4.1: Remote control your Mediaroom Set-up-box
 dev-python/pymelcloud 2.5.2 2.5.3: Python MELCloud interface
 dev-python/pymetar 1.1-r1: PyMETAR is a python module and command line tool designed to fetch Metar reports from the NOAA
@@ -796,7 +796,7 @@ dev-python/pysmarty 0.8: Python API for Salda Smarty Modbus TCP
 dev-python/pysml 0.0.2 0.0.3 0.0.5: Library for EDL21 smart meters using Smart Message Language (SML)
 dev-python/pysnmp 4.4.12-r1: SNMP library for Python
 dev-python/pysoma 0.0.10: A simple package for controlling SOMA devices
-dev-python/pysonos 0.0.40 0.0.44 0.0.45 0.0.49 0.0.51: A SoCo fork with fixes for Home Assistant.
+dev-python/pysonos 0.0.40 0.0.45 0.0.49 0.0.51 0.0.52: A SoCo fork with fixes for Home Assistant.
 dev-python/pyspcwebgw 0.4.0: A Python library for communicating with SPC Web Gateway.
 dev-python/pysqueezebox 0.2.4 0.3.1 0.5.1 0.5.4 0.5.5: Asynchronous library to control Logitech Media Server
 dev-python/pystiebeleltron 0.0.1: Python API for interacting with the Stiebel Eltron ISG web gateway via Modbus.
@@ -1105,7 +1105,7 @@ dev-python/zeroconf 0.31.0 0.32.1: Pure Python Multicast DNS Service Discovery L
 dev-python/zha-quirks 0.0.54 0.0.56 0.0.57 0.0.58 0.0.59: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
-dev-python/zigpy 0.30.0 0.30.1 0.31.0 0.32.0 0.33.0 0.34.0 0.35.0 0.35.1: Library implementing a ZigBee stack
+dev-python/zigpy 0.33.0 0.34.0 0.35.0 0.35.1 0.35.2: Library implementing a ZigBee stack
 dev-python/zigpy-cc 0.3.0 0.3.1 0.4.2 0.4.4 0.5.1 0.5.2: A library which communicates with Texas Instruments CC2531 radios for zigpy
 dev-python/zigpy-deconz 0.9.2-r1 0.10.0 0.11.0 0.11.1 0.12.0: A library which communicates with Deconz radios for zigpy
 dev-python/zigpy-homeassistant 0.14.0 0.15.0 0.16.0 0.18.0 0.18.1 0.18.2 0.19.0: Library implementing a ZigBee stack
@@ -1113,7 +1113,7 @@ dev-python/zigpy-xbee 0.12.1 0.13.0: A library which communicates with XBee radi
 dev-python/zigpy-zigate 0.6.2 0.7.0 0.7.1 0.7.2 0.7.3: A library which communicates with ZiGate radios for zigpy
 dev-python/zigpy-znp 0.4.0 0.5.1: A library for zigpy which communicates with TI ZNP radios
 dev-python/zm-py 0.5.2: A loose python wrapper around the ZoneMinder REST API.
-dev-python/zwave-js-server-python 0.21.1 0.23.1 0.24.0 0.26.1 0.27.0: Python wrapper for zwave-js-server
+dev-python/zwave-js-server-python 0.21.1 0.23.1 0.24.0 0.26.1 0.27.0 0.27.1: Python wrapper for zwave-js-server
 dev-vcs/pre-commit 2.9.2 2.9.3 2.10.0 2.10.1 2.11.1: A framework for managing and maintaining multi-language pre-commit hooks.
 media-libs/mutagen 1.43.0 1.45.0 1.45.1: Audio metadata tag reader and writer implemented in pure Python
 media-libs/opencv 3.4.1-r7: A collection of algorithms and sample code for various computer vision problems
