@@ -1027,7 +1027,7 @@ dev-python/tmb 0.0.4: Library that interacts with TMB API
 dev-python/todoist-python 8.0.0 8.0.2: todoist-python - The official Todoist Python API library
 dev-python/tokenize-rt 4.1.0: A wrapper around the stdlib tokenize which roundtrips.
 dev-python/toonapi 0.1.0 0.2.0: Asynchronous Python client for the Quby ToonAPI.
-dev-python/total-connect-client 0.53 0.54.1 0.55 0.55.1 0.57: Interact with Total Connect 2 alarm systems
+dev-python/total-connect-client 0.57: Interact with Total Connect 2 alarm systems
 dev-python/tox-travis 0.11: Seamless integration of Tox into Travis CI
 dev-python/tp-connected 0.0.4: TP-Link LTE modem API
 dev-python/tqdm 4.49.0: Add a progress meter to your loops in a second
