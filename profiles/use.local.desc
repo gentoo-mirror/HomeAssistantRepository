@@ -615,7 +615,6 @@ app-misc/homeassistant-full:lightwave - WiFi link for controlling Lightwave ligh
 app-misc/homeassistant-full:limitlessled - control your LimitlessLED lights from within Home Assistant
 app-misc/homeassistant-full:linode - allows you to access the information about your Linode systems
 app-misc/homeassistant-full:linux_battery - sensor platform is using the information stored in /sys/class/power_supply/
-app-misc/homeassistant-full:lirc - Python bindings for LIRC
 app-misc/homeassistant-full:litejet - allows a computer to control the system via LiteJet’s third party protocol
 app-misc/homeassistant-full:litterrobot - Wi-Fi-enabled, automatic, self-cleaning litter box for cats
 app-misc/homeassistant-full:logi_circle - integrate your Logi Circle cameras in Home Assistant
