@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Library to interact with the flaps & doors from Sure Petcare."
-HOMEPAGE="https://github.com/benleb/surepy https://pypi.org/project/surepy/"
+DESCRIPTION="A Python3, async interface to the SimpliSafe API"
+HOMEPAGE="https://github.com/bachya/simplisafe-python https://pypi.org/project/simplisafe-python/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,15 +18,19 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/async_timeout-3.0.1[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-3.6.3[${PYTHON_USEDEP}]
-	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
+	>=dev-python/backoff-1.11.1[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.11.7[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/setuptools_scm[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
+		dev-python/aioresponses[${PYTHON_USEDEP}]
+		dev-python/asynctest[${PYTHON_USEDEP}]
+		dev-python/pytest-cov[${PYTHON_USEDEP}]
 	)"
 
 python_test() {

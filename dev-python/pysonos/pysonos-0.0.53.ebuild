@@ -7,26 +7,26 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Library to interact with the flaps & doors from Sure Petcare."
-HOMEPAGE="https://github.com/benleb/surepy https://pypi.org/project/surepy/"
+DESCRIPTION="A SoCo fork with fixes for Home Assistant."
+HOMEPAGE="https://github.com/amelchio/pysonos https://pypi.org/project/pysonos/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 arm arm64 x86 amd64-linux x86-linux"
 IUSE="test"
 
-DOCS=""
+DOCS="README.rst"
 
-RDEPEND=">=dev-python/async_timeout-3.0.1[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-3.6.3[${PYTHON_USEDEP}]
-	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/ifaddr[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/xmltodict[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/setuptools_scm[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/requests-mock[${PYTHON_USEDEP}]
 	)"
 
 python_test() {
