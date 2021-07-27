@@ -4,9 +4,9 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.11.0 1.12.0 1.14.0 1.15.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.0 0.9.1 0.9.3 0.9.3-r1 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.3.4-r1 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4 2021.6.5 2021.6.6-r1 2021.7.0_beta5 2021.7.0 2021.7.1 2021.7.2 2021.7.3: Open-source home automation platform running on Python 3.9
-app-misc/homeassistant-full 2021.3.4-r1 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4 2021.6.5 2021.6.6-r1 2021.7.0_beta5 2021.7.0 2021.7.1 2021.7.2 2021.7.3 9999: Open-source home automation platform running on Python 3.9
-app-misc/homeassistant-min 2021.3.4-r1 2021.3.4-r2 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4-r1 2021.6.5-r1 2021.6.6-r1 2021.7.0_beta5 2021.7.0 2021.7.1 2021.7.2 2021.7.3: Open-source home automation platform running on Python 3.9
+app-misc/homeassistant 2021.3.4-r1 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4 2021.6.5 2021.6.6-r1 2021.7.0_beta5 2021.7.0 2021.7.1 2021.7.2 2021.7.3 2021.7.4: Open-source home automation platform running on Python 3.9
+app-misc/homeassistant-full 2021.3.4-r1 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4 2021.6.5 2021.6.6-r1 2021.7.0_beta5 2021.7.0 2021.7.1 2021.7.2 2021.7.3 2021.7.4 9999: Open-source home automation platform running on Python 3.9
+app-misc/homeassistant-min 2021.3.4-r1 2021.3.4-r2 2021.4.6 2021.5.4 2021.6.1 2021.6.2 2021.6.3 2021.6.4-r1 2021.6.5-r1 2021.6.6-r1 2021.7.0_beta5 2021.7.0 2021.7.1 2021.7.2 2021.7.3 2021.7.4: Open-source home automation platform running on Python 3.9
 dev-embedded/esphome 1.16.1 1.16.2 1.17.2 1.19.1 1.19.4 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20210617.1 20210623.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.0 3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -167,7 +167,7 @@ dev-python/asterisk_mbox 0.5.0: The client side of a client/server to interact w
 dev-python/astral 1.6.1 1.7.1 1.8 1.9.2 1.10.1 2.2: Calculations for the position of the sun and moon.
 dev-python/astroid 2.3.3 2.5.5: Abstract Syntax Tree for logilab packages
 dev-python/async-dns 1.1.10: Asynchronous DNS client and server
-dev-python/async-upnp-client 0.14.13 0.16.0 0.16.2 0.18.0 0.19.0: Async UPnP Client
+dev-python/async-upnp-client 0.14.13 0.16.0 0.16.2 0.18.0 0.19.0 0.19.1: Async UPnP Client
 dev-python/asyncio-dgram 1.0.1 1.2.0: Higher level Datagram support for Asyncio
 dev-python/asyncio-mqtt 0.8.0 0.8.1 0.9.1: Idomatic asyncio wrapper around paho-mqtt.
 dev-python/asyncmock 0.4.2: Extension to the standard mock framework to support support async
@@ -185,7 +185,7 @@ dev-python/avion 0.10: Python API for controlling Avi-on Bluetooth dimmers
 dev-python/avri-api 0.1.7: Unofficial wrapper around Avri endpoints
 dev-python/awesomeversion 21.2.0 21.2.1 21.2.2 21.2.3 21.4.0: One version package to rule them all, One version package to find them, One version package to bring them all, and in the darkness bind them.
 dev-python/axis 40 41 42 43 44: A Python library for communicating with devices from Axis Communications
-dev-python/backoff 1.10.0: Function decoration for backoff and retry
+dev-python/backoff 1.10.0 1.11.1: Function decoration for backoff and retry
 dev-python/baidu-aip 1.6.6.0: Baidu AIP SDK
 dev-python/bandit 1.7.0: A security linter from OpenStack Security
 dev-python/base36 0.1.1: Yet another implementation for the positional numeral system using 36 as the radix.
@@ -314,6 +314,7 @@ dev-python/faadelays 0.0.6 0.0.7: A package to retrieve FAA airport status
 dev-python/face_recognition 1.2.3: Recognize faces from Python or from the command line
 dev-python/face_recognition_models 0.3.0: Models used by the face_recognition package.
 dev-python/fastdotcom 0.0.3: Python API for testing internet speed on Fast.com
+dev-python/feedparser 6.0.2: Universal feed parser, handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom 0.3, and Atom 1.0 feeds
 dev-python/feedparser-homeassistant 5.2.2: Universal feed parser, handles RSS, CDF and Atom feeds
 dev-python/fiblary3 0.1.7: Home Center 2 API Python Library
 dev-python/fints 1.0.1 2.2.0: Pure-python FinTS 3.0 (formerly known as HBCI) implementation
@@ -498,7 +499,7 @@ dev-python/multidict 4.5.2: multidict implementation
 dev-python/mutesync 0.0.1 0.0.2: Asynchronous library to control mutesync devices.
 dev-python/mychevy 1.2.0 2.0.1 2.1.1: Python interface to My Chevy online data
 dev-python/mycroftapi 2.0: a library to communicate with Mycroft API
-dev-python/mypy 0.782 0.790: Optional static typing for Python
+dev-python/mypy 0.790 0.902: Optional static typing for Python
 dev-python/n26 0.2.7 2.2.0: API and command line tools to interact with the https://n26.com/ API
 dev-python/nad-receiver 0.0.12 0.1.0 0.2.0: Library to interface with NAD receivers through RS232, TCP and telnet
 dev-python/nclib 0.8.3: Netcat as a library: convienent socket interfaces
@@ -510,7 +511,7 @@ dev-python/netdisco 2.8.2 2.8.3 2.9.0: Discover devices on your local network
 dev-python/netmap 0.7.0.2: This is a python class to use nmap and access scan results from python3
 dev-python/nettigo-air-monitor 0.2.6 1.0.0: Python wrapper for getting air quality data from Nettigo Air Monitor devices.
 dev-python/neurio 0.3.1: Neurio energy sensor and appliance automation API library
-dev-python/nexia 0.9.5 0.9.6 0.9.7 0.9.9: Python library for connecting to nexia
+dev-python/nexia 0.9.5 0.9.6 0.9.7 0.9.9 0.9.10: Python library for connecting to nexia
 dev-python/nextcloudmonitor 1.1.0: Python wrapper around nextcloud monitor api
 dev-python/niko-home-control 0.2.1 0.2.2: SDK for Niko Home Control
 dev-python/niluclient 0.1.2: An API client for getting pollution data from NILU sensor stations in Norway.
@@ -656,7 +657,7 @@ dev-python/pycsspeechtts 1.0.4: Python 3 interface to Microsoft Cognitive Servic
 dev-python/pydaikin 2.4.1 2.4.2 2.4.3 2.4.4: Python Daikin HVAC appliances interface
 dev-python/pydanfossair 0.1.0: Python interface for Danfoss Air HRV systems
 dev-python/pydantic 1.8.2: Data validation and settings management using python 3.6 type hinting
-dev-python/pydeconz 77 78 79 80 81: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
+dev-python/pydeconz 77 78 79 80 81 82: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
 dev-python/pydelijn 0.6.1: Get realtime info on stop passages of De Lijn (api.delijn.be)
 dev-python/pydexcom 0.2.0: Python API to interact with Dexcom Share API
 dev-python/pydocstyle 5.1.0 5.1.1: Python docstring style checker
@@ -797,7 +798,7 @@ dev-python/pysmarty 0.8: Python API for Salda Smarty Modbus TCP
 dev-python/pysml 0.0.2 0.0.3 0.0.5: Library for EDL21 smart meters using Smart Message Language (SML)
 dev-python/pysnmp 4.4.12-r1: SNMP library for Python
 dev-python/pysoma 0.0.10: A simple package for controlling SOMA devices
-dev-python/pysonos 0.0.40 0.0.45 0.0.49 0.0.51 0.0.52: A SoCo fork with fixes for Home Assistant.
+dev-python/pysonos 0.0.40 0.0.45 0.0.49 0.0.51 0.0.52 0.0.53: A SoCo fork with fixes for Home Assistant.
 dev-python/pyspcwebgw 0.4.0: A Python library for communicating with SPC Web Gateway.
 dev-python/pysqueezebox 0.5.5: Asynchronous library to control Logitech Media Server
 dev-python/pystiebeleltron 0.0.1: Python API for interacting with the Stiebel Eltron ISG web gateway via Modbus.
@@ -813,7 +814,7 @@ dev-python/pytest-test-groups 1.0.3: A Pytest plugin for running a subset of you
 dev-python/pytest-timeout 1.3.3 1.3.3-r1 1.4.2: py.test plugin to abort hanging tests
 dev-python/pytest-tornasync 0.6.0: py.test plugin for testing Python 3.5+ Tornado code
 dev-python/pytest-trio 0.6.0: Pytest plugin for trio
-dev-python/pytest-xdist 2.1.0: Distributed testing and loop-on-failing modes
+dev-python/pytest-xdist 2.1.0 2.2.1: Distributed testing and loop-on-failing modes
 dev-python/pytfiac 0.4: API for Tfiac AC
 dev-python/pythinkingcleaner 0.0.3: Library to control ThinkingCleaner devices
 dev-python/python-awair 0.2.1 0.2.2: asyncio client for the Awair GraphQL API
@@ -952,7 +953,7 @@ dev-python/sharp_aquos_rc 0.3.2: Control Sharp Aquos SmartTVs through the IP int
 dev-python/shodan 1.25.0: Python library and command-line utility for Shodan (https://developer.shodan.io)
 dev-python/simplehound 0.3: Unofficial python API for Sighthound
 dev-python/simplepush 1.1.4: Simplepush python library
-dev-python/simplisafe-python 9.6.9 9.6.10 10.0.0 11.0.0 11.0.1: A Python3, async interface to the SimpliSafe API
+dev-python/simplisafe-python 9.6.9 9.6.10 10.0.0 11.0.0 11.0.1 11.0.2: A Python3, async interface to the SimpliSafe API
 dev-python/sisyphus-control 2.2.1-r1 3.0: Control your Sisyphus kinetic art tables (sisyphus-industries.com)
 dev-python/skybellpy 0.6.3: An Skybell HD Python library running on Python 3.
 dev-python/slackclient 2.5.0: Slack API clients for Web API and RTM API
@@ -1000,7 +1001,7 @@ dev-python/stringcase 1.2.0: String case converter.
 dev-python/subarulink 0.3.12: A package for interacting with Subaru Starlink Remote Services API.
 dev-python/sucks 0.9.4: a library for controlling certain robot vacuums
 dev-python/sunwatcher 0.2.1: Binding to SolarLog HTTP API
-dev-python/surepy 0.2.3 0.2.5 0.2.6 0.4.0 0.6.0: Library to interact with the flaps & doors from Sure Petcare.
+dev-python/surepy 0.4.0 0.6.0 0.7.0: Library to interact with the flaps & doors from Sure Petcare.
 dev-python/swisshydrodata 0.0.3 0.1.0: A library to fetch data from the Swiss federal Office for Environment FEON
 dev-python/synology-srm 0.2.0: Synology SRM API
 dev-python/synologydsm-api 1.0.1 1.0.2: Python API for communication with Synology DSM
