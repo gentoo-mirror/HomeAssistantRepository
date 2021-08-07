@@ -1,16 +1,16 @@
-BDEPEND=python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?] >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?]
+BDEPEND=python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-python/setuptools[python_targets_python3_8(-)?] test? ( dev-python/nose[python_targets_python3_8(-)?] dev-python/pytest[python_targets_python3_8(-)?] )
+DEPEND=dev-python/setuptools[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] test? ( dev-python/nose[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pytest[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] )
 DESCRIPTION=Python API and command line tool for talking to the Nest Thermostat
 EAPI=7
 HOMEPAGE=https://github.com/jkoelker/python-nest/ https://pypi.org/project/python-nest/
 INHERIT=distutils-r1
-IUSE=test python_targets_python3_8
+IUSE=test python_targets_python3_8 python_targets_python3_9 python_targets_python3_10
 KEYWORDS=~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux
 LICENSE=CC-BY-NC-SA-3.0
-RDEPEND=>=dev-python/requests-1.0.0[python_targets_python3_8(-)?] >=dev-python/six-1.10.0[python_targets_python3_8(-)?] dev-python/sseclient-py[python_targets_python3_8(-)?] dev-python/python-dateutil[python_targets_python3_8(-)?] python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?]
-REQUIRED_USE=|| ( python_targets_python3_8 )
+RDEPEND=>=dev-python/requests-1.0.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-python/six-1.10.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/sseclient-py[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/python-dateutil[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
+REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 )
 SLOT=0
 SRC_URI=mirror://pypi/p/python-nest/python-nest-4.1.0.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	multibuild	05a584848db4901c97fcd94ae7cc3a97	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	2f5967e7ced9abfa71ff7b0ea8d61b3a	python-r1	e20b80360497e6215aed0dd4ca7d6bad	distutils-r1	943c17c3afd0f811ad36a0b5c8dedba9
-_md5_=6961fd1a387aac2da29387fa2702a045
+_md5_=a0157bc085e77d184b9a3950b78c6c3d

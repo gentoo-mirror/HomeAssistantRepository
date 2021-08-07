@@ -149,6 +149,7 @@ app-misc/homeassistant:knx - Asynchronous Library for the KNX protocol
 app-misc/homeassistant:kodi - control a Kodi multimedia system
 app-misc/homeassistant:kraken - allows you to monitor exchange rates on kraken.com
 app-misc/homeassistant:linode - allows you to access the information about your Linode systems
+app-misc/homeassistant:litterrobot - Wi-Fi-enabled, automatic, self-cleaning litter box for cats
 app-misc/homeassistant:loopenergy - Integrate your Loop Energy meter information into Home Assistant
 app-misc/homeassistant:luci - fetch connected devices from your OpenWrt
 app-misc/homeassistant:luftdaten - query the open data API of luftdaten.info to monitor air quality
@@ -275,6 +276,7 @@ app-misc/homeassistant-full:abode - Library for the Abode alarm API
 app-misc/homeassistant-full:accuweather - Uses the AccuWeather web service as a source for weather data
 app-misc/homeassistant-full:acer_projector - Allows you to control the state of RS232 connected projectors from Acer
 app-misc/homeassistant-full:acmeda - Control and monitor covers via your Rolelase Acmeda Automate hub
+app-misc/homeassistant-full:adax - Integrates Adax heater into Home Assistant
 app-misc/homeassistant-full:adguard - Monitor your ad- and tracker-blocking DNS server
 app-misc/homeassistant-full:ads - Beckhoff automation devices running TwinCAT
 app-misc/homeassistant-full:advantage_air - API helper for Advantage Air's MyAir and e-zone API
@@ -472,6 +474,7 @@ app-misc/homeassistant-full:fleetgo - integrate your vehicles equipped with Flee
 app-misc/homeassistant-full:flexit - Integrates Flexit Air Conditioning unit into Home Assistant
 app-misc/homeassistant-full:flic - The flic platform allows you to receive click events from flic smart buttons
 app-misc/homeassistant-full:flick_electric - Flick Electric Co is a power company in New Zealand
+app-misc/homeassistant-full:flipr - Flipr is a smart pool monitor (Cloud Polling)
 app-misc/homeassistant-full:flo - The flo integration integrates Flo by Moen smart water shutoff valves
 app-misc/homeassistant-full:flume - monitors the real-time status of your home water meter
 app-misc/homeassistant-full:flunearyou - allows users in the US to get information from Flu Near You
@@ -768,6 +771,7 @@ app-misc/homeassistant-full:profiler - Help visualize profiling data from cProfi
 app-misc/homeassistant-full:progettihwsw - brings the automation experience with ProgettiHWSW boards
 app-misc/homeassistant-full:proliphix - control Proliphix thermostat from Home Assistant
 app-misc/homeassistant-full:prometheus - The prometheus integration exposes metrics in a format which Prometheus can read
+app-misc/homeassistant-full:prosegur - Prosegur Smart Alarms (Cloud Polling)
 app-misc/homeassistant-full:proxmoxve - poll data from Proxmox VE virtualization environment
 app-misc/homeassistant-full:proxy - pass another camera’s output through post-processing routines
 app-misc/homeassistant-full:ps4 - allows you to control a Sony PlayStation 4 console
@@ -798,6 +802,7 @@ app-misc/homeassistant-full:reddit - integrates data from Reddit to monitor your
 app-misc/homeassistant-full:rejseplanen - travel details for Danish public transport
 app-misc/homeassistant-full:remember_the_milk - create tasks in Remember The Milk (RTM) from Home Assistant
 app-misc/homeassistant-full:remote_rpi_gpio - base for all related GPIO platforms in Home Assistant
+app-misc/homeassistant-full:renault - integration with the MyRenault cloud service
 app-misc/homeassistant-full:repetier - Repetier-Server is a 3D printer/CNC server, able to control multiple devices
 app-misc/homeassistant-full:rest - rest sensor platform for data exposed by a RESTful API
 app-misc/homeassistant-full:rflink - The rflink integration supports devices that use RFLink gateway firmware
