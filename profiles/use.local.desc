@@ -172,6 +172,7 @@ app-misc/homeassistant:notify_events - The Notify.Events service is a platform f
 app-misc/homeassistant:nuki - control Nuki Smart Locks
 app-misc/homeassistant:nws - uses the National Weather Service web API
 app-misc/homeassistant:nx584 - NX584/NX8E Interface Library and Server
+app-misc/homeassistant:onkyo - allows you to control a Onkyo, Integra and some recent Pioneer receivers
 app-misc/homeassistant:opengarage - opengarage cover platform lets you control the open-source OpenGarage.io device
 app-misc/homeassistant:opensensemap - query the open data API of openSenseMap.org air quality sensor station
 app-misc/homeassistant:openweathermap - uses OpenWeatherMap as a source for current meteorological data

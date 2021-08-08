@@ -4,9 +4,9 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.11.0 1.12.0 1.14.0 1.15.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.1 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.4.6 2021.5.4 2021.6.6-r1 2021.7.2 2021.7.3 2021.7.4 2021.8.1 2021.8.2 2021.8.3: Open-source home automation platform running on Python 3.9
-app-misc/homeassistant-full 2021.4.6 2021.5.4 2021.6.6-r1 2021.7.2 2021.7.3 2021.7.4 2021.8.1 2021.8.2 2021.8.3 9999: Open-source home automation platform running on Python 3.9
-app-misc/homeassistant-min 2021.4.6 2021.5.4 2021.6.6-r1 2021.7.2 2021.7.3 2021.7.4 2021.8.1 2021.8.2 2021.8.3: Open-source home automation platform running on Python 3.9
+app-misc/homeassistant 2021.4.6 2021.5.4 2021.6.6-r1 2021.7.2 2021.7.3 2021.7.4 2021.8.1 2021.8.2 2021.8.3 2021.8.4: Open-source home automation platform running on Python 3.9
+app-misc/homeassistant-full 2021.4.6 2021.5.4 2021.6.6-r1 2021.7.2 2021.7.3 2021.7.4 2021.8.1 2021.8.2 2021.8.3 2021.8.4 9999: Open-source home automation platform running on Python 3.9
+app-misc/homeassistant-min 2021.4.6 2021.5.4 2021.6.6-r1 2021.7.2 2021.7.3 2021.7.4 2021.8.1 2021.8.2 2021.8.3 2021.8.4: Open-source home automation platform running on Python 3.9
 dev-embedded/esphome 1.16.2 1.17.2 1.19.4 1.20.1 1.20.4-r2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20210617.1 20210623.0 20210719.0 20210728.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.0 3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -955,7 +955,7 @@ dev-python/scsgate 0.1.0: A Python module to interact with SCSGate
 dev-python/semantic_version 2.8.2 2.8.2-r1: Python library providing a few tools handling SemVer in Python
 dev-python/sendgrid 6.5.0 6.6.0 6.7.0: Twilio SendGrid library for Python
 dev-python/sense-energy 0.7.1 0.7.2 0.8.0 0.8.1 0.9.0: API for the Sense Energy Monitor
-dev-python/sentry-sdk 0.20.1 0.20.2 0.20.3 1.0.0: Python client for Sentry
+dev-python/sentry-sdk 1.0.0 1.3.0: Python client for Sentry
 dev-python/sepaxml 2.2.0: Python SEPA XML implementations
 dev-python/setuptools-markdown 0.4.1: [Deprecated] Use Markdown for your project description
 dev-python/sharkiqpy 0.1.8: Python API for Shark IQ robots
