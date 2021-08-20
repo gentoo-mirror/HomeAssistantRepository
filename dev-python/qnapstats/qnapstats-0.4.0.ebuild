@@ -7,21 +7,19 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A library to communicate with the Met Eireann Public Weather Forecast API"
-HOMEPAGE="https://github.com/DylanGore/PyMetEireann/ https://pypi.org/project/PyMetEireann/"
+DESCRIPTION="Python API for obtaining QNAP NAS system stats"
+HOMEPAGE="https://github.com/colinodell/python-qnapstats https://pypi.org/project/qnapstats/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 arm arm64 x86 amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS=""
+DOCS="README.rst"
 
-RDEPEND="dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async_timeout[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/requests-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

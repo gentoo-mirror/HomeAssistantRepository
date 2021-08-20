@@ -7,21 +7,20 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A library to communicate with the Met Eireann Public Weather Forecast API"
-HOMEPAGE="https://github.com/DylanGore/PyMetEireann/ https://pypi.org/project/PyMetEireann/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+DESCRIPTION="Notifications for Android/Fire TVs"
+HOMEPAGE="https://github.com/engrbm87/notifications_android_tv https://pypi.org/project/notifications-android-tv/"
+MY_PN=${PN//-/_}
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}/${MY_PN}-${PV}"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS=""
+#DOCS="README.MD"
 
-RDEPEND="dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async_timeout[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

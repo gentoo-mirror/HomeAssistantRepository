@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">giteapy</remote-id>
+    <remote-id type="pypi">notifications-android-tv</remote-id>
     <maintainer status="unknown">
-      <name>unknown</name>
-      <email>rh@dblue.ai</email>
+      <email>engrbm87@gmail.com</email>
+      <name>Rami Mousleh</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

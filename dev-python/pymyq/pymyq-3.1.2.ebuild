@@ -7,21 +7,20 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A library to communicate with the Met Eireann Public Weather Forecast API"
-HOMEPAGE="https://github.com/DylanGore/PyMetEireann/ https://pypi.org/project/PyMetEireann/"
+DESCRIPTION="Python package for controlling MyQ-Enabled Garage Door"
+HOMEPAGE="https://github.com/arraylabs/pymyq https://pypi.org/project/pymyq/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 arm arm64 x86 amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS=""
+DOCS="README.md"
 
-RDEPEND="dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async_timeout[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/beautifulsoup[${PYTHON_USEDEP}]
+	dev-python/pkce[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
