@@ -700,6 +700,7 @@ app-misc/homeassistant-full:neurio_energy - Integrate your Neurio meter informat
 app-misc/homeassistant-full:nexia - allows you to integrate your Nexia thermostats into Home Assistant
 app-misc/homeassistant-full:nextbus - will give you the next departure time and associated data fro NextBus
 app-misc/homeassistant-full:nextcloud - pulls summary Nextcloud information into Home Assistant
+app-misc/homeassistant-full:nfandroidtv - Notifications for Android TV and Notifications for Fire TV
 app-misc/homeassistant-full:nightscout - allows you to view your CGM data from Nightscout
 app-misc/homeassistant-full:niko_home_control - platform allows you to integrate your Niko Home Control
 app-misc/homeassistant-full:nilu - An API client for getting pollution data from NILU sensor stations in Norway
