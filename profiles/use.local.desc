@@ -286,6 +286,7 @@ app-misc/homeassistant-full:aftership - The aftership platform allows one to tra
 app-misc/homeassistant-full:agent_dvr - Agent DVR is a free* software DVR solution
 app-misc/homeassistant-full:airly - Uses the Airly web service as a source for air quality data
 app-misc/homeassistant-full:airnow - AirNow web service as a source for air quality data
+app-misc/homeassistant-full:airtouch4 - 
 app-misc/homeassistant-full:airvisual - Airvisual sensor platform queries the AirVisual cloud API for air quality data
 app-misc/homeassistant-full:aladdin_connect - The aladdin_connect cover platform lets you control Genie Aladdin Connect garage
 app-misc/homeassistant-full:alarmdecoder - AlarmDecoder extended
@@ -471,6 +472,7 @@ app-misc/homeassistant-full:fireservicerota - scheduling and dispatching system 
 app-misc/homeassistant-full:firmata - Firmata can be used to add digital inputs and outputs to Home Assistant
 app-misc/homeassistant-full:fitbit - The Fitbit sensor allows you to expose data from Fitbit to Home Assistant
 app-misc/homeassistant-full:fixer - current exchange rate from Fixer.io using data from ECB
+app-misc/homeassistant-full:fjaraskupan - 
 app-misc/homeassistant-full:fleetgo - integrate your vehicles equipped with FleetGO hardware into Home Assistant
 app-misc/homeassistant-full:flexit - Integrates Flexit Air Conditioning unit into Home Assistant
 app-misc/homeassistant-full:flic - The flic platform allows you to receive click events from flic smart buttons
@@ -748,6 +750,7 @@ app-misc/homeassistant-full:otp - generates One-Time Passwords according to RFC6
 app-misc/homeassistant-full:ovo_energy - allows you to monitor your energy consumption data
 app-misc/homeassistant-full:owntracks - OwnTracks: track your location and send it directly to Home Assistant
 app-misc/homeassistant-full:ozw - Open Zwave MQTT
+app-misc/homeassistant-full:p1_monitor - 
 app-misc/homeassistant-full:panasonic_bluray - allows you to control a Panasonic Blu-Ray player
 app-misc/homeassistant-full:panasonic_viera - panasonic_viera platform allows you to control a Panasonic Viera TV
 app-misc/homeassistant-full:pandora - Pandora account, you can control it from Home Assistant with this media player
@@ -956,6 +959,7 @@ app-misc/homeassistant-full:tplink - control your TP-Link Smart Home Devices
 app-misc/homeassistant-full:tplink_lte - allows you to observe and control TP-Link LTE routers
 app-misc/homeassistant-full:traccar - uses GPS for tracking and has support for over 1500 different types of devices
 app-misc/homeassistant-full:trackr - trackr platform allows you to detect presence using TrackR devices
+app-misc/homeassistant-full:tractive - 
 app-misc/homeassistant-full:tradfri - Control/observe IKEA Tradfri devices
 app-misc/homeassistant-full:trafikverket_train - Retrieve train departure information from Trafikverket
 app-misc/homeassistant-full:trafikverket_weatherstation - weather information provided by Trafikverket weather stations in Sweden
@@ -979,6 +983,7 @@ app-misc/homeassistant-full:upc_connect - presence detection by looking at a Con
 app-misc/homeassistant-full:upcloud - allows you to access the information about your UpCloud servers
 app-misc/homeassistant-full:updater - binary sensor will check daily for new releases
 app-misc/homeassistant-full:upnp - support UPnP/Internet Gateway Device (IGD) Protocol
+app-misc/homeassistant-full:usb - 
 app-misc/homeassistant-full:uscis - updates on your USCIS case using your case/receipt number
 app-misc/homeassistant-full:usgs_earthquakes_feed - a GeoJSON feed provided by the U.S. Geological Survey
 app-misc/homeassistant-full:uvc - allows you to integrate UniFi Video Camera (UVC) into Home Assistant
@@ -1036,6 +1041,7 @@ app-misc/homeassistant-full:yandex_transport - will give you the time until the 
 app-misc/homeassistant-full:yeelight - allows you to control your Yeelight Wifi bulbs
 app-misc/homeassistant-full:yeelightsunflower - allows you to control your Yeelight Sunflower light bulbs
 app-misc/homeassistant-full:yi - allows you to utilize Yi Home Cameras within Home Assistant
+app-misc/homeassistant-full:youless - 
 app-misc/homeassistant-full:zabbix - integration to connect to a Zabbix monitoring instance via the Zabbix API
 app-misc/homeassistant-full:zengge - Python API for controlling Zengge LED bulbs
 app-misc/homeassistant-full:zeroconf - will scan the network for supported devices and services
