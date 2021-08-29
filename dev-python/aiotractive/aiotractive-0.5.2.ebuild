@@ -3,12 +3,12 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{7..9} )
+PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python package for controlling a Litter-Robot Connect self-cleaning litter box."
-HOMEPAGE="https://github.com/natekspencer/pylitterbot https://pypi.org/project/pylitterbot/"
+DESCRIPTION="Asynchronous Python client for the Tractive REST API"
+HOMEPAGE="https://github.com/zhulik/aiotractive https://pypi.org/project/aiotractive/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,9 +18,8 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/Authlib[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.6.3[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

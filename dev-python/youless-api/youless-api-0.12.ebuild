@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Asynchronous Garmin Connect Python 3 API wrapper"
-HOMEPAGE="https://github.com/cyberjunky/python-garminconnect-aio https://pypi.org/project/garminconnect-aio/"
+DESCRIPTION="A bridge for python to the YouLess sensor"
+HOMEPAGE="https://bitbucket.org/jongsoftdev/youless-python-bridge/src/master/ https://pypi.org/project/youless-api/"
 MY_PN=${PN/-/_}
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
 S="${WORKDIR}/${MY_PN}-${PV}"
@@ -20,15 +20,25 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.6[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/brotlipy[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/certifi[${PYTHON_USEDEP}]
+	dev-python/chardet[${PYTHON_USEDEP}]
+	dev-python/idna[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/six[${PYTHON_USEDEP}]
+	dev-python/urllib3[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
+
+src_prepare() {
+	# Make it easy, this guy pins everything
+	cat requirements.txt | cut -d "=" -f1 > requirements_new.txt
+	mv requirements_new.txt requirements.txt
+	eapply_user
+}
 
 python_test() {
 	nosetests --verbose || die
