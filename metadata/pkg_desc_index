@@ -4,9 +4,9 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.11.0 1.12.0 1.14.0 1.15.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.1 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8 2021.9.0_beta3: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8 2021.9.0_beta3 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8-r1 2021.9.0_beta3: Open-source home automation platform running on Python.
+app-misc/homeassistant 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8 2021.9.0_beta3 2021.9.0_beta4: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8 2021.9.0_beta3 2021.9.0_beta4 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8-r1 2021.9.0_beta3 2021.9.0_beta4: Open-source home automation platform running on Python.
 dev-embedded/esphome 1.20.1 1.20.4-r2 2021.8.0 2021.8.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20210617.1 20210623.0 20210719.0 20210728.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -556,7 +556,7 @@ dev-python/orvibo 1.1.1: Control Orvibo products.
 dev-python/outcome 1.0.1: Capture the outcome of Python function calls.
 dev-python/ovoenergy 1.1.6 1.1.7 1.1.11 1.1.12: Get energy data from OVO's API
 dev-python/oyaml 0.9: Ordered YAML: drop-in replacement for PyYAML which preserves dict ordering
-dev-python/p1monitor 0.2.0: Asynchronous Python client for the P1 Monitor
+dev-python/p1monitor 0.2.0 1.0.0: Asynchronous Python client for the P1 Monitor
 dev-python/packaging 19.0 19.1 19.1-r1: Core utilities for Python packages
 dev-python/paho-mqtt 1.5.1: MQTT version 5.0/3.1.1 client class
 dev-python/panacotta 0.1: Python API for controlling Panasonic Blu-Ray players
@@ -968,7 +968,7 @@ dev-python/sharp_aquos_rc 0.3.2: Control Sharp Aquos SmartTVs through the IP int
 dev-python/shodan 1.25.0: Python library and command-line utility for Shodan (https://developer.shodan.io)
 dev-python/simplehound 0.3: Unofficial python API for Sighthound
 dev-python/simplepush 1.1.4: Simplepush python library
-dev-python/simplisafe-python 10.0.0 11.0.2 11.0.3 11.0.5: A Python3, async interface to the SimpliSafe API
+dev-python/simplisafe-python 10.0.0 11.0.2 11.0.3 11.0.5 11.0.6: A Python3, async interface to the SimpliSafe API
 dev-python/sisyphus-control 2.2.1-r1 3.0: Control your Sisyphus kinetic art tables (sisyphus-industries.com)
 dev-python/skybellpy 0.6.3: An Skybell HD Python library running on Python 3.
 dev-python/slackclient 2.5.0: Slack API clients for Web API and RTM API
