@@ -4,9 +4,9 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.11.0 1.12.0 1.14.0 1.15.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.1 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8 2021.9.0_beta3 2021.9.0_beta4: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8 2021.9.0_beta3 2021.9.0_beta4 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8-r1 2021.9.0_beta3 2021.9.0_beta4: Open-source home automation platform running on Python.
+app-misc/homeassistant 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8 2021.9.0_beta4 2021.9.0_beta6: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8 2021.9.0_beta4 2021.9.0_beta6 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8-r1 2021.9.0_beta4 2021.9.0_beta6: Open-source home automation platform running on Python.
 dev-embedded/esphome 1.20.1 1.20.4-r2 2021.8.0 2021.8.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20210617.1 20210623.0 20210719.0 20210728.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -98,7 +98,7 @@ dev-python/aio-geojson-geonetnz-volcano 0.5 0.6: An async GeoJSON client library
 dev-python/aio-geojson-nsw-rfs-incidents 0.1 0.3 0.4: An async GeoJSON client library for NSW Rural Fire Service Incidents.
 dev-python/aio-georss-client 0.5 0.6 0.7: An async GeoRSS client library.
 dev-python/aio-georss-gdacs 0.3 0.4 0.5: An async GeoRSS client library for GDACS feeds.
-dev-python/aioambient 1.2.1 1.2.4 1.2.5 1.2.6: A clean, async-friendly library for the Ambient Weather API
+dev-python/aioambient 1.2.4 1.2.5 1.2.6 1.3.0: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioasuswrt 1.3.1-r1 1.3.4: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/
 dev-python/aioautomatic 0.6.5: Asyncio library for the Automatic API
 dev-python/aioazuredevops 1.3.5: Get data from the Azure DevOps API.
@@ -405,7 +405,7 @@ dev-python/hkdf 0.0.3: HMAC-based Extract-and-Expand Key Derivation Function (HK
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.5.1: Python API for interacting with *hole.
 dev-python/holidays 0.10.5.2-r1 0.11.1 0.11.2: Generate and work with holidays in Python
-dev-python/home-assistant-frontend 20210603.0 20210707.0 20210809.0 20210825.0: The Home Assistant frontend
+dev-python/home-assistant-frontend 20210603.0 20210707.0 20210809.0 20210825.0 20210830.0: The Home Assistant frontend
 dev-python/homeassistant-pyozw 0.1.10: python_openzwave is a python wrapper for the openzwave c++ library.
 dev-python/homeconnect 0.6.3: Python client for the BSH Home Connect REST API
 dev-python/homekit-python 0.15.0: HomeKit Python
@@ -436,6 +436,7 @@ dev-python/importlib_resources 1.5.0-r1 3.0.0-r1: Read resources from Python pac
 dev-python/incomfort-client 0.4.0-r1 0.4.4: A aiohttp-based client for Intergas InComfort/InTouch Lan2RF systems
 dev-python/influxdb 5.2.3: InfluxDB client
 dev-python/influxdb-client 1.8.0 1.14.0: InfluxDB 2.0 Python client library
+dev-python/iotawattpy 0.0.8: Python library for the IoTaWatt Energy device
 dev-python/iperf3 0.1.11: Python wrapper around iperf3
 dev-python/ipify 1.0.0: The official client library for ipify: A Simple IP Address API.
 dev-python/ismartgate 4.0.0: iSmartGate and GogoGate2 API
@@ -711,7 +712,7 @@ dev-python/pyinsteon 1.0.9 1.0.11 1.0.12: Python API for controlling Insteon dev
 dev-python/pyintesishome 1.7.5 1.7.6: A python3 library for running asynchronus communications with IntesisHome Smart AC Controllers
 dev-python/pyipma 2.0.5: Library to retrieve information from Instituto Portuguges do Mar e Atmosfera.
 dev-python/pyipp 0.10.1 0.11.0: Asynchronous Python client for Internet Printing Protocol (IPP).
-dev-python/pyiqvia 0.3.1 1.0.0: A clean, async-focused Python3 API for IQVIA data
+dev-python/pyiqvia 1.0.0 1.1.0: A clean, async-focused Python3 API for IQVIA data
 dev-python/pyirishrail 0.0.2: Python library to get the real-time transport information (RTPI) from Irish Rail
 dev-python/pyiss 1.0.1: A simple python3 library for info about the current International Space Station location
 dev-python/pyisy 2.1.1 3.0.0: Python module to talk to ISY994 from UDI.
@@ -767,7 +768,7 @@ dev-python/pynx584 0.5: NX584/NX8E Interface Library and Server
 dev-python/pynzbgetapi 0.2.0: Basic Python NZBGet API client.
 dev-python/pyobihai 1.3.1: A Python wrapper for Obihai
 dev-python/pyombi 0.1.10: A python module to retrieve information from Ombi.
-dev-python/pyopenuv 1.0.9 2.1.0: A simple Python API data from openuv.io
+dev-python/pyopenuv 1.0.9 2.1.0 2.2.0: A simple Python API data from openuv.io
 dev-python/pyopnsense 0.2.0: A python API client for OPNsense
 dev-python/pyoppleio 1.0.5: Python library for interfacing with opple mobile control light
 dev-python/pyotgw 1.0_beta1 1.1_beta1: A library to interface with the opentherm gateway through serial or network connection.
@@ -1132,7 +1133,7 @@ dev-python/zigpy-xbee 0.12.1 0.13.0 0.14.0: A library which communicates with XB
 dev-python/zigpy-zigate 0.6.2 0.7.0 0.7.1 0.7.2 0.7.3: A library which communicates with ZiGate radios for zigpy
 dev-python/zigpy-znp 0.5.1 0.5.3 0.5.4: A library for zigpy which communicates with TI ZNP radios
 dev-python/zm-py 0.5.2: A loose python wrapper around the ZoneMinder REST API.
-dev-python/zwave-js-server-python 0.26.1 0.27.1 0.28.0 0.29.0: Python wrapper for zwave-js-server
+dev-python/zwave-js-server-python 0.26.1 0.27.1 0.28.0 0.29.0 0.29.1: Python wrapper for zwave-js-server
 dev-vcs/pre-commit 2.14.0: A framework for managing and maintaining multi-language Git pre-commit hooks
 media-libs/opencv 3.4.1-r7: A collection of algorithms and sample code for various computer vision problems
 net-analyzer/speedtest-cli 2.1.1 2.1.2: Command line interface for testing internet bandwidth using speedtest.net
