@@ -900,7 +900,7 @@ dev-python/pyupgrade 2.11.0: A tool to automatically upgrade syntax for newer ve
 dev-python/pyusb 1.0.2: Python USB access module
 dev-python/pyvera 0.3.13: Python API for talking to Veracontrollers
 dev-python/pyversasense 0.0.6: Versasense API consumer
-dev-python/pyvesync 1.2.0 1.3.1 1.4.0: pyvesync is a library to manage Etekcity Devices and Levoit Air Purifier
+dev-python/pyvesync 1.4.0: pyvesync is a library to manage Etekcity Devices and Levoit Air Purifier
 dev-python/pyvizio 0.1.57: Python library for interfacing with Vizio SmartCast TVs and Sound Bars (2016+ models)
 dev-python/pyvlx 0.2.18 0.2.19: PyVLX is a wrapper for the Velux KLF 200 API. PyVLX enables you to run scenes and or open and close velux windows.
 dev-python/pyvolumio 0.1.3: A python library to control Volumio.
@@ -984,7 +984,7 @@ dev-python/smart-meter-texas 0.4.0 0.4.7: Package to connect to and retrieve dat
 dev-python/smbus-cffi 0.5.1: SMBus access through the I2C /dev interface on Linux hosts.
 dev-python/smbus2 0.3.0: smbus2 is a drop-in replacement for smbus-cffi/smbus-python in pure Python
 dev-python/smhi-pkg 1.0.13 1.0.15: Gets the weather forecast data from Swedish weather institute
-dev-python/snapcast 2.1.1 2.1.2 2.1.3: Control Snapcast.
+dev-python/snapcast 2.1.3: Control Snapcast.
 dev-python/sniffio 1.1.0: Sniff out which async library your code is running under
 dev-python/snitun 0.20 0.24.0 0.27.0: SNI proxy with TCP multiplexer
 dev-python/socialbladeclient 0.2 0.5: Social Blade Unofficial Client
