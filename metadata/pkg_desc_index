@@ -68,7 +68,7 @@ dev-python/RestrictedPython 5.1: subset of Python which allows program input int
 dev-python/RtmAPI 0.7.2-r1: API package for rememberthemilk.com
 dev-python/SmartHab 0.21: This package allows controlling devices in a SmartHab-powered home.
 dev-python/TravisPy 0.3.5: Python API for Travis CI.
-dev-python/TwitterAPI 2.6.6 2.6.8 2.7.2 2.7.3: Minimal wrapper for Twitter's REST and Streaming APIs
+dev-python/TwitterAPI 2.7.3: Minimal wrapper for Twitter's REST and Streaming APIs
 dev-python/VL53L1X2 0.1.5: vl53l1x distance sensor driver for Raspberry Pi
 dev-python/WSDiscovery 2.0.0: WS-Discovery implementation for python
 dev-python/WazeRouteCalculator 0.12: Calculate actual route time and distance with waze api.
@@ -370,6 +370,7 @@ dev-python/gogogate2-api 2.0.0 2.0.1 2.0.2 2.0.3 3.0.0: Library for connecting t
 dev-python/google-api-python-client 1.6.4: Google API Client for Python
 dev-python/google-auth 1.22.0 1.22.1: Google Authentication Library
 dev-python/google-cloud-pubsub 2.1.0: Google Cloud Pub/Sub API client library
+dev-python/google-cloud-texttospeech 0.4.0 2.5.2: Google Cloud Text-to-Speech API client library
 dev-python/google-nest-sdm 0.2.12 0.3.5 0.3.6: Library for the Google Nest SDM API
 dev-python/googlemaps 2.5.1 3.0.2: Python client library for Google Maps API Web Services
 dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud API
@@ -472,7 +473,7 @@ dev-python/libsoundtouch 0.8.0: Bose Soundtouch Python library
 dev-python/libusb1 1.7-r1: Pure-python wrapper for libusb-1.0
 dev-python/life360 4.0.0 4.0.1 4.1.1: Life360 Communications Module
 dev-python/liffylights 0.9.4: LIFX Python library
-dev-python/lightify 1.0.7.2 1.0.7.3: A library to work with OSRAM lightify.
+dev-python/lightify 1.0.7.3: A library to work with OSRAM lightify.
 dev-python/lightwave 0.19: Python library to provide a reliable communication link with LightWaveRF lights, switches and TRVs.
 dev-python/limitlessled 1.1.3: Control LimitlessLED products.
 dev-python/linode-api 4.1.9_beta1: Linode API Library
@@ -1085,7 +1086,7 @@ dev-python/vigilancemeteo 3.0.0 3.0.1: Python API to get active weather alerts f
 dev-python/vilfo-api-client 0.3.2-r1: Simple wrapper client for the Vilfo router API
 dev-python/vincenty 0.1.4: Calculate the geographical distance between 2 points with extreme accuracy.
 dev-python/vol 0.1.1: volume control in the shell for your mac
-dev-python/volkszaehler 0.1.2 0.1.3 0.2.1: Python Wrapper for interacting with the Volkszahler API.
+dev-python/volkszaehler 0.2.1: Python Wrapper for interacting with the Volkszahler API.
 dev-python/voluptuous-serialize 2.4.0: Experiment to convert voluptuous schemas to JSON
 dev-python/volvooncall 0.8.7 0.8.12: Communicate with VOC
 dev-python/vsure 1.7.3: Read and change status of verisure devices through mypages.
