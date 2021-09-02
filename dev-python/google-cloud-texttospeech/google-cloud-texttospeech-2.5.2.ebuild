@@ -3,21 +3,24 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{7..9} )
+PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Minimal wrapper for Twitter's REST and Streaming APIs"
-HOMEPAGE="https://github.com/geduldig/TwitterAPI https://pypi.org/project/TwitterAPI/"
+DESCRIPTION="Google Cloud Text-to-Speech API client library"
+HOMEPAGE="https://github.com/googleapis/python-texttospeech https://pypi.org/project/google-cloud-texttospeech/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]"
+DOCS="README.rst"
+
+RDEPEND=">=dev-python/google-api-core-1.26.0
+	>=dev-python/proto-plus-1.4.0
+	>=dev-python/packaging-14.3"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
