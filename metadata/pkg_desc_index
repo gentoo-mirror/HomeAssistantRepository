@@ -1116,7 +1116,7 @@ dev-python/yahooweather 0.10: a Python module that provides an interface to the 
 dev-python/yalesmartalarmclient 0.1.6 0.3.3 0.3.4: Interact with Yale Smart Alarm systems
 dev-python/yalexs 1.1.10 1.1.11 1.1.13: Python API for Yale Access (formerly August) Smart Lock and Doorbell
 dev-python/yarl 1.4.2: Yet another URL library
-dev-python/yeelight 0.5.4 0.6.2 0.6.3 0.7.4: A Python library for controlling YeeLight RGB bulbs.
+dev-python/yeelight 0.6.3 0.7.4: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
 dev-python/youless-api 0.12: A bridge for python to the YouLess sensor
 dev-python/youtube_dl 2021.1.24.1 2021.3.14 2021.4.17 2021.4.26: YouTube video downloader
