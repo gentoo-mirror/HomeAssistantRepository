@@ -106,6 +106,7 @@ app-misc/homeassistant:flume - monitors the real-time status of your home water 
 app-misc/homeassistant:flunearyou - allows users in the US to get information from Flu Near You
 app-misc/homeassistant:flux_led - flux_led support is integrated into Home Assistant as a light platform
 app-misc/homeassistant:foobot - fetch air quality data from your Foobot device
+app-misc/homeassistant:forecast_solar - Asynchronous Python client for getting forecast solar information
 app-misc/homeassistant:fortios - device tracking of devices with a MAC address connected to a FortiGate
 app-misc/homeassistant:freebox - allows you to observe and control Freebox router
 app-misc/homeassistant:fritz - The fritz platform offers presence detection for Home Assistant
@@ -148,6 +149,7 @@ app-misc/homeassistant:kef - KEF wireless speakers
 app-misc/homeassistant:knx - Asynchronous Library for the KNX protocol
 app-misc/homeassistant:kodi - control a Kodi multimedia system
 app-misc/homeassistant:kraken - allows you to monitor exchange rates on kraken.com
+app-misc/homeassistant:lifx - The lifx integration allows you to integrate your LIFX into Home Assistant
 app-misc/homeassistant:linode - allows you to access the information about your Linode systems
 app-misc/homeassistant:litterrobot - Wi-Fi-enabled, automatic, self-cleaning litter box for cats
 app-misc/homeassistant:loopenergy - Integrate your Loop Energy meter information into Home Assistant
@@ -1075,6 +1077,7 @@ app-misc/homeassistant-min:darksky - Use dark sky weather data from Home Assista
 app-misc/homeassistant-min:dwd_weather_warnings - dwd_weather_warnings sensor platform uses DWD for warnings
 app-misc/homeassistant-min:enigma2 - Support for Enigma2 boxes with openwebif support
 app-misc/homeassistant-min:esphome - Support for esphome sensors, covers and switches and it's dashboard
+app-misc/homeassistant-min:forecast_solar - Asynchronous Python client for getting forecast solar information
 app-misc/homeassistant-min:fronius - Add (very basic) Support for Fronius Symo JSON Api to Home Assistant
 app-misc/homeassistant-min:github - GitHub sensor integrates data from GitHub to monitor your favorite repositories
 app-misc/homeassistant-min:homekit - Integrate HomeKit controller and accessory in Home Assistant
