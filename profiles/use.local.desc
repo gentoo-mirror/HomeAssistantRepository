@@ -328,6 +328,7 @@ app-misc/homeassistant-full:aurora - The aurora platform uses the NOAA Aurora Fo
 app-misc/homeassistant-full:aurora_abb_powerone - This implements a direct RS485 connection to a solar inverter in the PVI-3.0/3.6
 app-misc/homeassistant-full:avea - Library for Elgato Avea bulbs
 app-misc/homeassistant-full:avion - Support for the Avi-on Bluetooth dimmer switch Avi-on
+app-misc/homeassistant-full:avri - Query the next scheduled waste pickup and the type of waste from Avri
 app-misc/homeassistant-full:awair - Library to integrate the Awair GraphQL API into Home Assistant
 app-misc/homeassistant-full:aws - Interact with Amazon Web Services
 app-misc/homeassistant-full:axis - Communicating with newer devices from Axis Communications
@@ -363,6 +364,7 @@ app-misc/homeassistant-full:bt_home_hub_5 - Offers presence detection by looking
 app-misc/homeassistant-full:bt_smarthub - Presence detection by looking at BT Smart Hub based routers
 app-misc/homeassistant-full:buienradar - Integrate buienradar weather data into Home Assistant
 app-misc/homeassistant-full:caldav - Integrate a CalDAV (RFC4791) calendar in Home Assistant
+app-misc/homeassistant-full:camera - 
 app-misc/homeassistant-full:canary - Allows you to integrate your Canary devices from Home Assistant
 app-misc/homeassistant-full:cast - Let Home Assitant talk to Google Chromecast
 app-misc/homeassistant-full:channels - Allows you to control Channels from Home Assistant
@@ -410,6 +412,8 @@ app-misc/homeassistant-full:directv - Allows you to control a DirecTV receiver a
 app-misc/homeassistant-full:discogs - Discogs Client for Home Assistant
 app-misc/homeassistant-full:discord - Send messages to the user using Discord from Home Assistant
 app-misc/homeassistant-full:discovery - Automatically configure zeroconf/mDNS and UPnP devices in Home Assistant
+app-misc/homeassistant-full:dlib_face_detect - Image processing platform for Home Assistant
+app-misc/homeassistant-full:dlib_face_identify - image processing platform allows you to use the Dlib
 app-misc/homeassistant-full:dlink - Allows you to control the state of your D-Link Wi-Fi Smart Plugs
 app-misc/homeassistant-full:dlna_dmr - Allows you to control a DLNA Digital Media Renderer
 app-misc/homeassistant-full:dnsip - will expose an IP address, fetched via DNS resolution, as its value
@@ -622,6 +626,7 @@ app-misc/homeassistant-full:lg_netcast - allows you to control a LG Smart TV run
 app-misc/homeassistant-full:lg_soundbar - allows you to control LG Soundbars from Home Assistant
 app-misc/homeassistant-full:life360 - detect presence using the unofficial API of Life360
 app-misc/homeassistant-full:lifx - The lifx integration allows you to integrate your LIFX into Home Assistant
+app-misc/homeassistant-full:lifx_legacy - The lifx integration allows you to integrate your LIFX into Home Assistant
 app-misc/homeassistant-full:lightwave - WiFi link for controlling Lightwave lights, switches and TRVs
 app-misc/homeassistant-full:limitlessled - control your LimitlessLED lights from within Home Assistant
 app-misc/homeassistant-full:linode - allows you to access the information about your Linode systems
@@ -992,6 +997,7 @@ app-misc/homeassistant-full:uptimerobot - provides binary sensors from your moni
 app-misc/homeassistant-full:usb - USB Discovery integration will watch the host for USB devices
 app-misc/homeassistant-full:uscis - updates on your USCIS case using your case/receipt number
 app-misc/homeassistant-full:usgs_earthquakes_feed - a GeoJSON feed provided by the U.S. Geological Survey
+app-misc/homeassistant-full:utility_meter - 
 app-misc/homeassistant-full:uvc - allows you to integrate UniFi Video Camera (UVC) into Home Assistant
 app-misc/homeassistant-full:vallox - control any Vallox ventilation unit
 app-misc/homeassistant-full:vasttrafik - traveling details for the larger Göteborg area in Sweden from the Västtrafik
