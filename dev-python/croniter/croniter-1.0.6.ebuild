@@ -3,12 +3,12 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{7..9} )
+PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="An API client for interacting with the MyMazda (Mazda Connected Services) API"
-HOMEPAGE="https://github.com/bdr99/pymazda https://pypi.org/project/pymazda/"
+DESCRIPTION="croniter provides iteration for datetime object with cron like format"
+HOMEPAGE="http://github.com/kiorky/croniter https://pypi.org/project/croniter/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -16,10 +16,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.md"
+DOCS="README.rst"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/python-dateutil[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
@@ -30,4 +29,5 @@ BDEPEND="
 python_test() {
 	nosetests --verbose || die
 	py.test -v -v || die
+	py.test -v src/croniter/tests || die "tests failed"
 }
