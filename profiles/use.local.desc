@@ -243,6 +243,7 @@ app-misc/homeassistant:tuya - integrate all Tuya Smart related platforms
 app-misc/homeassistant:unifi - talk with a Ubiquiti unifi Controller
 app-misc/homeassistant:unifi_direct - detect presence by looking at devices connected to a UniFi AP
 app-misc/homeassistant:upnp - support UPnP/Internet Gateway Device (IGD) Protocol
+app-misc/homeassistant:utility_meter - integration provides functionality to track consumptions of various utilities
 app-misc/homeassistant:vallox - control any Vallox ventilation unit
 app-misc/homeassistant:velbus - supports the Velbus USB, serial and TCP/IP gateway
 app-misc/homeassistant:velux - allows you to connect to a Velux KLF 200 interface
@@ -364,7 +365,7 @@ app-misc/homeassistant-full:bt_home_hub_5 - Offers presence detection by looking
 app-misc/homeassistant-full:bt_smarthub - Presence detection by looking at BT Smart Hub based routers
 app-misc/homeassistant-full:buienradar - Integrate buienradar weather data into Home Assistant
 app-misc/homeassistant-full:caldav - Integrate a CalDAV (RFC4791) calendar in Home Assistant
-app-misc/homeassistant-full:camera - 
+app-misc/homeassistant-full:camera - The camera integration allows you to use IP cameras with Home Assistant
 app-misc/homeassistant-full:canary - Allows you to integrate your Canary devices from Home Assistant
 app-misc/homeassistant-full:cast - Let Home Assitant talk to Google Chromecast
 app-misc/homeassistant-full:channels - Allows you to control Channels from Home Assistant
@@ -997,7 +998,7 @@ app-misc/homeassistant-full:uptimerobot - provides binary sensors from your moni
 app-misc/homeassistant-full:usb - USB Discovery integration will watch the host for USB devices
 app-misc/homeassistant-full:uscis - updates on your USCIS case using your case/receipt number
 app-misc/homeassistant-full:usgs_earthquakes_feed - a GeoJSON feed provided by the U.S. Geological Survey
-app-misc/homeassistant-full:utility_meter - 
+app-misc/homeassistant-full:utility_meter - integration provides functionality to track consumptions of various utilities
 app-misc/homeassistant-full:uvc - allows you to integrate UniFi Video Camera (UVC) into Home Assistant
 app-misc/homeassistant-full:vallox - control any Vallox ventilation unit
 app-misc/homeassistant-full:vasttrafik - traveling details for the larger Göteborg area in Sweden from the Västtrafik
@@ -1132,6 +1133,7 @@ app-misc/homeassistant-min:test - internal and developer use
 app-misc/homeassistant-min:tile - API for Tile Bluetooth trackers
 app-misc/homeassistant-min:tplink - control your TP-Link Smart Home Devices
 app-misc/homeassistant-min:tradfri - Control/observe IKEA Tradfri devices
+app-misc/homeassistant-min:utility_meter - integration provides functionality to track consumptions of various utilities
 app-misc/homeassistant-min:version - display the current Home Assistant versions
 app-misc/homeassistant-min:wake_on_lan - enables the ability to send magic packets to Wake on LAN capable devices
 app-misc/homeassistant-min:wemo - discover and control WeMo devices
@@ -1140,7 +1142,6 @@ app-misc/homeassistant-min:workday - generating country, province and state spec
 app-misc/homeassistant-min:yamaha - Library for Yamaha RX-* Receivers
 app-misc/homeassistant-min:yamaha_musiccast - add support for Yamaha MusicCast devices
 app-misc/homeassistant-min:zeroconf - will scan the network for supported devices and services
-app-misc/homeassistant-min:zwave - Support for Z-Wave Devices (uncomplete)
 app-misc/homeassistant-min:zwave_js - control a Z-Wave network via the Z-Wave JS driver
 dev-python/passlib:bcrypt - bcrpyt hash algoryptm support
 dev-python/passlib:scrypt - accelerated scrypt algoythm support

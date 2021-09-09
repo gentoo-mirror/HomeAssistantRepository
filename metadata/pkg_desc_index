@@ -4,9 +4,9 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.11.0 1.12.0 1.14.0 1.15.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.1 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8 2021.9.0_beta6 2021.9.0 2021.9.1 2021.9.2 2021.9.3 2021.9.4: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8 2021.9.0_beta6 2021.9.0 2021.9.1 2021.9.2 2021.9.3 2021.9.4 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8-r1 2021.9.0_beta6 2021.9.0 2021.9.1 2021.9.2 2021.9.3 2021.9.4: Open-source home automation platform running on Python.
+app-misc/homeassistant 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8 2021.9.0_beta6 2021.9.0 2021.9.1 2021.9.2 2021.9.3 2021.9.4 2021.9.5: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8 2021.9.0_beta6 2021.9.0 2021.9.1 2021.9.2 2021.9.3 2021.9.4 2021.9.5 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2021.6.6-r1 2021.7.4 2021.8.6 2021.8.7 2021.8.8-r1 2021.9.0_beta6 2021.9.0 2021.9.1 2021.9.2 2021.9.3 2021.9.4 2021.9.5: Open-source home automation platform running on Python.
 dev-embedded/esphome 1.20.1 1.20.4-r2 2021.8.0 2021.8.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20210617.1 20210623.0 20210719.0 20210728.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -141,7 +141,7 @@ dev-python/aioredis 1.2.0: asyncio (PEP 3156) Redis support
 dev-python/aioresponses 0.7.2: Mock out requests made by ClientSession from aiohttp package
 dev-python/aioshelly 0.6.1 0.6.2 0.6.4: Asynchronous library to control Shelly devices.
 dev-python/aiosqlite 0.15.0 0.16.0 0.17.0: asyncio bridge to the standard sqlite3 module
-dev-python/aioswitcher 1.2.1 1.2.3 2.0.4: Switcher Unofficial Integration.
+dev-python/aioswitcher 1.2.1 1.2.3 2.0.4 2.0.5: Switcher Python Integration.
 dev-python/aiosyncthing 0.5.1 0.6.3: Asynchronous Python client for the Syncthing REST API
 dev-python/aiotractive 0.5.2 0.5.3: Asynchronous Python client for the Tractive REST API
 dev-python/aiounifi 26: An asynchronous Python library for communicating with Unifi Controller API
