@@ -1,26 +1,25 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Gammu bindings"
-HOMEPAGE="https://github.com/gammu/gammu https://wammu.eu/python-gammu/ https://pypi.org/project/python-gammu/"
+DESCRIPTION="Python API for interacting with ESPHome devices."
+HOMEPAGE="https://esphome.io/ https://pypi.org/project/aioesphomeapi/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-2+"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="app-mobilephone/gammu
-	dev-python/pybluez[${PYTHON_USEDEP}]
-	dev-python/libusb1[${PYTHON_USEDEP}]
-	dev-python/pycurl[${PYTHON_USEDEP}]"
-DEPEND="${REDEPEND}
+DOCS=""
+
+RDEPEND=""
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
