@@ -290,6 +290,7 @@ app-misc/homeassistant-full:aftership - The aftership platform allows one to tra
 app-misc/homeassistant-full:agent_dvr - Agent DVR is a free* software DVR solution
 app-misc/homeassistant-full:airly - Uses the Airly web service as a source for air quality data
 app-misc/homeassistant-full:airnow - AirNow web service as a source for air quality data
+app-misc/homeassistant-full:airthings - 
 app-misc/homeassistant-full:airtouch4 - control Ducted Air Conditioning Systems that are using the AirTouch 4 Controller
 app-misc/homeassistant-full:airvisual - Airvisual sensor platform queries the AirVisual cloud API for air quality data
 app-misc/homeassistant-full:aladdin_connect - The aladdin_connect cover platform lets you control Genie Aladdin Connect garage
@@ -298,6 +299,7 @@ app-misc/homeassistant-full:almond - Almond is an open, privacy-preserving virtu
 app-misc/homeassistant-full:alpha_vantage - The alpha_vantage sensor platform uses Alpha Vantage to monitor the stock market
 app-misc/homeassistant-full:amazon_polly - Text-to-speech platform that works with Amazon Polly
 app-misc/homeassistant-full:ambee - Asynchronous Python client for the Ambee API
+app-misc/homeassistant-full:amberelectric - Interface to the Amber Electric API, allowing you to download current and foreca
 app-misc/homeassistant-full:ambiclimate - Communicate with Ambiclimate devices
 app-misc/homeassistant-full:ambient_station - Retrieves local weather information from Ambient Weather
 app-misc/homeassistant-full:amcrest - Integrate your Amcrest or Dahua IP camera
@@ -390,6 +392,7 @@ app-misc/homeassistant-full:coolmaster - The coolmaster climate platform lets yo
 app-misc/homeassistant-full:coronavirus - Add sensors for COVID-19 infections from Johns Hopkins University
 app-misc/homeassistant-full:cppm_tracker - Detect presence by looking at connected devices to Aruba Clearpass
 app-misc/homeassistant-full:cpuspeed - The cpuspeed sensor platform to allow you to monitor the current CPU speed
+app-misc/homeassistant-full:crownstone - 
 app-misc/homeassistant-full:cups - Using the open source printing system CUPS to show details about your printers
 app-misc/homeassistant-full:daikin - Integrate Daikin wireless controllers into Home Assistant
 app-misc/homeassistant-full:danfoss_air - The danfoss_air integration accesses information from your Danfoss Air HRV unit
@@ -1027,9 +1030,11 @@ app-misc/homeassistant-full:waqi - will query World Air Quality Index service
 app-misc/homeassistant-full:waterfurnace - Python interface for waterfurnace geothermal systems
 app-misc/homeassistant-full:watson_iot - link Home Assistant with an IBM Watson IoT Platform instance
 app-misc/homeassistant-full:watson_tts - text-to-speech platform that works with IBM Watson Cloud
+app-misc/homeassistant-full:watttime - 
 app-misc/homeassistant-full:waze_travel_time - waze_travel_time sensor provides travel time from the Waze
 app-misc/homeassistant-full:webostv - allows you to control a LG webOS Smart TV
 app-misc/homeassistant-full:wemo - discover and control WeMo devices
+app-misc/homeassistant-full:whirlpool - 
 app-misc/homeassistant-full:whois - perform daily WHOIS lookups
 app-misc/homeassistant-full:wiffi - allows you to connect your STALL WIFFI devices directly
 app-misc/homeassistant-full:wilight - The wilight integration is to integrate WiLight devices with Home Assistant
