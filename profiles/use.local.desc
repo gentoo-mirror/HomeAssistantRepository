@@ -290,7 +290,7 @@ app-misc/homeassistant-full:aftership - The aftership platform allows one to tra
 app-misc/homeassistant-full:agent_dvr - Agent DVR is a free* software DVR solution
 app-misc/homeassistant-full:airly - Uses the Airly web service as a source for air quality data
 app-misc/homeassistant-full:airnow - AirNow web service as a source for air quality data
-app-misc/homeassistant-full:airthings - 
+app-misc/homeassistant-full:airthings - A python3 library to communicate with Aws
 app-misc/homeassistant-full:airtouch4 - control Ducted Air Conditioning Systems that are using the AirTouch 4 Controller
 app-misc/homeassistant-full:airvisual - Airvisual sensor platform queries the AirVisual cloud API for air quality data
 app-misc/homeassistant-full:aladdin_connect - The aladdin_connect cover platform lets you control Genie Aladdin Connect garage
@@ -1030,7 +1030,7 @@ app-misc/homeassistant-full:waqi - will query World Air Quality Index service
 app-misc/homeassistant-full:waterfurnace - Python interface for waterfurnace geothermal systems
 app-misc/homeassistant-full:watson_iot - link Home Assistant with an IBM Watson IoT Platform instance
 app-misc/homeassistant-full:watson_tts - text-to-speech platform that works with IBM Watson Cloud
-app-misc/homeassistant-full:watttime - 
+app-misc/homeassistant-full:watttime - Cloud based Climate Trace Service
 app-misc/homeassistant-full:waze_travel_time - waze_travel_time sensor provides travel time from the Waze
 app-misc/homeassistant-full:webostv - allows you to control a LG webOS Smart TV
 app-misc/homeassistant-full:wemo - discover and control WeMo devices

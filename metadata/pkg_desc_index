@@ -4,9 +4,9 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.11.0 1.12.0 1.14.0 1.15.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.1 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.7.4 2021.8.8 2021.9.6 2021.9.7 2021.10.0_beta2-r1: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2021.7.4 2021.8.8 2021.9.6 2021.9.7 2021.10.0_beta2-r1 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2021.7.4 2021.8.8-r1 2021.9.6-r1 2021.9.7 2021.10.0_beta2-r4: Open-source home automation platform running on Python.
+app-misc/homeassistant 2021.7.4 2021.8.8 2021.9.6 2021.9.7 2021.10.0_beta2-r1 2021.10.0_beta3: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2021.7.4 2021.8.8 2021.9.6 2021.9.7 2021.10.0_beta2-r1 2021.10.0_beta3 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2021.7.4 2021.8.8-r1 2021.9.6-r1 2021.9.7 2021.10.0_beta2-r4 2021.10.0_beta3: Open-source home automation platform running on Python.
 dev-embedded/esphome 1.20.1 1.20.4-r2 2021.8.0 2021.8.2 2021.9.0 2021.9.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20210617.1 20210623.0 20210719.0 20210728.0 20210908.0 20210927.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -40,7 +40,7 @@ dev-python/PsychroLib 2.3.0 2.5.0: Library of psychrometric functions to calcula
 dev-python/PyDispatcher 2.0.5: Multi-producer-multi-consumer signal dispatching mechanism
 dev-python/PyEssent 0.14: A wrapper around Essent's API
 dev-python/PyFlick 0.0.2: Python API For Flick Electric in New Zealand
-dev-python/PyFlume 0.5.5: Package to integrate with Flume Sensor
+dev-python/PyFlume 0.5.5 0.6.5: Package to integrate with Flume Sensor
 dev-python/PyFronius 0.4.6 0.5.2 0.5.3 0.6.0: Automated JSON API based communication with Fronius Symo
 dev-python/PyGithub 1.43.5 1.43.8 1.53: Use the full Github API v3
 dev-python/PyISY 1.1.2: Python module to talk to ISY994 from UDI.
@@ -418,7 +418,7 @@ dev-python/hkdf 0.0.3: HMAC-based Extract-and-Expand Key Derivation Function (HK
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.5.1: Python API for interacting with *hole.
 dev-python/holidays 0.11.1 0.11.2 0.11.3.1: Generate and work with holidays in Python
-dev-python/home-assistant-frontend 20210707.0 20210809.0 20210830.0 20210930.0: The Home Assistant frontend
+dev-python/home-assistant-frontend 20210707.0 20210809.0 20210830.0 20210930.0 20211002.0: The Home Assistant frontend
 dev-python/homeassistant-pyozw 0.1.10: python_openzwave is a python wrapper for the openzwave c++ library.
 dev-python/homeconnect 0.6.3: Python client for the BSH Home Connect REST API
 dev-python/homekit-python 0.15.0: HomeKit Python
@@ -781,7 +781,7 @@ dev-python/pynetio 0.1.9.1: Binding library for Koukaam netio devices
 dev-python/pynuki 1.3.8-r1 1.4.1: Python bindings for nuki.io bridges
 dev-python/pynumparser 1.4.1: A library to parse arguments of numbers and number sequences, usable directly or with argparse. Allows concise representation of contiguous or non-contiguous sequences. Example: 1,5-10,40-50/5,200+100/25
 dev-python/pynut2 2.1.2: A Python abstraction class to access NUT servers.
-dev-python/pynws 1.3.0-r1: Python library to retrieve observations and forecasts from NWS/NOAA
+dev-python/pynws 1.3.0-r1 1.3.1: Python library to retrieve observations and forecasts from NWS/NOAA
 dev-python/pynx584 0.5: NX584/NX8E Interface Library and Server
 dev-python/pynzbgetapi 0.2.0: Basic Python NZBGet API client.
 dev-python/pyobihai 1.3.1: A Python wrapper for Obihai
@@ -798,7 +798,7 @@ dev-python/pypca 0.0.7: A python cli for PCA 301 smart plugs.
 dev-python/pypck 0.7.9 0.7.10: LCN-PCK library
 dev-python/pypjlink2 1.2.0 1.2.1: PJLink is a standard for controlling data projectors.
 dev-python/pyplaato 0.0.15: Asynchronous Python client for getting Plaato Airlock and Keg data
-dev-python/pypoint 2.0.0 2.1.0: API for Minut Point
+dev-python/pypoint 2.0.0 2.1.0 2.2.0: API for Minut Point
 dev-python/pypollencom 2.2.3: A simple API for Pollen.com data
 dev-python/pyprof2calltree 1.4.5: Help visualize profiling data from cProfile with kcachegrind and qcachegrind
 dev-python/pyprosegur 0.0.5: Unofficial Python library to interface with Prosegur Alarmes PT/ES.
