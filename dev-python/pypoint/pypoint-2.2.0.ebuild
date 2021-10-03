@@ -3,22 +3,23 @@
 
 EAPI="7"
 
-PYTHON_COMPAT=( python3_{8..10} )
+PYTHON_COMPAT=( python3_{8..9} )
 
 inherit distutils-r1
 
-DESCRIPTION="Low-level communication layer for PRAW 4+."
-HOMEPAGE="https://github.com/praw-dev/prawcore https://pypi.org/project/prawcore/"
+DESCRIPTION="API for Minut Point"
+HOMEPAGE="https://github.com/fredrike/pypoint https://pypi.org/project/pypoint/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="BSD"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.rst"
+DOCS="README.md"
 
-RDEPEND=">=dev-python/requests-2.6.0[${PYTHON_USEDEP}]"
+RDEPEND="~dev-python/httpx-0.19.0[${PYTHON_USEDEP}]
+	dev-python/Authlib[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

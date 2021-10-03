@@ -7,19 +7,20 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Low-level communication layer for PRAW 4+."
-HOMEPAGE="https://github.com/praw-dev/prawcore https://pypi.org/project/prawcore/"
+DESCRIPTION="Python library to retrieve observations and forecasts from NWS/NOAA"
+HOMEPAGE="https://github.com/MatthewFlamm/pynws https://pypi.org/project/pynws/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="BSD"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.rst"
+DOCS="README.md"
 
-RDEPEND=">=dev-python/requests-2.6.0[${PYTHON_USEDEP}]"
-BDEPEND="
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/python-metar[${PYTHON_USEDEP}]"
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
