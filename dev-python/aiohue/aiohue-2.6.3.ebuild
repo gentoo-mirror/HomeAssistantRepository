@@ -7,21 +7,20 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A Python wrapper around OpenWeatherMap web APIs"
-HOMEPAGE="https://github.com/csparpa/pyowm https://pypi.org/project/pyowm/"
+DESCRIPTION="Python module to talk to Philips Hue."
+HOMEPAGE="https://github.com/home-assistant-libs/aiohue https://pypi.org/project/aiohue/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 arm arm64 x86 amd64-linux x86-linux"
 IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
-	>=dev-python/geojson-2.3.0[${PYTHON_USEDEP}]
-	>=dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]"
-BDEPEND="${REDEPEND}
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+BDEPEND="
+	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]

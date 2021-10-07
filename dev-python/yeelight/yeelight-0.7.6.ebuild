@@ -7,25 +7,24 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python API for interacting with ESPHome devices."
-HOMEPAGE="https://github.com/esphome/aioesphomeapi https://esphome.io/ https://pypi.org/project/aioesphomeapi/"
+DESCRIPTION="A Python library for controlling YeeLight RGB bulbs."
+HOMEPAGE="https://gitlab.com/stavros/python-yeelight/ https://pypi.org/project/yeelight/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 arm arm64 x86 amd64-linux x86-linux"
+KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.rst"
+DOCS="README.md"
 
-RDEPEND=">=dev-python/protobuf-python-3.12.2[${PYTHON_USEDEP}]
-	>=dev-python/zeroconf-0.32.0[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/future[${PYTHON_USEDEP}]
+	dev-python/ifaddr[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/pylint[${PYTHON_USEDEP}]
 	)"
 
 python_test() {

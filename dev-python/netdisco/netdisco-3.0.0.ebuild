@@ -7,21 +7,21 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A Python wrapper around OpenWeatherMap web APIs"
-HOMEPAGE="https://github.com/csparpa/pyowm https://pypi.org/project/pyowm/"
+DESCRIPTION="Discover devices on your local network"
+HOMEPAGE="https://github.com/home-assistant/netdisco https://pypi.org/project/netdisco/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 ~arm arm64 x86 amd64-linux x86-linux"
 IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
-	>=dev-python/geojson-2.3.0[${PYTHON_USEDEP}]
-	>=dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.30.0[${PYTHON_USEDEP}]"
 BDEPEND="${REDEPEND}
+	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
