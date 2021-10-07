@@ -67,6 +67,7 @@ app-misc/homeassistant:bt_home_hub_5 - Offers presence detection by looking at c
 app-misc/homeassistant:bt_smarthub - Presence detection by looking at BT Smart Hub based routers
 app-misc/homeassistant:buienradar - Integrate buienradar weather data into Home Assistant
 app-misc/homeassistant:caldav - Integrate a CalDAV (RFC4791) calendar in Home Assistant
+app-misc/homeassistant:camera - The camera integration allows you to use IP cameras with Home Assistant
 app-misc/homeassistant:canary - Allows you to integrate your Canary devices from Home Assistant
 app-misc/homeassistant:cast - Let Home Assitant talk to Google Chromecast
 app-misc/homeassistant:cisco_mobility_express - ciscomobilityexpress support for Home Assistant
@@ -1081,8 +1082,10 @@ app-misc/homeassistant-min:androidtv - Library for controlling an Android TV, fo
 app-misc/homeassistant-min:axis - Communicating with newer devices from Axis Communications
 app-misc/homeassistant-min:bluetooth_le_tracker - Tracks Bluetooth low-energy devices periodically based on interval_seconds value
 app-misc/homeassistant-min:caldav - Integrate a CalDAV (RFC4791) calendar in Home Assistant
+app-misc/homeassistant-min:camera - The camera integration allows you to use IP cameras with Home Assistant
 app-misc/homeassistant-min:cast - Let Home Assitant talk to Google Chromecast
 app-misc/homeassistant-min:cli - Set a dependency for Home Assistant Cli hass-cli (lots of modules required)
+app-misc/homeassistant-min:co2signal - Queries the CO2Signal API for the CO2 intensity of a specific region
 app-misc/homeassistant-min:compensation - Compensation integration consumes the state from other sensors
 app-misc/homeassistant-min:coronavirus - Add sensors for COVID-19 infections from Johns Hopkins University
 app-misc/homeassistant-min:darksky - Use dark sky weather data from Home Assistant
