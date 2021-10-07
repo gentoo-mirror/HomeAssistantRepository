@@ -742,7 +742,7 @@ dev-python/pyjsparser 2.7.1: Fast javascript parser (based on esprima.js)
 dev-python/pyjwt 1.7.1-r1: JSON Web Token implementation in Python
 dev-python/pykira 0.1.1: Communicate with Kira IR-IP modules
 dev-python/pykmtronic 0.0.3 0.3.0: Python library to interface with KM Tronic Web Relays
-dev-python/pykodi 0.2.5 0.2.6: An async python interface for Kodi over JSON-RPC.
+dev-python/pykodi 0.2.5 0.2.6-r1: An async python interface for Kodi over JSON-RPC.
 dev-python/pykrakenapi 0.1.8 0.2.1: A Python implementation of the Kraken API.
 dev-python/pykulersky 0.4.0 0.5.2: Library to control Brightech Kuler Sky Bluetooth LED smart lamps
 dev-python/pykwb 0.0.8 0.0.10: KWB Easyfire serial library, for inclusion into homeassistant
