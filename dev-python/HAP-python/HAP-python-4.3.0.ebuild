@@ -7,21 +7,23 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Get the latest Home Assistant version from various sources."
-HOMEPAGE="https://github.com/ludeeus/pyhaversion https://pypi.org/project/pyhaversion/"
+DESCRIPTION="HomeKit Accessory Protocol implementation in python"
+HOMEPAGE="https://github.com/ikalchev/HAP-python https://pypi.org/project/HAP-python/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 arm arm64 x86 amd64-linux ~x86-linux"
 IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]
-	dev-python/async_timeout[${PYTHON_USEDEP}]
-	>=dev-python/awesomeversion-21.2.3[${PYTHON_USEDEP}]"
-BDEPEND="
+RDEPEND="dev-python/cryptography[${PYTHON_USEDEP}]
+	dev-python/zeroconf[${PYTHON_USEDEP}]
+	dev-python/h11[${PYTHON_USEDEP}]
+	dev-python/base36[${PYTHON_USEDEP}]
+	dev-python/pyqrcode[${PYTHON_USEDEP}]"
+DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
