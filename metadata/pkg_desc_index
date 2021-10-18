@@ -315,7 +315,7 @@ dev-python/eebrightbox 0.0.4: Connector for EE BrightBox routers.
 dev-python/elgato 2.0.1 2.1.0 2.1.1: Asynchronous Python client for Elgato Key Lights.
 dev-python/eliqonline 1.2.2: Eliq Online API Library
 dev-python/elkm1-lib 0.8.10 1.0.0: Library for interacting with ElkM1 alarm/automation panel.
-dev-python/emoji 0.5.4 1.2.0: Emoji for Python
+dev-python/emoji 1.2.0 1.5.0: Emoji for Python
 dev-python/emulated-roku 0.2.1: Library to emulate a roku server to serve as a proxyfor remotes such as Harmony
 dev-python/enocean 0.50.1: EnOcean serial protocol implementation
 dev-python/enturclient 0.2.1 0.2.2: An API client for public transport data from Entur.
