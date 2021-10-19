@@ -393,7 +393,7 @@ app-misc/homeassistant-full:coolmaster - The coolmaster climate platform lets yo
 app-misc/homeassistant-full:coronavirus - Add sensors for COVID-19 infections from Johns Hopkins University
 app-misc/homeassistant-full:cppm_tracker - Detect presence by looking at connected devices to Aruba Clearpass
 app-misc/homeassistant-full:cpuspeed - The cpuspeed sensor platform to allow you to monitor the current CPU speed
-app-misc/homeassistant-full:crownstone - 
+app-misc/homeassistant-full:crownstone - allows you to control your Crownstones via cloud or using a USB dongle
 app-misc/homeassistant-full:cups - Using the open source printing system CUPS to show details about your printers
 app-misc/homeassistant-full:daikin - Integrate Daikin wireless controllers into Home Assistant
 app-misc/homeassistant-full:danfoss_air - The danfoss_air integration accesses information from your Danfoss Air HRV unit
@@ -1035,7 +1035,7 @@ app-misc/homeassistant-full:watttime - Cloud based Climate Trace Service
 app-misc/homeassistant-full:waze_travel_time - waze_travel_time sensor provides travel time from the Waze
 app-misc/homeassistant-full:webostv - allows you to control a LG webOS Smart TV
 app-misc/homeassistant-full:wemo - discover and control WeMo devices
-app-misc/homeassistant-full:whirlpool - 
+app-misc/homeassistant-full:whirlpool - integrates Whirlpool 6th Sense Live appliances
 app-misc/homeassistant-full:whois - perform daily WHOIS lookups
 app-misc/homeassistant-full:wiffi - allows you to connect your STALL WIFFI devices directly
 app-misc/homeassistant-full:wilight - The wilight integration is to integrate WiLight devices with Home Assistant
