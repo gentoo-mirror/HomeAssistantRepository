@@ -7,9 +7,11 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A simple Python API for Tile Bluetooth trackers"
-HOMEPAGE="https://github.com/bachya/pytile https://pypi.org/project/pytile/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+DESCRIPTION="Asynchronous Python wrapper library over Bond Local API"
+HOMEPAGE="https://github.com/prystupa/bond-api https://pypi.org/project/bond-api/"
+MY_PN=${PN//-/_}
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}/${MY_PN}-${PV}"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,8 +20,8 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]"
-BDEPEND="
+RDEPEND=">=dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]"
+DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]

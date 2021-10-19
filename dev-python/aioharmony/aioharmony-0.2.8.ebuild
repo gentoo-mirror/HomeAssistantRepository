@@ -7,19 +7,21 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A simple Python API for Tile Bluetooth trackers"
-HOMEPAGE="https://github.com/bachya/pytile https://pypi.org/project/pytile/"
+DESCRIPTION="Asyncio Python library for connecting to and controlling the Logitech Harmony"
+HOMEPAGE="https://github.com/ehendrix23/aioharmony https://pypi.org/project/aioharmony/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.md"
+DOCS="README.rst"
 
-RDEPEND=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]"
-BDEPEND="
+RDEPEND="dev-python/aiohttp
+	dev-python/async_timeout
+	dev-python/slixmpp"
+DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
