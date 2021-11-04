@@ -4,9 +4,9 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.11.0 1.12.0 1.14.0 1.15.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.8.8 2021.9.7 2021.10.4 2021.10.5 2021.10.6 2021.10.7 2021.11.0_beta4: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2021.8.8 2021.9.7 2021.10.4 2021.10.5 2021.10.6 2021.10.7 2021.11.0_beta4 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2021.8.8-r1 2021.9.7 2021.10.4 2021.10.5 2021.10.6 2021.10.7-r1 2021.11.0_beta4: Open-source home automation platform running on Python.
+app-misc/homeassistant 2021.8.8 2021.9.7 2021.10.4 2021.10.5 2021.10.6 2021.10.7 2021.11.0_beta4 2021.11.0: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2021.8.8 2021.9.7 2021.10.4 2021.10.5 2021.10.6 2021.10.7 2021.11.0_beta4 2021.11.0 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2021.8.8-r1 2021.9.7 2021.10.4 2021.10.5 2021.10.6 2021.10.7-r1 2021.11.0_beta4 2021.11.0: Open-source home automation platform running on Python.
 dev-embedded/esphome 2021.8.2 2021.9.0 2021.9.2 2021.9.3 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20210617.1 20210623.0 20210719.0 20210728.0 20210908.0 20210927.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -126,6 +126,7 @@ dev-python/aiokef 0.2.16: Asyncio Python API for KEF speakers.
 dev-python/aiolifx 0.6.9 0.6.10 0.7.0: API for local communication with LIFX devices over a LAN with asyncio.
 dev-python/aiolifx-effects 0.2.2: aiolifx light effects
 dev-python/aiolip 1.0.1 1.1.4 1.1.6: Async Lutron Integration Protocol
+dev-python/aiolookin 0.0.3: Client for interaction of the LOOKin device with the Home Assistant
 dev-python/aiolyric 1.0.5 1.0.6 1.0.7: AIO package for the Honeywell Lyric Platform.
 dev-python/aiomcache 0.6.0: Minimal pure python memcached client
 dev-python/aiomodernforms 0.1.8: Asynchronous Python client for Modern Forms fans.
@@ -514,7 +515,7 @@ dev-python/meteofrance-api 1.0.1 1.0.2: Python client for Meteo-France API.
 dev-python/mficlient 0.3.0: A remote control client for Ubiquiti's mFi system
 dev-python/micloud 0.3 0.4: Xiaomi cloud connect library
 dev-python/miflora 0.7.0: Library to read data from Mi Flora sensor
-dev-python/millheater 0.5.0 0.5.2 0.6.0 0.6.1 0.6.2 0.7.3 0.8.0: A python3 library to communicate with Mill
+dev-python/millheater 0.5.0 0.5.2 0.6.1 0.6.2 0.7.3 0.7.4 0.8.1: A python3 library to communicate with Mill
 dev-python/miniaudio 1.44: python bindings for the miniaudio library and its decoders (mp3, flac, ogg vorbis, wav)
 dev-python/minio 4.0.9 5.0.1: MinIO Python Library for Amazon S3 Compatible Cloud Storage for Python
 dev-python/mitemp-bt 0.0.3: Library to read data from Mi Temperature and Humidity Sensor (V2)
@@ -732,7 +733,7 @@ dev-python/pyhomematic 0.1.71 0.1.73 0.1.74 0.1.76: Homematic interface
 dev-python/pyhomeworks 0.0.6: Lutron Homeworks Series 4 and 8 interface over Ethernet
 dev-python/pyialarm 0.3 1.5 1.7 1.8.1 1.9.0: A simple library to interface with iAlarm systems, built for use with Home-Assistant
 dev-python/pyicloud 0.10.2: PyiCloud is a module which allows pythonistas to interact with iCloud webservices.
-dev-python/pyinsteon 1.0.9 1.0.11 1.0.12: Python API for controlling Insteon devices
+dev-python/pyinsteon 1.0.9 1.0.11 1.0.12 1.0.13: Python API for controlling Insteon devices
 dev-python/pyintesishome 1.7.5 1.7.6: A python3 library for running asynchronus communications with IntesisHome Smart AC Controllers
 dev-python/pyipma 2.0.5: Library to retrieve information from Instituto Portuguges do Mar e Atmosfera.
 dev-python/pyipp 0.10.1 0.11.0: Asynchronous Python client for Internet Printing Protocol (IPP).
