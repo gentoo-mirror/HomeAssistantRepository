@@ -640,7 +640,7 @@ app-misc/homeassistant-full:litejet - allows a computer to control the system vi
 app-misc/homeassistant-full:litterrobot - Wi-Fi-enabled, automatic, self-cleaning litter box for cats
 app-misc/homeassistant-full:logi_circle - integrate your Logi Circle cameras in Home Assistant
 app-misc/homeassistant-full:london_underground - display the status of London underground lines
-app-misc/homeassistant-full:lookin - 
+app-misc/homeassistant-full:lookin - Integrates LOOKin devices into Home Assistant
 app-misc/homeassistant-full:loopenergy - Integrate your Loop Energy meter information into Home Assistant
 app-misc/homeassistant-full:luci - fetch connected devices from your OpenWrt
 app-misc/homeassistant-full:luftdaten - query the open data API of luftdaten.info to monitor air quality
