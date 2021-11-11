@@ -2,7 +2,7 @@ acct-group/esphome 0: ESPHome Dashboard group
 acct-group/homeassistant 0: Homeassistant program group
 acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
-app-crypt/acme 1.11.0 1.12.0 1.14.0 1.15.0: An implementation of the ACME protocol
+app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/homeassistant 2021.8.8 2021.9.7 2021.10.7 2021.11.0 2021.11.1 2021.11.2: Open-source home automation platform running on Python.
 app-misc/homeassistant-full 2021.8.8 2021.9.7 2021.10.7 2021.11.0 2021.11.1 2021.11.2 9999: Open-source home automation platform running on Python.
@@ -408,7 +408,7 @@ dev-python/ha-philipsjs 2.7.3 2.7.4 2.7.5: jointSPACE API for Home-Assistant
 dev-python/haanna 0.14.3 0.15.0: Plugwise Anna API to use in conjunction with Home Assistant.
 dev-python/habitipy 0.2.0 0.3.0: tools and library for Habitica restful API (https://habitica.com)
 dev-python/hangups 0.4.10 0.4.11 0.4.14: the first third-party instant messaging client for Google Hangouts
-dev-python/hass-nabucasa 0.44.0-r1 0.46.0 0.50.0: Home Assistant cloud integration by Nabu Casa, Inc.
+dev-python/hass-nabucasa 0.44.0-r1 0.46.0 0.50.0 0.50.0-r1: Home Assistant cloud integration by Nabu Casa, Inc.
 dev-python/hass-splunk 0.1.0 0.1.1: Async single threaded connector to Splunk HEC using an asyncio session
 dev-python/haversine 2.1.2 2.3.1: Calculate the distance between 2 points on Earth.
 dev-python/hbmqtt 0.9.5: MQTT client/broker using Python 3.4 asyncio library
