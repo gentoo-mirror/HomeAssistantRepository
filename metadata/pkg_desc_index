@@ -4,9 +4,9 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.8.8 2021.9.7 2021.10.7 2021.11.0 2021.11.1 2021.11.2: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2021.8.8 2021.9.7 2021.10.7 2021.11.0 2021.11.1 2021.11.2 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2021.8.8-r1 2021.9.7 2021.10.7-r1 2021.11.0 2021.11.1 2021.11.2: Open-source home automation platform running on Python.
+app-misc/homeassistant 2021.8.8 2021.9.7 2021.10.7 2021.11.0 2021.11.1 2021.11.2 2021.11.3: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2021.8.8 2021.9.7 2021.10.7 2021.11.0 2021.11.1 2021.11.2 2021.11.3 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2021.8.8-r1 2021.9.7 2021.10.7-r1 2021.11.0 2021.11.1 2021.11.2 2021.11.3: Open-source home automation platform running on Python.
 dev-embedded/esphome 2021.8.2 2021.9.2 2021.9.3 2021.10.3 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20210728.0 20210908.0 20211021.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.1 3.2: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -403,6 +403,7 @@ dev-python/grpc-google-iam-v1 0.12.3: GRPC library for the google-iam-v1 service
 dev-python/grpcio 1.31.0: High-performance RPC framework (python libraries)
 dev-python/gstreamer-player 1.1.2: Python 3 wrapper for playing media via gstreamer
 dev-python/guppy3 3.1.0: Guppy 3 -- Guppy-PE ported to Python 3
+dev-python/ha-av 8.0.3 8.0.4_rc1: Pythonic bindings for FFmpeg's libraries.
 dev-python/ha-ffmpeg 2.0 3.0.2: A library that handling with ffmpeg for home-assistant
 dev-python/ha-philipsjs 2.7.3 2.7.4 2.7.5: jointSPACE API for Home-Assistant
 dev-python/haanna 0.14.3 0.15.0: Plugwise Anna API to use in conjunction with Home Assistant.
