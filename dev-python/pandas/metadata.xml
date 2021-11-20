@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">PyJWT</remote-id>
+    <remote-id type="pypi">pandas</remote-id>
     <maintainer status="unknown">
-      <email>hello@jpadilla.com</email>
-      <name>Jose Padilla</name>
+      <email>pandas-dev@python.org</email>
+      <name>The Pandas Development Team</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
