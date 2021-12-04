@@ -1,14 +1,14 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="An async python interface for Kodi over JSON-RPC."
-HOMEPAGE="https://github.com/OnFreund/PyKodi https://pypi.org/project/pykodi/"
+DESCRIPTION="A Python3, async-friendly library for Flo by Moen Smart Water Detectors"
+HOMEPAGE="https://github.com/bachya/aioflo https://pypi.org/project/aioflo/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,10 +18,7 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/jsonrpc-base[${PYTHON_USEDEP}]
-	>=dev-python/jsonrpc-async-2.0.0[${PYTHON_USEDEP}]
-	>=dev-python/jsonrpc-websocket-3.0.0[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

@@ -1,14 +1,14 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
-PYTHON_COMPAT=( python3_{6..9} )
+PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A python interface to the iZone airconditioner controller"
-HOMEPAGE="https://github.com/Swamp-Ig/pizone https://pypi.org/project/python-izone/"
+DESCRIPTION="Python API client for Jellyfin"
+HOMEPAGE="https://github.com/iwalton3/jellyfin-apiclient-python https://pypi.org/project/jellyfin-apiclient-python/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-3"
@@ -18,14 +18,15 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.4[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/urllib3[${PYTHON_USEDEP}]
+	dev-python/websocket-client[${PYTHON_USEDEP}]
+	dev-python/six[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/aiounittest[${PYTHON_USEDEP}]
 	)"
 
 python_test() {

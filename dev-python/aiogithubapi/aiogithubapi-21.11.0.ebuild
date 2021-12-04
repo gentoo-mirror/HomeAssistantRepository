@@ -1,24 +1,26 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python module to talk to Philips Hue."
-HOMEPAGE="https://github.com/balloob/aiohue https://pypi.org/project/aiohue/"
+DESCRIPTION="Asynchronous Python client for the GitHub API"
+HOMEPAGE="https://github.com/ludeeus/aiogithubapi https://pypi.org/project/aiogithubapi/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 arm arm64 x86 amd64-linux x86-linux"
+KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]
+	dev-python/async_timeout[${PYTHON_USEDEP}]
+	>=dev-python/backoff-1.10.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

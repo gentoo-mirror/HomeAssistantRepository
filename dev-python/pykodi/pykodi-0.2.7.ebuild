@@ -1,31 +1,31 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python API for interacting with ESPHome devices."
-HOMEPAGE="https://github.com/esphome/aioesphomeapi https://esphome.io/ https://pypi.org/project/aioesphomeapi/"
+DESCRIPTION="An async python interface for Kodi over JSON-RPC."
+HOMEPAGE="https://github.com/OnFreund/PyKodi https://pypi.org/project/pykodi/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 arm arm64 x86 amd64-linux x86-linux"
+KEYWORDS="amd64 arm arm64 x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.rst"
+DOCS="README.md"
 
-RDEPEND=">=dev-python/protobuf-python-3.12.2[${PYTHON_USEDEP}]
-	>=dev-python/zeroconf-0.32.0[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/jsonrpc-async-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonrpc-websocket-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/pylint[${PYTHON_USEDEP}]
 	)"
 
 python_test() {
