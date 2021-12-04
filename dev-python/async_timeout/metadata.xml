@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">brunt</remote-id>
+    <remote-id type="pypi">async-timeout</remote-id>
     <maintainer status="unknown">
-      <email>edvan@microsoft.com</email>
-      <name>E.A. van Valkenburg</name>
+      <email>andrew.svetlov@gmail.com</email>
+      <name>Andrew Svetlov &lt;andrew.svetlov@gmail.com&gt;</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

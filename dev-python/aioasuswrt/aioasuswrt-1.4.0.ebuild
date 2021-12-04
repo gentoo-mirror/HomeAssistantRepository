@@ -1,14 +1,14 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A clean, async-friendly library for the Ambient Weather API"
-HOMEPAGE="https://github.com/bachya/aioambient https://pypi.org/project/aioambient/"
+DESCRIPTION="Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/"
+HOMEPAGE="https://github.com/kennedyshead/aioasuswrt https://pypi.org/project/aioasuswrt/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,15 +18,16 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/python-socketio[${PYTHON_USEDEP}]
-	dev-python/python-engineio[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
-BDEPEND="
+RDEPEND="dev-python/asyncssh[${PYTHON_USEDEP}]"
+BDEPEND="dev-python/pytest-runner[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
+	dev-python/setuptools-markdown[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-cov[${PYTHON_USEDEP}]
+		dev-python/pytest-mock[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	)"
 
 python_test() {

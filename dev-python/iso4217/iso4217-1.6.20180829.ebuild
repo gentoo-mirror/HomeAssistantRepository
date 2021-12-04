@@ -7,19 +7,18 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Provides a python interface to interact with a Emby media server."
-HOMEPAGE="https://github.com/mezz64/pyemby https://pypi.org/project/pyEmby/"
+DESCRIPTION="ISO 4217 currency data package for Python"
+HOMEPAGE="https://github.com/dahlia/iso4217 https://pypi.org/project/iso4217/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Public Domain"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.md"
+DOCS=""
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async_timeout[${PYTHON_USEDEP}]"
+RDEPEND=""
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

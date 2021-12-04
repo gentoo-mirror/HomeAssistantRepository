@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">brunt</remote-id>
+    <remote-id type="pypi">pybalboa</remote-id>
     <maintainer status="unknown">
-      <email>edvan@microsoft.com</email>
-      <name>E.A. van Valkenburg</name>
+      <email>root@garbled.net</email>
+      <name>Tim Rightnour, Nathan Spencer</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

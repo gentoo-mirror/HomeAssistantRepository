@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Provides a python interface to interact with a Emby media server."
-HOMEPAGE="https://github.com/mezz64/pyemby https://pypi.org/project/pyEmby/"
+DESCRIPTION="A python3 library to communicate with Adax"
+HOMEPAGE="https://github.com/Danielhiversen/pyAdax https://pypi.org/project/adax/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -16,10 +16,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.md"
+DOCS=""
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async_timeout[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.0.6[${PYTHON_USEDEP}]
+	>=dev-python/async_timeout-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

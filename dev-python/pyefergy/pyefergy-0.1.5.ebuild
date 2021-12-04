@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Provides a python interface to interact with a Emby media server."
-HOMEPAGE="https://github.com/mezz64/pyemby https://pypi.org/project/pyEmby/"
+DESCRIPTION="An API library for Efergy energy meters."
+HOMEPAGE="https://github.com/tkdrob/pyefergy https://pypi.org/project/pyefergy/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,8 +18,9 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async_timeout[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.4.4[${PYTHON_USEDEP}]
+	>=dev-python/iso4217-1.2.20150619[${PYTHON_USEDEP}]
+	dev-python/pytz[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
