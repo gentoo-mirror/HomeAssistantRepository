@@ -1,14 +1,14 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
-PYTHON_COMPAT=( python3_{7..9} )
+PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Define module-level imports."
-HOMEPAGE="http://github.com/cgtobi/PyRMVtransport https://pypi.org/project/PyRMVtransport/"
+DESCRIPTION="Asynchronous Python client providing RDW vehicle information."
+HOMEPAGE="https://github.com/frenck/python-vehicle https://pypi.org/project/vehicle/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,9 +18,9 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/async_timeout[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.8.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

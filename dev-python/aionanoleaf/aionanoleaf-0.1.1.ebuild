@@ -1,24 +1,24 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Interface for Pentair ScreenLogic connected pool controllers over IP via Python"
-HOMEPAGE="https://github.com/dieselrabbit/screenlogicpy https://pypi.org/project/screenlogicpy/"
+DESCRIPTION="Async Python package for the Nanoleaf API"
+HOMEPAGE="https://github.com/milanmeu/aionanoleaf https://pypi.org/project/aionanoleaf/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="LGPL-3+"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=""
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
