@@ -432,10 +432,10 @@ dev-python/homematicip 0.13.1 1.0.1: An API for the homematicip cloud
 dev-python/homepluscontrol 0.0.5: Python-based API to interact with the Legrand Home + Control interface
 dev-python/horimote 0.4.1: Async API wrapper for Samsumgs set-top boxes SMT-G7400 and SMT-G7401.
 dev-python/hstspreload 2020.7.22: Chromium HSTS Preload list as a Python package and updated daily
-dev-python/httpcore 0.9.1 0.12.0 0.12.3: A minimal low-level HTTP client.
+dev-python/httpcore 0.14.3: A minimal low-level HTTP client
 dev-python/httplib2 0.10.3-r1 0.18.1 0.19.0-r1: A comprehensive HTTP client library
 dev-python/httpsig 1.3.0: Secure HTTP request signing using the HTTP Signature draft specification
-dev-python/httpx 0.16.1 0.17.1 0.18.0: Fully-featured HTTP client which provides sync and async APIs
+dev-python/httpx 0.21.0: Fully-featured HTTP client which provides sync and async APIs
 dev-python/huawei-lte-api 1.4.17 1.4.18: API For huawei LAN/WAN LTE Modems
 dev-python/huisbaasje-client 0.1.0: Client for Huisbaasje
 dev-python/hyper 0.7.0: HTTP/2 Client for Python
