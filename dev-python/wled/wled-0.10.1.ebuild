@@ -1,33 +1,34 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Library implementing EZSP"
-HOMEPAGE="https://github.com/zigpy/bellows https://pypi.org/project/bellows/"
+DESCRIPTION="Asynchronous Python client for WLED."
+HOMEPAGE="https://github.com/frenck/python-wled https://pypi.org/project/wled/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86 amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/click[${PYTHON_USEDEP}]
-	>=dev-python/click-log-0.2.1[${PYTHON_USEDEP}]
-	~dev-python/pure-pcapy3-1.0.1[${PYTHON_USEDEP}]
-	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
-	>=dev-python/zigpy-0.34.0[${PYTHON_USEDEP}]"
-BDEPEND="${REDEPEND}
+DOCS="README.md"
+
+RDEPEND=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/awesomeversion-21.10.1[${PYTHON_USEDEP}]
+	>=dev-python/backoff-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]"
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
+	dev-python/packaging[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	)"
 
 python_test() {
