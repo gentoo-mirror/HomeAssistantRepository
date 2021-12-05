@@ -1,14 +1,14 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
-PYTHON_COMPAT=( python3_{6..8} )
+PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Asynchronous Python client for Twente Milieu API."
-HOMEPAGE="https://github.com/frenck/python-twentemilieu https://pypi.org/project/twentemilieu/"
+DESCRIPTION="Python 3 package to interface devices from STALL WIFFI."
+HOMEPAGE="https://github.com/mampfes/python-wiffi https://pypi.org/project/wiffi/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,9 +18,8 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.0.0
-	dev-python/yarl"
-BDEPEND="${REDEPEND}
+RDEPEND=""
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]

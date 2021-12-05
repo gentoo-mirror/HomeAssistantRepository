@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pytradfri</remote-id>
+    <remote-id type="pypi">tololib</remote-id>
     <maintainer status="unknown">
-      <email>no@email.com</email>
-      <name>balloob, lwis, ggravlingen, janiversen</name>
+      <email>mail@mlohr.com</email>
+      <name>Matthias Lohr</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

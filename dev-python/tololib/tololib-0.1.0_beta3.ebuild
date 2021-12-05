@@ -1,15 +1,17 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
-PYTHON_COMPAT=( python3_{8..9} )
+PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Interface Library for Venstar ColorTouch Thermostat API v5"
-HOMEPAGE="https://github.com/hpeyerl/venstar_colortouch https://pypi.org/project/venstarcolortouch/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+DESCRIPTION="Python Library for Controlling TOLO Sauna/Steam Bath Devices"
+HOMEPAGE="https://gitlab.com/MatthiasLohr/tololib https://pypi.org/project/tololib/"
+MY_P="${PN}-${PV/_beta/b}"
+SRC_URI="mirror://pypi/${P:0:1}/${PN}/${MY_P}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}/${MY_P}"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,7 +20,7 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/requests-2.14.1[${PYTHON_USEDEP}]"
+RDEPEND=""
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

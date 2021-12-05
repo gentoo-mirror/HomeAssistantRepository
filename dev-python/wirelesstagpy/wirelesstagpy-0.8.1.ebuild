@@ -1,14 +1,14 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python API wrapper for Uptime Robot."
-HOMEPAGE="https://github.com/ludeeus/pyuptimerobot https://pypi.org/project/pyuptimerobot/"
+DESCRIPTION="Simple python wrapper over wirelesstags REST API"
+HOMEPAGE="https://github.com/sergeymaysak/wirelesstagpy/ https://pypi.org/project/wirelesstagpy/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,14 +18,13 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]
-	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
-	<=dev-python/async_timeout-3.0.1[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/requests-2.18.4[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/aiounittest[${PYTHON_USEDEP}]
 	)"
 
 python_test() {
