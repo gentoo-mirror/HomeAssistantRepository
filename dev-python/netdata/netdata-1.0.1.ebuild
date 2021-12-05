@@ -1,25 +1,26 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
-PYTHON_COMPAT=( python3_{6..9} )
+PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A utility for mocking out the Python HTTPX and HTTP Core libraries."
-HOMEPAGE="https://lundberg.github.io/respx/ https://pypi.org/project/respx/"
+DESCRIPTION="Python API for interacting with Netdata."
+HOMEPAGE="https://github.com/fabaff/python-netdata https://pypi.org/project/netdata/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="BSD"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.md"
+DOCS="README.rst"
 
-RDEPEND=">=dev-python/httpx-0.15[${PYTHON_USEDEP}]"
-BDEPEND="${REDEPEND}
+RDEPEND=">=dev-python/httpx-0.19.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.7.0[${PYTHON_USEDEP}]"
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
