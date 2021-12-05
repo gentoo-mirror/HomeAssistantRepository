@@ -1,24 +1,26 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A library to communicate with Switchbot"
-HOMEPAGE="https://github.com/Danielhiversen/pySwitchbot/ https://pypi.org/project/PySwitchbot/"
+DESCRIPTION="SoCo (Sonos Controller) is a simple library to control Sonos speakers."
+HOMEPAGE="https://github.com/SoCo/SoCo https://pypi.org/project/soco/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 arm arm64 x86 amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.md"
+DOCS="README.rst"
 
-RDEPEND="dev-python/bluepy[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/xmltodict[${PYTHON_USEDEP}]
+	dev-python/ifaddr[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

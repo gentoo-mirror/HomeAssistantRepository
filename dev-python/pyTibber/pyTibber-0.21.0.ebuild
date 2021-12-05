@@ -1,14 +1,14 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
-PYTHON_COMPAT=( python3_{7..9} )
+PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="AIO package for the Honeywell Lyric Platform."
-HOMEPAGE="https://github.com/timmo001/aiolyric https://pypi.org/project/aiolyric/"
+DESCRIPTION="A python3 library to communicate with Tibber"
+HOMEPAGE="https://github.com/Danielhiversen/pyTibber https://pypi.org/project/pyTibber/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,7 +18,11 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.7.3[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.0.6[${PYTHON_USEDEP}]
+	>=dev-python/async_timeout-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/graphql-subscription-manager-0.4.0[${PYTHON_USEDEP}]
+	dev-python/pytz[${PYTHON_USEDEP}]
+	dev-python/python-dateutil[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

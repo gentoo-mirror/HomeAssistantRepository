@@ -1,14 +1,14 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A python3 library to communicate with Tibber"
-HOMEPAGE="https://github.com/Danielhiversen/pyTibber https://pypi.org/project/pyTibber/"
+DESCRIPTION="A light weight Python library for the Spotify Web API"
+HOMEPAGE="https://spotipy.readthedocs.org/ https://github.com/plamere/spotipy/ https://pypi.org/project/spotipy/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,12 +18,11 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.0.6[${PYTHON_USEDEP}]
-	>=dev-python/async_timeout-1.4.0[${PYTHON_USEDEP}]
-	>=dev-python/graphql-subscription-manager-0.4.0[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
-BDEPEND="
+RDEPEND=">=dev-python/redis-3.5.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]"
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
