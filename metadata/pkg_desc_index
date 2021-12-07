@@ -119,7 +119,7 @@ dev-python/aioguardian 1.0.4 1.0.8 2021.11.0: A Python3 library for Elexa Guardi
 dev-python/aioharmony 0.2.7 0.2.8: Asyncio Python library for connecting to and controlling the Logitech Harmony
 dev-python/aiohomekit 0.6.2 0.6.3 0.6.4: An asyncio HomeKit client
 dev-python/aiohttp 3.6.1 3.7.3 3.7.4_p0: http client/server for asyncio
-dev-python/aiohue 2.6.1 2.6.3 3.0.1: Python module to talk to Philips Hue.
+dev-python/aiohue 2.6.1 2.6.3 3.0.1 3.0.2: Python module to talk to Philips Hue.
 dev-python/aioimaplib 0.7.15 0.9.0: Python asyncio IMAP4rev1 client library
 dev-python/aiokafka 0.6.0: Kafka integration with asyncio.
 dev-python/aiokef 0.2.16: Asyncio Python API for KEF speakers.
@@ -154,7 +154,7 @@ dev-python/aiounittest 1.4.0: Test asyncio code more easily.
 dev-python/aiovlc 0.1.0: A package for talking to vlc over its telnet interface using asyncio.
 dev-python/aiowatttime 0.1.1: An asyncio-based Python3 library for interacting with WattTime
 dev-python/aiowwlln 2.0.2: A simple Python API for the WWLLN
-dev-python/aioymaps 1.1.0 1.2.1: Async client for Yandex Maps
+dev-python/aioymaps 1.1.0 1.2.1 1.2.2: Async client for Yandex Maps
 dev-python/airly 0.0.2 0.0.2-r1 1.0.0 1.1.0: Python wrapper for getting air quality data from Airly sensors.
 dev-python/airthings-cloud 0.0.1 0.1.0: A python3 library to communicate with Airthings devices
 dev-python/airtouch4pyapi 1.0.5: An api allowing control of AC state (temperature, on/off, mode) of an Airtouch 4 controller locally over TCP
@@ -327,7 +327,7 @@ dev-python/enturclient 0.2.1 0.2.2: An API client for public transport data from
 dev-python/enum-compat 0.0.3: enum/enum34 compatibility package
 dev-python/env-canada 0.2.5 0.5.14 0.5.18: A package to access meteorological data from Environment Canada
 dev-python/envirophat 0.0.6 1.0.1: Enviro pHAT environmental sensor board driver
-dev-python/envoy-reader 0.18.3 0.18.4 0.19.0 0.20.0: A program to read from an Enphase Envoy on the local network
+dev-python/envoy-reader 0.19.0 0.20.0 0.20.1: A program to read from an Enphase Envoy on the local network
 dev-python/envoy-utils 0.0.1: Python utilities for the Enphase Envoy
 dev-python/envs 1.2.6 1.3: Easy access env variables with strings, booleans, list, tuples, and dicts.
 dev-python/ephem 3.7.7.0 3.7.7.1 4.0.0.2: Compute positions of the planets and stars
@@ -353,7 +353,7 @@ dev-python/flake8 3.7.9 3.8.4-r1: A wrapper around PyFlakes, pep8 & mccabe
 dev-python/flake8-docstrings 1.3.0 1.6.0: Extension for flake8 which uses pydocstyle to check docstrings
 dev-python/flatten-json 0.1.7: Flatten JSON objects
 dev-python/flipr-api 1.4.1: Python client for flipr API.
-dev-python/flux-led 0.22 0.24.17 0.24.24 0.25.10 0.25.16: A Python library to communicate with the flux_led smart bulbs
+dev-python/flux-led 0.22 0.24.17 0.24.24 0.25.16 0.25.17: A Python library to communicate with the flux_led smart bulbs
 dev-python/fnvhash 0.1.0: Pure Python FNV hash implementation
 dev-python/foobot_async 1.0.0: API Client for Foobot Air Quality Monitoring devices.
 dev-python/forecast-solar 1.3.1 2.0.0 2.1.0: Asynchronous Python client for getting forecast solar information
@@ -391,7 +391,7 @@ dev-python/google-api-python-client 1.6.4: Google API Client for Python
 dev-python/google-auth 1.22.0 1.22.1: Google Authentication Library
 dev-python/google-cloud-pubsub 2.1.0: Google Cloud Pub/Sub API client library
 dev-python/google-cloud-texttospeech 0.4.0 2.5.2: Google Cloud Text-to-Speech API client library
-dev-python/google-nest-sdm 0.3.6 0.3.8 0.4.0 0.4.2: Library for the Google Nest SDM API
+dev-python/google-nest-sdm 0.3.6 0.3.8 0.4.0 0.4.2 0.4.4: Library for the Google Nest SDM API
 dev-python/googlemaps 2.5.1 3.0.2: Python client library for Google Maps API Web Services
 dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud API
 dev-python/gpiozero 1.5.0-r1 1.5.1-r1: A simple interface to GPIO devices with Raspberry Pi.
@@ -427,7 +427,7 @@ dev-python/hkdf 0.0.3: HMAC-based Extract-and-Expand Key Derivation Function (HK
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.5.1 0.7.0: Python API for interacting with *hole.
 dev-python/holidays 0.11.1 0.11.2 0.11.3.1: Generate and work with holidays in Python
-dev-python/home-assistant-frontend 20210830.0 20211007.1 20211108.0 20211109.0 20211203.0: The Home Assistant frontend
+dev-python/home-assistant-frontend 20210830.0 20211007.1 20211108.0 20211109.0 20211203.0 20211206.0: The Home Assistant frontend
 dev-python/homeassistant-pyozw 0.1.10: python_openzwave is a python wrapper for the openzwave c++ library.
 dev-python/homeconnect 0.6.3: Python client for the BSH Home Connect REST API
 dev-python/homekit-python 0.15.0: HomeKit Python
@@ -1011,7 +1011,7 @@ dev-python/sharp_aquos_rc 0.3.2: Control Sharp Aquos SmartTVs through the IP int
 dev-python/shodan 1.25.0: Python library and command-line utility for Shodan (https://developer.shodan.io)
 dev-python/simplehound 0.3: Unofficial python API for Sighthound
 dev-python/simplepush 1.1.4: Simplepush python library
-dev-python/simplisafe-python 11.0.6 11.0.7 12.0.2 2021.11.2: A Python3, async interface to the SimpliSafe API
+dev-python/simplisafe-python 11.0.6 11.0.7 12.0.2 2021.11.2 2021.12.0: A Python3, async interface to the SimpliSafe API
 dev-python/sisyphus-control 2.2.1-r1 3.0: Control your Sisyphus kinetic art tables (sisyphus-industries.com)
 dev-python/skybellpy 0.6.3: An Skybell HD Python library running on Python 3.
 dev-python/slackclient 2.5.0: Slack API clients for Web API and RTM API
