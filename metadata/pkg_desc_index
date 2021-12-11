@@ -283,6 +283,7 @@ dev-python/crownstone-sse 2.0.2 2.0.3: Asynchronous Python library that listens 
 dev-python/crownstone-uart 2.1.0: 
 dev-python/cryptography 3.4.8 35.0.0: Library providing cryptographic recipes and primitives
 dev-python/csrmesh 0.10.0: Reverse engineered implementation of the CSRMesh bridge protocol
+dev-python/csv23 0.3.2-r1: Python 2/3 unicode CSV compatibility layer
 dev-python/curve25519-donna 1.3-r1: Implementations of a fast Elliptic-curve Diffie-Hellman primitive
 dev-python/custom-inherit 2.2.2: A Python package that provides customized docstring inheritance schemes between derived classes and their parents.
 dev-python/dacite 1.6.0: Simple creation of data classes from dictionaries.
@@ -609,7 +610,7 @@ dev-python/piglow 1.2.4 1.2.5: Drive the Pimoroni PiGlow board, based on the sn3
 dev-python/pigpio 1.35 1.45 1.78: Raspberry Pi GPIO module
 dev-python/pilight 0.1.1: Pure python module to connect to a pilight daemon to send and receive commands.
 dev-python/pillow 8.2.0: Python Imaging Library (fork)
-dev-python/pip 19.0.2: Installs python packages -- replacement for easy_install
+dev-python/pip 20.2.4: Installs python packages -- replacement for easy_install
 dev-python/pipdeptree 1.0.0 2.1.0 2.2.0: Command line utility to show dependency tree of packages
 dev-python/pizzapi 0.0.3 0.0.6: A Python wrapper for the Dominos Pizza API
 dev-python/pkce 1.0.3: PKCE Pyhton generator.
@@ -1132,6 +1133,7 @@ dev-python/venstarcolortouch 0.14 0.15: Interface Library for Venstar ColorTouch
 dev-python/vigilancemeteo 3.0.0 3.0.1: Python API to get active weather alerts from https://vigilance.meteofrance.com/
 dev-python/vilfo-api-client 0.3.2-r1: Simple wrapper client for the Vilfo router API
 dev-python/vincenty 0.1.4: Calculate the geographical distance between 2 points with extreme accuracy.
+dev-python/virtualenv 16.7.10-r1: Virtual Python Environment builder
 dev-python/vol 0.1.1: volume control in the shell for your mac
 dev-python/volkszaehler 0.2.1: Python Wrapper for interacting with the Volkszahler API.
 dev-python/voluptuous-serialize 2.4.0: Experiment to convert voluptuous schemas to JSON
