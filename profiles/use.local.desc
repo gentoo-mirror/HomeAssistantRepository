@@ -337,7 +337,7 @@ app-misc/homeassistant-full:awair - Library to integrate the Awair GraphQL API i
 app-misc/homeassistant-full:aws - Interact with Amazon Web Services
 app-misc/homeassistant-full:axis - Communicating with newer devices from Axis Communications
 app-misc/homeassistant-full:baidu - Text-to-speech platform uses Baidu TTS engine to read a text with natural soundi
-app-misc/homeassistant-full:balboa - 
+app-misc/homeassistant-full:balboa - This integration adds support for Balboa Spa WiFi Modules
 app-misc/homeassistant-full:bbb_gpio - Base for all BeagleBone Black related GPIO platforms
 app-misc/homeassistant-full:bbox - Presence detection from Bbox Modem Router from Bouygues Telecom
 app-misc/homeassistant-full:beewi_smartclim - BeeWi SmartClim BLE is a Bluetooth Low Energy sensor device
@@ -368,7 +368,7 @@ app-misc/homeassistant-full:bsblan - This integration integrates BSBLan device i
 app-misc/homeassistant-full:bt_home_hub_5 - Offers presence detection by looking at connected devices to a BT Home
 app-misc/homeassistant-full:bt_smarthub - Presence detection by looking at BT Smart Hub based routers
 app-misc/homeassistant-full:buienradar - Integrate buienradar weather data into Home Assistant
-app-misc/homeassistant-full:button - 
+app-misc/homeassistant-full:button - A button entity is an entity that can fire an event towards a device or service
 app-misc/homeassistant-full:caldav - Integrate a CalDAV (RFC4791) calendar in Home Assistant
 app-misc/homeassistant-full:camera - The camera integration allows you to use IP cameras with Home Assistant
 app-misc/homeassistant-full:canary - Allows you to integrate your Canary devices from Home Assistant
@@ -410,7 +410,7 @@ app-misc/homeassistant-full:deluge - Local polling for Deluge Switches and Senso
 app-misc/homeassistant-full:denonavr - Automation Library for Denon AVR receivers
 app-misc/homeassistant-full:deutsche_bahn - will give you the departure time of the next train for the given connection
 app-misc/homeassistant-full:devolo_home_control - Add Devolo Home-control to Home Assistant
-app-misc/homeassistant-full:devolo_home_network - 
+app-misc/homeassistant-full:devolo_home_network - The devolo Home Network integration allows you to monitor your PLC network
 app-misc/homeassistant-full:dexcom - View your CGM data from Dexcom from Home Assistant
 app-misc/homeassistant-full:dhcp - will watch the network for DHCP requests for supported devices and services
 app-misc/homeassistant-full:dht - Get the current temperature and humidity from a DHT11, DHT22 or AM2302 device
@@ -473,7 +473,7 @@ app-misc/homeassistant-full:essent - communicate with the (undocumented) API of 
 app-misc/homeassistant-full:etherscan - displays Ether and ERC-20 token balances from Etherscan.io
 app-misc/homeassistant-full:eufy - eufy integration is the main integration to integrate various eufy devices
 app-misc/homeassistant-full:everlights - Library for controlling an EverLights lighting system
-app-misc/homeassistant-full:evil_genius_labs - 
+app-misc/homeassistant-full:evil_genius_labs - allows you to control and monitor the artworks by Evil Genius Labs
 app-misc/homeassistant-full:evohome - links with all non-US Honeywell Total Connect Comfort (TCC) CH/DHW systems
 app-misc/homeassistant-full:ezviz - ezviz sensor platform uses the EzvizLife API to interact with the devices
 app-misc/homeassistant-full:faa_delays - delays at US Airports based on the FAA’s National Airspace System Status
@@ -607,7 +607,7 @@ app-misc/homeassistant-full:iss - know if the station is above your home locatio
 app-misc/homeassistant-full:isy994 - controller that is capable of controlling Insteon and X10 devices
 app-misc/homeassistant-full:itach - control IR devices with a Global Caché iTach Device and GC-100 devices
 app-misc/homeassistant-full:izone - control of a local iZone ducted reverse-cycle climate control device
-app-misc/homeassistant-full:jellyfin - 
+app-misc/homeassistant-full:jellyfin - exposes a Jellyfin server as a Media Source in Home Assistant
 app-misc/homeassistant-full:jewish_calendar - jewish_calendar
 app-misc/homeassistant-full:joaoapps_join - joaoapps_join integration exposes services from Join
 app-misc/homeassistant-full:juicenet - pulls data from a JuiceNet charging station
@@ -821,7 +821,7 @@ app-misc/homeassistant-full:rainforest_eagle - platform for Rainforest Automatio
 app-misc/homeassistant-full:rainmachine - integrate all platforms related to RainMachine smart Wi-Fi sprinkler controllers
 app-misc/homeassistant-full:raspihats - The base for all related Raspihats platforms in Home Assistant
 app-misc/homeassistant-full:raspyrfm - adds support for cheap RC 433 MHz outlets via one of the supported gateways
-app-misc/homeassistant-full:rdw - 
+app-misc/homeassistant-full:rdw - looks up any dutch registered vehicle by its license plate
 app-misc/homeassistant-full:recollect_waste - track the next scheduled waste pickup and what type of waste from Recollect
 app-misc/homeassistant-full:recorder - storing details in a database per sqlalchemy
 app-misc/homeassistant-full:recswitch - allows you to control the Ankuoo REC Switch devices from Home Assistant
@@ -834,7 +834,7 @@ app-misc/homeassistant-full:repetier - Repetier-Server is a 3D printer/CNC serve
 app-misc/homeassistant-full:rest - rest sensor platform for data exposed by a RESTful API
 app-misc/homeassistant-full:rflink - The rflink integration supports devices that use RFLink gateway firmware
 app-misc/homeassistant-full:rfxtrx - supports RFXtrx 433 MHz devices by RFXCOM
-app-misc/homeassistant-full:ridwell - 
+app-misc/homeassistant-full:ridwell - allows users to track waste recycling pickups scheduled with Ridwell
 app-misc/homeassistant-full:ring - integrate your ring.com devices
 app-misc/homeassistant-full:ripple - The ripple sensor platform displays Ripple wallet balances from Ripple.com
 app-misc/homeassistant-full:risco - This integration connects with Risco Alarms over Risco Cloud
@@ -953,7 +953,7 @@ app-misc/homeassistant-full:systemd - internal and developer use
 app-misc/homeassistant-full:systemmonitor - monitor your platform
 app-misc/homeassistant-full:tado - an interface to the my.tado.com website
 app-misc/homeassistant-full:tahoma - interface to the tahomalink.com website. It adds covers, scenes and a sun sensor
-app-misc/homeassistant-full:tailscale - 
+app-misc/homeassistant-full:tailscale - monitor and automate on the state of the devices in your Tailscale VPN
 app-misc/homeassistant-full:tank_utility - Add Tank Utility propane tank monitors to Home Assistant
 app-misc/homeassistant-full:tankerkoenig - monitor the fuel prices with tankerkoenig.de
 app-misc/homeassistant-full:tapsaff - provides the ‘Taps Aff’ status for a given location within the UK
@@ -965,7 +965,7 @@ app-misc/homeassistant-full:tellduslive - cloud platform that connects to your T
 app-misc/homeassistant-full:tellstick - integrates TellStick devices into Home Assistant
 app-misc/homeassistant-full:temper - get the current temperature from a TEMPer device
 app-misc/homeassistant-full:tesla - integration with the Tesla cloud service
-app-misc/homeassistant-full:tesla_wall_connector - 
+app-misc/homeassistant-full:tesla_wall_connector - allows you to integrate your Gen 3 Tesla Wall Connector with Wi-Fi
 app-misc/homeassistant-full:test - internal and developer use
 app-misc/homeassistant-full:tfiac - integrates several vendors air conditioning systems into Home Assistant
 app-misc/homeassistant-full:thermoworks_smoke - pulls data for your ThermoWorks Smoke Thermometer
@@ -977,7 +977,7 @@ app-misc/homeassistant-full:tile - API for Tile Bluetooth trackers
 app-misc/homeassistant-full:tmb - Library that interacts with TMB API
 app-misc/homeassistant-full:todoist - connect to your Todoist Projects and generate binary sensors
 app-misc/homeassistant-full:tof - uses an invisible laser to measure distance with millimeter resolution
-app-misc/homeassistant-full:tolo - 
+app-misc/homeassistant-full:tolo - allows you to control your TOLO Sauna and TOLO Steam Bath
 app-misc/homeassistant-full:toon - client for the Quby ToonAPI
 app-misc/homeassistant-full:totalconnect - provides connectivity with the Honeywell TotalConnect alarm systems
 app-misc/homeassistant-full:touchline - lets you control ROTH Touchline floor heating thermostats
