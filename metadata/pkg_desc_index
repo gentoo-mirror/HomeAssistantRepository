@@ -468,7 +468,7 @@ dev-python/ismartgate 4.0.0 4.0.4: iSmartGate and GogoGate2 API
 dev-python/iso4217 1.6.20180829: ISO 4217 currency data package for Python
 dev-python/jdatetime 3.4.0: Jalali datetime binding for python
 dev-python/jellyfin-apiclient-python 1.7.2: Python API client for Jellyfin
-dev-python/jinja 2.10.3 2.11.2-r1: A full-featured template engine for Python
+dev-python/jinja 3.0.2: A full-featured template engine for Python
 dev-python/jmespath 0.9.4: JSON Matching Expressions
 dev-python/jsonpath 0.82: An XPath for JSON
 dev-python/jsonpath-ng 1.5.1 1.5.2: A final implementation of JSONPath for Python that aims to be standard compliant, including arithmetic and binary comparison operators and providing clear AST for metaprogramming.
@@ -1168,7 +1168,7 @@ dev-python/ya-ma 0.3.8: YANDEX transport API client library
 dev-python/yahooweather 0.10: a Python module that provides an interface to the Yahoo! Weather RSS feed.
 dev-python/yalesmartalarmclient 0.1.6 0.3.3 0.3.4: Interact with Yale Smart Alarm systems
 dev-python/yalexs 1.1.10 1.1.11 1.1.13: Python API for Yale Access (formerly August) Smart Lock and Doorbell
-dev-python/yarl 1.4.2 1.6.3: Yet another URL library
+dev-python/yarl 1.6.3-r1: Yet another URL library
 dev-python/yeelight 0.6.3 0.7.4 0.7.6 0.7.7 0.7.8: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
 dev-python/youless-api 0.12 0.13 0.14 0.15: A bridge for python to the YouLess sensor
