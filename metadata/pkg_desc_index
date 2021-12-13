@@ -4,9 +4,9 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.10.7 2021.11.3 2021.11.5 2021.12.0_beta6 2021.12.0_beta7 2021.12.0: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2021.10.7 2021.11.3 2021.11.5 2021.12.0_beta6 2021.12.0_beta7 2021.12.0 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2021.10.7-r1 2021.11.3 2021.11.5 2021.12.0_beta6 2021.12.0_beta7 2021.12.0: Open-source home automation platform running on Python.
+app-misc/homeassistant 2021.10.7 2021.11.5 2021.12.0_beta6 2021.12.0_beta7 2021.12.0 2021.12.1: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2021.10.7 2021.11.5 2021.12.0_beta6 2021.12.0_beta7 2021.12.0 2021.12.1 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2021.10.7-r1 2021.11.5 2021.12.0_beta6 2021.12.0_beta7 2021.12.0 2021.12.1: Open-source home automation platform running on Python.
 dev-embedded/esphome 2021.8.2 2021.9.3-r1 2021.10.3 2021.11.1-r1 2021.11.4 2021.12.0 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20210728.0 20210908.0 20211021.0 20211021.1 20211211.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.1 3.2: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -119,7 +119,7 @@ dev-python/aioguardian 1.0.4 1.0.8 2021.11.0: A Python3 library for Elexa Guardi
 dev-python/aioharmony 0.2.7 0.2.8: Asyncio Python library for connecting to and controlling the Logitech Harmony
 dev-python/aiohomekit 0.6.2 0.6.3 0.6.4: An asyncio HomeKit client
 dev-python/aiohttp 3.6.1 3.7.3 3.7.4_p0: http client/server for asyncio
-dev-python/aiohue 2.6.1 2.6.3 3.0.1 3.0.2: Python module to talk to Philips Hue.
+dev-python/aiohue 2.6.3 3.0.1 3.0.2 3.0.3: Python module to talk to Philips Hue.
 dev-python/aioimaplib 0.7.15 0.9.0: Python asyncio IMAP4rev1 client library
 dev-python/aiokafka 0.6.0: Kafka integration with asyncio.
 dev-python/aiokef 0.2.16: Asyncio Python API for KEF speakers.
@@ -136,7 +136,7 @@ dev-python/aionotify 0.2.0: Asyncio-powered inotify library
 dev-python/aionotion 1.1.0 3.0.2: A simple Python 3 library for Notion Home Monitoring
 dev-python/aionursery 0.3.0: Manage background asyncio tasks
 dev-python/aiopulse 0.4.2 0.4.3: Python module for Rollease Acmeda Automate integration.
-dev-python/aiopvapi 1.6.14: Powerview blinds API wrapper
+dev-python/aiopvapi 1.6.14 1.6.19: Powerview blinds API wrapper
 dev-python/aiopvpc 2.2.0 2.2.1 2.2.4 2.3.0: Retrieval of Spanish Electricity hourly prices (PVPC)
 dev-python/aiopylgtv 0.3.3 0.4.0: Library to control webOS based LG TV devices.
 dev-python/aiorecollect 1.0.5 1.0.7 1.0.8: A Python 3, asyncio-based library for the ReCollect Waste API
@@ -392,7 +392,7 @@ dev-python/google-api-python-client 1.6.4: Google API Client for Python
 dev-python/google-auth 1.22.0 1.22.1: Google Authentication Library
 dev-python/google-cloud-pubsub 2.1.0: Google Cloud Pub/Sub API client library
 dev-python/google-cloud-texttospeech 0.4.0 2.5.2: Google Cloud Text-to-Speech API client library
-dev-python/google-nest-sdm 0.3.6 0.3.8 0.4.4 0.4.5: Library for the Google Nest SDM API
+dev-python/google-nest-sdm 0.3.6 0.3.8 0.4.5 0.4.6: Library for the Google Nest SDM API
 dev-python/googlemaps 2.5.1 3.0.2: Python client library for Google Maps API Web Services
 dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud API
 dev-python/gpiozero 1.5.0-r1 1.5.1-r1: A simple interface to GPIO devices with Raspberry Pi.
@@ -428,7 +428,7 @@ dev-python/hkdf 0.0.3: HMAC-based Extract-and-Expand Key Derivation Function (HK
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.5.1 0.7.0: Python API for interacting with *hole.
 dev-python/holidays 0.11.1 0.11.2 0.11.3.1: Generate and work with holidays in Python
-dev-python/home-assistant-frontend 20211007.1 20211109.0 20211209.0 20211211.0: The Home Assistant frontend
+dev-python/home-assistant-frontend 20211007.1 20211109.0 20211209.0 20211211.0 20211212.0: The Home Assistant frontend
 dev-python/homeassistant-pyozw 0.1.10: python_openzwave is a python wrapper for the openzwave c++ library.
 dev-python/homeconnect 0.6.3: Python client for the BSH Home Connect REST API
 dev-python/homekit-python 0.15.0: HomeKit Python
