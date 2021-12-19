@@ -494,7 +494,7 @@ dev-python/libpyfoscam 1.0 1.1: Python Library for Foscam IP Cameras
 dev-python/libpyvivotek 0.4.0: Python Library for Vivotek IP Cameras
 dev-python/librouteros 3.0.0 3.2.0: Python implementation of MikroTik RouterOS API
 dev-python/libsoundtouch 0.8.0: Bose Soundtouch Python library
-dev-python/libusb1 1.7-r1: Pure-python wrapper for libusb-1.0
+dev-python/libusb1 2.0.1: Pure-python wrapper for libusb-1.0
 dev-python/life360 4.0.0 4.0.1 4.1.1: Life360 Communications Module
 dev-python/liffylights 0.9.4: LIFX Python library
 dev-python/lightify 1.0.7.3: A library to work with OSRAM lightify.
