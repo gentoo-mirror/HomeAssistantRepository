@@ -7,20 +7,21 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Retreive values from public API at trafikverket in sweden."
-HOMEPAGE="https://github.com/endor-force/pytrafikverket https://pypi.org/project/pytrafikverket/"
+DESCRIPTION="Bose Soundtouch Python library"
+HOMEPAGE="https://github.com/CharlesBlonde/libsoundtouch http://libsoundtouch.readthedocs.io https://pypi.org/project/libsoundtouch/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS=""
+DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async_timeout[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/enum-compat-0.0.2[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-0.40.0[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.19.1[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
