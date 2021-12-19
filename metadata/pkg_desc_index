@@ -1056,7 +1056,7 @@ dev-python/starlingbank 3.2: Python package that provides access to parts of the
 dev-python/statsd 3.2.1: A simple statsd client.
 dev-python/stdiomask 0.0.6: A cross-platform Python module for entering passwords to a stdio terminal and displaying a **** mask, which getpass cannot do.
 dev-python/stdlib-list 0.7.0 0.8.0: A list of Python Standard Libraries (2.6-7, 3.2-9).
-dev-python/steamodd 4.21 4.22: High level Steam API implementation with low level reusable core
+dev-python/steamodd 4.21: High level Steam API implementation with low level reusable core
 dev-python/stookalert 0.1.4: Stookalert package
 dev-python/streamlabswater 1.0.1: Unofficial Python library for the Streamlabs Water API
 dev-python/stringcase 1.2.0: String case converter.
