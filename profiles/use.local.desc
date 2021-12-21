@@ -115,6 +115,7 @@ app-misc/homeassistant:fritzbox - Allows you to integrate the switch and climate
 app-misc/homeassistant:fritzbox_callmonitor - monitors the call monitor exposed by AVM FRITZ!Box routers on TCP port 1012
 app-misc/homeassistant:fritzbox_netmonitor - sensor monitors the network statistics exposed by AVM FRITZ!Box routers
 app-misc/homeassistant:fronius - Add (very basic) Support for Fronius Symo JSON Api to Home Assistant
+app-misc/homeassistant:frontend - official frontend to control Home Assistant
 app-misc/homeassistant:garmin_connect - The Garmin Connect sensor allows you to expose data from Garmin Connect
 app-misc/homeassistant:gios - Source for air quality data for Home Assistant
 app-misc/homeassistant:github - GitHub sensor integrates data from GitHub to monitor your favorite repositories
@@ -144,7 +145,7 @@ app-misc/homeassistant:intesishome - communications with IntesisHome Smart AC Co
 app-misc/homeassistant:ipma - ipma weather platform
 app-misc/homeassistant:ipp - read current data from your networked printer
 app-misc/homeassistant:islamic_prayer_times - integration displays the various prayer times for Muslims as sensors
-app-misc/homeassistant:jewish_calendar - jewish_calendar
+app-misc/homeassistant:jewish_calendar - Displays information related to the Jewish Calendar as a variety of sensors
 app-misc/homeassistant:joaoapps_join - joaoapps_join integration exposes services from Join
 app-misc/homeassistant:kef - KEF wireless speakers
 app-misc/homeassistant:knx - Asynchronous Library for the KNX protocol
@@ -157,7 +158,7 @@ app-misc/homeassistant:loopenergy - Integrate your Loop Energy meter information
 app-misc/homeassistant:luci - fetch connected devices from your OpenWrt
 app-misc/homeassistant:luftdaten - query the open data API of luftdaten.info to monitor air quality
 app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
-app-misc/homeassistant:media_extractor - support for youtube_dl
+app-misc/homeassistant:media_extractor - Gets a stream URL and sends it to a media player entity
 app-misc/homeassistant:meteo_france - uses the meteorological data from Meteo-France
 app-misc/homeassistant:mfi - sensor platform to allow you to monitor mFi mPort interface and sensors
 app-misc/homeassistant:miflora - miflora sensor platform allows one to monitor plant soil and air conditions
@@ -175,6 +176,7 @@ app-misc/homeassistant:notify_events - The Notify.Events service is a platform f
 app-misc/homeassistant:nuki - control Nuki Smart Locks
 app-misc/homeassistant:nws - uses the National Weather Service web API
 app-misc/homeassistant:nx584 - NX584/NX8E Interface Library and Server
+app-misc/homeassistant:octoprint - The main integration to integrate OctoPrint sensors
 app-misc/homeassistant:onkyo - allows you to control a Onkyo, Integra and some recent Pioneer receivers
 app-misc/homeassistant:opengarage - opengarage cover platform lets you control the open-source OpenGarage.io device
 app-misc/homeassistant:opensensemap - query the open data API of openSenseMap.org air quality sensor station
@@ -230,7 +232,8 @@ app-misc/homeassistant:ssl - include support for haproxy
 app-misc/homeassistant:statsd - transfer all state changes to an external StatsD instance
 app-misc/homeassistant:synology_dsm - monitor getting various statistics from your Synology NAS
 app-misc/homeassistant:systemd - internal and developer use
-app-misc/homeassistant:systemmonitor - monitor your platform
+app-misc/homeassistant:systemmonitor - Allows you to monitor disk usage, memory usage, CPU usage, and running processes
+app-misc/homeassistant:tankerkoenig - monitor the fuel prices with tankerkoenig.de
 app-misc/homeassistant:tasmota - Python module to help parse and construct Tasmota MQTT messages
 app-misc/homeassistant:tellduslive - cloud platform that connects to your Tellstick
 app-misc/homeassistant:tesla - integration with the Tesla cloud service
@@ -446,6 +449,7 @@ app-misc/homeassistant-full:eddystone_temperature - reads temperature informatio
 app-misc/homeassistant-full:edimax - switch platform allows you to control the state of your Edimax switches
 app-misc/homeassistant-full:edl21 - edl21 integration lets you read German EDL21 smart meters using SML
 app-misc/homeassistant-full:ee_brightbox - presence detection by looking at connected devices to a EE Bright Box 2 router
+app-misc/homeassistant-full:efergy - Integrate your Efergy meter information into Home Assistant
 app-misc/homeassistant-full:egardia - Control an Egardia/Woonveilig alarm control panel from Home Assistant
 app-misc/homeassistant-full:eight_sleep - Fetch data from your Eight Sleep smart cover or mattress
 app-misc/homeassistant-full:elgato - The Elgato Key Light sets the bar for high-end studio lighting
@@ -512,6 +516,7 @@ app-misc/homeassistant-full:fritzbox - Allows you to integrate the switch and cl
 app-misc/homeassistant-full:fritzbox_callmonitor - monitors the call monitor exposed by AVM FRITZ!Box routers on TCP port 1012
 app-misc/homeassistant-full:fritzbox_netmonitor - sensor monitors the network statistics exposed by AVM FRITZ!Box routers
 app-misc/homeassistant-full:fronius - Add (very basic) Support for Fronius Symo JSON Api to Home Assistant
+app-misc/homeassistant-full:frontend - official frontend to control Home Assistant
 app-misc/homeassistant-full:frontier_silicon - Support for Internet Radios based on the Frontier Silicon chipset
 app-misc/homeassistant-full:futurenow - Allows you to use P5 FutureNow relay/dimmer units as lights
 app-misc/homeassistant-full:garages_amsterdam - measure the occupancy of Amsterdam parking garages in the Netherlands
@@ -608,7 +613,7 @@ app-misc/homeassistant-full:isy994 - controller that is capable of controlling I
 app-misc/homeassistant-full:itach - control IR devices with a Global Caché iTach Device and GC-100 devices
 app-misc/homeassistant-full:izone - control of a local iZone ducted reverse-cycle climate control device
 app-misc/homeassistant-full:jellyfin - exposes a Jellyfin server as a Media Source in Home Assistant
-app-misc/homeassistant-full:jewish_calendar - jewish_calendar
+app-misc/homeassistant-full:jewish_calendar - Displays information related to the Jewish Calendar as a variety of sensors
 app-misc/homeassistant-full:joaoapps_join - joaoapps_join integration exposes services from Join
 app-misc/homeassistant-full:juicenet - pulls data from a JuiceNet charging station
 app-misc/homeassistant-full:kaiterra - view the readings from your Laser Egg or Sensedge device
@@ -663,7 +668,7 @@ app-misc/homeassistant-full:matrix - allows you to send messages to matrix rooms
 app-misc/homeassistant-full:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant-full:mazda - Mazda Connected Services integration
 app-misc/homeassistant-full:mcp23017 - base for all related mcp23017 platforms in Home Assistant
-app-misc/homeassistant-full:media_extractor - support for youtube_dl
+app-misc/homeassistant-full:media_extractor - Gets a stream URL and sends it to a media player entity
 app-misc/homeassistant-full:mediaroom - control a Mediaroom Set-Top Box (STB) from Home Assistant
 app-misc/homeassistant-full:melcloud - Python MELCloud interface
 app-misc/homeassistant-full:melissa - main integration to connect to a Melissa Climate A/C control
@@ -745,6 +750,7 @@ app-misc/homeassistant-full:nx584 - NX584/NX8E Interface Library and Server
 app-misc/homeassistant-full:nzbget - monitor and control your downloads with NZBGet
 app-misc/homeassistant-full:oasa_telematics - bus and trolley arrival times for Greek public transport for Athens
 app-misc/homeassistant-full:obihai - view the call status for your Obihai devices
+app-misc/homeassistant-full:octoprint - The main integration to integrate OctoPrint sensors
 app-misc/homeassistant-full:oem - ESP8266 based “WiFi MQTT Relay / Thermostat” sold by OpenEnergyMonitor
 app-misc/homeassistant-full:ohmconnect - show you the current OhmConnect status for the given OhmConnect ID
 app-misc/homeassistant-full:ombi - The Ombi integration monitors data from your Ombi instance
@@ -950,7 +956,7 @@ app-misc/homeassistant-full:synology_dsm - monitor getting various statistics fr
 app-misc/homeassistant-full:synology_srm - detect presence by looking at connected devices to a Synology SRM router
 app-misc/homeassistant-full:system_bridge - System Bridge runs on your local machine to share system information via its AP
 app-misc/homeassistant-full:systemd - internal and developer use
-app-misc/homeassistant-full:systemmonitor - monitor your platform
+app-misc/homeassistant-full:systemmonitor - Allows you to monitor disk usage, memory usage, CPU usage, and running processes
 app-misc/homeassistant-full:tado - an interface to the my.tado.com website
 app-misc/homeassistant-full:tahoma - interface to the tahomalink.com website. It adds covers, scenes and a sun sensor
 app-misc/homeassistant-full:tailscale - monitor and automate on the state of the devices in your Tailscale VPN
@@ -1105,6 +1111,7 @@ app-misc/homeassistant-min:enigma2 - Support for Enigma2 boxes with openwebif su
 app-misc/homeassistant-min:esphome - Support for esphome sensors, covers and switches and it's dashboard
 app-misc/homeassistant-min:forecast_solar - Asynchronous Python client for getting forecast solar information
 app-misc/homeassistant-min:fronius - Add (very basic) Support for Fronius Symo JSON Api to Home Assistant
+app-misc/homeassistant-min:frontend - official frontend to control Home Assistant
 app-misc/homeassistant-min:github - GitHub sensor integrates data from GitHub to monitor your favorite repositories
 app-misc/homeassistant-min:homekit - Integrate HomeKit controller and accessory in Home Assistant
 app-misc/homeassistant-min:homekit_controller - Allows you to connect accessories with the “Works with HomeKit” logo
@@ -1122,6 +1129,7 @@ app-misc/homeassistant-min:myq - lets you control MyQ-Enabled garage doors
 app-misc/homeassistant-min:mysensors - combines devices like Arduino, ESP8266, Raspberry Pi, NRF24L01+ and RFM69
 app-misc/homeassistant-min:mysql - set dependencies to install MySQL Libraries for use with HomeAssistant
 app-misc/homeassistant-min:notify_events - The Notify.Events service is a platform for the notify component
+app-misc/homeassistant-min:octoprint - The main integration to integrate OctoPrint sensors
 app-misc/homeassistant-min:otp - generates One-Time Passwords according to RFC6238
 app-misc/homeassistant-min:owntracks - OwnTracks: track your location and send it directly to Home Assistant
 app-misc/homeassistant-min:ozw - Open Zwave MQTT
@@ -1146,7 +1154,8 @@ app-misc/homeassistant-min:speedtestdotnet - speedtest.net support
 app-misc/homeassistant-min:sql - enables you to use an SQL database supported by the sqlalchemy library
 app-misc/homeassistant-min:ssl - include support for haproxy
 app-misc/homeassistant-min:systemd - internal and developer use
-app-misc/homeassistant-min:systemmonitor - monitor your platform
+app-misc/homeassistant-min:systemmonitor - Allows you to monitor disk usage, memory usage, CPU usage, and running processes
+app-misc/homeassistant-min:tankerkoenig - monitor the fuel prices with tankerkoenig.de
 app-misc/homeassistant-min:tasmota - Python module to help parse and construct Tasmota MQTT messages
 app-misc/homeassistant-min:test - internal and developer use
 app-misc/homeassistant-min:tile - API for Tile Bluetooth trackers
