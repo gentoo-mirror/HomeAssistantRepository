@@ -476,9 +476,9 @@ dev-python/jsonpath 0.82: An XPath for JSON
 dev-python/jsonpath-ng 1.5.1 1.5.2: A final implementation of JSONPath for Python that aims to be standard compliant, including arithmetic and binary comparison operators and providing clear AST for metaprogramming.
 dev-python/jsonpath-rw 1.4.0: A robust and significantly extended implementation of JSONPath for Python.
 dev-python/jsonpickle 1.4.1-r1: Python library for serializing any arbitrary object graph into JSON
-dev-python/jsonrpc-async 1.1.1 2.0.0: A JSON-RPC client library for asyncio
-dev-python/jsonrpc-base 1.0 1.0.1 1.0.2 1.1.0 2.0.0: A JSON-RPC client library base interface
-dev-python/jsonrpc-websocket 0.6 1.0.1 1.2.0 1.2.1 3.0.0: A JSON-RPC websocket client library for asyncio
+dev-python/jsonrpc-async 2.0.0 2.1.0: A JSON-RPC client library for asyncio
+dev-python/jsonrpc-base 2.0.0 2.1.0: A JSON-RPC client library base interface
+dev-python/jsonrpc-websocket 3.0.0 3.1.1: A JSON-RPC websocket client library for asyncio
 dev-python/kaiterra-async-client 0.0.2: Kaiterra API Async Client
 dev-python/kconfiglib 13.7.1: A flexible Python Kconfig implementation
 dev-python/keba-kecontact 1.1.0: A python library to communicate with the KEBA charging stations via udp
@@ -760,7 +760,7 @@ dev-python/pyjsparser 2.7.1: Fast javascript parser (based on esprima.js)
 dev-python/pyjwt 1.7.1-r1 2.1.0: JSON Web Token implementation in Python
 dev-python/pykira 0.1.1: Communicate with Kira IR-IP modules
 dev-python/pykmtronic 0.0.3 0.3.0: Python library to interface with KM Tronic Web Relays
-dev-python/pykodi 0.2.6-r1 0.2.7: An async python interface for Kodi over JSON-RPC.
+dev-python/pykodi 0.2.7 0.2.7-r1: An async python interface for Kodi over JSON-RPC.
 dev-python/pykrakenapi 0.1.8 0.2.1: A Python implementation of the Kraken API.
 dev-python/pykulersky 0.4.0 0.5.2: Library to control Brightech Kuler Sky Bluetooth LED smart lamps
 dev-python/pykwb 0.0.8 0.0.10: KWB Easyfire serial library, for inclusion into homeassistant
