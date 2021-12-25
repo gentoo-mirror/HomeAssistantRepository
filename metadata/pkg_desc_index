@@ -295,7 +295,7 @@ dev-python/dateparser 0.7.1 1.0.0: Date parsing library designed to parse dates 
 dev-python/debugpy 1.4.1 1.4.3 1.5.0: An implementation of the Debug Adapter Protocol for Python
 dev-python/decora 0.6: Python API for controlling Decora dimmer switches
 dev-python/decora-wifi 1.4: Python API for controlling Leviton Decora Smart WiFi switches
-dev-python/deepmerge 0.1.0: a toolset to deeply merge python dictionaries.
+dev-python/deepmerge 1.0.1: a toolset to deeply merge python dictionaries.
 dev-python/deluge-client 1.7.1: Simple Deluge Client
 dev-python/demjson 2.2.4: encoder, decoder, and lint/validator for JSON (JavaScript Object Notation) compliant with RFC 7159
 dev-python/denonavr 0.9.10 0.10.8: Automation Library for Denon AVR receivers
@@ -750,7 +750,7 @@ dev-python/pyicloud 0.10.2: PyiCloud is a module which allows pythonistas to int
 dev-python/pyinsteon 1.0.9 1.0.11 1.0.12 1.0.13: Python API for controlling Insteon devices
 dev-python/pyintesishome 1.7.5 1.7.6: A python3 library for running asynchronus communications with IntesisHome Smart AC Controllers
 dev-python/pyipma 2.0.5: Library to retrieve information from Instituto Portuguges do Mar e Atmosfera.
-dev-python/pyipp 0.10.1 0.11.0: Asynchronous Python client for Internet Printing Protocol (IPP).
+dev-python/pyipp 0.11.0-r1: Asynchronous Python client for Internet Printing Protocol (IPP).
 dev-python/pyiqvia 1.0.0 1.1.0 2021.11.0: A clean, async-focused Python3 API for IQVIA data
 dev-python/pyirishrail 0.0.2: Python library to get the real-time transport information (RTPI) from Irish Rail
 dev-python/pyiss 1.0.1: A simple python3 library for info about the current International Space Station location
