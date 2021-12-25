@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="CircuitPython support for DHT11 and DHT22 type temperature/humidity devices"
-HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_DHT https://pypi.org/project/adafruit-circuitpython-dht/"
+DESCRIPTION="Retrieval of Spanish Electricity hourly prices (PVPC)"
+HOMEPAGE="https://github.com/azogue/aiopvpc https://pypi.org/project/aiopvpc/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -16,14 +16,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.rst"
+DOCS="README.md"
 
-RDEPEND="dev-python/Adafruit-Blinka[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
+	>=dev-python/async_timeout-3.0.1[${PYTHON_USEDEP}]
+	>=dev-python/holidays-0.11.1[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+		dev-python/pytest-timeout[${PYTHON_USEDEP}]
 	)"
 
 python_test() {

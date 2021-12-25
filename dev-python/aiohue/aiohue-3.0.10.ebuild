@@ -1,24 +1,24 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A simple Python API for Tile Bluetooth trackers"
-HOMEPAGE="https://github.com/bachya/pytile https://pypi.org/project/pytile/"
+DESCRIPTION="Python module to talk to Philips Hue."
+HOMEPAGE="https://github.com/home-assistant-libs/aiohue https://pypi.org/project/aiohue/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~arm64 x86 amd64-linux ~x86-linux"
+KEYWORDS="amd64 ~arm ~arm64 x86 amd64-linux x86-linux"
 IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

@@ -7,18 +7,18 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="CircuitPython support for DHT11 and DHT22 type temperature/humidity devices"
-HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_DHT https://pypi.org/project/adafruit-circuitpython-dht/"
+DESCRIPTION="An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/"
+HOMEPAGE="https://github.com/XKNX/xknx/ https://xknx.io/ https://pypi.org/project/xknx/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 ~arm ~arm64 x86 amd64-linux x86-linux"
 IUSE="test"
 
-DOCS="README.rst"
+DOCS="README.md"
 
-RDEPEND="dev-python/Adafruit-Blinka[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/netifaces-0.10.9"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

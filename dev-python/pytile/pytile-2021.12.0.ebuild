@@ -7,18 +7,18 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="CircuitPython support for DHT11 and DHT22 type temperature/humidity devices"
-HOMEPAGE="https://github.com/adafruit/Adafruit_CircuitPython_DHT https://pypi.org/project/adafruit-circuitpython-dht/"
+DESCRIPTION="A simple Python API for Tile Bluetooth trackers"
+HOMEPAGE="https://github.com/bachya/pytile https://pypi.org/project/pytile/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 ~arm ~arm64 x86 amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.rst"
+DOCS="README.md"
 
-RDEPEND="dev-python/Adafruit-Blinka[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
