@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.10.7 2021.11.5 2021.12.4 2021.12.5 2021.12.6 2021.12.7: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2021.10.7 2021.11.5 2021.12.4 2021.12.5 2021.12.6 2021.12.7 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2021.10.7-r1 2021.11.5 2021.12.4 2021.12.5 2021.12.6 2021.12.7: Open-source home automation platform running on Python.
+app-misc/homeassistant 2021.10.7 2021.11.5 2021.12.4 2021.12.5 2021.12.6 2021.12.7 2021.12.8: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2021.10.7 2021.11.5 2021.12.4 2021.12.5 2021.12.6 2021.12.7 2021.12.8 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2021.10.7-r1 2021.11.5 2021.12.4 2021.12.5 2021.12.6 2021.12.7 2021.12.8: Open-source home automation platform running on Python.
 dev-embedded/esphome 2021.10.3 2021.11.4 2021.12.1 2021.12.2 2021.12.3 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20210908.0 20211021.0 20211021.1 20211211.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.1 3.2: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -357,7 +357,7 @@ dev-python/flake8 3.7.9 3.8.4-r1: A wrapper around PyFlakes, pep8 & mccabe
 dev-python/flake8-docstrings 1.3.0 1.6.0: Extension for flake8 which uses pydocstyle to check docstrings
 dev-python/flatten-json 0.1.7: Flatten JSON objects
 dev-python/flipr-api 1.4.1: Python client for flipr API.
-dev-python/flux-led 0.22 0.24.24 0.27.8 0.27.13 0.27.21: A Python library to communicate with the flux_led smart bulbs
+dev-python/flux-led 0.22 0.24.24 0.27.8 0.27.13 0.27.21 0.27.32: A Python library to communicate with the flux_led smart bulbs
 dev-python/fnvhash 0.1.0: Pure Python FNV hash implementation
 dev-python/foobot_async 1.0.0: API Client for Foobot Air Quality Monitoring devices.
 dev-python/forecast-solar 1.3.1-r1 2.0.0-r1 2.1.0-r1: Asynchronous Python client for getting forecast solar information
@@ -401,7 +401,7 @@ dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud AP
 dev-python/gpiozero 1.5.0-r1 1.5.1-r1: A simple interface to GPIO devices with Raspberry Pi.
 dev-python/gps3 0.33.3: Python 2.7-3.5 clients for gpsd
 dev-python/graphql-subscription-manager 0.3.6 0.4.0: A python3 library for graphql subscription manager
-dev-python/greeclimate 0.11.8 0.12.3 0.12.5: Discover, connect and control Gree based minisplit systems
+dev-python/greeclimate 0.11.8 0.12.5 1.0.1: Discover, connect and control Gree based minisplit systems
 dev-python/greeneye-monitor 2.1: Receive data packets from GreenEye Monitor(https://www.brultech.com/greeneye/)
 dev-python/greenwavereality 0.5.1: Control of Greenwave Reality Lights
 dev-python/griddypower 0.1.0: Python API for Griddy Wholesale Electricity
@@ -523,7 +523,7 @@ dev-python/messagebird 1.2.0 1.5.0: MessageBird's REST API
 dev-python/meteoalertapi 0.1.6 0.2.0: A small api to get alerting messages from extreme weather in Europe from https://www.meteoalarm.org.
 dev-python/meteofrance-api 1.0.1 1.0.2: Python client for Meteo-France API.
 dev-python/mficlient 0.3.0: A remote control client for Ubiquiti's mFi system
-dev-python/micloud 0.3 0.4: Xiaomi cloud connect library
+dev-python/micloud 0.3 0.4 0.5: Xiaomi cloud connect library
 dev-python/miflora 0.7.0: Library to read data from Mi Flora sensor
 dev-python/mill-local 0.1.0: A python3 library to communicate with Mill
 dev-python/millheater 0.5.2 0.6.2 0.7.4 0.9.0: A python3 library to communicate with Mill
@@ -682,7 +682,7 @@ dev-python/pyalmond 0.0.2: Python module to talk to the Web Almond API.
 dev-python/pyarlo 0.2.3 0.2.4: Python Arlo is a library written in Python 2.7/3x that exposes the Netgear Arlo cameras as Python objects.
 dev-python/pyasn1 0.4.4 0.4.5 0.4.8: ASN.1 types and codecs
 dev-python/pyatag 0.3.4.4 0.3.5.3: Python module to talk to Atag One.
-dev-python/pyatmo 5.2.3 6.1.0 6.2.0: Simple API to access Netatmo weather station data from any Python 3 script. Designed for Home-Assitant (but not only)
+dev-python/pyatmo 6.1.0 6.2.0 6.2.2: Simple API to access Netatmo weather station data from any Python 3 script. Designed for Home Assistant (but not only)
 dev-python/pyatv 0.7.6 0.7.7 0.8.1 0.8.2: Library for controlling an Apple TV
 dev-python/pybalboa 0.13: Module to communicate with a Balboa spa wifi adapter
 dev-python/pybbox 0.0.5_alpha0: a simple python3 library for the Bouygues BBox Routeur API
@@ -892,7 +892,7 @@ dev-python/python-gc100 1.0.3_alpha0: A Python-based socket client for Global Ca
 dev-python/python-gitlab 1.6.0 1.13.0: Interact with GitLab API
 dev-python/python-hpilo 4.3: Accessing the HP iLO XML interface from python
 dev-python/python-http-client 3.3.1 3.3.2: HTTP REST client, simplified for Python
-dev-python/python-izone 1.1.6 1.1.8: A python interface to the iZone airconditioner controller
+dev-python/python-izone 1.1.6 1.1.8 1.2.3: A python interface to the iZone airconditioner controller
 dev-python/python-join-api 0.0.6: Python API for interacting with Join by joaoapps.
 dev-python/python-jose 1.0.0: A JavaScript Object Signing and Encryption (JOSE) implementation in Python
 dev-python/python-jose-cryptodome 1.3.2-r2: JOSE implementation in Python using pycryptodome
