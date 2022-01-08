@@ -631,7 +631,7 @@ dev-python/prawcore 2.3.0: Low-level communication layer for PRAW 4+.
 dev-python/prayer-times-calculator 0.0.5: Prayer Times Calculator
 dev-python/prayer_times_calculator 0.0.3: Prayer Times Calculator
 dev-python/proliphix 0.4.1 0.5.0: API for Proliphix nt10e network thermostat.
-dev-python/prometheus-client 0.7.1: Python client for the Prometheus monitoring system.
+dev-python/prometheus_client 0.7.1: Python client for the Prometheus monitoring system.
 dev-python/proto-plus 1.19.0: Beautiful, Pythonic protocol buffers.
 dev-python/protobuf-python 3.12.4 3.13.0-r1 3.14.0: Google's Protocol Buffers - Python bindings
 dev-python/proxmoxer 1.1.1: Python Wrapper for the Proxmox 2.x API (HTTP and SSH)
