@@ -1,14 +1,14 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Client for the LG Smart TV running NetCast 3 or 4."
-HOMEPAGE="https://github.com/Drafteed/python-lgnetcast https://pypi.org/project/pylgnetcast/"
+DESCRIPTION="An API to read the status of an intellifire wifi module"
+HOMEPAGE="https://github.com/jeeftor/intellifire4py https://pypi.org/project/intellifire4py/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,7 +18,8 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/pydantic[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

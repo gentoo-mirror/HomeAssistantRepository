@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python library to provide a reliable communication link with LightWaveRF lights, switches and TRVs."
-HOMEPAGE="https://github.com/GeoffAtHome/lightwave https://pypi.org/project/lightwave/"
+DESCRIPTION="Client for the LG Smart TV running NetCast 3 or 4."
+HOMEPAGE="https://github.com/Drafteed/python-lgnetcast https://pypi.org/project/pylgnetcast/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,7 +18,7 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=""
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

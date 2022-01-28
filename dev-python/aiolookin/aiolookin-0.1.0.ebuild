@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python library to provide a reliable communication link with LightWaveRF lights, switches and TRVs."
-HOMEPAGE="https://github.com/GeoffAtHome/lightwave https://pypi.org/project/lightwave/"
+DESCRIPTION="Client for interaction of the LOOKin device with the Home Assistant"
+HOMEPAGE="https://github.com/ANMalko/aiolookin https://pypi.org/project/aiolookin/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,7 +18,7 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=""
+RDEPEND=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
