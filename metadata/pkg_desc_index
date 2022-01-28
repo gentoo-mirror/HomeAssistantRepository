@@ -186,7 +186,7 @@ dev-python/asterisk_mbox 0.5.0: The client side of a client/server to interact w
 dev-python/astral 1.9.2 2.2: Calculations for the position of the sun and moon.
 dev-python/astroid 2.3.3 2.5.5: Abstract Syntax Tree for logilab packages
 dev-python/async-dns 1.1.10: Asynchronous DNS client and server
-dev-python/async-upnp-client 0.22.10 0.22.12 0.23.1: Async UPnP Client
+dev-python/async-upnp-client 0.22.10 0.22.12 0.23.1 0.23.4: Async UPnP Client
 dev-python/async_timeout 4.0.0: Timeout context manager for asyncio programs
 dev-python/asyncclick 8.0.1.3: Composable command line interface toolkit, async version
 dev-python/asyncio-dgram 1.0.1 1.2.0 2.1.0: Higher level Datagram support for Asyncio
@@ -312,9 +312,9 @@ dev-python/distro 1.4.0-r1 1.5.0: Reliable machine-readable Linux distribution i
 dev-python/dlib 19.18.0: A toolkit for making real world machine learning and data analysis applications
 dev-python/dlipower 0.7.165: Control digital loggers web power switch
 dev-python/dovado 0.4.1: Communicate with Dovado router
-dev-python/dsmr-parser 0.28 0.29 0.30: Library to parse Dutch Smart Meter Requirements (DSMR)
+dev-python/dsmr-parser 0.30 0.32: Library to parse Dutch Smart Meter Requirements (DSMR)
 dev-python/dtlssocket 0.1.11 0.1.12: DTLSSocket is a cython wrapper for tinydtls with a Socket like interface
-dev-python/dwdwfsapi 1.0.3 1.0.4: Python client to retrieve data provided by DWD via their geoserver WFS API
+dev-python/dwdwfsapi 1.0.4 1.0.5: Python client to retrieve data provided by DWD via their geoserver WFS API
 dev-python/dweepy 0.3.0: Dweepy is a Python client for dweet.io
 dev-python/dynalite 0.1.32: An unofficial Dynalite DyNET interface.
 dev-python/dynalite-devices 0.1.46: An unofficial Dynalite DyNET interface creating devices.
@@ -844,7 +844,7 @@ dev-python/pyruter 1.2.4: A module to get information about the next departure f
 dev-python/pysabnzbd 1.1.0: Python wrapper for SABnzbd API
 dev-python/pysaj 0.0.16: Library to communicate with SAJ inverters
 dev-python/pysensibo 1.0.3: asyncio-friendly python API for Sensibo
-dev-python/pyserial-asyncio 0.4-r1 0.5: Python Serial Port Extension - Asynchronous I/O support
+dev-python/pyserial-asyncio 0.5 0.6: Python Serial Port Extension - Asynchronous I/O support
 dev-python/pysesame2 1.0.1 1.0.2: Python API for Sesame Smartlock made by CANDY HOUSE, Inc.
 dev-python/pysiaalarm 3.0.0 3.0.1 3.0.2: Python package for creating a client that talks with SIA-based alarm systems.
 dev-python/pysignalclirestapi 0.3.4: Small python library for the Signal Cli REST API
@@ -854,7 +854,7 @@ dev-python/pysmappee 0.2.27 0.2.29: Offical Smappee dev API and MQTT python wrap
 dev-python/pysmartapp 0.3.3: A python library for building a SmartThings SmartApp
 dev-python/pysmartthings 0.7.6: A python library for interacting with the SmartThings cloud API build with asyncio and aiohttp.
 dev-python/pysmarty 0.8: Python API for Salda Smarty Modbus TCP
-dev-python/pysml 0.0.2 0.0.3 0.0.5: Library for EDL21 smart meters using Smart Message Language (SML)
+dev-python/pysml 0.0.5 0.0.7: Python library for EDL21 smart meters using Smart Message Language (SML)
 dev-python/pysnmp 4.4.12-r1: SNMP library for Python
 dev-python/pysoma 0.0.10: A simple package for controlling SOMA devices
 dev-python/pysonos 0.0.53: A SoCo fork with fixes for Home Assistant.
