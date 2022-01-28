@@ -327,6 +327,7 @@ dev-python/eebrightbox 0.0.4: Connector for EE BrightBox routers.
 dev-python/elgato 2.1.1 2.2.0 3.0.0: Asynchronous Python client for Elgato Lights.
 dev-python/eliqonline 1.2.2: Eliq Online API Library
 dev-python/elkm1-lib 0.8.10 1.0.0: Library for interacting with ElkM1 alarm/automation panel.
+dev-python/elmax-api 0.0.2: Asynchronous API Library to work with Elmax devices
 dev-python/emoji 1.5.0: Emoji for Python
 dev-python/emulated-roku 0.2.1: Library to emulate a roku server to serve as a proxyfor remotes such as Harmony
 dev-python/enocean 0.50.1: EnOcean serial protocol implementation
@@ -725,7 +726,7 @@ dev-python/pyeconet 0.1.12 0.1.13 0.1.14: Interface to the unofficial EcoNet API
 dev-python/pyedimax 0.2.1: Interface with Edimax Smart Plugs
 dev-python/pyefergy 0.1.5: An API library for Efergy energy meters.
 dev-python/pyelftools 0.25-r1: pure-Python library for analyzing ELF files and DWARF debugging information
-dev-python/pyenvisalink 4.0: Asynchronus communications with envisalink alarm control panel.
+dev-python/pyenvisalink 4.0 4.3: A python3 library for running asynchronus communications with envisalink alarm control panel modules.
 dev-python/pyephember 0.3.1: Python library to work with ember from EPH Controls
 dev-python/pyeverlights 0.1.0: A library for controlling an EverLights lighting system.
 dev-python/pyevilgenius 1.0.0: Python module to talk to Evil Genius Labs devices.
