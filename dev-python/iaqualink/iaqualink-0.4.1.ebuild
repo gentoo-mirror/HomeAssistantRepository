@@ -1,27 +1,27 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python API for interacting with Glances."
-HOMEPAGE="https://github.com/home-assistant-ecosystem/python-glances-api https://pypi.org/project/glances-api/"
+DESCRIPTION="Asynchronous library for Jandy iAqualink"
+HOMEPAGE="https://github.com/flz/iaqualink-py https://pypi.org/project/iaqualink/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.rst"
+DOCS="README.md"
 
-RDEPEND="dev-python/async_timeout[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
+	dev-python/pytest-runner
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
