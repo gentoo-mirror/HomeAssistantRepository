@@ -59,7 +59,7 @@ dev-python/PySwitchbot 0.12.0 0.13.0 0.13.2: A library to communicate with Switc
 dev-python/PySwitchmate 0.4.5 0.4.6: A library to communicate with Switchmate
 dev-python/PySyncThru 0.7.3 0.7.10: Automated JSON API based communication with Samsung SyncThru Web Service
 dev-python/PyTransportNSW 0.1.1: Get transport information from TransportNSW
-dev-python/PyTurboJPEG 1.5.2 1.6.1 1.6.3: A Python wrapper of libjpeg-turbo for decoding and encoding JPEG image.
+dev-python/PyTurboJPEG 1.6.1 1.6.3 1.6.5: A Python wrapper of libjpeg-turbo for decoding and encoding JPEG image.
 dev-python/PyUserInput 0.1.11: A simple, cross-platform module for mouse and keyboard control
 dev-python/PyViCare 1.0.0 2.13.1: Library to communicate with the Viessmann ViCare API
 dev-python/PyXiaomiGateway 0.13.4: A library to communicate with the Xiaomi Gateway
@@ -109,7 +109,7 @@ dev-python/aiobotocore 1.2.2 2.1.0: Async client for aws services using botocore
 dev-python/aiocache 0.10.1 0.11.1: multi backend asyncio cache
 dev-python/aiocoap 0.4_beta3 0.4.3: Python CoAP library
 dev-python/aioconsole 0.3.2: Asynchronous console and interfaces for asyncio
-dev-python/aiodiscover 1.4.2 1.4.4 1.4.5: Discover hosts by arp and ptr lookup
+dev-python/aiodiscover 1.4.4 1.4.5 1.4.7: Discover hosts by arp and ptr lookup
 dev-python/aioeafm 0.1.2: An asyncio wrapper for the UK Environment Agency Flood Monitoring API
 dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
@@ -248,7 +248,7 @@ dev-python/bthomehub5-devicelist 0.1.1: A library that returns a list of devices
 dev-python/btlewrap 0.0.8 0.0.10 0.1.0: wrapper around different bluetooth low energy backends
 dev-python/btsmarthub-devicelist 0.2.0: Retrieve list of devices from a bt smarthub or bt smarthub 2 on a local network
 dev-python/buienradar 1.0.4 1.0.5: Library and CLI tools for interacting with buienradar.
-dev-python/caldav 0.6.1 0.7.1: CalDAV (RFC4791) client library
+dev-python/caldav 0.7.1 0.8.2: CalDAV (RFC4791) client library
 dev-python/casttube 0.2.0: YouTube chromecast api
 dev-python/cattrs 1.7.1: Composable complex class support for attrs and dataclasses.
 dev-python/cbor 1.0.0-r1: RFC 7049 - Concise Binary Object Representation
@@ -303,7 +303,7 @@ dev-python/deluge-client 1.7.1: Simple Deluge Client
 dev-python/demjson 2.2.4: encoder, decoder, and lint/validator for JSON (JavaScript Object Notation) compliant with RFC 7159
 dev-python/denonavr 0.9.10 0.10.8: Automation Library for Denon AVR receivers
 dev-python/devolo-home-control-api 0.16.0 0.17.3 0.17.4: devolo Home Control API in Python
-dev-python/devolo-plc-api 0.6.3: devolo PLC devices in Python
+dev-python/devolo-plc-api 0.6.3 0.7.1: devolo PLC devices in Python
 dev-python/directpy 0.6 0.7: A python library for interacting with DirecTV receivers
 dev-python/directv 0.4.0: Asynchronous Python client for DirecTV (SHEF).
 dev-python/discogs-client 2.3.0: Official Python API client for Discogs
@@ -418,7 +418,7 @@ dev-python/ha-philipsjs 2.7.5 2.7.6: jointSPACE API for Home-Assistant
 dev-python/haanna 0.14.3 0.15.0: Plugwise Anna API to use in conjunction with Home Assistant.
 dev-python/habitipy 0.2.0 0.3.0: tools and library for Habitica restful API (https://habitica.com)
 dev-python/hangups 0.4.10 0.4.11 0.4.14: the first third-party instant messaging client for Google Hangouts
-dev-python/hass-nabucasa 0.50.0-r1 0.51.0: Home Assistant cloud integration by Nabu Casa, Inc.
+dev-python/hass-nabucasa 0.50.0-r1 0.51.0 0.52.0: Home Assistant cloud integration by Nabu Casa, Inc.
 dev-python/hass-splunk 0.1.0 0.1.1: Async single threaded connector to Splunk HEC using an asyncio session
 dev-python/haversine 2.1.2 2.3.1: Calculate the distance between 2 points on Earth.
 dev-python/hbmqtt 0.9.5: MQTT client/broker using Python 3.4 asyncio library
@@ -570,7 +570,7 @@ dev-python/nsw-fuel-api-client 1.0.10 1.1.0: API Client for NSW Government Fuel
 dev-python/nuheat 0.3.0: Control of connected NuHeat Signature radiant floor thermostats.
 dev-python/nuimo 0.1.0 0.3.6: Nuimo SDK for Python on Linux
 dev-python/numato-gpio 0.7.1 0.8.0 0.10.0: Python API for Numato GPIO Expanders
-dev-python/numpy 1.20.2 1.20.3-r1: Fast array and numerical python library
+dev-python/numpy 1.21.2-r1 1.21.4-r2: Fast array and numerical python library
 dev-python/oasatelematics 0.3: Python wrapper for the OASA Telematics API
 dev-python/oauth2client 4.0.0: Library for accessing resources protected by OAuth 2.0
 dev-python/objgraph 3.4.1 3.5.0: Draws Python object reference graphs with graphviz
@@ -708,10 +708,10 @@ dev-python/pycryptodome 3.9.6 3.9.8: A self-contained cryptographic library for 
 dev-python/pycryptodomex 3.9.4 3.10.1: Cryptographic library for Python
 dev-python/pycsspeechtts 1.0.4: Python 3 interface to Microsoft Cognitive Services Text To Speech
 dev-python/pycups 1.9.73-r3: Python bindings for the CUPS API
-dev-python/pydaikin 2.4.1 2.4.2 2.4.3 2.4.4 2.6.0: Python Daikin HVAC appliances interface
+dev-python/pydaikin 2.4.4 2.6.0 2.7.0: Python Daikin HVAC appliances interface
 dev-python/pydanfossair 0.1.0: Python interface for Danfoss Air HRV systems
 dev-python/pydantic 1.8.2: Data validation and settings management using python 3.6 type hinting
-dev-python/pydeconz 82 83 84 85: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
+dev-python/pydeconz 82 83 84 85 86: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
 dev-python/pydelijn 0.6.1: Get realtime info on stop passages of De Lijn (api.delijn.be)
 dev-python/pydexcom 0.2.0 0.2.1 0.2.2: Python API to interact with Dexcom Share API
 dev-python/pydocstyle 5.1.0 5.1.1: Python docstring style checker
