@@ -6,6 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">MechanicalSoup</remote-id>
+    <remote-id type="pypi">siobrultech-protocols</remote-id>
+    <maintainer status="unknown">
+      <email>me@shawnwilsher.com</email>
+      <name>Shawn Wilsher</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>
