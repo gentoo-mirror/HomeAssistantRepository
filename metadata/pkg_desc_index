@@ -52,6 +52,7 @@ dev-python/PyMata 2.20: A Python Protocol Abstraction Library For Arduino Firmat
 dev-python/PyMeeus 0.3.7 0.5.11: Python implementation of Jean Meeus astronomical routines
 dev-python/PyMetEireann 0.2 2021.8.0: A library to communicate with the Met Eireann Public Weather Forecast API
 dev-python/PyMetno 0.8.3 0.8.4 0.9.0: A library to communicate with the met.no api
+dev-python/PyNINA 0.1.4: A Python API wrapper to retrieve warnings from the german NINA app.
 dev-python/PyOTA 2.0.5 2.1.0-r1: IOTA API library for Python
 dev-python/PyRMVtransport 0.3.2 0.3.3: Define module-level imports.
 dev-python/PySocks 1.7.1: A Python SOCKS client module. See https://github.com/Anorov/PySocks.
@@ -531,14 +532,14 @@ dev-python/meteoalertapi 0.1.6 0.2.0: A small api to get alerting messages from 
 dev-python/meteofrance-api 1.0.1 1.0.2: Python client for Meteo-France API.
 dev-python/mficlient 0.3.0: A remote control client for Ubiquiti's mFi system
 dev-python/micloud 0.3 0.4 0.5: Xiaomi cloud connect library
-dev-python/miflora 0.7.0: Library to read data from Mi Flora sensor
-dev-python/mill-local 0.1.0: A python3 library to communicate with Mill
+dev-python/miflora 0.7.0 0.7.2: Library to read data from Mi Flora sensor
+dev-python/mill-local 0.1.0 0.1.1: A python3 library to communicate with Mill
 dev-python/millheater 0.5.2 0.6.2 0.7.4 0.9.0: A python3 library to communicate with Mill
 dev-python/miniaudio 1.44 1.45: python bindings for the miniaudio library and its decoders (mp3, flac, ogg vorbis, wav)
 dev-python/minio 4.0.9 5.0.10: MinIO Python Library for Amazon S3 Compatible Cloud Storage for Python
 dev-python/mitemp-bt 0.0.3 0.0.5: Library to read data from Mi Temperature and Humidity Sensor (V2) using Bluetooth LE with LCD display
 dev-python/mock-open 1.4.0: A better mock for file I/O
-dev-python/motionblinds 0.4.10 0.5.5 0.5.7 0.5.8: Python library for interfacing with Motion Blinds
+dev-python/motionblinds 0.5.7 0.5.8 0.5.10: Python library for interfacing with Motion Blinds
 dev-python/motioneye-client 0.3.6 0.3.11 0.3.12: motionEye client library Python Package
 dev-python/ms-cv 0.1.1: A correlation vector implementation in python
 dev-python/msgpack 0.6.1: MessagePack (de)serializer.
@@ -696,7 +697,7 @@ dev-python/pybalboa 0.13: Module to communicate with a Balboa spa wifi adapter
 dev-python/pybbox 0.0.5_alpha0: a simple python3 library for the Bouygues BBox Routeur API
 dev-python/pyblackbird 0.5: Python API for talking to Monoprice Blackbird 4k 8x8 HDBaseT Matrix
 dev-python/pybluez 0.22 0.23: Bluetooth Python extension module
-dev-python/pybotvac 0.0.20 0.0.21 0.0.22: Python package for controlling Neato pybotvac Connected vacuum robot
+dev-python/pybotvac 0.0.22 0.0.23: Python package for controlling Neato pybotvac Connected vacuum robot
 dev-python/pycarwings2 2.10 2.11 2.12: Python library for interacting with the Nissan Leaf Carwings telematics service
 dev-python/pycfdns 1.2.1 1.2.2: Update Cloudflare DNS A-records.
 dev-python/pychannels 1.0.0: API client for the Channels app - https://getchannels.com
@@ -786,10 +787,10 @@ dev-python/pylitejet 0.1.0 0.3.0: A library for controlling a LiteJet lighting s
 dev-python/pylitterbot 2021.8.1 2021.10.1 2021.11.0 2021.12.0: Python package for controlling a Litter-Robot Connect self-cleaning litter box.
 dev-python/pyloopenergy 0.2.1: Access Loop Energy energy monitors via Socket.IO API
 dev-python/pylutron 0.2.7 0.2.8: Python library for Lutron RadioRA 2
-dev-python/pylutron-caseta 0.9.0 0.10.0 0.11.0: Provides an API to the Lutron Smartbridge
+dev-python/pylutron-caseta 0.11.0 0.13.0: Provides an API to the Lutron Smartbridge
 dev-python/pymailgunner 1.4: A simple mailgun client - pymailgun fork with Python 3 support
 dev-python/pymata-express 1.17 1.19: A Python Protocol Abstraction Library For Arduino Firmata using Python asyncio
-dev-python/pymazda 0.2.0 0.2.1 0.2.2: An API client for interacting with the MyMazda (Mazda Connected Services) API
+dev-python/pymazda 0.2.2 0.3.2: An API client for interacting with the MyMazda (Mazda Connected Services) API
 dev-python/pymediaroom 0.6.4.1: Remote control your Mediaroom Set-up-box
 dev-python/pymelcloud 2.5.3 2.5.4 2.5.5 2.5.6 2.11.0: Python MELCloud interface
 dev-python/pymetar 1.1-r1: PyMETAR is a python module and command line tool designed to fetch Metar reports from the NOAA
@@ -806,7 +807,7 @@ dev-python/pymysensors 0.21.0 0.22.1: Python API for talking to a MySensors gate
 dev-python/pynacl 1.3.0: Python binding to the Networking and Cryptography (NaCl) library
 dev-python/pynanoleaf 0.0.5 0.1.0: A Python3 wrapper for the Nanoleaf API
 dev-python/pynello 2.0.3: Python library for nello.io intercoms
-dev-python/pynetgear 0.7.0 0.8.0: Access Netgear routers using their SOAP API
+dev-python/pynetgear 0.7.0 0.8.0 0.9.0: Access Netgear routers using their SOAP API
 dev-python/pynetio 0.1.9.1: Binding library for Koukaam netio devices
 dev-python/pynuki 1.3.8-r1 1.4.1: Python bindings for nuki.io bridges
 dev-python/pynumparser 1.4.1: A library to parse arguments of numbers and number sequences, usable directly or with argparse. Allows concise representation of contiguous or non-contiguous sequences. Example: 1,5-10,40-50/5,200+100/25
