@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pylast</remote-id>
+    <remote-id type="pypi">mac-vendor-lookup</remote-id>
     <maintainer status="unknown">
-      <email>amr.hassan@gmail.com</email>
-      <name>Hugo van Kemenade</name>
+      <email>pypi.org@bauerj.eu</email>
+      <name>Johann Bauer</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

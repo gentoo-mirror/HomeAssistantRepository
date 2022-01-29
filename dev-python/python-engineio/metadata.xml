@@ -6,10 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pylast</remote-id>
+    <remote-id type="pypi">python-engineio</remote-id>
+    <doc>https://pythonhosted.org/python-engineio/</doc>
     <maintainer status="unknown">
-      <email>amr.hassan@gmail.com</email>
-      <name>Hugo van Kemenade</name>
+      <email>miguel.grinberg@gmail.com</email>
+      <name>Miguel Grinberg</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
