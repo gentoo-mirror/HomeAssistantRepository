@@ -1,15 +1,17 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python library for interfacing with Motion Blinds"
-HOMEPAGE="https://github.com/starkillerOG/motion-blinds https://pypi.org/project/motionblinds/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+DESCRIPTION="A python3 library to communicate with Mill"
+HOMEPAGE="https://github.com/Danielhiversen/pyMillLocal https://pypi.org/project/mill-local/"
+MY_PN="pyMillLocal"
+SRC_URI="https://github.com/Danielhiversen/${MY_PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}/${MY_PN}-${PV}"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,7 +20,8 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/pycryptodomex[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/async_timeout[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

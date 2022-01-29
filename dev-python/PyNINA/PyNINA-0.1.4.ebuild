@@ -1,14 +1,14 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="An API client for interacting with the MyMazda (Mazda Connected Services) API"
-HOMEPAGE="https://github.com/bdr99/pymazda https://pypi.org/project/pymazda/"
+DESCRIPTION="A Python API wrapper to retrieve warnings from the german NINA app."
+HOMEPAGE="https://gitlab.com/DeerMaximum/pynina https://pypi.org/project/PyNINA/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,8 +18,7 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
