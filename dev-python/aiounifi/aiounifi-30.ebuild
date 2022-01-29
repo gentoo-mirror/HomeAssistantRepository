@@ -7,11 +7,9 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A python3 library for graphql subscription manager"
-HOMEPAGE="https://github.com/Danielhiversen/PyGraphqlWebsocketManager https://pypi.org/project/graphql-subscription-manager/"
-MY_PN=${PN//-/_}
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
-S="${WORKDIR}/${MY_PN}-${PV}"
+DESCRIPTION="An asynchronous Python library for communicating with Unifi Controller API"
+HOMEPAGE="https://github.com/Kane610/aiounifi https://pypi.org/project/aiounifi/"
+SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -20,12 +18,15 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/websockets-8.0[${PYTHON_USEDEP}]"
-BDEPEND="
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+BDEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+		dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
+		dev-python/aioresponses[${PYTHON_USEDEP}]
 	)"
 
 python_test() {

@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">py-synology</remote-id>
+    <remote-id type="pypi">d2to1</remote-id>
     <maintainer status="unknown">
-      <email>snjoetw@gmail.com</email>
-      <name>snjoetw</name>
+      <email>embray@stsci.edu</email>
+      <name>Erik M. Bray</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

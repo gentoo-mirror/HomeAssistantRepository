@@ -7,11 +7,9 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A python3 library for graphql subscription manager"
-HOMEPAGE="https://github.com/Danielhiversen/PyGraphqlWebsocketManager https://pypi.org/project/graphql-subscription-manager/"
-MY_PN=${PN//-/_}
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
-S="${WORKDIR}/${MY_PN}-${PV}"
+DESCRIPTION="A python3 library to communicate with Tibber"
+HOMEPAGE="https://github.com/Danielhiversen/pyTibber https://pypi.org/project/pyTibber/"
+SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -20,7 +18,11 @@ IUSE="test"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/websockets-8.0[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.0.6[${PYTHON_USEDEP}]
+	>=dev-python/async_timeout-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/graphql-subscription-manager-0.4.0[${PYTHON_USEDEP}]
+	dev-python/pytz[${PYTHON_USEDEP}]
+	dev-python/python-dateutil[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
