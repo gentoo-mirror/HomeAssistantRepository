@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">holidays</remote-id>
+    <remote-id type="pypi">python-opendata-transport</remote-id>
     <maintainer status="unknown">
-      <email>maurizio.montel@gmail.com</email>
-      <name>dr-prodigy (formerly ryanss)</name>
+      <email>fabian@affolter-engineering.ch</email>
+      <name>Fabian Affolter</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

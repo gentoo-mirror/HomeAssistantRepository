@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">holidays</remote-id>
+    <remote-id type="pypi">aiowebostv</remote-id>
     <maintainer status="unknown">
-      <email>maurizio.montel@gmail.com</email>
-      <name>dr-prodigy (formerly ryanss)</name>
+      <email>hello@home-assistant.io</email>
+      <name>Home Assistant Team</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
