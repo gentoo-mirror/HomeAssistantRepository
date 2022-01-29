@@ -36,7 +36,7 @@ dev-python/Js2Py 0.66: JavaScript to Python Translator & JavaScript interpreter.
 dev-python/Mastodon-py 1.5.1: Python wrapper for the Mastodon API
 dev-python/MechanicalSoup 0.6.0 1.1.0: A python library for automating interaction with websites
 dev-python/OPi-GPIO 0.4.0 0.5.2: A drop-in replacement for RPi.GPIO for the Orange Pi Zero
-dev-python/PlexAPI 4.5.1 4.6.1 4.7.0 4.7.1: Python bindings for the Plex API.
+dev-python/PlexAPI 4.7.1 4.9.1: Python bindings for the Plex API.
 dev-python/Plugwise-Smile 0.2.13 1.1.0 1.4.0 1.5.1 1.6.0: Plugwise_Smile (Anna/Adam/P1/Stretch) API to use in conjunction with Home Assistant.
 dev-python/ProgettiHWSW 0.1.1: Controls ProgettiHWSW relay boards.
 dev-python/PsychroLib 2.3.0 2.5.0: Library of psychrometric functions to calculate thermodynamic properties of air
@@ -600,7 +600,7 @@ dev-python/orvibo 1.1.1: Control Orvibo products.
 dev-python/outcome 1.0.1: Capture the outcome of Python function calls.
 dev-python/ovoenergy 1.1.6 1.1.7 1.1.11 1.1.12: Get energy data from OVO's API
 dev-python/oyaml 0.9: Ordered YAML: drop-in replacement for PyYAML which preserves dict ordering
-dev-python/p1monitor 0.2.0 1.0.0: Asynchronous Python client for the P1 Monitor
+dev-python/p1monitor 0.2.0 1.0.0 1.1.0: Asynchronous Python client for the P1 Monitor
 dev-python/packaging 20.4: Core utilities for Python packages
 dev-python/paho-mqtt 1.5.1 1.6.1: MQTT version 5.0/3.1.1 client class
 dev-python/panacotta 0.1: Python API for controlling Panasonic Blu-Ray players
@@ -655,6 +655,7 @@ dev-python/pure-python-adb 0.3.0: Pure python implementation of the adb client
 dev-python/pushbullet-py 0.11.0: A simple python client for pushbullet.com
 dev-python/pushetta 1.0.15: Client for Pushetta API
 dev-python/pushover_complete 1.1.1: A Python package for interacting with *all* aspects of the Pushover API
+dev-python/pvo 0.2.0: Asynchronous client for the PVOutput API.
 dev-python/pwmled 1.4.1 1.5.0 1.5.3 1.6.6 1.6.7: Control LEDs connected to a micro controller using pwm.
 dev-python/py-august 0.21.0 0.22.0 0.24.0 0.25.0 0.25.2: Python API for August Smart Lock and Doorbell
 dev-python/py-canary 0.5.1: Python API for Canary Security Camera
@@ -834,7 +835,7 @@ dev-python/pypca 0.0.7: A python cli for PCA 301 smart plugs.
 dev-python/pypck 0.7.10 0.7.13: LCN-PCK library
 dev-python/pypjlink2 1.2.0 1.2.1: PJLink is a standard for controlling data projectors.
 dev-python/pyplaato 0.0.15: Asynchronous Python client for getting Plaato Airlock and Keg data
-dev-python/pypoint 2.1.0 2.2.0 2.2.1: API for Minut Point
+dev-python/pypoint 2.2.1 2.3.0: API for Minut Point
 dev-python/pypollencom 2.2.3: A simple API for Pollen.com data
 dev-python/pyprof2calltree 1.4.5: Help visualize profiling data from cProfile with kcachegrind and qcachegrind
 dev-python/pyprosegur 0.0.5: Unofficial Python library to interface with Prosegur Alarmes PT/ES.
