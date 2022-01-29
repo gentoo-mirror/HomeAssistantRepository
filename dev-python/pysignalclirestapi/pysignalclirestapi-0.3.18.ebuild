@@ -7,21 +7,20 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Control your Sisyphus kinetic art tables (sisyphus-industries.com)"
-HOMEPAGE="https://github.com/jkeljo/sisyphus-control https://pypi.org/project/sisyphus-control/"
-SRC_URI="https://github.com/jkeljo/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+DESCRIPTION="Small python library for the Signal Cli REST API"
+HOMEPAGE="https://github.com/bbernhard/pysignalclirestapi https://pypi.org/project/pysignalclirestapi/"
+SRC_URI="https://github.com/bbernhard/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-DOCS="README.rst"
+DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]
-	dev-python/python-socketio[${PYTHON_USEDEP}]"
-BDEPEND="${REDEPEND}
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]"
+DEPEND="${REDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
