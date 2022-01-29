@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pynuki</remote-id>
+    <remote-id type="pypi">pyhumps</remote-id>
     <maintainer status="unknown">
-      <email>philipp@schmitt.co</email>
-      <name>Philipp Schmitt</name>
+      <email>nficano@gmail.com</email>
+      <name>Nick Ficano</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
