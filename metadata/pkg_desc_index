@@ -150,9 +150,10 @@ dev-python/aiopylgtv 0.3.3 0.4.0: Library to control webOS based LG TV devices.
 dev-python/aiorecollect 1.0.5 1.0.7 1.0.8: A Python 3, asyncio-based library for the ReCollect Waste API
 dev-python/aioredis 1.2.0: asyncio (PEP 3156) Redis support
 dev-python/aioresponses 0.7.2: Mock out requests made by ClientSession from aiohttp package
-dev-python/aioridwell 0.2.0 2021.10.0: A Python3, asyncio-based API for interacting with Ridwell waste recycling
+dev-python/aioridwell 0.2.0 2021.10.0 2021.12.2: A Python3, asyncio-based API for interacting with Ridwell waste recycling
+dev-python/aiosenseme 0.6.1: SenseME by Big Ass Fans asynchronous Python library
 dev-python/aioserial 1.3.0: An asynchronous serial port library of Python
-dev-python/aioshelly 0.6.4 1.0.2 1.0.4 1.0.5: Asynchronous library to control Shelly devices.
+dev-python/aioshelly 1.0.2 1.0.4 1.0.5 1.0.8: Asynchronous library to control Shelly devices.
 dev-python/aiosqlite 0.15.0 0.16.0 0.17.0: asyncio bridge to the standard sqlite3 module
 dev-python/aioswitcher 1.2.1 1.2.3 2.0.4 2.0.5 2.0.6: Switcher Python Integration.
 dev-python/aiosyncthing 0.5.1 0.6.3: Asynchronous Python client for the Syncthing REST API
@@ -600,7 +601,7 @@ dev-python/orvibo 1.1.1: Control Orvibo products.
 dev-python/outcome 1.0.1: Capture the outcome of Python function calls.
 dev-python/ovoenergy 1.1.6 1.1.7 1.1.11 1.1.12: Get energy data from OVO's API
 dev-python/oyaml 0.9: Ordered YAML: drop-in replacement for PyYAML which preserves dict ordering
-dev-python/p1monitor 0.2.0 1.0.0 1.1.0: Asynchronous Python client for the P1 Monitor
+dev-python/p1monitor 0.2.0 1.0.0 1.0.1 1.1.0: Asynchronous Python client for the P1 Monitor
 dev-python/packaging 20.4: Core utilities for Python packages
 dev-python/paho-mqtt 1.5.1 1.6.1: MQTT version 5.0/3.1.1 client class
 dev-python/panacotta 0.1: Python API for controlling Panasonic Blu-Ray players
@@ -678,7 +679,7 @@ dev-python/pyEmby 1.7 1.8: Provides a python interface to interact with a Emby m
 dev-python/pyEzviz 0.1.8.9 0.1.9.4 0.2.0.5 0.2.0.6: Pilot your Ezviz cameras
 dev-python/pyHS100 0.3.5.2: Interface for TPLink HS1xx plugs, HS2xx wall switches & LB1xx bulbs
 dev-python/pyHik 0.2.8 0.3.0: Provides a python api to interact with a Hikvision camera event stream and toggle motion detection.
-dev-python/pyRFXtrx 0.26.1 0.27.0: a library to communicate with the RFXtrx family of devices
+dev-python/pyRFXtrx 0.27.0 0.27.1: a library to communicate with the RFXtrx family of devices
 dev-python/pySDCP 1: SDCP library to control Sony Projectors
 dev-python/pyTibber 0.19.1 0.21.0 0.21.1: A python3 library to communicate with Tibber
 dev-python/pyW215 0.7.0: Interface for d-link W215 Smart Plugs.
@@ -981,9 +982,9 @@ dev-python/ratelimit 2.2.1: An API rate limit decorator for Python
 dev-python/readlike 0.1.2 0.1.3: GNU Readline-like line editing module
 dev-python/recollect-waste 1.0.1: Python 3 API for Recollect Waste to track waste pickup and types.
 dev-python/redis 4.0.2: Python client for Redis database and key-value store
-dev-python/regenmaschine 3.0.0 3.1.5 2021.10.0: A simple API for RainMachine sprinkler controllers
+dev-python/regenmaschine 3.1.5 2021.10.0 2022.1.0: A simple API for RainMachine sprinkler controllers
 dev-python/regex 2021.8.28: Alternative regular expression module to replace re
-dev-python/renault-api 0.1.4: Renault API
+dev-python/renault-api 0.1.4 0.1.7: Renault API
 dev-python/requests 2.22.0-r1 2.25.0: HTTP library for human beings
 dev-python/requests-async 0.6.2: async-await support for requests.
 dev-python/requests-cache 0.5.0 0.5.2: Persistent cache for requests library
@@ -994,18 +995,19 @@ dev-python/requirements-parser 0.2.0: Parses Pip requirement files
 dev-python/responses 0.10.6 0.12.0 0.13.3: A utility library for mocking out the requests Python library.
 dev-python/respx 0.17.0 0.19.0: A utility for mocking out the Python HTTPX and HTTP Core libraries.
 dev-python/rfk101py 0.0.1: RFK101 Proximity card reader over Ethernet
-dev-python/rflink 0.0.58: Library and CLI tools for interacting with RFlink 433MHz transceiver.
+dev-python/rflink 0.0.58 0.0.62: Library and CLI tools for interacting with RFlink 433MHz transceiver.
 dev-python/ring-doorbell 0.7.1 0.7.2: A Python library to communicate with Ring Door Bell (https://ring.com/)
 dev-python/ritassist 0.9.2 0.9.3: RitAssist API Access
 dev-python/rjpl 0.3.6: Interface with Rejseplanen API
 dev-python/rocketchat-API 0.6.1 0.6.35: Python API wrapper for Rocket.Chat
-dev-python/rokuecp 0.8.0 0.8.1 0.8.4: Asynchronous Python client for Roku (ECP).
+dev-python/rokuecp 0.8.1 0.8.4 0.12.0: Asynchronous Python client for Roku (ECP).
 dev-python/roombapy 1.6.3 1.6.4 1.6.5: Python program and library to control Wi-Fi enabled iRobot Roombas
 dev-python/roonapi 0.0.32 0.0.36 0.0.37 0.0.38: Provides a python interface to interact with Roon
 dev-python/rova 0.1.0 0.2.1: API wrapper for ROVA calendar
 dev-python/rpi-bad-power 0.0.3 0.1.0: A Python library to detect bad power supply on Raspberry Pi
 dev-python/rpi-rf 0.9.7: Send and receive 433/315MHz signals with GPIO RF modules on a Raspberry Pi
 dev-python/rsa 4.0-r2: Pure-Python RSA implementation
+dev-python/rtsp-to-webrtc 0.5.0: Python client library for RTSPtoWeb and RTSPtoWebRTC
 dev-python/ruamel-yaml 0.15.100: YAML parser/emitter that supports roundtrip comment preservation
 dev-python/russound 0.1.9: Python API for Russound RNET commands.
 dev-python/russound-rio 0.1.7: Asyncio client for Russound RIO devices
@@ -1028,7 +1030,7 @@ dev-python/sepaxml 2.2.0: Python SEPA XML implementations
 dev-python/setuptools-markdown 0.4.1: [Deprecated] Use Markdown for your project description
 dev-python/sharkiqpy 0.1.8: Python API for Shark IQ robots
 dev-python/sharp_aquos_rc 0.3.2: Control Sharp Aquos SmartTVs through the IP interface.
-dev-python/shodan 1.25.0: Python library and command-line utility for Shodan (https://developer.shodan.io)
+dev-python/shodan 1.25.0 1.26.1: Python library and command-line utility for Shodan (https://developer.shodan.io)
 dev-python/simplehound 0.3: Unofficial python API for Sighthound
 dev-python/simplepush 1.1.4: Simplepush python library
 dev-python/simplisafe-python 11.0.7 12.0.2 2021.12.1 2021.12.2: A Python3, async interface to the SimpliSafe API
@@ -1148,7 +1150,7 @@ dev-python/user-agents 2.0-r2 2.2.0: A library to identify devices (phones, tabl
 dev-python/uvcclient 0.11.0: A remote control client for Ubiquiti's UVC NVR
 dev-python/vallox-websocket-api 2.4.0 2.8.1: Vallox WebSocket API
 dev-python/vcver 0.2.11: provide package versions with version control data.
-dev-python/vehicle 0.2.2: Asynchronous Python client providing RDW vehicle information.
+dev-python/vehicle 0.2.2 0.3.1: Asynchronous Python client providing RDW vehicle information.
 dev-python/velbus-aio 2021.9.4 2021.11.6 2021.11.7: Python Library for the Velbus protocol based on asyncio
 dev-python/venstarcolortouch 0.14 0.15: Interface Library for Venstar ColorTouch Thermostat API v5
 dev-python/vigilancemeteo 3.0.0 3.0.1: Python API to get active weather alerts from https://vigilance.meteofrance.com/
