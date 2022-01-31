@@ -164,7 +164,7 @@ dev-python/aiounifi 27 28 30: An asynchronous Python library for communicating w
 dev-python/aiounittest 1.4.0: Test asyncio code more easily.
 dev-python/aiovlc 0.1.0: A package for talking to vlc over its telnet interface using asyncio.
 dev-python/aiowatttime 0.1.1: An asyncio-based Python3 library for interacting with WattTime
-dev-python/aiowebostv 0.1.1: Library to control webOS based LG TV devices
+dev-python/aiowebostv 0.1.1 0.1.2: Library to control webOS based LG TV devices
 dev-python/aiowwlln 2.0.2: A simple Python API for the WWLLN
 dev-python/aioymaps 1.1.0 1.2.1 1.2.2: Async client for Yandex Maps
 dev-python/airly 0.0.2 0.0.2-r1 1.0.0 1.1.0: Python wrapper for getting air quality data from Airly sensors.
@@ -1041,7 +1041,7 @@ dev-python/sharp_aquos_rc 0.3.2: Control Sharp Aquos SmartTVs through the IP int
 dev-python/shodan 1.25.0 1.26.1: Python library and command-line utility for Shodan (https://developer.shodan.io)
 dev-python/simplehound 0.3: Unofficial python API for Sighthound
 dev-python/simplepush 1.1.4: Simplepush python library
-dev-python/simplisafe-python 11.0.7 12.0.2 2021.12.1 2021.12.2: A Python3, async interface to the SimpliSafe API
+dev-python/simplisafe-python 11.0.7 12.0.2 2021.12.2 2022.1.0: A Python3, async interface to the SimpliSafe API
 dev-python/siobrultech-protocols 0.5.0: A Sans-I/O Python client library for Brultech Devices
 dev-python/sisyphus-control 3.0 3.1.2: Control your Sisyphus kinetic art tables (sisyphus-industries.com)
 dev-python/skybellpy 0.6.3: An Skybell HD Python library running on Python 3.
@@ -1197,7 +1197,7 @@ dev-python/xbee-helper 0.0.7: a high level API to an XBee device
 dev-python/xbox-webapi 2.0.7 2.0.8 2.0.11: A library to authenticate with Windows Live/Xbox Live and use their API
 dev-python/xboxapi 2.0.1: A wrapper library for XboxAPI.com
 dev-python/xfinity-gateway 0.0.4: Query an Xfinity Gateway
-dev-python/xknx 0.18.9 0.18.11 0.18.15 0.19.0: An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/
+dev-python/xknx 0.18.9 0.18.11 0.18.15 0.19.0 0.19.1: An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/
 dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontrol XS1 Gateway
 dev-python/ya-ma 0.3.8: YANDEX transport API client library
 dev-python/yahooweather 0.10: a Python module that provides an interface to the Yahoo! Weather RSS feed.
