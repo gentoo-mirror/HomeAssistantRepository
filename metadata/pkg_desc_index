@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.10.7 2021.11.5 2021.12.8 2021.12.9-r1 2021.12.10 2022.2.0_beta4 2022.2.0_beta5-r1 2022.2.0_beta6: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2021.10.7 2021.11.5 2021.12.8 2021.12.9 2021.12.10 2022.2.0_beta4 2022.2.0_beta5 2022.2.0_beta6 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2021.10.7-r1 2021.11.5 2021.12.8 2021.12.9 2021.12.10 2022.2.0_beta4 2022.2.0_beta5-r2 2022.2.0_beta6-r1: Open-source home automation platform running on Python.
+app-misc/homeassistant 2021.10.7 2021.11.5 2021.12.9-r1 2021.12.10 2022.2.0_beta5-r1 2022.2.0_beta6 2022.2.0: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2021.10.7 2021.11.5 2021.12.9 2021.12.10 2022.2.0_beta5 2022.2.0_beta6 2022.2.0 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2021.10.7-r1 2021.11.5 2021.12.9 2021.12.10 2022.2.0_beta5-r2 2022.2.0_beta6-r1 2022.2.0: Open-source home automation platform running on Python.
 dev-embedded/esphome 2021.10.3 2021.11.4 2021.12.3 2022.1.1 2022.1.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20210908.0 20211021.0 20211021.1 20211211.0 20220116.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.1 3.2: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -171,7 +171,7 @@ dev-python/airly 0.0.2 0.0.2-r1 1.0.0 1.1.0: Python wrapper for getting air qual
 dev-python/airthings-cloud 0.0.1 0.1.0: A python3 library to communicate with Airthings devices
 dev-python/airtouch4pyapi 1.0.5: An api allowing control of AC state (temperature, on/off, mode) of an Airtouch 4 controller locally over TCP
 dev-python/ajsonrpc 1.1.0 1.2.0: Async JSON-RPC 2.0 protocol + server powered by asyncio
-dev-python/aladdin-connect 0.3: Python API controlling Genie garage doors connected to Aladdin Connect devices
+dev-python/aladdin-connect 0.3 0.4: Python API controlling Genie garage doors connected to Aladdin Connect devices
 dev-python/alarmdecoder 1.13.10 1.13.11: Python interface for the AlarmDecoder (AD2) family of alarm devices which includes the AD2USB, AD2SERIAL and AD2PI.
 dev-python/alpha-vantage 2.2.0 2.3.1: Python module to get stock data from the Alpha Vantage Api
 dev-python/ambee 0.3.0 0.4.0: Asynchronous Python client for the Ambee API.
@@ -445,7 +445,7 @@ dev-python/hkdf 0.0.3: HMAC-based Extract-and-Expand Key Derivation Function (HK
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.5.1 0.7.0: Python API for interacting with *hole.
 dev-python/holidays 0.11.3.1 0.12: Generate and work with holidays in Python
-dev-python/home-assistant-frontend 20211007.1 20211109.0 20211229.0 20211229.1 20220127.0 20220201.0: The Home Assistant frontend
+dev-python/home-assistant-frontend 20211007.1 20211109.0 20211229.0 20211229.1 20220127.0 20220201.0 20220202.0: The Home Assistant frontend
 dev-python/homeassistant-pyozw 0.1.10: python_openzwave is a python wrapper for the openzwave c++ library.
 dev-python/homeconnect 0.6.3: Python client for the BSH Home Connect REST API
 dev-python/homekit-python 0.15.0: HomeKit Python
@@ -797,7 +797,7 @@ dev-python/pylitejet 0.1.0 0.3.0: A library for controlling a LiteJet lighting s
 dev-python/pylitterbot 2021.8.1 2021.10.1 2021.11.0 2021.12.0: Python package for controlling a Litter-Robot Connect self-cleaning litter box.
 dev-python/pyloopenergy 0.2.1: Access Loop Energy energy monitors via Socket.IO API
 dev-python/pylutron 0.2.7 0.2.8: Python library for Lutron RadioRA 2
-dev-python/pylutron-caseta 0.11.0 0.13.0: Provides an API to the Lutron Smartbridge
+dev-python/pylutron-caseta 0.11.0 0.13.0 0.13.1: Provides an API to the Lutron Smartbridge
 dev-python/pymailgunner 1.4: A simple mailgun client - pymailgun fork with Python 3 support
 dev-python/pymata-express 1.17 1.19: A Python Protocol Abstraction Library For Arduino Firmata using Python asyncio
 dev-python/pymazda 0.2.2 0.3.2: An API client for interacting with the MyMazda (Mazda Connected Services) API
@@ -1155,12 +1155,12 @@ dev-python/url-normalize 1.4.1: URL normalization for Python
 dev-python/urllib3 1.26.3: HTTP library with thread-safe connection pooling, file post, and more
 dev-python/urwid 1.3.1: Curses-based user interface library for Python
 dev-python/uscisstatus 0.1.1: USCIS Status Checker
-dev-python/user-agents 2.0-r2 2.2.0: A library to identify devices (phones, tablets) and their capabilities by parsing browser user agent strings.
+dev-python/user-agents 2.0-r2: A library to identify devices (phones, tablets) and their capabilities by parsing browser user agent strings.
 dev-python/uvcclient 0.11.0: A remote control client for Ubiquiti's UVC NVR
 dev-python/vallox-websocket-api 2.8.1 2.9.0: Vallox WebSocket API
 dev-python/vcver 0.2.11: provide package versions with version control data.
 dev-python/vehicle 0.2.2 0.3.1: Asynchronous Python client providing RDW vehicle information.
-dev-python/velbus-aio 2021.9.4 2021.11.6 2021.11.7: Python Library for the Velbus protocol based on asyncio
+dev-python/velbus-aio 2021.9.4 2021.11.7 2022.2.1: Python Library for the Velbus protocol based on asyncio
 dev-python/venstarcolortouch 0.14 0.15: Interface Library for Venstar ColorTouch Thermostat API v5
 dev-python/vigilancemeteo 3.0.0 3.0.1: Python API to get active weather alerts from https://vigilance.meteofrance.com/
 dev-python/vilfo-api-client 0.3.2-r1: Simple wrapper client for the Vilfo router API
