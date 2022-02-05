@@ -945,7 +945,7 @@ dev-python/python-telnet-vlc 1.0.4 2.0.1: A library to control or get informatio
 dev-python/python-twitch-client 0.6.0: Easy to use Python library for accessing the Twitch API
 dev-python/python-velbus 2.1.2: Python Library for the Velbus protocol
 dev-python/python-vlc 1.1.2 3.0.7110: VLC bindings for python.
-dev-python/python-whois 0.7.3: Whois querying and parsing of domain registration information.
+dev-python/python-whois 0.7.3-r1: Whois querying and parsing of domain registration information.
 dev-python/python-wink 1.10.5: Access Wink devices via the Wink API
 dev-python/pythoncrc 1.21: Python CRC Calculations Modules
 dev-python/pythonegardia 1.0.40: Python 3 support for Egardia / Woonveilig alarm
@@ -1183,7 +1183,7 @@ dev-python/webexteamssdk 1.1.1: Community-developed Python SDK for the Webex Tea
 dev-python/websocket-client 0.54.0-r1 0.56.0 0.57.0: WebSocket client for python with hybi13 support
 dev-python/websockets 8.1 9.1-r1: Library for building WebSocket servers and clients in Python
 dev-python/whirlpool-sixth-sense 0.15.1: Unofficial API for Whirlpool's 6th Sense appliances
-dev-python/whois 0.9.13: Python package for retrieving WHOIS information of domains.
+dev-python/whois 0.9.13-r1: Python package for retrieving WHOIS information of domains.
 dev-python/wiffi 1.0.1 1.1.0: Python 3 package to interface devices from STALL WIFFI.
 dev-python/wikipedia 1.4.0: Wikipedia API for Python
 dev-python/wirelesstagpy 0.5.0 0.8.1: Simple python wrapper over wirelesstags REST API
