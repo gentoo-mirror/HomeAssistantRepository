@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.10.7 2021.11.5 2021.12.9-r1 2021.12.10 2022.2.0_beta5-r1 2022.2.0_beta6 2022.2.0 2022.2.1: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2021.10.7 2021.11.5 2021.12.9 2021.12.10 2022.2.0_beta5 2022.2.0_beta6 2022.2.0 2022.2.1 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2021.10.7-r1 2021.11.5 2021.12.9 2021.12.10 2022.2.0_beta5-r2 2022.2.0_beta6-r1 2022.2.0 2022.2.1: Open-source home automation platform running on Python.
+app-misc/homeassistant 2021.10.7 2021.11.5 2021.12.10 2022.2.0_beta6 2022.2.0 2022.2.1 2022.2.2: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2021.10.7 2021.11.5 2021.12.10 2022.2.0_beta6 2022.2.0 2022.2.1 2022.2.2 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2021.10.7-r1 2021.11.5 2021.12.10 2022.2.0_beta6-r1 2022.2.0 2022.2.1 2022.2.2: Open-source home automation platform running on Python.
 dev-embedded/esphome 2021.11.4 2021.12.3 2022.1.2 2022.1.3 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20210908.0 20211021.0 20211021.1 20211211.0 20220116.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.1 3.2: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -119,7 +119,7 @@ dev-python/aioesphomeapi 9.1.5 10.2.0 10.6.0 10.8.1: Python API for interacting 
 dev-python/aioflo 0.4.1 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aiofreepybox 0.0.8: Provides asynchronous authentication and access to Freebox servers
 dev-python/aioftp 0.12.0: ftp client/server for asyncio
-dev-python/aiogithubapi 21.8.0 21.11.0 22.1.0: Asynchronous Python client for the GitHub API
+dev-python/aiogithubapi 21.8.0 21.11.0 22.1.0 22.2.0: Asynchronous Python client for the GitHub API
 dev-python/aioguardian 1.0.4 1.0.8 2021.11.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aioharmony 0.2.8 0.2.9: Asyncio Python library for connecting to and controlling the Logitech Harmony
 dev-python/aiohomekit 0.6.3 0.6.4 0.6.11: An asyncio HomeKit client
@@ -177,7 +177,7 @@ dev-python/alpha-vantage 2.2.0 2.3.1: Python module to get stock data from the A
 dev-python/ambee 0.3.0 0.4.0: Asynchronous Python client for the Ambee API.
 dev-python/amberelectric 1.0.3: Interface to the Amber Electric API, allowing you to download current and forecast price, as well as download your historic usage.
 dev-python/amcrest 1.7.2 1.8.1 1.9.3: Python wrapper implementation for Amcrest cameras.
-dev-python/androidtv 0.0.60 0.0.61 0.0.61-r1: Communicate with an Android TV or Fire TV device via ADB over a network.
+dev-python/androidtv 0.0.60 0.0.61 0.0.63: Communicate with an Android TV or Fire TV device via ADB over a network.
 dev-python/anel-pwrctrl-homeassistant 0.0.1: Discover and control ANEL NET-PwrCtrl devices.
 dev-python/anthemav 1.1.10 1.2.0: Python API for controlling Anthem Receivers
 dev-python/apcaccess 0.0.13: This project implements the apcaccess tool in pure Python and provides
@@ -240,7 +240,7 @@ dev-python/bme680 1.0.5: Python library for driving the Pimoroni BME680 Breakout
 dev-python/bomradarloop 0.1.5: Create animated GIFs from BOM radar imagery
 dev-python/bond-api 0.1.14 0.1.15 0.1.16: Asynchronous Python wrapper library over Bond Local API
 dev-python/bond-home 0.0.8 0.0.9: Python library for controlling BOND Home Hub
-dev-python/boschshcpy 0.2.19 0.2.28: Bosch Smart Home Controller API Python Library
+dev-python/boschshcpy 0.2.19 0.2.28 0.2.29: Bosch Smart Home Controller API Python Library
 dev-python/boto3 1.16.52 1.20.24: The AWS SDK for Python
 dev-python/botocore 1.12.252 1.12.252-r1 1.13.14: Low-level, data-driven core of boto 3.
 dev-python/bravia-tv 1.0.6 1.0.8 1.0.11: Python Bravia TV remote control
@@ -370,7 +370,7 @@ dev-python/flake8 3.7.9 3.8.4-r1: A wrapper around PyFlakes, pep8 & mccabe
 dev-python/flake8-docstrings 1.3.0 1.6.0: Extension for flake8 which uses pydocstyle to check docstrings
 dev-python/flatten-json 0.1.7: Flatten JSON objects
 dev-python/flipr-api 1.4.1: Python client for flipr API.
-dev-python/flux-led 0.22 0.24.24 0.27.13 0.27.21 0.27.32 0.27.45 0.28.4 0.28.17: A Python library to communicate with the flux_led smart bulbs
+dev-python/flux-led 0.22 0.24.24 0.28.4 0.28.17 0.28.20: A Python library to communicate with the flux_led smart bulbs
 dev-python/fnvhash 0.1.0: Pure Python FNV hash implementation
 dev-python/foobot_async 1.0.0: API Client for Foobot Air Quality Monitoring devices.
 dev-python/forecast-solar 1.3.1-r1 2.0.0-r1 2.1.0-r1: Asynchronous Python client for getting forecast solar information
@@ -449,7 +449,7 @@ dev-python/home-assistant-frontend 20211007.1 20211109.0 20211229.1 20220127.0 2
 dev-python/homeassistant-pyozw 0.1.10: python_openzwave is a python wrapper for the openzwave c++ library.
 dev-python/homeconnect 0.6.3: Python client for the BSH Home Connect REST API
 dev-python/homekit-python 0.15.0: HomeKit Python
-dev-python/homematicip 0.13.1 1.0.1: An API for the homematicip cloud
+dev-python/homematicip 1.0.1 1.0.2: An API for the homematicip cloud
 dev-python/homepluscontrol 0.0.5: Python-based API to interact with the Legrand Home + Control interface
 dev-python/horimote 0.4.1: Async API wrapper for Samsumgs set-top boxes SMT-G7400 and SMT-G7401.
 dev-python/hstspreload 2020.7.22: Chromium HSTS Preload list as a Python package and updated daily
@@ -658,7 +658,7 @@ dev-python/pubnub 5.1.4 6.0.0: PubNub Real-time push service in the cloud
 dev-python/pubnubsub-handler 1.0.9: Handles the PubNub subscriptions between PubNub and Home-Assistant for Wink
 dev-python/pulsectl 20.2.4: Python high-level interface and ctypes-based bindings for PulseAudio (libpulse)
 dev-python/pure-pcapy3 1.0.1-r1: Pure Python reimplementation of pcapy. This package is API compatible and a drop-in replacement.
-dev-python/pure-python-adb 0.3.0: Pure python implementation of the adb client
+dev-python/pure-python-adb 0.3.0-r1: Pure python implementation of the adb client
 dev-python/pushbullet-py 0.11.0: A simple python client for pushbullet.com
 dev-python/pushetta 1.0.15: Client for Pushetta API
 dev-python/pushover_complete 1.1.1: A Python package for interacting with *all* aspects of the Pushover API
@@ -991,7 +991,7 @@ dev-python/recollect-waste 1.0.1: Python 3 API for Recollect Waste to track wast
 dev-python/redis 4.0.2: Python client for Redis database and key-value store
 dev-python/regenmaschine 3.1.5 2021.10.0 2022.1.0: A simple API for RainMachine sprinkler controllers
 dev-python/regex 2021.8.28: Alternative regular expression module to replace re
-dev-python/renault-api 0.1.4 0.1.7: Renault API
+dev-python/renault-api 0.1.4 0.1.7 0.1.8: Renault API
 dev-python/requests 2.22.0-r1 2.25.0: HTTP library for human beings
 dev-python/requests-async 0.6.2: async-await support for requests.
 dev-python/requests-cache 0.5.0 0.5.2: Persistent cache for requests library
