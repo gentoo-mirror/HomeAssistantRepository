@@ -992,7 +992,7 @@ dev-python/redis 4.0.2: Python client for Redis database and key-value store
 dev-python/regenmaschine 3.1.5 2021.10.0 2022.1.0: A simple API for RainMachine sprinkler controllers
 dev-python/regex 2021.8.28: Alternative regular expression module to replace re
 dev-python/renault-api 0.1.4 0.1.7 0.1.8: Renault API
-dev-python/requests 2.22.0-r1 2.25.0: HTTP library for human beings
+dev-python/requests 2.26.0: HTTP library for human beings
 dev-python/requests-async 0.6.2: async-await support for requests.
 dev-python/requests-cache 0.5.0 0.5.2: Persistent cache for requests library
 dev-python/requests-file 1.5.1: File transport adapter for Requests
