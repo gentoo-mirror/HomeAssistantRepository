@@ -1166,6 +1166,7 @@ app-misc/homeassistant-min:snmp - Presence Detection, Sensor, Switch via SNMP
 app-misc/homeassistant-min:socat - Set a flag to install socat and socat-zwave startscript
 app-misc/homeassistant-min:sonos - Sonos Media Player Support
 app-misc/homeassistant-min:speedtestdotnet - speedtest.net support
+app-misc/homeassistant-min:spotify - Spotify media player integration allows you to control Spotify playback
 app-misc/homeassistant-min:sql - enables you to use an SQL database supported by the sqlalchemy library
 app-misc/homeassistant-min:ssl - include support for haproxy
 app-misc/homeassistant-min:systemd - internal and developer use
