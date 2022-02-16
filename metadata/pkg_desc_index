@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.11.5 2021.12.10 2022.2.4 2022.2.5 2022.2.6-r1: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2021.11.5 2021.12.10 2022.2.4 2022.2.5 2022.2.6-r1 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2021.11.5 2021.12.10 2022.2.4 2022.2.5 2022.2.6-r1: Open-source home automation platform running on Python.
+app-misc/homeassistant 2021.11.5 2021.12.10 2022.2.4 2022.2.5 2022.2.6-r1 2022.2.7: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2021.11.5 2021.12.10 2022.2.4 2022.2.5 2022.2.6-r1 2022.2.7 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2021.11.5 2021.12.10 2022.2.4 2022.2.5 2022.2.6-r1 2022.2.7: Open-source home automation platform running on Python.
 dev-embedded/esphome 2021.12.3-r1 2022.1.2-r1 2022.1.3-r2 2022.1.4 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20210908.0 20211021.0 20211021.1 20211211.0 20220116.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.1 3.2: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -92,7 +92,7 @@ dev-python/adb-homeassistant 1.3.2: A pure python implementation of the Android 
 dev-python/adb-shell 0.4.0-r2 0.4.2: A Python implementation of ADB with shell and FileSync functionality.
 dev-python/adext 0.4.1 0.4.2: AlarmDecoder extended
 dev-python/adguardhome 0.5.0 0.5.1: Asynchronous Python client for the AdGuard Home API.
-dev-python/advantage-air 0.2.1 0.2.5: API helper for Advantage Air's MyAir and e-zone API
+dev-python/advantage-air 0.2.5 0.3.0: API helper for Advantage Air's MyAir and e-zone API
 dev-python/aenum 3.1.0: Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
 dev-python/afsapi 0.0.4: Asynchronous Implementation of the Frontier Silicon API
 dev-python/agent-py 0.0.20 0.0.23: A python wrapper around the Agent REST API.
@@ -124,7 +124,7 @@ dev-python/aioguardian 1.0.4 1.0.8 2021.11.0: A Python3 library for Elexa Guardi
 dev-python/aioharmony 0.2.8 0.2.9: Asyncio Python library for connecting to and controlling the Logitech Harmony
 dev-python/aiohomekit 0.6.3 0.6.4 0.6.11: An asyncio HomeKit client
 dev-python/aiohttp 3.6.1 3.7.3 3.7.4_p0: http client/server for asyncio
-dev-python/aiohue 2.6.3 3.0.11 4.0.1: Python module to talk to Philips Hue.
+dev-python/aiohue 2.6.3 3.0.11 4.0.1 4.1.2: Python module to talk to Philips Hue.
 dev-python/aiohwenergy 0.7.0 0.8.0: Python module to talk to HomeWizard Energy Devices.
 dev-python/aioimaplib 0.7.15 0.9.0: Python asyncio IMAP4rev1 client library
 dev-python/aioitertools 0.8.0: itertools and builtins for AsyncIO and mixed iterables
@@ -370,7 +370,7 @@ dev-python/flake8 3.7.9 3.8.4-r1: A wrapper around PyFlakes, pep8 & mccabe
 dev-python/flake8-docstrings 1.3.0 1.6.0: Extension for flake8 which uses pydocstyle to check docstrings
 dev-python/flatten-json 0.1.7: Flatten JSON objects
 dev-python/flipr-api 1.4.1: Python client for flipr API.
-dev-python/flux-led 0.24.24 0.28.4 0.28.17 0.28.20 0.28.21 0.28.22: A Python library to communicate with the flux_led smart bulbs
+dev-python/flux-led 0.24.24 0.28.4 0.28.22 0.28.26: A Python library to communicate with the flux_led smart bulbs
 dev-python/fnvhash 0.1.0: Pure Python FNV hash implementation
 dev-python/foobot_async 1.0.0: API Client for Foobot Air Quality Monitoring devices.
 dev-python/forecast-solar 1.3.1-r1 2.0.0-r1 2.1.0-r1: Asynchronous Python client for getting forecast solar information
@@ -444,7 +444,7 @@ dev-python/hkdf 0.0.3: HMAC-based Extract-and-Expand Key Derivation Function (HK
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.5.1 0.7.0: Python API for interacting with *hole.
 dev-python/holidays 0.11.3.1 0.12: Generate and work with holidays in Python
-dev-python/home-assistant-frontend 20211007.1 20211109.0 20211229.1 20220201.0 20220202.0 20220203.0-r2: The Home Assistant frontend
+dev-python/home-assistant-frontend 20211109.0 20211229.1 20220202.0 20220203.0-r2 20220214.0: The Home Assistant frontend
 dev-python/homeassistant-pyozw 0.1.10: python_openzwave is a python wrapper for the openzwave c++ library.
 dev-python/homeconnect 0.6.3: Python client for the BSH Home Connect REST API
 dev-python/homekit-python 0.15.0: HomeKit Python
