@@ -1,25 +1,27 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
-PYTHON_COMPAT=( python3_{7..9} )
+PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A Python library for communicating with devices from Axis Communications"
-HOMEPAGE="https://github.com/Kane610/axis https://pypi.org/project/axis/"
+DESCRIPTION="Use the full Github API v3"
+HOMEPAGE="https://github.com/pygithub/pygithub https://pypi.org/project/PyGithub/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="LGPL-3+"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
-RDEPEND="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+DOCS="README.md"
+
+RDEPEND="dev-python/deprecated[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pynacl-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.14.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
