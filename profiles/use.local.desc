@@ -321,7 +321,6 @@ app-misc/homeassistant-full:aprs - Tracker integration connects to the APRS-IS
 app-misc/homeassistant-full:aqualogic - Provides connectivity to a Hayward/Goldline AquaLogic/ProLogic pool controller
 app-misc/homeassistant-full:aquostv - The aquostv platform allows you to control a Sharp Aquos TV
 app-misc/homeassistant-full:arcam_fmj - Control Arcam receivers from Home Assistant
-app-misc/homeassistant-full:arduino - Arduino device family are microcontroller boards
 app-misc/homeassistant-full:arlo - Allows you to integrate your Arlo devices into Home Assistant
 app-misc/homeassistant-full:arris_tg2492lg - Presence detection from an Arris TG2492LG router
 app-misc/homeassistant-full:aruba - Presence detection by looking at connected devices to an Aruba Instant device
