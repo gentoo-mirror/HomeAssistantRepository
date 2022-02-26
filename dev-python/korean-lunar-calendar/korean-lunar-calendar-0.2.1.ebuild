@@ -7,13 +7,13 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
+DESCRIPTION="Korean Lunar Calendar"
+HOMEPAGE="https://github.com/usingsky/korean_lunar_calendar_py https://pypi.org/project/korean-lunar-calendar/"
+
 MY_PN=${PN//-/_}
 MY_P=${MY_PN}-${PV}
 SRC_URI="mirror://pypi/${P:0:1}/${MY_PN}/${MY_P}.tar.gz -> ${P}.tar.gz"
 S=${WORKDIR}/${MY_PN}-${PV}
-
-DESCRIPTION="Korean Lunar Calendar"
-HOMEPAGE="https://github.com/usingsky/korean_lunar_calendar_py https://pypi.org/project/korean-lunar-calendar/"
 
 LICENSE="MIT"
 SLOT="0"
