@@ -6,10 +6,6 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyaussiebb</remote-id>
-    <maintainer status="unknown">
-      <email>james@terminaloutcomes.com</email>
-      <name>James Hodgkinson</name>
-    </maintainer>
+    <remote-id type="pypi">nextcord</remote-id>
   </upstream>
 </pkgmetadata>
