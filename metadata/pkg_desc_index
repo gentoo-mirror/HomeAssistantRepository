@@ -907,7 +907,7 @@ dev-python/regenmaschine 3.1.5 2021.10.0 2022.1.0: A simple API for RainMachine 
 dev-python/regex 2021.8.28: Alternative regular expression module to replace re
 dev-python/renault-api 0.1.4 0.1.8 0.1.9: Renault API
 dev-python/requests 2.26.0: HTTP library for human beings
-dev-python/requests-mock 1.8.0 1.9.2: Mock out responses from the requests package
+dev-python/requests-mock 1.9.2: Mock out responses from the requests package
 dev-python/requests-oauth 0.4.1: Hook for adding Open Authentication support to Python-requests HTTP library.
 dev-python/responses 0.10.6 0.12.0 0.13.3: A utility library for mocking out the requests Python library.
 dev-python/respx 0.17.0 0.19.0: A utility for mocking out the Python HTTPX and HTTP Core libraries.
