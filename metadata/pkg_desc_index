@@ -52,7 +52,7 @@ dev-python/PyNINA 0.1.4 0.1.7: A Python API wrapper to retrieve warnings from th
 dev-python/PyOTA 2.0.5 2.1.0-r1: IOTA API library for Python
 dev-python/PyRMVtransport 0.3.2 0.3.3: Define module-level imports.
 dev-python/PySocks 1.7.1: A Python SOCKS client module. See https://github.com/Anorov/PySocks.
-dev-python/PySwitchbot 0.12.0 0.13.0 0.13.2: A library to communicate with Switchbot
+dev-python/PySwitchbot 0.12.0 0.13.2 0.13.3: A library to communicate with Switchbot
 dev-python/PySwitchmate 0.4.5 0.4.6: A library to communicate with Switchmate
 dev-python/PySyncThru 0.7.3 0.7.10: Automated JSON API based communication with Samsung SyncThru Web Service
 dev-python/PyTransportNSW 0.1.1: Get transport information from TransportNSW
@@ -136,6 +136,7 @@ dev-python/aiooncue 0.3.2: Async for Oncue
 dev-python/aiopulse 0.4.2 0.4.3: Python module for Rollease Acmeda Automate integration.
 dev-python/aiopvapi 1.6.14 1.6.19: Powerview blinds API wrapper
 dev-python/aiopvpc 2.2.0 2.2.1 2.2.4 3.0.0: Retrieval of Spanish Electricity hourly prices (PVPC)
+dev-python/aiopyarr 22.2.2: An Asynchronous Lidarr, Radarr, Readarr, Sonarr APIs for Python.
 dev-python/aiopylgtv 0.3.3 0.4.0: Library to control webOS based LG TV devices.
 dev-python/aiorecollect 1.0.5 1.0.7 1.0.8: A Python 3, asyncio-based library for the ReCollect Waste API
 dev-python/aioredis 1.2.0: asyncio (PEP 3156) Redis support
@@ -143,18 +144,18 @@ dev-python/aioresponses 0.7.2: Mock out requests made by ClientSession from aioh
 dev-python/aioridwell 0.2.0 2021.10.0 2021.12.2: A Python3, asyncio-based API for interacting with Ridwell waste recycling
 dev-python/aiosenseme 0.6.1: SenseME by Big Ass Fans asynchronous Python library
 dev-python/aioserial 1.3.0: An asynchronous serial port library of Python
-dev-python/aioshelly 1.0.4 1.0.5 1.0.8 1.0.9: Asynchronous library to control Shelly devices.
+dev-python/aioshelly 1.0.4 1.0.5 1.0.9 1.0.10: Asynchronous library to control Shelly devices.
 dev-python/aioshutil 1.1: Asynchronous shutil module.
 dev-python/aiosqlite 0.15.0 0.16.0 0.17.0: asyncio bridge to the standard sqlite3 module
 dev-python/aiosteamist 0.3.1: Control Steamist steam systems
 dev-python/aioswitcher 1.2.1 1.2.3 2.0.4 2.0.5 2.0.6: Switcher Python Integration.
 dev-python/aiosyncthing 0.5.1 0.6.3: Asynchronous Python client for the Syncthing REST API
 dev-python/aiotractive 0.5.2 0.5.3: Asynchronous Python client for the Tractive REST API
-dev-python/aiounifi 27 28 30: An asynchronous Python library for communicating with Unifi Controller API
+dev-python/aiounifi 28 30 31: An asynchronous Python library for communicating with Unifi Controller API
 dev-python/aiounittest 1.4.0: Test asyncio code more easily.
 dev-python/aiovlc 0.1.0: A package for talking to vlc over its telnet interface using asyncio.
 dev-python/aiowatttime 0.1.1: An asyncio-based Python3 library for interacting with WattTime
-dev-python/aiowebostv 0.1.1 0.1.2: Library to control webOS based LG TV devices
+dev-python/aiowebostv 0.1.2 0.1.3: Library to control webOS based LG TV devices
 dev-python/aioymaps 1.1.0 1.2.1 1.2.2: Async client for Yandex Maps
 dev-python/airly 1.1.0: Python wrapper for getting air quality data from Airly sensors.
 dev-python/airthings-cloud 0.0.1 0.1.0: A python3 library to communicate with Airthings devices
@@ -189,6 +190,7 @@ dev-python/asyncio-mqtt 0.8.0 0.8.1 0.9.1: Idomatic asyncio wrapper around paho-
 dev-python/asyncio-throttle 1.0.2: Simple, easy-to-use throttler for asyncio
 dev-python/asyncmock 0.4.2: Extension to the standard mock framework to support support async
 dev-python/asyncpysupla 0.0.5: Simple Supla's OpenAPI async wrapper
+dev-python/asyncsleepiq 1.1.0: ASync SleepIQ API
 dev-python/asyncssh 2.4.0 2.7.0: AsyncSSH: Asynchronous SSHv2 client and server library
 dev-python/asynctest 0.12.2 0.13.0: Enhance the standard unittest package with features for testing asyncio libraries
 dev-python/atenpdu 0.3.0 0.3.2: Interface for ATEN-PE PDUs
@@ -254,7 +256,7 @@ dev-python/codecov 2.0.15 2.1.10 2.1.11 2.1.12: Hosted coverage reports for GitH
 dev-python/coinbase 2.1.0: Coinbase API client library
 dev-python/colorlog 4.8.0 5.0.1: Log formatting with colors
 dev-python/colorthief 0.2.1: A module for grabbing the color palette from an image.
-dev-python/colour 0.1.5: converts and manipulates various color representation (HSL, RVB, web, X11, ...)
+dev-python/colour 0.1.5-r1: converts and manipulates various color representation (HSL, RVB, web, X11, ...)
 dev-python/concord232 0.15: GE Concord 4 RS232 Serial Interface Library and Server
 dev-python/configargparse 0.11.0: Drop-in replacement for argparse supporting config files and env variables
 dev-python/connect-box 0.2.7 0.2.8: Python client for interacting with Compal CH7465LG devices.
@@ -333,6 +335,7 @@ dev-python/feedparser 6.0.2: Universal feed parser, handles RSS 0.9x, RSS 1.0, R
 dev-python/fiblary3 0.1.7 0.1.8: Home Center API Python Library
 dev-python/fints 1.0.1 2.2.0: Pure-python FinTS 3.0 (formerly known as HBCI) implementation
 dev-python/fitbit 0.3.1: Fitbit API Wrapper.
+dev-python/fivem-api 0.1.2: A library to query info, players and resources from FiveM server
 dev-python/fixerio 1.0.0_alpha0: A Python client for Fixer.io
 dev-python/fjaraskupan 1.0.0 1.0.1 1.0.2: A python library for speaking to fjäråskupan
 dev-python/flake8 3.7.9 3.8.4-r1: A wrapper around PyFlakes, pep8 & mccabe
@@ -384,9 +387,10 @@ dev-python/graphql-subscription-manager 0.4.0 0.4.3: A python3 library for graph
 dev-python/greeclimate 0.12.5 1.0.1 1.0.2: Discover, connect and control Gree based minisplit systems
 dev-python/greeneye-monitor 2.1 3.0.1 3.0.3: Receive data packets from GreenEye Monitor (https://www.brultech.com/greeneye/)
 dev-python/greenwavereality 0.5.1: Control of Greenwave Reality Lights
+dev-python/gridnet 4.0.0: Asynchronous Python client for a NET2GRID devices
 dev-python/growattServer 1.0.1 1.1.0: A package to talk to growatt server
 dev-python/grpc-google-iam-v1 0.12.3: GRPC library for the google-iam-v1 service
-dev-python/grpcio 1.31.0: High-performance RPC framework (python libraries)
+dev-python/grpcio 1.31.0 1.44.0: High-performance RPC framework (python libraries)
 dev-python/gstreamer-player 1.1.2: Python 3 wrapper for playing media via gstreamer
 dev-python/guppy3 3.1.0 3.1.2: Guppy 3 -- Guppy-PE ported to Python 3
 dev-python/ha-av 8.0.3 8.0.4_rc1: Pythonic bindings for FFmpeg's libraries.
@@ -406,7 +410,7 @@ dev-python/hikvision 0.4 1.2: Provides a python interface to interact with a hik
 dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.5.1 0.7.0: Python API for interacting with *hole.
-dev-python/holidays 0.11.3.1 0.12: Generate and work with holidays in Python
+dev-python/holidays 0.11.3.1 0.12 0.13: Generate and work with holidays in Python
 dev-python/home-assistant-frontend 20211109.0 20211229.1 20220203.0-r2 20220203.1 20220224.0: The Home Assistant frontend
 dev-python/homeassistant-pyozw 0.1.10: python_openzwave is a python wrapper for the openzwave c++ library.
 dev-python/homeconnect 0.6.3: Python client for the BSH Home Connect REST API
@@ -503,6 +507,7 @@ dev-python/miniaudio 1.44 1.45: python bindings for the miniaudio library and it
 dev-python/minio 4.0.9 5.0.10: MinIO Python Library for Amazon S3 Compatible Cloud Storage for Python
 dev-python/mitemp-bt 0.0.3 0.0.5: Library to read data from Mi Temperature and Humidity Sensor (V2) using Bluetooth LE with LCD display
 dev-python/mock-open 1.4.0: A better mock for file I/O
+dev-python/moehlenhoff-alpha2 1.1.2: Python client for the Moehlenhoff Alpha2 underfloor heating system
 dev-python/motionblinds 0.5.7 0.5.8 0.5.12 0.5.13: Python library for interfacing with Motion Blinds
 dev-python/motioneye-client 0.3.6 0.3.11 0.3.12: motionEye client library Python Package
 dev-python/msgpack 0.6.1: MessagePack (de)serializer.
@@ -555,7 +560,7 @@ dev-python/openwrt-luci-rpc 1.1.8 1.1.11: Module for interacting with OpenWrt Lu
 dev-python/openwrt-ubus-rpc 0.0.2: OpenWrt ubus RPC API library
 dev-python/oru 0.1.11: Python client for Orange and Rockland Utility smart energy meters
 dev-python/orvibo 1.1.1: Control Orvibo products.
-dev-python/ovoenergy 1.1.12: Get energy data from OVO's API
+dev-python/ovoenergy 1.1.12 1.2.0: Get energy data from OVO's API
 dev-python/p1monitor 0.2.0 1.0.0 1.0.1 1.1.0: Asynchronous Python client for the P1 Monitor
 dev-python/packaging 20.4: Core utilities for Python packages
 dev-python/paho-mqtt 1.5.1 1.6.1: MQTT version 5.0/3.1.1 client class
@@ -581,7 +586,7 @@ dev-python/pizzapi 0.0.3 0.0.6: A Python wrapper for the Dominos Pizza API
 dev-python/pkce 1.0.3: PKCE Pyhton generator.
 dev-python/plexauth 0.0.6: Handles the authorization flow to obtain tokens from Plex.tv via external redirection.
 dev-python/plexwebsocket 0.0.13: Support for issuing callbacks in response to Plex websocket updates.
-dev-python/plugwise 0.8.5: Plugwise (Adam/Anna/P1/Stick/Stretch) API to use in conjunction with Home Assistant Core.
+dev-python/plugwise 0.8.5 0.16.6: Plugwise (Adam/Anna/P1/Stick/Stretch) API to use in conjunction with Home Assistant Core.
 dev-python/plumlightpad 0.0.11: A python package that interacts with the Plum Lightpad
 dev-python/pmsensor 0.4: Library to read data from environment sensors
 dev-python/poetry 1.1.6: Python dependency management and packaging made easy.
@@ -604,7 +609,7 @@ dev-python/pure-python-adb 0.3.0-r1: Pure python implementation of the adb clien
 dev-python/pushbullet-py 0.11.0: A simple python client for pushbullet.com
 dev-python/pushover_complete 1.1.1: A Python package for interacting with *all* aspects of the Pushover API
 dev-python/pvo 0.2.1 0.2.2: Asynchronous client for the PVOutput API.
-dev-python/pwmled 1.6.7: Control LEDs connected to a micro controller using pwm.
+dev-python/pwmled 1.6.7 1.6.10: Control LEDs connected to a micro controller using pwm.
 dev-python/py-canary 0.5.1: Python API for Canary Security Camera
 dev-python/py-cpuinfo 7.0.0: Get CPU info with pure Python 2 & 3
 dev-python/py-melissa-climate 2.1.4: Api wrapper for Melissa Climate https://seemelissa.com
@@ -623,7 +628,7 @@ dev-python/pyEzviz 0.1.8.9 0.1.9.4 0.2.0.5 0.2.0.6: Pilot your Ezviz cameras
 dev-python/pyHik 0.2.8 0.3.0: Provides a python api to interact with a Hikvision camera event stream and toggle motion detection.
 dev-python/pyRFXtrx 0.27.0 0.27.1: a library to communicate with the RFXtrx family of devices
 dev-python/pySDCP 1: SDCP library to control Sony Projectors
-dev-python/pyTibber 0.19.1 0.21.1 0.21.7 0.22.0: A python3 library to communicate with Tibber
+dev-python/pyTibber 0.19.1 0.21.1 0.21.7 0.22.1: A python3 library to communicate with Tibber
 dev-python/pyW215 0.7.0: Interface for d-link W215 Smart Plugs.
 dev-python/pyW800rf32 0.1 0.3: A library to communicate with the W800rf32 family of devices
 dev-python/pyads 3.2.1 3.2.2: Python wrapper for TwinCAT ADS library
@@ -691,7 +696,7 @@ dev-python/pyfunctional 1.4.1 1.4.3: Package for creating data pipelines with ch
 dev-python/pygatt 4.0.5: Python Bluetooth LE (Low Energy) and GATT Library
 dev-python/pygtfs 0.1.5 0.1.6: Models GTFS data in a database.
 dev-python/pygti 0.9.2: access public transport information in hamburg, germany.
-dev-python/pyhaversion 21.7.0 21.10.0 21.11.1: Get the latest Home Assistant version from various sources.
+dev-python/pyhaversion 21.10.0 21.11.1 22.2.0: Get the latest Home Assistant version from various sources.
 dev-python/pyheos 0.7.2: An async python library for controlling HEOS devices through the HEOS CLI Protocol
 dev-python/pyhiveapi 0.4.2: A Python library to interface with the Hive API
 dev-python/pyhomematic 0.1.74 0.1.76 0.1.77: Homematic interface
@@ -759,7 +764,7 @@ dev-python/pyopnsense 0.2.0: A python API client for OPNsense
 dev-python/pyoppleio 1.0.5: Python library for interfacing with opple mobile control light
 dev-python/pyotgw 1.1_beta1: A library to interface with the opentherm gateway through serial or network connection.
 dev-python/pyotp 2.3.0: Python One Time Password Library
-dev-python/pyoverkiz 1.3.1 1.3.2: Async Python client to interact with internal OverKiz API (e.g. used by Somfy TaHoma).
+dev-python/pyoverkiz 1.3.2 1.3.8: Async Python client to interact with internal OverKiz API (e.g. used by Somfy TaHoma).
 dev-python/pyowm 3.2.0: A Python wrapper around OpenWeatherMap web APIs
 dev-python/pyownet 0.10.0: Python OWFS client library (owserver protocol)
 dev-python/pypca 0.0.7: A python cli for PCA 301 smart plugs.
@@ -784,7 +789,7 @@ dev-python/pyroute2 0.6.5: Python Netlink library
 dev-python/pyruckus 0.12: Python API to interact with a Ruckus Unleashed device.
 dev-python/pysabnzbd 1.1.0: Python wrapper for SABnzbd API
 dev-python/pysaj 0.0.16: Library to communicate with SAJ inverters
-dev-python/pysensibo 1.0.3: asyncio-friendly python API for Sensibo
+dev-python/pysensibo 1.0.3 1.0.7: asyncio-friendly python API for Sensibo
 dev-python/pyserial-asyncio 0.5 0.6: Python Serial Port Extension - Asynchronous I/O support
 dev-python/pysesame2 1.0.1 1.0.2: Python API for Sesame Smartlock made by CANDY HOUSE, Inc.
 dev-python/pysiaalarm 3.0.0 3.0.1 3.0.2: Python package for creating a client that talks with SIA-based alarm systems.
@@ -840,7 +845,7 @@ dev-python/python-juicenet 1.0.2: Read and control Juicenet/Juicepoint/Juicebox 
 dev-python/python-kasa 0.4.0 0.4.1: Python API for TP-Link Kasa Smarthome devices
 dev-python/python-memcached 1.59-r1: Pure python memcached client
 dev-python/python-metar 1.4.0: Metar - a package to parse METAR coded weather reports
-dev-python/python-miio 0.5.8 0.5.9.1 0.5.9.2: Python library for interfacing with Xiaomi smart appliances
+dev-python/python-miio 0.5.8 0.5.9.2 0.5.10: Python library for interfacing with Xiaomi smart appliances
 dev-python/python-mpd2 3.0.4: A Python MPD client library
 dev-python/python-mystrom 1.1.2: Python API for interacting with myStrom devices
 dev-python/python-nest 4.1.0 4.2.0: Python API and command line tool for talking to the Nest Thermostat
@@ -854,7 +859,7 @@ dev-python/python-slugify 4.0.0 4.0.1: A Python Slugify application that handles
 dev-python/python-smarttub 0.0.27 0.0.28 0.0.29: API to query and control hot tubs using the SmartTub system
 dev-python/python-sochain-api 0.0.2: Python API for interacting with chain.so.
 dev-python/python-socketio 4.6.0-r1 5.3.0: Socket.IO server
-dev-python/python-songpal 0.12: Python library for interfacing with Sony's Songpal devices
+dev-python/python-songpal 0.12 0.14: Python library for interfacing with Sony's Songpal devices
 dev-python/python-tado 0.10.0 0.12.0: PyTado from chrism0dwk, modfied by w.malgadey, diplix, michaelarnauts, LenhartStephan, splifter, syssi, andersonshatch, Yippy, p0thi
 dev-python/python-telegram-bot 13.1: We have made you a wrapper you can't refuse
 dev-python/python-twitch-client 0.6.0: Easy to use Python library for accessing the Twitch API
@@ -867,11 +872,11 @@ dev-python/pytile 5.2.4 2021.12.0 2022.1.0 2022.2.0: A simple Python API for Til
 dev-python/pytouchline 0.7: A Roth Touchline interface library
 dev-python/pytraccar 0.9.0 0.10.0: Update and fetch device information from Traccar.
 dev-python/pytrackr 0.0.5: Interface to the TrackR API
-dev-python/pytradfri 7.0.6 7.1.1 7.2.1 8.0.1: IKEA Tradfri/Tradfri API. Control and observe your lights from Python.
+dev-python/pytradfri 7.1.1 7.2.1 8.0.1 9.0.0: IKEA Tradfri/Tradfri API. Control and observe your lights from Python.
 dev-python/pytrafikverket 0.1.6.2: Retreive values from public API at trafikverket in sweden.
 dev-python/pytz 2020.1 2021.1: World timezone definitions for Python
 dev-python/pyunifiprotect 3.2.0 3.2.1: Python Wrapper for Unifi Protect API
-dev-python/pyuptimerobot 21.9.0 21.11.0: Python API wrapper for Uptime Robot.
+dev-python/pyuptimerobot 21.9.0 21.11.0 22.2.0: Python API wrapper for Uptime Robot.
 dev-python/pyusb 1.0.2: Python USB access module
 dev-python/pyvera 0.3.13: Python API for talking to Veracontrollers
 dev-python/pyversasense 0.0.6: Versasense API consumer
@@ -882,6 +887,7 @@ dev-python/pyvolumio 0.1.3 0.1.5: A python library to control Volumio.
 dev-python/pywebpush 1.9.2: WebPush publication library
 dev-python/pywemo 0.6.7 0.7.0: Lightweight Python module to discover and control WeMo devices
 dev-python/pywilight 0.0.70: Python API for WiLight in Home Assistant
+dev-python/pywizlight 0.5.13: A python connector for WiZ light bulbs (e.g SLV Play)
 dev-python/pyxeoma 1.4.1: Python wrapper for Xeoma web server API
 dev-python/pyyaml 5.3: YAML parser and emitter for Python
 dev-python/pyzbar 0.1.7: Read one-dimensional barcodes and QR codes from Python
@@ -889,6 +895,7 @@ dev-python/pyzerproc 0.4.7 0.4.8: Async library to control Zerproc Bluetooth LED
 dev-python/qnapstats 0.3.0 0.3.1 0.4.0: Python API for obtaining QNAP NAS system stats
 dev-python/quantum-gateway 0.0.5 0.0.6: Query a Quantum Gateway
 dev-python/queueman 0.5: simple queue manager for python
+dev-python/radios 0.1.0: Asynchronous Python client for the Radio Browser API
 dev-python/radiotherm 2.1.0: client library for wifi thermostats sold by radiothermostat.com
 dev-python/raincloudy 0.0.7: Melnor RainCloud Smart Garden Watering Irrigation Timer.
 dev-python/raspihats 2.2.3 2.3.0: package for controlling raspihats.com boards
@@ -898,7 +905,7 @@ dev-python/readlike 0.1.2 0.1.3: GNU Readline-like line editing module
 dev-python/redis 4.0.2: Python client for Redis database and key-value store
 dev-python/regenmaschine 3.1.5 2021.10.0 2022.1.0: A simple API for RainMachine sprinkler controllers
 dev-python/regex 2021.8.28: Alternative regular expression module to replace re
-dev-python/renault-api 0.1.4 0.1.7 0.1.8: Renault API
+dev-python/renault-api 0.1.4 0.1.8 0.1.9: Renault API
 dev-python/requests 2.26.0: HTTP library for human beings
 dev-python/requests-mock 1.8.0 1.9.2: Mock out responses from the requests package
 dev-python/requests-oauth 0.4.1: Hook for adding Open Authentication support to Python-requests HTTP library.
@@ -910,7 +917,7 @@ dev-python/ring-doorbell 0.7.1 0.7.2: A Python library to communicate with Ring 
 dev-python/ritassist 0.9.2: RitAssist API Access
 dev-python/rjpl 0.3.6: Interface with Rejseplanen API
 dev-python/rocketchat-API 0.6.1 0.6.35: Python API wrapper for Rocket.Chat
-dev-python/rokuecp 0.8.1 0.8.4 0.12.0: Asynchronous Python client for Roku (ECP).
+dev-python/rokuecp 0.8.1 0.8.4 0.12.0 0.14.1: Asynchronous Python client for Roku (ECP).
 dev-python/roombapy 1.6.3 1.6.4 1.6.5: Python program and library to control Wi-Fi enabled iRobot Roombas
 dev-python/roonapi 0.0.32 0.0.36 0.0.37 0.0.38: Provides a python interface to interact with Roon
 dev-python/rova 0.2.1: API wrapper for ROVA calendar
@@ -925,7 +932,7 @@ dev-python/rxv 0.6.0 0.7.0: Automation Library for Yamaha RX-V473, RX-V573, RX-V
 dev-python/s3transfer 0.2.1: An Amazon S3 Transfer Manager
 dev-python/saltbox 0.1.3 0.1.3-r1: Interface with your Salt Fiber Box router in python.
 dev-python/samsungctl 0.7.1: Remote control Samsung televisions via TCP/IP connection
-dev-python/samsungtvws 1.6.0: Samsung Smart TV WS API wrapper
+dev-python/samsungtvws 1.6.0 1.7.0: Samsung Smart TV WS API wrapper
 dev-python/satel-integra 0.3.4: Communication library for Satel Integra alarm system.
 dev-python/schedule 1.1.0: Job scheduling for humans.
 dev-python/schiene 0.23: schiene is a Python library for interacting with Bahn.de
@@ -955,7 +962,7 @@ dev-python/smhi-pkg 1.0.15: Gets the weather forecast data from Swedish weather 
 dev-python/snapcast 2.1.3: Control Snapcast.
 dev-python/sniffio 1.1.0: Sniff out which async library your code is running under
 dev-python/snitun 0.27.0 0.30.0 0.31.0: SNI proxy with TCP multiplexer
-dev-python/soco 0.24.0 0.25.3 0.26.0 0.26.2: SoCo (Sonos Controller) is a simple library to control Sonos speakers.
+dev-python/soco 0.24.0 0.25.3 0.26.2 0.26.3: SoCo (Sonos Controller) is a simple library to control Sonos speakers.
 dev-python/solaredge 0.0.2: A python API wrapper for Solaredge monitoring service
 dev-python/solaredge-local 0.2.0: API wrapper to communicate locally with SolarEdge Inverters
 dev-python/solax 0.2.8 0.2.9: Solax inverter API client
@@ -968,7 +975,7 @@ dev-python/spidev 3.5: Python bindings for Linux SPI access through spidev
 dev-python/spotipy 2.16.1 2.18.0 2.19.0: A light weight Python library for the Spotify Web API
 dev-python/sqlalchemy 1.4.23-r1: Python SQL toolkit and Object Relational Mapper
 dev-python/sqlitedict 1.6.0: Persistent dict in Python, backed up by sqlite3 and pickle, multithread-safe.
-dev-python/srpenergy 1.3.2: An unofficial Python module for interacting with Srp Energy data.
+dev-python/srpenergy 1.3.2-r1 1.3.6: An unofficial Python module for interacting with Srp Energy data.
 dev-python/srptools 1.0.1: Tools to implement Secure Remote Password (SRP) authentication
 dev-python/ssdp 1.0.1: Python asyncio library for Simple Service Discovery Protocol (SSDP).
 dev-python/sseclient-py 1.7.2: SSE client for Python
@@ -977,19 +984,20 @@ dev-python/starlette 0.14.2 0.16.0 0.17.0: The little ASGI library that shines.
 dev-python/starline 0.1.5: Unofficial python library for StarLine API
 dev-python/starlingbank 3.2: Python package that provides access to parts of the Starling bank API.
 dev-python/statsd 3.2.1: A simple statsd client.
+dev-python/stdiomask 0.0.6: A cross-platform Python module for entering passwords to a stdio terminal and displaying a **** mask, which getpass cannot do.
 dev-python/stdlib-list 0.7.0 0.8.0: A list of Python Standard Libraries (2.6-7, 3.2-9).
 dev-python/steamodd 4.21: High level Steam API implementation with low level reusable core
 dev-python/stookalert 0.1.4: Stookalert package
 dev-python/streamlabswater 1.0.1: Unofficial Python library for the Streamlabs Water API
 dev-python/stringcase 1.2.0: String case converter.
-dev-python/subarulink 0.3.12: A package for interacting with Subaru Starlink Remote Services API.
+dev-python/subarulink 0.3.12 0.4.2: A package for interacting with Subaru Starlink Remote Services API.
 dev-python/sucks 0.9.4: a library for controlling certain robot vacuums
 dev-python/sunwatcher 0.2.1: Binding to SolarLog HTTP API
 dev-python/surepy 0.7.0 0.7.2: Library to interact with the flaps & doors from Sure Petcare.
 dev-python/swisshydrodata 0.1.0: A library to fetch data from the Swiss federal Office for Environment FEON
 dev-python/synology-srm 0.2.0: Synology SRM API
 dev-python/synologydsm-api 1.0.1 1.0.2: Python API for communication with Synology DSM
-dev-python/systembridge 2.0.6 2.1.0 2.1.3 2.2.3: Python package for connecting to System Bridge.
+dev-python/systembridge 2.1.3 2.2.3 2.3.1: Python package for connecting to System Bridge.
 dev-python/tahoma-api 0.0.16: Tahoma Api - Python connect to Tahoma REST API
 dev-python/tailer 0.4.1: Python tail is a simple implementation of GNU tail and head.
 dev-python/tailscale 0.1.6 0.2.0: Asynchronous client for the Tailscale API.
@@ -1001,7 +1009,7 @@ dev-python/tellduslive 0.10.11: Communicate with Telldus Live
 dev-python/temescal 0.3: Python API for controlling LG speakers
 dev-python/temperusb 1.5.3: Reads temperature from TEMPerV1 devices (USB 0c45:7401)
 dev-python/tenacity 6.2.0: Retry code until it succeeds
-dev-python/tesla-powerwall 0.3.10 0.3.11 0.3.12 0.3.13: API for Tesla Powerwall
+dev-python/tesla-powerwall 0.3.12 0.3.17: API for Tesla Powerwall
 dev-python/tesla-wall-connector 1.0.0 1.0.1: API Library for communicating with a Tesla Wall Connector
 dev-python/teslajsonpy 0.11.5 0.18.3: A library to work with Tesla API.
 dev-python/tf-models-official 2.3.0 2.5.0: TensorFlow Official Models
@@ -1013,18 +1021,19 @@ dev-python/tmb 0.0.4: Library that interacts with TMB API
 dev-python/todoist-python 8.0.0 8.0.2: todoist-python - The official Todoist Python API library
 dev-python/tololib 0.1.0_beta3: Python Library for Controlling TOLO Sauna/Steam Bath Devices
 dev-python/toonapi 0.2.0 0.2.1: Asynchronous Python client for the Quby ToonAPI.
-dev-python/total-connect-client 0.57 2021.11.2 2021.12 2022.1: Interact with Total Connect 2 alarm systems
+dev-python/total-connect-client 2021.11.2 2021.12 2022.1 2022.2.1: Interact with Total Connect 2 alarm systems
 dev-python/tox-travis 0.11: Seamless integration of Tox into Travis CI
 dev-python/tp-connected 0.0.4: TP-Link LTE modem API
 dev-python/tqdm 4.49.0: Add a progress meter to your loops in a second
 dev-python/transitions 0.6.9: A lightweight, object-oriented Python state machine implementation.
 dev-python/transmissionrpc 0.11: Python module that implements the Transmission bittorent client RPC protocol.
-dev-python/ttls 1.4.2: Twinkly Twinkly Little Star
+dev-python/ttls 1.4.2 1.4.3: Twinkly Twinkly Little Star
 dev-python/tuya-iot-py-sdk 0.5.0 0.6.3 0.6.6: A Python sdk for Tuya Open API, which provides IoT capabilities, maintained by Tuya official
 dev-python/tuyaha 0.0.10: A Python library that implements a Tuya API endpoint that was specially designed for Home Assistant
 dev-python/twentemilieu 0.3.0 0.5.0: Asynchronous Python client for Twente Milieu API.
 dev-python/twilio 6.32.0: Helper library for the Twilio API
 dev-python/twinkly-client 0.0.2: A package to communicate with Twinkly LED strings
+dev-python/twitchAPI 2.5.2: A Python 3.7+ implementation of the Twitch Helix API, its Webhook, PubSub and EventSub
 dev-python/txaio 18.7.1 18.8.1: Compatibility API between asyncio/Twisted/Trollius
 dev-python/typing-inspect 0.7.1: Runtime inspection utilities for typing module.
 dev-python/tzdata 2021.5: Provider of IANA time zone data
@@ -1040,9 +1049,9 @@ dev-python/urwid 1.3.1: Curses-based user interface library for Python
 dev-python/uscisstatus 0.1.1: USCIS Status Checker
 dev-python/user-agents 2.0-r2: A library to identify devices (phones, tablets) and their capabilities by parsing browser user agent strings.
 dev-python/uvcclient 0.11.0: A remote control client for Ubiquiti's UVC NVR
-dev-python/vallox-websocket-api 2.8.1 2.9.0: Vallox WebSocket API
+dev-python/vallox-websocket-api 2.8.1 2.9.0 2.11.0: Vallox WebSocket API
 dev-python/vehicle 0.2.2 0.3.1: Asynchronous Python client providing RDW vehicle information.
-dev-python/velbus-aio 2021.9.4 2021.11.7 2022.2.1: Python Library for the Velbus protocol based on asyncio
+dev-python/velbus-aio 2021.11.7 2022.2.1 2022.2.4: Python Library for the Velbus protocol based on asyncio
 dev-python/venstarcolortouch 0.14 0.15: Interface Library for Venstar ColorTouch Thermostat API v5
 dev-python/vilfo-api-client 0.3.2-r1: Simple wrapper client for the Vilfo router API
 dev-python/vincenty 0.1.4: Calculate the geographical distance between 2 points with extreme accuracy.
@@ -1068,7 +1077,7 @@ dev-python/whois 0.9.13-r1: Python package for retrieving WHOIS information of d
 dev-python/wiffi 1.0.1 1.1.0: Python 3 package to interface devices from STALL WIFFI.
 dev-python/wikipedia 1.4.0: Wikipedia API for Python
 dev-python/wirelesstagpy 0.5.0 0.8.1: Simple python wrapper over wirelesstags REST API
-dev-python/withings-api 2.1.6 2.3.2: Library for the Withings API
+dev-python/withings-api 2.3.2 2.4.0: Library for the Withings API
 dev-python/wled 0.8.0 0.10.1 0.12.0 0.13.0: Asynchronous Python client for WLED.
 dev-python/wolf_smartset 0.1.8 0.1.11: A package to comunicate with Wolf Smart Set Cloud
 dev-python/xbee-helper 0.0.7: a high level API to an XBee device
@@ -1077,25 +1086,26 @@ dev-python/xboxapi 2.0.1: A wrapper library for XboxAPI.com
 dev-python/xfinity-gateway 0.0.4: Query an Xfinity Gateway
 dev-python/xknx 0.18.11 0.18.15 0.19.1 0.19.2: An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/
 dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontrol XS1 Gateway
-dev-python/yalesmartalarmclient 0.3.4 0.3.7: Interact with Yale Smart Alarm systems
+dev-python/yalesmartalarmclient 0.3.4 0.3.7 0.3.8: Interact with Yale Smart Alarm systems
 dev-python/yalexs 1.1.13 1.1.19 1.1.20 1.1.22: Python API for Yale Access (formerly August) Smart Lock and Doorbell
 dev-python/yarl 1.6.3-r1: Yet another URL library
-dev-python/yeelight 0.6.3 0.7.4 0.7.6 0.7.7 0.7.8: A Python library for controlling YeeLight RGB bulbs.
+dev-python/yeelight 0.7.8 0.7.9: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
 dev-python/youless-api 0.14 0.15 0.16: A bridge for python to the YouLess sensor
 dev-python/youtube_dl 2021.4.26 2021.6.6: YouTube video downloader
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs
 dev-python/zeroconf 0.36.8 0.36.13 0.38.3: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
-dev-python/zha-quirks 0.0.62 0.0.63 0.0.65 0.0.66: Library implementing Zigpy quirks for ZHA in Home Assistant
+dev-python/zha-quirks 0.0.63 0.0.65 0.0.66 0.0.67: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
 dev-python/zigpy 0.38.0 0.39.0 0.42.0 0.43.0: Library implementing a ZigBee stack
 dev-python/zigpy-deconz 0.13.0 0.14.0: A library which communicates with Deconz radios for zigpy
 dev-python/zigpy-xbee 0.12.1 0.13.0 0.14.0: A library which communicates with XBee radios for zigpy
-dev-python/zigpy-zigate 0.7.3: A library which communicates with ZiGate radios for zigpy
+dev-python/zigpy-zigate 0.7.3 0.8.0: A library which communicates with ZiGate radios for zigpy
 dev-python/zigpy-znp 0.5.4 0.6.4 0.7.0: A library for zigpy which communicates with TI ZNP radios
 dev-python/zm-py 0.5.2: A loose python wrapper around the ZoneMinder REST API.
-dev-python/zwave-js-server-python 0.31.3 0.33.0 0.34.0: Python wrapper for zwave-js-server
+dev-python/zwave-js-server-python 0.31.3 0.33.0 0.34.0 0.35.1: Python wrapper for zwave-js-server
+dev-python/zwave-me-ws 0.2.1 0.2.2: Library, implementing websocket connection to ZWave-Me
 dev-vcs/pre-commit 2.14.0 2.16.0-r1: A framework for managing and maintaining multi-language Git pre-commit hooks
 media-libs/opencv 3.4.1-r7: A collection of algorithms and sample code for various computer vision problems
 net-analyzer/speedtest-cli 2.1.1 2.1.2: Command line interface for testing internet bandwidth using speedtest.net
