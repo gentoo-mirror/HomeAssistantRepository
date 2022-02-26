@@ -518,6 +518,7 @@ dev-python/mutesync 0.0.1: Asynchronous library to control mutesync devices.
 dev-python/mychevy 2.1.1: Python interface to My Chevy online data
 dev-python/mycroftapi 2.0: a library to communicate with Mycroft API
 dev-python/mypy 0.790 0.902: Optional static typing for Python
+dev-python/mysql-connector-python 8.0.28: Python client library for MariaDB/MySQL
 dev-python/nad-receiver 0.2.0 0.3.0: Library to interface with NAD receivers through RS232, TCP and telnet
 dev-python/ndms2-client 0.1.1: Keenetic NDMS 2.x and 3.x client
 dev-python/nessclient 0.9.15: Implementation of the Ness D8x / D16x Serial Interface ASCII protocol
@@ -1024,7 +1025,7 @@ dev-python/toonapi 0.2.0 0.2.1: Asynchronous Python client for the Quby ToonAPI.
 dev-python/total-connect-client 2021.11.2 2021.12 2022.1 2022.2.1: Interact with Total Connect 2 alarm systems
 dev-python/tox-travis 0.11: Seamless integration of Tox into Travis CI
 dev-python/tp-connected 0.0.4: TP-Link LTE modem API
-dev-python/tqdm 4.49.0: Add a progress meter to your loops in a second
+dev-python/tqdm 4.49.0-r1: Add a progress meter to your loops in a second
 dev-python/transitions 0.6.9: A lightweight, object-oriented Python state machine implementation.
 dev-python/transmissionrpc 0.11: Python module that implements the Transmission bittorent client RPC protocol.
 dev-python/ttls 1.4.2 1.4.3: Twinkly Twinkly Little Star
