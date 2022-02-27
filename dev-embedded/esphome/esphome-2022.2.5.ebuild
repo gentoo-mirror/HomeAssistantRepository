@@ -5,7 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
-inherit readme.gentoo-r1 distutils-r1 udev
+inherit readme.gentoo-r1 distutils-r1
 
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
@@ -17,17 +17,21 @@ else
 	MY_PV=${PV/_beta/b}
 	SRC_URI="https://github.com/${PN}/${PN}/archive/v${MY_PV}.tar.gz -> ${P}.tar.gz"
 	S="${WORKDIR}/${MY_P}/"
-	KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 fi
 
 DESCRIPTION="Make creating custom firmwares for ESP32/ESP8266 super easy."
 HOMEPAGE="https://github.com/esphome/esphome https://pypi.org/project/esphome/"
+SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
+KEYWORDS="amd64 ~arm ~arm64 x86 ~amd64-linux ~x86-linux"
 IUSE="+server test"
 
-RDEPEND="server? ( acct-group/${PN} acct-user/${PN} )
+DOCS="README.md"
+
+RDEPEND="
+	server? ( acct-group/${PN} acct-user/${PN} )
 	~dev-python/voluptuous-0.12.2[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
@@ -38,8 +42,8 @@ RDEPEND="server? ( acct-group/${PN} acct-user/${PN} )
 	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	~dev-embedded/platformio-5.2.5
 	~dev-embedded/esptool-3.2[${PYTHON_USEDEP}]
-	~dev-python/click-8.0.3[${PYTHON_USEDEP}]
-	~dev-embedded/esphome-dashboard-20220219.0[${PYTHON_USEDEP}]
+	dev-python/click[${PYTHON_USEDEP}]
+	~dev-embedded/esphome-dashboard-20220209.0[${PYTHON_USEDEP}]
 	dev-python/aioesphomeapi[${PYTHON_USEDEP}]
 	dev-python/zeroconf[${PYTHON_USEDEP}]
 	~dev-python/kconfiglib-13.7.1[${PYTHON_USEDEP}]"
@@ -64,16 +68,12 @@ logging is to: /var/log/${PN}/{dashboard,warnings}.log
 support at https://git.edevau.net/onkelbeh/HomeAssistantRepository
 "
 
-DOCS="README.md"
-
 src_prepare() {
-	# Make it easy (again)
-	cat requirements.txt | cut -d "=" -f1 > requirements_new.txt
-	mv requirements_new.txt requirements.txt
+	sed "s/aioesphomeapi==10.8.2/aioesphomeapi/g" -i requirements.txt || die
+	sed "s/click==8.0.3/click/g" -i requirements.txt || die
+	sed "s/zeroconf==0.38.3/zeroconf/g" -i requirements.txt || die
 	eapply_user
 }
-
-distutils_enable_tests pytest
 
 python_install_all() {
 	dodoc ${DOCS}
@@ -89,13 +89,13 @@ python_install_all() {
 	fi
 }
 
-python_test() {
-	nosetests --verbose || die
-	py.test -v -v || die
-}
-
 pkg_postinst() {
 	if use server; then
 		readme.gentoo_print_elog
 	fi
+}
+
+python_test() {
+	nosetests --verbose || die
+	py.test -v -v || die
 }
