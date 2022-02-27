@@ -9,10 +9,10 @@ app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line
 app-misc/homeassistant 2021.11.5 2021.12.10 2022.2.7 2022.2.8 2022.2.9 2022.3.0_beta3 2022.3.0_beta4: Open-source home automation platform running on Python.
 app-misc/homeassistant-full 2021.11.5 2021.12.10 2022.2.7 2022.2.8 2022.2.9 2022.3.0_beta3 2022.3.0_beta4 9999: Open-source home automation platform running on Python.
 app-misc/homeassistant-min 2021.11.5 2021.12.10 2022.2.7 2022.2.8 2022.2.9 2022.3.0_beta3 2022.3.0_beta4: Open-source home automation platform running on Python.
-dev-embedded/esphome 2021.12.3-r1 2022.1.2-r1 2022.1.3-r2 2022.1.4 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
-dev-embedded/esphome-dashboard 20210908.0 20211021.0 20211021.1 20211211.0 20220116.0: ESPHome dashboard
+dev-embedded/esphome 2021.12.3-r1 2022.1.2-r1 2022.1.3-r2 2022.1.4 2022.2.5 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome-dashboard 20210908.0 20211021.0 20211021.1 20211211.0 20220116.0 20220209.0 20220219.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.1 3.2: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
-dev-embedded/platformio 5.2.2-r2 5.2.4-r2: A professional collaborative platform for embedded development. Cross-platform IDE and Unified Debugger. Static Code Analyzer and Remote Unit Testing. Multi-platform and Multi-architecture Build System. Firmware File Explorer and Memory Inspection. IoT, Arduino, CMSIS, ESP-IDF, FreeRTOS, libOpenCM3, mbedOS, Pulp OS, SPL, STM32Cube, Zephyr RTOS, ARM, AVR, Espressif (ESP8266/ESP32), FPGA, MCS-51 (8051), MSP430, Nordic (nRF51/nRF52), NXP i.MX RT, PIC32, RISC-V, STMicroelectronics (STM8/STM32), Teensy
+dev-embedded/platformio 5.2.2-r2 5.2.4-r2 5.2.5: Cross-platform IDE and Unified Debugger.
 dev-libs/protobuf 3.7.0 3.10.0 3.12.4: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-python/AEMET-OpenData 0.2.1: AEMET OpenData Rest API library
 dev-python/Adafruit-Blinka 6.11.1: CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython.
