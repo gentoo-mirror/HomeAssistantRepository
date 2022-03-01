@@ -393,6 +393,7 @@ dev-python/grpc-google-iam-v1 0.12.3: GRPC library for the google-iam-v1 service
 dev-python/grpcio 1.31.0 1.44.0: High-performance RPC framework (python libraries)
 dev-python/gstreamer-player 1.1.2: Python 3 wrapper for playing media via gstreamer
 dev-python/guppy3 3.1.0 3.1.2: Guppy 3 -- Guppy-PE ported to Python 3
+dev-python/h11 0.12.0: A pure-Python implementation of HTTP/1.1 inspired by hyper-h2
 dev-python/ha-av 8.0.3 8.0.4_rc1: Pythonic bindings for FFmpeg's libraries.
 dev-python/ha-ffmpeg 3.0.2: A library that handling with ffmpeg for home-assistant
 dev-python/ha-philipsjs 2.7.5 2.7.6: jointSPACE API for Home-Assistant
