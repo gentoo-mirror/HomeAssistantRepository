@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.11.5 2021.12.10 2022.2.7 2022.2.8 2022.2.9 2022.3.0_beta4 2022.3.0_beta5: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2021.11.5 2021.12.10 2022.2.7 2022.2.8 2022.2.9 2022.3.0_beta4 2022.3.0_beta5 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2021.11.5 2021.12.10 2022.2.7 2022.2.8 2022.2.9 2022.3.0_beta4 2022.3.0_beta5: Open-source home automation platform running on Python.
+app-misc/homeassistant 2021.11.5 2021.12.10 2022.2.7 2022.2.8 2022.2.9 2022.3.0_beta5 2022.3.0_beta6: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2021.11.5 2021.12.10 2022.2.7 2022.2.8 2022.2.9 2022.3.0_beta5 2022.3.0_beta6 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2021.11.5 2021.12.10 2022.2.7 2022.2.8 2022.2.9 2022.3.0_beta5 2022.3.0_beta6: Open-source home automation platform running on Python.
 dev-embedded/esphome 2021.12.3-r1 2022.1.2-r1 2022.1.3-r2 2022.1.4 2022.2.5 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20210908.0 20211021.0 20211021.1 20211211.0 20220116.0 20220209.0 20220219.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.1 3.2: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -340,7 +340,7 @@ dev-python/fixerio 1.0.0_alpha0: A Python client for Fixer.io
 dev-python/fjaraskupan 1.0.0 1.0.1 1.0.2: A python library for speaking to fjäråskupan
 dev-python/flake8 3.7.9 3.8.4-r1: A wrapper around PyFlakes, pep8 & mccabe
 dev-python/flake8-docstrings 1.3.0 1.6.0: Extension for flake8 which uses pydocstyle to check docstrings
-dev-python/flipr-api 1.4.1: Python client for flipr API.
+dev-python/flipr-api 1.4.1 1.4.2: Python client for flipr API.
 dev-python/flux-led 0.24.24 0.28.4 0.28.26 0.28.27: A Python library to communicate with the flux_led smart bulbs
 dev-python/fnvhash 0.1.0: Pure Python FNV hash implementation
 dev-python/foobot_async 1.0.0: API Client for Foobot Air Quality Monitoring devices.
@@ -412,7 +412,7 @@ dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.5.1 0.7.0: Python API for interacting with *hole.
 dev-python/holidays 0.11.3.1 0.12 0.13: Generate and work with holidays in Python
-dev-python/home-assistant-frontend 20211109.0 20211229.1 20220203.0-r2 20220203.1 20220224.0 20220226.0: The Home Assistant frontend
+dev-python/home-assistant-frontend 20211109.0 20211229.1 20220203.0-r2 20220203.1 20220226.0 20220301.0: The Home Assistant frontend
 dev-python/homeassistant-pyozw 0.1.10: python_openzwave is a python wrapper for the openzwave c++ library.
 dev-python/homeconnect 0.6.3: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.1 1.0.2: An API for the homematicip cloud
@@ -861,7 +861,7 @@ dev-python/python-slugify 4.0.0 4.0.1: A Python Slugify application that handles
 dev-python/python-smarttub 0.0.27 0.0.28 0.0.29: API to query and control hot tubs using the SmartTub system
 dev-python/python-sochain-api 0.0.2: Python API for interacting with chain.so.
 dev-python/python-socketio 4.6.0-r1 5.3.0: Socket.IO server
-dev-python/python-songpal 0.12 0.14: Python library for interfacing with Sony's Songpal devices
+dev-python/python-songpal 0.12 0.14 0.14.1: Python library for interfacing with Sony's Songpal devices
 dev-python/python-tado 0.10.0 0.12.0: PyTado from chrism0dwk, modfied by w.malgadey, diplix, michaelarnauts, LenhartStephan, splifter, syssi, andersonshatch, Yippy, p0thi
 dev-python/python-telegram-bot 13.1: We have made you a wrapper you can't refuse
 dev-python/python-twitch-client 0.6.0: Easy to use Python library for accessing the Twitch API
