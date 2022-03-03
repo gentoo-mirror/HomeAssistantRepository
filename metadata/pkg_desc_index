@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.11.5 2021.12.10 2022.2.7 2022.2.8 2022.2.9 2022.3.0_beta5 2022.3.0_beta6: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2021.11.5 2021.12.10 2022.2.7 2022.2.8 2022.2.9 2022.3.0_beta5 2022.3.0_beta6 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2021.11.5 2021.12.10 2022.2.7 2022.2.8 2022.2.9 2022.3.0_beta5 2022.3.0_beta6: Open-source home automation platform running on Python.
+app-misc/homeassistant 2021.12.10 2022.2.7 2022.2.8 2022.2.9 2022.3.0_beta6 2022.3.0: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2021.12.10 2022.2.7 2022.2.8 2022.2.9 2022.3.0_beta6 2022.3.0 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2021.12.10 2022.2.7 2022.2.8 2022.2.9 2022.3.0_beta6 2022.3.0: Open-source home automation platform running on Python.
 dev-embedded/esphome 2021.12.3-r1 2022.1.2-r1 2022.1.3-r2 2022.1.4 2022.2.5 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20210908.0 20211021.0 20211021.1 20211211.0 20220116.0 20220209.0 20220219.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.1 3.2: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -112,7 +112,7 @@ dev-python/aioftp 0.12.0: ftp client/server for asyncio
 dev-python/aiogithubapi 21.8.0 21.11.0 22.2.0 22.2.3: Asynchronous Python client for the GitHub API
 dev-python/aioguardian 1.0.4 1.0.8 2021.11.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aioharmony 0.2.8 0.2.9: Asyncio Python library for connecting to and controlling the Logitech Harmony
-dev-python/aiohomekit 0.6.3 0.6.4 0.6.11 0.7.14: An asyncio HomeKit client
+dev-python/aiohomekit 0.6.4 0.6.11 0.7.14 0.7.15: An asyncio HomeKit client
 dev-python/aiohttp 3.6.1 3.7.3 3.7.4_p0: http client/server for asyncio
 dev-python/aiohue 2.6.3 3.0.11 4.1.2 4.2.0 4.2.1 4.3.0: Python module to talk to Philips Hue.
 dev-python/aiohwenergy 0.7.0 0.8.0: Python module to talk to HomeWizard Energy Devices.
@@ -144,7 +144,7 @@ dev-python/aioresponses 0.7.2: Mock out requests made by ClientSession from aioh
 dev-python/aioridwell 0.2.0 2021.10.0 2021.12.2: A Python3, asyncio-based API for interacting with Ridwell waste recycling
 dev-python/aiosenseme 0.6.1: SenseME by Big Ass Fans asynchronous Python library
 dev-python/aioserial 1.3.0: An asynchronous serial port library of Python
-dev-python/aioshelly 1.0.4 1.0.5 1.0.9 1.0.10: Asynchronous library to control Shelly devices.
+dev-python/aioshelly 1.0.5 1.0.9 1.0.10 1.0.11: Asynchronous library to control Shelly devices.
 dev-python/aioshutil 1.1: Asynchronous shutil module.
 dev-python/aiosqlite 0.15.0 0.16.0 0.17.0: asyncio bridge to the standard sqlite3 module
 dev-python/aiosteamist 0.3.1: Control Steamist steam systems

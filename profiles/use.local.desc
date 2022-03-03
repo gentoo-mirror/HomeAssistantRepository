@@ -198,6 +198,7 @@ app-misc/homeassistant:python_script - write Python scripts that are exposed as 
 app-misc/homeassistant:qnap - Python API for obtaining QNAP NAS system stats
 app-misc/homeassistant:qvr_pro - QVR Pro allows you to connect to cams configured on your QNAP NAS
 app-misc/homeassistant:rachio - The rachio platform allows you to control your Rachio irrigation system
+app-misc/homeassistant:radio_browser - use the directory of radio stations collected on Radio Browser in Home Assistant
 app-misc/homeassistant:rainbird - allows interacting with LNK WiFi module of the Rain Bird Irrigation system
 app-misc/homeassistant:rainmachine - integrate all platforms related to RainMachine smart Wi-Fi sprinkler controllers
 app-misc/homeassistant:recorder - storing details in a database per sqlalchemy
@@ -372,7 +373,6 @@ app-misc/homeassistant-full:bsblan - This integration integrates BSBLan device i
 app-misc/homeassistant-full:bt_home_hub_5 - Offers presence detection by looking at connected devices to a BT Home
 app-misc/homeassistant-full:bt_smarthub - Presence detection by looking at BT Smart Hub based routers
 app-misc/homeassistant-full:buienradar - Integrate buienradar weather data into Home Assistant
-app-misc/homeassistant-full:button - A button entity is an entity that can fire an event towards a device or service
 app-misc/homeassistant-full:caldav - Integrate a CalDAV (RFC4791) calendar in Home Assistant
 app-misc/homeassistant-full:camera - The camera integration allows you to use IP cameras with Home Assistant
 app-misc/homeassistant-full:canary - Allows you to integrate your Canary devices from Home Assistant
@@ -428,7 +428,7 @@ app-misc/homeassistant-full:dlib_face_detect - Image processing platform for Hom
 app-misc/homeassistant-full:dlib_face_identify - image processing platform allows you to use the Dlib
 app-misc/homeassistant-full:dlink - Allows you to control the state of your D-Link Wi-Fi Smart Plugs
 app-misc/homeassistant-full:dlna_dmr - Allows you to control a DLNA Digital Media Renderer
-app-misc/homeassistant-full:dlna_dms - 
+app-misc/homeassistant-full:dlna_dms - allows you to browse and play media from a DLNA Digital Media Server
 app-misc/homeassistant-full:dnsip - will expose an IP address, fetched via DNS resolution, as its value
 app-misc/homeassistant-full:dominos - dominos integration allows you to order Dominos Pizza
 app-misc/homeassistant-full:doods - image processing integration allows you to detect and recognize objects
@@ -494,7 +494,7 @@ app-misc/homeassistant-full:fints - This only works with banks that support the 
 app-misc/homeassistant-full:fireservicerota - scheduling and dispatching system for firefighters
 app-misc/homeassistant-full:firmata - Firmata can be used to add digital inputs and outputs to Home Assistant
 app-misc/homeassistant-full:fitbit - The Fitbit sensor allows you to expose data from Fitbit to Home Assistant
-app-misc/homeassistant-full:fivem - 
+app-misc/homeassistant-full:fivem - lets you retrieve information from a FiveM server within Home Assistant
 app-misc/homeassistant-full:fixer - current exchange rate from Fixer.io using data from ECB
 app-misc/homeassistant-full:fjaraskupan - Fjäråskupan allows you to control your Bluetooth equipped kitchen fan
 app-misc/homeassistant-full:fleetgo - integrate your vehicles equipped with FleetGO hardware into Home Assistant
@@ -700,7 +700,7 @@ app-misc/homeassistant-full:mochad - main integration to integrate all Mochad X1
 app-misc/homeassistant-full:modbus - sensors and switches controlled over MODBUS serial, TCP, and UDP connections
 app-misc/homeassistant-full:modem_callerid - Uses an available modem for collecting caller ID information
 app-misc/homeassistant-full:modern_forms - Asynchronous Python client for Modern Forms fans
-app-misc/homeassistant-full:moehlenhoff_alpha2 - 
+app-misc/homeassistant-full:moehlenhoff_alpha2 - allows you to control a Möhlenhoff Alpha 2 temperature control system
 app-misc/homeassistant-full:monoprice - Python API for talking to Monoprice 6-zone amplifier
 app-misc/homeassistant-full:motion_blinds - control Motion Blinds from Coulisse B.V.
 app-misc/homeassistant-full:motioneye - integrate your motionEye server into Home Assistant
@@ -820,7 +820,7 @@ app-misc/homeassistant-full:proxmoxve - poll data from Proxmox VE virtualization
 app-misc/homeassistant-full:proxy - pass another camera’s output through post-processing routines
 app-misc/homeassistant-full:ps4 - allows you to control a Sony PlayStation 4 console
 app-misc/homeassistant-full:pulseaudio_loopback - whole home audio system based upon PulseAudio
-app-misc/homeassistant-full:pure_energie - 
+app-misc/homeassistant-full:pure_energie - integrates the Pure Energie Monitor device with Home Assistant
 app-misc/homeassistant-full:pushbullet - sensor platform reads messages from Pushbullet
 app-misc/homeassistant-full:pushover - allows integrations to send messages to the user using Pushover
 app-misc/homeassistant-full:pvoutput - The PVOutput integration
@@ -834,7 +834,7 @@ app-misc/homeassistant-full:quantum_gateway - device tracker platform for Verizo
 app-misc/homeassistant-full:qvr_pro - QVR Pro allows you to connect to cams configured on your QNAP NAS
 app-misc/homeassistant-full:qwikswitch - the main integration to integrate various QwikSwitch devices with Home Assistant
 app-misc/homeassistant-full:rachio - The rachio platform allows you to control your Rachio irrigation system
-app-misc/homeassistant-full:radio_browser - 
+app-misc/homeassistant-full:radio_browser - use the directory of radio stations collected on Radio Browser in Home Assistant
 app-misc/homeassistant-full:radiotherm - control a thermostat from Radio Thermostat or 3M Filtrete
 app-misc/homeassistant-full:rainbird - allows interacting with LNK WiFi module of the Rain Bird Irrigation system
 app-misc/homeassistant-full:raincloud - allows you to integrate your Melnor RainCloud sprinkler system in Home Assistant
@@ -1078,7 +1078,7 @@ app-misc/homeassistant-full:wilight - The wilight integration is to integrate Wi
 app-misc/homeassistant-full:wink - support for Wink Z-Wave Plus Smart Hub
 app-misc/homeassistant-full:wirelesstag - integrate your wirelesstag.net sensors tags
 app-misc/homeassistant-full:withings - add support for Withings Health API
-app-misc/homeassistant-full:wiz - 
+app-misc/homeassistant-full:wiz - allows you to control your WiZ lights and smart sockets
 app-misc/homeassistant-full:wled - add support for Aircookie's WLED
 app-misc/homeassistant-full:wolflink - uses the Wolf Smart-Set for your heating system status
 app-misc/homeassistant-full:workday - generating country, province and state specific sets of holidays on the fly
@@ -1110,7 +1110,7 @@ app-misc/homeassistant-full:ziggo_mediabox_xl - allows you to control a Ziggo Me
 app-misc/homeassistant-full:zoneminder - Support for ZoneMinder Cameras
 app-misc/homeassistant-full:zwave - Support for Z-Wave Devices (uncomplete)
 app-misc/homeassistant-full:zwave_js - control a Z-Wave network via the Z-Wave JS driver
-app-misc/homeassistant-full:zwave_me - 
+app-misc/homeassistant-full:zwave_me - allows you to control a Z-Wave network via the Z-Wave.Me Z-Way
 app-misc/homeassistant-min:accuweather - Uses the AccuWeather web service as a source for weather data
 app-misc/homeassistant-min:airly - Uses the Airly web service as a source for air quality data
 app-misc/homeassistant-min:airvisual - Airvisual sensor platform queries the AirVisual cloud API for air quality data
@@ -1160,6 +1160,7 @@ app-misc/homeassistant-min:ps4 - allows you to control a Sony PlayStation 4 cons
 app-misc/homeassistant-min:python_script - write Python scripts that are exposed as services in Home Assistant
 app-misc/homeassistant-min:qnap - Python API for obtaining QNAP NAS system stats
 app-misc/homeassistant-min:qvr_pro - QVR Pro allows you to connect to cams configured on your QNAP NAS
+app-misc/homeassistant-min:radio_browser - use the directory of radio stations collected on Radio Browser in Home Assistant
 app-misc/homeassistant-min:recorder - storing details in a database per sqlalchemy
 app-misc/homeassistant-min:rest - rest sensor platform for data exposed by a RESTful API
 app-misc/homeassistant-min:ring - integrate your ring.com devices
