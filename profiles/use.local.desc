@@ -1194,6 +1194,7 @@ app-misc/homeassistant-min:yamaha - Library for Yamaha RX-* Receivers
 app-misc/homeassistant-min:yamaha_musiccast - add support for Yamaha MusicCast devices
 app-misc/homeassistant-min:zeroconf - will scan the network for supported devices and services
 app-misc/homeassistant-min:zwave_js - control a Z-Wave network via the Z-Wave JS driver
+dev-embedded/esphome:server - add server for ESPHome dashboard
 dev-python/pyyaml:libyaml - enable support for C implementation using libyaml
 media-libs/opencv:contrib - Install user contributed scripts from opencv_contrib (Experimental!)
 media-libs/opencv:contrib_cvv - CVV module requires Qt5
