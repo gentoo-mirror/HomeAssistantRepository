@@ -1111,4 +1111,5 @@ dev-python/zwave-me-ws 0.2.1 0.2.2: Library, implementing websocket connection t
 dev-vcs/pre-commit 2.14.0 2.16.0-r1: A framework for managing and maintaining multi-language Git pre-commit hooks
 media-libs/opencv 3.4.1-r7: A collection of algorithms and sample code for various computer vision problems
 net-analyzer/speedtest-cli 2.1.1 2.1.2: Command line interface for testing internet bandwidth using speedtest.net
+net-misc/zwavejs2mqtt 5.2.1: Zwave to Mqtt gateway and Control Panel Web UI.
 virtual/mqtt 0 1: Virtual for Home Assistant MQTT
