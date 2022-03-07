@@ -1,15 +1,15 @@
 BDEPEND=dev-python/setuptools[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] test? ( dev-python/nose[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pytest[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] ) python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 ) >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
 DEFINED_PHASES=compile configure install prepare test
-DESCRIPTION=aiolifx light effects
+DESCRIPTION=a library to communicate with the RFXtrx family of devices
 EAPI=8
-HOMEPAGE=https://github.com/amelchio/aiolifx_effects https://pypi.org/project/aiolifx-effects/
+HOMEPAGE=https://github.com/Danielhiversen/pyRFXtrx https://pypi.org/project/pyRFXtrx/
 INHERIT=distutils-r1
 IUSE=test python_targets_python3_8 python_targets_python3_9 python_targets_python3_10
-KEYWORDS=amd64 ~arm ~arm64 x86 amd64-linux ~x86-linux
-LICENSE=MIT
-RDEPEND=>=dev-python/aiolifx-0.5.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 )
+KEYWORDS=~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=LGPL-3
+RDEPEND=>=dev-python/pyserial-2.7[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 )
 REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 )
 SLOT=0
-SRC_URI=mirror://pypi/a/aiolifx-effects/aiolifx_effects-0.2.2.tar.gz -> aiolifx-effects-0.2.2.tar.gz
+SRC_URI=mirror://pypi/p/pyRFXtrx/pyRFXtrx-0.28.0.tar.gz
 _eclasses_=multibuild	d79bd5b4bc4edcb1f5bc19591f8d4714	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	python-utils-r1	d3d7da5aff94a677154819e0cb95ee36	python-r1	bcd408f1e4a9669198ef4dfcd5ab8696	distutils-r1	d540d96908dd5622f3dfa41d167e632d
-_md5_=9380f7fb996e92dec05b9048b37c416a
+_md5_=7b10e60aee8986defe5e2d79f3386d4a
