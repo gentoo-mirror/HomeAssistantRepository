@@ -1195,7 +1195,13 @@ app-misc/homeassistant-min:yamaha_musiccast - add support for Yamaha MusicCast d
 app-misc/homeassistant-min:zeroconf - will scan the network for supported devices and services
 app-misc/homeassistant-min:zwave_js - control a Z-Wave network via the Z-Wave JS driver
 dev-embedded/esphome:server - add server for ESPHome dashboard
+dev-python/envs:cli - add cli support
+dev-python/pandas:full-support - Pull all packages to give pandas full support
+dev-python/pillow:imagequant - Build with Image Quantization Library support
+dev-python/pymodbus:serial - Build with serial I/O support
+dev-python/python-openzwave-mqtt:async - Build with async support (default)
 dev-python/pyyaml:libyaml - enable support for C implementation using libyaml
+dev-python/roombapy:mqtt - Build with mqtt support
 media-libs/opencv:contrib - Install user contributed scripts from opencv_contrib (Experimental!)
 media-libs/opencv:contrib_cvv - CVV module requires Qt5
 media-libs/opencv:contrib_dnn - DNN module contrib requires tiny dnn
