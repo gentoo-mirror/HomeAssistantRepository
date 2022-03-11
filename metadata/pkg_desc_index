@@ -518,7 +518,7 @@ dev-python/mutesync 0.0.1: Asynchronous library to control mutesync devices.
 dev-python/mychevy 2.1.1: Python interface to My Chevy online data
 dev-python/mycroftapi 2.0: a library to communicate with Mycroft API
 dev-python/mypy 0.790 0.902: Optional static typing for Python
-dev-python/mysql-connector-python 8.0.28: Python client library for MariaDB/MySQL
+dev-python/mysql-connector-python 8.0.28 8.0.28-r1: Python client library for MariaDB/MySQL
 dev-python/nad-receiver 0.2.0 0.3.0: Library to interface with NAD receivers through RS232, TCP and telnet
 dev-python/ndms2-client 0.1.1: Keenetic NDMS 2.x and 3.x client
 dev-python/nessclient 0.9.15: Implementation of the Ness D8x / D16x Serial Interface ASCII protocol
