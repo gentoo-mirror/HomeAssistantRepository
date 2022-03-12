@@ -788,7 +788,7 @@ dev-python/pyrisco 0.3.1: A python library to communicate with Risco Cloud.
 dev-python/pyrituals 0.0.2 0.0.3 0.0.4 0.0.6: Async Python wrapper for the Rituals Perfume Genie API
 dev-python/pyroute2 0.6.5: Python Netlink library
 dev-python/pyruckus 0.12: Python API to interact with a Ruckus Unleashed device.
-dev-python/pysabnzbd 1.1.0: Python wrapper for SABnzbd API
+dev-python/pysabnzbd 1.1.0 1.1.1: Python wrapper for SABnzbd API
 dev-python/pysaj 0.0.16: Library to communicate with SAJ inverters
 dev-python/pysensibo 1.0.3 1.0.7: asyncio-friendly python API for Sensibo
 dev-python/pyserial-asyncio 0.5 0.6: Python Serial Port Extension - Asynchronous I/O support
@@ -895,7 +895,7 @@ dev-python/pyzerproc 0.4.7 0.4.8: Async library to control Zerproc Bluetooth LED
 dev-python/qnapstats 0.3.0 0.3.1 0.4.0: Python API for obtaining QNAP NAS system stats
 dev-python/quantum-gateway 0.0.5 0.0.6: Query a Quantum Gateway
 dev-python/queueman 0.5: simple queue manager for python
-dev-python/radios 0.1.0: Asynchronous Python client for the Radio Browser API
+dev-python/radios 0.1.0 0.1.1: Asynchronous Python client for the Radio Browser API
 dev-python/radiotherm 2.1.0: client library for wifi thermostats sold by radiothermostat.com
 dev-python/raincloudy 0.0.7: Melnor RainCloud Smart Garden Watering Irrigation Timer.
 dev-python/raspihats 2.2.3 2.3.0: package for controlling raspihats.com boards
