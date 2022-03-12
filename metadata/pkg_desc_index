@@ -810,7 +810,7 @@ dev-python/pysuez 0.1.19: Get your water consumption data from your Suez account
 dev-python/pytankerkoenig 0.0.6: Library for Tankerkoenig.de JSON API
 dev-python/pytautulli 21.8.1 21.10.0 21.11.0: Python API wrapper for Tautulli.
 dev-python/pytest 6.2.3 6.2.4: Simple powerful testing with Python
-dev-python/pytest-cov 2.10.1 2.12.1: py.test plugin for coverage reporting
+dev-python/pytest-cov 2.10.1 2.12.1-r1: py.test plugin for coverage reporting
 dev-python/pytest-httpx 0.15.0: Send responses to httpx.
 dev-python/pytest-runner 5.2: Invoke py.test as distutils command with dependency resolution
 dev-python/pytest-socket 0.4.1: Pytest Plugin to disable socket calls during tests
