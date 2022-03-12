@@ -6,11 +6,11 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2021.12.10 2022.2.8 2022.2.9 2022.3.1 2022.3.2 2022.3.3: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2021.12.10 2022.2.8 2022.2.9 2022.3.1 2022.3.2 2022.3.3 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2021.12.10 2022.2.8 2022.2.9 2022.3.1 2022.3.2 2022.3.3: Open-source home automation platform running on Python.
-dev-embedded/esphome 2021.12.3-r1 2022.1.2-r1 2022.1.3-r2 2022.1.4 2022.2.5 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
-dev-embedded/esphome-dashboard 20210908.0 20211021.0 20211021.1 20211211.0 20220116.0 20220209.0 20220219.0: ESPHome dashboard
+app-misc/homeassistant 2021.12.10 2022.2.9 2022.3.1 2022.3.2 2022.3.3 2022.3.4: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2021.12.10 2022.2.9 2022.3.1 2022.3.2 2022.3.3 2022.3.4 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2021.12.10 2022.2.9 2022.3.1 2022.3.2 2022.3.3 2022.3.4: Open-source home automation platform running on Python.
+dev-embedded/esphome 2022.1.2-r1 2022.1.3-r2 2022.1.4 2022.2.5 2022.2.6 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome-dashboard 20220116.0 20220209.0 20220219.0 20220309.0: ESPHome dashboard
 dev-embedded/esptool 2.8 3.1 3.2: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
 dev-embedded/platformio 5.2.2-r2 5.2.4-r2 5.2.5: Cross-platform IDE and Unified Debugger.
 dev-python/AEMET-OpenData 0.2.1: AEMET OpenData Rest API library
@@ -57,9 +57,9 @@ dev-python/PySyncThru 0.7.3 0.7.10: Automated JSON API based communication with 
 dev-python/PyTransportNSW 0.1.1: Get transport information from TransportNSW
 dev-python/PyTurboJPEG 1.6.1 1.6.3 1.6.5: A Python wrapper of libjpeg-turbo for decoding and encoding JPEG image.
 dev-python/PyUserInput 0.1.11: A simple, cross-platform module for mouse and keyboard control
-dev-python/PyViCare 1.0.0 2.13.1 2.16.1: Library to communicate with the Viessmann ViCare API
+dev-python/PyViCare 2.13.1 2.16.1: Library to communicate with the Viessmann ViCare API
 dev-python/PyXiaomiGateway 0.13.4: A library to communicate with the Xiaomi Gateway
-dev-python/Pysher 1.0.1 1.0.7: Pusher websocket client for python, based on Erik Kulyk's PythonPusherClient
+dev-python/Pysher 1.0.1-r1 1.0.7: Pusher websocket client for python, based on Erik Kulyk's PythonPusherClient
 dev-python/RPi-GPIO 0.7.1_alpha4: A module to control Raspberry Pi GPIO channels
 dev-python/RachioPy 1.0.3: A Python module for the Rachio API.
 dev-python/ReParser 1.4.3: Simple regex-based lexer/parser for inline markup
@@ -158,7 +158,7 @@ dev-python/aiowebostv 0.1.2 0.1.3: Library to control webOS based LG TV devices
 dev-python/aioymaps 1.1.0 1.2.1 1.2.2: Async client for Yandex Maps
 dev-python/airly 1.1.0: Python wrapper for getting air quality data from Airly sensors.
 dev-python/airthings-cloud 0.0.1 0.1.0: A python3 library to communicate with Airthings devices
-dev-python/airtouch4pyapi 1.0.5: An api allowing control of AC state (temperature, on/off, mode) of an Airtouch 4 controller locally over TCP
+dev-python/airtouch4pyapi 1.0.5-r1: An api allowing control of AC state (temperature, on/off, mode) of an Airtouch 4 controller locally over TCP
 dev-python/ajsonrpc 1.1.0 1.2.0: Async JSON-RPC 2.0 protocol + server powered by asyncio
 dev-python/aladdin-connect 0.3 0.4: Python API controlling Genie garage doors connected to Aladdin Connect devices
 dev-python/alarmdecoder 1.13.10 1.13.11: Python interface for the AlarmDecoder (AD2) family of alarm devices which includes the AD2USB, AD2SERIAL and AD2PI.
@@ -200,7 +200,6 @@ dev-python/aurorapy 0.2.6: Python implementation of Aurora Protocol
 dev-python/av 8.0.2 8.0.3 8.1.0: Pythonic bindings for FFmpeg's libraries.
 dev-python/avea 1.5.1: Control an Elgato Avea bulb using python3
 dev-python/avion 0.10: Python API for controlling Avi-on Bluetooth dimmers
-dev-python/avri-api 0.1.7: Unofficial wrapper around Avri endpoints
 dev-python/awesomeversion 21.10.1 21.11.0 22.1.0 22.2.0: One version package to rule them all, One version package to find them, One version package to bring them all, and in the darkness bind them.
 dev-python/axis 43 44: A Python library for communicating with devices from Axis Communications
 dev-python/backoff 1.10.0 1.11.1: Function decoration for backoff and retry
@@ -381,7 +380,7 @@ dev-python/google-nest-sdm 0.3.8 0.4.9 1.6.0 1.7.1: Library for the Google Nest 
 dev-python/googlemaps 2.5.1 3.0.2: Python client library for Google Maps API Web Services
 dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud API
 dev-python/gpiozero 1.5.0-r1 1.5.1-r1: A simple interface to GPIO devices with Raspberry Pi.
-dev-python/gps3 0.33.3: Python 2.7-3.5 clients for gpsd
+dev-python/gps3 0.33.3-r1: Python 2.7-3.5 clients for gpsd
 dev-python/graphql-subscription-manager 0.4.0 0.4.3: A python3 library for graphql subscription manager
 dev-python/greeclimate 0.12.5 1.0.1 1.0.2: Discover, connect and control Gree based minisplit systems
 dev-python/greeneye-monitor 2.1 3.0.1 3.0.3: Receive data packets from GreenEye Monitor (https://www.brultech.com/greeneye/)
@@ -492,7 +491,7 @@ dev-python/mac-vendor-lookup 0.1.11: Find the vendor for a given MAC address
 dev-python/magicseaweed 1.0.3: Provides API wrapper to magicseaweed.com.
 dev-python/marshmallow-dataclass 8.5.0: Python library to convert dataclasses into marshmallow schemas.
 dev-python/matrix-client 0.3.2 0.4.0: Client-Server SDK for Matrix
-dev-python/maxcube-api 0.3.0 0.4.2 0.4.3-r1 9999: eQ-3/ELV MAX! Cube Python API
+dev-python/maxcube-api 0.4.3-r1 9999: eQ-3/ELV MAX! Cube Python API
 dev-python/mbddns 0.1.2: Mythic Beasts Dynamic DNS updater
 dev-python/mcstatus 6.0.0: A library to query Minecraft Servers for their status and capabilities.
 dev-python/messagebird 1.2.0 1.5.0: MessageBird's REST API
@@ -780,7 +779,7 @@ dev-python/pypubsub 4.0.3: Python Publish-Subscribe Package
 dev-python/pyqvrpro 0.52: QVR Pro API wrapper.
 dev-python/pyqwikswitch 0.93 0.94: Library to interface Qwikswitch USB Hub
 dev-python/pyrail 0.0.3: Python wrapper for the iRail API
-dev-python/pyrainbird 0.4.2 0.4.3: Rain Bird Controller
+dev-python/pyrainbird 0.4.3: Rain Bird Controller
 dev-python/pyrecswitch 1.0.2: A pure-python interface for controlling Ankuoo RecSwitch MS6126
 dev-python/pyrepetier 3.0.5: Repetier Server API library
 dev-python/pyrepetierng 0.1.0: A updated python Repetier-Server library based on Mtrabs library
@@ -1046,7 +1045,7 @@ dev-python/upb-lib 0.4.12: Library for interacting with UPB PIM.
 dev-python/upcloud-api 2.0.0: UpCloud API Client
 dev-python/url-normalize 1.4.1: URL normalization for Python
 dev-python/urwid 1.3.1: Curses-based user interface library for Python
-dev-python/uscisstatus 0.1.1: USCIS Status Checker
+dev-python/uscisstatus 0.1.1-r1: USCIS Status Checker
 dev-python/user-agents 2.0-r2: A library to identify devices (phones, tablets) and their capabilities by parsing browser user agent strings.
 dev-python/uvcclient 0.11.0: A remote control client for Ubiquiti's UVC NVR
 dev-python/vallox-websocket-api 2.8.1 2.9.0 2.11.0: Vallox WebSocket API
@@ -1104,7 +1103,7 @@ dev-python/zigpy-xbee 0.12.1 0.13.0 0.14.0: A library which communicates with XB
 dev-python/zigpy-zigate 0.7.3 0.8.0: A library which communicates with ZiGate radios for zigpy
 dev-python/zigpy-znp 0.5.4 0.6.4 0.7.0: A library for zigpy which communicates with TI ZNP radios
 dev-python/zm-py 0.5.2: A loose python wrapper around the ZoneMinder REST API.
-dev-python/zwave-js-server-python 0.31.3 0.33.0 0.34.0 0.35.1: Python wrapper for zwave-js-server
+dev-python/zwave-js-server-python 0.33.0 0.34.0 0.35.1 0.35.2: Python wrapper for zwave-js-server
 dev-python/zwave-me-ws 0.2.1 0.2.2: Library, implementing websocket connection to ZWave-Me
 dev-vcs/pre-commit 2.14.0 2.16.0-r1: A framework for managing and maintaining multi-language Git pre-commit hooks
 media-libs/opencv 3.4.1-r7: A collection of algorithms and sample code for various computer vision problems

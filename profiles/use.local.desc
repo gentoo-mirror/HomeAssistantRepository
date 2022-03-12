@@ -337,7 +337,6 @@ app-misc/homeassistant-full:aurora_abb_powerone - This implements a direct RS485
 app-misc/homeassistant-full:aussie_broadband - displays various service metrics using the Aussie Broadband API
 app-misc/homeassistant-full:avea - Library for Elgato Avea bulbs
 app-misc/homeassistant-full:avion - Support for the Avi-on Bluetooth dimmer switch Avi-on
-app-misc/homeassistant-full:avri - Query the next scheduled waste pickup and the type of waste from Avri
 app-misc/homeassistant-full:awair - Library to integrate the Awair GraphQL API into Home Assistant
 app-misc/homeassistant-full:aws - Interact with Amazon Web Services
 app-misc/homeassistant-full:axis - Communicating with newer devices from Axis Communications
