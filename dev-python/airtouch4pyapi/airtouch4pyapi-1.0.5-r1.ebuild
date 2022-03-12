@@ -7,9 +7,11 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Rain Bird Controller"
-HOMEPAGE="https://github.com/jbarrancos/pyrainbird/ https://pypi.org/project/pyrainbird/"
-SRC_URI="https://github.com/jbarrancos/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
+DESCRIPTION="An api allowing control of AC state (temperature, on/off, mode) of an Airtouch 4 controller locally over TCP"
+HOMEPAGE="https://github.com/LonePurpleWolf/airtouch4pyapi https://pypi.org/project/airtouch4pyapi/"
+COMMIT="34783888846783c058fe79cec16feda45504f701"
+SRC_URI="https://github.com/LonePurpleWolf/${PN}/archive/${COMMIT}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}/${PN}-${COMMIT}"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,8 +21,7 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+RDEPEND=""
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
