@@ -165,7 +165,7 @@ dev-python/alarmdecoder 1.13.10 1.13.11: Python interface for the AlarmDecoder (
 dev-python/alpha-vantage 2.3.1: Python module to get stock data from the Alpha Vantage Api
 dev-python/ambee 0.3.0 0.4.0: Asynchronous Python client for the Ambee API.
 dev-python/amberelectric 1.0.3: Interface to the Amber Electric API, allowing you to download current and forecast price, as well as download your historic usage.
-dev-python/amcrest 1.9.3 1.9.4: Python wrapper implementation for Amcrest cameras.
+dev-python/amcrest 1.9.3 1.9.4 1.9.7: Python wrapper implementation for Amcrest cameras.
 dev-python/androidtv 0.0.60 0.0.61 0.0.63: Communicate with an Android TV or Fire TV device via ADB over a network.
 dev-python/anel-pwrctrl-homeassistant 0.0.1: Discover and control ANEL NET-PwrCtrl devices.
 dev-python/anthemav 1.1.10 1.2.0: Python API for controlling Anthem Receivers
@@ -410,9 +410,9 @@ dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.5.1 0.7.0: Python API for interacting with *hole.
 dev-python/holidays 0.11.3.1 0.12 0.13: Generate and work with holidays in Python
-dev-python/home-assistant-frontend 20211229.1 20220203.0-r2 20220203.1 20220301.0 20220301.1: The Home Assistant frontend
+dev-python/home-assistant-frontend 20211229.1 20220203.1 20220301.0 20220301.1 20220301.2: The Home Assistant frontend
 dev-python/homeassistant-pyozw 0.1.10: python_openzwave is a python wrapper for the openzwave c++ library.
-dev-python/homeconnect 0.6.3: Python client for the BSH Home Connect REST API
+dev-python/homeconnect 0.6.3 0.7.0: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.1 1.0.2: An API for the homematicip cloud
 dev-python/homepluscontrol 0.0.5: Python-based API to interact with the Legrand Home + Control interface
 dev-python/horimote 0.4.1: Async API wrapper for Samsumgs set-top boxes SMT-G7400 and SMT-G7401.
@@ -711,7 +711,7 @@ dev-python/pyipp 0.11.0-r1: Asynchronous Python client for Internet Printing Pro
 dev-python/pyiqvia 1.0.0 1.1.0 2021.11.0: A clean, async-focused Python3 API for IQVIA data
 dev-python/pyirishrail 0.0.2: Python library to get the real-time transport information (RTPI) from Irish Rail
 dev-python/pyiss 1.0.1: A simple python3 library for info about the current International Space Station location
-dev-python/pyisy 3.0.0 3.0.1: Python module to talk to ISY994 from UDI.
+dev-python/pyisy 3.0.0 3.0.1 3.0.5: Python module to talk to ISY994 from UDI.
 dev-python/pyitachip2ir 0.0.7: A library for sending IR commands to an ITach IP2IR gateway
 dev-python/pyjwt 1.7.1-r1 2.1.0: JSON Web Token implementation in Python
 dev-python/pykira 0.1.1: Communicate with Kira IR-IP modules
