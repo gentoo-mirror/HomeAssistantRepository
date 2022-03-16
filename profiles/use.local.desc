@@ -280,7 +280,6 @@ app-misc/homeassistant:zerproc - discovers nearby Zerproc lights
 app-misc/homeassistant:zha - Support for ZHA/deconz based Zigbee/ZNet Devices
 app-misc/homeassistant:zhong_hong - lets you control Zhonghong HVAC Gateway Controller thermostats
 app-misc/homeassistant:zoneminder - Support for ZoneMinder Cameras
-app-misc/homeassistant:zwave - Support for Z-Wave Devices (uncomplete)
 app-misc/homeassistant:zwave_js - control a Z-Wave network via the Z-Wave JS driver
 app-misc/homeassistant-full:abode - Library for the Abode alarm API
 app-misc/homeassistant-full:accuweather - Uses the AccuWeather web service as a source for weather data
@@ -1107,7 +1106,6 @@ app-misc/homeassistant-full:zha - Support for ZHA/deconz based Zigbee/ZNet Devic
 app-misc/homeassistant-full:zhong_hong - lets you control Zhonghong HVAC Gateway Controller thermostats
 app-misc/homeassistant-full:ziggo_mediabox_xl - allows you to control a Ziggo Mediabox XL
 app-misc/homeassistant-full:zoneminder - Support for ZoneMinder Cameras
-app-misc/homeassistant-full:zwave - Support for Z-Wave Devices (uncomplete)
 app-misc/homeassistant-full:zwave_js - control a Z-Wave network via the Z-Wave JS driver
 app-misc/homeassistant-full:zwave_me - allows you to control a Z-Wave network via the Z-Wave.Me Z-Way
 app-misc/homeassistant-min:accuweather - Uses the AccuWeather web service as a source for weather data
