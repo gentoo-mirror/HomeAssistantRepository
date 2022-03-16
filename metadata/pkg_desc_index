@@ -215,7 +215,7 @@ dev-python/bellows 0.27.0 0.28.0 0.29.0: Library implementing EZSP
 dev-python/bimmer-connected 0.7.21 0.8.10 0.8.11: Library to read data from the BMW Connected Drive portal
 dev-python/bitstring 3.1.5-r1: A pure Python module for creation and analysis of binary data
 dev-python/bizkaibus 0.1.1: Online information for buses of Biscay bus services (Basque Country, Spain).
-dev-python/bleak 0.10.0: Bluetooth Low Energy platform Agnostic Klient
+dev-python/bleak 0.14.2: Bluetooth Low Energy platform Agnostic Klient
 dev-python/blebox-uniapi 1.3.2 1.3.3: Python API for accessing BleBox smart home devices
 dev-python/blinkpy 0.17.0 0.18.0: A Blink camera Python library running on Python 3.
 dev-python/blinkt 0.1.0: Python library for driving Pimoroni Blinkt!
@@ -1034,6 +1034,7 @@ dev-python/twilio 6.32.0: Helper library for the Twilio API
 dev-python/twinkly-client 0.0.2: A package to communicate with Twinkly LED strings
 dev-python/twitchAPI 2.5.2: A Python 3.7+ implementation of the Twitch Helix API, its Webhook, PubSub and EventSub
 dev-python/txaio 18.7.1 18.8.1: Compatibility API between asyncio/Twisted/Trollius
+dev-python/txdbus 1.1.2: A native Python implementation of the DBus protocol for Twisted applications.
 dev-python/typing-inspect 0.7.1: Runtime inspection utilities for typing module.
 dev-python/tzdata 2021.5: Provider of IANA time zone data
 dev-python/uEagle 0.0.2: Tool to read data from Rainforest Legacy Eagle.
@@ -1086,7 +1087,7 @@ dev-python/xfinity-gateway 0.0.4: Query an Xfinity Gateway
 dev-python/xknx 0.18.11 0.18.15 0.19.1 0.19.2: An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/
 dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontrol XS1 Gateway
 dev-python/yalesmartalarmclient 0.3.4 0.3.7 0.3.8: Interact with Yale Smart Alarm systems
-dev-python/yalexs 1.1.13 1.1.19 1.1.20 1.1.22: Python API for Yale Access (formerly August) Smart Lock and Doorbell
+dev-python/yalexs 1.1.19 1.1.22: Python API for Yale Access (formerly August) Smart Lock and Doorbell
 dev-python/yarl 1.6.3-r1: Yet another URL library
 dev-python/yeelight 0.7.8 0.7.9: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
