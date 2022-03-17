@@ -561,6 +561,7 @@ dev-python/openwrt-ubus-rpc 0.0.2: OpenWrt ubus RPC API library
 dev-python/oru 0.1.11: Python client for Orange and Rockland Utility smart energy meters
 dev-python/orvibo 1.1.1: Control Orvibo products.
 dev-python/ovoenergy 1.1.12 1.2.0: Get energy data from OVO's API
+dev-python/oyaml 1.0: Ordered YAML: drop-in replacement for PyYAML which preserves dict ordering
 dev-python/p1monitor 0.2.0 1.0.0 1.0.1 1.1.0: Asynchronous Python client for the P1 Monitor
 dev-python/packaging 20.4: Core utilities for Python packages
 dev-python/paho-mqtt 1.5.1 1.6.1: MQTT version 5.0/3.1.1 client class
