@@ -912,6 +912,7 @@ dev-python/responses 0.10.6 0.12.0 0.13.3: A utility library for mocking out the
 dev-python/respx 0.17.0 0.19.0: A utility for mocking out the Python HTTPX and HTTP Core libraries.
 dev-python/rfk101py 0.0.1: RFK101 Proximity card reader over Ethernet
 dev-python/rflink 0.0.58 0.0.62: Library and CLI tools for interacting with RFlink 433MHz transceiver.
+dev-python/rich 10.16.2-r1: Python library for renrering rich text, tables, etc. to the terminal
 dev-python/ring-doorbell 0.7.1 0.7.2: A Python library to communicate with Ring Door Bell (https://ring.com/)
 dev-python/ritassist 0.9.2: RitAssist API Access
 dev-python/rjpl 0.3.6: Interface with Rejseplanen API
