@@ -351,16 +351,15 @@ dev-python/garages-amsterdam 2.1.1 3.0.0 3.2.1: Asynchronous Python client for g
 dev-python/garminconnect-aio 0.1.1 0.1.4: Asynchronous Garmin Connect Python 3 API wrapper
 dev-python/garminconnect-ha 0.1.6: Garmin Connect Python 3 API wrapper for Home Assistant
 dev-python/gatt 0.2.7: Bluetooth GATT SDK for Python
-dev-python/geizhals 0.0.9: A parser for the Geizhals.eu website.
 dev-python/geniushub-client 0.6.30: A aiohttp-based client for Genius Hub systems
 dev-python/geojson 2.5.0: Python bindings and utilities for GeoJSON
-dev-python/geojson-client 0.4 0.6: A GeoJSON client library.
+dev-python/geojson-client 0.6: A GeoJSON client library.
 dev-python/geopy 2.1.0 2.2.0: Python Geocoding Toolbox
-dev-python/georss-client 0.10 0.14: A GeoRSS client library.
+dev-python/georss-client 0.14: A GeoRSS client library.
 dev-python/georss-generic-client 0.4 0.6: A GeoRSS generic client library.
-dev-python/georss-ign-sismologia-client 0.2 0.3: A GeoRSS client library for the IGN Sismologia feed.
-dev-python/georss-qld-bushfire-alert-client 0.3 0.5: A GeoRSS client library for the Queensland Bushfire Alert feed.
-dev-python/getmac 0.8.1 0.8.2: Get MAC addresses of remote hosts and local interfaces
+dev-python/georss-ign-sismologia-client 0.3: A GeoRSS client library for the IGN Sismologia feed.
+dev-python/georss-qld-bushfire-alert-client 0.5: A GeoRSS client library for the Queensland Bushfire Alert feed.
+dev-python/getmac 0.8.2: Get MAC addresses of remote hosts and local interfaces
 dev-python/gios 0.1.5 0.2.1 1.0.1 1.0.2 2.0.0 2.1.0: Python wrapper for getting air quality data from GIOS servers.
 dev-python/gitterpy 0.1.7: Python interface for the Gitter API
 dev-python/glances-api 0.2.0 0.3.4: Python API for interacting with Glances.
