@@ -1,24 +1,26 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Hosted coverage reports for Github, Bitbucket and Gitlab"
-HOMEPAGE="https://github.com/codecov/codecov-python https://pypi.org/project/codecov/"
+DESCRIPTION="Calculation library for CRCs and checksums"
+HOMEPAGE="https://sourceforge.net/projects/crccheck/ https://pypi.org/project/crccheck/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
+DOCS="README.rst"
+
 RDEPEND=""
-DEPEND="${REDEPEND}
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
@@ -28,4 +30,9 @@ DEPEND="${REDEPEND}
 python_test() {
 	nosetests --verbose || die
 	py.test -v -v || die
+}
+
+src_prepare() {
+	sed -i "s/, 'tests'//g" -i setup.py || die
+	eapply_user
 }
