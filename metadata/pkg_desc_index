@@ -189,6 +189,7 @@ dev-python/asyncio-throttle 1.0.2: Simple, easy-to-use throttler for asyncio
 dev-python/asyncmock 0.4.2: Extension to the standard mock framework to support support async
 dev-python/asyncpysupla 0.0.5: Simple Supla's OpenAPI async wrapper
 dev-python/asyncsleepiq 1.1.0: ASync SleepIQ API
+dev-python/asyncssh 2.9.0: AsyncSSH: Asynchronous SSHv2 client and server library
 dev-python/asynctest 0.13.0: Enhance the standard unittest package with features for testing asyncio libraries
 dev-python/atenpdu 0.3.0 0.3.2: Interface for ATEN-PE PDUs
 dev-python/attrs 21.2.0: Attributes without boilerplate
@@ -332,13 +333,13 @@ dev-python/fivem-api 0.1.2: A library to query info, players and resources from 
 dev-python/fixerio 1.0.0_alpha0: A Python client for Fixer.io
 dev-python/fjaraskupan 1.0.0 1.0.1 1.0.2: A python library for speaking to fjäråskupan
 dev-python/flake8 3.7.9 3.8.4-r1: A wrapper around PyFlakes, pep8 & mccabe
-dev-python/flake8-docstrings 1.3.0 1.6.0: Extension for flake8 which uses pydocstyle to check docstrings
+dev-python/flake8-docstrings 1.6.0: Extension for flake8 which uses pydocstyle to check docstrings
 dev-python/flipr-api 1.4.1 1.4.2: Python client for flipr API.
 dev-python/flux-led 0.24.24 0.28.4 0.28.26 0.28.27: A Python library to communicate with the flux_led smart bulbs
 dev-python/fnvhash 0.1.0: Pure Python FNV hash implementation
 dev-python/foobot_async 1.0.0: API Client for Foobot Air Quality Monitoring devices.
 dev-python/forecast-solar 1.3.1-r1 2.0.0-r1 2.1.0-r1: Asynchronous Python client for getting forecast solar information
-dev-python/fortiosapi 0.10.8 1.0.1 1.0.5: Python modules to use Fortigate APIs
+dev-python/fortiosapi 1.0.5: Python modules to use Fortigate APIs
 dev-python/freebox-api 0.0.9 0.0.10: Provides asynchronous authentication and access to Freebox servers
 dev-python/freesms 0.2.0: Send SMS with Free Mobile
 dev-python/fritzconnection 1.4.2: Communicate with the AVM FRITZ!Box
