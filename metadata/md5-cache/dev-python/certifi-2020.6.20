@@ -1,16 +1,16 @@
-BDEPEND=python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?]
+BDEPEND=python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 ) >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-python/setuptools[python_targets_python3_8(-)?]
+DEPEND=dev-python/setuptools[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
 DESCRIPTION=Python package for providing Mozilla's CA Bundle
-EAPI=7
+EAPI=8
 HOMEPAGE=https://certifi.io/ https://pypi.org/project/certifi
 INHERIT=distutils-r1 prefix readme.gentoo-r1
-IUSE=python_targets_python3_8
+IUSE=python_targets_python3_8 python_targets_python3_9 python_targets_python3_10
 KEYWORDS=~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux
 LICENSE=MPL-2.0
-RDEPEND=app-misc/ca-certificates python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 )
-REQUIRED_USE=|| ( python_targets_python3_8 )
+RDEPEND=app-misc/ca-certificates python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 )
+REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 )
 SLOT=0
 SRC_URI=mirror://pypi/c/certifi/certifi-2020.6.20.tar.gz
-_eclasses_=multibuild	d79bd5b4bc4edcb1f5bc19591f8d4714	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	d3d7da5aff94a677154819e0cb95ee36	python-r1	bcd408f1e4a9669198ef4dfcd5ab8696	distutils-r1	d540d96908dd5622f3dfa41d167e632d	prefix	d04f14b297013ad1410550c0757f14f8	readme.gentoo-r1	eebd0164fe61f4f7b64a683e83fdceb1
-_md5_=533ffde4a7788594db3ac72bf6583176
+_eclasses_=multibuild	d79bd5b4bc4edcb1f5bc19591f8d4714	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	python-utils-r1	d3d7da5aff94a677154819e0cb95ee36	python-r1	bcd408f1e4a9669198ef4dfcd5ab8696	distutils-r1	d540d96908dd5622f3dfa41d167e632d	prefix	d04f14b297013ad1410550c0757f14f8	readme.gentoo-r1	eebd0164fe61f4f7b64a683e83fdceb1
+_md5_=230f218a2fa7a330869fe58069b18fe2
