@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python API for Shark IQ robots"
-HOMEPAGE="https://github.com/ajmarks/sharkiq https://pypi.org/project/sharkiqpy/"
+DESCRIPTION="A simple python wrapper for the Firebase API with current deps"
+HOMEPAGE="https://github.com/nhorvath/Pyrebase4 https://pypi.org/project/Pyrebase4/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,8 +18,13 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+
+RDEPEND=">=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.7.1[${PYTHON_USEDEP}]
+	>=dev-python/gcloud-0.18.3[${PYTHON_USEDEP}]
+	>=dev-python/oauth2client-4.1.2[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.6.4[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

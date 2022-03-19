@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">transitions</remote-id>
+    <remote-id type="pypi">XBee</remote-id>
     <maintainer status="unknown">
-      <email>aleneum@gmail.com</email>
-      <name>Alexander Neumann</name>
+      <email>info@n.io</email>
+      <name>n.io</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
