@@ -886,7 +886,7 @@ dev-python/raincloudy 0.0.7-r1: Melnor RainCloud Smart Garden Watering Irrigatio
 dev-python/raspihats 2.2.3 2.3.0: package for controlling raspihats.com boards
 dev-python/raspyrfm-client 1.2.8: A library to send rc signals with the RaspyRFM module
 dev-python/ratelimit 2.2.1: An API rate limit decorator for Python
-dev-python/readlike 0.1.2 0.1.3: GNU Readline-like line editing module
+dev-python/readlike 0.1.2: GNU Readline-like line editing module
 dev-python/redis 4.0.2: Python client for Redis database and key-value store
 dev-python/regenmaschine 3.1.5 2021.10.0 2022.1.0: A simple API for RainMachine sprinkler controllers
 dev-python/regex 2021.8.28: Alternative regular expression module to replace re
