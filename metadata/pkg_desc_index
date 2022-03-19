@@ -206,7 +206,6 @@ dev-python/awesomeversion 21.10.1 21.11.0 22.1.0 22.2.0: One version package to 
 dev-python/axis 43 44: A Python library for communicating with devices from Axis Communications
 dev-python/backoff 1.10.0 1.11.1: Function decoration for backoff and retry
 dev-python/baidu-aip 1.6.6.0: Baidu AIP SDK
-dev-python/bandit 1.7.0: A security linter from OpenStack Security
 dev-python/base36 0.1.1: Yet another implementation for the positional numeral system using 36 as the radix.
 dev-python/basicmodem 0.7: A basic modem implementation for receiving caller id.
 dev-python/batinfo 0.4.2: A simple Python module to retrieve battery information
@@ -493,7 +492,7 @@ dev-python/mbddns 0.1.2: Mythic Beasts Dynamic DNS updater
 dev-python/mcstatus 6.0.0: A library to query Minecraft Servers for their status and capabilities.
 dev-python/messagebird 1.2.0 1.5.0: MessageBird's REST API
 dev-python/meteoalertapi 0.1.6 0.2.0: A small api to get alerting messages from extreme weather in Europe from https://www.meteoalarm.org.
-dev-python/meteofrance-api 1.0.1 1.0.2: Python client for Meteo-France API.
+dev-python/meteofrance-api 1.0.2: Python client for Meteo-France API.
 dev-python/mficlient 0.3.0: A remote control client for Ubiquiti's mFi system
 dev-python/micloud 0.3 0.4 0.5: Xiaomi cloud connect library
 dev-python/miflora 0.7.0 0.7.2: Library to read data from Mi Flora sensor
@@ -563,7 +562,6 @@ dev-python/paho-mqtt 1.5.1 1.6.1: MQTT version 5.0/3.1.1 client class
 dev-python/panacotta 0.1: Python API for controlling Panasonic Blu-Ray players
 dev-python/panasonic-viera 0.3.6: Library to control Panasonic Viera TVs
 dev-python/pandas 1.3.0: Powerful data structures for data analysis and statistics
-dev-python/pbr 5.1.3-r1: Inject some useful and sensible default behaviors into setuptools
 dev-python/pcal9535a 0.7: A library to control NXP PCAL9535A GPIO expander
 dev-python/pdunehd 1.3.2: A Python wrapper for Dune HD media player API
 dev-python/pencompy 0.0.3 0.0.4: Pencom relay controller over Ethernet
@@ -594,7 +592,6 @@ dev-python/prayer-times-calculator 0.0.5: Prayer Times Calculator
 dev-python/proliphix 0.4.1 0.5.0: API for Proliphix nt10e network thermostat.
 dev-python/prometheus_client 0.7.1: Python client for the Prometheus monitoring system.
 dev-python/proto-plus 1.19.0: Beautiful, Pythonic protocol buffers.
-dev-python/protobuf-python 3.12.4 3.13.0-r1 3.14.0: Google's Protocol Buffers - Python bindings
 dev-python/proxmoxer 1.1.1: Python Wrapper for the Proxmox 2.x API (HTTP and SSH)
 dev-python/psutil 5.8.0: Retrieve information on running processes and system utilization
 dev-python/pubnub 5.1.4 6.0.0: PubNub Real-time push service in the cloud
@@ -655,7 +652,6 @@ dev-python/pycomfoconnect 0.4: Python interface for the Zehnder ComfoConnect LAN
 dev-python/pycoolmasternet-async 0.1.2: A python library to control CoolMasterNet HVAC bridges over asyncio.
 dev-python/pycountry 19.8.18: Database of countries, subdivisions, languages, currencies and script
 dev-python/pycountry-convert 0.7.2: Extension of Python package pycountry providing conversion functions.
-dev-python/pycryptodome 3.9.6 3.9.8: A self-contained cryptographic library for Python
 dev-python/pycryptodomex 3.9.4 3.10.1: Cryptographic library for Python
 dev-python/pycsspeechtts 1.0.4: Python 3 interface to Microsoft Cognitive Services Text To Speech
 dev-python/pycups 1.9.73-r3: Python bindings for the CUPS API
