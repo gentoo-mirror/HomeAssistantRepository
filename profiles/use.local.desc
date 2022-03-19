@@ -1196,7 +1196,6 @@ dev-python/envs:cli - add cli support
 dev-python/pandas:full-support - Pull all packages to give pandas full support
 dev-python/pillow:imagequant - Build with Image Quantization Library support
 dev-python/python-openzwave-mqtt:async - Build with async support (default)
-dev-python/pyyaml:libyaml - enable support for C implementation using libyaml
 dev-python/roombapy:mqtt - Build with mqtt support
 media-libs/opencv:contrib - Install user contributed scripts from opencv_contrib (Experimental!)
 media-libs/opencv:contrib_cvv - CVV module requires Qt5
