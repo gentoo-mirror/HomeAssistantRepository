@@ -6,11 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pymodbus</remote-id>
-    <doc>https://pythonhosted.org/pymodbus/</doc>
+    <remote-id type="pypi">tellsticknet</remote-id>
     <maintainer status="unknown">
-      <email>otlasanju@gmail.com</email>
-      <name>dhoomakethu</name>
+      <email>error.errorsson@gmail.com</email>
+      <name>Erik Eriksson</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

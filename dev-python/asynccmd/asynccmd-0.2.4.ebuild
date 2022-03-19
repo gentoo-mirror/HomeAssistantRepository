@@ -7,24 +7,23 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="A fully featured modbus protocol stack in python"
-HOMEPAGE="https://github.com/riptideio/pymodbus/ https://pypi.org/project/pymodbus/"
+DESCRIPTION="Asyncio implementation of Cmd Python lib."
+HOMEPAGE="https://github.com/valentinmk/asynccmd https://pypi.org/project/asynccmd/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="BSD"
+LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
-IUSE="test serial"
+KEYWORDS="amd64 arm arm64 x86 ~amd64-linux ~x86-linux"
+IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND=">=dev-python/six-1.15.0[${PYTHON_USEDEP}]
-	serial? ( >=dev-python/pyserial-3.4[${PYTHON_USEDEP}] )"
-BDEPEND="${REDEPEND}
+DOCS="README.rst"
+
+RDEPEND=""
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
-		dev-python/mock[${PYTHON_USEDEP}]
-		dev-python/coverage[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
