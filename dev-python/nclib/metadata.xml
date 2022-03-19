@@ -5,4 +5,11 @@
     <email>b@edevau.net</email>
     <name>Andreas Billmeier</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">nclib</remote-id>
+    <maintainer status="unknown">
+      <email>audrey@rhelmot.io</email>
+      <name>rhelmot</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>
