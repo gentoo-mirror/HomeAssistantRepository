@@ -1,27 +1,27 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Get the latest Home Assistant version from various sources."
-HOMEPAGE="https://github.com/ludeeus/pyhaversion https://pypi.org/project/pyhaversion/"
+DESCRIPTION="A Declarative HTTP Client for Python."
+HOMEPAGE="https://uplink.readthedocs.io/ https://pypi.org/project/uplink/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~arm64 x86 amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
+DOCS="README.rst"
 
-RDEPEND=">=dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]
-	<=dev-python/async_timeout-3.0.1[${PYTHON_USEDEP}]
-	>=dev-python/awesomeversion-21.8.1[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/requests-2.18.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.13.0[${PYTHON_USEDEP}]
+	>=dev-python/uritemplate-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

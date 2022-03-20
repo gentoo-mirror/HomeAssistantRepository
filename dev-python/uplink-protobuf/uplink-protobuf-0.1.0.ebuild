@@ -1,14 +1,14 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Automated JSON API based communication with Samsung SyncThru Web Service"
-HOMEPAGE="https://github.com/nielstron/pysyncthru/ https://pypi.org/project/PySyncThru/"
+DESCRIPTION="Protocol Buffers (Protobuf) support for Uplink."
+HOMEPAGE="https://github.com/prkumar/uplink-protobuf https://pypi.org/project/uplink-protobuf/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -19,8 +19,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/demjson[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/uplink-0.6.0[${PYTHON_USEDEP}]
+	dev-python/protobuf-python[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
