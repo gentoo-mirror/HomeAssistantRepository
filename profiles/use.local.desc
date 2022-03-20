@@ -181,6 +181,7 @@ app-misc/homeassistant:onkyo - allows you to control a Onkyo, Integra and some r
 app-misc/homeassistant:opengarage - opengarage cover platform lets you control the open-source OpenGarage.io device
 app-misc/homeassistant:opensensemap - query the open data API of openSenseMap.org air quality sensor station
 app-misc/homeassistant:openweathermap - uses OpenWeatherMap as a source for current meteorological data
+app-misc/homeassistant:opnsense - Presence Detection with data from OPNsense firewall
 app-misc/homeassistant:otp - generates One-Time Passwords according to RFC6238
 app-misc/homeassistant:owntracks - OwnTracks: track your location and send it directly to Home Assistant
 app-misc/homeassistant:ozw - Open Zwave MQTT
@@ -280,6 +281,7 @@ app-misc/homeassistant:zerproc - discovers nearby Zerproc lights
 app-misc/homeassistant:zha - Support for ZHA/deconz based Zigbee/ZNet Devices
 app-misc/homeassistant:zhong_hong - lets you control Zhonghong HVAC Gateway Controller thermostats
 app-misc/homeassistant:zoneminder - Support for ZoneMinder Cameras
+app-misc/homeassistant:zwave - Support for Z-Wave Devices (uncomplete)
 app-misc/homeassistant:zwave_js - control a Z-Wave network via the Z-Wave JS driver
 app-misc/homeassistant-full:abode - Library for the Abode alarm API
 app-misc/homeassistant-full:accuweather - Uses the AccuWeather web service as a source for weather data
@@ -321,6 +323,7 @@ app-misc/homeassistant-full:aprs - Tracker integration connects to the APRS-IS
 app-misc/homeassistant-full:aqualogic - Provides connectivity to a Hayward/Goldline AquaLogic/ProLogic pool controller
 app-misc/homeassistant-full:aquostv - The aquostv platform allows you to control a Sharp Aquos TV
 app-misc/homeassistant-full:arcam_fmj - Control Arcam receivers from Home Assistant
+app-misc/homeassistant-full:arduino - deprecated
 app-misc/homeassistant-full:arlo - Allows you to integrate your Arlo devices into Home Assistant
 app-misc/homeassistant-full:arris_tg2492lg - Presence detection from an Arris TG2492LG router
 app-misc/homeassistant-full:aruba - Presence detection by looking at connected devices to an Aruba Instant device
@@ -336,6 +339,7 @@ app-misc/homeassistant-full:aurora_abb_powerone - This implements a direct RS485
 app-misc/homeassistant-full:aussie_broadband - displays various service metrics using the Aussie Broadband API
 app-misc/homeassistant-full:avea - Library for Elgato Avea bulbs
 app-misc/homeassistant-full:avion - Support for the Avi-on Bluetooth dimmer switch Avi-on
+app-misc/homeassistant-full:avri - deprecated
 app-misc/homeassistant-full:awair - Library to integrate the Awair GraphQL API into Home Assistant
 app-misc/homeassistant-full:aws - Interact with Amazon Web Services
 app-misc/homeassistant-full:axis - Communicating with newer devices from Axis Communications
@@ -846,7 +850,7 @@ app-misc/homeassistant-full:recorder - storing details in a database per sqlalch
 app-misc/homeassistant-full:recswitch - allows you to control the Ankuoo REC Switch devices from Home Assistant
 app-misc/homeassistant-full:reddit - integrates data from Reddit to monitor your favorite subreddits
 app-misc/homeassistant-full:rejseplanen - travel details for Danish public transport
-app-misc/homeassistant-full:remember_the_milk - create tasks in Remember The Milk (RTM) from Home Assistant
+app-misc/homeassistant-full:remember_the_milk - create tasks in Remember The Milk (RTM) (deprecated)
 app-misc/homeassistant-full:remote_rpi_gpio - base for all related GPIO platforms in Home Assistant
 app-misc/homeassistant-full:renault - integration with the MyRenault cloud service
 app-misc/homeassistant-full:repetier - Repetier-Server is a 3D printer/CNC server, able to control multiple devices
@@ -1106,6 +1110,7 @@ app-misc/homeassistant-full:zha - Support for ZHA/deconz based Zigbee/ZNet Devic
 app-misc/homeassistant-full:zhong_hong - lets you control Zhonghong HVAC Gateway Controller thermostats
 app-misc/homeassistant-full:ziggo_mediabox_xl - allows you to control a Ziggo Mediabox XL
 app-misc/homeassistant-full:zoneminder - Support for ZoneMinder Cameras
+app-misc/homeassistant-full:zwave - Support for Z-Wave Devices (uncomplete)
 app-misc/homeassistant-full:zwave_js - control a Z-Wave network via the Z-Wave JS driver
 app-misc/homeassistant-full:zwave_me - allows you to control a Z-Wave network via the Z-Wave.Me Z-Way
 app-misc/homeassistant-min:accuweather - Uses the AccuWeather web service as a source for weather data
@@ -1213,6 +1218,7 @@ media-libs/opencv:eigen - Enable usage of dev-cpp/eigen for computations
 media-libs/opencv:gdal - Enable support for sci-libs/gdal library
 media-libs/opencv:gflags - Use Google's C++ argument parsing library
 media-libs/opencv:glog - Use Google's C++ loggin library
+media-libs/opencv:libav - Add support for libav
 media-libs/opencv:opencl - Add support for OpenCL
 media-libs/opencv:tesseract - Use Google's OCR Engine
 media-libs/opencv:testprograms - Build and install programs for testing OpenCV (performance)
