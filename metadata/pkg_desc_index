@@ -246,7 +246,6 @@ dev-python/circuit-webhook 1.0.1: circuit-webhook is a python client library for
 dev-python/ciscomobilityexpress 0.3.9: Module to interact with Cisco Mobility Express APIs to fetch connected devices.
 dev-python/ciso8601 2.1.3 2.2.0: Fast ISO8601 date time parser for Python written in C
 dev-python/clearpasspy 1.0.2: ClearPass API Python Library
-dev-python/click 7.1.1: A Python package for creating beautiful command line interfaces
 dev-python/click-log 0.3.2: Logging integration for Click
 dev-python/clx-sdk-xms 1.0.0: Library for CLX Communications HTTP REST Messaging API
 dev-python/codecov 2.1.12: Hosted coverage reports for GitHub, Bitbucket and Gitlab
@@ -273,8 +272,6 @@ dev-python/crownstone-sse 2.0.2 2.0.3: Asynchronous Python library that listens 
 dev-python/crownstone-uart 2.1.0: Official Python lib for Crownstone: "Crownstone Unified System Bridge", or Crownstone USB implementation
 dev-python/cryptography 3.4.8 35.0.0: Library providing cryptographic recipes and primitives
 dev-python/csrmesh 0.10.0: Reverse engineered implementation of the CSRMesh bridge protocol
-dev-python/csv23 0.3.2-r1: Python 2/3 unicode CSV compatibility layer
-dev-python/curve25519-donna 1.3-r1: Implementations of a fast Elliptic-curve Diffie-Hellman primitive
 dev-python/custom-inherit 2.2.2: A Python package that provides customized docstring inheritance schemes between derived classes and their parents.
 dev-python/d2to1 0.2.12_p1: Allows using distutils2-like setup.cfg files for a package's metadata with a distribute/setuptools setup.py
 dev-python/dacite 1.6.0: Simple creation of data classes from dictionaries.
@@ -444,7 +441,6 @@ dev-python/ismartgate 4.0.0 4.0.4: iSmartGate and GogoGate2 API
 dev-python/iso4217 1.6.20180829: ISO 4217 currency data package for Python
 dev-python/jdatetime 3.4.0: Jalali datetime binding for python
 dev-python/jellyfin-apiclient-python 1.7.2: Python API client for Jellyfin
-dev-python/jinja 3.0.2: A full-featured template engine for Python
 dev-python/jmespath 0.9.4: JSON Matching Expressions
 dev-python/jsonpath 0.82: An XPath for JSON
 dev-python/jsonpath-ng 1.5.2: A final implementation of JSONPath for Python that aims to be standard compliant.
@@ -607,7 +603,6 @@ dev-python/pushover_complete 1.1.1: A Python package for interacting with *all* 
 dev-python/pvo 0.2.1 0.2.2: Asynchronous client for the PVOutput API.
 dev-python/pwmled 1.6.7 1.6.10: Control LEDs connected to a micro controller using pwm.
 dev-python/py-canary 0.5.1: Python API for Canary Security Camera
-dev-python/py-cpuinfo 7.0.0: Get CPU info with pure Python 2 & 3
 dev-python/py-melissa-climate 2.1.4: Api wrapper for Melissa Climate https://seemelissa.com
 dev-python/py-nextbusnext 0.1.4 0.1.5: Minimalistic Python client for the NextBus public API for real-time transit arrival data
 dev-python/py-nightscout 1.2.2: A library that provides a Python async interface to Nightscout
@@ -736,7 +731,6 @@ dev-python/pymochad 0.2.0: A python library for interacting with moch
 dev-python/pymodbus 2.5.3: A fully featured modbus protocol stack in python
 dev-python/pymonoprice 0.3: Python API for talking to Monoprice 6-zone amplifier
 dev-python/pymsteams 0.1.12: Format messages and post to Microsoft Teams.
-dev-python/pymusiccast 0.1.6-r1: This library brings support for Yamaha MusicCast devices to Home Assistant
 dev-python/pymyq 3.1.3 3.1.4: Python package for controlling MyQ-Enabled Garage Door
 dev-python/pymysensors 0.21.0 0.22.1: Python API for talking to a MySensors gateway
 dev-python/pynacl 1.4.0: Python binding to the Networking and Cryptography (NaCl) library
@@ -809,7 +803,7 @@ dev-python/pytest-socket 0.4.1: Pytest Plugin to disable socket calls during tes
 dev-python/pytest-sugar 0.9.4: pytest-sugar is a plugin for pytest that changes the default look and feel of pytest (e.g. progressbar, show tests that fail instantly).
 dev-python/pytest-test-groups 1.0.3: A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups.
 dev-python/pytest-timeout 2.0.1: pytest plugin to abort hanging tests
-dev-python/pytest-xdist 2.2.1 2.4.0: Distributed testing and loop-on-failing modes
+dev-python/pytest-xdist 2.4.0: Distributed testing and loop-on-failing modes
 dev-python/pytfiac 0.4: API for Tfiac AC
 dev-python/pythinkingcleaner 0.0.3: Library to control ThinkingCleaner devices
 dev-python/python-awair 0.2.1 0.2.2: asyncio client for the Awair GraphQL API
@@ -831,7 +825,6 @@ dev-python/python-hpilo 4.3: Accessing the HP iLO XML interface from python
 dev-python/python-http-client 3.3.2: HTTP REST client, simplified for Python
 dev-python/python-izone 1.1.6 1.1.8 1.2.3: A python interface to the iZone airconditioner controller
 dev-python/python-join-api 0.0.6: Python API for interacting with Join by joaoapps.
-dev-python/python-jose 1.0.0: A JavaScript Object Signing and Encryption (JOSE) implementation in Python
 dev-python/python-juicenet 1.0.2: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
 dev-python/python-kasa 0.4.0 0.4.1: Python API for TP-Link Kasa Smarthome devices
 dev-python/python-metar 1.4.0: Metar - a package to parse METAR coded weather reports
@@ -864,7 +857,6 @@ dev-python/pytraccar 0.9.0 0.10.0: Update and fetch device information from Trac
 dev-python/pytrackr 0.0.5: Interface to the TrackR API
 dev-python/pytradfri 7.1.1 7.2.1 8.0.1 9.0.0: IKEA Tradfri/Tradfri API. Control and observe your lights from Python.
 dev-python/pytrafikverket 0.1.6.2: Retreive values from public API at trafikverket in sweden.
-dev-python/pytz 2020.1 2021.1: World timezone definitions for Python
 dev-python/pyudev 0.22.0-r1: Python binding to libudev
 dev-python/pyunifiprotect 3.2.0 3.2.1: Python Wrapper for Unifi Protect API
 dev-python/pyuptimerobot 21.11.0 22.2.0: Python API wrapper for Uptime Robot.
@@ -1059,7 +1051,6 @@ dev-python/wakeonlan 2.0.1: A small python module for wake on lan.
 dev-python/wallbox 0.4.4: Module for interacting with Wallbox EV charger api
 dev-python/waqiasync 1.0.0: asyncio-friendly python API for aqicn.org
 dev-python/warrant-lite 1.0.4: Small Python library for process SRP requests for AWS Cognito.
-dev-python/watchdog 2.1.3 2.1.6: Python API and shell utilities to monitor file system events
 dev-python/waterfurnace 1.1.0: Python interface for waterfurnace geothermal systems
 dev-python/webexteamssdk 1.1.1: Community-developed Python SDK for the Webex Teams APIs
 dev-python/websocket-client 0.54.0-r1 0.57.0-r1: WebSocket client for python with hybi13 support
@@ -1090,7 +1081,7 @@ dev-python/zeroconf 0.38.4: Pure Python Multicast DNS Service Discovery Library 
 dev-python/zha-quirks 0.0.63 0.0.65 0.0.66 0.0.67: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
-dev-python/zigpy 0.38.0 0.39.0 0.42.0 0.43.0: Library implementing a ZigBee stack
+dev-python/zigpy 0.42.0 0.43.0: Library implementing a ZigBee stack
 dev-python/zigpy-deconz 0.13.0 0.14.0: A library which communicates with Deconz radios for zigpy
 dev-python/zigpy-xbee 0.12.1 0.13.0 0.14.0: A library which communicates with XBee radios for zigpy
 dev-python/zigpy-zigate 0.7.3 0.8.0: A library which communicates with ZiGate radios for zigpy
