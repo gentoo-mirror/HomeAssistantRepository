@@ -1,17 +1,17 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="7"
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Date parsing library designed to parse dates from HTML pages"
-HOMEPAGE="https://github.com/scrapinghub/dateparser https://pypi.org/project/dateparser/"
+DESCRIPTION="Python client for interacting with the openSenseMap API."
+HOMEPAGE="https://github.com/home-assistant-ecosystem/python-opensensemap-api https://pypi.org/project/opensensemap-api/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="BSD"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86 ~amd64-linux ~x86-linux"
 IUSE="test"
@@ -19,10 +19,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/python-dateutil
-	dev-python/pytz
-	dev-python/regex
-	dev-python/tzlocal"
+RDEPEND=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	dev-python/async_timeout[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
