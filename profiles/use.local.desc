@@ -88,6 +88,8 @@ app-misc/homeassistant:dht - Get the current temperature and humidity from a DHT
 app-misc/homeassistant:discogs - Discogs Client for Home Assistant
 app-misc/homeassistant:discord - Send messages to the user using Discord from Home Assistant
 app-misc/homeassistant:discovery - Automatically configure zeroconf/mDNS and UPnP devices in Home Assistant
+app-misc/homeassistant:dlna_dmr - Allows you to control a DLNA Digital Media Renderer
+app-misc/homeassistant:dlna_dms - allows you to browse and play media from a DLNA Digital Media Server
 app-misc/homeassistant:doorbird - The doorbird implementation allows you to integrate your DoorBird device
 app-misc/homeassistant:dunehd - control a Dune HD media player
 app-misc/homeassistant:dwd_weather_warnings - dwd_weather_warnings sensor platform uses DWD for warnings
@@ -102,6 +104,7 @@ app-misc/homeassistant:environment_canada - Access meteorological data from Envi
 app-misc/homeassistant:esphome - Support for esphome sensors, covers and switches and it's dashboard
 app-misc/homeassistant:everlights - Library for controlling an EverLights lighting system
 app-misc/homeassistant:evohome - links with all non-US Honeywell Total Connect Comfort (TCC) CH/DHW systems
+app-misc/homeassistant:ffmpeg - allows other Home Assistant integrations to process video and audio streams
 app-misc/homeassistant:fibaro - Fibaro hub is a controller mainly connecting to Z-Wave devices
 app-misc/homeassistant:flume - monitors the real-time status of your home water meter
 app-misc/homeassistant:flunearyou - allows users in the US to get information from Flu Near You
@@ -1129,9 +1132,12 @@ app-misc/homeassistant-min:co2signal - Queries the CO2Signal API for the CO2 int
 app-misc/homeassistant-min:compensation - Compensation integration consumes the state from other sensors
 app-misc/homeassistant-min:coronavirus - Add sensors for COVID-19 infections from Johns Hopkins University
 app-misc/homeassistant-min:darksky - Use dark sky weather data from Home Assistant
+app-misc/homeassistant-min:dlna_dmr - Allows you to control a DLNA Digital Media Renderer
+app-misc/homeassistant-min:dlna_dms - allows you to browse and play media from a DLNA Digital Media Server
 app-misc/homeassistant-min:dwd_weather_warnings - dwd_weather_warnings sensor platform uses DWD for warnings
 app-misc/homeassistant-min:enigma2 - Support for Enigma2 boxes with openwebif support
 app-misc/homeassistant-min:esphome - Support for esphome sensors, covers and switches and it's dashboard
+app-misc/homeassistant-min:ffmpeg - allows other Home Assistant integrations to process video and audio streams
 app-misc/homeassistant-min:forecast_solar - Asynchronous Python client for getting forecast solar information
 app-misc/homeassistant-min:fronius - Add (very basic) Support for Fronius Symo JSON Api to Home Assistant
 app-misc/homeassistant-min:frontend - official frontend to control Home Assistant
@@ -1186,6 +1192,7 @@ app-misc/homeassistant-min:test - internal and developer use
 app-misc/homeassistant-min:tile - API for Tile Bluetooth trackers
 app-misc/homeassistant-min:tplink - control your TP-Link Smart Home Devices
 app-misc/homeassistant-min:tradfri - Control/observe IKEA Tradfri devices
+app-misc/homeassistant-min:upnp - support UPnP/Internet Gateway Device (IGD) Protocol
 app-misc/homeassistant-min:utility_meter - integration provides functionality to track consumptions of various utilities
 app-misc/homeassistant-min:version - display the current Home Assistant versions
 app-misc/homeassistant-min:wake_on_lan - enables the ability to send magic packets to Wake on LAN capable devices
@@ -1195,6 +1202,7 @@ app-misc/homeassistant-min:workday - generating country, province and state spec
 app-misc/homeassistant-min:yamaha - Library for Yamaha RX-* Receivers
 app-misc/homeassistant-min:yamaha_musiccast - add support for Yamaha MusicCast devices
 app-misc/homeassistant-min:zeroconf - will scan the network for supported devices and services
+app-misc/homeassistant-min:zha - Support for ZHA/deconz based Zigbee/ZNet Devices
 app-misc/homeassistant-min:zwave_js - control a Z-Wave network via the Z-Wave JS driver
 dev-embedded/esphome:server - add server for ESPHome dashboard
 dev-python/envs:cli - add cli support
