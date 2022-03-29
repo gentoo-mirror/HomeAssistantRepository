@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.2.9 2022.3.4 2022.3.5-r1 2022.3.6 2022.3.7: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.2.9 2022.3.4 2022.3.5-r1 2022.3.6 2022.3.7 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.2.9 2022.3.4 2022.3.5-r1 2022.3.6 2022.3.7: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.2.9 2022.3.5-r1 2022.3.6 2022.3.7 2022.3.8: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.2.9 2022.3.5-r1 2022.3.6 2022.3.7 2022.3.8 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.2.9 2022.3.5-r1 2022.3.6 2022.3.7 2022.3.8: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.1.4 2022.2.6 2022.3.0 2022.3.1 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220116.0 20220209.0 20220219.0 20220309.0: ESPHome dashboard
 dev-embedded/esptool 3.2 3.3: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -920,7 +920,7 @@ dev-python/schiene 0.23: schiene is a Python library for interacting with Bahn.d
 dev-python/screenlogicpy 0.4.1 0.5.3 0.5.4: Interface for Pentair ScreenLogic connected pool controllers over IP via Python
 dev-python/scsgate 0.1.0: A Python module to interact with SCSGate
 dev-python/sendgrid 6.7.0 6.8.2: Twilio SendGrid library for Python
-dev-python/sense-energy 0.9.6 0.10.2 0.10.3: API for the Sense Energy Monitor
+dev-python/sense-energy 0.9.6 0.10.2 0.10.3 0.10.4: API for the Sense Energy Monitor
 dev-python/sentry-sdk 1.5.0 1.5.3 1.5.5: Python client for Sentry
 dev-python/sepaxml 2.2.0: Python SEPA XML implementations
 dev-python/setuptools-markdown 0.4.1: [Deprecated] Use Markdown for your project description
