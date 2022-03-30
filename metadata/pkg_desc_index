@@ -9,7 +9,7 @@ app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line
 app-misc/homeassistant 2022.2.9 2022.3.5-r1 2022.3.6 2022.3.7 2022.3.8: Open-source home automation platform running on Python.
 app-misc/homeassistant-full 2022.2.9 2022.3.5-r1 2022.3.6 2022.3.7 2022.3.8 9999: Open-source home automation platform running on Python.
 app-misc/homeassistant-min 2022.2.9 2022.3.5-r1 2022.3.6 2022.3.7 2022.3.8: Open-source home automation platform running on Python.
-dev-embedded/esphome 2022.1.4 2022.2.6 2022.3.0 2022.3.1 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 2022.2.6 2022.3.1 2022.3.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220116.0 20220209.0 20220219.0 20220309.0: ESPHome dashboard
 dev-embedded/esptool 3.2 3.3: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
 dev-embedded/platformio 5.2.2-r2 5.2.4-r2 5.2.5: A professional collaborative platform for embedded development. Cross-platform IDE and Unified Debugger.
