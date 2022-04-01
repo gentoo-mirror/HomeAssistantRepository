@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">aiogithubapi</remote-id>
+    <remote-id type="pypi">aio-geojson-generic-client</remote-id>
     <maintainer status="unknown">
-      <email>ludeeus@ludeeus.dev</email>
-      <name>Ludeeus</name>
+      <email>coding@subspace.de</email>
+      <name>Malte Franken</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

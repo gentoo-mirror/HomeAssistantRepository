@@ -7,9 +7,11 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Interface to the Amber Electric API, allowing you to download current and forecast price, as well as download your historic usage."
-HOMEPAGE="https://github.com/madpilot/amberelectric.py https://pypi.org/project/amberelectric/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+DESCRIPTION="An generic async GeoJSON client library."
+HOMEPAGE="https://github.com/exxamalte/python-aio-geojson-generic-client https://pypi.org/project/aio-geojson-generic-client/"
+MY_PN=${PN//-/_}
+SRC_URI="mirror://pypi/${P:0:1}/${PN}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}/${MY_PN}-${PV}"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -19,8 +21,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/urllib3-1.25.3[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aio-geojson-client-0.17
+	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.01[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

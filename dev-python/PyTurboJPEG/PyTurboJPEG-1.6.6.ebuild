@@ -7,21 +7,19 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Asynchronous Python client for the GitHub API"
-HOMEPAGE="https://github.com/ludeeus/aiogithubapi https://pypi.org/project/aiogithubapi/"
+DESCRIPTION="A Python wrapper of libjpeg-turbo for decoding and encoding JPEG image."
+HOMEPAGE="https://github.com/lilohuang/PyTurboJPEG https://pypi.org/project/PyTurboJPEG/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 arm arm64 x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]
-	dev-python/async_timeout[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.10.0[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/numpy[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

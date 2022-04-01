@@ -7,18 +7,26 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="The Home Assistant frontend"
-HOMEPAGE="https://github.com/home-assistant/frontend https://pypi.org/project/home-assistant-frontend/"
+DESCRIPTION="Python API for Yale Access (formerly August) Smart Lock and Doorbell"
+HOMEPAGE="https://github.com/bdraco/yalexs https://pypi.org/project/yalexs/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 ~arm ~arm64 x86 amd64-linux ~x86-linux"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="~dev-python/user-agents-2.0[${PYTHON_USEDEP}]"
-BDEPEND="${REDEPEND}
+DOCS="README.md"
+
+RDEPEND="dev-python/pyjwt[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/vol[${PYTHON_USEDEP}]
+	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/aiofiles[${PYTHON_USEDEP}]
+	>=dev-python/pubnub-5.5.0[${PYTHON_USEDEP}]"
+BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
