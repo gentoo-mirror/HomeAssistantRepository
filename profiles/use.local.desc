@@ -1213,7 +1213,8 @@ dev-python/pymodbus:serial - add modbus serial support
 dev-python/python-openzwave-mqtt:async - Build with async support (default)
 dev-python/roombapy:mqtt - Build with mqtt support
 dev-python/samsungctl:websocket - Install websocket-client.
-dev-python/samsungtvws:async - add async support.
+dev-python/samsungtvws:async - use aiohttp/websocket
+dev-python/samsungtvws:encrypted - add support for encrypted communication
 media-libs/opencv:contrib - Install user contributed scripts from opencv_contrib (Experimental!)
 media-libs/opencv:contrib_cvv - CVV module requires Qt5
 media-libs/opencv:contrib_dnn - DNN module contrib requires tiny dnn
