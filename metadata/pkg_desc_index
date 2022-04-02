@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.2.9 2022.3.6 2022.3.7 2022.3.8 2022.4.0_beta0 2022.4.0_beta1 2022.4.0_beta2: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.2.9 2022.3.6 2022.3.7 2022.3.8 2022.4.0_beta0 2022.4.0_beta1 2022.4.0_beta2 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.2.9 2022.3.6 2022.3.7 2022.3.8 2022.4.0_beta0 2022.4.0_beta1 2022.4.0_beta2: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.2.9 2022.3.6 2022.3.7 2022.3.8 2022.4.0_beta1 2022.4.0_beta2 2022.4.0_beta3: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.2.9 2022.3.6 2022.3.7 2022.3.8 2022.4.0_beta1 2022.4.0_beta2 2022.4.0_beta3 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.2.9 2022.3.6 2022.3.7 2022.3.8 2022.4.0_beta1 2022.4.0_beta2 2022.4.0_beta3: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.2.6 2022.3.1 2022.3.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220116.0 20220209.0 20220219.0 20220309.0: ESPHome dashboard
 dev-embedded/esptool 3.2 3.3: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -194,7 +194,7 @@ dev-python/asyncio-mqtt 0.8.0 0.8.1 0.9.1: Idomatic asyncio wrapper around paho-
 dev-python/asyncio-throttle 1.0.2: Simple, easy-to-use throttler for asyncio
 dev-python/asyncmock 0.4.2: Extension to the standard mock framework to support support async
 dev-python/asyncpysupla 0.0.5: Simple Supla's OpenAPI async wrapper
-dev-python/asyncsleepiq 1.1.0 1.2.1: ASync SleepIQ API
+dev-python/asyncsleepiq 1.1.0 1.2.1 1.2.3: ASync SleepIQ API
 dev-python/asyncssh 2.9.0: AsyncSSH: Asynchronous SSHv2 client and server library
 dev-python/asynctest 0.13.0: Enhance the standard unittest package with features for testing asyncio libraries
 dev-python/atenpdu 0.3.0 0.3.2: Interface for ATEN-PE PDUs
@@ -408,7 +408,7 @@ dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.5.1 0.7.0: Python API for interacting with *hole.
 dev-python/holidays 0.11.3.1 0.12 0.13: Generate and work with holidays in Python
-dev-python/home-assistant-frontend 20220203.1 20220301.0 20220301.2 20220330.0: The Home Assistant frontend
+dev-python/home-assistant-frontend 20220203.1 20220301.0 20220301.2 20220330.0 20220401.0: The Home Assistant frontend
 dev-python/homeassistant-pyozw 0.1.10: python_openzwave is a python wrapper for the openzwave c++ library.
 dev-python/homeconnect 0.6.3 0.7.0: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.1 1.0.2: An API for the homematicip cloud
@@ -1073,7 +1073,7 @@ dev-python/wiffi 1.0.1 1.1.0: Python 3 package to interface devices from STALL W
 dev-python/wikipedia 1.4.0: Wikipedia API for Python
 dev-python/wirelesstagpy 0.5.0 0.8.1: Simple python wrapper over wirelesstags REST API
 dev-python/withings-api 2.3.2 2.4.0: Library for the Withings API
-dev-python/wled 0.13.0 0.13.1: Asynchronous Python client for WLED.
+dev-python/wled 0.13.0 0.13.1 0.13.2: Asynchronous Python client for WLED.
 dev-python/wolf_smartset 0.1.8 0.1.11: A package to comunicate with Wolf Smart Set Cloud
 dev-python/xbee-helper 0.0.7: a high level API to an XBee device
 dev-python/xbox-webapi 2.0.11: A library to authenticate with Windows Live/Xbox Live and use their API
@@ -1094,7 +1094,7 @@ dev-python/zha-quirks 0.0.63 0.0.65 0.0.66 0.0.67 0.0.69: Library implementing Z
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
 dev-python/zigpy 0.43.0 0.44.1: Library implementing a ZigBee stack
-dev-python/zigpy-deconz 0.13.0 0.14.0: A library which communicates with Deconz radios for zigpy
+dev-python/zigpy-deconz 0.14.0 0.15.0: A library which communicates with Deconz radios for zigpy
 dev-python/zigpy-xbee 0.12.1 0.13.0 0.14.0: A library which communicates with XBee radios for zigpy
 dev-python/zigpy-zigate 0.7.3 0.8.0: A library which communicates with ZiGate radios for zigpy
 dev-python/zigpy-znp 0.5.4 0.6.4 0.7.0: A library for zigpy which communicates with TI ZNP radios
