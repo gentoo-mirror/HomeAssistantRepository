@@ -6,13 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">SQLAlchemy</remote-id>
+    <remote-id type="pypi">pytomorrowio</remote-id>
     <maintainer status="unknown">
-      <email>mike_mp@zzzcomputing.com</email>
-      <name>Mike Bayer</name>
+      <email>7243222+raman325@users.noreply.github.com</email>
+      <name>raman325</name>
     </maintainer>
   </upstream>
-  <use>
-    <flag name="asyncio">add asyncio helper support</flag>
-  </use>
 </pkgmetadata>

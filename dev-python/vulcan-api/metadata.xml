@@ -6,13 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">SQLAlchemy</remote-id>
+    <remote-id type="pypi">vulcan-api</remote-id>
     <maintainer status="unknown">
-      <email>mike_mp@zzzcomputing.com</email>
-      <name>Mike Bayer</name>
+      <email>kapi2289@gmail.com</email>
+      <name>Kacper Ziubryniewicz</name>
     </maintainer>
   </upstream>
-  <use>
-    <flag name="asyncio">add asyncio helper support</flag>
-  </use>
 </pkgmetadata>
