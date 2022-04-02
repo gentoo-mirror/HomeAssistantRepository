@@ -1,16 +1,16 @@
 BDEPEND=dev-python/setuptools[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] test? ( dev-python/nose[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/aresponses[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pytest[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pytest-asyncio[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] ) python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 ) >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
 DEFINED_PHASES=compile configure install prepare test
-DESCRIPTION=Asynchronous Python client for Roku (ECP).
+DESCRIPTION=Asynchronous Python client for Roku (ECP)
 EAPI=8
 HOMEPAGE=https://github.com/ctalkington/python-rokuecp https://pypi.org/project/rokuecp/
 INHERIT=distutils-r1
 IUSE=test python_targets_python3_8 python_targets_python3_9 python_targets_python3_10
-KEYWORDS=~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux
+KEYWORDS=amd64 arm arm64 x86 ~amd64-linux ~x86-linux
 LICENSE=MIT
-RDEPEND=>=dev-python/aiohttp-3.0.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-python/awesomeversion-21.10.1[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-python/cachetools-4.2.4[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-python/backoff-1.9.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-python/xmltodict-0.12.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-python/yarl-1.6.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 )
+RDEPEND=>=dev-python/aiohttp-3.0.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-python/awesomeversion-21.10.1[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-python/backoff-1.9.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-python/xmltodict-0.12.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-python/yarl-1.6.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 )
 REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 )
 RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=mirror://pypi/r/rokuecp/rokuecp-0.14.1.tar.gz
+SRC_URI=mirror://pypi/r/rokuecp/rokuecp-0.16.0.tar.gz
 _eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	python-utils-r1	dfa3a38467793e97fcf791b156510654	python-r1	8638751691200e941f26fe0ac3aef1d1	distutils-r1	e91901adfcf0640d2daa4dc863ff5377
-_md5_=229cc4fd06db4c6f615ae5da3f419719
+_md5_=faa9da82379133912e1e2b3cb3e1a735

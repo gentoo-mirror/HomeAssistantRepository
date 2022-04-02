@@ -247,7 +247,6 @@ app-misc/homeassistant:tile - API for Tile Bluetooth trackers
 app-misc/homeassistant:toon - client for the Quby ToonAPI
 app-misc/homeassistant:totalconnect - provides connectivity with the Honeywell TotalConnect alarm systems
 app-misc/homeassistant:tplink - control your TP-Link Smart Home Devices
-app-misc/homeassistant:tradfri - Control/observe IKEA Tradfri devices
 app-misc/homeassistant:tuya - integrate all Tuya Smart related platforms
 app-misc/homeassistant:unifi - talk with a Ubiquiti unifi Controller
 app-misc/homeassistant:unifi_direct - detect presence by looking at devices connected to a UniFi AP
@@ -1167,7 +1166,6 @@ app-misc/homeassistant-min:notify_events - The Notify.Events service is a platfo
 app-misc/homeassistant-min:octoprint - The main integration to integrate OctoPrint sensors
 app-misc/homeassistant-min:otp - generates One-Time Passwords according to RFC6238
 app-misc/homeassistant-min:owntracks - OwnTracks: track your location and send it directly to Home Assistant
-app-misc/homeassistant-min:ozw - Open Zwave MQTT
 app-misc/homeassistant-min:ping - use the great ICMPLib for Presence Detection and as a binary Sensor
 app-misc/homeassistant-min:plex - Python bindings for the Plex API
 app-misc/homeassistant-min:ps4 - allows you to control a Sony PlayStation 4 console
@@ -1197,7 +1195,6 @@ app-misc/homeassistant-min:tasmota - Python module to help parse and construct T
 app-misc/homeassistant-min:test - internal and developer use
 app-misc/homeassistant-min:tile - API for Tile Bluetooth trackers
 app-misc/homeassistant-min:tplink - control your TP-Link Smart Home Devices
-app-misc/homeassistant-min:tradfri - Control/observe IKEA Tradfri devices
 app-misc/homeassistant-min:upnp - support UPnP/Internet Gateway Device (IGD) Protocol
 app-misc/homeassistant-min:utility_meter - integration provides functionality to track consumptions of various utilities
 app-misc/homeassistant-min:version - display the current Home Assistant versions
