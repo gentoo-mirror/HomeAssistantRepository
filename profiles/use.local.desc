@@ -533,6 +533,7 @@ app-misc/homeassistant-full:garages_amsterdam - measure the occupancy of Amsterd
 app-misc/homeassistant-full:garmin_connect - The Garmin Connect sensor allows you to expose data from Garmin Connect
 app-misc/homeassistant-full:gc100 - The Global Caché GC-100 can be integrated into Home Assistant
 app-misc/homeassistant-full:gdacs - lets you use a GeoRSS feed provided by GDACS
+app-misc/homeassistant-full:generic - 
 app-misc/homeassistant-full:geniushub - geniushub integration links Home Assistant with your Genius Hub CH/DHW
 app-misc/homeassistant-full:geo_json_events - geo_json_events platform lets you integrate GeoJSON feeds
 app-misc/homeassistant-full:geo_rss_events - geo_rss_events sensor retrieves events from a GeoRSS feed

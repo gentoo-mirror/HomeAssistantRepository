@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.2.9 2022.3.6 2022.3.7 2022.3.8 2022.4.0_beta1 2022.4.0_beta2 2022.4.0_beta3: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.2.9 2022.3.6 2022.3.7 2022.3.8 2022.4.0_beta1 2022.4.0_beta2 2022.4.0_beta3 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.2.9 2022.3.6 2022.3.7 2022.3.8 2022.4.0_beta1 2022.4.0_beta2 2022.4.0_beta3: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.2.9 2022.3.6 2022.3.7 2022.3.8 2022.4.0_beta2 2022.4.0_beta3 2022.4.0_beta4: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.2.9 2022.3.6 2022.3.7 2022.3.8 2022.4.0_beta2 2022.4.0_beta3 2022.4.0_beta4 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.2.9 2022.3.6 2022.3.7 2022.3.8 2022.4.0_beta2 2022.4.0_beta3 2022.4.0_beta4: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.2.6 2022.3.1 2022.3.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220116.0 20220209.0 20220219.0 20220309.0: ESPHome dashboard
 dev-embedded/esptool 3.2 3.3: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -259,7 +259,7 @@ dev-python/colorzero 2.0: Yet another Python color library
 dev-python/colour 0.1.5-r1: converts and manipulates various color representation (HSL, RVB, web, X11, ...)
 dev-python/concord232 0.15: GE Concord 4 RS232 Serial Interface Library and Server
 dev-python/config 0.5.1: A hierarchical, easy-to-use, powerful configuration module for Python
-dev-python/configargparse 0.11.0: Drop-in replacement for argparse supporting config files and env variables
+dev-python/configargparse 0.11.0-r1: A drop-in replacement for argparse that allows options to also be set via config files and/or environment variables.
 dev-python/connect-box 0.2.8: Python client for interacting with Compal CH7465LG devices.
 dev-python/construct 2.10.56: A powerful declarative parser for binary data
 dev-python/convertdate 2.3.0: Converts between Gregorian dates and other calendar systems.
@@ -313,7 +313,7 @@ dev-python/emulated-roku 0.2.1: Library to emulate a roku server to serve as a p
 dev-python/enocean 0.50.1: EnOcean serial protocol implementation
 dev-python/enturclient 0.2.2 0.2.3: An API client for public transport data from Entur.
 dev-python/enum-compat 0.0.3: enum/enum34 compatibility package
-dev-python/env-canada 0.2.5 0.5.14 0.5.18 0.5.20: A package to access meteorological data from Environment Canada
+dev-python/env-canada 0.5.20 0.5.21: A package to access meteorological data from Environment Canada
 dev-python/envirophat 0.0.6 1.0.1: Enviro pHAT environmental sensor board driver
 dev-python/envoy-reader 0.19.0 0.20.0 0.20.1: A program to read from an Enphase Envoy on the local network
 dev-python/envoy-utils 0.0.1: Python utilities for the Enphase Envoy
@@ -394,7 +394,7 @@ dev-python/ha-av 8.0.3 8.0.4_rc1: Pythonic bindings for FFmpeg's libraries.
 dev-python/ha-ffmpeg 3.0.2: A library that handling with ffmpeg for home-assistant
 dev-python/ha-philipsjs 2.7.5 2.7.6: jointSPACE API for Home-Assistant
 dev-python/habitipy 0.2.0 0.3.0: tools and library for Habitica restful API (https://habitica.com)
-dev-python/hangups 0.4.14 0.4.17: the first third-party instant messaging client for Google Hangouts
+dev-python/hangups 0.4.17 0.4.18: the first third-party instant messaging client for Google Hangouts
 dev-python/hass-nabucasa 0.51.0 0.52.0 0.53.1 0.54.0: Home Assistant cloud integration by Nabu Casa, Inc.
 dev-python/hass-splunk 0.1.1: Async single threaded connector to Splunk HEC using an asyncio session
 dev-python/haversine 2.3.1: Calculate the distance between 2 points on Earth.
@@ -584,7 +584,7 @@ dev-python/pizzapi 0.0.3 0.0.6: A Python wrapper for the Dominos Pizza API
 dev-python/pkce 1.0.3: PKCE Pyhton generator.
 dev-python/plexauth 0.0.6: Handles the authorization flow to obtain tokens from Plex.tv via external redirection.
 dev-python/plexwebsocket 0.0.13: Support for issuing callbacks in response to Plex websocket updates.
-dev-python/plugwise 0.8.5 0.16.6 0.17.2: Plugwise (Adam/Anna/P1/Stick/Stretch) API to use in conjunction with Home Assistant Core.
+dev-python/plugwise 0.8.5 0.16.6 0.17.2 0.17.3: Plugwise (Adam/Anna/P1/Stick/Stretch) API to use in conjunction with Home Assistant Core.
 dev-python/plumlightpad 0.0.11: A python package that interacts with the Plum Lightpad
 dev-python/pmsensor 0.4: Library to read data from environment sensors
 dev-python/poetry 1.1.6: Python dependency management and packaging made easy.
@@ -1084,7 +1084,7 @@ dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontro
 dev-python/yalesmartalarmclient 0.3.4 0.3.7 0.3.8: Interact with Yale Smart Alarm systems
 dev-python/yalexs 1.1.22 1.1.23: Python API for Yale Access (formerly August) Smart Lock and Doorbell
 dev-python/yarl 1.6.3-r1: Yet another URL library
-dev-python/yeelight 0.7.8 0.7.9: A Python library for controlling YeeLight RGB bulbs.
+dev-python/yeelight 0.7.8 0.7.9 0.7.10: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
 dev-python/youless-api 0.14 0.15 0.16: A bridge for python to the YouLess sensor
 dev-python/youtube_dl 2021.4.26 2021.6.6: YouTube video downloader
