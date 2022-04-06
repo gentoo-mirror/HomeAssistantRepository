@@ -654,7 +654,7 @@ dev-python/pycomfoconnect 0.4: Python interface for the Zehnder ComfoConnect LAN
 dev-python/pycoolmasternet-async 0.1.2: A python library to control CoolMasterNet HVAC bridges over asyncio.
 dev-python/pycountry 19.8.18: Database of countries, subdivisions, languages, currencies and script
 dev-python/pycountry-convert 0.7.2: Extension of Python package pycountry providing conversion functions.
-dev-python/pycryptodomex 3.9.4 3.10.1: Cryptographic library for Python
+dev-python/pycryptodomex 3.14.1: Cryptographic library for Python
 dev-python/pycsspeechtts 1.0.4: Python 3 interface to Microsoft Cognitive Services Text To Speech
 dev-python/pycups 1.9.73-r3: Python bindings for the CUPS API
 dev-python/pydaikin 2.4.4 2.6.0 2.7.0: Python Daikin HVAC appliances interface
