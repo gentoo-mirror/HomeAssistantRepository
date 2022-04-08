@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -26,7 +26,7 @@ BDEPEND="
 
 distutils_enable_tests pytest
 
-PATCHES=( "${FILESDIR}"/${PN}-0.12.1-use-system-cacerts.patch )
+PATCHES=( "${FILESDIR}/${PN}-0.12.1-use-system-cacerts.patch" )
 
 src_prepare() {
 	sed -i -e '/--cov/d' setup.cfg || die
@@ -47,6 +47,6 @@ python_test() {
 
 	# tests in python* are replaced by tests/
 	# upstream fails at cleaning up stuff
-	pytest -vv ${deselect[@]/#/--deselect } tests ||
+	pytest -vv "${deselect[@]/#/--deselect }" tests ||
 		die "Tests fail with ${EPYTHON}"
 }
