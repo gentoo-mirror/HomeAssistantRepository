@@ -7,20 +7,19 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Raspberry Pi GPIO module"
-HOMEPAGE="http://abyz.me.uk/rpi/pigpio/python.html https://pypi.org/project/pigpio/"
+DESCRIPTION="Library implementing Zigpy quirks for ZHA in Home Assistant"
+HOMEPAGE="https://github.com/dmulcahey/zha-device-handlers https://pypi.org/project/zha-quirks/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Unlicense"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86 ~amd64-linux ~x86-linux"
-#KEYWORDS="arm arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS=""
+DOCS="README.md"
 
-RDEPEND=""
+RDEPEND=">=dev-python/zigpy-0.44.1[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
