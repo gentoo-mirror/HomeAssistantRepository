@@ -245,7 +245,7 @@ app-misc/homeassistant:tellduslive - cloud platform that connects to your Tellst
 app-misc/homeassistant:tesla - integration with the Tesla cloud service
 app-misc/homeassistant:test - internal and developer use
 app-misc/homeassistant:tile - API for Tile Bluetooth trackers
-app-misc/homeassistant:tomorrowio - Allows you to obtain weather, air quality, pollen, and fire information from the
+app-misc/homeassistant:tomorrowio - obtain weather, air quality, pollen, and fire information fro tomorrow.io
 app-misc/homeassistant:toon - client for the Quby ToonAPI
 app-misc/homeassistant:totalconnect - provides connectivity with the Honeywell TotalConnect alarm systems
 app-misc/homeassistant:tplink - control your TP-Link Smart Home Devices
@@ -535,7 +535,7 @@ app-misc/homeassistant-full:garages_amsterdam - measure the occupancy of Amsterd
 app-misc/homeassistant-full:garmin_connect - The Garmin Connect sensor allows you to expose data from Garmin Connect
 app-misc/homeassistant-full:gc100 - The Global Caché GC-100 can be integrated into Home Assistant
 app-misc/homeassistant-full:gdacs - lets you use a GeoRSS feed provided by GDACS
-app-misc/homeassistant-full:generic - The generic camera platform allows you to integrate any IP camera or other URL i
+app-misc/homeassistant-full:generic - The generic camera platform allows you to integrate any IP camera or other URL
 app-misc/homeassistant-full:geniushub - geniushub integration links Home Assistant with your Genius Hub CH/DHW
 app-misc/homeassistant-full:geo_json_events - geo_json_events platform lets you integrate GeoJSON feeds
 app-misc/homeassistant-full:geo_rss_events - geo_rss_events sensor retrieves events from a GeoRSS feed
@@ -633,7 +633,7 @@ app-misc/homeassistant-full:jewish_calendar - Displays information related to th
 app-misc/homeassistant-full:joaoapps_join - joaoapps_join integration exposes services from Join
 app-misc/homeassistant-full:juicenet - pulls data from a JuiceNet charging station
 app-misc/homeassistant-full:kaiterra - view the readings from your Laser Egg or Sensedge device
-app-misc/homeassistant-full:kaleidescape - The Kaleidescape integration allows for the automation of Kaleidescape movie pla
+app-misc/homeassistant-full:kaleidescape - The Kaleidescape integration allows automation of Kaleidescape movie player
 app-misc/homeassistant-full:keba - integrates your Keba charging station (wallbox)
 app-misc/homeassistant-full:keenetic_ndms2 - presence detection for Keenetic Routers
 app-misc/homeassistant-full:kef - KEF wireless speakers
@@ -804,7 +804,7 @@ app-misc/homeassistant-full:panasonic_bluray - allows you to control a Panasonic
 app-misc/homeassistant-full:panasonic_viera - panasonic_viera platform allows you to control a Panasonic Viera TV
 app-misc/homeassistant-full:pandora - Pandora account, you can control it from Home Assistant with this media player
 app-misc/homeassistant-full:pcal9535a - pcal9535a integration is the base for all related pcal9535a platforms
-app-misc/homeassistant-full:peco - PECO is a public utility company that provides electricity to the Philadelphia m
+app-misc/homeassistant-full:peco - provides electricity outage data from PECO Philadelphia power company
 app-misc/homeassistant-full:pencom - Pencom is a computer-controlled relay, I/O and custom boards
 app-misc/homeassistant-full:philips_js - allows you to control Philips TVs which expose the jointSPACE JSON-API
 app-misc/homeassistant-full:pi4ioe5v9xxxx - support for the quasi-bidirectional devices pi4ioe5v9xxxx I2C I/O port expander
@@ -1013,7 +1013,7 @@ app-misc/homeassistant-full:tmb - Library that interacts with TMB API
 app-misc/homeassistant-full:todoist - connect to your Todoist Projects and generate binary sensors
 app-misc/homeassistant-full:tof - uses an invisible laser to measure distance with millimeter resolution
 app-misc/homeassistant-full:tolo - allows you to control your TOLO Sauna and TOLO Steam Bath
-app-misc/homeassistant-full:tomorrowio - Allows you to obtain weather, air quality, pollen, and fire information from the
+app-misc/homeassistant-full:tomorrowio - obtain weather, air quality, pollen, and fire information fro tomorrow.io
 app-misc/homeassistant-full:toon - client for the Quby ToonAPI
 app-misc/homeassistant-full:totalconnect - provides connectivity with the Honeywell TotalConnect alarm systems
 app-misc/homeassistant-full:touchline - lets you control ROTH Touchline floor heating thermostats
@@ -1197,7 +1197,7 @@ app-misc/homeassistant-min:tankerkoenig - monitor the fuel prices with tankerkoe
 app-misc/homeassistant-min:tasmota - Python module to help parse and construct Tasmota MQTT messages
 app-misc/homeassistant-min:test - internal and developer use
 app-misc/homeassistant-min:tile - API for Tile Bluetooth trackers
-app-misc/homeassistant-min:tomorrowio - Allows you to obtain weather, air quality, pollen, and fire information from the
+app-misc/homeassistant-min:tomorrowio - obtain weather, air quality, pollen, and fire information fro tomorrow.io
 app-misc/homeassistant-min:tplink - control your TP-Link Smart Home Devices
 app-misc/homeassistant-min:upnp - support UPnP/Internet Gateway Device (IGD) Protocol
 app-misc/homeassistant-min:utility_meter - integration provides functionality to track consumptions of various utilities
