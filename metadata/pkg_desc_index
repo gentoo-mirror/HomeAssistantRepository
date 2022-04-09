@@ -915,7 +915,7 @@ dev-python/ruamel-yaml 0.15.100: YAML parser/emitter that supports roundtrip com
 dev-python/russound 0.1.9: Python API for Russound RNET commands.
 dev-python/russound-rio 0.1.7: Asyncio client for Russound RIO devices
 dev-python/rxv 0.7.0: Automation Library for Yamaha RX-V473, RX-V573, RX-V673, RX-V773 receivers
-dev-python/s3transfer 0.2.1: An Amazon S3 Transfer Manager
+dev-python/s3transfer 0.5.2: An Amazon S3 Transfer Manager
 dev-python/samsungctl 0.7.1: Remote control Samsung televisions via TCP/IP connection
 dev-python/samsungtvws 1.6.0 1.7.0 2.5.0: Samsung Smart TV WS API wrapper
 dev-python/satel-integra 0.3.4: Communication library for Satel Integra alarm system.
