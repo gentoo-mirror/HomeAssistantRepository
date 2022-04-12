@@ -7,17 +7,19 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Asynchronous shutil module."
-HOMEPAGE="https://github.com/kumaraditya303/aioshutil https://pypi.org/project/aioshutil/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+DESCRIPTION="Python client library for RTSPtoWeb and RTSPtoWebRTC"
+HOMEPAGE=" https://pypi.org/project/rtsp-to-webrtc/"
+MY_PN=${PN//-/_}
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}/${MY_PN}-${PV}"
 
-LICENSE="BSD"
+LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="amd64 arm arm64 x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
+DOCS=""
 
 RDEPEND=""
 BDEPEND="
@@ -25,11 +27,14 @@ BDEPEND="
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-		dev-python/pytest-cov[${PYTHON_USEDEP}]
 	)"
 
 python_test() {
 	nosetests --verbose || die
 	py.test -v -v || die
+}
+
+src_prepare() {
+	sed -i "s/where = ./where = .\nexclude = tests*/g" setup.cfg || die
+	default
 }
