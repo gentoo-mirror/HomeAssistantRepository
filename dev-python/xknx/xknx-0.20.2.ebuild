@@ -7,24 +7,20 @@ PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1
 
-DESCRIPTION="Renault API"
-HOMEPAGE="https://github.com/hacf-fr/renault-api https://pypi.org/project/renault-api/"
+DESCRIPTION="An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/"
+HOMEPAGE="https://github.com/XKNX/xknx/ https://xknx.io/ https://pypi.org/project/xknx/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 arm arm64 x86 amd64-linux x86-linux"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
+DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.7.1[${PYTHON_USEDEP}]
-	>=dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
-	>=dev-python/marshmallow-dataclass-8.2.0[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
-	>=dev-python/dateparser-1.0.0[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/cryptography-35.0.0[${PYTHON_USEDEP}]
+	>=dev-python/netifaces-0.11.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
