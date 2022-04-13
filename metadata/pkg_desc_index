@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.3.6 2022.3.7 2022.3.8 2022.4.0_beta6 2022.4.0 2022.4.1 2022.4.2: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.3.6 2022.3.7 2022.3.8 2022.4.0_beta6 2022.4.0 2022.4.1 2022.4.2 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.3.6 2022.3.7 2022.3.8 2022.4.0_beta6 2022.4.0 2022.4.1 2022.4.2: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.3.7 2022.3.8 2022.4.0 2022.4.1 2022.4.2 2022.4.3: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.3.7 2022.3.8 2022.4.0 2022.4.1 2022.4.2 2022.4.3 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.3.7 2022.3.8 2022.4.0 2022.4.1 2022.4.2 2022.4.3: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.2.6 2022.3.1 2022.3.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220116.0 20220209.0 20220219.0 20220309.0: ESPHome dashboard
 dev-embedded/esptool 3.2 3.3: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -286,7 +286,7 @@ dev-python/decora-wifi 1.4: Python API for controlling Leviton Decora Smart WiFi
 dev-python/deepmerge 1.0.1: a toolset to deeply merge python dictionaries.
 dev-python/deluge-client 1.7.1: Simple Deluge Client
 dev-python/demjson3 3.0.5: encoder, decoder, and lint/validator for JSON (JavaScript Object Notation) compliant with RFC 7159
-dev-python/devolo-home-control-api 0.17.4: devolo Home Control API in Python
+dev-python/devolo-home-control-api 0.17.4 0.18.1: devolo Home Control API in Python
 dev-python/devolo-plc-api 0.6.3 0.7.1: devolo PLC devices in Python
 dev-python/directv 0.4.0: Asynchronous Python client for DirecTV (SHEF).
 dev-python/discogs-client 2.3.0: Official Python API client for Discogs
@@ -891,7 +891,7 @@ dev-python/redis 4.0.2: Python client for Redis database and key-value store
 dev-python/regenmaschine 3.1.5 2021.10.0 2022.1.0: A simple API for RainMachine sprinkler controllers
 dev-python/regex 2021.8.28: Alternative regular expression module to replace re
 dev-python/related 0.7.2: Related: Straightforward nested object models in Python
-dev-python/renault-api 0.1.8 0.1.9 0.1.10: Renault API
+dev-python/renault-api 0.1.9 0.1.10 0.1.11: Renault API
 dev-python/requests-mock 1.9.2: Mock out responses from the requests package
 dev-python/requests-oauth 0.4.1: Hook for adding Open Authentication support to Python-requests HTTP library.
 dev-python/responses 0.12.0: A utility library for mocking out the requests Python library.
@@ -1076,7 +1076,7 @@ dev-python/xbee-helper 0.0.7: a high level API to an XBee device
 dev-python/xbox-webapi 2.0.11: A library to authenticate with Windows Live/Xbox Live and use their API
 dev-python/xboxapi 2.0.1: A wrapper library for XboxAPI.com
 dev-python/xfinity-gateway 0.0.4: Query an Xfinity Gateway
-dev-python/xknx 0.19.2 0.20.0 0.20.1: An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/
+dev-python/xknx 0.19.2 0.20.1 0.20.2: An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/
 dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontrol XS1 Gateway
 dev-python/yalesmartalarmclient 0.3.4 0.3.7 0.3.8: Interact with Yale Smart Alarm systems
 dev-python/yalexs 1.1.22 1.1.23: Python API for Yale Access (formerly August) Smart Lock and Doorbell
@@ -1086,10 +1086,10 @@ dev-python/youless-api 0.14 0.15 0.16: A bridge for python to the YouLess sensor
 dev-python/youtube_dl 2021.4.26 2021.6.6: YouTube video downloader
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs
 dev-python/zeroconf 0.38.4: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
-dev-python/zha-quirks 0.0.66 0.0.67 0.0.69 0.0.71: Library implementing Zigpy quirks for ZHA in Home Assistant
+dev-python/zha-quirks 0.0.67 0.0.69 0.0.71 0.0.72: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
-dev-python/zigpy 0.43.0 0.44.1: Library implementing a ZigBee stack
+dev-python/zigpy 0.43.0 0.44.1 0.44.2: Library implementing a ZigBee stack
 dev-python/zigpy-deconz 0.14.0 0.15.0: A library which communicates with Deconz radios for zigpy
 dev-python/zigpy-xbee 0.12.1 0.13.0 0.14.0: A library which communicates with XBee radios for zigpy
 dev-python/zigpy-zigate 0.7.3 0.8.0: A library which communicates with ZiGate radios for zigpy
