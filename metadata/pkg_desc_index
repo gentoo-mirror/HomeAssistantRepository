@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.3.7 2022.3.8 2022.4.0 2022.4.1 2022.4.2 2022.4.3: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.3.7 2022.3.8 2022.4.0 2022.4.1 2022.4.2 2022.4.3 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.3.7 2022.3.8 2022.4.0 2022.4.1 2022.4.2 2022.4.3: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.3.7 2022.3.8 2022.4.2 2022.4.3 2022.4.4: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.3.7 2022.3.8 2022.4.2 2022.4.3 2022.4.4 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.3.7 2022.3.8 2022.4.2 2022.4.3 2022.4.4: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.2.6 2022.3.1 2022.3.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220116.0 20220209.0 20220219.0 20220309.0: ESPHome dashboard
 dev-embedded/esptool 3.2 3.3: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -390,7 +390,7 @@ dev-python/grpcio 1.44.0 1.45.0: High-performance RPC framework (python librarie
 dev-python/gstreamer-player 1.1.2: Python 3 wrapper for playing media via gstreamer
 dev-python/guppy3 3.1.0 3.1.2: Guppy 3 -- Guppy-PE ported to Python 3
 dev-python/h11 0.12.0: A pure-Python implementation of HTTP/1.1 inspired by hyper-h2
-dev-python/ha-av 8.0.3 8.0.4_rc1: Pythonic bindings for FFmpeg's libraries.
+dev-python/ha-av 8.0.3 8.0.4_rc1 9.1.1_p3: Pythonic bindings for FFmpeg's libraries.
 dev-python/ha-ffmpeg 3.0.2: A library that handling with ffmpeg for home-assistant
 dev-python/ha-philipsjs 2.7.5 2.7.6: jointSPACE API for Home-Assistant
 dev-python/habitipy 0.2.0 0.3.0: tools and library for Habitica restful API (https://habitica.com)
