@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.3.7 2022.3.8 2022.4.2 2022.4.3 2022.4.4: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.3.7 2022.3.8 2022.4.2 2022.4.3 2022.4.4 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.3.7 2022.3.8 2022.4.2 2022.4.3 2022.4.4: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.3.8 2022.4.3 2022.4.4 2022.4.5: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.3.8 2022.4.3 2022.4.4 2022.4.5 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.3.8 2022.4.3 2022.4.4 2022.4.5: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.2.6 2022.3.1 2022.3.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220116.0 20220209.0 20220219.0 20220309.0: ESPHome dashboard
 dev-embedded/esptool 3.2 3.3: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -371,7 +371,7 @@ dev-python/gntp 1.0.3: Growl Notification Transport Protocol for Python
 dev-python/goalzero 0.1.7 0.2.0 0.2.1: Goal Zero REST Api Library
 dev-python/gogogate2-api 3.0.0: Library for connecting to GogoGate2 and iSmartGate hubs
 dev-python/goodwe 0.2.15: Read data from GoodWe inverter via local network
-dev-python/google-api-python-client 1.6.4: Google API Client for Python
+dev-python/google-api-python-client 1.6.4 2.38.0-r1: Google API Client for Python
 dev-python/google-cloud-pubsub 2.9.0 2.11.0: Google Cloud Pub/Sub API client library
 dev-python/google-cloud-texttospeech 0.4.0 2.11.0: Google Cloud Text-to-Speech API client library
 dev-python/google-nest-sdm 1.7.1 1.8.0: Library for the Google Nest SDM API
@@ -549,7 +549,7 @@ dev-python/open-garage 0.1.5 0.1.6 0.2.0: A python3 library to communicate with 
 dev-python/open-meteo 0.2.1: Asynchronous client for the Open-Meteo API.
 dev-python/openerz-api 0.1.0: A Python wrapper around the OpenERZ API.
 dev-python/openevsewifi 1.1.0: A python library communicating with the ESP8266-based wifi module from OpenEVSE
-dev-python/openhomedevice 2.0.1: Provides an API for requesting information from an Openhome device
+dev-python/openhomedevice 2.0.1 2.0.2: Provides an API for requesting information from an Openhome device
 dev-python/opensensemap-api 0.1.5 0.2.0: Python client for interacting with the openSenseMap API.
 dev-python/openwebifpy 3.2.7: Provides a python interface to interact with a device running OpenWebIf
 dev-python/openwrt-luci-rpc 1.1.8 1.1.11: Module for interacting with OpenWrt Luci RPC interface
@@ -724,7 +724,7 @@ dev-python/pylutron 0.2.7 0.2.8: Python library for Lutron RadioRA 2
 dev-python/pylutron-caseta 0.11.0 0.13.0 0.13.1: Provides an API to the Lutron Smartbridge
 dev-python/pymailgunner 1.4: A simple mailgun client - pymailgun fork with Python 3 support
 dev-python/pymata-express 1.19: A Python Protocol Abstraction Library For Arduino Firmata using Python asyncio
-dev-python/pymazda 0.2.2 0.3.2: An API client for interacting with the MyMazda (Mazda Connected Services) API
+dev-python/pymazda 0.3.2 0.3.3: An API client for interacting with the MyMazda (Mazda Connected Services) API
 dev-python/pymediaroom 0.6.4.1 0.6.5.4: Remote control your Mediaroom Set-up-box
 dev-python/pymelcloud 2.5.3 2.5.4 2.5.5 2.5.6 2.11.0: Python MELCloud interface
 dev-python/pymeteoclimatic 0.0.6: A Python wrapper around the Meteoclimatic service
@@ -1076,7 +1076,7 @@ dev-python/xbee-helper 0.0.7: a high level API to an XBee device
 dev-python/xbox-webapi 2.0.11: A library to authenticate with Windows Live/Xbox Live and use their API
 dev-python/xboxapi 2.0.1: A wrapper library for XboxAPI.com
 dev-python/xfinity-gateway 0.0.4: Query an Xfinity Gateway
-dev-python/xknx 0.19.2 0.20.1 0.20.2: An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/
+dev-python/xknx 0.19.2 0.20.2 0.20.3: An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/
 dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontrol XS1 Gateway
 dev-python/yalesmartalarmclient 0.3.4 0.3.7 0.3.8: Interact with Yale Smart Alarm systems
 dev-python/yalexs 1.1.22 1.1.23: Python API for Yale Access (formerly August) Smart Lock and Doorbell
