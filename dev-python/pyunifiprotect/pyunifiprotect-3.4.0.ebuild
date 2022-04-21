@@ -4,11 +4,12 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
+DISTUTILS_USE_SETUPTOOLS=pyproject.toml
 
 inherit distutils-r1
 
-DESCRIPTION="Library for interacting with ElkM1 alarm/automation panel."
-HOMEPAGE="https://github.com/gwww/elkm1 https://pypi.org/project/elkm1-lib/"
+DESCRIPTION="Python Wrapper for Unifi Protect API"
+HOMEPAGE="https://github.com/briis/pyunifiprotect https://pypi.org/project/pyunifiprotect/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -19,12 +20,20 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/pyserial-asyncio-0.5[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/aioshutil[${PYTHON_USEDEP}]
+	dev-python/pydantic[${PYTHON_USEDEP}]
+	dev-python/pyjwt[${PYTHON_USEDEP}]
+	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	dev-python/pytz[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
+	dev-python/packaging[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+		dev-python/pytest-cov[${PYTHON_USEDEP}]
 	)"
 
 python_test() {

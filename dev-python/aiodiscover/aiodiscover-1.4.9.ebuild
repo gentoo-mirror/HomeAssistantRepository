@@ -4,15 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} )
-DISTUTILS_USE_SETUPTOOLS=pyproject.toml
 
 inherit distutils-r1
 
-DESCRIPTION="Python Wrapper for Unifi Protect API"
-HOMEPAGE="https://github.com/briis/pyunifiprotect https://pypi.org/project/pyunifiprotect/"
+DESCRIPTION="Discover hosts by arp and ptr lookup"
+HOMEPAGE="https://github.com/bdraco/aiodiscover https://pypi.org/project/aiodiscover/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86 ~amd64-linux ~x86-linux"
 IUSE="test"
@@ -20,18 +19,18 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aioshutil[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/netifaces-0.11.0[${PYTHON_USEDEP}]
+	>=dev-python/dnspython-2.1.0[${PYTHON_USEDEP}]
+	dev-python/ifaddr[${PYTHON_USEDEP}]
+	>=dev-python/pyroute2-0.5.18[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	dev-python/pytest-runner[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-cov[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	)"
 
 python_test() {
