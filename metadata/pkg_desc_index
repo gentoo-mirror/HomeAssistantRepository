@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.3.8 2022.4.4 2022.4.5 2022.4.6: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.3.8 2022.4.4 2022.4.5 2022.4.6 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.3.8 2022.4.4 2022.4.5 2022.4.6-r1: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.3.8 2022.4.5 2022.4.6 2022.4.7: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.3.8 2022.4.5 2022.4.6 2022.4.7 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.3.8 2022.4.5 2022.4.6-r1 2022.4.7: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.2.6 2022.3.1 2022.3.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220116.0 20220209.0 20220219.0 20220309.0: ESPHome dashboard
 dev-embedded/esptool 3.2 3.3: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -108,7 +108,7 @@ dev-python/aiobotocore 1.2.2 2.1.0: Async client for aws services using botocore
 dev-python/aiocache 0.11.1: multi backend asyncio cache
 dev-python/aiocoap 0.4_beta3 0.4.3: Python CoAP library
 dev-python/aioconsole 0.3.2: Asynchronous console and interfaces for asyncio
-dev-python/aiodiscover 1.4.8 1.4.9: Discover hosts by arp and ptr lookup
+dev-python/aiodiscover 1.4.8 1.4.9 1.4.11: Discover hosts by arp and ptr lookup
 dev-python/aioeafm 0.1.2: An asyncio wrapper for the UK Environment Agency Flood Monitoring API
 dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
@@ -760,7 +760,7 @@ dev-python/pypandoc 1.7.4: Thin wrapper for pandoc.
 dev-python/pypca 0.0.7: A python cli for PCA 301 smart plugs.
 dev-python/pypck 0.7.10 0.7.13 0.7.14: LCN-PCK library
 dev-python/pypjlink2 1.2.1: PJLink is a standard for controlling data projectors.
-dev-python/pyplaato 0.0.15 0.0.16: Asynchronous Python client for getting Plaato Airlock and Keg data
+dev-python/pyplaato 0.0.15 0.0.16 0.0.18: Asynchronous Python client for getting Plaato Airlock and Keg data
 dev-python/pypoint 2.2.1 2.3.0: API for Minut Point
 dev-python/pyprof2calltree 1.4.5: Help visualize profiling data from cProfile with kcachegrind and qcachegrind
 dev-python/pyprosegur 0.0.5: Unofficial Python library to interface with Prosegur Alarmes PT/ES.
@@ -773,7 +773,7 @@ dev-python/pyrecswitch 1.0.2: A pure-python interface for controlling Ankuoo Rec
 dev-python/pyrepetierng 0.1.0: A updated python Repetier-Server library based on Mtrabs library
 dev-python/pyrisco 0.3.1: A python library to communicate with Risco Cloud.
 dev-python/pyrituals 0.0.6: Async Python wrapper for the Rituals Perfume Genie API
-dev-python/pyroute2 0.6.5: Python Netlink library
+dev-python/pyroute2 0.6.9: Python Netlink library
 dev-python/pyruckus 0.12: Python API to interact with a Ruckus Unleashed device.
 dev-python/pysabnzbd 1.1.0 1.1.1: Python wrapper for SABnzbd API
 dev-python/pysaj 0.0.16: Library to communicate with SAJ inverters
@@ -1076,7 +1076,7 @@ dev-python/xbee-helper 0.0.7: a high level API to an XBee device
 dev-python/xbox-webapi 2.0.11: A library to authenticate with Windows Live/Xbox Live and use their API
 dev-python/xboxapi 2.0.1: A wrapper library for XboxAPI.com
 dev-python/xfinity-gateway 0.0.4: Query an Xfinity Gateway
-dev-python/xknx 0.19.2 0.20.2 0.20.3: An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/
+dev-python/xknx 0.19.2 0.20.3 0.20.4: An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/
 dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontrol XS1 Gateway
 dev-python/yalesmartalarmclient 0.3.4 0.3.7 0.3.8: Interact with Yale Smart Alarm systems
 dev-python/yalexs 1.1.22 1.1.23: Python API for Yale Access (formerly August) Smart Lock and Doorbell
@@ -1095,7 +1095,7 @@ dev-python/zigpy-xbee 0.12.1 0.13.0 0.14.0: A library which communicates with XB
 dev-python/zigpy-zigate 0.7.4 0.8.0: A library which communicates with ZiGate radios for zigpy
 dev-python/zigpy-znp 0.5.4 0.6.4 0.7.0: A library for zigpy which communicates with TI ZNP radios
 dev-python/zm-py 0.5.2: A loose python wrapper around the ZoneMinder REST API.
-dev-python/zwave-js-server-python 0.33.0 0.34.0 0.35.1 0.35.2: Python wrapper for zwave-js-server
+dev-python/zwave-js-server-python 0.35.1 0.35.2 0.35.3: Python wrapper for zwave-js-server
 dev-python/zwave-me-ws 0.2.1 0.2.3: Library, implementing websocket connection to ZWave-Me
 dev-vcs/pre-commit 2.14.0 2.16.0-r1: A framework for managing and maintaining multi-language Git pre-commit hooks
 media-libs/opencv 3.4.1-r7: A collection of algorithms and sample code for various computer vision problems
