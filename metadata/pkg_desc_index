@@ -443,6 +443,7 @@ dev-python/ismartgate 4.0.0 4.0.4: iSmartGate and GogoGate2 API
 dev-python/iso4217 1.6.20180829: ISO 4217 currency data package for Python
 dev-python/jdatetime 3.4.0: Jalali datetime binding for python
 dev-python/jellyfin-apiclient-python 1.7.2: Python API client for Jellyfin
+dev-python/jinja 3.1.0: A full-featured template engine for Python
 dev-python/jmespath 0.9.4: JSON Matching Expressions
 dev-python/jsonpath 0.82: An XPath for JSON
 dev-python/jsonpath-ng 1.5.2: A final implementation of JSONPath for Python that aims to be standard compliant.
