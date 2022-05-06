@@ -687,6 +687,7 @@ app-misc/homeassistant-full:matrix - allows you to send messages to matrix rooms
 app-misc/homeassistant-full:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant-full:mazda - Mazda Connected Services integration
 app-misc/homeassistant-full:mcp23017 - base for all related mcp23017 platforms in Home Assistant
+app-misc/homeassistant-full:meater - communication with the Meater Temperature Probe from Apption Labs
 app-misc/homeassistant-full:media_extractor - Gets a stream URL and sends it to a media player entity
 app-misc/homeassistant-full:mediaroom - control a Mediaroom Set-Top Box (STB) from Home Assistant
 app-misc/homeassistant-full:melcloud - Python MELCloud interface
@@ -842,6 +843,7 @@ app-misc/homeassistant-full:python_script - write Python scripts that are expose
 app-misc/homeassistant-full:qbittorrent - monitor your downloads with qBittorrent from within Home Assistant
 app-misc/homeassistant-full:qld_bushfire - GeoRSS feed containing bushfire alerts for Queensland
 app-misc/homeassistant-full:qnap - Python API for obtaining QNAP NAS system stats
+app-misc/homeassistant-full:qnap_qsw - This integration interacts with the local API of QNAP QSW managed switches
 app-misc/homeassistant-full:qrcode - enables QR code recognition from cameras
 app-misc/homeassistant-full:quantum_gateway - device tracker platform for Verizon Fios
 app-misc/homeassistant-full:qvr_pro - QVR Pro allows you to connect to cams configured on your QNAP NAS
@@ -904,6 +906,7 @@ app-misc/homeassistant-full:sensehat - lets you control the Sense HAT board’s 
 app-misc/homeassistant-full:senseme - Integrates SenseME devices into Home Assistant
 app-misc/homeassistant-full:sensibo - Integrates Sensibo Air Conditioning controller into Home Assistant
 app-misc/homeassistant-full:sentry - The free Sentry account allows 5000 events per month
+app-misc/homeassistant-full:senz - allows you to control and monitor your nVent RAYCHEM SENZ-WIFI thermostats
 app-misc/homeassistant-full:serial - use data provided by a device connected to the serial port of the system
 app-misc/homeassistant-full:serial_pm - Particulate matter sensors measure the amount of very small particles in the air
 app-misc/homeassistant-full:sesame - allows you to control your Sesame smart locks made by CANDY HOUSE, Inc.
@@ -927,6 +930,7 @@ app-misc/homeassistant-full:skybell - integrate your Skybell.com doorbells
 app-misc/homeassistant-full:slack - The slack platform delivers notifications from Home Assistant to Slack
 app-misc/homeassistant-full:sleepiq - lets you view sensor data from SleepIQ by SleepNumber
 app-misc/homeassistant-full:slide - integrate your slide.store devices in Home Assistant using the official API
+app-misc/homeassistant-full:slimproto - allows you to control a Squeezebox music player directly from Home Assistant
 app-misc/homeassistant-full:sma - add Support for SMA Solar WebConnect
 app-misc/homeassistant-full:smappee - integrate Smappee monitors, plugs and switches
 app-misc/homeassistant-full:smart_meter_texas - allows Texas residents to integrate their electric meters into Home Assistant
@@ -1025,6 +1029,7 @@ app-misc/homeassistant-full:traccar - uses GPS for tracking and has support for 
 app-misc/homeassistant-full:trackr - trackr platform allows you to detect presence using TrackR devices
 app-misc/homeassistant-full:tractive - Tractive is an Austrian company develops real-time location trackers for pets
 app-misc/homeassistant-full:tradfri - Control/observe IKEA Tradfri devices
+app-misc/homeassistant-full:trafikverket_ferry - Retrieve ferry departure information from Trafikverket
 app-misc/homeassistant-full:trafikverket_train - Retrieve train departure information from Trafikverket
 app-misc/homeassistant-full:trafikverket_weatherstation - weather information provided by Trafikverket weather stations in Sweden
 app-misc/homeassistant-full:transmission - transmission integration allows you to monitor your downloads with Transmission
