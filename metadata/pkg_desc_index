@@ -6,10 +6,10 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.3.8 2022.4.5 2022.4.6 2022.4.7 2022.5.0_beta0 2022.5.0_beta4 2022.5.1: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.3.8 2022.4.5 2022.4.6 2022.4.7 2022.5.0_beta0 2022.5.0_beta4 2022.5.1 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.3.8 2022.4.5 2022.4.6-r1 2022.4.7 2022.5.0_beta0 2022.5.0_beta4 2022.5.1: Open-source home automation platform running on Python.
-dev-embedded/esphome 2022.2.6 2022.3.1 2022.3.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
+app-misc/homeassistant 2022.3.8 2022.4.5 2022.4.6 2022.4.7 2022.5.0_beta4 2022.5.1 2022.5.2: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.3.8 2022.4.5 2022.4.6 2022.4.7 2022.5.0_beta4 2022.5.1 2022.5.2 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.3.8 2022.4.5 2022.4.6-r1 2022.4.7 2022.5.0_beta4 2022.5.1 2022.5.2: Open-source home automation platform running on Python.
+dev-embedded/esphome 2022.2.6 2022.3.2 2022.4.0 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220116.0 20220209.0 20220219.0 20220309.0: ESPHome dashboard
 dev-embedded/esptool 3.2 3.3: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
 dev-embedded/platformio 5.2.2-r2 5.2.4-r2 5.2.5: A professional collaborative platform for embedded development. Cross-platform IDE and Unified Debugger.
@@ -372,7 +372,7 @@ dev-python/georss-qld-bushfire-alert-client 0.5: A GeoRSS client library for the
 dev-python/getmac 0.8.2: Get MAC addresses of remote hosts and local interfaces
 dev-python/gios 0.1.5 0.2.1 1.0.1 1.0.2 2.0.0 2.1.0: Python wrapper for getting air quality data from GIOS servers.
 dev-python/gitterpy 0.1.7: Python interface for the Gitter API
-dev-python/glances-api 0.2.0 0.3.4: Python API for interacting with Glances.
+dev-python/glances-api 0.3.4 0.3.5: Python API for interacting with Glances.
 dev-python/gntp 1.0.3: Growl Notification Transport Protocol for Python
 dev-python/goalzero 0.1.7 0.2.0 0.2.1: Goal Zero REST Api Library
 dev-python/gogogate2-api 3.0.0: Library for connecting to GogoGate2 and iSmartGate hubs
