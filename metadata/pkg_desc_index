@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.3.8 2022.4.5 2022.4.6 2022.4.7 2022.5.0_beta4 2022.5.1 2022.5.2: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.3.8 2022.4.5 2022.4.6 2022.4.7 2022.5.0_beta4 2022.5.1 2022.5.2 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.3.8 2022.4.5 2022.4.6-r1 2022.4.7 2022.5.0_beta4 2022.5.1 2022.5.2: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.3.8 2022.4.6 2022.4.7 2022.5.1 2022.5.2 2022.5.3: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.3.8 2022.4.6 2022.4.7 2022.5.1 2022.5.2 2022.5.3 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.3.8 2022.4.6-r1 2022.4.7 2022.5.1 2022.5.2 2022.5.3: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.2.6 2022.3.2 2022.4.0 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220116.0 20220209.0 20220219.0 20220309.0: ESPHome dashboard
 dev-embedded/esptool 3.2 3.3: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -415,7 +415,7 @@ dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.5.1 0.7.0: Python API for interacting with *hole.
 dev-python/holidays 0.11.3.1 0.12 0.13: Generate and work with holidays in Python
-dev-python/home-assistant-frontend 20220301.0 20220301.2 20220405.0 20220427.0 20220429.0 20220504.0: The Home Assistant frontend
+dev-python/home-assistant-frontend 20220301.0 20220301.2 20220405.0 20220427.0 20220429.0 20220504.0 20220504.1: The Home Assistant frontend
 dev-python/homeassistant-pyozw 0.1.10: python_openzwave is a python wrapper for the openzwave c++ library.
 dev-python/homeconnect 0.6.3 0.7.0: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.1 1.0.2: An API for the homematicip cloud
@@ -613,7 +613,7 @@ dev-python/pushbullet-py 0.11.0: A simple python client for pushbullet.com
 dev-python/pushover_complete 1.1.1: A Python package for interacting with *all* aspects of the Pushover API
 dev-python/pvo 0.2.1 0.2.2: Asynchronous client for the PVOutput API.
 dev-python/pwmled 1.6.7 1.6.10: Control LEDs connected to a micro controller using pwm.
-dev-python/py-canary 0.5.1: Python API for Canary Security Camera
+dev-python/py-canary 0.5.1 0.5.2: Python API for Canary Security Camera
 dev-python/py-melissa-climate 2.1.4: Api wrapper for Melissa Climate https://seemelissa.com
 dev-python/py-nextbusnext 0.1.4 0.1.5: Minimalistic Python client for the NextBus public API for real-time transit arrival data
 dev-python/py-nightscout 1.2.2: A library that provides a Python async interface to Nightscout
@@ -1025,7 +1025,7 @@ dev-python/tmb 0.0.4: Library that interacts with TMB API
 dev-python/todoist-python 8.0.0: todoist-python - The official Todoist Python API library
 dev-python/tololib 0.1.0_beta3: Python Library for Controlling TOLO Sauna/Steam Bath Devices
 dev-python/toonapi 0.2.0 0.2.1: Asynchronous Python client for the Quby ToonAPI.
-dev-python/total-connect-client 2022.2.1 2022.3: Interact with Total Connect 2 alarm systems
+dev-python/total-connect-client 2022.2.1 2022.3 2022.5: Interact with Total Connect 2 alarm systems
 dev-python/tox-travis 0.11: Seamless integration of Tox into Travis CI
 dev-python/tp-connected 0.0.4: TP-Link LTE modem API
 dev-python/tqdm 4.49.0-r1: Add a progress meter to your loops in a second
@@ -1043,6 +1043,7 @@ dev-python/typing-inspect 0.7.1: Runtime inspection utilities for typing module.
 dev-python/tzdata 2021.5: Provider of IANA time zone data
 dev-python/uEagle 0.0.2: Tool to read data from Rainforest Legacy Eagle.
 dev-python/ua-parser 0.10.0: Python port of Browserscope's user agent parser
+dev-python/ukrainealarm 0.0.1: Implements api.ukrainealarm.com API that returns info about Ukraine air raid alarms.
 dev-python/unifi-discovery 1.1.2: Discover Unifi Devices
 dev-python/unifiled 0.11 0.12: Easily connect to Ubiquiti Unifi led devices
 dev-python/untangle 1.1.1: Convert XML documents into Python objects

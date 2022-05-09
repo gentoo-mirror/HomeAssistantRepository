@@ -1044,6 +1044,7 @@ app-misc/homeassistant-full:twinkly - control Twinkly LED string from Home Assis
 app-misc/homeassistant-full:twitch - monitor Twitch channel status from within Home Assistant
 app-misc/homeassistant-full:twitter - notification platform uses Twitter to deliver notifications from Home Assistant
 app-misc/homeassistant-full:ubus - a presence detection scanner for OpenWrt using ubus
+app-misc/homeassistant-full:ukraine_alarm - uses the Ukraine Alarm web service to offer air-raid siren notifications
 app-misc/homeassistant-full:unifi - talk with a Ubiquiti unifi Controller
 app-misc/homeassistant-full:unifi_direct - detect presence by looking at devices connected to a UniFi AP
 app-misc/homeassistant-full:unifiled - control lights from a UniFi LED by Ubiquiti Networks controller
