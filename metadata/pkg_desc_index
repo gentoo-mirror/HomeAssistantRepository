@@ -586,7 +586,7 @@ dev-python/pifacedigitalio 3.0.5: The PiFace Digital I/O module.
 dev-python/piglow 1.2.4 1.2.5: Drive the Pimoroni PiGlow board, based on the sn3218 i2c LED controller
 dev-python/pigpio 1.78: Raspberry Pi GPIO module
 dev-python/pilight 0.1.1: Pure python module to connect to a pilight daemon to send and receive commands.
-dev-python/pillow 8.2.0: Python Imaging Library (fork)
+dev-python/pillow 9.1.0: Python Imaging Library (fork)
 dev-python/pipdeptree 2.1.0 2.2.0 2.2.1: Command line utility to show dependency tree of packages
 dev-python/pizzapi 0.0.3 0.0.6: A Python wrapper for the Dominos Pizza API
 dev-python/pkce 1.0.3: PKCE Pyhton generator.
