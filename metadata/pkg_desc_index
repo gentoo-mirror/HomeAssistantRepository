@@ -350,7 +350,7 @@ dev-python/forecast-solar 2.1.0-r1 2.2.0: Asynchronous Python client for getting
 dev-python/fortiosapi 1.0.5: Python modules to use Fortigate APIs
 dev-python/freebox-api 0.0.9 0.0.10: Provides asynchronous authentication and access to Freebox servers
 dev-python/freesms 0.2.0: Send SMS with Free Mobile
-dev-python/fritzconnection 1.4.2: Communicate with the AVM FRITZ!Box
+dev-python/fritzconnection 1.4.2 1.8.0: Lib/tool to communicate with AVM FRITZ! devices using TR-064 protocol over UPnP
 dev-python/fritzprofiles 0.6.1: A tool to switch the online time of profiles in the AVM Fritz!Box
 dev-python/future 0.17.1-r1: Easy, clean, reliable Python 2/3 compatibility
 dev-python/gTTS 2.2.3 2.2.4: gTTS (Google Text-to-Speech), a Python library and CLI tool to interface with Google Translate text-to-speech API
