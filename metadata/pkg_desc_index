@@ -11,7 +11,7 @@ app-misc/homeassistant-full 2022.3.8 2022.4.7 2022.5.2 2022.5.3 2022.5.4 2022.5.
 app-misc/homeassistant-min 2022.3.8 2022.4.7 2022.5.2 2022.5.3 2022.5.4 2022.5.5: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.2.6 2022.3.2 2022.4.0 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220116.0 20220209.0 20220219.0 20220309.0: ESPHome dashboard
-dev-embedded/esptool 3.2 3.3: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
+dev-embedded/esptool 3.2 3.3-r1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
 dev-embedded/platformio 5.2.2-r2 5.2.4-r2 5.2.5: A professional collaborative platform for embedded development. Cross-platform IDE and Unified Debugger.
 dev-python/AEMET-OpenData 0.2.1: AEMET OpenData Rest API library
 dev-python/Adafruit-Blinka 5.5.1 7.1.1: CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython.
@@ -801,10 +801,6 @@ dev-python/pysmartapp 0.3.3: A python library for building a SmartThings SmartAp
 dev-python/pysmartthings 0.7.6: A python library for interacting with the SmartThings cloud API build with asyncio and aiohttp.
 dev-python/pysmarty 0.8: Python API for Salda Smarty Modbus TCP
 dev-python/pysml 0.0.5 0.0.7: Python library for EDL21 smart meters using Smart Message Language (SML)
-dev-python/pysnmp-pyasn1 1.1.2: ASN.1 types and codecs
-dev-python/pysnmp-pyasn1-modules 0.2.9: A collection of ASN.1-based protocols modules.
-dev-python/pysnmp-pysmi 1.1.8: PySMI is a pure-Python implementation of SNMP SMI MIB parser. This tool is designed to turn ASN.1 MIBs into various formats.
-dev-python/pysnmplib 5.0.10: Pure-Python, open source and free implementation of v1/v2c/v3 SNMP engine
 dev-python/pysoma 0.0.10: A simple package for controlling SOMA devices
 dev-python/pysonos 0.0.53: A SoCo fork with fixes for Home Assistant.
 dev-python/pyspcwebgw 0.4.0: A Python library for communicating with SPC Web Gateway.
@@ -843,7 +839,6 @@ dev-python/python-hpilo 4.3: Accessing the HP iLO XML interface from python
 dev-python/python-http-client 3.3.2: HTTP REST client, simplified for Python
 dev-python/python-izone 1.1.6 1.1.8 1.2.3: A python interface to the iZone airconditioner controller
 dev-python/python-join-api 0.0.6 0.0.9: Python API for interacting with Join by joaoapps.
-dev-python/python-jose 3.3.0-r9: A JavaScript Object Signing and Encryption (JOSE) implementation in Python
 dev-python/python-juicenet 1.0.2 1.1.0: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
 dev-python/python-kasa 0.4.1 0.4.3 0.5.0: Python API for TP-Link Kasa Smarthome devices
 dev-python/python-metar 1.4.0: Metar - a package to parse METAR coded weather reports
@@ -924,7 +919,6 @@ dev-python/roonapi 0.0.38 0.1.1: Provides a python interface to interact with Ro
 dev-python/rova 0.2.1 0.3.0: API wrapper for ROVA calendar
 dev-python/rpi-bad-power 0.1.0: A Python library to detect bad power supply on Raspberry Pi
 dev-python/rpi-rf 0.9.7: Send and receive 433/315MHz signals with GPIO RF modules on a Raspberry Pi
-dev-python/rsa 4.8-r9: Pure-Python RSA implementation
 dev-python/rtsp-to-webrtc 0.5.0 0.5.1: Python client library for RTSPtoWeb and RTSPtoWebRTC
 dev-python/ruamel-yaml 0.15.100: YAML parser/emitter that supports roundtrip comment preservation
 dev-python/russound 0.1.9: Python API for Russound RNET commands.
