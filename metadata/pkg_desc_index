@@ -11,7 +11,7 @@ app-misc/homeassistant-full 2022.3.8 2022.4.7 2022.5.2 2022.5.3 2022.5.4 2022.5.
 app-misc/homeassistant-min 2022.3.8 2022.4.7 2022.5.2 2022.5.3 2022.5.4 2022.5.5: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.2.6 2022.3.2 2022.4.0 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220116.0 20220209.0 20220219.0 20220309.0: ESPHome dashboard
-dev-embedded/esptool 3.2 3.3-r1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
+dev-embedded/esptool 3.2 3.3-r2: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
 dev-embedded/platformio 5.2.2-r2 5.2.4-r2 5.2.5: A professional collaborative platform for embedded development. Cross-platform IDE and Unified Debugger.
 dev-python/AEMET-OpenData 0.2.1: AEMET OpenData Rest API library
 dev-python/Adafruit-Blinka 5.5.1 7.1.1: CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython.
