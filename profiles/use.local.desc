@@ -119,7 +119,6 @@ app-misc/homeassistant:fritzbox - Allows you to integrate the switch and climate
 app-misc/homeassistant:fritzbox_callmonitor - monitors the call monitor exposed by AVM FRITZ!Box routers on TCP port 1012
 app-misc/homeassistant:fritzbox_netmonitor - sensor monitors the network statistics exposed by AVM FRITZ!Box routers
 app-misc/homeassistant:fronius - Add (very basic) Support for Fronius Symo JSON Api to Home Assistant
-app-misc/homeassistant:frontend - official frontend to control Home Assistant
 app-misc/homeassistant:garmin_connect - The Garmin Connect sensor allows you to expose data from Garmin Connect
 app-misc/homeassistant:gios - Source for air quality data for Home Assistant
 app-misc/homeassistant:github - GitHub sensor integrates data from GitHub to monitor your favorite repositories
@@ -351,6 +350,7 @@ app-misc/homeassistant-full:awair - Library to integrate the Awair GraphQL API i
 app-misc/homeassistant-full:aws - Interact with Amazon Web Services
 app-misc/homeassistant-full:axis - Communicating with newer devices from Axis Communications
 app-misc/homeassistant-full:backup - allows you to create and download backups for your Home Assistant Core
+app-misc/homeassistant-full:baf - 
 app-misc/homeassistant-full:baidu - Text-to-speech platform uses Baidu TTS engine to read a text with natural soundi
 app-misc/homeassistant-full:balboa - This integration adds support for Balboa Spa WiFi Modules
 app-misc/homeassistant-full:bbb_gpio - Base for all BeagleBone Black related GPIO platforms
@@ -530,7 +530,6 @@ app-misc/homeassistant-full:fritzbox - Allows you to integrate the switch and cl
 app-misc/homeassistant-full:fritzbox_callmonitor - monitors the call monitor exposed by AVM FRITZ!Box routers on TCP port 1012
 app-misc/homeassistant-full:fritzbox_netmonitor - sensor monitors the network statistics exposed by AVM FRITZ!Box routers
 app-misc/homeassistant-full:fronius - Add (very basic) Support for Fronius Symo JSON Api to Home Assistant
-app-misc/homeassistant-full:frontend - official frontend to control Home Assistant
 app-misc/homeassistant-full:frontier_silicon - Support for Internet Radios based on the Frontier Silicon chipset
 app-misc/homeassistant-full:futurenow - Allows you to use P5 FutureNow relay/dimmer units as lights
 app-misc/homeassistant-full:garages_amsterdam - measure the occupancy of Amsterdam parking garages in the Netherlands
@@ -541,6 +540,7 @@ app-misc/homeassistant-full:generic - The generic camera platform allows you to 
 app-misc/homeassistant-full:geniushub - geniushub integration links Home Assistant with your Genius Hub CH/DHW
 app-misc/homeassistant-full:geo_json_events - geo_json_events platform lets you integrate GeoJSON feeds
 app-misc/homeassistant-full:geo_rss_events - geo_rss_events sensor retrieves events from a GeoRSS feed
+app-misc/homeassistant-full:geocaching - 
 app-misc/homeassistant-full:geonetnz_quakes - Use a GeoJSON feed provided by New Zealand’s GeoNet in Home Assistant
 app-misc/homeassistant-full:geonetnz_volcano - GeoJSON feed provided by New Zealand’s GeoNet
 app-misc/homeassistant-full:gios - Source for air quality data for Home Assistant
@@ -603,6 +603,7 @@ app-misc/homeassistant-full:hvv_departures - departures of busses, trains and fe
 app-misc/homeassistant-full:hydrawise - communicate with Hunter Wi-Fi irrigation controllers
 app-misc/homeassistant-full:hyperion - integrate your Hyperion into Home Assistant
 app-misc/homeassistant-full:ialarm - A simple library to interface with iAlarm systems, built for Home-Assistant
+app-misc/homeassistant-full:ialarm_xr - 
 app-misc/homeassistant-full:iammeter - real-time readings of WEM3080, WEM3162 & WEM3080T) meters
 app-misc/homeassistant-full:iaqualink - iAqualink by Jandy allows you to control your pool via cloud service
 app-misc/homeassistant-full:icloud - iCloud allows users to track their location on iOS devices
@@ -655,6 +656,7 @@ app-misc/homeassistant-full:lacrosse - using the data provided by a Jeelink USB 
 app-misc/homeassistant-full:lametric - LaMetric Time smart clock listen to web radio and display notifications
 app-misc/homeassistant-full:lastfm - lastfm sensor platform will allow you to see whenever a user starts scrobbling
 app-misc/homeassistant-full:launch_library - information about the next planned space launch
+app-misc/homeassistant-full:laundrify - 
 app-misc/homeassistant-full:lcn - allows you to connect to LCN hardware devices
 app-misc/homeassistant-full:lg_netcast - allows you to control a LG Smart TV running NetCast 3.0
 app-misc/homeassistant-full:lg_soundbar - allows you to control LG Soundbars from Home Assistant
@@ -1103,6 +1105,7 @@ app-misc/homeassistant-full:wiz - allows you to control your WiZ lights and smar
 app-misc/homeassistant-full:wled - add support for Aircookie's WLED
 app-misc/homeassistant-full:wolflink - uses the Wolf Smart-Set for your heating system status
 app-misc/homeassistant-full:workday - generating country, province and state specific sets of holidays on the fly
+app-misc/homeassistant-full:ws66i - 
 app-misc/homeassistant-full:xbee - send and receive commands to and from other devices on the Zigbee
 app-misc/homeassistant-full:xbox - A library to authenticate with Windows Live/Xbox Live and use their API
 app-misc/homeassistant-full:xbox_live - track Xbox profiles
@@ -1119,6 +1122,7 @@ app-misc/homeassistant-full:yandex_transport - will give you the time until the 
 app-misc/homeassistant-full:yeelight - allows you to control your Yeelight Wifi bulbs
 app-misc/homeassistant-full:yeelightsunflower - allows you to control your Yeelight Sunflower light bulbs
 app-misc/homeassistant-full:yi - allows you to utilize Yi Home Cameras within Home Assistant
+app-misc/homeassistant-full:yolink - 
 app-misc/homeassistant-full:youless - allows you to read the meter values from sensors created by YouLess
 app-misc/homeassistant-full:zabbix - integration to connect to a Zabbix monitoring instance via the Zabbix API
 app-misc/homeassistant-full:zengge - Python API for controlling Zengge LED bulbs
@@ -1156,7 +1160,6 @@ app-misc/homeassistant-min:esphome - Support for esphome sensors, covers and swi
 app-misc/homeassistant-min:ffmpeg - allows other Home Assistant integrations to process video and audio streams
 app-misc/homeassistant-min:forecast_solar - Asynchronous Python client for getting forecast solar information
 app-misc/homeassistant-min:fronius - Add (very basic) Support for Fronius Symo JSON Api to Home Assistant
-app-misc/homeassistant-min:frontend - official frontend to control Home Assistant
 app-misc/homeassistant-min:github - GitHub sensor integrates data from GitHub to monitor your favorite repositories
 app-misc/homeassistant-min:homekit - Integrate HomeKit controller and accessory in Home Assistant
 app-misc/homeassistant-min:homekit_controller - Allows you to connect accessories with the “Works with HomeKit” logo
