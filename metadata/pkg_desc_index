@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.4.7-r1 2022.5.5-r1 2022.6.0_beta7 2022.6.0 2022.6.1 2022.6.2: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.4.7-r1 2022.5.5-r1 2022.6.0_beta7 2022.6.0 2022.6.1 2022.6.2 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.4.7-r1 2022.5.5-r1 2022.6.0_beta7 2022.6.0 2022.6.1 2022.6.2: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.4.7-r1 2022.5.5-r1 2022.6.0 2022.6.1 2022.6.2 2022.6.3: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.4.7-r1 2022.5.5-r1 2022.6.0 2022.6.1 2022.6.2 2022.6.3 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.4.7-r1 2022.5.5-r1 2022.6.0 2022.6.1 2022.6.2 2022.6.3: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.2.6 2022.3.2 2022.4.0 2022.5.1 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220209.0 20220309.0 20220508.0: ESPHome dashboard
 dev-embedded/esptool 3.2 3.3-r2 3.3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -90,7 +90,7 @@ dev-python/adb-shell 0.4.0-r2 0.4.2 0.4.2-r1: A Python implementation of ADB wit
 dev-python/adext 0.4.1 0.4.2: AlarmDecoder extended
 dev-python/adguardhome 0.5.0 0.5.1: Asynchronous Python client for the AdGuard Home API.
 dev-python/advantage-air 0.2.5 0.3.0 0.3.1: API helper for Advantage Air's MyAir and e-zone API
-dev-python/aenum 3.1.8: Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
+dev-python/aenum 3.1.8 3.1.11: Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
 dev-python/afsapi 0.0.4: Asynchronous Implementation of the Frontier Silicon API
 dev-python/agent-py 0.0.23: A python wrapper around the Agent REST API.
 dev-python/aio-geojson-client 0.15 0.17: An async GeoJSON client library.
@@ -131,7 +131,7 @@ dev-python/aiokef 0.2.16: Asyncio Python API for KEF speakers.
 dev-python/aiolifx 0.7.0 0.7.1: API for local communication with LIFX devices over a LAN with asyncio.
 dev-python/aiolifx-effects 0.2.2: aiolifx light effects
 dev-python/aiolip 1.0.1 1.1.4 1.1.6: Async Lutron Integration Protocol
-dev-python/aiolookin 0.0.4 0.1.0: Client for interaction of the LOOKin device with the Home Assistant
+dev-python/aiolookin 0.0.4 0.1.0 0.1.1: Client for interaction of the LOOKin device with the Home Assistant
 dev-python/aiolyric 1.0.7 1.0.8: AIO package for the Honeywell Lyric Platform.
 dev-python/aiomodernforms 0.1.8: Asynchronous Python client for Modern Forms fans.
 dev-python/aiomusiccast 0.10.0 0.11.0 0.14.2 0.14.3: Companion library for musiccast devices intended for the Home Assistant integration.
@@ -713,7 +713,8 @@ dev-python/pyhomematic 0.1.77: Homematic interface
 dev-python/pyhomeworks 0.0.6: Lutron Homeworks Series 4 and 8 interface over Ethernet
 dev-python/pyhumps 3.5.0: Convert strings (and dictionary keys) between snake case, camel case and pascal case in Python. Inspired by Humps for Node
 dev-python/pyialarm 1.9.0: A simple library to interface with iAlarm systems, built for use with Home-Assistant
-dev-python/pyialarmxr 1.0.13 1.0.18: A simple library to interface with iAlarmXR systems, built for use with Home Assistant
+dev-python/pyialarmxr 1.0.18: A simple library to interface with iAlarmXR systems, built for use with Home Assistant
+dev-python/pyialarmxr-homeassistant 1.0.18: A simple library to interface with iAlarmXR systems, built for use with Home Assistant
 dev-python/pyicloud 0.10.2 1.0.0: PyiCloud is a module which allows pythonistas to interact with iCloud webservices.
 dev-python/pyinsteon 1.0.13 1.0.16 1.1.0_beta3 1.1.0: Python API for controlling Insteon devices
 dev-python/pyintesishome 1.7.5 1.7.6: A python3 library for running asynchronus communications with IntesisHome Smart AC Controllers
@@ -911,7 +912,7 @@ dev-python/raspihats 2.2.3 2.3.0: package for controlling raspihats.com boards
 dev-python/raspyrfm-client 1.2.8: A library to send rc signals with the RaspyRFM module
 dev-python/ratelimit 2.2.1: An API rate limit decorator for Python
 dev-python/readlike 0.1.2: GNU Readline-like line editing module
-dev-python/regenmaschine 2022.1.0 2022.5.0 2022.5.1: A simple API for RainMachine sprinkler controllers
+dev-python/regenmaschine 2022.1.0 2022.5.1 2022.6.0: A simple API for RainMachine sprinkler controllers
 dev-python/regex 2021.8.28: Alternative regular expression module to replace re
 dev-python/related 0.7.2: Related: Straightforward nested object models in Python
 dev-python/renault-api 0.1.9 0.1.10 0.1.11: Renault API
@@ -957,7 +958,7 @@ dev-python/sharp_aquos_rc 0.3.2: Control Sharp Aquos SmartTVs through the IP int
 dev-python/shodan 1.26.1 1.27.0: Python library and command-line utility for Shodan (https://developer.shodan.io)
 dev-python/simplehound 0.3: Unofficial python API for Sighthound
 dev-python/simplepush 1.1.4: Simplepush python library
-dev-python/simplisafe-python 2022.2.1 2022.3.0 2022.5.1 2022.5.2: A Python3, async interface to the SimpliSafe API
+dev-python/simplisafe-python 2022.3.0 2022.5.1 2022.5.2 2022.6.0: A Python3, async interface to the SimpliSafe API
 dev-python/siobrultech-protocols 0.5.0: A Sans-I/O Python client library for Brultech Devices
 dev-python/sisyphus-control 3.0 3.1.2: Control your Sisyphus kinetic art tables (sisyphus-industries.com)
 dev-python/skybellpy 0.6.3: An Skybell HD Python library running on Python 3.
@@ -1082,7 +1083,7 @@ dev-python/vtjp 0.1.14: Vasttrafik API
 dev-python/vulcan-api 2.0.3 2.1.1: Nieoficjalne API do dzienniczka elektronicznego UONET+
 dev-python/vultr 0.1.2: Vultr.com API Client
 dev-python/wakeonlan 2.0.1: A small python module for wake on lan.
-dev-python/wallbox 0.4.4: Module for interacting with Wallbox EV charger api
+dev-python/wallbox 0.4.4 0.4.9: Module for interacting with Wallbox EV charger api
 dev-python/waqiasync 1.0.0: asyncio-friendly python API for aqicn.org
 dev-python/warrant-lite 1.0.4: Small Python library for process SRP requests for AWS Cognito.
 dev-python/waterfurnace 1.1.0: Python interface for waterfurnace geothermal systems
