@@ -160,6 +160,7 @@ app-misc/homeassistant:litterrobot - Wi-Fi-enabled, automatic, self-cleaning lit
 app-misc/homeassistant:loopenergy - Integrate your Loop Energy meter information into Home Assistant
 app-misc/homeassistant:luci - fetch connected devices from your OpenWrt
 app-misc/homeassistant:luftdaten - query the open data API of luftdaten.info to monitor air quality
+app-misc/homeassistant:mariadb - set dependencies for mariadb-connector-python
 app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant:media_extractor - Gets a stream URL and sends it to a media player entity
 app-misc/homeassistant:meteo_france - uses the meteorological data from Meteo-France
@@ -683,6 +684,7 @@ app-misc/homeassistant-full:lyft - Unofficial Lyft Rides API Python SDK
 app-misc/homeassistant-full:lyric - Honeywell Lyric thermostat platform
 app-misc/homeassistant-full:magicseaweed - Provides API wrapper to magicseaweed.com.
 app-misc/homeassistant-full:mailgun - A simple mailgun client - pymailgun fork with Python 3 support
+app-misc/homeassistant-full:mariadb - set dependencies for mariadb-connector-python
 app-misc/homeassistant-full:marytts - text-to-speech platform uses MaryTTS Text-to-Speech engine
 app-misc/homeassistant-full:mastodon - uses Mastodon to deliver notifications from Home Assistant
 app-misc/homeassistant-full:matrix - allows you to send messages to matrix rooms
@@ -1169,6 +1171,7 @@ app-misc/homeassistant-min:influxdb - transfer sensor data to a local InfluxDB d
 app-misc/homeassistant-min:knx - Asynchronous Library for the KNX protocol
 app-misc/homeassistant-min:kodi - control a Kodi multimedia system
 app-misc/homeassistant-min:kraken - allows you to monitor exchange rates on kraken.com
+app-misc/homeassistant-min:mariadb - set dependencies for mariadb-connector-python
 app-misc/homeassistant-min:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant-min:mikrotik - add support for MikroTik RouterOS API
 app-misc/homeassistant-min:mobile_app - allows Home Assistant mobile apps to easily integrate with Home Assistant
@@ -1233,7 +1236,6 @@ dev-python/roombapy:mqtt - Build with mqtt support
 dev-python/samsungctl:websocket - Install websocket-client.
 dev-python/samsungtvws:async - use aiohttp/websocket
 dev-python/samsungtvws:encrypted - add support for encrypted communication
-dev-python/sqlalchemy:asyncio - add asyncio helper support
 media-libs/opencv:contrib - Install user contributed scripts from opencv_contrib (Experimental!)
 media-libs/opencv:contrib_cvv - CVV module requires Qt5
 media-libs/opencv:contrib_dnn - DNN module contrib requires tiny dnn
