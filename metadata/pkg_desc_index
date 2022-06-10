@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.4.7-r1 2022.5.5-r1 2022.6.0 2022.6.1 2022.6.2 2022.6.3 2022.6.3-r1: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.4.7-r1 2022.5.5-r1 2022.6.0 2022.6.1 2022.6.2 2022.6.3 2022.6.3-r1 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.4.7-r1 2022.5.5-r1 2022.6.0 2022.6.1 2022.6.2 2022.6.3 2022.6.3-r1: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.4.7-r1 2022.5.5-r1 2022.6.1 2022.6.2 2022.6.3 2022.6.3-r1 2022.6.4: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.4.7-r1 2022.5.5-r1 2022.6.1 2022.6.2 2022.6.3 2022.6.3-r1 2022.6.4 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.4.7-r1 2022.5.5-r1 2022.6.1 2022.6.2 2022.6.3 2022.6.3-r1 2022.6.4: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.2.6 2022.3.2 2022.4.0 2022.5.1 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220209.0 20220309.0 20220508.0: ESPHome dashboard
 dev-embedded/esptool 3.2 3.3-r2 3.3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -190,7 +190,7 @@ dev-python/arris-tg2492lg 1.1.0 1.2.1: Python client for the Arris TG2492LG
 dev-python/asmog 0.0.6: Python API for Ampio Smog Sensors
 dev-python/asterisk_mbox 0.5.0: The client side of a client/server to interact with Asterisk voicemail mailboxes
 dev-python/astral 2.2-r1: Calculations for the position of the sun and moon.
-dev-python/async-upnp-client 0.23.5 0.27.0 0.29.0 0.30.1: Async UPnP Client
+dev-python/async-upnp-client 0.27.0 0.29.0 0.30.1 0.31.1: Async UPnP Client
 dev-python/async_timeout 4.0.0: Timeout context manager for asyncio programs
 dev-python/asyncclick 8.0.1.3: Composable command line interface toolkit, async version
 dev-python/asynccmd 0.2.4: Asyncio implementation of Cmd Python lib.
@@ -896,7 +896,7 @@ dev-python/pyvizio 0.1.57: Python library for interfacing with Vizio SmartCast T
 dev-python/pyvlx 0.2.18 0.2.19: PyVLX is a wrapper for the Velux KLF 200 API. PyVLX enables you to run scenes and or open and close velux windows.
 dev-python/pyvolumio 0.1.3 0.1.5: A python library to control Volumio.
 dev-python/pywebpush 1.9.2: WebPush publication library
-dev-python/pywemo 0.7.0 0.8.1: Lightweight Python module to discover and control WeMo devices
+dev-python/pywemo 0.7.0 0.8.1 0.9.1: Lightweight Python module to discover and control WeMo devices
 dev-python/pywilight 0.0.70: Python API for WiLight in Home Assistant
 dev-python/pywizlight 0.5.13: A python connector for WiZ light bulbs (e.g SLV Play)
 dev-python/pyws66i 1.1: Python API for talking to Soundavo's WS66i 6-zone amplifier using the telnet protocol
