@@ -1103,6 +1103,7 @@ dev-python/xbox-webapi 2.0.11: A library to authenticate with Windows Live/Xbox 
 dev-python/xboxapi 2.0.1: A wrapper library for XboxAPI.com
 dev-python/xfinity-gateway 0.0.4: Query an Xfinity Gateway
 dev-python/xknx 0.19.2 0.20.4 0.21.2 0.21.3: An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/
+dev-python/xmltodict 0.12.0-r1: Makes working with XML feel like you are working with JSON
 dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontrol XS1 Gateway
 dev-python/yalesmartalarmclient 0.3.4 0.3.7 0.3.8: Interact with Yale Smart Alarm systems
 dev-python/yalexs 1.1.22 1.1.23 1.1.25: Python API for Yale Access (formerly August) Smart Lock and Doorbell
