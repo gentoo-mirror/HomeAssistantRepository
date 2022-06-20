@@ -295,6 +295,7 @@ dev-python/deluge-client 1.7.1: Simple Deluge Client
 dev-python/demjson3 3.0.5: encoder, decoder, and lint/validator for JSON (JavaScript Object Notation) compliant with RFC 7159
 dev-python/devolo-home-control-api 0.17.4 0.18.1 0.18.2: devolo Home Control API in Python
 dev-python/devolo-plc-api 0.6.3 0.7.1 0.8.0: devolo PLC devices in Python
+dev-python/dicttoxml 1.7.4-r4: Converts a Python dictionary or other native data type into a valid XML string.
 dev-python/directv 0.4.0: Asynchronous Python client for DirecTV (SHEF).
 dev-python/discogs-client 2.3.0: Official Python API client for Discogs
 dev-python/discord-py 1.7.2 1.7.3: A Python wrapper for the Discord API
