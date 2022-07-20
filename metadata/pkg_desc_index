@@ -68,6 +68,7 @@ dev-python/RachioPy 1.0.3: A Python module for the Rachio API.
 dev-python/ReParser 1.4.3: Simple regex-based lexer/parser for inline markup
 dev-python/RestrictedPython 5.1 5.2: subset of Python which allows program input into a trusted environment.
 dev-python/RtmAPI 0.7.2-r2: API package for rememberthemilk.com
+dev-python/Rx 3.2.0-r1: Reactive Extensions (Rx) for Python
 dev-python/SmartHab 0.21: This package allows controlling devices in a SmartHab-powered home.
 dev-python/TravisPy 0.3.5: Python API for Travis CI.
 dev-python/TwitterAPI 2.7.5 2.7.12: Minimal wrapper for Twitter's REST and Streaming APIs
