@@ -37,6 +37,7 @@ dev-python/MechanicalSoup 0.6.0 1.1.0: A python library for automating interacti
 dev-python/OPi-GPIO 0.4.0 0.5.2: A drop-in replacement for RPi.GPIO for the Orange Pi Zero
 dev-python/PlexAPI 4.10.0 4.10.1 4.11.1 4.11.2: Python bindings for the Plex API.
 dev-python/ProgettiHWSW 0.1.1: Controls ProgettiHWSW relay boards.
+dev-python/PsychroLib 2.5.0: Library of psychrometric functions to calculate thermodynamic properties of air
 dev-python/PyDispatcher 2.0.5: Multi-producer-multi-consumer signal dispatching mechanism
 dev-python/PyEssent 0.14: A wrapper around Essent's API
 dev-python/PyFlick 0.0.2: Python API For Flick Electric in New Zealand
