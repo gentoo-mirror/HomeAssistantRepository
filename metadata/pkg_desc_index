@@ -667,7 +667,7 @@ dev-python/pyalmond 0.0.2: Python module to talk to the Web Almond API.
 dev-python/pyarlo 0.2.4: Python Arlo is a library written in Python 2.7/3x that exposes the Netgear Arlo cameras as Python objects.
 dev-python/pyatag 0.3.5.3: Python module to talk to Atag One.
 dev-python/pyatmo 6.1.0 6.2.2 6.2.4: Simple API to access Netatmo weather station data from any Python 3 script. Designed for Home Assistant (but not only)
-dev-python/pyatv 0.10.0 0.10.2: A client library for Apple TV and AirPlay devices
+dev-python/pyatv 0.10.0 0.10.2-r1: A client library for Apple TV and AirPlay devices
 dev-python/pyaussiebb 0.0.9 0.0.11 0.0.15: Aussie Broadband API module
 dev-python/pybalboa 0.13: Module to communicate with a Balboa spa wifi adapter
 dev-python/pybbox 0.0.5_alpha0: a simple python3 library for the Bouygues BBox Routeur API
