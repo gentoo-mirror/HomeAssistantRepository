@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.5.5-r1 2022.6.7 2022.7.2 2022.7.5 2022.7.5-r1 2022.7.6: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.5.5-r1 2022.6.7 2022.7.2 2022.7.5 2022.7.5-r1 2022.7.6 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.5.5-r1 2022.6.7 2022.7.2 2022.7.5 2022.7.6: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.5.5-r1 2022.6.7 2022.7.5 2022.7.5-r1 2022.7.6 2022.7.7: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.5.5-r1 2022.6.7 2022.7.5 2022.7.5-r1 2022.7.6 2022.7.7 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.5.5-r1 2022.6.7 2022.7.5 2022.7.6 2022.7.7: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.2.6 2022.3.2 2022.4.0 2022.5.1 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220209.0 20220309.0 20220508.0: ESPHome dashboard
 dev-embedded/esptool 3.2 3.3-r2 3.3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -336,7 +336,7 @@ dev-python/envoy-reader 0.19.0 0.20.0 0.20.1: A program to read from an Enphase 
 dev-python/envoy-utils 0.0.1: Python utilities for the Enphase Envoy
 dev-python/envs 1.4-r2: Easy access of environment variables from Python with support for strings, booleans, list, tuples, and dicts.
 dev-python/ephem 3.7.7.0 4.1.2: Compute positions of the planets and stars
-dev-python/epson-projector 0.4.2: Epson projector support for Python
+dev-python/epson-projector 0.4.2 0.4.6: Epson projector support for Python
 dev-python/epsonprinter 0.0.9: Communication package for Epson Workforce printer
 dev-python/esprima 4.0.1: ECMAScript parsing infrastructure for multipurpose analysis in Python
 dev-python/eternalegypt 0.0.12: Netgear LTE modem API
@@ -720,7 +720,7 @@ dev-python/pyfritzhome 0.6.2 0.6.4: Fritz!Box Smarthome Python Library
 dev-python/pyfttt 0.3.2: Python tools for interacting with the IFTTT Webhooks Channel
 dev-python/pygatt 4.0.5 4.0.5-r1: Python Bluetooth LE (Low Energy) and GATT Library
 dev-python/pygtfs 0.1.6: Models GTFS data in a database.
-dev-python/pygti 0.9.2: access public transport information in hamburg, germany.
+dev-python/pygti 0.9.2 0.9.3: access public transport information in hamburg, germany.
 dev-python/pyhaversion 21.11.1 22.2.0 22.4.0 22.4.1: Get the latest Home Assistant version from various sources.
 dev-python/pyheos 0.7.2: An async python library for controlling HEOS devices through the HEOS CLI Protocol
 dev-python/pyhiveapi 0.4.2 0.5.10 0.5.13: A Python library to interface with the Hive API
@@ -789,7 +789,7 @@ dev-python/pyombi 0.1.10: A python module to retrieve information from Ombi.
 dev-python/pyopenuv 2021.11.0 2022.4.0: A simple Python API data from openuv.io
 dev-python/pyopnsense 0.2.0: A python API client for OPNsense
 dev-python/pyoppleio 1.0.5: Python library for interfacing with opple mobile control light
-dev-python/pyotgw 1.1_beta1 2.0.0: A library to interface with the opentherm gateway through serial or network connection.
+dev-python/pyotgw 1.1_beta1 2.0.0 2.0.1: A library to interface with the opentherm gateway through serial or network connection.
 dev-python/pyotp 2.3.0: Python One Time Password Library
 dev-python/pyoverkiz 1.4.0 1.4.2: Async Python client to interact with internal OverKiz API (e.g. used by Somfy TaHoma).
 dev-python/pyowm 3.2.0: A Python wrapper around OpenWeatherMap web APIs
@@ -977,7 +977,7 @@ dev-python/sharp_aquos_rc 0.3.2: Control Sharp Aquos SmartTVs through the IP int
 dev-python/shodan 1.26.1 1.27.0: Python library and command-line utility for Shodan (https://developer.shodan.io)
 dev-python/simplehound 0.3: Unofficial python API for Sighthound
 dev-python/simplepush 1.1.4: Simplepush python library
-dev-python/simplisafe-python 2022.5.1 2022.6.0 2022.6.1 2022.7.0: A Python3, async interface to the SimpliSafe API
+dev-python/simplisafe-python 2022.5.1 2022.6.0 2022.6.1 2022.7.0 2022.7.1: A Python3, async interface to the SimpliSafe API
 dev-python/siobrultech-protocols 0.5.0: A Sans-I/O Python client library for Brultech Devices
 dev-python/sisyphus-control 3.0 3.1.2: Control your Sisyphus kinetic art tables (sisyphus-industries.com)
 dev-python/skybellpy 0.6.3: An Skybell HD Python library running on Python 3.
