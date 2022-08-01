@@ -1146,6 +1146,5 @@ dev-python/zm-py 0.5.2: A loose python wrapper around the ZoneMinder REST API.
 dev-python/zwave-js-server-python 0.36.1 0.37.1 0.39.0: Python wrapper for zwave-js-server
 dev-python/zwave-me-ws 0.2.1 0.2.3 0.2.4: Library, implementing websocket connection to ZWave-Me
 dev-vcs/pre-commit 2.19.0: A framework for managing and maintaining multi-language Git pre-commit hooks
-media-libs/opencv 3.4.1-r7: A collection of algorithms and sample code for various computer vision problems
 sci-libs/tensorflow 2.5.0-r3: Computation framework using data flow graphs for scalable machine learning
 virtual/mqtt 1: Virtual for Home Assistant MQTT
