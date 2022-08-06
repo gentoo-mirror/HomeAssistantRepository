@@ -52,6 +52,7 @@ app-misc/homeassistant:blink - Get events from Blink camera and security systems
 app-misc/homeassistant:blinksticklight - The blinkstick platform lets you control your Blinkstick lights
 app-misc/homeassistant:blinkt - The blinkt light platform lets you control the Blinkt! board, featuring eight su
 app-misc/homeassistant:blockchain - Displays Bitcoin wallet balances from blockchain.info
+app-misc/homeassistant:bluetooth - The Bluetooth integration will detect nearby Bluetooth devices
 app-misc/homeassistant:bluetooth_le_tracker - Tracks Bluetooth low-energy devices periodically based on interval_seconds value
 app-misc/homeassistant:bluetooth_tracker - Discovers new devices on boot and tracks Bluetooth devices periodically
 app-misc/homeassistant:bme280 - Bosch BME280 Environmental sensor connected via I2c bus (SDA, SCL pins)
@@ -367,6 +368,7 @@ app-misc/homeassistant-full:blinksticklight - The blinkstick platform lets you c
 app-misc/homeassistant-full:blinkt - The blinkt light platform lets you control the Blinkt! board, featuring eight su
 app-misc/homeassistant-full:blockchain - Displays Bitcoin wallet balances from blockchain.info
 app-misc/homeassistant-full:bluesound - Allows you to control your Bluesound HiFi wireless speakers and audio integratio
+app-misc/homeassistant-full:bluetooth - The Bluetooth integration will detect nearby Bluetooth devices
 app-misc/homeassistant-full:bluetooth_le_tracker - Tracks Bluetooth low-energy devices periodically based on interval_seconds value
 app-misc/homeassistant-full:bluetooth_tracker - Discovers new devices on boot and tracks Bluetooth devices periodically
 app-misc/homeassistant-full:bme280 - Bosch BME280 Environmental sensor connected via I2c bus (SDA, SCL pins)
@@ -560,6 +562,7 @@ app-misc/homeassistant-full:google_maps - google_maps platform allows you to det
 app-misc/homeassistant-full:google_pubsub - Send events to Google Cloud Pub/Sub from Home Assistant
 app-misc/homeassistant-full:google_translate - google_translate text-to-speech platform for Home Assistant
 app-misc/homeassistant-full:google_travel_time - provides travel time from the Google Distance Matrix API
+app-misc/homeassistant-full:govee_ble - Integrates Govee BLE devices into Home Assistant
 app-misc/homeassistant-full:gpmdp - Allows you to control a GPMDP instance from Home Assistant
 app-misc/homeassistant-full:gpsd - GPS information collected by gpsd and a GPS receiver
 app-misc/homeassistant-full:gree - Discover, connect and control Gree based minisplit systems
@@ -617,6 +620,7 @@ app-misc/homeassistant-full:image - handle image assets in Home Assistant
 app-misc/homeassistant-full:imap - observing your IMAP server and reporting the amount of unread emails
 app-misc/homeassistant-full:incomfort - client for Intergas InComfort/InTouch Lan2RF systems
 app-misc/homeassistant-full:influxdb - transfer sensor data to a local InfluxDB database
+app-misc/homeassistant-full:inkbird - Integrates INKBIRD devices into Home Assistant
 app-misc/homeassistant-full:insteon - allowing linked INSTEON devices to be used
 app-misc/homeassistant-full:intellifire - integrate IntelliFire Wi-Fi fireplace modules
 app-misc/homeassistant-full:intesishome - communications with IntesisHome Smart AC Controllers
@@ -712,6 +716,7 @@ app-misc/homeassistant-full:mill - A python3 library to communicate with Mill
 app-misc/homeassistant-full:minecraft_server - retrieve information from a Minecraft server
 app-misc/homeassistant-full:minio - This integration adds interaction with Minio
 app-misc/homeassistant-full:mitemp_bt - mitemp_bt sensor platform allows one to monitor room temperature and humidity
+app-misc/homeassistant-full:moat - Integrates Moat devices into Home Assistant
 app-misc/homeassistant-full:mobile_app - allows Home Assistant mobile apps to easily integrate with Home Assistant
 app-misc/homeassistant-full:mochad - main integration to integrate all Mochad X10 platforms
 app-misc/homeassistant-full:modbus - sensors and switches controlled over MODBUS serial, TCP, and UDP connections
@@ -753,6 +758,7 @@ app-misc/homeassistant-full:neurio_energy - Integrate your Neurio meter informat
 app-misc/homeassistant-full:nexia - allows you to integrate your Nexia thermostats into Home Assistant
 app-misc/homeassistant-full:nextbus - will give you the next departure time and associated data fro NextBus
 app-misc/homeassistant-full:nextcloud - pulls summary Nextcloud information into Home Assistant
+app-misc/homeassistant-full:nextdns - allows you to monitor NextDNS statistics
 app-misc/homeassistant-full:nfandroidtv - Notifications for Android TV and Notifications for Fire TV
 app-misc/homeassistant-full:nightscout - allows you to view your CGM data from Nightscout
 app-misc/homeassistant-full:niko_home_control - platform allows you to integrate your Niko Home Control
@@ -909,6 +915,7 @@ app-misc/homeassistant-full:sense - Integrate your Sense meter information into 
 app-misc/homeassistant-full:sensehat - lets you control the Sense HAT board’s 8x8 RGB LED matrix on your Raspberry Pi
 app-misc/homeassistant-full:senseme - Integrates SenseME devices into Home Assistant
 app-misc/homeassistant-full:sensibo - Integrates Sensibo Air Conditioning controller into Home Assistant
+app-misc/homeassistant-full:sensorpush - Integrates SensorPush devices into Home Assistant
 app-misc/homeassistant-full:sentry - The free Sentry account allows 5000 events per month
 app-misc/homeassistant-full:senz - allows you to control and monitor your nVent RAYCHEM SENZ-WIFI thermostats
 app-misc/homeassistant-full:serial - use data provided by a device connected to the serial port of the system
@@ -1113,6 +1120,7 @@ app-misc/homeassistant-full:xbox - A library to authenticate with Windows Live/X
 app-misc/homeassistant-full:xbox_live - track Xbox profiles
 app-misc/homeassistant-full:xeoma - Python wrapper for Xeoma web server API
 app-misc/homeassistant-full:xiaomi_aqara - allows you to integrate Xiaomi Aqara-compatible devices
+app-misc/homeassistant-full:xiaomi_ble - Integrates devices that implement the Xiaomi Mijia BLE MiBeacon protocol
 app-misc/homeassistant-full:xiaomi_miio - add support for Xiaomi smart appliances
 app-misc/homeassistant-full:xiaomi_tv - The xiaomi_tv platform allows you to control a Xiaomi TV
 app-misc/homeassistant-full:xmpp - Python 3 library for XMPP
@@ -1145,6 +1153,7 @@ app-misc/homeassistant-min:alpha_vantage - The alpha_vantage sensor platform use
 app-misc/homeassistant-min:android_ip_webcam - The android_ip_webcam integration turns any Android phone or tablet into a netwo
 app-misc/homeassistant-min:androidtv - Library for controlling an Android TV, formerly firetv
 app-misc/homeassistant-min:axis - Communicating with newer devices from Axis Communications
+app-misc/homeassistant-min:bluetooth - The Bluetooth integration will detect nearby Bluetooth devices
 app-misc/homeassistant-min:bluetooth_le_tracker - Tracks Bluetooth low-energy devices periodically based on interval_seconds value
 app-misc/homeassistant-min:caldav - Integrate a CalDAV (RFC4791) calendar in Home Assistant
 app-misc/homeassistant-min:camera - The camera integration allows you to use IP cameras with Home Assistant
@@ -1236,20 +1245,3 @@ dev-python/roombapy:mqtt - Build with mqtt support
 dev-python/samsungctl:websocket - Install websocket-client.
 dev-python/samsungtvws:async - use aiohttp/websocket
 dev-python/samsungtvws:encrypted - add support for encrypted communication
-media-libs/opencv:contrib - Install user contributed scripts from opencv_contrib (Experimental!)
-media-libs/opencv:contrib_cvv - CVV module requires Qt5
-media-libs/opencv:contrib_dnn - DNN module contrib requires tiny dnn
-media-libs/opencv:contrib_hdf - HDF module requires sci-libs/hdf5
-media-libs/opencv:contrib_sfm - SFM module requires eigen, gflags, and glog
-media-libs/opencv:contrib_xfeatures2d - Enables xfeatures2d and autodownload of samples in contrib
-media-libs/opencv:cuda - Enable NVIDIA Cuda computations support (Experimental!)
-media-libs/opencv:dnn_samples - Download dnn caffeemodel samples
-media-libs/opencv:eigen - Enable usage of dev-cpp/eigen for computations
-media-libs/opencv:gdal - Enable support for sci-libs/gdal library
-media-libs/opencv:gflags - Use Google's C++ argument parsing library
-media-libs/opencv:glog - Use Google's C++ loggin library
-media-libs/opencv:libav - Add support for libav
-media-libs/opencv:opencl - Add support for OpenCL
-media-libs/opencv:tesseract - Use Google's OCR Engine
-media-libs/opencv:testprograms - Build and install programs for testing OpenCV (performance)
-media-libs/opencv:vtk - Build new 3D visualization module viz based on sci-libs/vtk
