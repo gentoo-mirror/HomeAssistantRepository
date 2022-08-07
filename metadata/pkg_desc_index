@@ -12,7 +12,7 @@ app-misc/homeassistant-min 2022.6.7 2022.7.6 2022.7.7 2022.8.1: Open-source home
 dev-embedded/esphome 2022.3.2 2022.4.0 2022.5.1 2022.6.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220309.0 20220508.0: ESPHome dashboard
 dev-embedded/esptool 3.2 3.3-r2 3.3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
-dev-embedded/platformio 5.2.5: A professional collaborative platform for embedded development. Cross-platform IDE and Unified Debugger.
+dev-embedded/platformio 5.2.5-r1: A professional collaborative platform for embedded development. Cross-platform IDE and Unified Debugger.
 dev-libs/protobuf 3.20.1: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-python/AEMET-OpenData 0.2.1: AEMET OpenData Rest API library
 dev-python/AIOAladdinConnect 0.1.27 0.1.41: Python Async API for controlling Genie garage doors connected to Aladdin Connect devices
