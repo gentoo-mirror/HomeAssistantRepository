@@ -170,6 +170,7 @@ app-misc/homeassistant:miflora - miflora sensor platform allows one to monitor p
 app-misc/homeassistant:mikrotik - add support for MikroTik RouterOS API
 app-misc/homeassistant:mitemp_bt - mitemp_bt sensor platform allows one to monitor room temperature and humidity
 app-misc/homeassistant:mobile_app - allows Home Assistant mobile apps to easily integrate with Home Assistant
+app-misc/homeassistant:mosquitto - Set a runtime dependency for Mosquitto MQTT broker
 app-misc/homeassistant:mqtt - install MQTT Broker and dependencies
 app-misc/homeassistant:myq - lets you control MyQ-Enabled garage doors
 app-misc/homeassistant:mysql - set dependencies to install MySQL Libraries for use with HomeAssistant
@@ -724,6 +725,7 @@ app-misc/homeassistant-full:modem_callerid - Uses an available modem for collect
 app-misc/homeassistant-full:modern_forms - Asynchronous Python client for Modern Forms fans
 app-misc/homeassistant-full:moehlenhoff_alpha2 - allows you to control a Möhlenhoff Alpha 2 temperature control system
 app-misc/homeassistant-full:monoprice - Python API for talking to Monoprice 6-zone amplifier
+app-misc/homeassistant-full:mosquitto - Set a runtime dependency for Mosquitto MQTT broker
 app-misc/homeassistant-full:motion_blinds - control Motion Blinds from Coulisse B.V.
 app-misc/homeassistant-full:motioneye - integrate your motionEye server into Home Assistant
 app-misc/homeassistant-full:mpd - allows you to control a Music Player Daemon from Home Assistant
@@ -1184,6 +1186,7 @@ app-misc/homeassistant-min:mariadb - WIP: set dependencies for mariadb-connector
 app-misc/homeassistant-min:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant-min:mikrotik - add support for MikroTik RouterOS API
 app-misc/homeassistant-min:mobile_app - allows Home Assistant mobile apps to easily integrate with Home Assistant
+app-misc/homeassistant-min:mosquitto - Set a runtime dependency for Mosquitto MQTT broker
 app-misc/homeassistant-min:mqtt - install MQTT Broker and dependencies
 app-misc/homeassistant-min:myq - lets you control MyQ-Enabled garage doors
 app-misc/homeassistant-min:mysensors - combines devices like Arduino, ESP8266, Raspberry Pi, NRF24L01+ and RFM69
