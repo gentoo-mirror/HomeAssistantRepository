@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.6.7 2022.7.7 2022.8.2 2022.8.3 2022.8.4: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.6.7 2022.7.7 2022.8.2 2022.8.3 2022.8.4 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.6.7 2022.7.7 2022.8.2 2022.8.3 2022.8.4: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.6.7 2022.7.7 2022.8.3 2022.8.4 2022.8.5: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.6.7 2022.7.7 2022.8.3 2022.8.4 2022.8.5 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.6.7 2022.7.7 2022.8.3 2022.8.4 2022.8.5: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.3.2 2022.4.0 2022.5.1 2022.6.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220309.0 20220508.0: ESPHome dashboard
 dev-embedded/esptool 3.2 3.3-r2 3.3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -54,7 +54,7 @@ dev-python/PyOTA 2.0.5: IOTA API library for Python
 dev-python/PyPubSub 4.0.3: Python Publish-Subscribe Package
 dev-python/PyRMVtransport 0.3.2 0.3.3: Define module-level imports.
 dev-python/PySocks 1.7.1: A Python SOCKS client module. See https://github.com/Anorov/PySocks.
-dev-python/PySwitchbot 0.13.3 0.14.1 0.17.3 0.18.4: A library to communicate with Switchbot
+dev-python/PySwitchbot 0.13.3 0.14.1 0.18.4 0.18.10: A library to communicate with Switchbot
 dev-python/PySwitchmate 0.4.6 0.5.1: A library to communicate with Switchmate
 dev-python/PySyncThru 0.7.10: Automated JSON API based communication with Samsung SyncThru Web Service
 dev-python/PyTransportNSW 0.1.1: Get transport information from TransportNSW
@@ -124,9 +124,9 @@ dev-python/aioftp 0.12.0: ftp client/server for asyncio
 dev-python/aiogithubapi 22.2.0 22.2.3 22.2.4: Asynchronous Python client for the GitHub API
 dev-python/aioguardian 2022.3.2 2022.7.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aioharmony 0.2.8 0.2.9: Asyncio Python library for connecting to and controlling the Logitech Harmony
-dev-python/aiohomekit 0.7.17-r1 0.7.20 1.2.5 1.2.8 1.2.9: An asyncio HomeKit client
+dev-python/aiohomekit 0.7.17-r1 0.7.20 1.2.8 1.2.9 1.2.11: An asyncio HomeKit client
 dev-python/aiohttp 3.7.3 3.7.4_p0: http client/server for asyncio
-dev-python/aiohue 4.4.1 4.4.2: Python module to talk to Philips Hue.
+dev-python/aiohue 4.4.2 4.5.0: Python module to talk to Philips Hue.
 dev-python/aiohwenergy 0.7.0 0.8.0: Python module to talk to HomeWizard Energy Devices.
 dev-python/aioimaplib 0.9.0 1.0.0: Python asyncio IMAP4rev1 client library
 dev-python/aioitertools 0.8.0: itertools and builtins for AsyncIO and mixed iterables
@@ -228,18 +228,19 @@ dev-python/bcrypt 3.1.7-r1: Modern password hashing for software and servers
 dev-python/beacontools 1.2.3: A Python library for working with various types of Bluetooth LE Beacons.
 dev-python/beewi-smartclim 0.0.10: Library to read data from BeeWi SmartClim sensor using Bluetooth LE
 dev-python/bellows 0.30.0 0.31.1 0.31.3 0.32.0: Library implementing EZSP
-dev-python/bimmer-connected 0.8.12 0.9.4 0.9.6 0.10.1: Library to read data from the BMW Connected Drive portal
+dev-python/bimmer-connected 0.9.4 0.10.1 0.10.2: Library to read data from the BMW Connected Drive portal
 dev-python/bitstring 3.1.5-r1: A pure Python module for creation and analysis of binary data
 dev-python/bizkaibus 0.1.1: Online information for buses of Biscay bus services (Basque Country, Spain).
 dev-python/bleak 0.14.2 0.15.1: Bluetooth Low Energy platform Agnostic Klient
-dev-python/bleak-retry-connector 1.4.0 1.5.0: A connector for Bleak Clients that handles transient connection failures
+dev-python/bleak-retry-connector 1.5.0 1.8.0: A connector for Bleak Clients that handles transient connection failures
 dev-python/blebox-uniapi 1.3.3 2.0.1 2.0.2: Python API for accessing BleBox smart home devices
 dev-python/blinkpy 0.18.0 0.19.0: A Blink camera Python library running on Python 3.
 dev-python/blinkt 0.1.0: Python library for driving Pimoroni Blinkt!
 dev-python/blockchain 1.4.4: Blockchain API library (v1)
 dev-python/bluepy 1.3.0: Python module for interfacing with BLE devices through Bluez
 dev-python/bluetooth-adapters 0.1.3: Tools to enumerate and find Bluetooth Adapters
-dev-python/bluetooth-sensor-state-data 1.5.0: Models for storing and converting Bluetooth Sensor State Data
+dev-python/bluetooth-data-tools 0.1.2: Tools for converting bluetooth data and packets
+dev-python/bluetooth-sensor-state-data 1.5.0 1.6.0: Models for storing and converting Bluetooth Sensor State Data
 dev-python/bme280spi 0.2.0: Library for BME280 sensor through spidev
 dev-python/bme680 1.0.5: Python library for driving the Pimoroni BME680 Breakout
 dev-python/bond-api 0.1.16: Asynchronous Python wrapper library over Bond Local API
@@ -437,7 +438,7 @@ dev-python/holidays 0.13 0.14.2: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.3.0 1.4.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-frontend 20220601.0 20220707.1 20220802.0: The Home Assistant frontend
 dev-python/homeassistant-pyozw 0.1.10: python_openzwave is a python wrapper for the openzwave c++ library.
-dev-python/homeconnect 0.7.0 0.7.1: Python client for the BSH Home Connect REST API
+dev-python/homeconnect 0.7.0 0.7.1 0.7.2: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.2 1.0.4 1.0.7: An API for the homematicip cloud
 dev-python/homepluscontrol 0.0.5: Python-based API to interact with the Legrand Home + Control interface
 dev-python/horimote 0.4.1: Async API wrapper for Samsumgs set-top boxes SMT-G7400 and SMT-G7401.
@@ -463,7 +464,7 @@ dev-python/immutables 0.9: Immutable Collections
 dev-python/incomfort-client 0.4.4: A aiohttp-based client for Intergas InComfort/InTouch Lan2RF systems
 dev-python/influxdb 5.2.3 5.3.1: InfluxDB client
 dev-python/influxdb-client 1.14.0 1.24.0: InfluxDB 2.0 Python client library
-dev-python/inkbird-ble 0.5.1 0.5.2: Parser for INKBIRD BLE devices
+dev-python/inkbird-ble 0.5.1 0.5.2 0.5.5: Parser for INKBIRD BLE devices
 dev-python/insteon-frontend-home-assistant 0.1.0 0.1.1 0.2.0: The Insteon frontend for Home Assistant
 dev-python/intel-amt 0.8.0 0.9.0: Tools for interacting with Intel's AMT
 dev-python/intellifire4py 1.0.2 2.0.1: An API to read the status of an intellifire wifi module
@@ -978,8 +979,8 @@ dev-python/scsgate 0.1.0: A Python module to interact with SCSGate
 dev-python/securetar 2022.2.0: Python module to handle tarfile backups.
 dev-python/sendgrid 6.7.0 6.8.2: Twilio SendGrid library for Python
 dev-python/sense-energy 0.9.6 0.10.2 0.10.3 0.10.4: API for the Sense Energy Monitor
-dev-python/sensor-state-data 2.0.2: Models for storing and converting Sensor Data state
-dev-python/sensorpush-ble 1.5.1: Parser for SensorPush BLE devices
+dev-python/sensor-state-data 2.0.2 2.2.0: Models for storing and converting Sensor Data state
+dev-python/sensorpush-ble 1.5.1 1.5.2: Parser for SensorPush BLE devices
 dev-python/sentry-sdk 1.5.5 1.5.8 1.5.10: Python client for Sentry
 dev-python/sepaxml 2.2.0: Python SEPA XML implementations
 dev-python/setuptools-markdown 0.4.1: [Deprecated] Use Markdown for your project description
@@ -1040,7 +1041,7 @@ dev-python/swisshydrodata 0.1.0: A library to fetch data from the Swiss federal 
 dev-python/synology-srm 0.2.0: Synology SRM API
 dev-python/synologydsm-api 1.0.1 1.0.2: Python API for communication with Synology DSM
 dev-python/systembridge 2.1.3 2.2.3 2.3.1: Python package for connecting to System Bridge.
-dev-python/systembridgeconnector 3.1.5 3.3.2: System Bridge Connector
+dev-python/systembridgeconnector 3.3.2 3.4.4: System Bridge Connector
 dev-python/tahoma-api 0.0.16: Tahoma Api - Python connect to Tahoma REST API
 dev-python/tailer 0.4.1: Python tail is a simple implementation of GNU tail and head.
 dev-python/tailscale 0.1.6 0.2.0: Asynchronous client for the Tailscale API.
@@ -1136,7 +1137,7 @@ dev-python/xbox-webapi 2.0.11: A library to authenticate with Windows Live/Xbox 
 dev-python/xboxapi 2.0.1: A wrapper library for XboxAPI.com
 dev-python/xfinity-gateway 0.0.4: Query an Xfinity Gateway
 dev-python/xiaomi-ble 0.6.4: Manage Xiaomi BLE devices
-dev-python/xknx 0.21.3 0.21.5 0.22.1: An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/
+dev-python/xknx 0.21.3 0.21.5 0.22.1 1.0.0: An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/
 dev-python/xmltodict 0.12.0-r1: Makes working with XML feel like you are working with JSON
 dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontrol XS1 Gateway
 dev-python/yalesmartalarmclient 0.3.4 0.3.7 0.3.8: Interact with Yale Smart Alarm systems
