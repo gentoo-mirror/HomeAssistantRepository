@@ -108,6 +108,7 @@ app-misc/homeassistant:everlights - Library for controlling an EverLights lighti
 app-misc/homeassistant:evohome - links with all non-US Honeywell Total Connect Comfort (TCC) CH/DHW systems
 app-misc/homeassistant:ffmpeg - allows other Home Assistant integrations to process video and audio streams
 app-misc/homeassistant:fibaro - Fibaro hub is a controller mainly connecting to Z-Wave devices
+app-misc/homeassistant:file - Store notifications as a file
 app-misc/homeassistant:flume - monitors the real-time status of your home water meter
 app-misc/homeassistant:flunearyou - allows users in the US to get information from Flu Near You
 app-misc/homeassistant:flux_led - flux_led support is integrated into Home Assistant as a light platform
@@ -504,6 +505,7 @@ app-misc/homeassistant-full:feedreader - an RSS/Atom feed reader that polls feed
 app-misc/homeassistant-full:ffmpeg - allows other Home Assistant integrations to process video and audio streams
 app-misc/homeassistant-full:fibaro - Fibaro hub is a controller mainly connecting to Z-Wave devices
 app-misc/homeassistant-full:fido - Integrate your Fido account information into Home Assistant
+app-misc/homeassistant-full:file - Store notifications as a file
 app-misc/homeassistant-full:fints - This only works with banks that support the FinTS (aka. HBCI) standard
 app-misc/homeassistant-full:fireservicerota - scheduling and dispatching system for firefighters
 app-misc/homeassistant-full:firmata - Firmata can be used to add digital inputs and outputs to Home Assistant
@@ -1171,6 +1173,7 @@ app-misc/homeassistant-min:dwd_weather_warnings - dwd_weather_warnings sensor pl
 app-misc/homeassistant-min:enigma2 - Support for Enigma2 boxes with openwebif support
 app-misc/homeassistant-min:esphome - Support for esphome sensors, covers and switches and it's dashboard
 app-misc/homeassistant-min:ffmpeg - allows other Home Assistant integrations to process video and audio streams
+app-misc/homeassistant-min:file - Store notifications as a file
 app-misc/homeassistant-min:forecast_solar - Asynchronous Python client for getting forecast solar information
 app-misc/homeassistant-min:fronius - Add (very basic) Support for Fronius Symo JSON Api to Home Assistant
 app-misc/homeassistant-min:github - GitHub sensor integrates data from GitHub to monitor your favorite repositories
