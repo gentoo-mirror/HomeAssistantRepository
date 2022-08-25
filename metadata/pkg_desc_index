@@ -294,6 +294,7 @@ dev-python/crownstone-sse 2.0.2 2.0.3: Asynchronous Python library that listens 
 dev-python/crownstone-uart 2.1.0: Official Python lib for Crownstone: "Crownstone Unified System Bridge", or Crownstone USB implementation
 dev-python/cryptography 35.0.0 36.0.2: Library providing cryptographic recipes and primitives
 dev-python/csrmesh 0.10.0: Reverse engineered implementation of the CSRMesh bridge protocol
+dev-python/curlify 2.2.1: Library to convert python requests object to curl command.
 dev-python/custom-inherit 2.2.2: A Python package that provides customized docstring inheritance schemes between derived classes and their parents.
 dev-python/d2to1 0.2.12_p1: Allows using distutils2-like setup.cfg files for a package's metadata with a distribute/setuptools setup.py
 dev-python/dacite 1.6.0: Simple creation of data classes from dictionaries.
@@ -598,6 +599,7 @@ dev-python/openwrt-ubus-rpc 0.0.2: OpenWrt ubus RPC API library
 dev-python/orjson 3.7.5 3.7.7 3.7.8 3.7.11: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
 dev-python/oru 0.1.11: Python client for Orange and Rockland Utility smart energy meters
 dev-python/orvibo 1.1.1: Control Orvibo products.
+dev-python/oscrypto 1.3.0: TLS (SSL) sockets, key generation, encryption, decryption, signing, verification and KDFs using the OS crypto libraries.
 dev-python/ovoenergy 1.1.12 1.2.0: Get energy data from OVO's API
 dev-python/oyaml 1.0: Ordered YAML: drop-in replacement for PyYAML which preserves dict ordering
 dev-python/p1monitor 0.2.0 1.0.0 1.0.1 1.1.0: Asynchronous Python client for the P1 Monitor
@@ -644,6 +646,7 @@ dev-python/pubnubsub-handler 1.0.9: Handles the PubNub subscriptions between Pub
 dev-python/pulsectl 20.2.4: Python high-level interface and ctypes-based bindings for PulseAudio (libpulse)
 dev-python/pure-pcapy3 1.0.1-r1: Pure Python reimplementation of pcapy. This package is API compatible and a drop-in replacement.
 dev-python/pure-python-adb 0.3.0-r1: Pure python implementation of the adb client
+dev-python/push-receiver 0.1.1: subscribe to GCM/FCM and receive notifications
 dev-python/pushbullet-py 0.11.0: A simple python client for pushbullet.com
 dev-python/pushover_complete 1.1.1: A Python package for interacting with *all* aspects of the Pushover API
 dev-python/pvo 0.2.1 0.2.2: Asynchronous client for the PVOutput API.
