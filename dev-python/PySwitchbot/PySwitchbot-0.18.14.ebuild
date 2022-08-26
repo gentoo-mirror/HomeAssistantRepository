@@ -7,29 +7,26 @@ PYTHON_COMPAT=( python3_{8..11} )
 
 inherit distutils-r1
 
-DESCRIPTION="Library implementing EZSP"
-HOMEPAGE="https://github.com/zigpy/bellows https://pypi.org/project/bellows/"
+DESCRIPTION="A library to communicate with Switchbot"
+HOMEPAGE="https://github.com/Danielhiversen/pySwitchbot/ https://pypi.org/project/PySwitchbot/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/click[${PYTHON_USEDEP}]
-	>=dev-python/click-log-0.2.1[${PYTHON_USEDEP}]
-	~dev-python/pure-pcapy3-1.0.1[${PYTHON_USEDEP}]
-	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
-	>=dev-python/zigpy-0.47.0[${PYTHON_USEDEP}]"
+DOCS="README.md"
+
+RDEPEND="dev-python/bleak[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-4.0.1[${PYTHON_USEDEP}]
+	>=dev-python/bleak-retry-connector-1.11.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/asynctest[${PYTHON_USEDEP}]
-		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	)"
 
 python_test() {
