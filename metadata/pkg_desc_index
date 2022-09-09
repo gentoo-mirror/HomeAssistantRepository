@@ -7,14 +7,14 @@ acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/homeassistant 2022.7.7 2022.8.6 2022.8.7 2022.9.0: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.7.7 2022.8.6 2022.8.7 2022.9.0 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.7.7-r1 2022.8.6-r1 2022.8.7-r1 2022.9.0 9999: Open-source home automation platform running on Python.
 app-misc/homeassistant-min 2022.7.7 2022.8.6 2022.8.7 2022.9.0: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.4.0 2022.5.1 2022.6.2 2022.8.0 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220309.0 20220508.0: ESPHome dashboard
 dev-embedded/esptool 3.2 3.3-r2 3.3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
 dev-embedded/platformio 5.2.5-r1: A professional collaborative platform for embedded development. Cross-platform IDE and Unified Debugger.
 dev-libs/protobuf 3.20.1: Google's Protocol Buffers - Extensible mechanism for serializing structured data
-dev-python/AEMET-OpenData 0.2.1: AEMET OpenData Rest API library
+dev-python/AEMET-OpenData 0.2.1-r1: AEMET OpenData Rest API library
 dev-python/AIOAladdinConnect 0.1.27 0.1.41 0.1.44: Python Async API for controlling Genie garage doors connected to Aladdin Connect devices
 dev-python/Adafruit-Blinka 5.5.1 7.1.1: CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython.
 dev-python/Adafruit-GPIO 1.0.3: GPIO interface on the Raspberry Pi.
@@ -346,7 +346,7 @@ dev-python/emulated-roku 0.2.1: Library to emulate a roku server to serve as a p
 dev-python/enocean 0.50.1: EnOcean serial protocol implementation
 dev-python/enturclient 0.2.3 0.2.4: An API client for public transport data from Entur.
 dev-python/enum-compat 0.0.3: enum/enum34 compatibility package
-dev-python/env-canada 0.5.20 0.5.21 0.5.22: A package to access meteorological data from Environment Canada
+dev-python/env-canada 0.5.22-r1: A package to access meteorological data from Environment Canada
 dev-python/envirophat 0.0.6 1.0.1: Enviro pHAT environmental sensor board driver
 dev-python/envoy-reader 0.19.0 0.20.0 0.20.1: A program to read from an Enphase Envoy on the local network
 dev-python/envoy-utils 0.0.1: Python utilities for the Enphase Envoy
@@ -978,7 +978,7 @@ dev-python/rfk101py 0.0.1: RFK101 Proximity card reader over Ethernet
 dev-python/rflink 0.0.62 0.0.63: Library and CLI tools for interacting with RFlink 433MHz transceiver.
 dev-python/rich 10.16.2-r1: Python library for renrering rich text, tables, etc. to the terminal
 dev-python/ring-doorbell 0.7.1 0.7.2: A Python library to communicate with Ring Door Bell (https://ring.com/)
-dev-python/ritassist 0.9.2: RitAssist API Access
+dev-python/ritassist 0.9.2-r1: RitAssist API Access
 dev-python/rjpl 0.3.6: Interface with Rejseplanen API
 dev-python/rocketchat-API 0.6.1 0.6.35: Python API wrapper for Rocket.Chat
 dev-python/rokuecp 0.16.0 0.17.0: Asynchronous Python client for Roku (ECP)
@@ -1139,7 +1139,7 @@ dev-python/vol 0.1.1: volume control in the shell for your mac
 dev-python/volkszaehler 0.2.1 0.3.2: Python Wrapper for interacting with the Volkszahler API.
 dev-python/voluptuous 0.12.2: A Python data validation library
 dev-python/voluptuous-serialize 2.4.0 2.5.0: Convert voluptuous schemas to dictionaries
-dev-python/volvooncall 0.9.1 0.10.0: Communicate with VOC
+dev-python/volvooncall 0.10.0-r1: Communicate with VOC
 dev-python/vsure 1.7.3 1.8.1: Read and change status of verisure devices through mypages.
 dev-python/vtjp 0.1.14: Vasttrafik API
 dev-python/vulcan-api 2.0.3 2.1.1: Nieoficjalne API do dzienniczka elektronicznego UONET+
