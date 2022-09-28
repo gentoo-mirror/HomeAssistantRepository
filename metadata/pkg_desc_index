@@ -1200,3 +1200,4 @@ dev-vcs/pre-commit 2.19.0: A framework for managing and maintaining multi-langua
 sci-geosciences/geopy 2.1.0: Python Geocoding Toolbox
 sci-libs/tensorflow 2.5.0-r3: Computation framework using data flow graphs for scalable machine learning
 virtual/mqtt 1: Virtual for Home Assistant MQTT
+www-servers/tornado 6.1-r2: Python web framework and asynchronous networking library
