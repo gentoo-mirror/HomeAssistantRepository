@@ -171,6 +171,7 @@ app-misc/homeassistant:miflora - miflora sensor platform allows one to monitor p
 app-misc/homeassistant:mikrotik - add support for MikroTik RouterOS API
 app-misc/homeassistant:mitemp_bt - mitemp_bt sensor platform allows one to monitor room temperature and humidity
 app-misc/homeassistant:mobile_app - allows Home Assistant mobile apps to easily integrate with Home Assistant
+app-misc/homeassistant:modbus - sensors and switches controlled over MODBUS serial, TCP, and UDP connections
 app-misc/homeassistant:mosquitto - Set a runtime dependency for Mosquitto MQTT broker
 app-misc/homeassistant:mqtt - install MQTT Broker and dependencies
 app-misc/homeassistant:myq - lets you control MyQ-Enabled garage doors
@@ -1205,6 +1206,7 @@ app-misc/homeassistant-min:mariadb - WIP: set dependencies for mariadb-connector
 app-misc/homeassistant-min:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant-min:mikrotik - add support for MikroTik RouterOS API
 app-misc/homeassistant-min:mobile_app - allows Home Assistant mobile apps to easily integrate with Home Assistant
+app-misc/homeassistant-min:modbus - sensors and switches controlled over MODBUS serial, TCP, and UDP connections
 app-misc/homeassistant-min:mosquitto - Set a runtime dependency for Mosquitto MQTT broker
 app-misc/homeassistant-min:mqtt - install MQTT Broker and dependencies
 app-misc/homeassistant-min:myq - lets you control MyQ-Enabled garage doors
