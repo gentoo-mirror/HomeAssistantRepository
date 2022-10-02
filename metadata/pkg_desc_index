@@ -5,7 +5,7 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
-app-misc/home-assistant-cli 0.9.3-r1 0.9.4 9999: The Home Assistant Command-line Interface (hass-cli)
+app-misc/home-assistant-cli 0.9.4 0.9.5 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/homeassistant 2022.7.7 2022.8.7 2022.9.5 2022.9.6 2022.9.7 2022.10.0_beta3-r1: Open-source home automation platform running on Python.
 app-misc/homeassistant-full 2022.7.7-r1 2022.8.7-r1 2022.9.5 2022.9.6 2022.9.7 2022.10.0_beta3 9999: Open-source home automation platform running on Python.
 app-misc/homeassistant-min 2022.7.7 2022.8.7 2022.9.5 2022.9.6 2022.9.7 2022.10.0_beta3-r1: Open-source home automation platform running on Python.
@@ -295,7 +295,7 @@ dev-python/construct 2.10.56: A powerful declarative parser for binary data
 dev-python/convertdate 2.3.0: Converts between Gregorian dates and other calendar systems.
 dev-python/coronavirus 1.1.1: Asynchronous Python client for getting Corona virus info.
 dev-python/coverage 6.4 6.4.1 6.4.2: Code coverage measurement for Python
-dev-python/coveralls 1.5.1 3.3.1: Show coverage stats online via coveralls.io
+dev-python/coveralls 3.3.1-r1: Show coverage stats online via coveralls.io
 dev-python/crc16 0.1.1: Library for calculating CRC16
 dev-python/crccheck 1.1: Calculation library for CRCs and checksums
 dev-python/croniter 0.3.34 1.0.6: croniter provides iteration for datetime object with cron like format
@@ -311,7 +311,7 @@ dev-python/d2to1 0.2.12_p1: Allows using distutils2-like setup.cfg files for a p
 dev-python/dacite 1.6.0: Simple creation of data classes from dictionaries.
 dev-python/datadog 0.15.0: The Datadog Python library
 dev-python/datapoint 0.9.5 0.9.8: Python interface to the Met Office's Datapoint API
-dev-python/dateparser 0.7.1 1.0.0: Date parsing library designed to parse dates from HTML pages
+dev-python/dateparser 1.0.0 1.1.1: Date parsing library designed to parse dates from HTML pages
 dev-python/dbus-fast 1.4.0 1.5.1 1.18.0: A faster version of dbus-next
 dev-python/debugpy 1.6.0: An implementation of the Debug Adapter Protocol for Python
 dev-python/decora 0.6: Python API for controlling Decora dimmer switches
@@ -374,7 +374,7 @@ dev-python/fitbit 0.3.1: Fitbit API Wrapper.
 dev-python/fivem-api 0.1.2: A library to query info, players and resources from FiveM server
 dev-python/fixerio 1.0.0_alpha0: A Python client for Fixer.io
 dev-python/fjaraskupan 1.0.2 2.0.0: A python library for speaking to fjäråskupan
-dev-python/flake8-docstrings 1.6.0: Extension for flake8 which uses pydocstyle to check docstrings
+dev-python/flake8-docstrings 1.6.0-r1: Extension for flake8 which uses pydocstyle to check docstrings
 dev-python/flipr-api 1.4.1 1.4.2: Python client for flipr API.
 dev-python/flux-led 0.28.30 0.28.31 0.28.32: A Python library to communicate with the flux_led smart bulbs
 dev-python/fnvhash 0.1.0: Pure Python FNV hash implementation
@@ -493,7 +493,7 @@ dev-python/jellyfin-apiclient-python 1.7.2 1.8.1: Python API client for Jellyfin
 dev-python/jinja 3.1.0 3.1.1: A full-featured template engine for Python
 dev-python/jmespath 0.9.4: JSON Matching Expressions
 dev-python/jsonpath 0.82: An XPath for JSON
-dev-python/jsonpath-ng 1.5.2: A final implementation of JSONPath for Python that aims to be standard compliant.
+dev-python/jsonpath-ng 1.5.2 1.5.3: A final implementation of JSONPath for Python that aims to be standard compliant.
 dev-python/jsonpickle 1.4.1-r1: Python library for serializing any arbitrary object graph into JSON
 dev-python/jsonrpc-async 2.0.0 2.1.0: A JSON-RPC client library for asyncio
 dev-python/jsonrpc-base 2.0.0 2.1.0: A JSON-RPC client library base interface
@@ -578,7 +578,7 @@ dev-python/nclib 1.0.1: Netcat as a library: convienent socket interfaces
 dev-python/ndms2-client 0.1.1: Keenetic NDMS 2.x and 3.x client
 dev-python/nessclient 0.9.15 0.10.0: Implementation/abstraction of the Ness D8x / D16x Serial Interface ASCII protocol
 dev-python/netdata 0.2.0 1.0.1: Python API for interacting with Netdata.
-dev-python/netdisco 2.8.3 2.9.0 3.0.0: Discover devices on your local network
+dev-python/netdisco 3.0.0-r1: Discover devices on your local network
 dev-python/netmap 0.7.0.2: This is a python class to use nmap and access scan results from python3
 dev-python/nettigo-air-monitor 1.3.0 1.4.2: Python wrapper for getting air quality data from Nettigo Air Monitor devices.
 dev-python/neurio 0.3.1: Neurio energy sensor and appliance automation API library
@@ -807,7 +807,7 @@ dev-python/pymeteoclimatic 0.0.6: A Python wrapper around the Meteoclimatic serv
 dev-python/pymfy 0.9.3 0.11.0: A Somfy Open API library
 dev-python/pymitv 1.4.3: A Python 3 based Xiaomi TV remote
 dev-python/pymochad 0.2.0: A python library for interacting with moch
-dev-python/pymodbus 2.5.3: A fully featured modbus protocol stack in python
+dev-python/pymodbus 2.5.3-r1: A fully featured modbus protocol stack in python
 dev-python/pymonoprice 0.3: Python API for talking to Monoprice 6-zone amplifier
 dev-python/pymsteams 0.1.12: Format messages and post to Microsoft Teams.
 dev-python/pymyq 3.1.3 3.1.4: Python package for controlling MyQ-Enabled Garage Door
