@@ -538,14 +538,14 @@ A daily compile test is run at Github with Python 3.9 to catch general faults. E
 
 ## Licenses
 This repository itself is released under GPL-3 (like most Gentoo repositories), all work on the depending components under the licenses they came from. Perhaps you came here because I filed an issue at your component about a bad or missing license. It is easy to [assign a license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). During cleanups and license investigations I have been asked often which license to choose. I am not a lawyer, but I can offer the following table, counted over this repository, perhaps this helps your decision. If a package has more than one license listed, all of them are counted.
-There are 1915 Ebuilds in total, 1908 of them have in total 1920 (35 different) licenses assigned.
+There are 1920 Ebuilds in total, 1913 of them have in total 1925 (35 different) licenses assigned.
 
 |License| Ebuilds using it|
 |-------|-----|
-|MIT|1152|
-|Apache-2.0|367|
+|MIT|1155|
+|Apache-2.0|369|
 |GPL-3|119|
-|BSD|104|
+|BSD|105|
 |LGPL-3|29|
 |GPL-2|25|
 |LGPL-3+|17|
@@ -559,13 +559,13 @@ There are 1915 Ebuilds in total, 1908 of them have in total 1920 (35 different) 
 |public-domain|4|
 |LGPL-2+|3|
 |BSD-4|3|
-|PSF-2|3|
 |GPL-2+|3|
 |AGPL-3+|2|
 |ZPL|2|
 |ISC|2|
 |NEWLIB|2|
 |CC-BY-NC-SA-3.0|2|
+|PSF-2|2|
 |MPL-2.0|2|
 |EPL-2.0|2|
 |ECL-2.0|1|
@@ -578,9 +578,9 @@ There are 1915 Ebuilds in total, 1908 of them have in total 1920 (35 different) 
 |CC-BY-NC-SA-4.0|1|
 |CC0-1.0|1|
 
-(Last counted: 02/10/2022)
+(Last counted: 03/10/2022)
 
 I did my best to keep these clean. If a valid license was published on PyPI, it has been automatically merged. Otherwise I took it from GitHub or alternatively from comments/files in the source. Sometimes these differed and have been not unique. All license strings are adjusted to the list in `/usr/portage/gentoo/licenses/`. Some packages do not have any license published. In this case, Authors have been asked for clarification, some did not respond. Following the [official Gentoo Guide](https://devmanual.gentoo.org/general-concepts/licenses/index.html), these then were added with an `all-rights-reserved` license and `RESTRICT="mirror"` was set. Find the appropriate licenses referenced in the Ebuild files and in the corresponding homepages or sources.
 
 A big thanks goes to Iris for reviewing this README.
-Last updated: 02/10/2022
+Last updated: 03/10/2022
