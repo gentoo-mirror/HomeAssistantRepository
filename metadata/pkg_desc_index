@@ -6,9 +6,9 @@ acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 1.17.0 1.18.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.4 0.9.5 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.7.7 2022.8.7 2022.9.5 2022.9.6 2022.9.7 2022.10.0_beta3-r2: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.7.7-r1 2022.8.7-r1 2022.9.5 2022.9.6 2022.9.7 2022.10.0_beta3-r2 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.7.7 2022.8.7 2022.9.5 2022.9.6 2022.9.7 2022.10.0_beta3-r3: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.7.7 2022.8.7 2022.9.5 2022.9.6 2022.9.7 2022.10.0_beta4: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.7.7-r1 2022.8.7-r1 2022.9.5 2022.9.6 2022.9.7 2022.10.0_beta4 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.7.7 2022.8.7 2022.9.5 2022.9.6 2022.9.7 2022.10.0_beta4: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.5.1 2022.6.2 2022.8.0 2022.9.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220309.0 20220508.0 20220925.0: ESPHome dashboard
 dev-embedded/esptool 3.2 3.3-r2 3.3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -120,7 +120,7 @@ dev-python/aioeafm 0.1.2: An asyncio wrapper for the UK Environment Agency Flood
 dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2022.9.1 2022.9.3: Python wrapper for EcoWitt Protocol
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 10.10.0 10.11.0 10.13.0 11.0.0: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 10.10.0 10.11.0 10.13.0 11.0.0 11.1.0: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.12.0: ftp client/server for asyncio
@@ -245,7 +245,7 @@ dev-python/blinkt 0.1.0: Python library for driving Pimoroni Blinkt!
 dev-python/blockchain 1.4.4: Blockchain API library (v1)
 dev-python/bluemaestro-ble 0.2.0: bluemaestro BLE devices
 dev-python/bluepy 1.3.0: Python module for interfacing with BLE devices through Bluez
-dev-python/bluetooth-adapters 0.1.3 0.4.1 0.5.3: Tools to enumerate and find Bluetooth Adapters
+dev-python/bluetooth-adapters 0.1.3 0.4.1 0.5.3 0.6.0: Tools to enumerate and find Bluetooth Adapters
 dev-python/bluetooth-auto-recovery 0.3.2 0.3.3: Recover bluetooth adapters that are in an stuck state
 dev-python/bluetooth-data-tools 0.1.2: Tools for converting bluetooth data and packets
 dev-python/bluetooth-sensor-state-data 1.5.0 1.6.0: Models for storing and converting Bluetooth Sensor State Data
@@ -283,7 +283,7 @@ dev-python/click-log 0.3.2: Logging integration for Click
 dev-python/clx-sdk-xms 1.0.0: Library for CLX Communications HTTP REST Messaging API
 dev-python/codecov 2.1.12: Hosted coverage reports for GitHub, Bitbucket and Gitlab
 dev-python/coinbase 2.1.0: Coinbase API client library
-dev-python/colorlog 5.0.1: Log formatting with colors
+dev-python/colorlog 6.6.0-r1: Log formatting with colors
 dev-python/colorthief 0.2.1: A module for grabbing the color palette from an image.
 dev-python/colorzero 2.0: Yet another Python color library
 dev-python/colour 0.1.5-r1: converts and manipulates various color representation (HSL, RVB, web, X11, ...)
@@ -312,7 +312,7 @@ dev-python/dacite 1.6.0: Simple creation of data classes from dictionaries.
 dev-python/datadog 0.15.0: The Datadog Python library
 dev-python/datapoint 0.9.5 0.9.8: Python interface to the Met Office's Datapoint API
 dev-python/dateparser 1.0.0 1.1.1: Date parsing library designed to parse dates from HTML pages
-dev-python/dbus-fast 1.4.0 1.5.1 1.18.0: A faster version of dbus-next
+dev-python/dbus-fast 1.4.0 1.5.1 1.18.0 1.21.17 1.22.0: A faster version of dbus-next
 dev-python/debugpy 1.6.0: An implementation of the Debug Adapter Protocol for Python
 dev-python/decora 0.6: Python API for controlling Decora dimmer switches
 dev-python/decora-wifi 1.4: Python API for controlling Leviton Decora Smart WiFi switches
@@ -432,7 +432,7 @@ dev-python/grpcio-status 1.46.1 1.48.0: Status proto mapping for gRPC
 dev-python/gstreamer-player 1.1.2: Python 3 wrapper for playing media via gstreamer
 dev-python/guppy3 3.1.0 3.1.2: Guppy 3 -- Guppy-PE ported to Python 3
 dev-python/h11 0.12.0: A pure-Python implementation of HTTP/1.1 inspired by hyper-h2
-dev-python/ha-av 10.0.0_beta4: Pythonic bindings for FFmpeg's libraries.
+dev-python/ha-av 10.0.0_beta4 10.0.0_beta5: Pythonic bindings for FFmpeg's libraries.
 dev-python/ha-ffmpeg 3.0.2: A library that handling with ffmpeg for home-assistant
 dev-python/ha-philipsjs 2.7.6 2.9.0: jointSPACE API for Home-Assistant
 dev-python/habitipy 0.2.0 0.3.0: tools and library for Habitica restful API (https://habitica.com)
@@ -451,7 +451,7 @@ dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.5.1 0.7.0: Python API for interacting with *hole.
 dev-python/holidays 0.13 0.14.2: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.3.0 1.4.0: Home Assistant Bluetooth Models and Helpers
-dev-python/home-assistant-frontend 20220707.1 20220802.0 20220907.2 20220929.0: The Home Assistant frontend
+dev-python/home-assistant-frontend 20220707.1 20220802.0 20220907.2 20220929.0 20221002.0: The Home Assistant frontend
 dev-python/homeassistant-pyozw 0.1.10: python_openzwave is a python wrapper for the openzwave c++ library.
 dev-python/homeconnect 0.7.0 0.7.1 0.7.2: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.2 1.0.4 1.0.7: An API for the homematicip cloud
@@ -1013,7 +1013,7 @@ dev-python/sense-energy 0.9.6 0.10.2 0.10.3 0.10.4: API for the Sense Energy Mon
 dev-python/sensor-state-data 2.6.0 2.9.0: Models for storing and converting Sensor Data state
 dev-python/sensorpro-ble 0.5.0: SensorPro BLE Devices
 dev-python/sensorpush-ble 1.5.1 1.5.2: Parser for SensorPush BLE devices
-dev-python/sentry-sdk 1.5.5 1.5.8 1.5.10: Python client for Sentry
+dev-python/sentry-sdk 1.5.10 1.9.5: Python client for Sentry
 dev-python/sepaxml 2.2.0: Python SEPA XML implementations
 dev-python/setuptools-markdown 0.4.1: [Deprecated] Use Markdown for your project description
 dev-python/sharkiq 0.0.1: Python API for Shark IQ robots
