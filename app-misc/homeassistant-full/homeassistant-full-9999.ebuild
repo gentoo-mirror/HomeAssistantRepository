@@ -73,7 +73,7 @@ RDEPEND="${RDEPEND}
 	~dev-python/h11-0.12.0[${PYTHON_USEDEP}]
 	~dev-python/hass-nabucasa-0.56.0[${PYTHON_USEDEP}]
 	~dev-python/home-assistant-bluetooth-1.3.0[${PYTHON_USEDEP}]
-	~dev-python/home-assistant-frontend-20221005.0[${PYTHON_USEDEP}]
+	~dev-python/home-assistant-frontend-20221006.0[${PYTHON_USEDEP}]
 	~dev-python/httpcore-0.15.0[${PYTHON_USEDEP}]
 	>=dev-python/httplib2-0.19.0[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
@@ -226,7 +226,7 @@ RDEPEND="${RDEPEND}
 	bsblan? ( ~dev-python/bsblan-0.5.0[${PYTHON_USEDEP}] )
 	bthome? ( ~dev-python/bthome-ble-1.2.2[${PYTHON_USEDEP}] )
 	bt_home_hub_5? ( ~dev-python/bthomehub5-devicelist-0.1.1[${PYTHON_USEDEP}] )
-	bt_smarthub? ( ~dev-python/btsmarthub-devicelist-0.2.2[${PYTHON_USEDEP}] )
+	bt_smarthub? ( ~dev-python/btsmarthub-devicelist-0.2.3[${PYTHON_USEDEP}] )
 	buienradar? ( ~dev-python/buienradar-1.0.5[${PYTHON_USEDEP}] )
 	caldav? ( ~dev-python/caldav-0.9.1[${PYTHON_USEDEP}] )
 	camera? ( ~dev-python/PyTurboJPEG-1.6.7[${PYTHON_USEDEP}] )
