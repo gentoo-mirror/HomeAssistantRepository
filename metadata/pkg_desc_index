@@ -733,7 +733,7 @@ dev-python/pyforked-daapd 0.1.11: Python Interface for forked-daapd
 dev-python/pyfreedompro 1.1.0: Freedompro API
 dev-python/pyfritzhome 0.6.4 0.6.5 0.6.7: Fritz!Box Smarthome Python Library
 dev-python/pyfttt 0.3.2: Python tools for interacting with the IFTTT Webhooks Channel
-dev-python/pygatt 4.0.5 4.0.5-r1: Python Bluetooth LE (Low Energy) and GATT Library
+dev-python/pygatt 4.0.5-r1: Python Bluetooth LE (Low Energy) and GATT Library
 dev-python/pygtfs 0.1.6 0.1.7: Models GTFS data in a database.
 dev-python/pygti 0.9.2 0.9.3: access public transport information in hamburg, germany.
 dev-python/pyhaversion 22.4.1 22.8.0: Get the latest Home Assistant version from various sources.
