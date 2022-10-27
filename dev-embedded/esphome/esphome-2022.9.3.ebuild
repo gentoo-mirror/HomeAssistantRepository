@@ -48,14 +48,13 @@ RDEPEND="
 		~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 		~dev-embedded/esphome-dashboard-20220925.0[${PYTHON_USEDEP}]
 		dev-python/aioesphomeapi[${PYTHON_USEDEP}]
-		dev-python/zeroconf[${PYTHON_USEDEP}]
+		dev-python/python-zeroconf[${PYTHON_USEDEP}]
 		~dev-python/kconfiglib-13.7.1[${PYTHON_USEDEP}]
 	')"
 
 BDEPEND="$(python_gen_cond_dep '
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
-		dev-python/nose[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 		dev-python/pytest-mock[${PYTHON_USEDEP}]
@@ -100,11 +99,6 @@ pkg_postinst() {
 	if use server; then
 		readme.gentoo_print_elog
 	fi
-}
-
-python_test() {
-	nosetests --verbose || die
-	py.test -v -v || die
 }
 
 distutils_enable_tests pytest
