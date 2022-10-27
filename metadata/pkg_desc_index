@@ -9,7 +9,7 @@ app-misc/homeassistant 2022.8.7 2022.9.7 2022.10.3 2022.10.4 2022.10.5: Open-sou
 app-misc/homeassistant-full 2022.8.7-r1 2022.9.7 2022.10.3 2022.10.4 2022.10.5 9999: Open-source home automation platform running on Python.
 app-misc/homeassistant-min 2022.8.7 2022.9.7 2022.10.3 2022.10.4 2022.10.5: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.5.1 2022.6.2 2022.8.0 2022.9.2 2022.9.3 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
-dev-embedded/esphome-dashboard 20220309.0 20220508.0 20220925.0: ESPHome dashboard
+dev-embedded/esphome-dashboard 20220508.0 20220925.0: ESPHome dashboard
 dev-embedded/esptool 3.3-r2 3.3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
 dev-embedded/platformio 5.2.5-r1: A professional collaborative platform for embedded development. Cross-platform IDE and Unified Debugger.
 dev-libs/protobuf 3.20.1: Google's Protocol Buffers - Extensible mechanism for serializing structured data
@@ -124,7 +124,7 @@ dev-python/aioftp 0.12.0 0.21.3: ftp client/server for asyncio
 dev-python/aiogithubapi 22.2.4: Asynchronous Python client for the GitHub API
 dev-python/aioguardian 2022.3.2 2022.7.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aioharmony 0.2.9: Asyncio Python library for connecting to and controlling the Logitech Harmony
-dev-python/aiohomekit 1.2.11 1.5.12 2.0.1 2.0.2: An asyncio HomeKit client
+dev-python/aiohomekit 1.2.11 1.5.12 2.0.1 2.0.2-r1: An asyncio HomeKit client
 dev-python/aiohttp 3.7.3 3.7.4_p0: http client/server for asyncio
 dev-python/aiohue 4.4.2 4.5.0: Python module to talk to Philips Hue.
 dev-python/aioimaplib 1.0.0 1.0.1: Python asyncio IMAP4rev1 client library
@@ -666,7 +666,6 @@ dev-python/pyCEC 0.5.1 0.5.2: Provide HDMI CEC devices as objects, especially fo
 dev-python/pyControl4 0.0.6: Python 3 asyncio package for interacting with Control4 systems
 dev-python/pyEight 0.3.0: Provides a python api to interact with an Eight Sleep mattress cover.
 dev-python/pyEmby 1.8: Provides a python interface to interact with a Emby media server.
-dev-python/pyEzviz 0.2.0.6: Pilot your Ezviz cameras
 dev-python/pyHik 0.3.0: Provides a python api to interact with a Hikvision camera event stream and toggle motion detection.
 dev-python/pyRFXtrx 0.30.0: a library to communicate with the RFXtrx family of devices
 dev-python/pySDCP 1: SDCP library to control Sony Projectors
@@ -904,6 +903,7 @@ dev-python/python-tado 0.12.0: PyTado from chrism0dwk, modfied by w.malgadey, di
 dev-python/python-telegram-bot 13.1: We have made you a wrapper you can't refuse
 dev-python/python-vlc 1.1.2: VLC bindings for python.
 dev-python/python-wink 1.10.5: Access Wink devices via the Wink API
+dev-python/python-zeroconf 0.38.7: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-python/pythonegardia 1.0.40: Python 3 support for Egardia / Woonveilig alarm
 dev-python/pytile 2022.2.0: A simple Python API for Tile Bluetooth trackers
 dev-python/pytomorrowio 0.3.4 0.3.5: Async Python3.9+ package to access the Tomorrow.io API
@@ -1124,7 +1124,6 @@ dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeeligh
 dev-python/yolink-api 0.0.9 0.1.0: A library to authenticate with yolink device
 dev-python/youless-api 0.16: A bridge for python to the YouLess sensor
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs
-dev-python/zeroconf 0.38.7: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-python/zha-quirks 0.0.78 0.0.79 0.0.82 0.0.83: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
