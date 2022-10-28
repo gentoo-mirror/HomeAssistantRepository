@@ -125,7 +125,7 @@ dev-python/aiogithubapi 22.2.4: Asynchronous Python client for the GitHub API
 dev-python/aioguardian 2022.3.2 2022.7.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aioharmony 0.2.9: Asyncio Python library for connecting to and controlling the Logitech Harmony
 dev-python/aiohomekit 1.2.11 1.5.12 2.0.1 2.0.2-r1: An asyncio HomeKit client
-dev-python/aiohttp 3.7.3 3.7.4_p0: http client/server for asyncio
+dev-python/aiohttp 3.8.1-r1: http client/server for asyncio
 dev-python/aiohue 4.4.2 4.5.0: Python module to talk to Philips Hue.
 dev-python/aioimaplib 1.0.0 1.0.1: Python asyncio IMAP4rev1 client library
 dev-python/aioitertools 0.11.0: itertools and builtins for AsyncIO and mixed iterables
