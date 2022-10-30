@@ -307,6 +307,7 @@ app-misc/homeassistant-full:agent_dvr - Agent DVR is a free* software DVR soluti
 app-misc/homeassistant-full:airly - Uses the Airly web service as a source for air quality data
 app-misc/homeassistant-full:airnow - AirNow web service as a source for air quality data
 app-misc/homeassistant-full:airthings - A python3 library to communicate with Aws
+app-misc/homeassistant-full:airthings_ble - 
 app-misc/homeassistant-full:airtouch4 - control Ducted Air Conditioning Systems that are using the AirTouch 4 Controller
 app-misc/homeassistant-full:airvisual - Airvisual sensor platform queries the AirVisual cloud API for air quality data
 app-misc/homeassistant-full:airzone - This integration allows getting values from the local API of Airzone HVAC zoning
@@ -825,6 +826,7 @@ app-misc/homeassistant-full:openuv - The openuv integration displays UV and Ozon
 app-misc/homeassistant-full:openweathermap - uses OpenWeatherMap as a source for current meteorological data
 app-misc/homeassistant-full:opnsense - Presence Detection with data from OPNsense firewall
 app-misc/homeassistant-full:opple - allows you to control the state of your Opple smart light
+app-misc/homeassistant-full:oralb - 
 app-misc/homeassistant-full:orangepi_gpio - The orangepi_gpio integration is the base for all related GPIO platforms
 app-misc/homeassistant-full:oru - fetches your current energy usage from your ORU smart meter
 app-misc/homeassistant-full:orvibo - allows you to toggle your (dangerous) Orvibo S20 Wifi Smart Sockets
@@ -978,6 +980,7 @@ app-misc/homeassistant-full:smhi - support for the SMHI.se web service as a sour
 app-misc/homeassistant-full:sms - allows having a local execution SMS notification via Gammu
 app-misc/homeassistant-full:snapcast - The snapcast platform allows you to control Snapcast from Home Assistant
 app-misc/homeassistant-full:snmp - Presence Detection, Sensor, Switch via SNMP
+app-misc/homeassistant-full:snooz - 
 app-misc/homeassistant-full:socat - Set a flag to install socat and socat-zwave startscript
 app-misc/homeassistant-full:sochain - displays supported cryptocurrency wallet balances
 app-misc/homeassistant-full:solaredge - details from your SolarEdge solar power setup
@@ -1177,7 +1180,6 @@ app-misc/homeassistant-full:zwave - Support for Z-Wave Devices (uncomplete)
 app-misc/homeassistant-full:zwave_js - control a Z-Wave network via the Z-Wave JS driver
 app-misc/homeassistant-full:zwave_me - allows you to control a Z-Wave network via the Z-Wave.Me Z-Way
 app-misc/homeassistant-min:accuweather - Uses the AccuWeather web service as a source for weather data
-app-misc/homeassistant-min:aftership - The aftership platform allows one to track deliveries by AfterShip
 app-misc/homeassistant-min:airly - Uses the Airly web service as a source for air quality data
 app-misc/homeassistant-min:airvisual - Airvisual sensor platform queries the AirVisual cloud API for air quality data
 app-misc/homeassistant-min:alpha_vantage - The alpha_vantage sensor platform uses Alpha Vantage to monitor the stock market
@@ -1225,7 +1227,6 @@ app-misc/homeassistant-min:mysql - set dependencies to install MySQL Libraries f
 app-misc/homeassistant-min:notify_events - The Notify.Events service is a platform for the notify component
 app-misc/homeassistant-min:octoprint - The main integration to integrate OctoPrint sensors
 app-misc/homeassistant-min:onvif - allows you to use an ONVIF Profile S conformant device
-app-misc/homeassistant-min:openweathermap - uses OpenWeatherMap as a source for current meteorological data
 app-misc/homeassistant-min:otp - generates One-Time Passwords according to RFC6238
 app-misc/homeassistant-min:owntracks - OwnTracks: track your location and send it directly to Home Assistant
 app-misc/homeassistant-min:ping - use the great ICMPLib for Presence Detection and as a binary Sensor
