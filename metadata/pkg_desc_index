@@ -7,7 +7,7 @@ acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-misc/home-assistant-cli 0.9.4 0.9.5 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/homeassistant 2022.8.7 2022.9.7 2022.10.5 2022.11.0 2022.11.1: Open-source home automation platform running on Python.
 app-misc/homeassistant-full 2022.8.7-r1 2022.9.7 2022.10.5 2022.11.0 2022.11.1 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.8.7 2022.9.7 2022.10.5 2022.11.0 2022.11.1 2022.11.1-r1: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.8.7 2022.9.7 2022.10.5 2022.11.0 2022.11.1-r1: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.8.0 2022.9.3 2022.10.1 2022.10.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220508.0 20220925.0 20221007.0 20221020.0: ESPHome dashboard
 dev-embedded/esptool 3.3-r2 3.3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
