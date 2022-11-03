@@ -307,7 +307,7 @@ app-misc/homeassistant-full:agent_dvr - Agent DVR is a free* software DVR soluti
 app-misc/homeassistant-full:airly - Uses the Airly web service as a source for air quality data
 app-misc/homeassistant-full:airnow - AirNow web service as a source for air quality data
 app-misc/homeassistant-full:airthings - A python3 library to communicate with Aws
-app-misc/homeassistant-full:airthings_ble - 
+app-misc/homeassistant-full:airthings_ble - Integrates Airthings BLE sensors into Home Assistant
 app-misc/homeassistant-full:airtouch4 - control Ducted Air Conditioning Systems that are using the AirTouch 4 Controller
 app-misc/homeassistant-full:airvisual - Airvisual sensor platform queries the AirVisual cloud API for air quality data
 app-misc/homeassistant-full:airzone - This integration allows getting values from the local API of Airzone HVAC zoning
@@ -826,7 +826,7 @@ app-misc/homeassistant-full:openuv - The openuv integration displays UV and Ozon
 app-misc/homeassistant-full:openweathermap - uses OpenWeatherMap as a source for current meteorological data
 app-misc/homeassistant-full:opnsense - Presence Detection with data from OPNsense firewall
 app-misc/homeassistant-full:opple - allows you to control the state of your Opple smart light
-app-misc/homeassistant-full:oralb - 
+app-misc/homeassistant-full:oralb - Integrates Oral-B devices into Home Assistant
 app-misc/homeassistant-full:orangepi_gpio - The orangepi_gpio integration is the base for all related GPIO platforms
 app-misc/homeassistant-full:oru - fetches your current energy usage from your ORU smart meter
 app-misc/homeassistant-full:orvibo - allows you to toggle your (dangerous) Orvibo S20 Wifi Smart Sockets
@@ -980,7 +980,7 @@ app-misc/homeassistant-full:smhi - support for the SMHI.se web service as a sour
 app-misc/homeassistant-full:sms - allows having a local execution SMS notification via Gammu
 app-misc/homeassistant-full:snapcast - The snapcast platform allows you to control Snapcast from Home Assistant
 app-misc/homeassistant-full:snmp - Presence Detection, Sensor, Switch via SNMP
-app-misc/homeassistant-full:snooz - 
+app-misc/homeassistant-full:snooz - Integrates SNOOZ devices into Home Assistant
 app-misc/homeassistant-full:socat - Set a flag to install socat and socat-zwave startscript
 app-misc/homeassistant-full:sochain - displays supported cryptocurrency wallet balances
 app-misc/homeassistant-full:solaredge - details from your SolarEdge solar power setup
