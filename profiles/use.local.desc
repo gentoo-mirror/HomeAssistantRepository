@@ -167,9 +167,7 @@ app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant:media_extractor - Gets a stream URL and sends it to a media player entity
 app-misc/homeassistant:meteo_france - uses the meteorological data from Meteo-France
 app-misc/homeassistant:mfi - sensor platform to allow you to monitor mFi mPort interface and sensors
-app-misc/homeassistant:miflora - miflora sensor platform allows one to monitor plant soil and air conditions
 app-misc/homeassistant:mikrotik - add support for MikroTik RouterOS API
-app-misc/homeassistant:mitemp_bt - mitemp_bt sensor platform allows one to monitor room temperature and humidity
 app-misc/homeassistant:mobile_app - allows Home Assistant mobile apps to easily integrate with Home Assistant
 app-misc/homeassistant:modbus - sensors and switches controlled over MODBUS serial, TCP, and UDP connections
 app-misc/homeassistant:mosquitto - Set a runtime dependency for Mosquitto MQTT broker
@@ -730,12 +728,10 @@ app-misc/homeassistant-full:metoffice - weather platform uses the Met Office’s
 app-misc/homeassistant-full:mfi - sensor platform to allow you to monitor mFi mPort interface and sensors
 app-misc/homeassistant-full:mhz19 - small non-dispersive infrared sensor that can measure CO2 level
 app-misc/homeassistant-full:microsoft - text-to-speech platform uses the TTS engine of the Microsoft Speech Service
-app-misc/homeassistant-full:miflora - miflora sensor platform allows one to monitor plant soil and air conditions
 app-misc/homeassistant-full:mikrotik - add support for MikroTik RouterOS API
 app-misc/homeassistant-full:mill - A python3 library to communicate with Mill
 app-misc/homeassistant-full:minecraft_server - retrieve information from a Minecraft server
 app-misc/homeassistant-full:minio - This integration adds interaction with Minio
-app-misc/homeassistant-full:mitemp_bt - mitemp_bt sensor platform allows one to monitor room temperature and humidity
 app-misc/homeassistant-full:moat - Integrates Moat devices into Home Assistant
 app-misc/homeassistant-full:mobile_app - allows Home Assistant mobile apps to easily integrate with Home Assistant
 app-misc/homeassistant-full:mochad - main integration to integrate all Mochad X10 platforms

@@ -5,16 +5,16 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-misc/home-assistant-cli 0.9.4 0.9.5 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.8.7 2022.9.7 2022.10.5 2022.11.0_beta7 2022.11.0: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.8.7-r1 2022.9.7 2022.10.5 2022.11.0_beta7 2022.11.0 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.8.7 2022.9.7 2022.10.5 2022.11.0_beta7 2022.11.0: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.8.7 2022.9.7 2022.10.5 2022.11.0 2022.11.1: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.8.7-r1 2022.9.7 2022.10.5 2022.11.0 2022.11.1 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.8.7 2022.9.7 2022.10.5 2022.11.0 2022.11.1 2022.11.1-r1: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.8.0 2022.9.3 2022.10.1 2022.10.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220508.0 20220925.0 20221007.0 20221020.0: ESPHome dashboard
 dev-embedded/esptool 3.3-r2 3.3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
 dev-embedded/platformio 5.2.5-r1 6.0.2-r2 6.1.4-r1: An open source ecosystem for IoT development
 dev-libs/protobuf 3.20.1: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-python/AEMET-OpenData 0.2.1-r1: AEMET OpenData Rest API library
-dev-python/AIOAladdinConnect 0.1.41 0.1.44 0.1.46: Python Async API for controlling Genie garage doors connected to Aladdin Connect devices
+dev-python/AIOAladdinConnect 0.1.41 0.1.44 0.1.46 0.1.47: Python Async API for controlling Genie garage doors connected to Aladdin Connect devices
 dev-python/Adafruit-Blinka 5.5.1 7.1.1: CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython.
 dev-python/Adafruit-GPIO 1.0.3: GPIO interface on the Raspberry Pi.
 dev-python/Adafruit-PCA9685 1.0.1: PCA9685 PWM servo/LED controller with a Raspberry Pi or BeagleBone Black.
@@ -125,7 +125,7 @@ dev-python/aioftp 0.12.0 0.21.3: ftp client/server for asyncio
 dev-python/aiogithubapi 22.2.4 22.10.1: Asynchronous Python client for the GitHub API
 dev-python/aioguardian 2022.3.2 2022.7.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aioharmony 0.2.9: Asyncio Python library for connecting to and controlling the Logitech Harmony
-dev-python/aiohomekit 1.2.11 1.5.12 2.0.1 2.0.2-r1 2.2.11 2.2.13: An asyncio HomeKit client
+dev-python/aiohomekit 1.2.11 1.5.12 2.0.2-r1 2.2.13 2.2.14: An asyncio HomeKit client
 dev-python/aiohttp 3.8.1-r1: http client/server for asyncio
 dev-python/aiohue 4.4.2 4.5.0: Python module to talk to Philips Hue.
 dev-python/aioimaplib 1.0.0 1.0.1: Python asyncio IMAP4rev1 client library
@@ -338,7 +338,7 @@ dev-python/elkm1-lib 2.0.2: Library for interacting with ElkM1 alarm/automation 
 dev-python/elmax-api 0.0.2: Asynchronous API Library to work with Elmax devices
 dev-python/emoji 1.5.0: Emoji for Python
 dev-python/emulated-roku 0.2.1: Library to emulate a roku server to serve as a proxyfor remotes such as Harmony
-dev-python/energyflip-client 0.2.1: Client for EnergyFlip
+dev-python/energyflip-client 0.2.1 0.2.2: Client for EnergyFlip
 dev-python/enocean 0.50.1: EnOcean serial protocol implementation
 dev-python/enturclient 0.2.4: An API client for public transport data from Entur.
 dev-python/enum-compat 0.0.3: enum/enum34 compatibility package
@@ -849,7 +849,7 @@ dev-python/pysnmp-pyasn1 1.1.2: ASN.1 types and codecs
 dev-python/pysnmp-pyasn1-modules 0.2.9: A collection of ASN.1-based protocols modules.
 dev-python/pysnmp-pysmi 1.1.10: PySMI is a pure-Python implementation of SNMP SMI MIB parser. This tool is designed to turn ASN.1 MIBs into various formats.
 dev-python/pysnmplib 5.0.10 5.0.15: Pure-Python, open source and free implementation of v1/v2c/v3 SNMP engine
-dev-python/pysnooz 0.8.2: Control SNOOZ white noise machines.
+dev-python/pysnooz 0.8.2 0.8.3: Control SNOOZ white noise machines.
 dev-python/pysoma 0.0.10: A simple package for controlling SOMA devices
 dev-python/pyspcwebgw 0.4.0: A Python library for communicating with SPC Web Gateway.
 dev-python/pysqueezebox 0.5.5 0.6.0 0.6.1: Asynchronous library to control Logitech Media Server
