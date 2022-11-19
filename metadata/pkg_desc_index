@@ -114,7 +114,7 @@ dev-python/aiocache 0.11.1: multi backend asyncio cache
 dev-python/aiocoap 0.4.3 0.4.4: Python CoAP library
 dev-python/aioconsole 0.5.1: Asynchronous console and interfaces for asyncio
 dev-python/aiodiscover 1.4.11 1.4.13: Discover hosts by arp and ptr lookup
-dev-python/aioeafm 0.1.2: An asyncio wrapper for the UK Environment Agency Flood Monitoring API
+dev-python/aioeafm 0.1.2-r1: An asyncio wrapper for the UK Environment Agency Flood Monitoring API
 dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2022.9.1 2022.9.3: Python wrapper for EcoWitt Protocol
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
@@ -304,7 +304,7 @@ dev-python/dacite 1.6.0: Simple creation of data classes from dictionaries.
 dev-python/datadog 0.15.0: The Datadog Python library
 dev-python/datapoint 0.9.8: Python interface to the Met Office's Datapoint API
 dev-python/dateparser 1.0.0 1.1.1: Date parsing library designed to parse dates from HTML pages
-dev-python/dbus-fast 1.5.1 1.24.0 1.60.0 1.61.1: A faster version of dbus-next
+dev-python/dbus-fast 1.5.1 1.24.0 1.61.1: A faster version of dbus-next
 dev-python/debugpy 1.6.0: An implementation of the Debug Adapter Protocol for Python
 dev-python/decora 0.6: Python API for controlling Decora dimmer switches
 dev-python/decora-wifi 1.4: Python API for controlling Leviton Decora Smart WiFi switches
@@ -635,7 +635,6 @@ dev-python/plexwebsocket 0.0.13: Support for issuing callbacks in response to Pl
 dev-python/plugwise 0.18.7 0.21.4 0.25.3 0.25.7: Plugwise (Adam/Anna/P1/Stick/Stretch) API to use in conjunction with Home Assistant Core.
 dev-python/plumlightpad 0.0.11: A python package that interacts with the Plum Lightpad
 dev-python/pmsensor 0.4: Library to read data from environment sensors
-dev-python/poetry 1.1.6: Python dependency management and packaging made easy.
 dev-python/poolsense 0.0.8: Asynchronous Python client for getting PoolSense data.
 dev-python/praw 7.5.0: PRAW, an acronym for Python Reddit API Wrapper, is a python package that allows for simple access to reddit's API.
 dev-python/prawcore 2.3.0: Low-level communication layer for PRAW 4+.
