@@ -5,9 +5,9 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-misc/home-assistant-cli 0.9.4 0.9.5 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.9.7 2022.10.5 2022.11.0 2022.11.2 2022.11.3: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.9.7 2022.10.5 2022.11.0 2022.11.2 2022.11.3 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.9.7 2022.10.5 2022.11.2 2022.11.3: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.9.7 2022.10.5 2022.11.0 2022.11.3 2022.11.4: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.9.7 2022.10.5 2022.11.0 2022.11.3 2022.11.4 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.9.7 2022.10.5 2022.11.3 2022.11.4: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.8.0 2022.9.3 2022.10.1 2022.10.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220508.0 20220925.0 20221007.0 20221020.0: ESPHome dashboard
 dev-embedded/esptool 3.3-r2 3.3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -60,7 +60,7 @@ dev-python/PySyncThru 0.7.10: Automated JSON API based communication with Samsun
 dev-python/PyTransportNSW 0.1.1: Get transport information from TransportNSW
 dev-python/PyTurboJPEG 1.6.7: A Python wrapper of libjpeg-turbo for decoding and encoding JPEG image.
 dev-python/PyUserInput 0.1.11: A simple, cross-platform module for mouse and keyboard control
-dev-python/PyViCare 2.16.2 2.17.0: Library to communicate with the Viessmann ViCare API
+dev-python/PyViCare 2.17.0 2.19.0: Library to communicate with the Viessmann ViCare API
 dev-python/PyXiaomiGateway 0.13.4 0.14.1 0.14.3: A library to communicate with the Xiaomi Gateway
 dev-python/Pyrebase4 4.5.0: A simple python wrapper for the Firebase API with current deps
 dev-python/Pysher 1.0.7: Pusher websocket client for python, based on Erik Kulyk's PythonPusherClient
@@ -234,7 +234,7 @@ dev-python/bidict 0.22.0: The bidirectional mapping library for Python.
 dev-python/bimmer-connected 0.10.2 0.10.4: Library to read data from the BMW Connected Drive portal
 dev-python/bizkaibus 0.1.1: Online information for buses of Biscay bus services (Basque Country, Spain).
 dev-python/bleak 0.17.0 0.18.1 0.19.1 0.19.2: Bluetooth Low Energy platform Agnostic Klient
-dev-python/bleak-retry-connector 1.17.1 2.1.3 2.8.2 2.8.3 2.8.4: A connector for Bleak Clients that handles transient connection failures
+dev-python/bleak-retry-connector 1.17.1 2.1.3 2.8.2 2.8.4 2.8.5: A connector for Bleak Clients that handles transient connection failures
 dev-python/blebox-uniapi 2.0.2-r1 2.1.3: Python API for accessing BleBox smart home devices
 dev-python/blinkpy 0.19.0 0.19.2: A Blink camera Python library running on Python 3.
 dev-python/blinkt 0.1.0: Python library for driving Pimoroni Blinkt!
@@ -287,7 +287,7 @@ dev-python/connio 0.2.0: Concurrency agnostic socket API
 dev-python/construct 2.10.56: A powerful declarative parser for binary data
 dev-python/convertdate 2.4.0: Converts between Gregorian dates and other calendar systems.
 dev-python/coronavirus 1.1.1: Asynchronous Python client for getting Corona virus info.
-dev-python/coverage 6.4 6.4.2: Code coverage measurement for Python
+dev-python/coverage 6.4 6.4.4-r1: Code coverage measurement for Python
 dev-python/coveralls 3.3.1-r1: Show coverage stats online via coveralls.io
 dev-python/crc16 0.1.1: Library for calculating CRC16
 dev-python/crccheck 1.3.0: Calculation library for CRCs and checksums
@@ -367,7 +367,7 @@ dev-python/fixerio 1.0.0_alpha0: A Python client for Fixer.io
 dev-python/fjaraskupan 1.0.2 2.0.0 2.2.0: A python library for speaking to fjäråskupan
 dev-python/flake8-docstrings 1.6.0-r1: Extension for flake8 which uses pydocstyle to check docstrings
 dev-python/flipr-api 1.4.2: Python client for flipr API.
-dev-python/flux-led 0.28.30 0.28.32: A Python library to communicate with the flux_led smart bulbs
+dev-python/flux-led 0.28.32 0.28.34: A Python library to communicate with the flux_led smart bulbs
 dev-python/fnvhash 0.1.0: Pure Python FNV hash implementation
 dev-python/foobot_async 1.0.0: API Client for Foobot Air Quality Monitoring devices.
 dev-python/forecast-solar 2.2.0: Asynchronous Python client for getting forecast solar information
@@ -839,7 +839,7 @@ dev-python/pysha3 1.0.2: SHA-3 (Keccak) for Python 2.7 - 3.5
 dev-python/pysiaalarm 3.0.2: Python package for creating a client that talks with SIA-based alarm systems.
 dev-python/pysignalclirestapi 0.3.18: Small python library for the Signal Cli REST API
 dev-python/pyskyqhub 0.1.4: Library for Sky Q hub
-dev-python/pysma 0.6.11 0.6.12 0.7.2: Library to interface an SMA Solar WebConnect module
+dev-python/pysma 0.6.12 0.7.2 0.7.3: Library to interface an SMA Solar WebConnect module
 dev-python/pysmappee 0.2.29: Offical Smappee dev API and MQTT python wrapper
 dev-python/pysmartapp 0.3.3: A python library for building a SmartThings SmartApp
 dev-python/pysmartthings 0.7.6: A python library for interacting with the SmartThings cloud API build with asyncio and aiohttp.
@@ -859,7 +859,7 @@ dev-python/pyswitchbee 1.5.5: SwitchBee Python Integration.
 dev-python/pytankerkoenig 0.0.6: Library for Tankerkoenig.de JSON API
 dev-python/pytautulli 21.11.0: Python API wrapper for Tautulli.
 dev-python/pytest 7.1.1: Simple powerful testing with Python
-dev-python/pytest-cov 2.12.1-r1: py.test plugin for coverage reporting
+dev-python/pytest-cov 3.0.0-r2: py.test plugin for coverage reporting
 dev-python/pytest-runner 5.2: Invoke py.test as distutils command with dependency resolution
 dev-python/pytest-socket 0.5.1: Pytest Plugin to disable socket calls during tests
 dev-python/pytest-sugar 0.9.5: py.test plugin that changes the default look and feel of py.test
@@ -948,7 +948,7 @@ dev-python/raincloudy 0.0.7-r1: Melnor RainCloud Smart Garden Watering Irrigatio
 dev-python/raspihats 2.2.3: package for controlling raspihats.com boards
 dev-python/raspyrfm-client 1.2.8: A library to send rc signals with the RaspyRFM module
 dev-python/readlike 0.1.2: GNU Readline-like line editing module
-dev-python/regenmaschine 2022.7.1 2022.9.1 2022.9.2 2022.10.0: A simple API for RainMachine sprinkler controllers
+dev-python/regenmaschine 2022.9.1 2022.9.2 2022.10.0 2022.11.0: A simple API for RainMachine sprinkler controllers
 dev-python/regex 2021.8.28: Alternative regular expression module to replace re
 dev-python/related 0.7.2: Related: Straightforward nested object models in Python
 dev-python/renault-api 0.1.11: Renault API
@@ -1125,7 +1125,7 @@ dev-python/xbee-helper 0.0.7: a high level API to an XBee device
 dev-python/xbox-webapi 2.0.11: A library to authenticate with Windows Live/Xbox Live and use their API
 dev-python/xboxapi 2.0.1: A wrapper library for XboxAPI.com
 dev-python/xiaomi-ble 0.6.4 0.9.0 0.10.0: Manage Xiaomi BLE devices
-dev-python/xknx 1.0.1 1.0.2 1.1.0 1.2.0: An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/
+dev-python/xknx 1.0.2 1.1.0 1.2.0 1.2.1: An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/
 dev-python/xmltodict 0.12.0-r1: Makes working with XML feel like you are working with JSON
 dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontrol XS1 Gateway
 dev-python/yalesmartalarmclient 0.3.8 0.3.9: Interact with Yale Smart Alarm systems
