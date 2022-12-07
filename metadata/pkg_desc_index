@@ -758,7 +758,7 @@ dev-python/pyirishrail 0.0.2: Python library to get the real-time transport info
 dev-python/pyiss 1.0.1: A simple python3 library for info about the current International Space Station location
 dev-python/pyisy 3.0.7 3.0.8: Python module to talk to ISY994 from UDI.
 dev-python/pyitachip2ir 0.0.7: A library for sending IR commands to an ITach IP2IR gateway
-dev-python/pyjwt 2.1.0 2.3.0: JSON Web Token implementation in Python
+dev-python/pyjwt 2.3.0 2.5.0: JSON Web Token implementation in Python
 dev-python/pykaleidescape 1.0.1: A python client library for the Kaleidescape System Control Protocol.
 dev-python/pykira 0.1.1: Communicate with Kira IR-IP modules
 dev-python/pykmtronic 0.3.0: Python library to interface with KM Tronic Web Relays
@@ -1150,6 +1150,7 @@ dev-python/zm-py 0.5.2: A loose python wrapper around the ZoneMinder REST API.
 dev-python/zwave-js-server-python 0.39.0 0.41.1 0.43.0: Python wrapper for zwave-js-server
 dev-python/zwave-me-ws 0.2.4 0.2.6: Library, implementing websocket connection to ZWave-Me
 dev-vcs/pre-commit 2.19.0: A framework for managing and maintaining multi-language Git pre-commit hooks
+media-libs/mutagen 1.45.1: Audio metadata tag reader and writer implemented in pure Python
 sci-geosciences/geopy 2.1.0: Python Geocoding Toolbox
 sci-libs/tensorflow 2.5.0-r3: Computation framework using data flow graphs for scalable machine learning
 virtual/mqtt 1: Virtual for Home Assistant MQTT
