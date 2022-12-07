@@ -858,14 +858,14 @@ dev-python/pysuez 0.1.19: Get your water consumption data from your Suez account
 dev-python/pyswitchbee 1.5.5: SwitchBee Python Integration.
 dev-python/pytankerkoenig 0.0.6: Library for Tankerkoenig.de JSON API
 dev-python/pytautulli 21.11.0: Python API wrapper for Tautulli.
-dev-python/pytest 7.1.1: Simple powerful testing with Python
+dev-python/pytest 7.1.3: Simple powerful testing with Python
 dev-python/pytest-cov 3.0.0-r2: py.test plugin for coverage reporting
 dev-python/pytest-runner 5.2: Invoke py.test as distutils command with dependency resolution
 dev-python/pytest-socket 0.5.1: Pytest Plugin to disable socket calls during tests
 dev-python/pytest-sugar 0.9.5: py.test plugin that changes the default look and feel of py.test
 dev-python/pytest-test-groups 1.0.3: A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups.
 dev-python/pytest-timeout 2.0.1: pytest plugin to abort hanging tests
-dev-python/pytest-xdist 2.4.0: Distributed testing and loop-on-failing modes
+dev-python/pytest-xdist 2.5.0-r1: Distributed testing and loop-on-failing modes
 dev-python/pytfiac 0.4: API for Tfiac AC
 dev-python/pythinkingcleaner 0.0.3: Library to control ThinkingCleaner devices
 dev-python/python-awair 0.2.3 0.2.4: asyncio client for the Awair GraphQL and Local APIs
