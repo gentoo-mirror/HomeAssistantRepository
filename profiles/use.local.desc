@@ -98,6 +98,7 @@ app-misc/homeassistant:dwd_weather_warnings - dwd_weather_warnings sensor platfo
 app-misc/homeassistant:dynalite - Dynalite DyNET interface forHome Assistant
 app-misc/homeassistant:dyson - integrate all Dyson related platforms into Home Assistant
 app-misc/homeassistant:ecobee - Talk to Ecobee thermostats from Home Assistant
+app-misc/homeassistant:ecowitt - add Ecowitt Weather station to your Home Assistant
 app-misc/homeassistant:emulated_roku - Emulate Roku API for Harmony and Android remotes
 app-misc/homeassistant:enigma2 - Support for Enigma2 boxes with openwebif support
 app-misc/homeassistant:enocean - Support for Enocean devices in Home Assistant
@@ -1195,6 +1196,7 @@ app-misc/homeassistant-min:darksky - Use dark sky weather data from Home Assista
 app-misc/homeassistant-min:dlna_dmr - Allows you to control a DLNA Digital Media Renderer
 app-misc/homeassistant-min:dlna_dms - allows you to browse and play media from a DLNA Digital Media Server
 app-misc/homeassistant-min:dwd_weather_warnings - dwd_weather_warnings sensor platform uses DWD for warnings
+app-misc/homeassistant-min:ecowitt - add Ecowitt Weather station to your Home Assistant
 app-misc/homeassistant-min:enigma2 - Support for Enigma2 boxes with openwebif support
 app-misc/homeassistant-min:esphome - Support for esphome sensors, covers and switches and it's dashboard
 app-misc/homeassistant-min:ffmpeg - allows other Home Assistant integrations to process video and audio streams
