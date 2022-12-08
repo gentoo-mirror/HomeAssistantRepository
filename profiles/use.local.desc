@@ -160,6 +160,7 @@ app-misc/homeassistant:kraken - allows you to monitor exchange rates on kraken.c
 app-misc/homeassistant:lifx - The lifx integration allows you to integrate your LIFX into Home Assistant
 app-misc/homeassistant:linode - allows you to access the information about your Linode systems
 app-misc/homeassistant:litterrobot - Wi-Fi-enabled, automatic, self-cleaning litter box for cats
+app-misc/homeassistant:local_calendar - create a calendar of events in Home Assistant
 app-misc/homeassistant:loopenergy - Integrate your Loop Energy meter information into Home Assistant
 app-misc/homeassistant:luci - fetch connected devices from your OpenWrt
 app-misc/homeassistant:luftdaten - query the open data API of luftdaten.info to monitor air quality
@@ -305,6 +306,7 @@ app-misc/homeassistant-full:aftership - The aftership platform allows one to tra
 app-misc/homeassistant-full:agent_dvr - Agent DVR is a free* software DVR solution
 app-misc/homeassistant-full:airly - Uses the Airly web service as a source for air quality data
 app-misc/homeassistant-full:airnow - AirNow web service as a source for air quality data
+app-misc/homeassistant-full:airq - integrating the sensors provided by your air-Q device
 app-misc/homeassistant-full:airthings - A python3 library to communicate with Aws
 app-misc/homeassistant-full:airthings_ble - Integrates Airthings BLE sensors into Home Assistant
 app-misc/homeassistant-full:airtouch4 - control Ducted Air Conditioning Systems that are using the AirTouch 4 Controller
@@ -333,6 +335,7 @@ app-misc/homeassistant-full:apprise - The Apprise service is an all-in-one solut
 app-misc/homeassistant-full:aprs - Tracker integration connects to the APRS-IS
 app-misc/homeassistant-full:aqualogic - Provides connectivity to a Hayward/Goldline AquaLogic/ProLogic pool controller
 app-misc/homeassistant-full:aquostv - The aquostv platform allows you to control a Sharp Aquos TV
+app-misc/homeassistant-full:aranet - Integrates Aranet devices into Home Assistant
 app-misc/homeassistant-full:arcam_fmj - Control Arcam receivers from Home Assistant
 app-misc/homeassistant-full:arduino - deprecated
 app-misc/homeassistant-full:arlo - Allows you to integrate your Arlo devices into Home Assistant
@@ -381,6 +384,7 @@ app-misc/homeassistant-full:bmp280 - Get temperature and pressure values of a Bo
 app-misc/homeassistant-full:bmw_connected_drive - Retrieve data from the BMW Connected Drive
 app-misc/homeassistant-full:bond - Asynchronous Python wrapper library over Bond Local API
 app-misc/homeassistant-full:bosch_shc - integrate your Bosch SHC into Home Assistant
+app-misc/homeassistant-full:brandt - 
 app-misc/homeassistant-full:braviatv - Control almost all Sony Bravia TV 2013 and newer
 app-misc/homeassistant-full:broadlink - Allows you to interact with Broadlink remote control devices
 app-misc/homeassistant-full:brother - Read current data from your local Brother printer
@@ -511,6 +515,7 @@ app-misc/homeassistant-full:ffmpeg - allows other Home Assistant integrations to
 app-misc/homeassistant-full:fibaro - Fibaro hub is a controller mainly connecting to Z-Wave devices
 app-misc/homeassistant-full:fido - Integrate your Fido account information into Home Assistant
 app-misc/homeassistant-full:file - Store notifications as a file
+app-misc/homeassistant-full:file_upload - The file upload integration allows various features in the frontend to upload fi
 app-misc/homeassistant-full:fints - This only works with banks that support the FinTS (aka. HBCI) standard
 app-misc/homeassistant-full:fireservicerota - scheduling and dispatching system for firefighters
 app-misc/homeassistant-full:firmata - Firmata can be used to add digital inputs and outputs to Home Assistant
@@ -584,6 +589,7 @@ app-misc/homeassistant-full:gtfs - gtfs sensor will give you the next departure 
 app-misc/homeassistant-full:guardian - Integrates Elexa Guardian water valve controllers into Home Assistant
 app-misc/homeassistant-full:habitica - Allows you to monitor and manage your Habitica profile
 app-misc/homeassistant-full:hangouts - Allows you to send messages to Google Hangouts conversations
+app-misc/homeassistant-full:hardware - provides an API which offers information about certain board types, USB dongles,
 app-misc/homeassistant-full:harman_kardon_avr - Allows you to control Harman Kardon Network Receivers
 app-misc/homeassistant-full:harmony - Logitech Harmony support for Home Assistant
 app-misc/homeassistant-full:hdmi_cec - Creates switch entities for HDMI devices in Home Assistant
@@ -692,6 +698,8 @@ app-misc/homeassistant-full:linode - allows you to access the information about 
 app-misc/homeassistant-full:linux_battery - sensor platform is using the information stored in /sys/class/power_supply/
 app-misc/homeassistant-full:litejet - allows a computer to control the system via LiteJet’s third party protocol
 app-misc/homeassistant-full:litterrobot - Wi-Fi-enabled, automatic, self-cleaning litter box for cats
+app-misc/homeassistant-full:livisi - connect your LIVISI Smart Home Controller (SHC) to Home Assistant
+app-misc/homeassistant-full:local_calendar - create a calendar of events in Home Assistant
 app-misc/homeassistant-full:logi_circle - integrate your Logi Circle cameras in Home Assistant
 app-misc/homeassistant-full:london_underground - display the status of London underground lines
 app-misc/homeassistant-full:lookin - Integrates LOOKin devices into Home Assistant
@@ -710,6 +718,7 @@ app-misc/homeassistant-full:mariadb - WIP: set dependencies for mariadb-connecto
 app-misc/homeassistant-full:marytts - text-to-speech platform uses MaryTTS Text-to-Speech engine
 app-misc/homeassistant-full:mastodon - uses Mastodon to deliver notifications from Home Assistant
 app-misc/homeassistant-full:matrix - allows you to send messages to matrix rooms
+app-misc/homeassistant-full:matter - control Matter devices on your local WiFi or Thread network
 app-misc/homeassistant-full:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant-full:mazda - Mazda Connected Services integration
 app-misc/homeassistant-full:mcp23017 - base for all related mcp23017 platforms in Home Assistant
@@ -924,6 +933,7 @@ app-misc/homeassistant-full:rtsp_to_webrtc - provide WebRTC live streams for any
 app-misc/homeassistant-full:ruckus_unleashed - Python API to interact with a Ruckus Unleashed device
 app-misc/homeassistant-full:russound_rio - control Russound devices that make use of the RIO protocol
 app-misc/homeassistant-full:russound_rnet - control Russound devices that make use of the RNET protocol
+app-misc/homeassistant-full:ruuvitag_ble - Integrates Ruuvi’s RuuviTag BLE devices into Home Assistant
 app-misc/homeassistant-full:sabnzbd - monitor and control your downloads with SABnzbd from within Home Assistant
 app-misc/homeassistant-full:saj - poll a SAJ solar inverter and present the values as sensors
 app-misc/homeassistant-full:samsungtv - Support for Samsung TV Sets
@@ -938,6 +948,7 @@ app-misc/homeassistant-full:sense - Integrate your Sense meter information into 
 app-misc/homeassistant-full:sensehat - lets you control the Sense HAT board’s 8x8 RGB LED matrix on your Raspberry Pi
 app-misc/homeassistant-full:senseme - Integrates SenseME devices into Home Assistant
 app-misc/homeassistant-full:sensibo - Integrates Sensibo Air Conditioning controller into Home Assistant
+app-misc/homeassistant-full:sensirion_ble - Integrates sensors talking Sensirion’s BLE protocol into Home Assistant
 app-misc/homeassistant-full:sensorpro - Integrates SensorPro devices into Home Assistant
 app-misc/homeassistant-full:sensorpush - Integrates SensorPush devices into Home Assistant
 app-misc/homeassistant-full:sentry - The free Sentry account allows 5000 events per month
@@ -1165,6 +1176,7 @@ app-misc/homeassistant-full:yi - allows you to utilize Yi Home Cameras within Ho
 app-misc/homeassistant-full:yolink - Integrates YoLink Devices into Home Assistant
 app-misc/homeassistant-full:youless - allows you to read the meter values from sensors created by YouLess
 app-misc/homeassistant-full:zabbix - integration to connect to a Zabbix monitoring instance via the Zabbix API
+app-misc/homeassistant-full:zamg - meteorological details published by the Austrian weather service
 app-misc/homeassistant-full:zengge - Python API for controlling Zengge LED bulbs
 app-misc/homeassistant-full:zeroconf - will scan the network for supported devices and services
 app-misc/homeassistant-full:zerproc - discovers nearby Zerproc lights
@@ -1212,6 +1224,7 @@ app-misc/homeassistant-min:influxdb - transfer sensor data to a local InfluxDB d
 app-misc/homeassistant-min:knx - Asynchronous Library for the KNX protocol
 app-misc/homeassistant-min:kodi - control a Kodi multimedia system
 app-misc/homeassistant-min:kraken - allows you to monitor exchange rates on kraken.com
+app-misc/homeassistant-min:local_calendar - create a calendar of events in Home Assistant
 app-misc/homeassistant-min:mariadb - WIP: set dependencies for mariadb-connector-python
 app-misc/homeassistant-min:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant-min:mikrotik - add support for MikroTik RouterOS API
