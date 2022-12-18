@@ -1284,13 +1284,3 @@ app-misc/homeassistant-min:zha - Support for ZHA/deconz based Zigbee/ZNet Device
 app-misc/homeassistant-min:zwave_js - control a Z-Wave network via the Z-Wave JS driver
 dev-embedded/esphome:server - add server for ESPHome dashboard
 dev-python/envs:cli - add cli support
-dev-python/pillow:imagequant - Build with Image Quantization Library support
-dev-python/pymodbus:serial - add modbus serial support
-dev-python/pymysensors:mqtt - Set MQTT Depedency
-dev-python/python-openzwave-mqtt:async - Build with async support (default)
-dev-python/roombapy:mqtt - Build with mqtt support
-dev-python/samsungctl:websocket - Install websocket-client.
-dev-python/samsungtvws:async - use aiohttp/websocket
-dev-python/samsungtvws:encrypted - add support for encrypted communication
-dev-python/volvooncall:console - add support for console
-dev-python/volvooncall:mqtt - add support for MQTT
