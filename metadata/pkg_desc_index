@@ -5,9 +5,9 @@ acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-misc/home-assistant-cli 0.9.4 0.9.5 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.11.0 2022.11.5 2022.12.4 2022.12.5 2022.12.6 2022.12.7: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.11.0 2022.11.5 2022.12.4 2022.12.5 2022.12.6 2022.12.7 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.11.5 2022.12.4 2022.12.5 2022.12.6 2022.12.7: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.11.0 2022.11.5 2022.12.5 2022.12.6 2022.12.7 2022.12.8: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.11.0 2022.11.5 2022.12.5 2022.12.6 2022.12.7 2022.12.8 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.11.5 2022.12.5 2022.12.6 2022.12.7 2022.12.8: Open-source home automation platform running on Python.
 dev-embedded/esphome 2022.8.0 2022.9.3 2022.10.1 2022.10.2 2022.11.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220508.0 20220925.0 20221007.0 20221020.0 20221109.0: ESPHome dashboard
 dev-embedded/esptool 3.3-r2 3.3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
@@ -246,7 +246,7 @@ dev-python/bluemaestro-ble 0.2.0: bluemaestro BLE devices
 dev-python/bluepy 1.3.0: Python module for interfacing with BLE devices through Bluez
 dev-python/bluetooth-adapters 0.6.0 0.7.0 0.12.0-r1 0.14.1: Tools to enumerate and find Bluetooth Adapters
 dev-python/bluetooth-auto-recovery 0.3.6 1.0.0 1.0.3: Recover bluetooth adapters that are in an stuck state
-dev-python/bluetooth-data-tools 0.1.2 0.3.0: Tools for converting bluetooth data and packets
+dev-python/bluetooth-data-tools 0.1.2 0.3.0 0.3.1: Tools for converting bluetooth data and packets
 dev-python/bluetooth-sensor-state-data 1.5.0 1.6.0: Models for storing and converting Bluetooth Sensor State Data
 dev-python/bme280spi 0.2.0: Library for BME280 sensor through spidev
 dev-python/bme680 1.0.5: Python library for driving the Pimoroni BME680 Breakout
@@ -383,7 +383,7 @@ dev-python/gTTS 2.2.4: gTTS (Google Text-to-Speech), a Python library and CLI to
 dev-python/garages-amsterdam 3.0.0: Asynchronous Python client for getting garage occupancy in Amsterdam
 dev-python/garminconnect-ha 0.1.6: Garmin Connect Python 3 API wrapper for Home Assistant
 dev-python/gatt 0.2.7: Bluetooth GATT SDK for Python
-dev-python/gcal-sync 0.10.0 2.2.3 4.0.2 4.0.3 4.0.4: A python library for syncing Google Calendar to local storage
+dev-python/gcal-sync 2.2.3 4.0.3 4.0.4: A python library for syncing Google Calendar to local storage
 dev-python/gcloud 0.18.3: API Client library for Google Cloud
 dev-python/geniushub-client 0.6.30: A aiohttp-based client for Genius Hub systems
 dev-python/geocachingapi 0.2.1: Python client for controlling the Geocaching API
@@ -465,7 +465,7 @@ dev-python/ibeacon-ble 0.7.3 1.0.1: Parser for iBeacon devices
 dev-python/ibm-cloud-sdk-core 3.11.3: Core library used by SDKs for IBM Cloud Services
 dev-python/ibm-watson 5.2.2: Client library to use the IBM Watson Services
 dev-python/ibmiotf 0.3.4: Python Client for IBM Watson IoT Platform
-dev-python/ical 4.2.2 4.2.3: Python iCalendar implementation (rfc 2445)
+dev-python/ical 4.2.2 4.2.3 4.2.4: Python iCalendar implementation (rfc 2445)
 dev-python/icmplib 3.0: Easily forge ICMP packets and make your own ping and traceroute.
 dev-python/ifaddr 0.1.7: Enumerate IP addresses on the local network adapters
 dev-python/iglo 1.2.7: Control iGlo based RGB lights
@@ -680,7 +680,7 @@ dev-python/pyEmby 1.8: Provides a python interface to interact with a Emby media
 dev-python/pyHik 0.3.0 0.3.1 0.3.2: Provides a python api to interact with a Hikvision camera event stream and toggle motion detection.
 dev-python/pyRFXtrx 0.30.0: a library to communicate with the RFXtrx family of devices
 dev-python/pySDCP 1: SDCP library to control Sony Projectors
-dev-python/pyTibber 0.25.6 0.26.1 0.26.4 0.26.5: A python3 library to communicate with Tibber
+dev-python/pyTibber 0.25.6 0.26.1 0.26.4 0.26.5 0.26.6: A python3 library to communicate with Tibber
 dev-python/pyW215 0.7.0: Interface for d-link W215 Smart Plugs.
 dev-python/pyW800rf32 0.1: A library to communicate with the W800rf32 family of devices
 dev-python/pyads 3.2.2: Python wrapper for TwinCAT ADS library
@@ -717,7 +717,6 @@ dev-python/pycsspeechtts 1.0.4 1.0.8: Python 3 interface to Microsoft Cognitive 
 dev-python/pycups 1.9.73-r3: Python bindings for the CUPS API
 dev-python/pydaikin 2.7.0 2.7.2 2.8.0: Python Daikin HVAC appliances interface
 dev-python/pydanfossair 0.1.0: Python interface for Danfoss Air HRV systems
-dev-python/pydantic 1.8.2 1.9.0: Data validation and settings management using python type hints
 dev-python/pydeconz 104 105: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
 dev-python/pydelijn 1.0.0: Get realtime info on stop passages of De Lijn (api.delijn.be)
 dev-python/pydexcom 0.2.3: Python API to interact with Dexcom Share API
