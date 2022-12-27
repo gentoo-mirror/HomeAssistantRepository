@@ -1160,6 +1160,5 @@ dev-python/zwave-me-ws 0.2.4 0.2.6 0.3.0: Library, implementing websocket connec
 media-libs/mutagen 1.45.1: Audio metadata tag reader and writer implemented in pure Python
 sci-geosciences/aranet4 2.1.3: Aranet4 Python client
 sci-geosciences/geopy 2.1.0 2.3.0: Python Geocoding Toolbox
-sci-libs/tensorflow 2.5.0-r3: Computation framework using data flow graphs for scalable machine learning
 virtual/mqtt 1: Virtual for Home Assistant MQTT
 www-servers/tornado 6.1-r2: Python web framework and asynchronous networking library
