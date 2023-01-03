@@ -5,14 +5,13 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{8..11} )
 DISTUTILS_USE_PEP517=setuptools
-
 inherit distutils-r1
 
-DESCRIPTION="Nibe heatpump communication library"
-HOMEPAGE="https://github.com/yozik04/nibe https://pypi.org/project/nibe/"
+DESCRIPTION="Concurrency agnostic socket API"
+HOMEPAGE="https://github.com/tiagocoutinho/sockio/ https://pypi.org/project/sockio/"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="LGPL-3"
+LICENSE="GPL-3.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -20,10 +19,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/async-modbus-0.2.0[${PYTHON_USEDEP}]
-	>=dev-python/construct-2.10.0[${PYTHON_USEDEP}]
-	>=dev-python/async-timeout-4.0.0[${PYTHON_USEDEP}]
-	>=dev-python/tenacity-8.0.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (

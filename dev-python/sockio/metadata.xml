@@ -6,12 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">tensorflow</remote-id>
-    <remote-id type="github">oneapi-src/oneDNN</remote-id>
-    <remote-id type="gitlab">libeigen/eigen</remote-id>
+    <remote-id type="pypi">sockio</remote-id>
+    <remote-id type="github">tiagocoutinho/sockio</remote-id>
     <maintainer status="unknown">
-      <email>packages@tensorflow.org</email>
-      <name>Google Inc.</name>
+      <email>coutinhotiago@gmail.com</email>
+      <name>Jose Tiago Macara Coutinho</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
