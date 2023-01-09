@@ -143,6 +143,7 @@ app-misc/homeassistant:hue - talk to Philips Hue
 app-misc/homeassistant:hydrawise - communicate with Hunter Wi-Fi irrigation controllers
 app-misc/homeassistant:iaqualink - iAqualink by Jandy allows you to control your pool via cloud service
 app-misc/homeassistant:ihc - use IHC Python SDK
+app-misc/homeassistant:image_upload - handle image assets in Home Assistant
 app-misc/homeassistant:imap - observing your IMAP server and reporting the amount of unread emails
 app-misc/homeassistant:incomfort - client for Intergas InComfort/InTouch Lan2RF systems
 app-misc/homeassistant:influxdb - transfer sensor data to a local InfluxDB database
@@ -311,6 +312,7 @@ app-misc/homeassistant-full:airthings - A python3 library to communicate with Aw
 app-misc/homeassistant-full:airthings_ble - Integrates Airthings BLE sensors into Home Assistant
 app-misc/homeassistant-full:airtouch4 - control Ducted Air Conditioning Systems that are using the AirTouch 4 Controller
 app-misc/homeassistant-full:airvisual - Airvisual sensor platform queries the AirVisual cloud API for air quality data
+app-misc/homeassistant-full:airvisual_pro - allows Home Assistant to retrieve data from an AirVisual Node/Pro unit
 app-misc/homeassistant-full:airzone - This integration allows getting values from the local API of Airzone HVAC zoning
 app-misc/homeassistant-full:aladdin_connect - The aladdin_connect cover platform lets you control Genie Aladdin Connect garage
 app-misc/homeassistant-full:alarmdecoder - AlarmDecoder extended
@@ -634,6 +636,7 @@ app-misc/homeassistant-full:iglo - integrate your iGlo Lights into Home Assistan
 app-misc/homeassistant-full:ign_sismologia - a GeoRSS feed provided by the Spanish Instituto Geográfico Nacional
 app-misc/homeassistant-full:ihc - use IHC Python SDK
 app-misc/homeassistant-full:image - handle image assets in Home Assistant
+app-misc/homeassistant-full:image_upload - handle image assets in Home Assistant
 app-misc/homeassistant-full:imap - observing your IMAP server and reporting the amount of unread emails
 app-misc/homeassistant-full:incomfort - client for Intergas InComfort/InTouch Lan2RF systems
 app-misc/homeassistant-full:influxdb - transfer sensor data to a local InfluxDB database
@@ -876,6 +879,7 @@ app-misc/homeassistant-full:prusalink - PrusaLink integration allows you to moni
 app-misc/homeassistant-full:ps4 - allows you to control a Sony PlayStation 4 console
 app-misc/homeassistant-full:pulseaudio_loopback - whole home audio system based upon PulseAudio
 app-misc/homeassistant-full:pure_energie - integrates the Pure Energie Monitor device with Home Assistant
+app-misc/homeassistant-full:purpleair - PurpleAir makes sensors that measure hyper-local air quality data
 app-misc/homeassistant-full:pushbullet - sensor platform reads messages from Pushbullet
 app-misc/homeassistant-full:pushover - allows integrations to send messages to the user using Pushover
 app-misc/homeassistant-full:pvoutput - The PVOutput integration
@@ -908,6 +912,7 @@ app-misc/homeassistant-full:rejseplanen - travel details for Danish public trans
 app-misc/homeassistant-full:remember_the_milk - create tasks in Remember The Milk (RTM) (deprecated)
 app-misc/homeassistant-full:remote_rpi_gpio - base for all related GPIO platforms in Home Assistant
 app-misc/homeassistant-full:renault - integration with the MyRenault cloud service
+app-misc/homeassistant-full:reolink - The integration allows you to control Reolink NVRs or cameras
 app-misc/homeassistant-full:repetier - Repetier-Server is a 3D printer/CNC server, able to control multiple devices
 app-misc/homeassistant-full:rest - rest sensor platform for data exposed by a RESTful API
 app-misc/homeassistant-full:rflink - The rflink integration supports devices that use RFLink gateway firmware
