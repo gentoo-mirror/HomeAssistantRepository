@@ -1108,7 +1108,6 @@ app-misc/homeassistant-full:unifiprotect - Camera feeds and Sensor data from a U
 app-misc/homeassistant-full:upb - Library for interacting with UPB PIM
 app-misc/homeassistant-full:upc_connect - presence detection by looking at a Connect Box
 app-misc/homeassistant-full:upcloud - allows you to access the information about your UpCloud servers
-app-misc/homeassistant-full:updater - binary sensor will check daily for new releases
 app-misc/homeassistant-full:upnp - support UPnP/Internet Gateway Device (IGD) Protocol
 app-misc/homeassistant-full:uptimerobot - provides binary sensors from your monitors from Uptime Robot
 app-misc/homeassistant-full:usb - USB Discovery integration will watch the host for USB devices
