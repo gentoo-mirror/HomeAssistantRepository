@@ -1288,3 +1288,4 @@ app-misc/homeassistant-min:zha - Support for ZHA/deconz based Zigbee/ZNet Device
 app-misc/homeassistant-min:zwave_js - control a Z-Wave network via the Z-Wave JS driver
 dev-embedded/esphome:server - add server for ESPHome dashboard
 dev-python/envs:cli - add cli support
+dev-python/pylutron-caseta:cli - Install command line tools
