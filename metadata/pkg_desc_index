@@ -9,9 +9,9 @@ acct-user/node-red 0: A user for node-red
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-misc/home-assistant-cli 0.9.4 0.9.5 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.11.0 2022.12.9 2023.1.7 2023.2.3-r1 2023.2.4 2023.2.5: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.11.0 2022.12.9 2023.1.7 2023.2.3-r1 2023.2.4 2023.2.5 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2022.12.9 2023.1.7 2023.2.3-r1 2023.2.4 2023.2.5: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.11.0 2022.12.9 2023.1.7 2023.2.4 2023.2.5: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.11.0 2022.12.9 2023.1.7 2023.2.4 2023.2.5 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2022.12.9 2023.1.7 2023.2.4 2023.2.5 2023.3.0_beta3: Open-source home automation platform running on Python.
 app-misc/node-red 3.0.2: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 1.30.1: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2022.8.0 2022.9.3 2022.10.1 2022.10.2 2022.11.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
