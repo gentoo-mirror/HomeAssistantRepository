@@ -1,13 +1,19 @@
 acct-group/esphome 0: ESPHome Dashboard group
 acct-group/homeassistant 0: Homeassistant program group
+acct-group/node-red 0: System group: node-red
+acct-group/zigbee2mqtt 0: System group: zigbee2mqtt
 acct-group/zwavejs2mqtt 0: zwavejs2mqtt group
 acct-user/esphome 0: ESPHome Dashboard User
 acct-user/homeassistant 0: Home Assistant Program User
+acct-user/node-red 0: A user for node-red
+acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-misc/home-assistant-cli 0.9.4 0.9.5 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/homeassistant 2022.11.0 2022.12.7 2022.12.9 2023.1.2-r1 2023.1.7 2023.2.3-r1 2023.2.4: Open-source home automation platform running on Python.
 app-misc/homeassistant-full 2022.11.0 2022.12.7 2022.12.9 2023.1.2-r1 2023.1.7 2023.2.3-r1 2023.2.4 9999: Open-source home automation platform running on Python.
 app-misc/homeassistant-min 2022.12.7 2022.12.9 2023.1.2-r1 2023.1.7 2023.2.3-r1 2023.2.4: Open-source home automation platform running on Python.
+app-misc/node-red 3.0.2: A visual tool for wiring the Internet of Things.
+app-misc/zigbee2mqtt 1.30.1: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2022.8.0 2022.9.3 2022.10.1 2022.10.2 2022.11.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20220508.0 20220925.0 20221007.0 20221020.0 20221109.0: ESPHome dashboard
 dev-embedded/esptool 3.3-r2 3.3.1: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
