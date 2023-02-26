@@ -1295,3 +1295,4 @@ app-misc/homeassistant-min:zwave_js - control a Z-Wave network via the Z-Wave JS
 dev-embedded/esphome:server - add server for ESPHome dashboard
 dev-python/envs:cli - add cli support
 dev-python/pylutron-caseta:cli - Install command line tools
+dev-python/youtube-dl:yt-dlp - Use net-misc/yt-dlp to provide the command and only install the python module
