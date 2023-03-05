@@ -457,6 +457,7 @@ app-misc/homeassistant-full:dnsip - will expose an IP address, fetched via DNS r
 app-misc/homeassistant-full:dominos - dominos integration allows you to order Dominos Pizza
 app-misc/homeassistant-full:doods - image processing integration allows you to detect and recognize objects
 app-misc/homeassistant-full:doorbird - The doorbird implementation allows you to integrate your DoorBird device
+app-misc/homeassistant-full:dormakaba_dkey - Integrates Dormakaba dKey Bluetooth Low Energy connected locks
 app-misc/homeassistant-full:dovado - The dovado integration manages communication with the Dovado router
 app-misc/homeassistant-full:dsmr - Dutch Smart Meters which comply to DSMR (Dutch Smart Meter Requirements)
 app-misc/homeassistant-full:dunehd - control a Dune HD media player
@@ -1087,6 +1088,7 @@ app-misc/homeassistant-full:totalconnect - provides connectivity with the Honeyw
 app-misc/homeassistant-full:touchline - lets you control ROTH Touchline floor heating thermostats
 app-misc/homeassistant-full:tplink - control your TP-Link Smart Home Devices
 app-misc/homeassistant-full:tplink_lte - allows you to observe and control TP-Link LTE routers
+app-misc/homeassistant-full:tplink_omada - allows you to control your TP-Link Omada SDN Devices
 app-misc/homeassistant-full:traccar - uses GPS for tracking and has support for over 1500 different types of devices
 app-misc/homeassistant-full:trackr - trackr platform allows you to detect presence using TrackR devices
 app-misc/homeassistant-full:tractive - Tractive is an Austrian company develops real-time location trackers for pets
@@ -1280,6 +1282,7 @@ app-misc/homeassistant-min:test - internal and developer use
 app-misc/homeassistant-min:tile - API for Tile Bluetooth trackers
 app-misc/homeassistant-min:tomorrowio - obtain weather, air quality, pollen, and fire information fro tomorrow.io
 app-misc/homeassistant-min:tplink - control your TP-Link Smart Home Devices
+app-misc/homeassistant-min:tplink_omada - allows you to control your TP-Link Omada SDN Devices
 app-misc/homeassistant-min:upnp - support UPnP/Internet Gateway Device (IGD) Protocol
 app-misc/homeassistant-min:utility_meter - integration provides functionality to track consumptions of various utilities
 app-misc/homeassistant-min:version - display the current Home Assistant versions
