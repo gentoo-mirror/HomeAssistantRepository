@@ -32,7 +32,7 @@ BDEPEND="
 
 # reedsolo>=1.5.3,<=1.5.4
 src_prepare() {
-	sed -i "s/reedsolo>=1.5.3,<=1.5.4/reedsolo>=1.5.3/g" -i setup.py || die
+	sed -i "s/reedsolo>=1.5.3,<=1.6.0/reedsolo>=1.5.3/g" -i setup.py || die
 	eapply_user
 }
 
