@@ -4,13 +4,13 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{9..11} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Concurrency agnostic socket API"
-HOMEPAGE="https://github.com/tiagocoutinho/sockio/ https://pypi.org/project/sockio/"
+DESCRIPTION="An API client for interacting with the MyMazda (Mazda Connected Services) API"
+HOMEPAGE="https://github.com/bdr99/pymazda https://pypi.org/project/pymazda/"
 
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,8 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-36.0.2[${PYTHON_USEDEP}]"
 BDEPEND="
-	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
