@@ -256,6 +256,7 @@ app-misc/homeassistant:toon - client for the Quby ToonAPI
 app-misc/homeassistant:totalconnect - provides connectivity with the Honeywell TotalConnect alarm systems
 app-misc/homeassistant:tplink - control your TP-Link Smart Home Devices
 app-misc/homeassistant:tradfri - Control/observe IKEA Tradfri devices
+app-misc/homeassistant:tts - Audio metadata tag reader and writer implemented in pure Python
 app-misc/homeassistant:tuya - integrate all Tuya Smart related platforms
 app-misc/homeassistant:unifi - talk with a Ubiquiti unifi Controller
 app-misc/homeassistant:unifi_direct - detect presence by looking at devices connected to a UniFi AP
