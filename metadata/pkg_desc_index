@@ -9,9 +9,9 @@ acct-user/node-red 0: A user for node-red
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-misc/home-assistant-cli 0.9.4 0.9.5 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2022.11.0 2023.1.7 2023.2.5 2023.3.1 2023.3.2 2023.3.3-r1 2023.3.3-r2: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2022.11.0 2023.1.7 2023.2.5 2023.3.1 2023.3.2 2023.3.3-r1 2023.3.3-r2 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2023.1.7 2023.2.5 2023.3.1 2023.3.2 2023.3.3-r1 2023.3.3-r2: Open-source home automation platform running on Python.
+app-misc/homeassistant 2022.11.0 2023.1.7 2023.2.5 2023.3.1 2023.3.2 2023.3.3-r1 2023.3.3-r2 2023.3.4: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2022.11.0 2023.1.7 2023.2.5 2023.3.1 2023.3.2 2023.3.3-r1 2023.3.3-r2 2023.3.4 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2023.1.7 2023.2.5 2023.3.1 2023.3.2 2023.3.3-r1 2023.3.3-r2 2023.3.4: Open-source home automation platform running on Python.
 app-misc/node-red 3.0.2: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 1.30.1 1.30.2: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2022.10.2 2022.11.2 2023.2.4 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
@@ -158,7 +158,7 @@ dev-python/aioopenexchangerates 0.4.0: Fetch rates from openexchangerates with a
 dev-python/aiopulse 0.4.3: Python module for Rollease Acmeda Automate integration.
 dev-python/aiopurpleair 2022.12.1: A Python 3, asyncio-based library to interact with the PurpleAir API
 dev-python/aiopvapi 2.0.0 2.0.2 2.0.3 2.0.4: Powerview blinds API wrapper
-dev-python/aiopvpc 3.0.0 4.0.1: Retrieval of Spanish Electricity hourly prices (PVPC)
+dev-python/aiopvpc 3.0.0 4.0.1 4.1.0: Retrieval of Spanish Electricity hourly prices (PVPC)
 dev-python/aiopyarr 22.7.0 22.9.0 22.10.0 22.11.0: An Asynchronous Lidarr, Radarr, Readarr, Sonarr APIs for Python.
 dev-python/aioqsw 0.2.2 0.3.1 0.3.2: Library to control QNAP QSW devices
 dev-python/aiorecollect 1.0.8: A Python 3, asyncio-based library for the ReCollect Waste API
@@ -242,7 +242,7 @@ dev-python/bcrypt 3.1.7-r1: Modern password hashing for software and servers
 dev-python/beacontools 1.2.3: A Python library for working with various types of Bluetooth LE Beacons.
 dev-python/beautifulsoup4 4.11.1: Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree
 dev-python/beewi-smartclim 0.0.10: Library to read data from BeeWi SmartClim sensor using Bluetooth LE
-dev-python/bellows 0.34.2 0.34.5 0.34.6 0.34.7 0.34.9: Library implementing EZSP
+dev-python/bellows 0.34.2 0.34.6 0.34.7 0.34.9 0.34.10: Library implementing EZSP
 dev-python/bidict 0.22.0: The bidirectional mapping library for Python.
 dev-python/bimmer-connected 0.10.4 0.12.0 0.12.1: Library to read data from the BMW Connected Drive portal
 dev-python/bizkaibus 0.1.1: Online information for buses of Biscay bus services (Basque Country, Spain).
@@ -492,6 +492,7 @@ dev-python/ifaddr 0.1.7: Enumerate IP addresses on the local network adapters
 dev-python/iglo 1.2.7: Control iGlo based RGB lights
 dev-python/ihcsdk 2.7.6: IHC Python SDK
 dev-python/imaplib2 3.6: A threaded Python IMAP4 client.
+dev-python/importlib_resources 5.12.0: Read resources from Python packages
 dev-python/incomfort-client 0.4.4 0.5.0: A aiohttp-based client for Intergas InComfort/InTouch Lan2RF systems
 dev-python/influxdb 5.3.1: InfluxDB client
 dev-python/influxdb-client 1.24.0: InfluxDB 2.0 Python client library
@@ -751,7 +752,7 @@ dev-python/pycsspeechtts 1.0.4 1.0.8: Python 3 interface to Microsoft Cognitive 
 dev-python/pycups 1.9.73-r3: Python bindings for the CUPS API
 dev-python/pydaikin 2.8.0 2.9.0: Python Daikin HVAC appliances interface
 dev-python/pydanfossair 0.1.0: Python interface for Danfoss Air HRV systems
-dev-python/pydeconz 105 106 108: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
+dev-python/pydeconz 105 106 108 110: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
 dev-python/pydelijn 1.0.0: Get realtime info on stop passages of De Lijn (api.delijn.be)
 dev-python/pydexcom 0.2.3: Python API to interact with Dexcom Share API
 dev-python/pydoods 1.0.2: A Python wrapper for the DOODS image detection service
@@ -1201,7 +1202,7 @@ dev-python/youtube-dl 2021.12.17-r1: Download videos from YouTube.com (and more 
 dev-python/zamg 0.1.1 0.2.2: Asynchronous Python client for ZAMG weather data.
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs
 dev-python/zeversolar 0.3.0: Simple Python wrapper for the local CGI provided by ZeverSolar
-dev-python/zha-quirks 0.0.84 0.0.89 0.0.90 0.0.92 0.0.93: Library implementing Zigpy quirks for ZHA in Home Assistant
+dev-python/zha-quirks 0.0.84 0.0.90 0.0.92 0.0.93 0.0.94: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
 dev-python/zigpy 0.51.5 0.52.3 0.53.0 0.53.2: Library implementing a ZigBee stack

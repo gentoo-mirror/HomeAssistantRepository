@@ -1283,7 +1283,6 @@ app-misc/homeassistant-min:test - internal and developer use
 app-misc/homeassistant-min:tile - API for Tile Bluetooth trackers
 app-misc/homeassistant-min:tomorrowio - obtain weather, air quality, pollen, and fire information fro tomorrow.io
 app-misc/homeassistant-min:tplink - control your TP-Link Smart Home Devices
-app-misc/homeassistant-min:tplink_omada - allows you to control your TP-Link Omada SDN Devices
 app-misc/homeassistant-min:upnp - support UPnP/Internet Gateway Device (IGD) Protocol
 app-misc/homeassistant-min:utility_meter - integration provides functionality to track consumptions of various utilities
 app-misc/homeassistant-min:version - display the current Home Assistant versions
