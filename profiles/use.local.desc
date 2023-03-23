@@ -467,6 +467,7 @@ app-misc/homeassistant-full:dweet - transfer details collected with Home Assista
 app-misc/homeassistant-full:dynalite - Dynalite DyNET interface forHome Assistant
 app-misc/homeassistant-full:dyson - integrate all Dyson related platforms into Home Assistant
 app-misc/homeassistant-full:eafm - UK Environment Agency Flood Monitoring API to provide sensors
+app-misc/homeassistant-full:easyenergy - integrates the easyEnergy API platform with Home Assistant
 app-misc/homeassistant-full:ebox - Integrate your EBox account information into Home Assistant
 app-misc/homeassistant-full:ebusd - Integration between ebusd daemon for communication with eBUS heating systems
 app-misc/homeassistant-full:ecoal_boiler - The ecoal_boiler integration is the base for pumps and sensors
