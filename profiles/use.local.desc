@@ -387,7 +387,6 @@ app-misc/homeassistant-full:bmp280 - Get temperature and pressure values of a Bo
 app-misc/homeassistant-full:bmw_connected_drive - Retrieve data from the BMW Connected Drive
 app-misc/homeassistant-full:bond - Asynchronous Python wrapper library over Bond Local API
 app-misc/homeassistant-full:bosch_shc - integrate your Bosch SHC into Home Assistant
-app-misc/homeassistant-full:brandt - 
 app-misc/homeassistant-full:braviatv - Control almost all Sony Bravia TV 2013 and newer
 app-misc/homeassistant-full:broadlink - Allows you to interact with Broadlink remote control devices
 app-misc/homeassistant-full:brother - Read current data from your local Brother printer
@@ -509,6 +508,7 @@ app-misc/homeassistant-full:esphome - Support for esphome sensors, covers and sw
 app-misc/homeassistant-full:essent - communicate with the (undocumented) API of Dutch energy provider Essent
 app-misc/homeassistant-full:etherscan - displays Ether and ERC-20 token balances from Etherscan.io
 app-misc/homeassistant-full:eufy - eufy integration is the main integration to integrate various eufy devices
+app-misc/homeassistant-full:eufylife_ble - integrate Eufy smart scales with Home Assistant
 app-misc/homeassistant-full:everlights - Library for controlling an EverLights lighting system
 app-misc/homeassistant-full:evil_genius_labs - allows you to control and monitor the artworks by Evil Genius Labs
 app-misc/homeassistant-full:evohome - links with all non-US Honeywell Total Connect Comfort (TCC) CH/DHW systems
@@ -1298,5 +1298,6 @@ app-misc/homeassistant-min:zha - Support for ZHA/deconz based Zigbee/ZNet Device
 app-misc/homeassistant-min:zwave_js - control a Z-Wave network via the Z-Wave JS driver
 dev-embedded/esphome:server - add server for ESPHome dashboard
 dev-python/envs:cli - add cli support
+dev-python/pydantic:native-extensions - Compiles native "C" extensions.
 dev-python/pylutron-caseta:cli - Install command line tools
 dev-python/youtube-dl:yt-dlp - Use net-misc/yt-dlp to provide the command and only install the python module
