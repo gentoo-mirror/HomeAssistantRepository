@@ -90,7 +90,6 @@
 |bmw_connected_drive|Retrieve data from the BMW Connected Drive|N|Y|Y|0.64|
 |bond|Asynchronous Python wrapper library over Bond Local API|N|Y|Y|0.113|
 |bosch_shc|integrate your Bosch SHC into Home Assistant|N|N|Y|2021.6|
-|brandt|None|N|N|Y|2022.12.0|
 |braviatv|Control almost all Sony Bravia TV 2013 and newer|N|Y|Y|0.23|
 |broadlink|Allows you to interact with Broadlink remote control devices|N|Y|Y|0.35|
 |brother|Read current data from your local Brother printer|N|Y|Y|0.104|
@@ -212,6 +211,7 @@
 |essent|communicate with the (undocumented) API of Dutch energy provider Essent|N|N|Y||
 |etherscan|displays Ether and ERC-20 token balances from Etherscan.io|N|N|Y|0.47|
 |eufy|eufy integration is the main integration to integrate various eufy devices|N|N|Y|0.68|
+|eufylife_ble|integrate Eufy smart scales with Home Assistant|N|N|Y|2023.2.1|
 |everlights|Library for controlling an EverLights lighting system|N|Y|Y|0.87|
 |evil_genius_labs|allows you to control and monitor the artworks by Evil Genius Labs|N|N|Y|2021.12.0b0|
 |evohome|links with all non-US Honeywell Total Connect Comfort (TCC) CH/DHW systems|N|Y|Y|0.80|
