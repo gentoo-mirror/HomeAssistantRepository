@@ -479,7 +479,7 @@ dev-python/huawei-lte-api 1.6.3 1.6.7: API For huawei LAN/WAN LTE Modems
 dev-python/huisbaasje-client 0.1.0: Client for Huisbaasje
 dev-python/hyper 0.7.0: HTTP/2 Client for Python
 dev-python/hyperion-py 0.7.5: Hyperion Ambient Lighting Python Package
-dev-python/hyundai-kia-connect-api 3.1.2: This is a Kia UVO and Hyundai Bluelink written in python for Homeassistant
+dev-python/hyundai-kia-connect-api 3.1.2 3.1.9: This is a Kia UVO and Hyundai Bluelink written in python for Homeassistant
 dev-python/i2csense 0.0.4: A library to handle i2c sensors with the Raspberry Pi
 dev-python/iammeter 0.1.7: IamMeter api
 dev-python/iaqualink 0.4.1 0.5.0: Asynchronous library for Jandy iAqualink
