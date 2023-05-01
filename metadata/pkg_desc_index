@@ -443,7 +443,7 @@ dev-python/gstreamer-player 1.1.2: Python 3 wrapper for playing media via gstrea
 dev-python/guppy3 3.1.2: Guppy 3 -- Guppy-PE ported to Python 3
 dev-python/h11 0.12.0: A pure-Python implementation of HTTP/1.1 inspired by hyper-h2
 dev-python/ha-HAP-python 4.5.2: HomeKit Accessory Protocol implementation in python
-dev-python/ha-av 10.0.0_beta4 10.0.0_beta5: Pythonic bindings for FFmpeg's libraries.
+dev-python/ha-av 10.0.0_beta4 10.0.0_beta5 10.0.0: Pythonic bindings for FFmpeg's libraries.
 dev-python/ha-ffmpeg 3.0.2 3.1.0: A library that handling with ffmpeg for home-assistant
 dev-python/ha-philipsjs 2.9.0 3.0.0: jointSPACE API for Home-Assistant
 dev-python/habitipy 0.2.0: tools and library for Habitica restful API (https://habitica.com)
