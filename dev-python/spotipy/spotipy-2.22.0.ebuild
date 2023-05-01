@@ -13,12 +13,12 @@ HOMEPAGE="https://spotipy.readthedocs.io"
 SRC_URI="https://github.com/plamere/${PN}/archive/${PV}.tar.gz -> ${P}.gh.tar.gz"
 
 LICENSE="MIT"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 arm arm64 x86"
 SLOT="0"
 IUSE="examples"
 
 RDEPEND="
-	dev-python/redis-py[${PYTHON_USEDEP}]
+	dev-python/redis[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]

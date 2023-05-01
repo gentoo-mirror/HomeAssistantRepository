@@ -3,9 +3,11 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9..11} )
+PYTHON_COMPAT=( python3_{10..11} )
 DISTUTILS_USE_PEP517=setuptools
-inherit distutils-r1 readme.gentoo-r1 systemd
+PYPI_NO_NORMALIZE=1
+PYPI_PN="homeassistant"
+inherit distutils-r1 pypi readme.gentoo-r1 systemd
 
 MY_PN=homeassistant
 
@@ -17,8 +19,8 @@ if [[ ${PV} == *9999* ]]; then
 else
     MY_PV=${PV/_beta/b}
 	MY_P=${MY_PN}-${MY_PV}
-	SRC_URI="https://github.com/home-assistant/core/archive/${MY_PV}.tar.gz -> ${MY_P}.gh.tar.gz"
-	S="${WORKDIR}/core-${MY_PV}"
+	SRC_URI="$(pypi_sdist_url)
+	https://github.com/home-assistant/core/archive/${MY_PV}.tar.gz -> ${MY_P}.gh.tar.gz"
 fi
 
 DESCRIPTION="Open-source home automation platform running on Python."
@@ -167,7 +169,7 @@ RDEPEND="${RDEPEND}
 	asuswrt? ( ~dev-python/aioasuswrt-1.4.0[${PYTHON_USEDEP}] )
 	aten_pe? ( ~dev-python/atenpdu-0.3.2[${PYTHON_USEDEP}] )
 	atome? ( ~dev-python/pyAtome-0.1.1[${PYTHON_USEDEP}] )
-	august? ( ~dev-python/yalexs-1.2.7[${PYTHON_USEDEP}] ~dev-python/yalexs-ble-2.0.4[${PYTHON_USEDEP}] )
+	august? ( ~dev-python/yalexs-1.2.7[${PYTHON_USEDEP}] ~dev-python/yalexs-ble-2.1.1[${PYTHON_USEDEP}] )
 	aurora_abb_powerone? ( ~dev-python/aurorapy-0.2.7[${PYTHON_USEDEP}] )
 	avea? ( ~dev-python/avea-1.5.1[${PYTHON_USEDEP}] )
 	avion? ( ~dev-python/avion-0.10[${PYTHON_USEDEP}] )
@@ -263,7 +265,7 @@ RDEPEND="${RDEPEND}
 	growatt_server? ( ~dev-python/growattServer-1.3.0[${PYTHON_USEDEP}] )
 	guardian? ( ~dev-python/aioguardian-2022.7.0[${PYTHON_USEDEP}] )
 	harman_kardon_avr? ( ~dev-python/hkavr-0.0.5[${PYTHON_USEDEP}] )
-	harmony? ( ~dev-python/aioharmony-0.2.9[${PYTHON_USEDEP}] )
+	harmony? ( ~dev-python/aioharmony-0.2.10[${PYTHON_USEDEP}] )
 	heos? ( ~dev-python/pyheos-0.7.2[${PYTHON_USEDEP}] )
 	here_travel_time? ( ~dev-python/here-routing-0.2.0[${PYTHON_USEDEP}] ~dev-python/here-transit-1.2.0[${PYTHON_USEDEP}] )
 	homekit? ( ~dev-python/HAP-python-4.6.0[${PYTHON_USEDEP}] ~dev-python/fnvhash-0.1.0[${PYTHON_USEDEP}] ~dev-python/pyqrcode-1.2.1[${PYTHON_USEDEP}] ~dev-python/base36-0.1.1[${PYTHON_USEDEP}] )
@@ -414,7 +416,7 @@ RDEPEND="${RDEPEND}
 	xiaomi_tv? ( ~dev-python/pymitv-1.4.3[${PYTHON_USEDEP}] )
 	xs1? ( ~dev-python/xs1-api-client-3.0.0[${PYTHON_USEDEP}] )
 	yamaha? ( ~dev-python/rxv-0.7.0[${PYTHON_USEDEP}] )
-	yamaha_musiccast? ( ~dev-python/aiomusiccast-0.14.7[${PYTHON_USEDEP}] )
+	yamaha_musiccast? ( ~dev-python/aiomusiccast-0.14.8[${PYTHON_USEDEP}] )
 	yeelight? ( ~dev-python/yeelight-0.7.10[${PYTHON_USEDEP}] ~dev-python/async-upnp-client-0.33.1[${PYTHON_USEDEP}] )
 	yi? ( ~dev-python/aioftp-0.21.3[${PYTHON_USEDEP}] )
 	zeroconf? ( ~dev-python/zeroconf-0.47.3[${PYTHON_USEDEP}] )
@@ -470,6 +472,13 @@ support at https://git.edevau.net/onkelbeh/HomeAssistantRepository
 "
 
 DOCS="README.rst"
+
+src_prepare() {
+	if use test ; then
+		cp -r ${WORKDIR}/core-${MY_PV}/tests ${S}
+	fi
+	distutils-r1_src_prepare
+}
 
 python_install_all() {
 	dodoc ${DOCS}
