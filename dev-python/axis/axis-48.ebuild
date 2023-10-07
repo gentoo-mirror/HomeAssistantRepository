@@ -3,12 +3,11 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9..11} )
+PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-
-DESCRIPTION="An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/"
-HOMEPAGE="https://github.com/XKNX/xknx/ https://xknx.io/ https://pypi.org/project/xknx/"
+DESCRIPTION="A Python library for communicating with devices from Axis Communications"
+HOMEPAGE="https://github.com/Kane610/axis https://pypi.org/project/axis/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,8 +17,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/cryptography-35.0.0[${PYTHON_USEDEP}]
-	>=dev-python/ifaddr-0.1.7[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/async-timeout[${PYTHON_USEDEP}]
+	dev-python/attrs[${PYTHON_USEDEP}]
+	dev-python/packaging[${PYTHON_USEDEP}]
+	dev-python/httpx[${PYTHON_USEDEP}]
+	dev-python/xmltodict[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

@@ -3,15 +3,14 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9..11} )
+PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=poetry
-PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="BThome BLE support"
-HOMEPAGE="https://github.com/bluetooth-devices/bthome-ble https://pypi.org/project/bthome-ble/"
+DESCRIPTION="Models for storing and converting Sensor Data state"
+HOMEPAGE="https://github.com/bluetooth-devices/sensor-state-data https://pypi.org/project/sensor-state-data/"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -19,10 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/bluetooth-sensor-state-data-1.6.0[${PYTHON_USEDEP}]
-	>=dev-python/pycryptodomex-3.15.0[${PYTHON_USEDEP}]
-	>=dev-python/sensor-state-data-2.7.0[${PYTHON_USEDEP}]
-	>=dev-python/bluetooth-data-tools-0.1.2[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

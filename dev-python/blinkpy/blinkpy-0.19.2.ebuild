@@ -23,7 +23,6 @@ RDEPEND=">=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 		 >=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 		 >=dev-python/python-slugify-4.0.1[${PYTHON_USEDEP}]"
 BDEPEND="
-	dev-python/setuptools[${PYTHON_USEDEP}]
 	>=dev-python/testtools-2.4.0[${PYTHON_USEDEP}]
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

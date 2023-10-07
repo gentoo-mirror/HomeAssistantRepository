@@ -3,12 +3,12 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9..11} )
-DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{10..12} )
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/"
-HOMEPAGE="https://github.com/XKNX/xknx/ https://xknx.io/ https://pypi.org/project/xknx/"
+DESCRIPTION="A package to get read only data from Anova precision cookers with wifi"
+HOMEPAGE="https://github.com/conway220/anova-wifi https://pypi.org/project/anova-wifi/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,8 +18,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/cryptography-35.0.0[${PYTHON_USEDEP}]
-	>=dev-python/ifaddr-0.1.7[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/sensor-state-data-2.13.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
