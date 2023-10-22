@@ -5,13 +5,12 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python Library for the Velbus protocol based on asyncio"
-HOMEPAGE="https://github.com/Cereal2nd/velbus-aio https://pypi.org/project/velbus-aio/"
+DESCRIPTION="A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E"
+HOMEPAGE="https://github.com/tronikos/opower https://pypi.org/project/opower/"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -19,8 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/pyserial-asyncio-0.5[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.10.0[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
+	>=dev-python/arrow-1.2[${PYTHON_USEDEP}]
+	>=dev-python/pyotp-2.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
@@ -28,11 +28,6 @@ BDEPEND="
 
 python_test() {
 	py.test -v -v || die
-}
-
-src_prepare() {
-	sed -e 's/"tests", "tests.*"/"tests", "tests.*", "examples"/' -i pyproject.toml || die
-	eapply_user
 }
 
 distutils_enable_tests pytest

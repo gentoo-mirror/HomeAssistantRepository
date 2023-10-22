@@ -4,10 +4,12 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..12} )
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=setuptools
+PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
-DESCRIPTION="A faster version of dbus-next"
-HOMEPAGE="https://github.com/bluetooth-devices/dbus-fast https://pypi.org/project/dbus-fast/"
+
+DESCRIPTION="A Python API wrapper to retrieve warnings from the german NINA app."
+HOMEPAGE="https://gitlab.com/DeerMaximum/pynina https://pypi.org/project/PyNINA/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -17,12 +19,14 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="$(python_gen_cond_dep '>=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]' python3_10)"
+RDEPEND=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/pytest-cov[${PYTHON_USEDEP}]
-		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	)"
+
+python_test() {
+	py.test -v -v || die
+}
 
 distutils_enable_tests pytest
