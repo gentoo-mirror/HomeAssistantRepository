@@ -764,6 +764,7 @@ dev-python/pyairnow 1.2.1: A lightweight Python wrapper for EPA AirNow Air Quali
 dev-python/pyairvisual 2022.12.1 2023.8.1: A simple API for AirVisual air quality data
 dev-python/pyalmond 0.0.2: Python module to talk to the Web Almond API.
 dev-python/pyarlo 0.2.4: Python Arlo is a library written in Python 2.7/3x that exposes the Netgear Arlo cameras as Python objects.
+dev-python/pyasn1 0.4.8-r2: ASN.1 library for Python
 dev-python/pyatag 0.3.5.3: Python module to talk to Atag One.
 dev-python/pyatmo 7.5.0: Simple API to access Netatmo weather station data from any Python 3 script. Designed for Home Assistant (but not only)
 dev-python/pyatv 0.10.3 0.13.2 0.13.4: A client library for Apple TV and AirPlay devices
