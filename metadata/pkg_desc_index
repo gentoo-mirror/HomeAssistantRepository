@@ -1148,6 +1148,7 @@ dev-python/stookalert 0.1.4: Stookalert package
 dev-python/stookwijzer 1.3.0: Stookwijzer package
 dev-python/streamlabswater 1.0.1: Unofficial Python library for the Streamlabs Water API
 dev-python/stringcase 1.2.0: String case converter.
+dev-python/striprtf 0.0.26: A simple library to convert rtf to text
 dev-python/subarulink 0.6.1 0.7.0 0.7.6: A package for interacting with Subaru Starlink Remote Services API.
 dev-python/sucks 0.9.4: a library for controlling certain robot vacuums
 dev-python/sunwatcher 0.2.1: Binding to SolarLog HTTP API
