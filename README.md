@@ -3,10 +3,6 @@
 
 
 [![OS](https://img.shields.io/badge/OS-Gentoo%20Linux-blue)](https://www.gentoo.org/)
-[![pkgcheck](https://github.com/onkelbeh/HomeAssistantRepository/actions/workflows/pkgcheck.yml/badge.svg)](https://github.com/onkelbeh/HomeAssistantRepository/actions/workflows/pkgcheck.yml)
-[![shellcheck](https://github.com/onkelbeh/HomeAssistantRepository/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/onkelbeh/HomeAssistantRepository/actions/workflows/shellcheck.yml)
-[![emerge ha-min](https://github.com/onkelbeh/HomeAssistantRepository/actions/workflows/emerge-min.yml/badge.svg)](https://github.com/onkelbeh/HomeAssistantRepository/actions/workflows/emerge-min.yml)
-[![emerge ha-med](https://github.com/onkelbeh/HomeAssistantRepository/actions/workflows/emerge-med.yml/badge.svg)](https://github.com/onkelbeh/HomeAssistantRepository/actions/workflows/emerge-med.yml)
 [![weekly commits](https://img.shields.io/github/commit-activity/w/onkelbeh/HomeAssistantRepository)](https://github.com/onkelbeh/HomeAssistantRepository/commits/)
 [![monthly commits](https://img.shields.io/github/commit-activity/m/onkelbeh/HomeAssistantRepository)](https://github.com/onkelbeh/HomeAssistantRepository/commits/)
 [![version](https://img.shields.io/github/v/release/onkelbeh/HomeAssistantRepository)](https://github.com/onkelbeh/HomeAssistantRepository/releases)
@@ -27,10 +23,29 @@ If you are an author of an integration / component or other stuff related to Hom
 PyPI `SDIST` tar.gz source release would be preferred, because I can automatically merge it and it will use Gentoo's mirror system. Most of the integrations/components do both. I cannot add packages only available in wheels format. Please make sure you have a proper license assigned, selected license should be unique on all platforms (
 PyPI/GitHub/Sourceforge).
 
-Currently some help on the nodejs Ebuilds would be very welcome:
-* node-red
-* zigbee2mqtt
-* zwave-js-server (W.I.P, see https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/269)
+## note to the 2023-10 Update
+
+Due to a sudden significant change in the [pypi.eclass](https://devmanual.gentoo.org/eclass-reference/pypi.eclass/index.html) and other fundamental aspects of the Gentoo packaging system, we faced a complex and time-consuming task of updating our ebuilds. These changes required modifications to nearly 2000 ebuilds, impacting our ability to release updates in a timely manner.
+
+**Why the Delay?**
+
+1. **Eclass Changes**: The core of this delay was the extensive overhaul of the `pypi.eclass`, which required substantial updates across our entire repository.
+
+2. **Quality Assurance**: We were committed to ensuring that the updates are thoroughly tested and that Home Assistant on Gentoo continues to meet high-quality standards.
+
+3. **Other Commitments**: I've been juggling multiple responsibilities, which added to the time it took to complete these updates. Your understanding and patience are greatly appreciated.
+
+4. **Community Engagement**: We sought feedback from our users and engaged with the Gentoo community to address any issues and concerns that emerged during the update process.
+
+We appreciate your support and understanding during this period of adjustment. We are now pleased to announce that a new release is getting ready, and we are excited to deliver an updated version of Home Assistant for Gentoo.
+
+**How You Can Help:**
+
+We welcome assistance in maintaining and improving this repository. If you have the skills and time to contribute to ebuild maintenance, your help would be greatly appreciated. Please feel free to reach out and get involved in the project.
+
+Thank you for your continued support and understanding.
+
+Happy automating!
 
 ## 2023-03 changed main Ebuild SRC_URI to Pypi
 As the current translation files have been removed from the core (https://developers.home-assistant.io/blog/2023/02/06/translations-files-removed-from-core/), I have switched SRC_URI to Pypi, the SDIST there contains all artifacts including the translations. Unfortunately tests are not part of the PyPi SDIST, so currently we have none. I'll try to pull in the tests from the Github Tarball in one of the next Releases. 
@@ -75,18 +90,18 @@ Since homeassistant-0.115.3 the **Main Ebuild** is released in three different s
 
 [![emerge ha-min](https://github.com/onkelbeh/HomeAssistantRepository/actions/workflows/emerge-min.yml/badge.svg)](https://github.com/onkelbeh/HomeAssistantRepository/actions/workflows/emerge-min.yml)
 
-These are the USE Flags I use in production myself. All will compile fine and are extensively tested in every release, a daily compilation test is run at Github, big thanks to @antonfischl1980, it currently holds **94** USE Flags.
+These are the USE Flags I use in production myself. All will compile fine and are extensively tested in every release, a daily compilation test is run at Github, big thanks to @antonfischl1980, it currently holds **93** USE Flags.
 
 ### `app-misc/homeassistant`
 
 [![emerge ha-med](https://github.com/onkelbeh/HomeAssistantRepository/actions/workflows/emerge-med.yml/badge.svg?branch=master)](https://github.com/onkelbeh/HomeAssistantRepository/actions/workflows/emerge-med.yml)
 
-The Ebuild we have since `0.97.0`, as soon as I know that at least one user is actively using a component, it will be added. These all compile fine, but some version conflicts could occure, a daily compilation test is run at Github, big thanks to @antonfischl1980, It currently holds **290** USE Flags.
+The Ebuild we have since `0.97.0`, as soon as I know that at least one user is actively using a component, it will be added. These all compile fine, but some version conflicts could occure, a daily compilation test is run at Github, big thanks to @antonfischl1980, It currently holds **289** USE Flags.
 
 ### `app-misc/homeassistant-full`
 
 WARNING: This one currently breaks (caused by shell limitations) emerge with an 'Argument list too long' error. It compiles with a [kernel hack](https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/190#issuecomment-1002). Thanks to @gcampagnoli.
-This Ebuild contains USE Flags for (nearly) all components of Home Assistant with external dependencies. Most components compile, but these are too many (for me) to run tests for all of them on a regular schedule. It holds **904** USE Flags.
+This Ebuild contains USE Flags for (nearly) all components of Home Assistant with external dependencies. Most components compile, but these are too many (for me) to run tests for all of them on a regular schedule. It holds **937** USE Flags.
 
 A list of all components aka USEFlags is generated with every release [DOMAINTABLE.md](DOMAINTABLE.md)
 
@@ -105,7 +120,7 @@ Best you start using the `app-misc/homeassistant-min` Ebuild. If you have it run
 * Since I use Gentoo mostly on servers, I do not use systemd, one reason to run Gentoo is that you are NOT forced to run this crap. Beginning homeassistant-2021.2.0, handling for systemd was added by request, thanks to @Tatsh for help.
 * I use an own profile based on "amd64/17.1/no-multilib"
 * Sunce 2022.07.06, I run detailed tests on Python 3.10 only, and am starting to try builds on Python 3.11.
-* python-3.10.10 is set as default target.
+* python-3.11.5 is set as default target.
 
 # Bigger Changes
 
@@ -341,13 +356,13 @@ I run Home Assistant on a virtual X64 box, 4GB RAM, 3 Cores of an older Xeon E5-
 ## My machines
 Currently I have three VM's running:
 ### Production
-Python 3.10.10_p3
+Python 3.10.10_p3 / 3.11.2_p2
 4 GB RAM, 3 cores of a Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
 ### Dev / Test
 Python 3.10.10_p3 / 3.11.2_p2
 4 GB RAM, 3 cores of a Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
 ### Dev / Test2
-Python 3.10.10_p3 / 3.11.2_p2
+Python 3.11.2_p2
 4 GB RAM, 3 cores of a Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
 
 ## Hardware I use
@@ -576,34 +591,35 @@ A daily compile test is run at Github with Python 3.9 to catch general faults. E
 
 ## Licenses
 This repository itself is released under GPL-3 (like most Gentoo repositories), all work on the depending components under the licenses they came from. Perhaps you came here because I filed an issue at your component about a bad or missing license. It is easy to [assign a license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). During cleanups and license investigations I have been asked often which license to choose. I am not a lawyer, but I can offer the following table, counted over this repository, perhaps this helps your decision. If a package has more than one license listed, all of them are counted.
-There are 1867 Ebuilds in total, 1856 of them have in total 1877 (39 different) licenses assigned.
+There are 1837 Ebuilds in total, 1826 of them have in total 1843 (40 different) licenses assigned.
 
 |License| Ebuilds using it|
 |-------|-----|
-|MIT|1094|
-|Apache-2.0|402|
-|GPL-3|117|
-|BSD|99|
-|LGPL-3|27|
-|GPL-2|24|
-|GPL-3+|14|
-|all-rights-reserved|13|
-|LGPL-3+|13|
-|BSD-2|10|
-|Unlicense|6|
-|LGPL-2.1+|6|
+|MIT|1070|
+|Apache-2.0|381|
+|GPL-3|116|
+|BSD|103|
+|GPL-2|26|
+|LGPL-3|24|
+|all-rights-reserved|15|
+|BSD-2|13|
+|GPL-3+|11|
+|LGPL-3+|11|
+|Unlicense|8|
+|LGPL-2.1|7|
 |MPL-2.0|5|
-|LGPL-2.1|5|
+|LGPL-2.1+|5|
 |PSF-2|5|
-|public-domain|4|
-|EPL-1.0|3|
-|HPND|3|
+|EPL-1.0|4|
+|HPND|4|
+|public-domain|3|
+|ISC|3|
+|BSD-4|3|
+|EPL-2.0|3|
 |AGPL-3+|2|
 |ZPL|2|
 |LGPL-2+|2|
-|ISC|2|
-|BSD-4|2|
-|EPL-2.0|2|
+|CC0-1.0|2|
 |BitstreamVera|1|
 |matplotlib|1|
 |OFL-1.1|1|
@@ -617,12 +633,12 @@ There are 1867 Ebuilds in total, 1856 of them have in total 1877 (39 different) 
 |Unicode-DFS-2016|1|
 |LGPL-2|1|
 |CC-BY-NC-SA-4.0|1|
-|CC0-1.0|1|
 |GPL-2+|1|
+|GPL-2-with-linking-exception|1|
 
-(Last counted: 01/05/2023)
+(Last counted: 22/10/2023)
 
 I did my best to keep these clean. If a valid license was published on PyPI, it has been automatically merged. Otherwise I took it from GitHub or alternatively from comments/files in the source. Sometimes these differed and have been not unique. All license strings are adjusted to the list in `/usr/portage/gentoo/licenses/`. Some packages do not have any license published. In this case, Authors have been asked for clarification, some did not respond. Following the [official Gentoo Guide](https://devmanual.gentoo.org/general-concepts/licenses/index.html), these then were added with an `all-rights-reserved` license and `RESTRICT="mirror"` was set. Find the appropriate licenses referenced in the Ebuild files and in the corresponding homepages or sources.
 
 A big thanks goes to Iris for reviewing this README.
-Last updated: 01/05/2023
+Last updated: 22/10/2023
