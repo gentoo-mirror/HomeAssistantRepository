@@ -19,7 +19,6 @@ dev-embedded/esphome-dashboard 20221109.0 20230214.0 20230904.0: ESPHome dashboa
 dev-embedded/esptool 3.3-r2 3.3.1 4.4 4.6.2: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
 dev-embedded/platformio 6.1.4-r1 6.1.11: An open source ecosystem for IoT development
 dev-libs/libgit2 1.5.2: A linkable library for Git
-dev-libs/protobuf 3.20.1: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-python/AEMET-OpenData 0.2.2 0.4.5: AEMET OpenData Rest API library
 dev-python/AIOAladdinConnect 0.1.56 0.1.58: Python Async API for controlling Genie garage doors connected to Aladdin Connect devices
 dev-python/AIOSomecomfort 0.0.14 0.0.17: A client for Honeywell's US-based cloud devices
@@ -130,7 +129,7 @@ dev-python/aioeafm 0.1.2-r1: An asyncio wrapper for the UK Environment Agency Fl
 dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2023.1.0 2023.5.0: Python wrapper for EcoWitt Protocol
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 13.6.1 17.0.1 18.0.7: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 13.6.1 17.0.1 18.0.7 18.0.10: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.12.0 0.21.3: ftp client/server for asyncio
