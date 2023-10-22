@@ -1045,6 +1045,7 @@ dev-python/pyxeoma 1.4.1: Python wrapper for Xeoma web server API
 dev-python/pyyardian 1.1.1: A module for interacting with the Yardian irrigation controller
 dev-python/pyzbar 0.1.7: Read one-dimensional barcodes and QR codes from Python
 dev-python/pyzerproc 0.4.8: Async library to control Zerproc Bluetooth LED smart string lights
+dev-python/pyzipper 0.3.6: AES encryption for zipfile.
 dev-python/qingping-ble 0.7.0 0.8.2: Qingping BLE support
 dev-python/qnapstats 0.4.0: Python API for obtaining QNAP NAS system stats
 dev-python/quantum-gateway 0.0.6 0.0.8: Query a Quantum Gateway
