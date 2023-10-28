@@ -1283,10 +1283,10 @@ dev-python/zha-quirks 0.0.97 0.0.99 0.0.104 0.0.105: Library implementing Zigpy 
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
 dev-python/zigpy 0.54.1 0.55.0 0.57.2-r1: Library implementing a ZigBee stack
-dev-python/zigpy-deconz 0.20.0 0.21.0 0.21.1: A library which communicates with Deconz radios for zigpy
+dev-python/zigpy-deconz 0.20.0 0.21.0 0.21.1-r1: A library which communicates with Deconz radios for zigpy
 dev-python/zigpy-xbee 0.17.0 0.18.0 0.18.3: A library which communicates with XBee radios for zigpy
 dev-python/zigpy-zigate 0.10.3 0.11.0: A library which communicates with ZiGate radios for zigpy
-dev-python/zigpy-znp 0.10.0 0.11.5 0.11.6: A library for zigpy which communicates with TI ZNP radios
+dev-python/zigpy-znp 0.10.0 0.11.5-r1 0.11.6-r1: A library for zigpy which communicates with TI ZNP radios
 dev-python/zm-py 0.5.2: A loose python wrapper around the ZoneMinder REST API.
 dev-python/zwave-js-server-python 0.47.3 0.48.0 0.48.1 0.52.1: Python wrapper for zwave-js-server
 dev-python/zwave-me-ws 0.3.6 0.4.2 0.4.3: Library, implementing websocket connection to ZWave-Me
