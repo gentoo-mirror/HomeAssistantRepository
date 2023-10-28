@@ -1282,7 +1282,7 @@ dev-python/zeversolar 0.3.0 0.3.1: Simple Python wrapper for the local CGI provi
 dev-python/zha-quirks 0.0.97 0.0.99 0.0.104 0.0.105: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
-dev-python/zigpy 0.54.1 0.55.0 0.57.2: Library implementing a ZigBee stack
+dev-python/zigpy 0.54.1 0.55.0 0.57.2-r1: Library implementing a ZigBee stack
 dev-python/zigpy-deconz 0.20.0 0.21.0 0.21.1: A library which communicates with Deconz radios for zigpy
 dev-python/zigpy-xbee 0.17.0 0.18.0 0.18.3: A library which communicates with XBee radios for zigpy
 dev-python/zigpy-zigate 0.10.3 0.11.0: A library which communicates with ZiGate radios for zigpy
