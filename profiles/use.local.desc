@@ -22,6 +22,7 @@ app-misc/homeassistant:amcrest - Integrate your Amcrest or Dahua IP camera
 app-misc/homeassistant:ampio - Will query the open data API of ampio.pl to monitor air quality sensor station
 app-misc/homeassistant:android_ip_webcam - The android_ip_webcam integration turns any Android phone or tablet into a netwo
 app-misc/homeassistant:androidtv - Library for controlling an Android TV, formerly firetv
+app-misc/homeassistant:androidtv_remote - allows you to control an Android TV and launching apps
 app-misc/homeassistant:anel_pwrctrl - The anel_pwrctrl switch platform allows you to control ANEL PwrCtrl devices
 app-misc/homeassistant:anthemav - Both Anthem’s current and last generation of A/V Receivers and Processors suppor
 app-misc/homeassistant:apache_kafka - Sends all state changes from Home Assistant to a Apache Kafka topic
@@ -180,6 +181,7 @@ app-misc/homeassistant:nad - allows you to control a NAD receiver through RS232,
 app-misc/homeassistant:nederlandse_spoorwegen - train service in the Netherlands
 app-misc/homeassistant:netatmo - Access to Netatmo weather station data
 app-misc/homeassistant:netdata - API for interacting with Netdata
+app-misc/homeassistant:nfandroidtv - Notifications for Android TV and Notifications for Fire TV
 app-misc/homeassistant:notify_events - The Notify.Events service is a platform for the notify component
 app-misc/homeassistant:nuki - control Nuki Smart Locks
 app-misc/homeassistant:nws - uses the National Weather Service web API
@@ -1240,6 +1242,7 @@ app-misc/homeassistant-min:airvisual - Airvisual sensor platform queries the Air
 app-misc/homeassistant-min:alpha_vantage - The alpha_vantage sensor platform uses Alpha Vantage to monitor the stock market
 app-misc/homeassistant-min:android_ip_webcam - The android_ip_webcam integration turns any Android phone or tablet into a netwo
 app-misc/homeassistant-min:androidtv - Library for controlling an Android TV, formerly firetv
+app-misc/homeassistant-min:androidtv_remote - allows you to control an Android TV and launching apps
 app-misc/homeassistant-min:axis - Communicating with newer devices from Axis Communications
 app-misc/homeassistant-min:bluetooth - The Bluetooth integration will detect nearby Bluetooth devices
 app-misc/homeassistant-min:bluetooth_le_tracker - Tracks Bluetooth low-energy devices periodically based on interval_seconds value
@@ -1280,6 +1283,7 @@ app-misc/homeassistant-min:mqtt - install MQTT Broker and dependencies
 app-misc/homeassistant-min:myq - lets you control MyQ-Enabled garage doors
 app-misc/homeassistant-min:mysensors - combines devices like Arduino, ESP8266, Raspberry Pi, NRF24L01+ and RFM69
 app-misc/homeassistant-min:mysql - set dependencies to install MySQL Libraries for use with HomeAssistant
+app-misc/homeassistant-min:nfandroidtv - Notifications for Android TV and Notifications for Fire TV
 app-misc/homeassistant-min:notify_events - The Notify.Events service is a platform for the notify component
 app-misc/homeassistant-min:octoprint - The main integration to integrate OctoPrint sensors
 app-misc/homeassistant-min:onvif - allows you to use an ONVIF Profile S conformant device
