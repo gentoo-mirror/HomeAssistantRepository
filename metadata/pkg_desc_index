@@ -19,6 +19,7 @@ dev-embedded/esphome-dashboard 20221109.0 20230214.0 20230904.0: ESPHome dashboa
 dev-embedded/esptool 3.3-r2 3.3.1 4.4 4.6.2: A serial utility to communicate & flash code to Espressif ESP8266 & ESP32 chips.
 dev-embedded/platformio 6.1.4-r1 6.1.11: An open source ecosystem for IoT development
 dev-libs/libgit2 1.5.2: A linkable library for Git
+dev-libs/protobuf 24.2 24.3: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-python/AEMET-OpenData 0.2.2 0.4.5: AEMET OpenData Rest API library
 dev-python/AIOAladdinConnect 0.1.56 0.1.58: Python Async API for controlling Genie garage doors connected to Aladdin Connect devices
 dev-python/AIOSomecomfort 0.0.14 0.0.17: A client for Honeywell's US-based cloud devices
