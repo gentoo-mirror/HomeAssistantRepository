@@ -467,7 +467,7 @@ dev-python/grpcio-reflection 1.51.1 1.58.0 1.59.0: Standard Protobuf Reflection 
 dev-python/grpcio-status 1.51.1 1.58.0: Status proto mapping for gRPC
 dev-python/gspread 5.5.0: Google Spreadsheets Python API
 dev-python/gstreamer-player 1.1.2: Python 3 wrapper for playing media via gstreamer
-dev-python/guppy3 3.1.2 3.1.3 3.1.4: Guppy 3 -- Guppy-PE ported to Python 3
+dev-python/guppy3 3.1.2 3.1.3: Guppy 3 -- Guppy-PE ported to Python 3
 dev-python/ha-HAP-python 4.5.2: HomeKit Accessory Protocol implementation in python
 dev-python/ha-av 10.0.0 10.1.0 10.1.1: Pythonic bindings for FFmpeg's libraries.
 dev-python/ha-ffmpeg 3.0.2 3.1.0: A library that handling with ffmpeg for home-assistant
