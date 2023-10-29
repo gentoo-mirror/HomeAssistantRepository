@@ -358,7 +358,7 @@ dev-python/dovado 0.4.1: Communicate with Dovado router
 dev-python/dremel3dpy 2.1.1: A Dremel 3D Printer Python Library running on Python 3
 dev-python/dsmr-parser 0.33: Library to parse Dutch Smart Meter Requirements (DSMR)
 dev-python/dtlssocket 0.1.12 0.1.16: DTLSSocket is a cython wrapper for tinydtls with a Socket like interface
-dev-python/dwdwfsapi 1.0.5 1.0.6: Python client to retrieve data provided by DWD via their geoserver WFS API
+dev-python/dwdwfsapi 1.0.5 1.0.6 1.0.7: Python client to retrieve data provided by DWD via their geoserver WFS API
 dev-python/dweepy 0.3.0: Dweepy is a Python client for dweet.io
 dev-python/dynalite-devices 0.1.47: An unofficial Dynalite DyNET interface creating devices.
 dev-python/dynalite-panel 0.0.4: Dynalite panel for Home Assistant
