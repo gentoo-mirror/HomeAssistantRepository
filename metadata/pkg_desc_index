@@ -709,7 +709,7 @@ dev-python/pizzapi 0.0.3: A Python wrapper for the Dominos Pizza API
 dev-python/pkce 1.0.3: PKCE Pyhton generator.
 dev-python/plexauth 0.0.6: Handles the authorization flow to obtain tokens from Plex.tv via external redirection.
 dev-python/plexwebsocket 0.0.13: Support for issuing callbacks in response to Plex websocket updates.
-dev-python/plugwise 0.27.5 0.33.0: Plugwise (Adam/Anna/P1/Stick/Stretch) API to use in conjunction with Home Assistant Core.
+dev-python/plugwise 0.27.5 0.33.0 0.33.2: Plugwise (Adam/Anna/P1/Stick/Stretch) API to use in conjunction with Home Assistant Core.
 dev-python/plumlightpad 0.0.11: A python package that interacts with the Plum Lightpad
 dev-python/pmsensor 0.4: Library to read data from environment sensors
 dev-python/poolsense 0.0.8: Asynchronous Python client for getting PoolSense data.
@@ -1090,7 +1090,7 @@ dev-python/samsungtvws 2.5.0 2.6.0: Samsung Smart TV WS API wrapper
 dev-python/satel-integra 0.3.4 0.3.7: Communication library for Satel Integra alarm system.
 dev-python/schedule 1.1.0: Job scheduling for humans.
 dev-python/schiene 0.23: schiene is a Python library for interacting with Bahn.de
-dev-python/screenlogicpy 0.8.2 0.9.2 0.9.3: Interface for Pentair ScreenLogic connected pool controllers over IP via Python
+dev-python/screenlogicpy 0.8.2 0.9.2 0.9.3 0.9.4: Interface for Pentair ScreenLogic connected pool controllers over IP via Python
 dev-python/scsgate 0.1.0: A Python module to interact with SCSGate
 dev-python/securetar 2022.2.0 2023.3.0: Python module to handle tarfile backups.
 dev-python/segno 1.5.2: QR Code and Micro QR Code generator for Python 2 and Python 3
