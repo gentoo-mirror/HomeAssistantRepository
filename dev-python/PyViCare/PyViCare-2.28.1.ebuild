@@ -5,10 +5,10 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
-
-DESCRIPTION="A package for interacting with Subaru Starlink Remote Services API."
-HOMEPAGE="https://github.com/G-Two/subarulink https://pypi.org/project/subarulink/"
+DESCRIPTION="Library to communicate with the Viessmann ViCare API"
+HOMEPAGE="https://github.com/somm15/PyViCare https://pypi.org/project/PyViCare/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -18,8 +18,7 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/stdiomask[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/Authlib-1.2.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
@@ -27,6 +26,13 @@ BDEPEND="
 
 python_test() {
 	py.test -v -v || die
+}
+
+src_prepare() {
+	# remove dynamic-versioning
+	sed 's/version_config=True/version = \"'${PV}'\"/g' -i setup.py || die
+	sed -i "s/setuptools-git-versioning<1.8.0//g" -i setup.py || die
+	eapply_user
 }
 
 distutils_enable_tests pytest

@@ -4,11 +4,10 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..12} )
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-
-DESCRIPTION="Asynchronous Python client for Twente Milieu API."
-HOMEPAGE="https://github.com/frenck/python-twentemilieu https://pypi.org/project/twentemilieu/"
+DESCRIPTION="An asynchronous Python library for communicating with Unifi Network Controller API"
+HOMEPAGE="https://github.com/Kane610/aiounifi https://pypi.org/project/aiounifi/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,14 +17,15 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
-	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
+	>=dev-python/segno-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.9[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
-		dev-python/aresponses[${PYTHON_USEDEP}]
+		dev-python/aioresponses[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-		dev-python/pytest-cov[${PYTHON_USEDEP}]
+		dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
 	)"
 
 python_test() {

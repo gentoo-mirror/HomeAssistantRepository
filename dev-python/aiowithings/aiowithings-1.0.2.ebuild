@@ -7,10 +7,10 @@ PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python library to control Vodafone Station"
-HOMEPAGE="https://github.com/chemelli74/aiovodafone https://pypi.org/project/aiovodafone/"
+DESCRIPTION="Asynchronous Python client for Withings."
+HOMEPAGE="https://github.com/joostlek/python-withings https://pypi.org/project/aiowithings/"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,12 +18,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/pytest-cov[${PYTHON_USEDEP}]
 	)"
 
 python_test() {

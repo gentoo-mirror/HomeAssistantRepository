@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9..11} )
+PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
@@ -20,11 +20,10 @@ DOCS="README.md"
 
 RDEPEND=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/awesomeversion-22.1.0[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/backoff-2.2.0[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]"
 BDEPEND="
-	dev-python/packaging[${PYTHON_USEDEP}]
 	test? (
 		dev-python/aresponses[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]

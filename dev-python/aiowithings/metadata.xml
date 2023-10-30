@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">vtjp</remote-id>
-    <remote-id type="github">Miicroo/python-vasttrafik</remote-id>
+    <remote-id type="pypi">aiowithings</remote-id>
+    <remote-id type="github">joostlek/python-withings</remote-id>
     <maintainer status="unknown">
-      <email>per.j.sandstrom@gmail.com</email>
-      <name>Per Sandström</name>
+      <email>joostlek@outlook.com</email>
+      <name>Joost Lekkerkerker</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
