@@ -98,7 +98,7 @@ dev-python/adax 0.2.0 0.3.0: A python3 library to communicate with Adax
 dev-python/adb-homeassistant 1.3.2: A pure python implementation of the Android ADB and Fastboot protocols
 dev-python/adb-shell 0.4.3 0.4.4: A Python implementation of ADB with shell and FileSync functionality.
 dev-python/adext 0.4.2: AlarmDecoder extended
-dev-python/adguardhome 0.6.1: Asynchronous Python client for the AdGuard Home API.
+dev-python/adguardhome 0.6.1 0.6.2: Asynchronous Python client for the AdGuard Home API.
 dev-python/advantage-air 0.4.1 0.4.4: API helper for Advantage Air's MyAir and e-zone API
 dev-python/aenum 3.1.11 3.1.12: Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
 dev-python/afsapi 0.2.7: Asynchronous Implementation of the Frontier Silicon API
@@ -114,7 +114,7 @@ dev-python/aio-georss-client 0.11: An async GeoRSS client library.
 dev-python/aio-georss-gdacs 0.8: An async GeoRSS client library for GDACS feeds.
 dev-python/aioairq 0.2.4: Asynchronous library to retrieve data from air-Q devices.
 dev-python/aioairzone 0.5.2 0.6.8 0.6.9: Library to control Airzone devices
-dev-python/aioairzone-cloud 0.2.0 0.2.3: Library to control Airzone Cloud devices
+dev-python/aioairzone-cloud 0.2.0 0.2.3 0.3.1: Library to control Airzone Cloud devices
 dev-python/aioambient 2023.4.0: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioaseko 0.0.2: Async Python package for the Aseko Pool Live API
 dev-python/aioasuswrt 1.4.0: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/
@@ -215,7 +215,7 @@ dev-python/anyio 3.6.2 3.7.0: Compatibility layer for multiple asynchronous even
 dev-python/apcaccess 0.0.13: This project implements the apcaccess tool in pure Python and provides
 dev-python/apns2 0.3.0: Interacting with the Apple Push Notification Service via HTTP/2 protocol
 dev-python/apple_weatherkit 1.0.4: Python client for Apple WeatherKit API
-dev-python/apprise 1.3.0 1.4.0 1.5.0: Push Notifications that work with just about every platform!
+dev-python/apprise 1.3.0 1.4.0 1.5.0 1.6.0: Push Notifications that work with just about every platform!
 dev-python/aprslib 0.7.0: Module for accessing APRS-IS and parsing APRS packets
 dev-python/aqipy-atmotech 0.1.5: AQI calculation library
 dev-python/aqualogic 2.6: Library for interfacing with a Hayward/Goldline AquaLogic/ProLogic pool controller.
@@ -768,7 +768,7 @@ dev-python/pyarlo 0.2.4: Python Arlo is a library written in Python 2.7/3x that 
 dev-python/pyasn1 0.4.8-r2: ASN.1 library for Python
 dev-python/pyatag 0.3.5.3: Python module to talk to Atag One.
 dev-python/pyatmo 7.5.0: Simple API to access Netatmo weather station data from any Python 3 script. Designed for Home Assistant (but not only)
-dev-python/pyatv 0.10.3 0.13.2 0.13.4: A client library for Apple TV and AirPlay devices
+dev-python/pyatv 0.10.3 0.13.2 0.13.4 0.14.3: A client library for Apple TV and AirPlay devices
 dev-python/pyaussiebb 0.0.15: Aussie Broadband API module
 dev-python/pybalboa 1.0.1: Module to communicate with a Balboa spa wifi adapter.
 dev-python/pybbox 0.0.5_alpha0: a simple python3 library for the Bouygues BBox Routeur API
