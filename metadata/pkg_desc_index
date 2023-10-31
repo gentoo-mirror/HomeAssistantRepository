@@ -219,6 +219,7 @@ dev-python/apprise 1.3.0 1.4.0 1.5.0 1.6.0: Push Notifications that work with ju
 dev-python/aprslib 0.7.0: Module for accessing APRS-IS and parsing APRS packets
 dev-python/aqipy-atmotech 0.1.5: AQI calculation library
 dev-python/aqualogic 2.6: Library for interfacing with a Hayward/Goldline AquaLogic/ProLogic pool controller.
+dev-python/aranet4 2.2.2: Aranet4 and Aranet2 Python client
 dev-python/arcam-fmj 1.2.1 1.3.0 1.4.0: A python library for speaking to Arcam receivers
 dev-python/aresponses 2.1.6: Asyncio response mocking. Similar to the responses library used for 'requests'
 dev-python/arris-tg2492lg 1.2.1: Python client for the Arris TG2492LG
