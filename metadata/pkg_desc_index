@@ -76,7 +76,7 @@ dev-python/Pysher 1.0.7: Pusher websocket client for python, based on Erik Kulyk
 dev-python/RPi-GPIO 0.7.1_alpha4: A module to control Raspberry Pi GPIO channels
 dev-python/RachioPy 1.0.3: A Python module for the Rachio API.
 dev-python/ReParser 1.4.3: Simple regex-based lexer/parser for inline markup
-dev-python/RestrictedPython 6.0 6.2: subset of Python which allows program input into a trusted environment.
+dev-python/RestrictedPython 6.0 6.2 7.0_alpha1-r0: subset of Python which allows program input into a trusted environment.
 dev-python/RtmAPI 0.7.2-r2: API package for rememberthemilk.com
 dev-python/Rx 3.2.0-r1: Reactive Extensions (Rx) for Python
 dev-python/SmartHab 0.21: This package allows controlling devices in a SmartHab-powered home.
