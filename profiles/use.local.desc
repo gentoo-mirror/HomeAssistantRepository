@@ -162,6 +162,7 @@ app-misc/homeassistant:lifx - The lifx integration allows you to integrate your 
 app-misc/homeassistant:linode - allows you to access the information about your Linode systems
 app-misc/homeassistant:litterrobot - Wi-Fi-enabled, automatic, self-cleaning litter box for cats
 app-misc/homeassistant:local_calendar - create a calendar of events in Home Assistant
+app-misc/homeassistant:local_todo - The Local to-do list integration allows you to create to-do lists in Home Assist
 app-misc/homeassistant:loopenergy - Integrate your Loop Energy meter information into Home Assistant
 app-misc/homeassistant:luci - fetch connected devices from your OpenWrt
 app-misc/homeassistant:luftdaten - query the open data API of luftdaten.info to monitor air quality
@@ -597,6 +598,7 @@ app-misc/homeassistant-full:google_mail - allows you to connect your Google Mail
 app-misc/homeassistant-full:google_maps - google_maps platform allows you to detect presence
 app-misc/homeassistant-full:google_pubsub - Send events to Google Cloud Pub/Sub from Home Assistant
 app-misc/homeassistant-full:google_sheets - allows you to connect your Google Drive to Home Assistant
+app-misc/homeassistant-full:google_tasks - allows you to connect your Google Tasks to Home Assistant
 app-misc/homeassistant-full:google_translate - google_translate text-to-speech platform for Home Assistant
 app-misc/homeassistant-full:google_travel_time - provides travel time from the Google Distance Matrix API
 app-misc/homeassistant-full:govee_ble - Integrates Govee BLE devices into Home Assistant
@@ -658,6 +660,7 @@ app-misc/homeassistant-full:ihc - use IHC Python SDK
 app-misc/homeassistant-full:image - handle image assets in Home Assistant
 app-misc/homeassistant-full:image_upload - handle image assets in Home Assistant
 app-misc/homeassistant-full:imap - observing your IMAP server and reporting the amount of unread emails
+app-misc/homeassistant-full:improv_ble - allows connecting devices implementing Improv via BLE to Wi-Fi
 app-misc/homeassistant-full:incomfort - client for Intergas InComfort/InTouch Lan2RF systems
 app-misc/homeassistant-full:influxdb - transfer sensor data to a local InfluxDB database
 app-misc/homeassistant-full:inkbird - Integrates INKBIRD devices into Home Assistant
@@ -725,6 +728,7 @@ app-misc/homeassistant-full:litejet - allows a computer to control the system vi
 app-misc/homeassistant-full:litterrobot - Wi-Fi-enabled, automatic, self-cleaning litter box for cats
 app-misc/homeassistant-full:livisi - connect your LIVISI Smart Home Controller (SHC) to Home Assistant
 app-misc/homeassistant-full:local_calendar - create a calendar of events in Home Assistant
+app-misc/homeassistant-full:local_todo - The Local to-do list integration allows you to create to-do lists in Home Assist
 app-misc/homeassistant-full:logi_circle - integrate your Logi Circle cameras in Home Assistant
 app-misc/homeassistant-full:london_underground - display the status of London underground lines
 app-misc/homeassistant-full:lookin - Integrates LOOKin devices into Home Assistant
@@ -1053,6 +1057,7 @@ app-misc/homeassistant-full:ssdp - will scan the network for supported devices a
 app-misc/homeassistant-full:ssl - include support for haproxy
 app-misc/homeassistant-full:starline - retrieve data of your StarLine security system from the StarLine portal
 app-misc/homeassistant-full:starlingbank - monitor your account balance data as sensors
+app-misc/homeassistant-full:starlink - allows you to integrate your Starlink into Home Assistant
 app-misc/homeassistant-full:startca - Integrate your Start.ca account information into Home Assistant
 app-misc/homeassistant-full:statsd - transfer all state changes to an external StatsD instance
 app-misc/homeassistant-full:steam_online - allows you to track the online status of public Steam accounts
@@ -1082,6 +1087,7 @@ app-misc/homeassistant-full:systemmonitor - Allows you to monitor disk usage, me
 app-misc/homeassistant-full:tado - an interface to the my.tado.com website
 app-misc/homeassistant-full:tahoma - interface to the tahomalink.com website. It adds covers, scenes and a sun sensor
 app-misc/homeassistant-full:tailscale - monitor and automate on the state of the devices in your Tailscale VPN
+app-misc/homeassistant-full:tami4 - Support for Tami4 Edge / Edge+ by Strauss in Home Assistant
 app-misc/homeassistant-full:tank_utility - Add Tank Utility propane tank monitors to Home Assistant
 app-misc/homeassistant-full:tankerkoenig - monitor the fuel prices with tankerkoenig.de
 app-misc/homeassistant-full:tapsaff - provides the ‘Taps Aff’ status for a given location within the UK
@@ -1273,6 +1279,7 @@ app-misc/homeassistant-min:knx - Asynchronous Library for the KNX protocol
 app-misc/homeassistant-min:kodi - control a Kodi multimedia system
 app-misc/homeassistant-min:kraken - allows you to monitor exchange rates on kraken.com
 app-misc/homeassistant-min:local_calendar - create a calendar of events in Home Assistant
+app-misc/homeassistant-min:local_todo - The Local to-do list integration allows you to create to-do lists in Home Assist
 app-misc/homeassistant-min:mariadb - WIP: set dependencies for mariadb-connector-python
 app-misc/homeassistant-min:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant-min:mikrotik - add support for MikroTik RouterOS API
