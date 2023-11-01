@@ -499,7 +499,7 @@ dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.21.13 0.28: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.9.3 1.10.0 1.10.3 1.10.4: Home Assistant Bluetooth Models and Helpers
-dev-python/home-assistant-frontend 20230411.1 20230503.3 20230705.1 20231005.0: The Home Assistant frontend
+dev-python/home-assistant-frontend 20230411.1 20230503.3 20230705.1 20231005.0 20231027.0: The Home Assistant frontend
 dev-python/home-assistant-intents 2023.3.29 2023.6.28 2023.10.2 2023.10.16: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.13 1.0.14 1.0.15: An API for the homematicip cloud
