@@ -168,6 +168,7 @@ app-misc/homeassistant:luftdaten - query the open data API of luftdaten.info to 
 app-misc/homeassistant:mariadb - WIP: set dependencies for mariadb-connector-python
 app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant:media_extractor - Gets a stream URL and sends it to a media player entity
+app-misc/homeassistant:met - met platform uses the Met.no web service as a source for meteorological data
 app-misc/homeassistant:meteo_france - uses the meteorological data from Meteo-France
 app-misc/homeassistant:mfi - sensor platform to allow you to monitor mFi mPort interface and sensors
 app-misc/homeassistant:mikrotik - add support for MikroTik RouterOS API
@@ -182,8 +183,10 @@ app-misc/homeassistant:nederlandse_spoorwegen - train service in the Netherlands
 app-misc/homeassistant:netatmo - Access to Netatmo weather station data
 app-misc/homeassistant:netdata - API for interacting with Netdata
 app-misc/homeassistant:nfandroidtv - Notifications for Android TV and Notifications for Fire TV
+app-misc/homeassistant:nmap_tracker - Presence detection for Home Assistant with nmap
 app-misc/homeassistant:notify_events - The Notify.Events service is a platform for the notify component
 app-misc/homeassistant:nuki - control Nuki Smart Locks
+app-misc/homeassistant:nut - monitor a UPS (battery backup) by using data from a NUT (Network UPS Tools)
 app-misc/homeassistant:nws - uses the National Weather Service web API
 app-misc/homeassistant:nx584 - NX584/NX8E Interface Library and Server
 app-misc/homeassistant:octoprint - The main integration to integrate OctoPrint sensors
@@ -262,6 +265,7 @@ app-misc/homeassistant:tuya - integrate all Tuya Smart related platforms
 app-misc/homeassistant:unifi - talk with a Ubiquiti unifi Controller
 app-misc/homeassistant:unifi_direct - detect presence by looking at devices connected to a UniFi AP
 app-misc/homeassistant:upnp - support UPnP/Internet Gateway Device (IGD) Protocol
+app-misc/homeassistant:usb - USB Discovery integration will watch the host for USB devices
 app-misc/homeassistant:utility_meter - integration provides functionality to track consumptions of various utilities
 app-misc/homeassistant:vallox - control any Vallox ventilation unit
 app-misc/homeassistant:velbus - supports the Velbus USB, serial and TCP/IP gateway
