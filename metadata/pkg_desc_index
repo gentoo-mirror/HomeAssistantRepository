@@ -799,7 +799,7 @@ dev-python/pydantic 1.10.5 1.10.7 1.10.12: Data parsing and validation using Pyt
 dev-python/pydeconz 110 111 113: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
 dev-python/pydelijn 1.0.0 1.1.0: Get realtime info on stop passages of De Lijn (api.delijn.be)
 dev-python/pydexcom 0.2.3: Python API to interact with Dexcom Share API
-dev-python/pydiscovergy 1.2.1 2.0.3: Async Python 3 library for interacting with Discovergy smart meters API
+dev-python/pydiscovergy 1.2.1 2.0.3 2.0.5: Async Python 3 library for interacting with Discovergy smart meters API
 dev-python/pydoods 1.0.2: A Python wrapper for the DOODS image detection service
 dev-python/pydrawise 2023.8.0: Python API for interacting with Hydrawise sprinkler controllers.
 dev-python/pydroid-ipcam 2.0.0: Library for handling the Android IP Webcam app
