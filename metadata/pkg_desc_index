@@ -139,7 +139,7 @@ dev-python/aioftp 0.12.0 0.21.3: ftp client/server for asyncio
 dev-python/aiogithubapi 22.10.1: Asynchronous Python client for the GitHub API
 dev-python/aioguardian 2022.3.2 2022.7.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aioharmony 0.2.9 0.2.10: Asyncio Python library for connecting to and controlling the Logitech Harmony
-dev-python/aiohomekit 2.2.13 2.4.6 2.6.1 2.6.3 3.0.5 3.0.8: An asyncio HomeKit client
+dev-python/aiohomekit 2.2.13 2.4.6 2.6.1 2.6.3 3.0.5 3.0.8 3.0.9: An asyncio HomeKit client
 dev-python/aiohttp 3.8.4 3.9.0_beta0: HTTP client/server for asyncio
 dev-python/aiohttp-retry 2.8.3: Simple retry client for aiohttp
 dev-python/aiohue 4.6.2 4.7.0: Python module to talk to Philips Hue.
@@ -499,7 +499,7 @@ dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.21.13 0.28: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.9.3 1.10.0 1.10.3 1.10.4: Home Assistant Bluetooth Models and Helpers
-dev-python/home-assistant-frontend 20230411.1 20230503.3 20230705.1 20231005.0 20231027.0 20231030.0: The Home Assistant frontend
+dev-python/home-assistant-frontend 20230411.1 20230503.3 20230705.1 20231005.0 20231027.0 20231030.0 20231030.1: The Home Assistant frontend
 dev-python/home-assistant-intents 2023.3.29 2023.6.28 2023.10.2 2023.10.16: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.13 1.0.14 1.0.15: An API for the homematicip cloud
@@ -998,7 +998,7 @@ dev-python/python-http-client 3.3.2: HTTP REST client, simplified for Python
 dev-python/python-izone 1.2.3 1.2.9: A python interface to the iZone airconditioner controller
 dev-python/python-join-api 0.0.9: Python API for interacting with Join by joaoapps.
 dev-python/python-juicenet 1.1.0: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
-dev-python/python-kasa 0.5.1 0.5.3: Python API for TP-Link Kasa Smarthome devices
+dev-python/python-kasa 0.5.1 0.5.3 0.5.4: Python API for TP-Link Kasa Smarthome devices
 dev-python/python-matter-server 3.7.0: Python Matter WebSocket Server
 dev-python/python-metar 1.4.0: Metar - a package to parse METAR coded weather reports
 dev-python/python-miio 0.5.11 0.5.12: Python library for interfacing with Xiaomi smart appliances
@@ -1069,7 +1069,7 @@ dev-python/regex 2021.8.28: Alternative regular expression module to replace re
 dev-python/related 0.7.2: Related: Straightforward nested object models in Python
 dev-python/renault-api 0.1.12 0.1.13 0.2.0: Renault API
 dev-python/renson-endura-delta 1.6.0: Unofficial Renson endura delta Python library
-dev-python/reolink-aio 0.5.1 0.5.10 0.7.10 0.7.11: Reolink NVR/cameras API package
+dev-python/reolink-aio 0.5.1 0.5.10 0.7.10 0.7.11 0.7.12: Reolink NVR/cameras API package
 dev-python/requests 2.28.2: HTTP library for human beings
 dev-python/requests-mock 1.9.2: Mock out responses from the requests package
 dev-python/requests-oauth 0.4.1: Hook for adding Open Authentication support to Python-requests HTTP library.
