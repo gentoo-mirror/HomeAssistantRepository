@@ -1343,5 +1343,8 @@ dev-libs/libgit2:gssapi - Enable GSSAPI support for SPNEGO auth
 dev-libs/libgit2:ssh - Enable SSH transport support
 dev-libs/libgit2:trace - Enable tracing support
 dev-python/envs:cli - add cli support
+dev-python/matplotlib:excel - Pull dev-python/xlwt for the exceltools toolkit
+dev-python/matplotlib:gtk3 - Enable x11-libs/gtk+:3 support
+dev-python/matplotlib:webagg - Enable webagg backend that uses dev-python/tornado
 dev-python/pydantic:native-extensions - Compiles native "C" extensions.
 dev-python/youtube-dl:yt-dlp - Use net-misc/yt-dlp to provide the command and only install the python module
