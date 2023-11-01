@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">dsmr-parser</remote-id>
-    <remote-id type="github">ndokter/dsmr_parser</remote-id>
+    <remote-id type="pypi">dlms-cosem</remote-id>
+    <remote-id type="github">pwitab/dlms-cosem</remote-id>
     <maintainer status="unknown">
-      <email>mail@nldr.net</email>
-      <name>Nigel Dokter and many others</name>
+      <email>henrik@pwit.se</email>
+      <name>Henrik Palmlund Wahlgren @ Palmlund Wahlgren Innovative Technology AB</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
