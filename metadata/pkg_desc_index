@@ -36,7 +36,7 @@ dev-python/CO2Signal 0.4.2: A package to access the co2signal API
 dev-python/DoorBirdPy 2.1.0: Python wrapper for the DoorBird LAN API v0.21
 dev-python/Events 0.4: Bringing the elegance of C# EventHandler to Python
 dev-python/GitPython 2.1.11: Python Git Library
-dev-python/HAP-python 4.6.0 4.7.0 4.8.0: HomeKit Accessory Protocol implementation in python
+dev-python/HAP-python 4.6.0 4.7.0 4.8.0 4.9.1: HomeKit Accessory Protocol implementation in python
 dev-python/HATasmota 0.6.4 0.7.3: Python module to help parse and construct Tasmota MQTT messages.
 dev-python/Hydrawiser 0.2: A Python library to communicate with Hunter Wi-Fi irrigation controllers (https://www.hunter.com)
 dev-python/Mastodon-py 1.5.1: Python wrapper for the Mastodon API
@@ -412,7 +412,7 @@ dev-python/fjaraskupan 2.2.0: A python library for speaking to fjäråskupan
 dev-python/flake8-docstrings 1.6.0-r1: Extension for flake8 which uses pydocstyle to check docstrings
 dev-python/flipr-api 1.5.0: Python client for flipr API.
 dev-python/flux-led 0.28.37 1.0.4: A Python library to communicate with the flux_led smart bulbs
-dev-python/fnv-hash-fast 0.3.1 0.4.1: A fast version of fnv1a
+dev-python/fnv-hash-fast 0.3.1 0.4.1 0.5.0: A fast version of fnv1a
 dev-python/fnvhash 0.1.0: Pure Python FNV hash implementation
 dev-python/foobot_async 1.0.0: API Client for Foobot Air Quality Monitoring devices.
 dev-python/forecast-solar 2.2.0 3.0.0: Asynchronous Python client for getting forecast solar information
@@ -427,7 +427,7 @@ dev-python/gardena-bluetooth 1.4.0: controlling gardena bluetooth enabled wateri
 dev-python/garminconnect-ha 0.1.6: Garmin Connect Python 3 API wrapper for Home Assistant
 dev-python/gassist-text 0.0.10: A Python library for interacting with Google Assistant API via text
 dev-python/gatt 0.2.7: Bluetooth GATT SDK for Python
-dev-python/gcal-sync 4.1.4: A python library for syncing Google Calendar to local storage
+dev-python/gcal-sync 4.1.4 5.0.0: A python library for syncing Google Calendar to local storage
 dev-python/gcloud 0.18.3: API Client library for Google Cloud
 dev-python/geniushub-client 0.7.0: An aiohttp-based client for Genius Hub systems
 dev-python/geocachingapi 0.2.1: Python client for controlling the Geocaching API
@@ -438,7 +438,7 @@ dev-python/georss-generic-client 0.6: A GeoRSS generic client library.
 dev-python/georss-ign-sismologia-client 0.6: A GeoRSS client library for the IGN Sismologia feed.
 dev-python/georss-qld-bushfire-alert-client 0.5: A GeoRSS client library for the Queensland Bushfire Alert feed.
 dev-python/getmac 0.8.2 0.8.3: Get MAC addresses of remote hosts and local interfaces
-dev-python/gios 3.1.0: Python wrapper for getting air quality data from GIOS servers.
+dev-python/gios 3.1.0 3.2.0: Python wrapper for getting air quality data from GIOS servers.
 dev-python/gitterpy 0.1.7: Python interface for the Gitter API
 dev-python/glances-api 0.4.1 0.4.2 0.4.3: Python API for interacting with Glances.
 dev-python/gntp 1.0.3: Growl Notification Transport Protocol for Python
@@ -452,7 +452,7 @@ dev-python/google-generativeai 0.1.0: Google Generative AI High level API client
 dev-python/google-nest-sdm 2.2.4 3.0.2 3.0.3: Library for the Google Nest SDM API
 dev-python/googlemaps 2.5.1: Python client library for Google Maps API Web Services
 dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud API
-dev-python/govee-ble 0.23.0: Manage Govee BLE devices
+dev-python/govee-ble 0.23.0 0.24.0: Manage Govee BLE devices
 dev-python/gpiod 1.5.4: It is a pure Python library and has no dependencies on other packages
 dev-python/gpiozero 1.6.2: A simple interface to GPIO devices with Raspberry Pi.
 dev-python/gps3 0.33.3-r1: Python 2.7-3.5 clients for gpsd
@@ -815,7 +815,7 @@ dev-python/pyephember 0.3.1: Python library to work with ember from EPH Controls
 dev-python/pyeverlights 0.1.0: A library for controlling an EverLights lighting system.
 dev-python/pyevilgenius 2.0.0: Python module to talk to Evil Genius Labs devices.
 dev-python/pyezviz 0.2.0.9 0.2.1.2: Pilot your Ezviz cameras
-dev-python/pyfibaro 0.6.9 0.7.0 0.7.2: Simple API to access fibaro home center from any Python 3 script. Designed for Home Assistant (but not only)
+dev-python/pyfibaro 0.6.9 0.7.0 0.7.2 0.7.6: Simple API to access fibaro home center from any Python 3 script. Designed for Home Assistant (but not only)
 dev-python/pyfido 2.1.2: Get your Fido consumption (wwww.fido.ca)
 dev-python/pyfireservicerota 0.0.43: Python 3 API wrapper for FireServiceRota/BrandweerRooster
 dev-python/pyflexit 0.3: Flexit CI66 helper library
