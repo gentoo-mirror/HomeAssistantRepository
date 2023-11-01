@@ -58,6 +58,7 @@ dev-python/PyMetno 0.9.0 0.11.0: A library to communicate with the met.no api
 dev-python/PyMicroBot 0.0.8 0.0.9: A library to communicate with MicroBot
 dev-python/PyNINA 0.2.0 0.3.2 0.3.3: A Python API wrapper to retrieve warnings from the german NINA app.
 dev-python/PyOTA 2.0.5: IOTA API library for Python
+dev-python/PyPasser 0.0.5: Bypassing reCaptcha V3 by sending HTTP requests & solving reCaptcha V2 using speech to text.
 dev-python/PyPubSub 4.0.3: Python Publish-Subscribe Package
 dev-python/PyRIC 0.1.6.3: Python Wireless Library
 dev-python/PyRMVtransport 0.3.3: Define module-level imports.
@@ -79,6 +80,7 @@ dev-python/RestrictedPython 6.0 6.2: subset of Python which allows program input
 dev-python/RtmAPI 0.7.2-r2: API package for rememberthemilk.com
 dev-python/Rx 3.2.0-r1: Reactive Extensions (Rx) for Python
 dev-python/SmartHab 0.21: This package allows controlling devices in a SmartHab-powered home.
+dev-python/Tami4EdgeAPI 2.1: 
 dev-python/TravisPy 0.3.5: Python API for Travis CI.
 dev-python/TwitterAPI 2.7.12: Minimal wrapper for Twitter's REST and Streaming APIs
 dev-python/VL53L1X2 0.1.5: vl53l1x distance sensor driver for Raspberry Pi
