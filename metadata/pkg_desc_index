@@ -130,7 +130,7 @@ dev-python/aioeafm 0.1.2-r1: An asyncio wrapper for the UK Environment Agency Fl
 dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2023.1.0 2023.5.0: Python wrapper for EcoWitt Protocol
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 13.6.1 17.0.1 18.0.7 18.0.10: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 13.6.1 17.0.1 18.0.7 18.0.10 18.1.0: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.12.0 0.21.3: ftp client/server for asyncio
@@ -371,7 +371,7 @@ dev-python/ebusdpy 0.0.17: eBusd python integration library
 dev-python/ecoaliface 0.4.0: Interface to eSterownik.pl eCoal water boiler controller.
 dev-python/eebrightbox 0.0.4: Connector for EE BrightBox routers.
 dev-python/electrickiwi-api 0.8.5: Electric Kiwi Python API
-dev-python/elgato 4.0.1: Asynchronous Python client for Elgato Lights.
+dev-python/elgato 4.0.1 5.0.0: Asynchronous Python client for Elgato Lights.
 dev-python/eliqonline 1.2.2: Eliq Online API Library
 dev-python/elkm1-lib 2.2.1 2.2.6: Library for interacting with ElkM1 alarm/automation panel.
 dev-python/elmax-api 0.0.2 0.0.4: Asynchronous API Library to work with Elmax devices
@@ -809,7 +809,7 @@ dev-python/pyecoforest 0.3.0: Python library for ecoforest local device.
 dev-python/pyeconet 0.1.18 0.1.20 0.1.22: Interface to the unofficial EcoNet API
 dev-python/pyedimax 0.2.1: Interface with Edimax Smart Plugs
 dev-python/pyefergy 22.1.1: An API library for Efergy energy meters.
-dev-python/pyenphase 1.11.4: Library to control enphase envoy
+dev-python/pyenphase 1.11.4 1.13.1: Library to control enphase envoy
 dev-python/pyenvisalink 4.6: A python3 library for running asynchronus communications with envisalink alarm control panel modules.
 dev-python/pyephember 0.3.1: Python library to work with ember from EPH Controls
 dev-python/pyeverlights 0.1.0: A library for controlling an EverLights lighting system.
