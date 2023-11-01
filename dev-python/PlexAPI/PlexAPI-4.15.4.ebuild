@@ -5,21 +5,20 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
+DESCRIPTION="Python bindings for the Plex API."
+HOMEPAGE="https://github.com/pkkid/python-plexapi https://pypi.org/project/PlexAPI/"
 
-DESCRIPTION="API for Minut Point"
-HOMEPAGE="https://github.com/fredrike/pypoint https://pypi.org/project/pypoint/"
-
-LICENSE="MIT"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
+DOCS="README.rst"
 
-RDEPEND=">=dev-python/httpx-0.19.0[${PYTHON_USEDEP}]
-	dev-python/Authlib[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

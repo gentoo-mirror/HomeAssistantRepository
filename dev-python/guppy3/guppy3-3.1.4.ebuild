@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="API for Minut Point"
-HOMEPAGE="https://github.com/fredrike/pypoint https://pypi.org/project/pypoint/"
+DESCRIPTION="Guppy 3 -- Guppy-PE ported to Python 3"
+HOMEPAGE="https://github.com/zhuyifei1999/guppy3/ https://pypi.org/project/guppy3/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,8 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/httpx-0.19.0[${PYTHON_USEDEP}]
-	dev-python/Authlib[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
