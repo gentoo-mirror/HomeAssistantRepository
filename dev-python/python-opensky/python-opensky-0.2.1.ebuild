@@ -4,14 +4,13 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..12} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python wrapper for NextDNS API."
-HOMEPAGE="https://github.com/bieniu/nextdns https://pypi.org/project/nextdns/"
-SRC_URI="$(pypi_sdist_url)"
+DESCRIPTION="Asynchronous Python client for Opensky API."
+HOMEPAGE="https://github.com/joostlek/python-opensky https://pypi.org/project/python-opensky/"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -19,13 +18,12 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/syrupy-4.5.0[${PYTHON_USEDEP}]"
 BDEPEND="
-	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-		dev-python/aioresponses[${PYTHON_USEDEP}]
 	)"
 
 python_test() {

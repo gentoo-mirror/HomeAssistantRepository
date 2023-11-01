@@ -7,11 +7,10 @@ PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python wrapper for NextDNS API."
-HOMEPAGE="https://github.com/bieniu/nextdns https://pypi.org/project/nextdns/"
-SRC_URI="$(pypi_sdist_url)"
+DESCRIPTION="Nibe heatpump communication library"
+HOMEPAGE="https://github.com/yozik04/nibe https://pypi.org/project/nibe/"
 
-LICENSE="Apache-2.0"
+LICENSE="LGPL-3"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -19,13 +18,15 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/async-modbus-0.2.0[${PYTHON_USEDEP}]
+	>=dev-python/construct-2.10.0[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' python3_10)
+	>=dev-python/tenacity-8.0.0[${PYTHON_USEDEP}]
+	>=dev-python/exceptiongroup-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="
-	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-		dev-python/aioresponses[${PYTHON_USEDEP}]
 	)"
 
 python_test() {
