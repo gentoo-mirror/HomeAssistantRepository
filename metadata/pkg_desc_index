@@ -356,9 +356,10 @@ dev-python/discogs-client 2.3.0: Official Python API client for Discogs
 dev-python/discovery30303 0.2.1-r1: Discover devices that respond on port 30303
 dev-python/dlib 19.24.2: A toolkit for making real world machine learning and data analysis applications
 dev-python/dlipower 0.7.165: Control digital loggers web power switch
+dev-python/dlms-cosem 21.3.2: A Python library for DLMS/COSEM
 dev-python/dovado 0.4.1: Communicate with Dovado router
 dev-python/dremel3dpy 2.1.1: A Dremel 3D Printer Python Library running on Python 3
-dev-python/dsmr-parser 0.33: Library to parse Dutch Smart Meter Requirements (DSMR)
+dev-python/dsmr-parser 0.33 1.3.0: Library to parse Dutch Smart Meter Requirements (DSMR)
 dev-python/dtlssocket 0.1.12 0.1.16: DTLSSocket is a cython wrapper for tinydtls with a Socket like interface
 dev-python/dwdwfsapi 1.0.5 1.0.6-r1 1.0.7: Python client to retrieve data provided by DWD via their geoserver WFS API
 dev-python/dweepy 0.3.0: Dweepy is a Python client for dweet.io
@@ -805,7 +806,7 @@ dev-python/pydrawise 2023.8.0: Python API for interacting with Hydrawise sprinkl
 dev-python/pydroid-ipcam 2.0.0: Library for handling the Android IP Webcam app
 dev-python/pyebox 1.1.4: Get your EBox consumption (wwww.ebox.ca)
 dev-python/pyecoforest 0.3.0: Python library for ecoforest local device.
-dev-python/pyeconet 0.1.18 0.1.20: Interface to the unofficial EcoNet API
+dev-python/pyeconet 0.1.18 0.1.20 0.1.22: Interface to the unofficial EcoNet API
 dev-python/pyedimax 0.2.1: Interface with Edimax Smart Plugs
 dev-python/pyefergy 22.1.1: An API library for Efergy energy meters.
 dev-python/pyenphase 1.11.4: Library to control enphase envoy
