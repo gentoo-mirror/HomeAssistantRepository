@@ -1172,7 +1172,7 @@ dev-python/tellcore-net 0.4: a Python module that allow to run tellcore over TCP
 dev-python/tellcore-py 1.1.2: Python wrapper for Telldus' home automation library
 dev-python/tellduslive 0.10.11: Communicate with Telldus Live
 dev-python/tellsticknet 0.1.2: Listen for UDP sensor broadcasts from a Tellstick
-dev-python/temescal 0.3 0.5: Python API for controlling LG speakers
+dev-python/temescal 0.5: Python API for controlling LG speakers
 dev-python/temperusb 1.5.3 1.6.0: Reads temperature from TEMPerV1 devices (USB 0c45:7401)
 dev-python/tenacity 8.0.1-r1: General-purpose retrying library
 dev-python/tesla-powerwall 0.3.18 0.3.19: API for Tesla Powerwall
