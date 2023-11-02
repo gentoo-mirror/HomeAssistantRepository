@@ -780,7 +780,7 @@ dev-python/pyaussiebb 0.0.15: Aussie Broadband API module
 dev-python/pybalboa 1.0.1: Module to communicate with a Balboa spa wifi adapter.
 dev-python/pybbox 0.0.5_alpha0: a simple python3 library for the Bouygues BBox Routeur API
 dev-python/pyblackbird 0.5 0.6: Python API for talking to Monoprice Blackbird 4k 8x8 HDBaseT Matrix
-dev-python/pybluez 0.22: Bluetooth Python extension module
+dev-python/pybluez 0.22-r1: Bluetooth Python extension module
 dev-python/pybotvac 0.0.23 0.0.24: Python package for controlling Neato pybotvac Connected vacuum robot
 dev-python/pybravia 0.3.2 0.3.3: Python async library for remote control of Sony Bravia TVs 2013 and newer.
 dev-python/pycarwings2 2.14: Python library for interacting with the Nissan Leaf Carwings telematics service
