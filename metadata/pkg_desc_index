@@ -973,7 +973,7 @@ dev-python/pytest-unordered 0.5.2: Test equality of unordered collections in pyt
 dev-python/pytest-xdist 3.2.1: Distributed testing and loop-on-failing modes
 dev-python/pytfiac 0.4: API for Tfiac AC
 dev-python/pythinkingcleaner 0.0.3: Library to control ThinkingCleaner devices
-dev-python/python-awair 0.2.3 0.2.4: asyncio client for the Awair GraphQL and Local APIs
+dev-python/python-awair 0.2.4: asyncio client for the Awair GraphQL and Local APIs
 dev-python/python-blockchain-api 0.0.2: Python API for interacting with blockchain.info.
 dev-python/python-bsblan 0.5.5 0.5.9 0.5.11 0.5.16: Asynchronous Python client for BSBLAN
 dev-python/python-clementine-remote 1.0.1: Python library and CLI for the Clementine Music Player remote protocol.
@@ -993,7 +993,7 @@ dev-python/python-gitlab 1.6.0: Interact with GitLab API
 dev-python/python-homewizard-energy 2.0.1 2.1.0 2.1.2: Asynchronous Python client for the HomeWizard Energy
 dev-python/python-hpilo 4.3: Accessing the HP iLO XML interface from python
 dev-python/python-http-client 3.3.2: HTTP REST client, simplified for Python
-dev-python/python-izone 1.2.3 1.2.9: A python interface to the iZone airconditioner controller
+dev-python/python-izone 1.2.9: A python interface to the iZone airconditioner controller
 dev-python/python-join-api 0.0.9: Python API for interacting with Join by joaoapps.
 dev-python/python-juicenet 1.1.0: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
 dev-python/python-kasa 0.5.1 0.5.3 0.5.4: Python API for TP-Link Kasa Smarthome devices
@@ -1015,10 +1015,10 @@ dev-python/python-roborock 0.8.3 0.34.6 0.35.0: A package to control Roborock va
 dev-python/python-sense-hat 2.2.0-r3: Raspberry Pi Sense HAT python library
 dev-python/python-singleton 0.1.2: Singleton Metaclass.
 dev-python/python-slugify 4.0.1: A Python Slugify application that handles Unicode
-dev-python/python-smarttub 0.0.32 0.0.33: API to query and control hot tubs using the SmartTub system
+dev-python/python-smarttub 0.0.33: API to query and control hot tubs using the SmartTub system
 dev-python/python-sochain-api 0.0.2: Python API for interacting with chain.so.
 dev-python/python-socketio 4.6.0-r1 5.3.0: Socket.IO server
-dev-python/python-songpal 0.15 0.15.1 0.15.2: Python library for interfacing with Sony's Songpal devices
+dev-python/python-songpal 0.15 0.15.2: Python library for interfacing with Sony's Songpal devices
 dev-python/python-tado 0.12.0 0.15.0: PyTado from chrism0dwk, modfied by w.malgadey, diplix, michaelarnauts, LenhartStephan, splifter, syssi, andersonshatch, Yippy, p0thi
 dev-python/python-telegram-bot 13.1: We have made you a wrapper you can't refuse
 dev-python/python-vlc 1.1.2: VLC bindings for python.
@@ -1027,9 +1027,9 @@ dev-python/pythonegardia 1.0.40 1.0.52: Python 3 support for Egardia / Woonveili
 dev-python/pytile 2023.4.0: A simple Python API for Tile Bluetooth trackers
 dev-python/pytomorrowio 0.3.5 0.3.6: Async Python3.9+ package to access the Tomorrow.io API
 dev-python/pytouchline 0.7: A Roth Touchline interface library
-dev-python/pytraccar 0.10.0 1.0.0: Update and fetch device information from Traccar.
+dev-python/pytraccar 1.0.0: Update and fetch device information from Traccar.
 dev-python/pytrackr 0.0.5: Interface to the TrackR API
-dev-python/pytradfri 9.0.0 9.0.1: IKEA Tradfri/Tradfri API. Control and observe your lights from Python.
+dev-python/pytradfri 9.0.1: IKEA Tradfri/Tradfri API. Control and observe your lights from Python.
 dev-python/pytrafikverket 0.2.3 0.3.6 0.3.7: Retreive values from public API at the Swedish Transport Administration (Trafikverket).
 dev-python/pyudev 0.23.2: Python binding to libudev
 dev-python/pyunifiprotect 4.7.0 4.8.1 4.9.0 4.20.0: Unofficial UniFi Protect Python API and CLI
