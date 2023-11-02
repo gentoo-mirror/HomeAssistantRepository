@@ -305,6 +305,7 @@ dev-python/caio 0.9.8: Asynchronous file IO for Linux MacOS or Windows.
 dev-python/caldav 1.2.0: CalDAV (RFC4791) client library for Python
 dev-python/chacha20poly1305 0.0.3: Chacha20Poly1305
 dev-python/chacha20poly1305-reuseable 0.0.4 0.2.5 0.10.2: ChaCha20Poly1305 that is reuseable for asyncio
+dev-python/charset-normalizer 3.2.0: The Real First Universal Charset Detector
 dev-python/circuit-webhook 1.0.1: circuit-webhook is a python client library for Unify Circuit api
 dev-python/ciscomobilityexpress 0.3.9: Module to interact with Cisco Mobility Express APIs to fetch connected devices.
 dev-python/ciso8601 2.1.3 2.3.0: Fast ISO8601 date time parser for Python written in C
@@ -924,10 +925,9 @@ dev-python/pyrail 0.0.3: Python wrapper for the iRail API
 dev-python/pyrainbird 2.0.0 4.0.0: Rain Bird Controller
 dev-python/pyrecswitch 1.0.2: A pure-python interface for controlling Ankuoo RecSwitch MS6126
 dev-python/pyrepetierng 0.1.0-r1: A updated python Repetier-Server library based on Mtrabs library
-dev-python/pyrisco 0.5.5 0.5.6 0.5.7: A python library to communicate with Risco Cloud.
+dev-python/pyrisco 0.5.7: A python library to communicate with Risco Cloud.
 dev-python/pyrituals 0.0.6-r1: Async Python wrapper for the Rituals Perfume Genie API
 dev-python/pyroute2 0.7.5: A pure Python netlink and Linux network configuration library
-dev-python/pyruckus 0.12 0.16: Python API to interact with a Ruckus Unleashed device.
 dev-python/pyrympro 0.0.4 0.0.7: A python library to communicate with Read Your Meter Pro.
 dev-python/pysabnzbd 1.1.1: Python wrapper for SABnzbd API
 dev-python/pysaj 0.0.16: Library to communicate with SAJ inverters
@@ -958,7 +958,7 @@ dev-python/pystiebeleltron 0.0.1: Python API for interacting with the Stiebel El
 dev-python/pysuez 0.1.19: Get your water consumption data from your Suez account (www.toutsurmoneau.fr)
 dev-python/pyswitchbee 1.7.19 1.8.0: SwitchBee Python Integration.
 dev-python/pytankerkoenig 0.0.6: Library for Tankerkoenig.de JSON API
-dev-python/pytautulli 21.11.0 23.1.1: Python API wrapper for Tautulli.
+dev-python/pytautulli 23.1.1: Python API wrapper for Tautulli.
 dev-python/pytest 7.2.2 7.3.1-r2: Simple powerful testing with Python
 dev-python/pytest-asyncio 0.14.0 0.20.3 0.21.0 0.21.1: Library for testing asyncio code with pytest
 dev-python/pytest-cov 3.0.0-r2: py.test plugin for coverage reporting
