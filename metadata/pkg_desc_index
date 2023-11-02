@@ -982,11 +982,11 @@ dev-python/python-digitalocean 1.13.2: digitalocean.com API to manage Droplets a
 dev-python/python-ecobee-api 0.2.14: Python API for talking to Ecobee thermostats
 dev-python/python-email-validator 1.2.1: A robust email syntax and deliverability validation library
 dev-python/python-engineio 3.14.2: Python implementation of the Engine.IO realtime server.
-dev-python/python-eq3bt 0.1.11 0.2: EQ3 bluetooth thermostat support library
+dev-python/python-eq3bt 0.2: EQ3 bluetooth thermostat support library
 dev-python/python-etherscan-api 0.0.3: Python API for interacting with etherscan.io.
 dev-python/python-family-hub-local 0.0.2: Python API for accessing information from Samsung FamilyHub fridges locally.
 dev-python/python-forecastio 1.4.0: A thin Python Wrapper for the Dark Sky (formerly Forecast.io) weather API
-dev-python/python-fullykiosk 0.0.11 0.0.12: Python wrapper for Fully Kiosk Browser REST API
+dev-python/python-fullykiosk 0.0.12: Python wrapper for Fully Kiosk Browser REST API
 dev-python/python-gammu 3.2.4: Gammu bindings
 dev-python/python-gc100 1.0.3_alpha0: A Python-based socket client for Global Cache GC100 digital I/O interface
 dev-python/python-gitlab 1.6.0: Interact with GitLab API
