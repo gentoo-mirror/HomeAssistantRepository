@@ -1227,7 +1227,7 @@ dev-python/uvcclient 0.11.0: A remote control client for Ubiquiti's UVC NVR
 dev-python/vallox-websocket-api 3.2.1 3.3.0: Vallox WebSocket API
 dev-python/vehicle 1.0.0 1.0.1 2.0.0: Asynchronous Python client providing RDW vehicle information.
 dev-python/velbus-aio 2023.2.0 2023.10.1 2023.10.2: Python Library for the Velbus protocol based on asyncio
-dev-python/venstarcolortouch 0.18 0.19: Interface Library for Venstar ColorTouch Thermostat API v5
+dev-python/venstarcolortouch 0.19: Interface Library for Venstar ColorTouch Thermostat API v5
 dev-python/vilfo-api-client 0.3.2-r1 0.4.1: Simple wrapper client for the Vilfo router API
 dev-python/vincenty 0.1.4: Calculate the geographical distance between 2 points with extreme accuracy.
 dev-python/voip-utils 0.0.7 0.1.0: Voice over IP Utilities
