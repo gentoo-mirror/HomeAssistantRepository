@@ -757,10 +757,10 @@ dev-python/pyDuotecno 2023.10.0 2023.10.1: Open-source home automation platform 
 dev-python/pyEight 0.3.2: Provides a python api to interact with an Eight Sleep mattress cover.
 dev-python/pyElectra 1.2.0: Electra Smart Python Integration.
 dev-python/pyEmby 1.8 1.9: Provides a python interface to interact with a Emby media server.
-dev-python/pyHik 0.3.0 0.3.1 0.3.2: Provides a python api to interact with a Hikvision camera event stream and toggle motion detection.
+dev-python/pyHik 0.3.2: Provides a python api to interact with a Hikvision camera event stream and toggle motion detection.
 dev-python/pyRFXtrx 0.30.1: a library to communicate with the RFXtrx family of devices
 dev-python/pySDCP 1: SDCP library to control Sony Projectors
-dev-python/pyTibber 0.27.0 0.27.1 0.28.2: A python3 library to communicate with Tibber
+dev-python/pyTibber 0.28.2: A python3 library to communicate with Tibber
 dev-python/pyW215 0.7.0: Interface for d-link W215 Smart Plugs.
 dev-python/pyW800rf32 0.1 0.4: A library to communicate with the W800rf32 family of devices
 dev-python/pyads 3.2.2: Python wrapper for TwinCAT ADS library
@@ -788,7 +788,7 @@ dev-python/pycketcasts 1.0.1: Interact with PocketCast's unofficial API
 dev-python/pyclimacell 0.18.2: Async Python3.7+ package to access the ClimaCell API
 dev-python/pycmus 0.1.1: A python cmus remote library
 dev-python/pycocotools 2.0.1 2.0.6: Official APIs for the MS-COCO dataset
-dev-python/pycognito 2022.8.0 2022.12.0 2023.5.0: Python class to integrate Boto3's Cognito client so it is easy to login users. With SRP support.
+dev-python/pycognito 2023.5.0: Python class to integrate Boto3's Cognito client so it is easy to login users. With SRP support.
 dev-python/pycomfoconnect 0.5.1: Python interface for the Zehnder ComfoConnect LAN C bridge.
 dev-python/pycoolmasternet-async 0.1.5: A python library to control CoolMasterNet HVAC bridges over asyncio.
 dev-python/pycountry-convert 0.7.2: Extension of Python package pycountry providing conversion functions.
@@ -796,7 +796,7 @@ dev-python/pycrc16 0.1.2: Library for calculating CRC16
 dev-python/pycryptodomex 3.17 3.19.0: Cryptographic library for Python
 dev-python/pycsspeechtts 1.0.8: Python 3 interface to Microsoft Cognitive Services Text To Speech
 dev-python/pycups 1.9.73-r3: Python bindings for the CUPS API
-dev-python/pydaikin 2.9.0 2.10.5 2.11.1: Python Daikin HVAC appliances interface
+dev-python/pydaikin 2.11.1: Python Daikin HVAC appliances interface
 dev-python/pydanfossair 0.1.0: Python interface for Danfoss Air HRV systems
 dev-python/pydantic 1.10.12: Data parsing and validation using Python type hints
 dev-python/pydeconz 113: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
