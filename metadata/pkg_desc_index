@@ -1053,7 +1053,7 @@ dev-python/pyzerproc 0.4.8: Async library to control Zerproc Bluetooth LED smart
 dev-python/pyzipper 0.3.6: AES encryption for zipfile.
 dev-python/qingping-ble 0.8.2: Qingping BLE support
 dev-python/qnapstats 0.4.0: Python API for obtaining QNAP NAS system stats
-dev-python/quantum-gateway 0.0.6 0.0.8: Query a Quantum Gateway
+dev-python/quantum-gateway 0.0.8: Query a Quantum Gateway
 dev-python/radios 0.1.1: Asynchronous Python client for the Radio Browser API
 dev-python/radiotherm 2.1.0: client library for wifi thermostats sold by radiothermostat.com
 dev-python/raincloudy 0.0.7-r1: Melnor RainCloud Smart Garden Watering Irrigation Timer.
