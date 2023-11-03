@@ -1116,7 +1116,7 @@ dev-python/simplisafe-python 2023.4.0 2023.8.0: A Python3, async interface to th
 dev-python/siobrultech-protocols 0.5.0: A Sans-I/O Python client library for Brultech Devices
 dev-python/sisyphus-control 3.1.2 3.1.3: Control your Sisyphus kinetic art tables (sisyphus-industries.com)
 dev-python/slackclient 2.5.0-r1: Slack API clients for Web API and RTM API
-dev-python/sleekxmppfs 1.3.4 1.4.1: A fork of SleekXMPP with TLS cert validation disabled, intended only to be used with the sucks project
+dev-python/sleekxmppfs 1.4.1: A fork of SleekXMPP with TLS cert validation disabled, intended only to be used with the sucks project
 dev-python/slixmpp 1.8.2: Python 3 library for XMPP
 dev-python/smart-meter-texas 0.4.7: Package to connect to and retrieve data from the unofficial Smart Meter Texas API
 dev-python/smbus-cffi 0.5.1: SMBus access through the I2C /dev interface on Linux hosts.
@@ -1156,7 +1156,7 @@ dev-python/striprtf 0.0.26: A simple library to convert rtf to text
 dev-python/subarulink 0.6.1 0.7.0 0.7.6 0.7.8: A package for interacting with Subaru Starlink Remote Services API.
 dev-python/sucks 0.9.4: a library for controlling certain robot vacuums
 dev-python/sunwatcher 0.2.1: Binding to SolarLog HTTP API
-dev-python/surepy 0.7.2 0.8.0: Library to interact with the flaps & doors from Sure Petcare.
+dev-python/surepy 0.8.0: Library to interact with the flaps & doors from Sure Petcare.
 dev-python/swisshydrodata 0.1.0: A library to fetch data from the Swiss federal Office for Environment FEON
 dev-python/switchbot-api 1.1.0 1.2.1: An asynchronous library to use Switchbot API
 dev-python/synology-srm 0.2.0: Synology SRM API
@@ -1172,14 +1172,14 @@ dev-python/tellcore-py 1.1.2: Python wrapper for Telldus' home automation librar
 dev-python/tellduslive 0.10.11: Communicate with Telldus Live
 dev-python/tellsticknet 0.1.2: Listen for UDP sensor broadcasts from a Tellstick
 dev-python/temescal 0.5: Python API for controlling LG speakers
-dev-python/temperusb 1.5.3 1.6.0: Reads temperature from TEMPerV1 devices (USB 0c45:7401)
+dev-python/temperusb 1.6.0: Reads temperature from TEMPerV1 devices (USB 0c45:7401)
 dev-python/tenacity 8.0.1-r1: General-purpose retrying library
 dev-python/tesla-powerwall 0.3.18 0.3.19: API for Tesla Powerwall
 dev-python/tesla-wall-connector 1.0.2: API Library for communicating with a Tesla Wall Connector
 dev-python/teslajsonpy 0.18.3: A library to work with Tesla API.
 dev-python/tf-models-official 2.5.0: TensorFlow Official Models
 dev-python/thermobeacon-ble 0.6.0: Parser for Thermobeacon devices
-dev-python/thermopro-ble 0.4.3 0.4.5: Thermopro BLE Sensors
+dev-python/thermopro-ble 0.4.5: Thermopro BLE Sensors
 dev-python/thermoworks-smoke 0.1.8: Pull data for your thermoworks smoke thermometer
 dev-python/thingspeak 1.0.0: Client library for the thingspeak.com API
 dev-python/tikteck 0.4: Python API for controlling Tikteck LED bulbs
@@ -1188,7 +1188,6 @@ dev-python/titlecase 2.3: Python Port of John Gruber's titlecase.pl
 dev-python/tmb 0.0.4: Library that interacts with TMB API
 dev-python/todoist-api-python 2.0.2 2.1.2: Official Python SDK for the Todoist REST API.
 dev-python/todoist-python 8.0.0: todoist-python - The official Todoist Python API library
-dev-python/tololib 0.1.0_beta3 0.1.0_beta4: Python Library for Controlling TOLO Sauna/Steam Bath Devices
 dev-python/toonapi 0.2.1 0.3.0: Asynchronous Python client for the Quby ToonAPI.
 dev-python/total-connect-client 2023.2: Interact with Total Connect 2 alarm systems
 dev-python/tp-connected 0.0.4: TP-Link LTE modem API
