@@ -191,7 +191,7 @@ dev-python/aiounifi 63 64 65: An asynchronous Python library for communicating w
 dev-python/aiounittest 1.4.2: Test asyncio code more easily.
 dev-python/aiovlc 0.1.0: A package for talking to vlc over its telnet interface using asyncio.
 dev-python/aiovodafone 0.3.1 0.4.2: Python library to control Vodafone Station
-dev-python/aiowaqi 2.0.0 2.1.0: Asynchronous Python client for WAQI API.
+dev-python/aiowaqi 2.1.0 3.0.0: Asynchronous Python client for WAQI API.
 dev-python/aiowatttime 0.1.1: An asyncio-based Python3 library for interacting with WattTime
 dev-python/aiowebostv 0.3.2 0.3.3: Library to control webOS based LG TV devices
 dev-python/aiowithings 1.0.2: Asynchronous Python client for Withings.
@@ -496,7 +496,7 @@ dev-python/hikvision 0.4: Provides a python interface to interact with a hikvisi
 dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
-dev-python/holidays 0.21.13 0.28: Generate and work with holidays in Python
+dev-python/holidays 0.28 0.35: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.10.3 1.10.4: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-frontend 20231005.0 20231030.0 20231030.1: The Home Assistant frontend
 dev-python/home-assistant-intents 2023.10.2 2023.10.16: Intents for Home Assistant
