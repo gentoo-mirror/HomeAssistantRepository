@@ -9,9 +9,9 @@ acct-user/node-red 0: A user for node-red
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-misc/home-assistant-cli 0.9.4 0.9.5 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2023.10.3 2023.10.4 2023.10.5 2023.11.0_beta4 2023.11.0_beta6 2023.11.0: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2023.10.3 2023.10.4 2023.10.5 2023.11.0_beta4 2023.11.0_beta6 2023.11.0 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2023.10.3 2023.10.4 2023.10.5 2023.11.0_beta4 2023.11.0_beta6 2023.11.0: Open-source home automation platform running on Python.
+app-misc/homeassistant 2023.10.4 2023.10.5 2023.11.0_beta6 2023.11.0: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2023.10.4 2023.10.5 2023.11.0_beta6 2023.11.0 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2023.10.4 2023.10.5 2023.11.0_beta6 2023.11.0: Open-source home automation platform running on Python.
 app-misc/node-red 3.0.2: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 1.30.1 1.30.2: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2022.11.2 2023.2.4 2023.10.1 2023.10.6 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
@@ -678,7 +678,7 @@ dev-python/opensensemap-api 0.2.0: Python client for interacting with the openSe
 dev-python/openwebifpy 3.2.7: Provides a python interface to interact with a device running OpenWebIf
 dev-python/openwrt-luci-rpc 1.1.11 1.1.16: Module for interacting with OpenWrt Luci RPC interface
 dev-python/openwrt-ubus-rpc 0.0.2: OpenWrt ubus RPC API library
-dev-python/opower 0.0.35 0.0.36 0.0.38: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
+dev-python/opower 0.0.35 0.0.36 0.0.38 0.0.39: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
 dev-python/opuslib 3.0.1: Python bindings to the libopus, IETF low-delay audio codec
 dev-python/oralb-ble 0.17.6: Bluetooth library for Oral B devices
 dev-python/oru 0.1.11: Python client for Orange and Rockland Utility smart energy meters
@@ -740,7 +740,7 @@ dev-python/py-cpuinfo 8.0.0: Get CPU info with pure Python 2 & 3
 dev-python/py-dormakaba-dkey 1.0.4 1.0.5: API to interact with a Dormakaba dkey lock via bluetooth
 dev-python/py-improv-ble-client 1.0.3: API to provision devices which implement Improv via BLE
 dev-python/py-melissa-climate 2.1.4: Api wrapper for Melissa Climate https://seemelissa.com
-dev-python/py-nextbusnext 0.1.5 1.0.0: Minimalistic Python client for the NextBus public API for real-time transit arrival data
+dev-python/py-nextbusnext 0.1.5 1.0.0 1.0.2: Minimalistic Python client for the NextBus public API for real-time transit arrival data
 dev-python/py-nightscout 1.2.2: A library that provides a Python async interface to Nightscout
 dev-python/py-schluter 0.1.7: Python API for Schluter DITRA-HEAT thermostat
 dev-python/py-sucks 0.9.8: a library for controlling certain robot vacuums
@@ -810,7 +810,7 @@ dev-python/pyecoforest 0.3.0: Python library for ecoforest local device.
 dev-python/pyeconet 0.1.20 0.1.22: Interface to the unofficial EcoNet API
 dev-python/pyedimax 0.2.1: Interface with Edimax Smart Plugs
 dev-python/pyefergy 22.1.1: An API library for Efergy energy meters.
-dev-python/pyenphase 1.11.4 1.13.1: Library to control enphase envoy
+dev-python/pyenphase 1.11.4 1.13.1 1.14.1: Library to control enphase envoy
 dev-python/pyenvisalink 4.6: A python3 library for running asynchronus communications with envisalink alarm control panel modules.
 dev-python/pyephember 0.3.1: Python library to work with ember from EPH Controls
 dev-python/pyeverlights 0.1.0: A library for controlling an EverLights lighting system.
@@ -1262,7 +1262,7 @@ dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontro
 dev-python/yagrc 1.1.1 1.1.2: Yet another gRPC reflection client
 dev-python/yalesmartalarmclient 0.3.9: Interact with Yale Smart Alarm systems
 dev-python/yalexs 1.10.0: Python API for Yale Access (formerly August) Smart Lock and Doorbell
-dev-python/yalexs-ble 2.3.0 2.3.1: Bluetooth control of Yale and August locks
+dev-python/yalexs-ble 2.3.0 2.3.1 2.3.2: Bluetooth control of Yale and August locks
 dev-python/yarl 1.8.1: Yet another URL library
 dev-python/yeelight 0.7.10 0.7.13: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
