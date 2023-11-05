@@ -23,7 +23,6 @@ app-misc/homeassistant:ampio - Will query the open data API of ampio.pl to monit
 app-misc/homeassistant:android_ip_webcam - The android_ip_webcam integration turns any Android phone or tablet into a netwo
 app-misc/homeassistant:androidtv - Library for controlling an Android TV, formerly firetv
 app-misc/homeassistant:androidtv_remote - allows you to control an Android TV and launching apps
-app-misc/homeassistant:anel_pwrctrl - The anel_pwrctrl switch platform allows you to control ANEL PwrCtrl devices
 app-misc/homeassistant:anthemav - Both Anthem’s current and last generation of A/V Receivers and Processors suppor
 app-misc/homeassistant:apache_kafka - Sends all state changes from Home Assistant to a Apache Kafka topic
 app-misc/homeassistant:apcupsd - Query Apcupsd status information from Home Assistant
