@@ -9,9 +9,9 @@ acct-user/node-red 0: A user for node-red
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-misc/home-assistant-cli 0.9.4 0.9.5 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2023.10.4 2023.10.5 2023.11.0_beta6 2023.11.0 2023.11.1: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2023.10.4 2023.10.5 2023.11.0_beta6 2023.11.0 2023.11.1 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2023.10.4 2023.10.5 2023.11.0_beta6 2023.11.0 2023.11.1: Open-source home automation platform running on Python.
+app-misc/homeassistant 2023.10.4 2023.10.5 2023.11.0_beta6 2023.11.0 2023.11.1 2023.11.2: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2023.10.4 2023.10.5 2023.11.0_beta6 2023.11.0 2023.11.1 2023.11.2 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2023.10.4 2023.10.5 2023.11.0_beta6 2023.11.0 2023.11.1 2023.11.2: Open-source home automation platform running on Python.
 app-misc/node-red 3.0.2: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 1.30.1 1.30.2: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2022.11.2 2023.2.4 2023.10.1 2023.10.6 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
@@ -1011,7 +1011,7 @@ dev-python/python-roborock 0.35.0: A package to control Roborock vacuums.
 dev-python/python-sense-hat 2.2.0-r3: Raspberry Pi Sense HAT python library
 dev-python/python-singleton 0.1.2: Singleton Metaclass.
 dev-python/python-slugify 4.0.1: A Python Slugify application that handles Unicode
-dev-python/python-smarttub 0.0.33: API to query and control hot tubs using the SmartTub system
+dev-python/python-smarttub 0.0.33 0.0.35: API to query and control hot tubs using the SmartTub system
 dev-python/python-sochain-api 0.0.2: Python API for interacting with chain.so.
 dev-python/python-socketio 4.6.0-r1 5.3.0: Socket.IO server
 dev-python/python-songpal 0.15 0.15.2: Python library for interfacing with Sony's Songpal devices

@@ -176,7 +176,6 @@ app-misc/homeassistant:mobile_app - allows Home Assistant mobile apps to easily 
 app-misc/homeassistant:modbus - sensors and switches controlled over MODBUS serial, TCP, and UDP connections
 app-misc/homeassistant:mosquitto - Set a runtime dependency for Mosquitto MQTT broker
 app-misc/homeassistant:mqtt - install MQTT Broker and dependencies
-app-misc/homeassistant:myq - lets you control MyQ-Enabled garage doors
 app-misc/homeassistant:mysql - set dependencies to install MySQL Libraries for use with HomeAssistant
 app-misc/homeassistant:nad - allows you to control a NAD receiver through RS232, TCP and Telnet
 app-misc/homeassistant:nederlandse_spoorwegen - train service in the Netherlands
@@ -748,7 +747,6 @@ app-misc/homeassistant-full:marytts - text-to-speech platform uses MaryTTS Text-
 app-misc/homeassistant-full:mastodon - uses Mastodon to deliver notifications from Home Assistant
 app-misc/homeassistant-full:matrix - allows you to send messages to matrix rooms
 app-misc/homeassistant-full:maxcube - eQ-3 ELV MAX Cube Python API
-app-misc/homeassistant-full:mazda - Mazda Connected Services integration
 app-misc/homeassistant-full:mcp23017 - base for all related mcp23017 platforms in Home Assistant
 app-misc/homeassistant-full:meater - communication with the Meater Temperature Probe from Apption Labs
 app-misc/homeassistant-full:medcom_ble - International Medcom Bluetooth-enabled radiation monitors
@@ -791,7 +789,6 @@ app-misc/homeassistant-full:mutesync - mutesync integration for Home Assistant c
 app-misc/homeassistant-full:mvglive - departure times bus, tram, subway, train of Munich public transport network
 app-misc/homeassistant-full:mychevy - communicates with the my.chevrolet website using the javascript API
 app-misc/homeassistant-full:mycroft - allows you to send notifications and more to Mycroft from Home Assistant
-app-misc/homeassistant-full:myq - lets you control MyQ-Enabled garage doors
 app-misc/homeassistant-full:mysensors - combines devices like Arduino, ESP8266, Raspberry Pi, NRF24L01+ and RFM69
 app-misc/homeassistant-full:mysql - set dependencies to install MySQL Libraries for use with HomeAssistant
 app-misc/homeassistant-full:mystrom - Python API for interacting with myStrom devices
@@ -1286,7 +1283,6 @@ app-misc/homeassistant-min:mobile_app - allows Home Assistant mobile apps to eas
 app-misc/homeassistant-min:modbus - sensors and switches controlled over MODBUS serial, TCP, and UDP connections
 app-misc/homeassistant-min:mosquitto - Set a runtime dependency for Mosquitto MQTT broker
 app-misc/homeassistant-min:mqtt - install MQTT Broker and dependencies
-app-misc/homeassistant-min:myq - lets you control MyQ-Enabled garage doors
 app-misc/homeassistant-min:mysensors - combines devices like Arduino, ESP8266, Raspberry Pi, NRF24L01+ and RFM69
 app-misc/homeassistant-min:mysql - set dependencies to install MySQL Libraries for use with HomeAssistant
 app-misc/homeassistant-min:nfandroidtv - Notifications for Android TV and Notifications for Fire TV
