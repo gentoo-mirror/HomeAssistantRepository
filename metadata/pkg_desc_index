@@ -811,7 +811,7 @@ dev-python/pyecoforest 0.3.0: Python library for ecoforest local device.
 dev-python/pyeconet 0.1.20 0.1.22: Interface to the unofficial EcoNet API
 dev-python/pyedimax 0.2.1: Interface with Edimax Smart Plugs
 dev-python/pyefergy 22.1.1: An API library for Efergy energy meters.
-dev-python/pyenphase 1.11.4 1.13.1 1.14.1 1.14.2: Library to control enphase envoy
+dev-python/pyenphase 1.11.4 1.13.1 1.14.1 1.14.2 1.14.3: Library to control enphase envoy
 dev-python/pyenvisalink 4.6: A python3 library for running asynchronus communications with envisalink alarm control panel modules.
 dev-python/pyephember 0.3.1: Python library to work with ember from EPH Controls
 dev-python/pyeverlights 0.1.0: A library for controlling an EverLights lighting system.
