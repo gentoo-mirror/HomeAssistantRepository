@@ -88,7 +88,7 @@ dev-python/WSDiscovery 2.0.0: WS-Discovery implementation for python
 dev-python/WazeRouteCalculator 0.14: Calculate actual route time and distance with waze api.
 dev-python/XBee 2.3.2: Python tools for working with XBee radios
 dev-python/abodepy 1.2.0: An Abode alarm Python library running on Python 3.
-dev-python/accuweather 1.0.0 2.0.0: Python wrapper for getting weather data from AccuWeather servers.
+dev-python/accuweather 1.0.0 2.0.0 2.1.0: Python wrapper for getting weather data from AccuWeather servers.
 dev-python/adafruit-circuitpython-bmp280 3.1.1: CircuitPython driver for the BMP280.
 dev-python/adafruit-circuitpython-busdevice 5.1.8: CircuitPython bus device classes to manage bus sharing.
 dev-python/adafruit-circuitpython-dht 3.7.0: CircuitPython support for DHT11 and DHT22 type temperature/humidity devices
@@ -125,7 +125,7 @@ dev-python/aiobafi6 0.9.0: Big Ass Fans i6/Haiku protocol asynchronous Python li
 dev-python/aiobotocore 2.1.0 2.6.0: Async client for aws services using botocore and aiohttp
 dev-python/aiocache 0.11.1: multi backend asyncio cache
 dev-python/aiocoap 0.4.3 0.4.5: Python CoAP library
-dev-python/aiocomelit 0.0.9 0.3.0: Python library to control Comelit Simplehome
+dev-python/aiocomelit 0.0.9 0.3.0 0.5.2: Python library to control Comelit Simplehome
 dev-python/aioconsole 0.5.1: Asynchronous console and interfaces for asyncio
 dev-python/aiodiscover 1.5.1: Discover hosts by arp and ptr lookup
 dev-python/aioeafm 0.1.2-r1: An asyncio wrapper for the UK Environment Agency Flood Monitoring API
@@ -265,7 +265,7 @@ dev-python/beautifulsoup4 4.11.1: Pythonic idioms for iterating, searching, and 
 dev-python/beewi-smartclim 0.0.10: Library to read data from BeeWi SmartClim sensor using Bluetooth LE
 dev-python/bellows 0.36.5-r1 0.36.7-r1 0.36.8: Library implementing EZSP
 dev-python/bidict 0.22.0: The bidirectional mapping library for Python.
-dev-python/bimmer-connected 0.14.1 0.14.2: Library to read data from the BMW Connected Drive portal
+dev-python/bimmer-connected 0.14.1 0.14.2 0.14.3: Library to read data from the BMW Connected Drive portal
 dev-python/bitstruct 8.17.0: This module performs conversions between Python values and C bit field structs represented as Python byte strings.
 dev-python/bizkaibus 0.1.1: Online information for buses of Biscay bus services (Basque Country, Spain).
 dev-python/bleak 0.21.1: Bluetooth Low Energy platform Agnostic Klient
@@ -284,7 +284,7 @@ dev-python/bme280spi 0.2.0: Library for BME280 sensor through spidev
 dev-python/bme680 1.0.5: Python library for driving the Pimoroni BME680 Breakout
 dev-python/bond-api 0.1.16: Asynchronous Python wrapper library over Bond Local API
 dev-python/bond-async 0.1.23 0.2.1: Asynchronous Python wrapper library over Bond Local API
-dev-python/boschshcpy 0.2.35 0.2.57: Bosch Smart Home Controller API Python Library
+dev-python/boschshcpy 0.2.35 0.2.57 0.2.75: Bosch Smart Home Controller API Python Library
 dev-python/boto3 1.20.24 1.28.17: The AWS SDK for Python
 dev-python/bravia-tv 1.0.11: Python Bravia TV remote control
 dev-python/broadlink 0.18.3: Python API for controlling Broadlink devices
@@ -783,6 +783,7 @@ dev-python/pybravia 0.3.2 0.3.3: Python async library for remote control of Sony
 dev-python/pycarwings2 2.14: Python library for interacting with the Nissan Leaf Carwings telematics service
 dev-python/pycfdns 2.0.1: Update Cloudflare DNS A-records.
 dev-python/pychannels 1.2.3: API client for the Channels app - https://getchannels.com
+dev-python/pychromecast 13.0.8: Python module to talk to Google Chromecast
 dev-python/pycketcasts 1.0.1: Interact with PocketCast's unofficial API
 dev-python/pyclimacell 0.18.2: Async Python3.7+ package to access the ClimaCell API
 dev-python/pycmus 0.1.1: A python cmus remote library
