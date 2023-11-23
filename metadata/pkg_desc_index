@@ -1172,7 +1172,7 @@ dev-python/tellsticknet 0.1.2: Listen for UDP sensor broadcasts from a Tellstick
 dev-python/temescal 0.5: Python API for controlling LG speakers
 dev-python/temperusb 1.6.0: Reads temperature from TEMPerV1 devices (USB 0c45:7401)
 dev-python/tenacity 8.0.1-r1: General-purpose retrying library
-dev-python/tesla-powerwall 0.3.18 0.3.19: API for Tesla Powerwall
+dev-python/tesla-powerwall 0.3.19: API for Tesla Powerwall
 dev-python/tesla-wall-connector 1.0.2: API Library for communicating with a Tesla Wall Connector
 dev-python/teslajsonpy 0.18.3: A library to work with Tesla API.
 dev-python/tf-models-official 2.5.0: TensorFlow Official Models
@@ -1272,7 +1272,6 @@ dev-python/yeelight 0.7.10 0.7.13: A Python library for controlling YeeLight RGB
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
 dev-python/yolink-api 0.2.8 0.3.1: A library to authenticate with yolink device
 dev-python/youless-api 1.0.1: A bridge for python to the YouLess sensor
-dev-python/youtube-dl 2021.12.17-r1: Download videos from YouTube.com (and more sites...)
 dev-python/youtubeaio 1.1.5: Asynchronous Python client for YouTube V3 API.
 dev-python/yt-dlp 2023.10.13: A youtube-dl fork with additional features and patches
 dev-python/zamg 0.2.2 0.3.0: Asynchronous Python client for ZAMG weather data.
