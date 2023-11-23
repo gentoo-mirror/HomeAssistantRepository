@@ -508,7 +508,7 @@ dev-python/http-ece 1.1.0: Encrypted Content Encoding for HTTP
 dev-python/httpcore 0.17.3 0.18.0: A minimal low-level HTTP client
 dev-python/httplib2 0.20.4: A comprehensive HTTP client library
 dev-python/httpsig 1.3.0: Secure HTTP request signing using the HTTP Signature draft specification
-dev-python/httpx 0.24.1: Fully-featured HTTP client which provides sync and async APIs
+dev-python/httpx 0.24.1 0.25.0: Fully-featured HTTP client which provides sync and async APIs
 dev-python/huawei-lte-api 1.6.11: API For huawei LAN/WAN LTE Modems
 dev-python/huisbaasje-client 0.1.0: Client for Huisbaasje
 dev-python/hyper 0.7.0: HTTP/2 Client for Python
@@ -967,7 +967,7 @@ dev-python/pytest-runner 6.0.0: Invoke py.test as distutils command with depende
 dev-python/pytest-socket 0.5.1 0.6.0: Pytest Plugin to disable socket calls during tests
 dev-python/pytest-sugar 0.9.5: py.test plugin that changes the default look and feel of py.test
 dev-python/pytest-test-groups 1.0.3: A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups.
-dev-python/pytest-timeout 2.0.1: pytest plugin to abort hanging tests
+dev-python/pytest-timeout 2.0.1 2.1.0: pytest plugin to abort hanging tests
 dev-python/pytest-unordered 0.5.2: Test equality of unordered collections in pytest
 dev-python/pytest-xdist 3.2.1: Distributed testing and loop-on-failing modes
 dev-python/pytfiac 0.4: API for Tfiac AC
