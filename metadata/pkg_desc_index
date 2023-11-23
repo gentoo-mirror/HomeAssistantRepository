@@ -9,9 +9,9 @@ acct-user/node-red 0: A user for node-red
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-misc/home-assistant-cli 0.9.4 0.9.5 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2023.10.4 2023.10.5 2023.11.0_beta6 2023.11.0 2023.11.1 2023.11.2: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2023.10.4 2023.10.5 2023.11.0_beta6 2023.11.0 2023.11.1 2023.11.2 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2023.10.4 2023.10.5 2023.11.0_beta6 2023.11.0 2023.11.1 2023.11.2: Open-source home automation platform running on Python.
+app-misc/homeassistant 2023.10.4 2023.10.5 2023.11.0_beta6 2023.11.0 2023.11.1 2023.11.2 2023.11.3: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2023.10.4 2023.10.5 2023.11.0_beta6 2023.11.0 2023.11.1 2023.11.2 2023.11.3 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2023.10.4 2023.10.5 2023.11.0_beta6 2023.11.0 2023.11.1 2023.11.2 2023.11.3: Open-source home automation platform running on Python.
 app-misc/node-red 3.0.2: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 1.33.2: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2022.11.2 2023.2.4 2023.10.1 2023.10.6 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
@@ -128,6 +128,7 @@ dev-python/aiocoap 0.4.3 0.4.5: Python CoAP library
 dev-python/aiocomelit 0.0.9 0.3.0 0.5.2: Python library to control Comelit Simplehome
 dev-python/aioconsole 0.5.1: Asynchronous console and interfaces for asyncio
 dev-python/aiodiscover 1.5.1: Discover hosts by arp and ptr lookup
+dev-python/aiodns 3.0.0-r1: Simple DNS resolver for asyncio
 dev-python/aioeafm 0.1.2-r1: An asyncio wrapper for the UK Environment Agency Flood Monitoring API
 dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2023.1.0 2023.5.0: Python wrapper for EcoWitt Protocol
@@ -320,7 +321,7 @@ dev-python/concord232 0.15: GE Concord 4 RS232 Serial Interface Library and Serv
 dev-python/config 0.5.1: A hierarchical, easy-to-use, powerful configuration module for Python
 dev-python/connect-box 0.2.8: Python client for interacting with Compal CH7465LG devices.
 dev-python/connio 0.2.0: Concurrency agnostic socket API
-dev-python/construct 2.10.56: A powerful declarative parser for binary data
+dev-python/construct 2.10.56 2.10.68: A powerful declarative parser for binary data
 dev-python/convertdate 2.4.0: Converts between Gregorian dates and other calendar systems.
 dev-python/coronavirus 1.1.1: Asynchronous Python client for getting Corona virus info.
 dev-python/coverage 6.4.4-r1 7.2.1: Code coverage measurement for Python
@@ -1274,6 +1275,7 @@ dev-python/yolink-api 0.2.8 0.3.1: A library to authenticate with yolink device
 dev-python/youless-api 1.0.1: A bridge for python to the YouLess sensor
 dev-python/youtube-dl 2021.12.17-r1: Download videos from YouTube.com (and more sites...)
 dev-python/youtubeaio 1.1.5: Asynchronous Python client for YouTube V3 API.
+dev-python/yt-dlp 2023.10.13: A youtube-dl fork with additional features and patches
 dev-python/zamg 0.2.2 0.3.0: Asynchronous Python client for ZAMG weather data.
 dev-python/zeep 4.2.1: A modern/fast Python SOAP client based on lxml / requests
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs

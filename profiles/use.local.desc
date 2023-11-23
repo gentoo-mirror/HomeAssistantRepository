@@ -1327,6 +1327,7 @@ app-misc/homeassistant-min:version - display the current Home Assistant versions
 app-misc/homeassistant-min:wake_on_lan - enables the ability to send magic packets to Wake on LAN capable devices
 app-misc/homeassistant-min:wemo - discover and control WeMo devices
 app-misc/homeassistant-min:whois - perform daily WHOIS lookups
+app-misc/homeassistant-min:wled - add support for Aircookie's WLED
 app-misc/homeassistant-min:workday - generating country, province and state specific sets of holidays on the fly
 app-misc/homeassistant-min:yamaha - Library for Yamaha RX-* Receivers
 app-misc/homeassistant-min:yamaha_musiccast - add support for Yamaha MusicCast devices
