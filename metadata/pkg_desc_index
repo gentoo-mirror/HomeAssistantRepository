@@ -133,7 +133,7 @@ dev-python/aioeafm 0.1.2-r1: An asyncio wrapper for the UK Environment Agency Fl
 dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2023.1.0 2023.5.0: Python wrapper for EcoWitt Protocol
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 17.0.1 18.0.7 18.1.0 18.2.4: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 18.0.7 18.1.0 18.2.4 18.5.5 18.5.7: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.12.0 0.21.3: ftp client/server for asyncio
