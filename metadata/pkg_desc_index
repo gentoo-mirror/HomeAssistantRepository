@@ -701,7 +701,6 @@ dev-python/pescea 1.0.12: A python interface to the Escea fireplace controllers
 dev-python/pexpect 4.6.0: Python module for spawning child apps and responding to expected patterns
 dev-python/phone-modem 0.1.1: An asynchronous modem implementation designed for Home Assistant for receiving caller id and call rejection.
 dev-python/phx-filters 2.0.2: Validation and data pipelines made easy!
-dev-python/pi4ioe5v9xxxx 0.0.2: Driver for pi4ioe5v0xxxx I2C IO expander chips
 dev-python/pifacecommon 4.2.2: The PiFace common functions module.
 dev-python/pifacedigitalio 3.0.5: The PiFace Digital I/O module.
 dev-python/piglow 1.2.4: Drive the Pimoroni PiGlow board, based on the sn3218 i2c LED controller
