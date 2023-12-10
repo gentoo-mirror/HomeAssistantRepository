@@ -470,7 +470,7 @@ dev-python/graphql-subscription-manager 0.4.3 0.6.1: A python3 library for graph
 dev-python/greeclimate 1.4.1: Discover, connect and control Gree based minisplit systems
 dev-python/greeneye-monitor 3.0.3: Receive data packets from GreenEye Monitor (https://www.brultech.com/greeneye/)
 dev-python/greenwavereality 0.5.1: Control of Greenwave Reality Lights
-dev-python/gridnet 4.2.0: Asynchronous Python client for a NET2GRID devices
+dev-python/gridnet 4.2.0 5.0.0: Asynchronous Python client for a NET2GRID devices
 dev-python/growattServer 1.3.0: A package to talk to growatt server
 dev-python/grpc-google-iam-v1 0.12.4: GRPC library for the google-iam-v1 service
 dev-python/grpcio 1.58.0 1.59.0: High-performance RPC framework (python libraries)
@@ -639,6 +639,7 @@ dev-python/mullvad-api 1.0.0: Python wrapper around mullvad api
 dev-python/mutesync 0.0.1: Asynchronous library to control mutesync devices.
 dev-python/mychevy 2.1.1: Python interface to My Chevy online data
 dev-python/mycroftapi 2.0: a library to communicate with Mycroft API
+dev-python/mypermobil 0.1.6: A Python wrapper for the MyPermobil API
 dev-python/mypy 1.1.1: Optional static typing for Python
 dev-python/mysql-connector-python 8.0.28-r1: Python client library for MariaDB/MySQL
 dev-python/nad-receiver 0.3.0: Library to interface with NAD receivers through RS232, TCP and telnet
@@ -720,7 +721,7 @@ dev-python/pizzapi 0.0.3: A Python wrapper for the Dominos Pizza API
 dev-python/pkce 1.0.3: PKCE Pyhton generator.
 dev-python/plexauth 0.0.6: Handles the authorization flow to obtain tokens from Plex.tv via external redirection.
 dev-python/plexwebsocket 0.0.13 0.0.14: Support for issuing callbacks in response to Plex websocket updates.
-dev-python/plugwise 0.33.0 0.33.2: Plugwise (Adam/Anna/P1/Stick/Stretch) API to use in conjunction with Home Assistant Core.
+dev-python/plugwise 0.33.0 0.33.2 0.34.5: Plugwise (Adam/Anna/P1/Stick/Stretch) API to use in conjunction with Home Assistant Core.
 dev-python/plumlightpad 0.0.11: A python package that interacts with the Plum Lightpad
 dev-python/pmsensor 0.4: Library to read data from environment sensors
 dev-python/poolsense 0.0.8: Asynchronous Python client for getting PoolSense data.
@@ -741,7 +742,7 @@ dev-python/pure-python-adb 0.3.0-r1: Pure python implementation of the adb clien
 dev-python/push-receiver 0.1.1: subscribe to GCM/FCM and receive notifications
 dev-python/pushbullet-py 0.11.0: A simple python client for pushbullet.com
 dev-python/pushover_complete 1.1.1: A Python package for interacting with *all* aspects of the Pushover API
-dev-python/pvo 1.0.0 2.0.0: Asynchronous client for the PVOutput API.
+dev-python/pvo 1.0.0 2.0.0 2.1.1: Asynchronous client for the PVOutput API.
 dev-python/pwmled 1.6.10: Control LEDs connected to a micro controller using pwm.
 dev-python/py-canary 0.5.3: Python API for Canary Security Camera
 dev-python/py-cpuinfo 8.0.0: Get CPU info with pure Python 2 & 3
@@ -1062,7 +1063,7 @@ dev-python/pyzipper 0.3.6: AES encryption for zipfile.
 dev-python/qingping-ble 0.8.2: Qingping BLE support
 dev-python/qnapstats 0.4.0: Python API for obtaining QNAP NAS system stats
 dev-python/quantum-gateway 0.0.8: Query a Quantum Gateway
-dev-python/radios 0.1.1: Asynchronous Python client for the Radio Browser API
+dev-python/radios 0.1.1 0.2.0: Asynchronous Python client for the Radio Browser API
 dev-python/radiotherm 2.1.0: client library for wifi thermostats sold by radiothermostat.com
 dev-python/raincloudy 0.0.7-r1: Melnor RainCloud Smart Garden Watering Irrigation Timer.
 dev-python/rapt-ble 0.1.0 0.1.2: Parser for the RAPT Pill hydrometer BLE packets.
@@ -1231,7 +1232,7 @@ dev-python/user-agents 2.0-r2: A library to identify devices (phones, tablets) a
 dev-python/uvcclient 0.11.0: A remote control client for Ubiquiti's UVC NVR
 dev-python/vacuum-map-parser-roborock 0.1.1: Functionalities for Roborock vacuum map parsing
 dev-python/vallox-websocket-api 3.2.1 3.3.0: Vallox WebSocket API
-dev-python/vehicle 1.0.1 2.0.0: Asynchronous Python client providing RDW vehicle information.
+dev-python/vehicle 1.0.1 2.0.0 2.2.1: Asynchronous Python client providing RDW vehicle information.
 dev-python/velbus-aio 2023.10.1 2023.10.2 2023.11.0: Python Library for the Velbus protocol based on asyncio
 dev-python/venstarcolortouch 0.19: Interface Library for Venstar ColorTouch Thermostat API v5
 dev-python/vilfo-api-client 0.3.2-r1 0.4.1: Simple wrapper client for the Vilfo router API
