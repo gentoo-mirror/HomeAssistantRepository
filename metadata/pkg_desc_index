@@ -931,7 +931,7 @@ dev-python/pyrail 0.0.3: Python wrapper for the iRail API
 dev-python/pyrainbird 4.0.0 4.0.1: Rain Bird Controller
 dev-python/pyrecswitch 1.0.2: A pure-python interface for controlling Ankuoo RecSwitch MS6126
 dev-python/pyrepetierng 0.1.0-r1: A updated python Repetier-Server library based on Mtrabs library
-dev-python/pyrisco 0.5.7: A python library to communicate with Risco Cloud.
+dev-python/pyrisco 0.5.7 0.5.8: A python library to communicate with Risco Cloud.
 dev-python/pyrituals 0.0.6-r1: Async Python wrapper for the Rituals Perfume Genie API
 dev-python/pyroute2 0.7.5: A pure Python netlink and Linux network configuration library
 dev-python/pyrympro 0.0.4 0.0.7: A python library to communicate with Read Your Meter Pro.
@@ -1074,14 +1074,14 @@ dev-python/regex 2021.8.28: Alternative regular expression module to replace re
 dev-python/related 0.7.2: Related: Straightforward nested object models in Python
 dev-python/renault-api 0.2.0: Renault API
 dev-python/renson-endura-delta 1.6.0: Unofficial Renson endura delta Python library
-dev-python/reolink-aio 0.7.11 0.7.12 0.7.14: Reolink NVR/cameras API package
+dev-python/reolink-aio 0.7.11 0.7.12 0.7.14 0.8.2: Reolink NVR/cameras API package
 dev-python/requests 2.28.2: HTTP library for human beings
 dev-python/requests-oauth 0.4.1: Hook for adding Open Authentication support to Python-requests HTTP library.
 dev-python/respx 0.20.1 0.20.2: A utility for mocking out the Python HTTPX and HTTP Core libraries.
 dev-python/rfk101py 0.0.1: RFK101 Proximity card reader over Ethernet
 dev-python/rflink 0.0.63 0.0.65: Library and CLI tools for interacting with RFlink 433MHz transceiver.
 dev-python/rich 12.6.0: Python library for rendering rich text, tables, etc. to the terminal
-dev-python/ring-doorbell 0.7.2 0.7.3: A Python library to communicate with Ring Door Bell (https://ring.com/)
+dev-python/ring-doorbell 0.7.2 0.7.3 0.8.3: A Python library to communicate with Ring Door Bell (https://ring.com/)
 dev-python/ritassist 0.9.2-r1: RitAssist API Access
 dev-python/rjpl 0.3.6: Interface with Rejseplanen API
 dev-python/rocketchat-API 0.6.1: Python API wrapper for Rocket.Chat
