@@ -16,7 +16,6 @@ app-misc/node-red 3.0.2: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 1.34.0: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2023.10.1 2023.10.6 2023.11.3 2023.11.4 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20230904.0 20231107.0: ESPHome dashboard
-dev-embedded/esptool 3.3-r2 3.3.1 4.4 4.6.2: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 6.1.4-r1 6.1.11: An open source ecosystem for IoT development
 dev-libs/libgit2 1.5.2: A linkable library for Git
 dev-libs/protobuf 24.2 24.3: Google's Protocol Buffers - Extensible mechanism for serializing structured data
@@ -486,7 +485,7 @@ dev-python/habitipy 0.2.0: tools and library for Habitica restful API (https://h
 dev-python/hangups 0.4.18-r1: the first third-party instant messaging client for Google Hangouts
 dev-python/hass-nabucasa 0.71.0 0.74.0: Home Assistant cloud integration by Nabu Casa, Inc.
 dev-python/hass-splunk 0.1.1: Async single threaded connector to Splunk HEC using an asyncio session
-dev-python/hassil 1.0.6 1.2.5: The Home Assistant Intent Language parser
+dev-python/hassil 1.0.6 1.2.5 1.5.1: The Home Assistant Intent Language parser
 dev-python/haversine 2.8.0: Calculate the distance between 2 points on Earth.
 dev-python/hbmqtt 0.9.5: MQTT client/broker using Python 3.4 asyncio library
 dev-python/hdate 0.10.4: Jewish/Hebrew date and Zmanim in native Python
