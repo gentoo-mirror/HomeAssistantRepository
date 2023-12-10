@@ -6,7 +6,7 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pytrafikverket</remote-id>
-    <remote-id type="github">gjohansson-ST/pytrafikverket</remote-id>
+    <remote-id type="pypi">devialet</remote-id>
+    <remote-id type="github">fwestenberg/devialet</remote-id>
   </upstream>
 </pkgmetadata>
