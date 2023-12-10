@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">systembridgeconnector</remote-id>
-    <remote-id type="github">timmo001/system-bridge-connector</remote-id>
+    <remote-id type="pypi">ourgroceries</remote-id>
+    <remote-id type="github">ljmerza/py-our-groceries</remote-id>
     <maintainer status="unknown">
-      <email>aidan@timmo.dev</email>
-      <name>Aidan Timson (Timmo)</name>
+      <email>ljmerza@gmail.com</email>
+      <name>Leonardo Merza</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
