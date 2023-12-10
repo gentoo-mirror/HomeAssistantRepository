@@ -376,14 +376,14 @@ dev-python/ebusdpy 0.0.17: eBusd python integration library
 dev-python/ecoaliface 0.4.0: Interface to eSterownik.pl eCoal water boiler controller.
 dev-python/eebrightbox 0.0.4: Connector for EE BrightBox routers.
 dev-python/electrickiwi-api 0.8.5: Electric Kiwi Python API
-dev-python/elgato 4.0.1 5.0.0: Asynchronous Python client for Elgato Lights.
+dev-python/elgato 4.0.1 5.0.0 5.1.1: Asynchronous Python client for Elgato Lights.
 dev-python/eliqonline 1.2.2: Eliq Online API Library
 dev-python/elkm1-lib 2.2.1 2.2.6: Library for interacting with ElkM1 alarm/automation panel.
 dev-python/elmax-api 0.0.2 0.0.4: Asynchronous API Library to work with Elmax devices
 dev-python/emoji 1.5.0: Emoji for Python
 dev-python/emulated-roku 0.2.1: Library to emulate a roku server to serve as a proxyfor remotes such as Harmony
 dev-python/energyflip-client 0.2.2: Client for EnergyFlip
-dev-python/energyzero 0.4.1 0.5.0: Asynchronous Python client providing energy/gas prices from EnergyZero
+dev-python/energyzero 0.4.1 0.5.0 1.0.0: Asynchronous Python client providing energy/gas prices from EnergyZero
 dev-python/enocean 0.50.1: EnOcean serial protocol implementation
 dev-python/enturclient 0.2.4: An API client for public transport data from Entur.
 dev-python/enum-compat 0.0.3: enum/enum34 compatibility package
@@ -603,6 +603,7 @@ dev-python/mac-vendor-lookup 0.1.12: Find the vendor for a given MAC address
 dev-python/magicseaweed 1.0.3: Provides API wrapper to magicseaweed.com.
 dev-python/mariadb 1.0.11 1.1.6: Python MariaDB extension
 dev-python/marshmallow-dataclass 8.5.9: Python library to convert dataclasses into marshmallow schemas.
+dev-python/mashumaro 3.11: Fast and well tested serialization library
 dev-python/matplotlib 3.6.1: Pure python plotting library with matlab like syntax
 dev-python/matrix-client 0.4.0: Client-Server SDK for Matrix
 dev-python/matrix-nio 0.21.2 0.22.1: A Python Matrix client library, designed according to sans I/O principles.
@@ -810,7 +811,7 @@ dev-python/pydoods 1.0.2: A Python wrapper for the DOODS image detection service
 dev-python/pydrawise 2023.8.0 2023.10.0: Python API for interacting with Hydrawise sprinkler controllers.
 dev-python/pydroid-ipcam 2.0.0: Library for handling the Android IP Webcam app
 dev-python/pyebox 1.1.4: Get your EBox consumption (wwww.ebox.ca)
-dev-python/pyecoforest 0.3.0: Python library for ecoforest local device.
+dev-python/pyecoforest 0.3.0 0.4.0: Python library for ecoforest local device.
 dev-python/pyeconet 0.1.20 0.1.22: Interface to the unofficial EcoNet API
 dev-python/pyedimax 0.2.1: Interface with Edimax Smart Plugs
 dev-python/pyefergy 22.1.1: An API library for Efergy energy meters.
@@ -980,7 +981,7 @@ dev-python/python-bsblan 0.5.16: Asynchronous Python client for BSBLAN
 dev-python/python-clementine-remote 1.0.1: Python library and CLI for the Clementine Music Player remote protocol.
 dev-python/python-didl-lite 1.3.2: DIDL-Lite (Digital Item Declaration Language) tools for Python
 dev-python/python-digitalocean 1.13.2: digitalocean.com API to manage Droplets and Images
-dev-python/python-ecobee-api 0.2.14: Python API for talking to Ecobee thermostats
+dev-python/python-ecobee-api 0.2.14 0.2.17: Python API for talking to Ecobee thermostats
 dev-python/python-email-validator 1.2.1: A robust email syntax and deliverability validation library
 dev-python/python-engineio 3.14.2: Python implementation of the Engine.IO realtime server.
 dev-python/python-eq3bt 0.2: EQ3 bluetooth thermostat support library
