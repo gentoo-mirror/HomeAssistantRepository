@@ -6,7 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">python-homewizard-energy</remote-id>
-    <remote-id type="github">homewizard/python-homewizard-energy</remote-id>
+    <remote-id type="pypi">aiohttp-fast-url-dispatcher</remote-id>
+    <remote-id type="github">bdraco/aiohttp-fast-url-dispatcher</remote-id>
+    <maintainer status="unknown">
+      <email>nick@koston.org</email>
+      <name>J. Nick Koston</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>

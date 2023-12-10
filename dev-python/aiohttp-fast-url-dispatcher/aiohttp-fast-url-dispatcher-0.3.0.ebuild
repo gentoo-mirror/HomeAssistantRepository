@@ -4,13 +4,13 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..12} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Simple creation of data classes from dictionaries."
-HOMEPAGE="https://github.com/konradhalas/dacite https://pypi.org/project/dacite/"
+DESCRIPTION="A faster URL dispatcher for aiohttp"
+HOMEPAGE="https://github.com/bdraco/aiohttp-fast-url-dispatcher https://pypi.org/project/aiohttp-fast-url-dispatcher/"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,10 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/pytest-cov[${PYTHON_USEDEP}]
 	)"
 
 python_test() {

@@ -6,9 +6,8 @@ EAPI=8
 PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-
-DESCRIPTION="Simple creation of data classes from dictionaries."
-HOMEPAGE="https://github.com/konradhalas/dacite https://pypi.org/project/dacite/"
+DESCRIPTION="Read data from GoodWe inverter via local network"
+HOMEPAGE="https://github.com/marcelblijleven/goodwe https://pypi.org/project/goodwe/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -21,11 +20,15 @@ DOCS="README.md"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/pytest-cov[${PYTHON_USEDEP}]
 	)"
 
 python_test() {
 	py.test -v -v || die
 }
+
+src_prepare() {
+	echo "${PV}" > VERSION || die
+	default
+	}
 
 distutils_enable_tests pytest
