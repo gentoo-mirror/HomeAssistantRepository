@@ -21,7 +21,7 @@ dev-libs/libgit2 1.5.2: A linkable library for Git
 dev-libs/protobuf 24.2 24.3: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-python/AEMET-OpenData 0.2.2 0.4.5 0.4.6: AEMET OpenData Rest API library
 dev-python/AIOAladdinConnect 0.1.56 0.1.58: Python Async API for controlling Genie garage doors connected to Aladdin Connect devices
-dev-python/AIOSomecomfort 0.0.17 0.0.22: A client for Honeywell's US-based cloud devices
+dev-python/AIOSomecomfort 0.0.17 0.0.22 0.0.24: A client for Honeywell's US-based cloud devices
 dev-python/Adafruit-Blinka 7.1.1: CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython.
 dev-python/Adafruit-GPIO 1.0.3: GPIO interface on the Raspberry Pi.
 dev-python/Adafruit-PureIO 1.1.9: Pure python (i.e. no native extensions) access to Linux IO including I2C and SPI. Drop in replacement for smbus and spidev modules.
@@ -142,6 +142,7 @@ dev-python/aioguardian 2022.3.2 2022.7.0: A Python3 library for Elexa Guardian w
 dev-python/aioharmony 0.2.9 0.2.10: Asyncio Python library for connecting to and controlling the Logitech Harmony
 dev-python/aiohomekit 3.0.5 3.0.8 3.0.9: An asyncio HomeKit client
 dev-python/aiohttp 3.8.4 3.9.0_beta0: HTTP client/server for asyncio
+dev-python/aiohttp-fast-url-dispatcher 0.3.0: A faster URL dispatcher for aiohttp
 dev-python/aiohttp-retry 2.8.3: Simple retry client for aiohttp
 dev-python/aiohue 4.6.2 4.7.0: Python module to talk to Philips Hue.
 dev-python/aioimaplib 1.0.1: Python asyncio IMAP4rev1 client library
@@ -338,7 +339,7 @@ dev-python/cryptography 40.0.1 41.0.1-r1: Library providing cryptographic recipe
 dev-python/csrmesh 0.10.0: Reverse engineered implementation of the CSRMesh bridge protocol
 dev-python/curlify 2.2.1: Library to convert python requests object to curl command.
 dev-python/d2to1 0.2.12_p1: Allows using distutils2-like setup.cfg files for a package's metadata with a distribute/setuptools setup.py
-dev-python/dacite 1.6.0 1.8.0: Simple creation of data classes from dictionaries.
+dev-python/dacite 1.6.0 1.8.1: Simple creation of data classes from dictionaries.
 dev-python/dataclasses-json 0.6.3: Easily serialize dataclasses to and from JSON.
 dev-python/datadog 0.15.0: The Datadog Python library
 dev-python/datapoint 0.9.8: Python interface to the Met Office's Datapoint API
@@ -432,7 +433,7 @@ dev-python/gardena-bluetooth 1.4.0: controlling gardena bluetooth enabled wateri
 dev-python/garminconnect-ha 0.1.6: Garmin Connect Python 3 API wrapper for Home Assistant
 dev-python/gassist-text 0.0.10: A Python library for interacting with Google Assistant API via text
 dev-python/gatt 0.2.7: Bluetooth GATT SDK for Python
-dev-python/gcal-sync 4.1.4 5.0.0 6.0.1: A python library for syncing Google Calendar to local storage
+dev-python/gcal-sync 4.1.4 5.0.0 6.0.1 6.0.3: A python library for syncing Google Calendar to local storage
 dev-python/gcloud 0.18.3: API Client library for Google Cloud
 dev-python/geniushub-client 0.7.0 0.7.1: An aiohttp-based client for Genius Hub systems
 dev-python/geocachingapi 0.2.1: Python client for controlling the Geocaching API
@@ -448,7 +449,7 @@ dev-python/gitterpy 0.1.7: Python interface for the Gitter API
 dev-python/glances-api 0.4.3: Python API for interacting with Glances.
 dev-python/gntp 1.0.3: Growl Notification Transport Protocol for Python
 dev-python/goalzero 0.2.1 0.2.2: Goal Zero REST Api Library
-dev-python/goodwe 0.2.30 0.2.31: Read data from GoodWe inverter via local network
+dev-python/goodwe 0.2.30 0.2.31 0.2.32: Read data from GoodWe inverter via local network
 dev-python/google-ai-generativelanguage 0.3.3: Google Ai Generativelanguage API client library
 dev-python/google-api-python-client 2.71.0-r1: Google API Client for Python
 dev-python/google-cloud-pubsub 2.13.11: Google Cloud Pub/Sub API client library
@@ -503,7 +504,7 @@ dev-python/home-assistant-bluetooth 1.10.3 1.10.4: Home Assistant Bluetooth Mode
 dev-python/home-assistant-frontend 20231005.0 20231030.0 20231030.1 20231030.2 20231208.2: The Home Assistant frontend
 dev-python/home-assistant-intents 2023.10.2 2023.10.16 2023.12.5: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
-dev-python/homematicip 1.0.15: An API for the homematicip cloud
+dev-python/homematicip 1.0.15 1.0.16: An API for the homematicip cloud
 dev-python/homepluscontrol 0.0.5: Python-based API to interact with the Legrand Home + Control interface
 dev-python/horimote 0.4.1: Async API wrapper for Samsumgs set-top boxes SMT-G7400 and SMT-G7401.
 dev-python/http-ece 1.1.0: Encrypted Content Encoding for HTTP
@@ -992,7 +993,7 @@ dev-python/python-fullykiosk 0.0.12: Python wrapper for Fully Kiosk Browser REST
 dev-python/python-gammu 3.2.4: Gammu bindings
 dev-python/python-gc100 1.0.3_alpha0: A Python-based socket client for Global Cache GC100 digital I/O interface
 dev-python/python-gitlab 1.6.0: Interact with GitLab API
-dev-python/python-homewizard-energy 2.1.0 2.1.2: Asynchronous Python client for the HomeWizard Energy
+dev-python/python-homewizard-energy 2.1.0 2.1.2 4.1.0: Asynchronous Python client for the HomeWizard Energy
 dev-python/python-hpilo 4.3: Accessing the HP iLO XML interface from python
 dev-python/python-http-client 3.3.2: HTTP REST client, simplified for Python
 dev-python/python-izone 1.2.9: A python interface to the iZone airconditioner controller
