@@ -647,7 +647,7 @@ dev-python/nessclient 0.10.0 1.0.0: Implementation/abstraction of the Ness D8x /
 dev-python/netdata 1.0.1 1.1.0: Python API for interacting with Netdata.
 dev-python/netdisco 3.0.0-r1: Discover devices on your local network
 dev-python/netmap 0.7.0.2: This is a python class to use nmap and access scan results from python3
-dev-python/nettigo-air-monitor 2.1.0 2.2.0: Python wrapper for getting air quality data from Nettigo Air Monitor devices.
+dev-python/nettigo-air-monitor 2.1.0 2.2.0 2.2.2: Python wrapper for getting air quality data from Nettigo Air Monitor devices.
 dev-python/neurio 0.3.1: Neurio energy sensor and appliance automation API library
 dev-python/nexia 2.0.6 2.0.7: Python library for connecting to nexia
 dev-python/nextcloudmonitor 1.1.0 1.4.0: Python wrapper around nextcloud monitor api
