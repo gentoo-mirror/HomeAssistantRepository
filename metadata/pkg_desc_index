@@ -371,7 +371,7 @@ dev-python/dweepy 0.3.0: Dweepy is a Python client for dweet.io
 dev-python/dynalite-devices 0.1.47: An unofficial Dynalite DyNET interface creating devices.
 dev-python/dynalite-panel 0.0.4: Dynalite panel for Home Assistant
 dev-python/eagle100 0.1.1: Tool to read data from Rainforest Legacy Eagle.
-dev-python/easyenergy 0.2.3 0.3.0: Asynchronous Python client providing energy/gas prices from easyEnergy
+dev-python/easyenergy 0.2.3 0.3.0 1.0.0: Asynchronous Python client providing energy/gas prices from easyEnergy
 dev-python/ebusdpy 0.0.17: eBusd python integration library
 dev-python/ecoaliface 0.4.0: Interface to eSterownik.pl eCoal water boiler controller.
 dev-python/eebrightbox 0.0.4: Connector for EE BrightBox routers.
@@ -501,7 +501,7 @@ dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.28 0.35: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.10.3 1.10.4: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-frontend 20231005.0 20231030.0 20231030.1 20231030.2: The Home Assistant frontend
-dev-python/home-assistant-intents 2023.10.2 2023.10.16: Intents for Home Assistant
+dev-python/home-assistant-intents 2023.10.2 2023.10.16 2023.12.5: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.15: An API for the homematicip cloud
 dev-python/homepluscontrol 0.0.5: Python-based API to interact with the Legrand Home + Control interface
@@ -754,7 +754,7 @@ dev-python/py3rijndael 0.3.3: Rijndael algorithm library for Python3.
 dev-python/pyAtome 0.1.1: Get your energy consumption from Atome Linky device
 dev-python/pyCEC 0.5.2: Provide HDMI CEC devices as objects, especially for use with Home Assistant
 dev-python/pyControl4 0.0.6 1.1.0: Python 3 asyncio package for interacting with Control4 systems
-dev-python/pyDuotecno 2023.10.0 2023.10.1: Open-source home automation platform running on Python 3.
+dev-python/pyDuotecno 2023.10.0 2023.10.1 2023.11.1: Open-source home automation platform running on Python 3.
 dev-python/pyEight 0.3.2: Provides a python api to interact with an Eight Sleep mattress cover.
 dev-python/pyElectra 1.2.0: Electra Smart Python Integration.
 dev-python/pyEmby 1.8 1.9: Provides a python interface to interact with a Emby media server.
@@ -802,7 +802,7 @@ dev-python/pycups 1.9.73-r3: Python bindings for the CUPS API
 dev-python/pydaikin 2.11.1: Python Daikin HVAC appliances interface
 dev-python/pydanfossair 0.1.0: Python interface for Danfoss Air HRV systems
 dev-python/pydantic 1.10.12: Data parsing and validation using Python type hints
-dev-python/pydeconz 113: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
+dev-python/pydeconz 113 114: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
 dev-python/pydelijn 1.0.0 1.1.0: Get realtime info on stop passages of De Lijn (api.delijn.be)
 dev-python/pydexcom 0.2.3: Python API to interact with Dexcom Share API
 dev-python/pydiscovergy 2.0.3 2.0.5: Async Python 3 library for interacting with Discovergy smart meters API
