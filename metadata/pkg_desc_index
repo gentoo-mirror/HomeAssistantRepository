@@ -267,7 +267,7 @@ dev-python/bcrypt 3.1.7-r1: Modern password hashing for software and servers
 dev-python/beacontools 1.2.3 2.1.0: A Python library for working with various types of Bluetooth LE Beacons.
 dev-python/beautifulsoup4 4.11.1: Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree
 dev-python/beewi-smartclim 0.0.10: Library to read data from BeeWi SmartClim sensor using Bluetooth LE
-dev-python/bellows 0.36.5-r1 0.36.7-r1 0.36.8: Library implementing EZSP
+dev-python/bellows 0.36.5-r1 0.36.7-r1 0.36.8 0.37.1: Library implementing EZSP
 dev-python/bidict 0.22.0: The bidirectional mapping library for Python.
 dev-python/bimmer-connected 0.14.1 0.14.2 0.14.3 0.14.6: Library to read data from the BMW Connected Drive portal
 dev-python/bitstruct 8.17.0: This module performs conversions between Python values and C bit field structs represented as Python byte strings.
@@ -502,7 +502,7 @@ dev-python/hikvision 0.4: Provides a python interface to interact with a hikvisi
 dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
-dev-python/holidays 0.28 0.35: Generate and work with holidays in Python
+dev-python/holidays 0.28 0.35 0.36: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.10.3 1.10.4: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-frontend 20231005.0 20231030.0 20231030.1 20231030.2 20231208.2: The Home Assistant frontend
 dev-python/home-assistant-intents 2023.10.2 2023.10.16 2023.12.5: Intents for Home Assistant
@@ -1282,23 +1282,23 @@ dev-python/yalesmartalarmclient 0.3.9: Interact with Yale Smart Alarm systems
 dev-python/yalexs 1.10.0: Python API for Yale Access (formerly August) Smart Lock and Doorbell
 dev-python/yalexs-ble 2.3.0 2.3.1 2.3.2: Bluetooth control of Yale and August locks
 dev-python/yarl 1.8.1: Yet another URL library
-dev-python/yeelight 0.7.10 0.7.13: A Python library for controlling YeeLight RGB bulbs.
+dev-python/yeelight 0.7.10 0.7.13 0.7.14: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
-dev-python/yolink-api 0.2.8 0.3.1: A library to authenticate with yolink device
+dev-python/yolink-api 0.2.8 0.3.1 0.3.4: A library to authenticate with yolink device
 dev-python/youless-api 1.0.1: A bridge for python to the YouLess sensor
 dev-python/youtubeaio 1.1.5: Asynchronous Python client for YouTube V3 API.
 dev-python/yt-dlp 2023.10.13 2023.11.16: youtube-dl fork with additional features and fixes
-dev-python/zamg 0.2.2 0.3.0: Asynchronous Python client for ZAMG weather data.
+dev-python/zamg 0.2.2 0.3.0 0.3.3: Asynchronous Python client for ZAMG weather data.
 dev-python/zeep 4.2.1: A modern/fast Python SOAP client based on lxml / requests
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs
 dev-python/zeroconf 0.56.0 0.70.0: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-python/zeversolar 0.3.1: Simple Python wrapper for the local CGI provided by ZeverSolar
-dev-python/zha-quirks 0.0.104-r1 0.0.105-r1 0.0.106: Library implementing Zigpy quirks for ZHA in Home Assistant
+dev-python/zha-quirks 0.0.104-r1 0.0.105-r1 0.0.106 0.0.107: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
-dev-python/zigpy 0.57.2-r1 0.59.0: Library implementing a ZigBee stack
-dev-python/zigpy-deconz 0.21.1-r1: A library which communicates with Deconz radios for zigpy
-dev-python/zigpy-xbee 0.18.3 0.19.0: A library which communicates with XBee radios for zigpy
+dev-python/zigpy 0.57.2-r1 0.59.0 0.60.0: Library implementing a ZigBee stack
+dev-python/zigpy-deconz 0.21.1-r1 0.22.0: A library which communicates with Deconz radios for zigpy
+dev-python/zigpy-xbee 0.18.3 0.19.0 0.20.0: A library which communicates with XBee radios for zigpy
 dev-python/zigpy-zigate 0.11.0: A library which communicates with ZiGate radios for zigpy
 dev-python/zigpy-znp 0.11.5-r1 0.11.6-r1: A library for zigpy which communicates with TI ZNP radios
 dev-python/zlib-ng 0.2.0: Drop-in replacement for zlib and gzip modules using zlib-ng
