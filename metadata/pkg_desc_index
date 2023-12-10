@@ -125,13 +125,14 @@ dev-python/aiobafi6 0.9.0: Big Ass Fans i6/Haiku protocol asynchronous Python li
 dev-python/aiobotocore 2.1.0 2.6.0: Async client for aws services using botocore and aiohttp
 dev-python/aiocache 0.11.1: multi backend asyncio cache
 dev-python/aiocoap 0.4.3 0.4.5: Python CoAP library
-dev-python/aiocomelit 0.0.9 0.3.0 0.5.2: Python library to control Comelit Simplehome
+dev-python/aiocomelit 0.0.9 0.3.0 0.5.2 0.6.2: Python library to control Comelit Simplehome
 dev-python/aioconsole 0.5.1: Asynchronous console and interfaces for asyncio
 dev-python/aiodiscover 1.5.1: Discover hosts by arp and ptr lookup
 dev-python/aiodns 3.0.0-r1: Simple DNS resolver for asyncio
 dev-python/aioeafm 0.1.2-r1: An asyncio wrapper for the UK Environment Agency Flood Monitoring API
 dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2023.1.0 2023.5.0: Python wrapper for EcoWitt Protocol
+dev-python/aioelectricitymaps 0.1.5: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
 dev-python/aioesphomeapi 18.0.7 18.1.0 18.2.4 18.5.5 18.5.7: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
@@ -339,6 +340,7 @@ dev-python/csrmesh 0.10.0: Reverse engineered implementation of the CSRMesh brid
 dev-python/curlify 2.2.1: Library to convert python requests object to curl command.
 dev-python/d2to1 0.2.12_p1: Allows using distutils2-like setup.cfg files for a package's metadata with a distribute/setuptools setup.py
 dev-python/dacite 1.6.0 1.8.0: Simple creation of data classes from dictionaries.
+dev-python/dataclasses-json 0.6.3: Easily serialize dataclasses to and from JSON.
 dev-python/datadog 0.15.0: The Datadog Python library
 dev-python/datapoint 0.9.8: Python interface to the Met Office's Datapoint API
 dev-python/dateparser 1.1.7: Date parsing library designed to parse dates from HTML pages
