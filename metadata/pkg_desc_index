@@ -153,7 +153,7 @@ dev-python/aiokef 0.2.16: Asyncio Python API for KEF speakers.
 dev-python/aiolifx 0.8.10 1.0.0: API for local communication with LIFX devices over a LAN with asyncio.
 dev-python/aiolifx-connection 1.0.0: A wrapper for aiolifx to connect to a single LIFX device
 dev-python/aiolifx-effects 0.3.2: aiolifx light effects
-dev-python/aiolifx-themes 0.4.5: Async library that applies color themes to LIFX lights
+dev-python/aiolifx-themes 0.4.5 0.4.10: Async library that applies color themes to LIFX lights
 dev-python/aiolivisi 0.0.19: Python module to communicate with LIVISI Smart Home Controllers.
 dev-python/aiolookin 1.0.0: Client for interaction of the LOOKin device with the Home Assistant
 dev-python/aiolyric 1.0.9 1.1.0: AIO package for the Honeywell Lyric Platform.
@@ -619,17 +619,17 @@ dev-python/melnor-bluetooth 0.0.20 0.0.25: A small python library for discovery 
 dev-python/messagebird 1.2.0: MessageBird's REST API
 dev-python/meteoalertapi 0.3.0: A small api to get alerting messages from extreme weather in Europe from https://www.meteoalarm.org.
 dev-python/meteocalc 1.1.0: Functions for calculation of meteorological variables.
-dev-python/meteofrance-api 1.2.0: Python client for Meteo-France API.
+dev-python/meteofrance-api 1.2.0 1.3.0: Python client for Meteo-France API.
 dev-python/mficlient 0.3.0: A remote control client for Ubiquiti's mFi system
 dev-python/micloud 0.5: Xiaomi cloud connect library
 dev-python/mill-local 0.3.0: A python3 library to communicate with Mill
-dev-python/millheater 0.10.0 0.11.6: A python3 library to communicate with Mill
+dev-python/millheater 0.10.0 0.11.6 0.11.7: A python3 library to communicate with Mill
 dev-python/miniaudio 1.59: python bindings for the miniaudio library and its decoders (mp3, flac, ogg vorbis, wav)
 dev-python/minio 7.1.12: MinIO Python Library for Amazon S3 Compatible Cloud Storage for Python
 dev-python/moat-ble 0.1.1: Manager Moat BLE Devices
 dev-python/mock-open 1.4.0: A better mock for file I/O
 dev-python/moehlenhoff-alpha2 1.3.0: Python client for the Moehlenhoff Alpha2 underfloor heating system
-dev-python/mopeka-iot-ble 0.4.1: Mopeka IOT BLE Parser
+dev-python/mopeka-iot-ble 0.4.1 0.5.0: Mopeka IOT BLE Parser
 dev-python/motionblinds 0.6.17 0.6.18: Python library for interfacing with Motion Blinds
 dev-python/motioneye-client 0.3.14: motionEye client library Python Package
 dev-python/ms-cv 0.1.1: A correlation vector implementation in python
