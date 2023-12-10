@@ -1276,7 +1276,7 @@ dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeeligh
 dev-python/yolink-api 0.2.8 0.3.1: A library to authenticate with yolink device
 dev-python/youless-api 1.0.1: A bridge for python to the YouLess sensor
 dev-python/youtubeaio 1.1.5: Asynchronous Python client for YouTube V3 API.
-dev-python/yt-dlp 2023.10.13: A youtube-dl fork with additional features and patches
+dev-python/yt-dlp 2023.10.13 2023.11.16: youtube-dl fork with additional features and fixes
 dev-python/zamg 0.2.2 0.3.0: Asynchronous Python client for ZAMG weather data.
 dev-python/zeep 4.2.1: A modern/fast Python SOAP client based on lxml / requests
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs
