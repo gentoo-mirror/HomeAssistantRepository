@@ -4,11 +4,11 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..12} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Get your water consumption data from your Suez account (www.toutsurmoneau.fr)"
-HOMEPAGE="https://github.com/ooii/pySuez https://pypi.org/project/pysuez/"
+DESCRIPTION="Functionalities for Roborock vacuum map parsing"
+HOMEPAGE="https://github.com/PiotrMachowski/Python-package-vacuum-map-parser-roborock https://pypi.org/project/vacuum-map-parser-roborock/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -18,8 +18,7 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/pillow[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
@@ -30,3 +29,9 @@ python_test() {
 }
 
 distutils_enable_tests pytest
+
+src_prepare() {
+	# remove unsupported dynamic-versioning plugin
+	sed 's/0.0.0/${PV}/g' -i pyproject.toml || die
+	eapply_user
+}

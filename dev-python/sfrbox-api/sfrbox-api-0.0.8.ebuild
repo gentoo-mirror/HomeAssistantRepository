@@ -4,13 +4,13 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..12} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Get your water consumption data from your Suez account (www.toutsurmoneau.fr)"
-HOMEPAGE="https://github.com/ooii/pySuez https://pypi.org/project/pysuez/"
+DESCRIPTION="SFR Box API"
+HOMEPAGE="https://github.com/hacf-fr/sfrbox-api https://pypi.org/project/sfrbox-api/"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,8 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/httpx-0.23.1[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Get your water consumption data from your Suez account (www.toutsurmoneau.fr)"
-HOMEPAGE="https://github.com/ooii/pySuez https://pypi.org/project/pysuez/"
+DESCRIPTION="Python API for interacting with Schlage WiFi locks."
+HOMEPAGE="https://github.com/dknowles2/pyschlage https://pypi.org/project/pyschlage/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -18,11 +18,12 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/regex[${PYTHON_USEDEP}]
+RDEPEND="dev-python/pycognito[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-timeout[${PYTHON_USEDEP}]
 	)"
 
 python_test() {
