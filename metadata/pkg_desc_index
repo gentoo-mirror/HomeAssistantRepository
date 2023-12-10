@@ -150,7 +150,7 @@ dev-python/aioimaplib 1.0.1: Python asyncio IMAP4rev1 client library
 dev-python/aioitertools 0.11.0: itertools and builtins for AsyncIO and mixed iterables
 dev-python/aiokafka 0.6.0 0.7.2: Kafka integration with asyncio.
 dev-python/aiokef 0.2.16: Asyncio Python API for KEF speakers.
-dev-python/aiolifx 0.8.10: API for local communication with LIFX devices over a LAN with asyncio.
+dev-python/aiolifx 0.8.10 1.0.0: API for local communication with LIFX devices over a LAN with asyncio.
 dev-python/aiolifx-connection 1.0.0: A wrapper for aiolifx to connect to a single LIFX device
 dev-python/aiolifx-effects 0.3.2: aiolifx light effects
 dev-python/aiolifx-themes 0.4.5: Async library that applies color themes to LIFX lights
@@ -539,6 +539,7 @@ dev-python/incomfort-client 0.5.0: A aiohttp-based client for Intergas InComfort
 dev-python/influxdb 5.3.1: InfluxDB client
 dev-python/influxdb-client 1.24.0: InfluxDB 2.0 Python client library
 dev-python/inkbird-ble 0.5.6: Parser for INKBIRD BLE devices
+dev-python/inquirerpy 0.3.4: Python port of Inquirer.js (A collection of common interactive command-line user interfaces)
 dev-python/insteon-frontend-home-assistant 0.4.0: The Insteon frontend for Home Assistant
 dev-python/intel-amt 0.9.0: Tools for interacting with Intel's AMT
 dev-python/intellifire4py 2.2.2: An API to read the status of an intellifire wifi module
@@ -703,6 +704,7 @@ dev-python/pem 21.2.0: Easy PEM file parsing in Python.
 dev-python/pencompy 0.0.3: Pencom relay controller over Ethernet
 dev-python/pescea 1.0.12: A python interface to the Escea fireplace controllers
 dev-python/pexpect 4.6.0: Python module for spawning child apps and responding to expected patterns
+dev-python/pfzy 0.3.4: Python port of the fzy fuzzy string matching algorithm
 dev-python/phone-modem 0.1.1: An asynchronous modem implementation designed for Home Assistant for receiving caller id and call rejection.
 dev-python/phx-filters 2.0.2: Validation and data pipelines made easy!
 dev-python/pifacecommon 4.2.2: The PiFace common functions module.
@@ -723,7 +725,7 @@ dev-python/pmsensor 0.4: Library to read data from environment sensors
 dev-python/poolsense 0.0.8: Asynchronous Python client for getting PoolSense data.
 dev-python/praw 7.5.0: PRAW, an acronym for Python Reddit API Wrapper, is a python package that allows for simple access to reddit's API.
 dev-python/prawcore 2.3.0: Low-level communication layer for PRAW 4+.
-dev-python/prayer-times-calculator 0.0.6: Prayer Times Calculator
+dev-python/prayer-times-calculator 0.0.6 0.0.10: Prayer Times Calculator
 dev-python/proliphix 0.4.1: API for Proliphix nt10e network thermostat.
 dev-python/prometheus_client 0.7.1: Python client for the Prometheus monitoring system.
 dev-python/protobuf-python 4.24.3-r1: Google's Protocol Buffers - Python bindings
@@ -860,7 +862,7 @@ dev-python/pykaleidescape 1.0.1: A python client library for the Kaleidescape Sy
 dev-python/pykira 0.1.1: Communicate with Kira IR-IP modules
 dev-python/pykmtronic 0.3.0: Python library to interface with KM Tronic Web Relays
 dev-python/pykodi 0.2.7-r1: An async python interface for Kodi over JSON-RPC.
-dev-python/pykoplenti 1.0.0: Python REST-Client for Kostal Plenticore Solar Inverters
+dev-python/pykoplenti 1.0.0 1.2.2: Python REST-Client for Kostal Plenticore Solar Inverters
 dev-python/pykrakenapi 0.1.8: A Python implementation of the Kraken API.
 dev-python/pykulersky 0.5.2: Library to control Brightech Kuler Sky Bluetooth LED smart lamps
 dev-python/pykwb 0.0.8: KWB Easyfire serial library, for inclusion into homeassistant
