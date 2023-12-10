@@ -144,6 +144,7 @@ dev-python/aiohomekit 3.0.5 3.0.8 3.0.9: An asyncio HomeKit client
 dev-python/aiohttp 3.8.4 3.9.0_beta0: HTTP client/server for asyncio
 dev-python/aiohttp-fast-url-dispatcher 0.3.0: A faster URL dispatcher for aiohttp
 dev-python/aiohttp-retry 2.8.3: Simple retry client for aiohttp
+dev-python/aiohttp-zlib-ng 0.1.1: Enable zlib_ng on aiohttp
 dev-python/aiohue 4.6.2 4.7.0: Python module to talk to Philips Hue.
 dev-python/aioimaplib 1.0.1: Python asyncio IMAP4rev1 client library
 dev-python/aioitertools 0.11.0: itertools and builtins for AsyncIO and mixed iterables
@@ -527,7 +528,7 @@ dev-python/ibmiotf 0.3.4: Python Client for IBM Watson IoT Platform
 dev-python/ical 5.0.1 5.1.0 6.1.0: Python iCalendar implementation (rfc 2445)
 dev-python/icmplib 3.0: Easily forge ICMP packets and make your own ping and traceroute.
 dev-python/idasen 0.10.3: ikea IDASEN desk API and CLI.
-dev-python/idasen-ha 1.4.1 2.3: Home Assistant helper lib for the IKEA Idasen Desk integration
+dev-python/idasen-ha 1.4.1 2.3 2.4: Home Assistant helper lib for the IKEA Idasen Desk integration
 dev-python/ifaddr 0.1.7: Enumerate IP addresses on the local network adapters
 dev-python/iglo 1.2.7: Control iGlo based RGB lights
 dev-python/ihcsdk 2.8.5: IHC Python SDK
@@ -809,7 +810,7 @@ dev-python/pydelijn 1.0.0 1.1.0: Get realtime info on stop passages of De Lijn (
 dev-python/pydexcom 0.2.3: Python API to interact with Dexcom Share API
 dev-python/pydiscovergy 2.0.3 2.0.5: Async Python 3 library for interacting with Discovergy smart meters API
 dev-python/pydoods 1.0.2: A Python wrapper for the DOODS image detection service
-dev-python/pydrawise 2023.8.0 2023.10.0: Python API for interacting with Hydrawise sprinkler controllers.
+dev-python/pydrawise 2023.8.0 2023.10.0 2023.11.0: Python API for interacting with Hydrawise sprinkler controllers.
 dev-python/pydroid-ipcam 2.0.0: Library for handling the Android IP Webcam app
 dev-python/pyebox 1.1.4: Get your EBox consumption (wwww.ebox.ca)
 dev-python/pyecoforest 0.3.0 0.4.0: Python library for ecoforest local device.
@@ -845,7 +846,7 @@ dev-python/pyhumps 3.5.0-r1: Convert strings (and dictionary keys) between snake
 dev-python/pyialarm 2.2.0: A simple library to interface with iAlarm systems, built for use with Home-Assistant
 dev-python/pyialarmxr-homeassistant 1.0.18: A simple library to interface with iAlarmXR systems, built for use with Home Assistant
 dev-python/pyicloud 1.0.0: PyiCloud is a module which allows pythonistas to interact with iCloud webservices.
-dev-python/pyinsteon 1.5.1: Python API for controlling Insteon devices
+dev-python/pyinsteon 1.5.1 1.5.2: Python API for controlling Insteon devices
 dev-python/pyintesishome 1.8.0: A python3 library for running asynchronus communications with IntesisHome Smart AC Controllers
 dev-python/pyipma 3.0.6 3.0.7: Python library to retrieve information from Instituto PortuguÃªs do Mar e Atmosfera
 dev-python/pyipp 0.12.1-r1 0.14.4: Asynchronous Python client for Internet Printing Protocol (IPP).
@@ -1291,6 +1292,7 @@ dev-python/zigpy-deconz 0.21.1-r1: A library which communicates with Deconz radi
 dev-python/zigpy-xbee 0.18.3 0.19.0: A library which communicates with XBee radios for zigpy
 dev-python/zigpy-zigate 0.11.0: A library which communicates with ZiGate radios for zigpy
 dev-python/zigpy-znp 0.11.5-r1 0.11.6-r1: A library for zigpy which communicates with TI ZNP radios
+dev-python/zlib-ng 0.2.0: Drop-in replacement for zlib and gzip modules using zlib-ng
 dev-python/zm-py 0.5.2-r1: A loose python wrapper around the ZoneMinder REST API.
 dev-python/zwave-js-server-python 0.52.1 0.53.1 0.54.0: Python wrapper for zwave-js-server
 dev-python/zwave-me-ws 0.4.3: Library, implementing websocket connection to ZWave-Me
