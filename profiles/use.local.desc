@@ -443,6 +443,7 @@ app-misc/homeassistant-full:delijn - De Lijn public transport network in Flander
 app-misc/homeassistant-full:deluge - Local polling for Deluge Switches and Sensors
 app-misc/homeassistant-full:denonavr - Automation Library for Denon AVR receivers
 app-misc/homeassistant-full:deutsche_bahn - will give you the departure time of the next train for the given connection
+app-misc/homeassistant-full:devialet - lets you control your Devialet wireless speakers from Home Assistant
 app-misc/homeassistant-full:devolo_home_control - Add Devolo Home-control to Home Assistant
 app-misc/homeassistant-full:devolo_home_network - The devolo Home Network integration allows you to monitor your PLC network
 app-misc/homeassistant-full:dexcom - View your CGM data from Dexcom from Home Assistant
@@ -720,6 +721,7 @@ app-misc/homeassistant-full:lifx - The lifx integration allows you to integrate 
 app-misc/homeassistant-full:lifx_legacy - The lifx integration allows you to integrate your LIFX into Home Assistant
 app-misc/homeassistant-full:lightwave - WiFi link for controlling Lightwave lights, switches and TRVs
 app-misc/homeassistant-full:limitlessled - control your LimitlessLED lights from within Home Assistant
+app-misc/homeassistant-full:linear_garage_door - lets you control Linear garage doors through Home Assistant
 app-misc/homeassistant-full:linode - allows you to access the information about your Linode systems
 app-misc/homeassistant-full:linux_battery - sensor platform is using the information stored in /sys/class/power_supply/
 app-misc/homeassistant-full:litejet - allows a computer to control the system via LiteJet’s third party protocol
@@ -854,6 +856,7 @@ app-misc/homeassistant-full:openevse - an OpenEVSE Charging station equipped wit
 app-misc/homeassistant-full:opengarage - opengarage cover platform lets you control the open-source OpenGarage.io device
 app-misc/homeassistant-full:openhome - connect an Openhome Compliant Renderer to Home Assistant
 app-misc/homeassistant-full:opensensemap - query the open data API of openSenseMap.org air quality sensor station
+app-misc/homeassistant-full:opensky - allows one to track overhead flights in a given region
 app-misc/homeassistant-full:opentherm_gw - control the OpenTherm Gateway from Home Assistant
 app-misc/homeassistant-full:openuv - The openuv integration displays UV and Ozone data from openuv.io
 app-misc/homeassistant-full:openweathermap - uses OpenWeatherMap as a source for current meteorological data
@@ -867,6 +870,7 @@ app-misc/homeassistant-full:orvibo - allows you to toggle your (dangerous) Orvib
 app-misc/homeassistant-full:osramlightify - allows you to integrate your Osram Lightify into Home Assistant
 app-misc/homeassistant-full:otbr - calling an Open Thread Border Router’s REST API in Home Assistant
 app-misc/homeassistant-full:otp - generates One-Time Passwords according to RFC6238
+app-misc/homeassistant-full:ourgroceries - ntegrates your shopping lists into Home Assistant
 app-misc/homeassistant-full:overkiz - The Overkiz (by Somfy) integration platform
 app-misc/homeassistant-full:ovo_energy - allows you to monitor your energy consumption data
 app-misc/homeassistant-full:owntracks - OwnTracks: track your location and send it directly to Home Assistant
@@ -879,8 +883,8 @@ app-misc/homeassistant-full:pcal9535a - pcal9535a integration is the base for al
 app-misc/homeassistant-full:peco - provides electricity outage data from PECO Philadelphia power company
 app-misc/homeassistant-full:pegel_online - uses the data from the German Federal Waterways and Shipping Administration
 app-misc/homeassistant-full:pencom - Pencom is a computer-controlled relay, I/O and custom boards
+app-misc/homeassistant-full:permobil - view various sensors with information about your Permobil wheelchair
 app-misc/homeassistant-full:philips_js - allows you to control Philips TVs which expose the jointSPACE JSON-API
-app-misc/homeassistant-full:pi4ioe5v9xxxx - support for the quasi-bidirectional devices pi4ioe5v9xxxx I2C I/O port expander
 app-misc/homeassistant-full:pi_hole - retrieve statistics and interact with a Pi-hole system
 app-misc/homeassistant-full:picnic - get information from Picnic about orders, deliveries and cart content
 app-misc/homeassistant-full:piglow - control the Piglow lights on your Raspberry Pi from within Home Assistant
@@ -1154,6 +1158,7 @@ app-misc/homeassistant-full:uscis - updates on your USCIS case using your case/r
 app-misc/homeassistant-full:usgs_earthquakes_feed - a GeoJSON feed provided by the U.S. Geological Survey
 app-misc/homeassistant-full:utility_meter - integration provides functionality to track consumptions of various utilities
 app-misc/homeassistant-full:uvc - allows you to integrate UniFi Video Camera (UVC) into Home Assistant
+app-misc/homeassistant-full:v2c - allows monitoring and control of a local V2C Trydan EVSE
 app-misc/homeassistant-full:vallox - control any Vallox ventilation unit
 app-misc/homeassistant-full:vasttrafik - traveling details for the larger Göteborg area in Sweden from the Västtrafik
 app-misc/homeassistant-full:velbus - supports the Velbus USB, serial and TCP/IP gateway
@@ -1202,7 +1207,6 @@ app-misc/homeassistant-full:wled - add support for Aircookie's WLED
 app-misc/homeassistant-full:wolflink - uses the Wolf Smart-Set for your heating system status
 app-misc/homeassistant-full:workday - generating country, province and state specific sets of holidays on the fly
 app-misc/homeassistant-full:ws66i - Control the Soundavo Whole-Home Audio Amplifier via local network
-app-misc/homeassistant-full:wyoming - connects external voice services to Home Assistant using a small protocol
 app-misc/homeassistant-full:xbox - A library to authenticate with Windows Live/Xbox Live and use their API
 app-misc/homeassistant-full:xbox_live - track Xbox profiles
 app-misc/homeassistant-full:xeoma - Python wrapper for Xeoma web server API
