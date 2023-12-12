@@ -102,7 +102,7 @@ dev-python/adb-shell 0.4.3 0.4.4: A Python implementation of ADB with shell and 
 dev-python/adext 0.4.2: AlarmDecoder extended
 dev-python/adguardhome 0.6.1 0.6.2 0.6.3: Asynchronous Python client for the AdGuard Home API.
 dev-python/advantage-air 0.4.1 0.4.4: API helper for Advantage Air's MyAir and e-zone API
-dev-python/aenum 3.1.11 3.1.12: Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
+dev-python/aenum 3.1.11 3.1.12 3.1.15: Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
 dev-python/afsapi 0.2.7: Asynchronous Implementation of the Frontier Silicon API
 dev-python/agent-py 0.0.23: A python wrapper around the Agent REST API.
 dev-python/ahocorapy 1.6.1 1.6.2: ahocorapy - Pure python ahocorasick implementation
@@ -177,7 +177,7 @@ dev-python/aioqsw 0.3.5: Library to control QNAP QSW devices
 dev-python/aiorecollect 1.0.8 2023.9.0: A Python 3, asyncio-based library for the ReCollect Waste API
 dev-python/aioridwell 2023.1.0 2023.7.0: A Python3, asyncio-based API for interacting with Ridwell waste recycling
 dev-python/aioruckus 0.34: Python API to interact with Ruckus Unleashed and ZoneDirector devices.
-dev-python/aiorun 2022.11.1: Boilerplate for asyncio applications
+dev-python/aiorun 2022.11.1 2023.7.2: Boilerplate for asyncio applications
 dev-python/aioruuvigateway 0.0.2 0.1.0: An asyncio-native library for requesting data from a Ruuvi Gateway
 dev-python/aiosenseme 0.6.1: SenseME by Big Ass Fans asynchronous Python library
 dev-python/aiosenz 1.0.0-r1: Async Typed Python package for the nVent RAYCHEM SENZ RestAPI
@@ -1224,6 +1224,7 @@ dev-python/uamqp 1.6.0-r1: AMQP 1.0 Client Library for Python
 dev-python/uasiren 0.0.1: Implements siren.pp.ua API - public wrapper for api.ukrainealarm.com API that returns info about Ukraine air-raid alarms.
 dev-python/ulid-transform 0.8.1 0.9.0: Create and transform ULIDs
 dev-python/ultraheat-api 0.5.1 0.5.7: Reading usage data from the Landys & Gyr Ultraheat heat meter unit
+dev-python/unicode-rbnf 1.0.0: Rule-based number formatting using Unicode CLDR data
 dev-python/unifi-discovery 1.1.7: Discover Unifi Devices
 dev-python/unifiled 0.11: Easily connect to Ubiquiti Unifi led devices
 dev-python/universal-silabs-flasher 0.0.14-r1 0.0.15: Tool to flash firmware onto any Silicon Labs radio running EmberZNet, CPC multi-PAN, or just a bare Gecko Bootloader
