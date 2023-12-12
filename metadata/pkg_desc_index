@@ -134,7 +134,7 @@ dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2023.1.0 2023.5.0: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 0.1.5: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 18.0.7 18.1.0 18.2.4 18.5.5 18.5.7: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 18.0.7 18.1.0 18.2.4 18.5.5 18.5.7 19.2.1: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.12.0 0.21.3: ftp client/server for asyncio
@@ -1010,7 +1010,7 @@ dev-python/python-izone 1.2.9: A python interface to the iZone airconditioner co
 dev-python/python-join-api 0.0.9: Python API for interacting with Join by joaoapps.
 dev-python/python-juicenet 1.1.0: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
 dev-python/python-kasa 0.5.3 0.5.4: Python API for TP-Link Kasa Smarthome devices
-dev-python/python-matter-server 3.7.0: Python Matter WebSocket Server
+dev-python/python-matter-server 3.7.0 5.0.0: Python Matter WebSocket Server
 dev-python/python-metar 1.4.0: Metar - a package to parse METAR coded weather reports
 dev-python/python-miio 0.5.11 0.5.12: Python library for interfacing with Xiaomi smart appliances
 dev-python/python-mpd2 3.0.5: A Python MPD client library
