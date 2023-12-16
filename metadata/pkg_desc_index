@@ -1271,7 +1271,7 @@ dev-python/withings-api 2.4.0: Library for the Withings API
 dev-python/wled 0.16.0 0.17.0: Asynchronous Python client for WLED.
 dev-python/wolf-smartset 0.1.11: A package to communicate with Wolf Smart Set Cloud
 dev-python/wolf_smartset 0.1.11: A package to comunicate with Wolf Smart Set Cloud
-dev-python/wyoming 0.0.1 1.2.0: Protocol for Rhasspy Voice Assistant
+dev-python/wyoming 1.2.0 1.4.0: Protocol for Rhasspy Voice Assistant
 dev-python/xbee-helper 0.0.7: a high level API to an XBee device
 dev-python/xbox-webapi 2.0.11: A library to authenticate with Windows Live/Xbox Live and use their API
 dev-python/xboxapi 2.0.1: A wrapper library for XboxAPI.com
