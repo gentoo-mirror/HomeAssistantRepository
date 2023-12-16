@@ -177,7 +177,7 @@ dev-python/aioqsw 0.3.5: Library to control QNAP QSW devices
 dev-python/aiorecollect 1.0.8 2023.9.0: A Python 3, asyncio-based library for the ReCollect Waste API
 dev-python/aioridwell 2023.1.0 2023.7.0: A Python3, asyncio-based API for interacting with Ridwell waste recycling
 dev-python/aioruckus 0.34: Python API to interact with Ruckus Unleashed and ZoneDirector devices.
-dev-python/aiorun 2022.11.1 2023.7.2: Boilerplate for asyncio applications
+dev-python/aiorun 2023.7.2: Boilerplate for asyncio applications
 dev-python/aioruuvigateway 0.0.2 0.1.0: An asyncio-native library for requesting data from a Ruuvi Gateway
 dev-python/aiosenseme 0.6.1: SenseME by Big Ass Fans asynchronous Python library
 dev-python/aiosenz 1.0.0-r1: Async Typed Python package for the nVent RAYCHEM SENZ RestAPI
@@ -504,6 +504,7 @@ dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.28 0.35 0.36: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.10.3 1.10.4: Home Assistant Bluetooth Models and Helpers
+dev-python/home-assistant-chip-clusters 2023.10.2: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20231005.0 20231030.0 20231030.1 20231030.2 20231208.2: The Home Assistant frontend
 dev-python/home-assistant-intents 2023.10.2 2023.10.16 2023.12.5: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
@@ -719,7 +720,6 @@ dev-python/piglow 1.2.4: Drive the Pimoroni PiGlow board, based on the sn3218 i2
 dev-python/pigpio 1.78: Raspberry Pi GPIO module
 dev-python/pilight 0.1.1: Pure python module to connect to a pilight daemon to send and receive commands.
 dev-python/pillow 9.3.0-r1: Python Imaging Library (fork)
-dev-python/pip 22.3.1: The PyPA recommended tool for installing Python packages
 dev-python/pipdeptree 2.11.0: Command line utility to show dependency tree of packages.
 dev-python/pizzapi 0.0.3: A Python wrapper for the Dominos Pizza API
 dev-python/pkce 1.0.3: PKCE Pyhton generator.
@@ -1010,7 +1010,7 @@ dev-python/python-izone 1.2.9: A python interface to the iZone airconditioner co
 dev-python/python-join-api 0.0.9: Python API for interacting with Join by joaoapps.
 dev-python/python-juicenet 1.1.0: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
 dev-python/python-kasa 0.5.3 0.5.4: Python API for TP-Link Kasa Smarthome devices
-dev-python/python-matter-server 3.7.0 5.0.0: Python Matter WebSocket Server
+dev-python/python-matter-server 5.0.0-r1: Python Matter WebSocket Server
 dev-python/python-metar 1.4.0: Metar - a package to parse METAR coded weather reports
 dev-python/python-miio 0.5.11 0.5.12: Python library for interfacing with Xiaomi smart appliances
 dev-python/python-mpd2 3.0.5: A Python MPD client library
