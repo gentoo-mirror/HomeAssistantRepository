@@ -5,22 +5,20 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
+DESCRIPTION="AEMET OpenData Rest API library"
+HOMEPAGE="https://github.com/Noltari/AEMET-OpenData https://pypi.org/project/AEMET-OpenData/"
 
-DESCRIPTION="QR Code and Micro QR Code generator for Python 2 and Python 3"
-HOMEPAGE="https://github.com/heuer/segno/ https://pypi.org/project/segno/"
-
-LICENSE="BSD-3"
+LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
+DOCS="README.md"
 
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-distutils_enable_tests pytest
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	sci-geosciences/geopy[${PYTHON_USEDEP}]
+"
