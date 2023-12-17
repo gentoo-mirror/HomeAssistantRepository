@@ -37,7 +37,7 @@ dev-python/DoorBirdPy 2.1.0: Python wrapper for the DoorBird LAN API v0.21
 dev-python/Events 0.4: Bringing the elegance of C# EventHandler to Python
 dev-python/GitPython 2.1.11: Python Git Library
 dev-python/HAP-python 4.8.0 4.9.1: HomeKit Accessory Protocol implementation in python
-dev-python/HATasmota 0.6.4 0.7.3: Python module to help parse and construct Tasmota MQTT messages.
+dev-python/HATasmota 0.6.4 0.7.3 0.8.0: Python module to help parse and construct Tasmota MQTT messages.
 dev-python/Hydrawiser 0.2: A Python library to communicate with Hunter Wi-Fi irrigation controllers (https://www.hunter.com)
 dev-python/Mastodon-py 1.5.1: Python wrapper for the Mastodon API
 dev-python/OPi-GPIO 0.5.2: A drop-in replacement for RPi.GPIO for the Orange Pi Zero
@@ -528,7 +528,7 @@ dev-python/ibeacon-ble 1.0.1: Parser for iBeacon devices
 dev-python/ibm-cloud-sdk-core 3.11.3: Core library used by SDKs for IBM Cloud Services
 dev-python/ibm-watson 5.2.2: Client library to use the IBM Watson Services
 dev-python/ibmiotf 0.3.4: Python Client for IBM Watson IoT Platform
-dev-python/ical 5.0.1 5.1.0 6.1.0: Python iCalendar implementation (rfc 2445)
+dev-python/ical 5.0.1 5.1.0 6.1.0 6.1.1: Python iCalendar implementation (rfc 2445)
 dev-python/icmplib 3.0: Easily forge ICMP packets and make your own ping and traceroute.
 dev-python/idasen 0.10.3: ikea IDASEN desk API and CLI.
 dev-python/idasen-ha 1.4.1 2.3 2.4: Home Assistant helper lib for the IKEA Idasen Desk integration
@@ -725,7 +725,7 @@ dev-python/pizzapi 0.0.3: A Python wrapper for the Dominos Pizza API
 dev-python/pkce 1.0.3: PKCE Pyhton generator.
 dev-python/plexauth 0.0.6: Handles the authorization flow to obtain tokens from Plex.tv via external redirection.
 dev-python/plexwebsocket 0.0.13 0.0.14: Support for issuing callbacks in response to Plex websocket updates.
-dev-python/plugwise 0.33.0 0.33.2 0.34.5: Plugwise (Adam/Anna/P1/Stick/Stretch) API to use in conjunction with Home Assistant Core.
+dev-python/plugwise 0.33.0 0.33.2 0.34.5 0.35.3: Plugwise (Adam/Anna/P1/Stick/Stretch) API to use in conjunction with Home Assistant Core.
 dev-python/plumlightpad 0.0.11: A python package that interacts with the Plum Lightpad
 dev-python/pmsensor 0.4: Library to read data from environment sensors
 dev-python/poolsense 0.0.8: Asynchronous Python client for getting PoolSense data.
@@ -943,7 +943,7 @@ dev-python/pyroute2 0.7.5: A pure Python netlink and Linux network configuration
 dev-python/pyrympro 0.0.4 0.0.7: A python library to communicate with Read Your Meter Pro.
 dev-python/pysabnzbd 1.1.1: Python wrapper for SABnzbd API
 dev-python/pysaj 0.0.16: Library to communicate with SAJ inverters
-dev-python/pyschlage 2023.9.1 2023.10.0 2023.11.0: Python API for interacting with Schlage WiFi locks.
+dev-python/pyschlage 2023.9.1 2023.10.0 2023.11.0 2023.12.0: Python API for interacting with Schlage WiFi locks.
 dev-python/pysensibo 1.0.35 1.0.36: asyncio-friendly python API for Sensibo
 dev-python/pyserial-asyncio 0.6: Python Serial Port Extension - Asynchronous I/O support
 dev-python/pyserial-asyncio-fast 0.11: Python Serial Port Extension - Asynchronous I/O support
@@ -1079,7 +1079,7 @@ dev-python/readlike 0.1.2: GNU Readline-like line editing module
 dev-python/regenmaschine 2023.6.0: A simple API for RainMachine sprinkler controllers
 dev-python/regex 2021.8.28: Alternative regular expression module to replace re
 dev-python/related 0.7.2: Related: Straightforward nested object models in Python
-dev-python/renault-api 0.2.0: Renault API
+dev-python/renault-api 0.2.0 0.2.1: Renault API
 dev-python/renson-endura-delta 1.6.0: Unofficial Renson endura delta Python library
 dev-python/reolink-aio 0.7.11 0.7.12 0.7.14 0.8.2: Reolink NVR/cameras API package
 dev-python/requests 2.28.2: HTTP library for human beings
