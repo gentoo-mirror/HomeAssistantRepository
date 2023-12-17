@@ -165,6 +165,7 @@ app-misc/homeassistant:loopenergy - Integrate your Loop Energy meter information
 app-misc/homeassistant:luci - fetch connected devices from your OpenWrt
 app-misc/homeassistant:luftdaten - query the open data API of luftdaten.info to monitor air quality
 app-misc/homeassistant:mariadb - WIP: set dependencies for mariadb-connector-python
+app-misc/homeassistant:matter - control Matter devices on your local WiFi or Thread network
 app-misc/homeassistant:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant:media_extractor - Gets a stream URL and sends it to a media player entity
 app-misc/homeassistant:met - met platform uses the Met.no web service as a source for meteorological data
@@ -746,6 +747,7 @@ app-misc/homeassistant-full:mariadb - WIP: set dependencies for mariadb-connecto
 app-misc/homeassistant-full:marytts - text-to-speech platform uses MaryTTS Text-to-Speech engine
 app-misc/homeassistant-full:mastodon - uses Mastodon to deliver notifications from Home Assistant
 app-misc/homeassistant-full:matrix - allows you to send messages to matrix rooms
+app-misc/homeassistant-full:matter - control Matter devices on your local WiFi or Thread network
 app-misc/homeassistant-full:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant-full:mcp23017 - base for all related mcp23017 platforms in Home Assistant
 app-misc/homeassistant-full:meater - communication with the Meater Temperature Probe from Apption Labs
@@ -1279,6 +1281,7 @@ app-misc/homeassistant-min:kraken - allows you to monitor exchange rates on krak
 app-misc/homeassistant-min:local_calendar - create a calendar of events in Home Assistant
 app-misc/homeassistant-min:local_todo - The Local to-do list integration allows you to create to-do lists in Home Assist
 app-misc/homeassistant-min:mariadb - WIP: set dependencies for mariadb-connector-python
+app-misc/homeassistant-min:matter - control Matter devices on your local WiFi or Thread network
 app-misc/homeassistant-min:maxcube - eQ-3 ELV MAX Cube Python API
 app-misc/homeassistant-min:mikrotik - add support for MikroTik RouterOS API
 app-misc/homeassistant-min:mobile_app - allows Home Assistant mobile apps to easily integrate with Home Assistant
