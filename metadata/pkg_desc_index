@@ -1294,7 +1294,7 @@ dev-python/yt-dlp 2023.10.13 2023.11.16: youtube-dl fork with additional feature
 dev-python/zamg 0.2.2 0.3.0 0.3.3: Asynchronous Python client for ZAMG weather data.
 dev-python/zeep 4.2.1: A modern/fast Python SOAP client based on lxml / requests
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs
-dev-python/zeroconf 0.56.0 0.70.0: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
+dev-python/zeroconf 0.128.5: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-python/zeversolar 0.3.1: Simple Python wrapper for the local CGI provided by ZeverSolar
 dev-python/zha-quirks 0.0.104-r1 0.0.105-r1 0.0.106 0.0.107: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
