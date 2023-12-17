@@ -305,7 +305,7 @@ dev-python/btsocket 0.2.0: Python library for BlueZ Bluetooth Management API
 dev-python/buienradar 1.0.5: Library and CLI tools for interacting with buienradar.
 dev-python/bx-py-utils 75: Various Python utility functions
 dev-python/caio 0.9.8: Asynchronous file IO for Linux MacOS or Windows.
-dev-python/caldav 1.2.0: CalDAV (RFC4791) client library for Python
+dev-python/caldav 1.2.0 1.3.8: CalDAV (RFC4791) client library for Python
 dev-python/chacha20poly1305 0.0.3: Chacha20Poly1305
 dev-python/chacha20poly1305-reuseable 0.10.2: ChaCha20Poly1305 that is reuseable for asyncio
 dev-python/charset-normalizer 3.2.0: The Real First Universal Charset Detector
