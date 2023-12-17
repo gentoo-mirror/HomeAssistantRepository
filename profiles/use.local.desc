@@ -119,7 +119,6 @@ app-misc/homeassistant:freebox - allows you to observe and control Freebox route
 app-misc/homeassistant:fritz - The fritz platform offers presence detection for Home Assistant
 app-misc/homeassistant:fritzbox - Allows you to integrate the switch and climate devices in Home Assistant
 app-misc/homeassistant:fritzbox_callmonitor - monitors the call monitor exposed by AVM FRITZ!Box routers on TCP port 1012
-app-misc/homeassistant:fritzbox_netmonitor - sensor monitors the network statistics exposed by AVM FRITZ!Box routers
 app-misc/homeassistant:fronius - Add (very basic) Support for Fronius Symo JSON Api to Home Assistant
 app-misc/homeassistant:garmin_connect - The Garmin Connect sensor allows you to expose data from Garmin Connect
 app-misc/homeassistant:gios - Source for air quality data for Home Assistant
@@ -562,7 +561,6 @@ app-misc/homeassistant-full:freedompro - Python library for Freedompro API
 app-misc/homeassistant-full:fritz - The fritz platform offers presence detection for Home Assistant
 app-misc/homeassistant-full:fritzbox - Allows you to integrate the switch and climate devices in Home Assistant
 app-misc/homeassistant-full:fritzbox_callmonitor - monitors the call monitor exposed by AVM FRITZ!Box routers on TCP port 1012
-app-misc/homeassistant-full:fritzbox_netmonitor - sensor monitors the network statistics exposed by AVM FRITZ!Box routers
 app-misc/homeassistant-full:fronius - Add (very basic) Support for Fronius Symo JSON Api to Home Assistant
 app-misc/homeassistant-full:frontier_silicon - Support for Internet Radios based on the Frontier Silicon chipset
 app-misc/homeassistant-full:fully_kiosk - Fully Kiosk Browser control in Home Assistant

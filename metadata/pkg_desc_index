@@ -1117,6 +1117,7 @@ dev-python/sensirion-ble 0.0.1-r2 0.1.1-r2: Manage Sensirion BLE devices
 dev-python/sensor-state-data 2.17.1: Models for storing and converting Sensor Data state
 dev-python/sensorpro-ble 0.5.3: SensorPro BLE Devices
 dev-python/sensorpush-ble 1.5.5: Parser for SensorPush BLE devices
+dev-python/sentry-sdk 1.37.1: Python client for Sentry
 dev-python/sepaxml 2.2.0: Python SEPA XML implementations
 dev-python/setuptools-markdown 0.4.1: [Deprecated] Use Markdown for your project description
 dev-python/sfrbox-api 0.0.6 0.0.8: SFR Box API
