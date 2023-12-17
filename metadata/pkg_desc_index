@@ -848,7 +848,7 @@ dev-python/pygtfs 0.1.7 0.1.9: Models GTFS data in a database.
 dev-python/pygti 0.9.3 0.9.4: access public transport information in hamburg, germany.
 dev-python/pyhaversion 22.8.0: Get the latest Home Assistant version from various sources.
 dev-python/pyheos 0.7.2: An async python library for controlling HEOS devices through the HEOS CLI Protocol
-dev-python/pyhiveapi 0.5.14: A Python library to interface with the Hive API
+dev-python/pyhiveapi 0.5.14 0.5.16: A Python library to interface with the Hive API
 dev-python/pyhomematic 0.1.77: Homematic interface
 dev-python/pyhomeworks 0.0.6: Lutron Homeworks Series 4 and 8 interface over Ethernet
 dev-python/pyhumps 3.5.0-r1: Convert strings (and dictionary keys) between snake case, camel case and pascal case in Python. Inspired by Humps for Node
