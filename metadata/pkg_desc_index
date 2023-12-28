@@ -115,7 +115,7 @@ dev-python/aio-geojson-usgs-earthquakes 0.2: An async GeoJSON client library for
 dev-python/aio-georss-client 0.11: An async GeoRSS client library.
 dev-python/aio-georss-gdacs 0.8: An async GeoRSS client library for GDACS feeds.
 dev-python/aioairq 0.2.4 0.3.1: Asynchronous library to retrieve data from air-Q devices.
-dev-python/aioairzone 0.6.9: Library to control Airzone devices
+dev-python/aioairzone 0.6.9 0.7.2: Library to control Airzone devices
 dev-python/aioairzone-cloud 0.2.3 0.3.5 0.3.6: Library to control Airzone Cloud devices
 dev-python/aioambient 2023.4.0: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioaseko 0.0.2: Async Python package for the Aseko Pool Live API
@@ -168,7 +168,7 @@ dev-python/aionursery 0.3.0: Manage background asyncio tasks
 dev-python/aiooncue 0.3.5: Async for Oncue
 dev-python/aioopenexchangerates 0.4.0: Fetch rates from openexchangerates with aiohttp.
 dev-python/aiopegelonline 0.0.6: Asynchronous library to retrieve data from PEGELONLINE.
-dev-python/aiopulse 0.4.3: Python module for Rollease Acmeda Automate integration.
+dev-python/aiopulse 0.4.3 0.4.4: Python module for Rollease Acmeda Automate integration.
 dev-python/aiopurpleair 2022.12.1: A Python 3, asyncio-based library to interact with the PurpleAir API
 dev-python/aiopvapi 2.0.4: Powerview blinds API wrapper
 dev-python/aiopvpc 4.2.2: Retrieval of Spanish Electricity hourly prices (PVPC)
@@ -275,7 +275,7 @@ dev-python/bizkaibus 0.1.1: Online information for buses of Biscay bus services 
 dev-python/bleak 0.21.1: Bluetooth Low Energy platform Agnostic Klient
 dev-python/bleak-retry-connector 3.2.1 3.3.0: A connector for Bleak Clients that handles transient connection failures
 dev-python/blebox-uniapi 2.1.4 2.2.0: Python API for accessing BleBox smart home devices
-dev-python/blinkpy 0.21.0-r1 0.22.3: A Blink camera Python library running on Python 3.
+dev-python/blinkpy 0.22.3 0.22.4: A Blink camera Python library running on Python 3.
 dev-python/blinkt 0.1.0: Python library for driving Pimoroni Blinkt!
 dev-python/blockchain 1.4.4: Blockchain API library (v1)
 dev-python/bluemaestro-ble 0.2.3: bluemaestro BLE devices
@@ -352,7 +352,7 @@ dev-python/deepdiff 6.2.1: Deep Difference and Search of any Python object/data.
 dev-python/deluge-client 1.7.1: Simple Deluge Client
 dev-python/demetriek 0.4.0: Asynchronous Python client for LaMetric TIME devices
 dev-python/demjson3 3.0.5: encoder, decoder, and lint/validator for JSON (JavaScript Object Notation) compliant with RFC 7159
-dev-python/devialet 1.4.3: Devialet API
+dev-python/devialet 1.4.3 1.4.5: Devialet API
 dev-python/devolo-home-control-api 0.18.2: devolo Home Control API in Python
 dev-python/devolo-plc-api 1.4.1: devolo PLC devices in Python
 dev-python/dicttoxml 1.7.4-r4: Converts a Python dictionary or other native data type into a valid XML string.
@@ -585,7 +585,7 @@ dev-python/libpyvivotek 0.4.0: Python Library for Vivotek IP Cameras
 dev-python/librouteros 3.2.0: Python implementation of MikroTik RouterOS API
 dev-python/libsoundtouch 0.8.0-r1: Bose Soundtouch Python library
 dev-python/libusb1 3.0.0: Pure-python wrapper for libusb-1.0
-dev-python/life360 6.0.0: Life360 Communications Module
+dev-python/life360 6.0.0 6.0.1: Life360 Communications Module
 dev-python/liffylights 0.9.4: LIFX Python library
 dev-python/lightify 1.0.7.3: A library to work with OSRAM lightify.
 dev-python/lightwave 0.24: Python library to provide a reliable communication link with LightWaveRF lights, switches and TRVs.
@@ -823,7 +823,7 @@ dev-python/pyecoforest 0.3.0 0.4.0: Python library for ecoforest local device.
 dev-python/pyeconet 0.1.20 0.1.22: Interface to the unofficial EcoNet API
 dev-python/pyedimax 0.2.1: Interface with Edimax Smart Plugs
 dev-python/pyefergy 22.1.1: An API library for Efergy energy meters.
-dev-python/pyenphase 1.11.4 1.14.2 1.14.3: Library to control enphase envoy
+dev-python/pyenphase 1.14.2 1.14.3 1.15.2: Library to control enphase envoy
 dev-python/pyenvisalink 4.6: A python3 library for running asynchronus communications with envisalink alarm control panel modules.
 dev-python/pyephember 0.3.1: Python library to work with ember from EPH Controls
 dev-python/pyeverlights 0.1.0: A library for controlling an EverLights lighting system.
