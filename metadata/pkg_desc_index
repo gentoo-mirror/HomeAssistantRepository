@@ -268,7 +268,7 @@ dev-python/bcrypt 4.0.1: Modern password hashing for software and servers
 dev-python/beacontools 2.1.0: A Python library for working with various types of Bluetooth LE Beacons.
 dev-python/beautifulsoup4 4.11.1: Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree
 dev-python/beewi-smartclim 0.0.10: Library to read data from BeeWi SmartClim sensor using Bluetooth LE
-dev-python/bellows 0.36.5-r1 0.36.8 0.37.1 0.37.3: Library implementing EZSP
+dev-python/bellows 0.36.5-r1 0.36.8 0.37.1 0.37.3 0.37.4: Library implementing EZSP
 dev-python/bidict 0.22.0: The bidirectional mapping library for Python.
 dev-python/bimmer-connected 0.14.1 0.14.2 0.14.3 0.14.6-r1: Library to read data from the BMW Connected Drive portal
 dev-python/bitstruct 8.17.0: This module performs conversions between Python values and C bit field structs represented as Python byte strings.
@@ -1294,11 +1294,11 @@ dev-python/zeep 4.2.1: A modern/fast Python SOAP client based on lxml / requests
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs
 dev-python/zeroconf 0.128.5: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-python/zeversolar 0.3.1: Simple Python wrapper for the local CGI provided by ZeverSolar
-dev-python/zha-quirks 0.0.105-r1 0.0.106 0.0.107: Library implementing Zigpy quirks for ZHA in Home Assistant
+dev-python/zha-quirks 0.0.105-r1 0.0.106 0.0.107 0.0.108: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
-dev-python/zigpy 0.57.2-r1 0.59.0 0.60.0 0.60.1: Library implementing a ZigBee stack
-dev-python/zigpy-deconz 0.21.1-r1 0.22.0 0.22.2: A library which communicates with Deconz radios for zigpy
+dev-python/zigpy 0.57.2-r1 0.59.0 0.60.0 0.60.1 0.60.2: Library implementing a ZigBee stack
+dev-python/zigpy-deconz 0.21.1-r1 0.22.0 0.22.2 0.22.3: A library which communicates with Deconz radios for zigpy
 dev-python/zigpy-xbee 0.18.3 0.19.0 0.20.0 0.20.1: A library which communicates with XBee radios for zigpy
 dev-python/zigpy-zigate 0.11.0 0.12.0: A library which communicates with ZiGate radios for zigpy
 dev-python/zigpy-znp 0.11.6-r1 0.12.0: A library for zigpy which communicates with TI ZNP radios
