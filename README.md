@@ -625,14 +625,14 @@ There are 1575 Ebuilds in total, 1564 of them have in total 1581 (42 different) 
 |all-rights-reserved|15|
 |GPL-3+|11|
 |LGPL-3+|11|
-|BSD-2|9|
+|BSD-2|10|
 |Unlicense|9|
 |ISC|5|
 |MPL-2.0|5|
-|LGPL-2.1+|4|
 |LGPL-2.1|4|
 |EPL-1.0|4|
 |ZPL|3|
+|LGPL-2.1+|3|
 |PSF-2|3|
 |AGPL-3+|2|
 |LGPL-2+|2|
