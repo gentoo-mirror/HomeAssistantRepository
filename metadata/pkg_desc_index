@@ -233,7 +233,7 @@ dev-python/arris-tg2492lg 1.2.1: Python client for the Arris TG2492LG
 dev-python/asmog 0.0.6: Python API for Ampio Smog Sensors
 dev-python/asterisk_mbox 0.5.0: The client side of a client/server to interact with Asterisk voicemail mailboxes
 dev-python/astral 2.2-r1: Calculations for the position of the sun and moon.
-dev-python/astroid 2.15.7: Abstract Syntax Tree for logilab packages
+dev-python/astroid 2.15.7 3.0.1: Abstract Syntax Tree for logilab packages
 dev-python/async-interrupt 1.1.1: Context manager to raise an exception when a future is done
 dev-python/async-modbus 0.2.1-r1: Async ModBus python library
 dev-python/async-timeout 4.0.2-r1: Timeout context manager for asyncio programs
