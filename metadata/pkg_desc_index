@@ -118,6 +118,7 @@ dev-python/aioairq 0.3.1 0.3.2: Asynchronous library to retrieve data from air-Q
 dev-python/aioairzone 0.6.9 0.7.2: Library to control Airzone devices
 dev-python/aioairzone-cloud 0.2.3 0.3.5 0.3.6: Library to control Airzone Cloud devices
 dev-python/aioambient 2023.4.0: A clean, async-friendly library for the Ambient Weather API
+dev-python/aioapcaccess 0.4.2: Async version of apcaccess library implemented in python.
 dev-python/aioaseko 0.0.2: Async Python package for the Aseko Pool Live API
 dev-python/aioasuswrt 1.4.0: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/
 dev-python/aioazuredevops 1.3.5: Get data from the Azure DevOps API.
@@ -274,7 +275,7 @@ dev-python/bimmer-connected 0.14.1 0.14.2 0.14.3 0.14.6-r1: Library to read data
 dev-python/bitstruct 8.17.0: This module performs conversions between Python values and C bit field structs represented as Python byte strings.
 dev-python/bizkaibus 0.1.1: Online information for buses of Biscay bus services (Basque Country, Spain).
 dev-python/bleak 0.21.1: Bluetooth Low Energy platform Agnostic Klient
-dev-python/bleak-retry-connector 3.2.1 3.3.0: A connector for Bleak Clients that handles transient connection failures
+dev-python/bleak-retry-connector 3.3.0 3.4.0: A connector for Bleak Clients that handles transient connection failures
 dev-python/blebox-uniapi 2.1.4 2.2.0: Python API for accessing BleBox smart home devices
 dev-python/blinkpy 0.22.3 0.22.4: A Blink camera Python library running on Python 3.
 dev-python/blinkt 0.1.0: Python library for driving Pimoroni Blinkt!
@@ -785,7 +786,7 @@ dev-python/pyairvisual 2023.8.1: A simple API for AirVisual air quality data
 dev-python/pyalmond 0.0.2: Python module to talk to the Web Almond API.
 dev-python/pyarlo 0.2.4: Python Arlo is a library written in Python 2.7/3x that exposes the Netgear Arlo cameras as Python objects.
 dev-python/pyasn1 0.4.8-r2: ASN.1 library for Python
-dev-python/pyasuswrt 0.1.20: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/ using protocol HTTP
+dev-python/pyasuswrt 0.1.20 0.1.21: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/ using protocol HTTP
 dev-python/pyatag 0.3.5.3: Python module to talk to Atag One.
 dev-python/pyatmo 7.5.0 7.6.0 8.0.1: Simple API to access Netatmo weather station data from any Python 3 script. Designed for Home Assistant (but not only)
 dev-python/pyatv 0.13.4 0.14.3: A client library for Apple TV and AirPlay devices
@@ -1284,7 +1285,7 @@ dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontro
 dev-python/yagrc 1.1.2: Yet another gRPC reflection client
 dev-python/yalesmartalarmclient 0.3.9: Interact with Yale Smart Alarm systems
 dev-python/yalexs 1.10.0: Python API for Yale Access (formerly August) Smart Lock and Doorbell
-dev-python/yalexs-ble 2.3.0 2.3.2: Bluetooth control of Yale and August locks
+dev-python/yalexs-ble 2.3.0 2.3.2 2.4.0: Bluetooth control of Yale and August locks
 dev-python/yarl 1.9.2: Yet another URL library
 dev-python/yeelight 0.7.13 0.7.14: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
