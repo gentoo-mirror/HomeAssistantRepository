@@ -440,7 +440,7 @@ dev-python/freezegun 1.2.2: Let your Python tests travel through time
 dev-python/fritzconnection 1.4.2: Communicate with the AVM FRITZ!Box
 dev-python/gTTS 2.2.4: gTTS (Google Text-to-Speech), a Python library and CLI tool to interface with Google Translate text-to-speech API
 dev-python/garages-amsterdam 3.0.0: Asynchronous Python client for getting garage occupancy in Amsterdam
-dev-python/gardena-bluetooth 1.4.0: controlling gardena bluetooth enabled watering computers
+dev-python/gardena-bluetooth 1.4.0 1.4.1: controlling gardena bluetooth enabled watering computers
 dev-python/garminconnect-ha 0.1.6: Garmin Connect Python 3 API wrapper for Home Assistant
 dev-python/gassist-text 0.0.10: A Python library for interacting with Google Assistant API via text
 dev-python/gatt 0.2.7: Bluetooth GATT SDK for Python
