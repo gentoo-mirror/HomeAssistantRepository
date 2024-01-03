@@ -141,6 +141,7 @@ dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen S
 dev-python/aioftp 0.21.3: ftp client/server for asyncio
 dev-python/aiogithubapi 22.10.1: Asynchronous Python client for the GitHub API
 dev-python/aioguardian 2022.7.0: A Python3 library for Elexa Guardian water valves and sensors
+dev-python/aiohappyeyeballs 2.3.1: Happy Eyeballs
 dev-python/aioharmony 0.2.10: Asyncio Python library for connecting to and controlling the Logitech Harmony
 dev-python/aiohomekit 3.0.5 3.0.9: An asyncio HomeKit client
 dev-python/aiohttp 3.8.4 3.9.0_beta0: HTTP client/server for asyncio
@@ -311,7 +312,7 @@ dev-python/cached-ipaddress 0.3.0: Cache construction of ipaddress objects
 dev-python/caio 0.9.8: Asynchronous file IO for Linux MacOS or Windows.
 dev-python/caldav 1.3.8: CalDAV (RFC4791) client library for Python
 dev-python/chacha20poly1305 0.0.3: Chacha20Poly1305
-dev-python/chacha20poly1305-reuseable 0.10.2: ChaCha20Poly1305 that is reuseable for asyncio
+dev-python/chacha20poly1305-reuseable 0.10.2 0.12.0: ChaCha20Poly1305 that is reuseable for asyncio
 dev-python/charset-normalizer 3.2.0: The Real First Universal Charset Detector
 dev-python/circuit-webhook 1.0.1: circuit-webhook is a python client library for Unify Circuit api
 dev-python/ciscomobilityexpress 0.3.9: Module to interact with Cisco Mobility Express APIs to fetch connected devices.
@@ -390,7 +391,7 @@ dev-python/elmax-api 0.0.4: Asynchronous API Library to work with Elmax devices
 dev-python/emoji 1.5.0: Emoji for Python
 dev-python/emulated-roku 0.2.1: Library to emulate a roku server to serve as a proxyfor remotes such as Harmony
 dev-python/energyflip-client 0.2.2: Client for EnergyFlip
-dev-python/energyzero 0.5.0 1.0.0: Asynchronous Python client providing energy/gas prices from EnergyZero
+dev-python/energyzero 0.5.0 1.0.0 2.1.0: Asynchronous Python client providing energy/gas prices from EnergyZero
 dev-python/enocean 0.50.1: EnOcean serial protocol implementation
 dev-python/enturclient 0.2.4: An API client for public transport data from Entur.
 dev-python/enum-compat 0.0.3: enum/enum34 compatibility package
