@@ -9,9 +9,9 @@ acct-user/node-red 0: A user for node-red
 acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-misc/home-assistant-cli 0.9.4 0.9.5 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2023.11.2 2023.12.1 2023.12.3-r1 2023.12.4: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2023.11.2 2023.12.1 2023.12.3-r1 2023.12.4 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2023.11.2 2023.11.3-r1 2023.12.1 2023.12.3-r1 2023.12.4: Open-source home automation platform running on Python.
+app-misc/homeassistant 2023.12.1 2023.12.3-r1 2023.12.4: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2023.12.1 2023.12.3-r1 2023.12.4 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2023.11.3-r1 2023.12.1 2023.12.3-r1 2023.12.4: Open-source home automation platform running on Python.
 app-misc/node-red 3.0.2 3.1.3: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 1.34.0: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2023.10.6 2023.11.4 2023.11.6 2023.12.5 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
@@ -114,7 +114,7 @@ dev-python/aio-geojson-nsw-rfs-incidents 0.6: An async GeoJSON client library fo
 dev-python/aio-geojson-usgs-earthquakes 0.2: An async GeoJSON client library for the U.S. Geological Survey Earthquake Hazards Program.
 dev-python/aio-georss-client 0.11: An async GeoRSS client library.
 dev-python/aio-georss-gdacs 0.8: An async GeoRSS client library for GDACS feeds.
-dev-python/aioairq 0.2.4 0.3.1: Asynchronous library to retrieve data from air-Q devices.
+dev-python/aioairq 0.3.1 0.3.2: Asynchronous library to retrieve data from air-Q devices.
 dev-python/aioairzone 0.6.9 0.7.2: Library to control Airzone devices
 dev-python/aioairzone-cloud 0.2.3 0.3.5 0.3.6: Library to control Airzone Cloud devices
 dev-python/aioambient 2023.4.0: A clean, async-friendly library for the Ambient Weather API
@@ -749,6 +749,7 @@ dev-python/pushbullet-py 0.11.0: A simple python client for pushbullet.com
 dev-python/pushover_complete 1.1.1: A Python package for interacting with *all* aspects of the Pushover API
 dev-python/pvo 1.0.0 2.0.0 2.1.1: Asynchronous client for the PVOutput API.
 dev-python/pwmled 1.6.10: Control LEDs connected to a micro controller using pwm.
+dev-python/py-aosmith 1.0.1: A Python client library for A. O. Smith water heaters
 dev-python/py-canary 0.5.3: Python API for Canary Security Camera
 dev-python/py-cpuinfo 8.0.0: Get CPU info with pure Python 2 & 3
 dev-python/py-dormakaba-dkey 1.0.5: API to interact with a Dormakaba dkey lock via bluetooth
