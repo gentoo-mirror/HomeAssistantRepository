@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">usb-devices</remote-id>
-    <remote-id type="github">bluetooth-devices/usb-devices</remote-id>
+    <remote-id type="pypi">habluetooth</remote-id>
+    <remote-id type="github">bluetooth-devices/habluetooth</remote-id>
     <maintainer status="unknown">
-      <email>nick@koston.org</email>
+      <email>bluetooth@koston.org</email>
       <name>J. Nick Koston</name>
     </maintainer>
   </upstream>
