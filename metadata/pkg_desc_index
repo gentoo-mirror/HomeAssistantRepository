@@ -276,6 +276,7 @@ dev-python/bimmer-connected 0.14.1 0.14.2 0.14.3 0.14.6-r1: Library to read data
 dev-python/bitstruct 8.17.0: This module performs conversions between Python values and C bit field structs represented as Python byte strings.
 dev-python/bizkaibus 0.1.1: Online information for buses of Biscay bus services (Basque Country, Spain).
 dev-python/bleak 0.21.1: Bluetooth Low Energy platform Agnostic Klient
+dev-python/bleak-esphome 0.4.0: Bleak backend of ESPHome
 dev-python/bleak-retry-connector 3.3.0 3.4.0: A connector for Bleak Clients that handles transient connection failures
 dev-python/blebox-uniapi 2.1.4 2.2.0: Python API for accessing BleBox smart home devices
 dev-python/blinkpy 0.22.3 0.22.4: A Blink camera Python library running on Python 3.
@@ -408,7 +409,7 @@ dev-python/esprima 4.0.1: ECMAScript parsing infrastructure for multipurpose ana
 dev-python/eternalegypt 0.0.16: Netgear LTE modem API
 dev-python/eufylife-ble-client 0.1.8: A library to communicate with EufyLife Bluetooth devices.
 dev-python/evdev 1.6.1: Bindings to the Linux input handling subsystem
-dev-python/evohome-async 0.3.15 0.4.6: An async Python client for connecting to the Evohome webservice
+dev-python/evohome-async 0.3.15 0.4.6 0.4.15: An async Python client for connecting to the Evohome webservice
 dev-python/faadelays 2023.9.1: A package to retrieve FAA airport status
 dev-python/face-recognition 1.2.3: Recognize faces from Python or from the command line
 dev-python/face_recognition 1.2.3: Recognize faces from Python or from the command line
@@ -425,6 +426,7 @@ dev-python/fivem-api 0.1.2: A library to query info, players and resources from 
 dev-python/fixerio 1.0.0_alpha0: A Python client for Fixer.io
 dev-python/fjaraskupan 2.2.0: A python library for speaking to fjäråskupan
 dev-python/flake8-docstrings 1.6.0-r1: Extension for flake8 which uses pydocstyle to check docstrings
+dev-python/flexit-bacnet 2.1.0: Client BACnet library for Flexit Nordic series of air handling units.
 dev-python/flipr-api 1.5.0: Python client for flipr API.
 dev-python/flux-led 1.0.4: A Python library to communicate with the flux_led smart bulbs
 dev-python/fnv-hash-fast 0.4.1 0.5.0: A fast version of fnv1a
@@ -511,7 +513,7 @@ dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.28 0.35 0.36: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.10.3 1.10.4: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2023.10.2: Python-base APIs and tools for CHIP.
-dev-python/home-assistant-frontend 20231005.0 20231030.2 20231208.2: The Home Assistant frontend
+dev-python/home-assistant-frontend 20231005.0 20231030.2 20231208.2 20240103.0: The Home Assistant frontend
 dev-python/home-assistant-intents 2023.10.16 2023.12.5 2024.1.2: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.15 1.0.16: An API for the homematicip cloud
