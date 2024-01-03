@@ -10,6 +10,8 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Intents for Home Assistant"
 HOMEPAGE="https://github.com/home-assistant/intents https://pypi.org/project/home-assistant-intents/"
+SRC_URI="$(pypi_wheel_url home_assistant_intents)"
+S=${WORKDIR}
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -17,20 +19,14 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
-
-RDEPEND="dev-python/hassil[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+RDEPEND="~dev-python/hassil-1.5.1[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/voluptuous-0.13.1[${PYTHON_USEDEP}]
+	~dev-python/regex-2023.12.25[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
+
+python_compile() {
+	distutils_wheel_install "${BUILD_DIR}/install" "${DISTDIR}/$(pypi_wheel_name)"
+}
