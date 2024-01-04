@@ -4,11 +4,11 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..12} )
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="An asynchronous library to use Switchbot API"
-HOMEPAGE="https://github.com/SeraphicCorp/py-switchbot-api https://pypi.org/project/switchbot-api/"
+DESCRIPTION="Python API for interacting with transport.opendata.ch."
+HOMEPAGE="https://github.com/home-assistant-ecosystem/python-opendata-transport https://pypi.org/project/python-opendata-transport/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -16,16 +16,13 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
+DOCS="README.rst"
 
-RDEPEND=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
+	dev-python/urllib3[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

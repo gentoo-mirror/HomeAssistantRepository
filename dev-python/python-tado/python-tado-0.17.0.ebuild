@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..12} )
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=setuptools
+PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="An asynchronous library to use Switchbot API"
-HOMEPAGE="https://github.com/SeraphicCorp/py-switchbot-api https://pypi.org/project/switchbot-api/"
+DESCRIPTION="PyTado -- Pythonize your central heating"
+HOMEPAGE="https://github.com/wmalgadey/PyTado https://pypi.org/project/python-tado/"
 
-LICENSE="MIT"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,14 +19,15 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
-python_test() {
-	py.test -v -v || die
+src_prepare() {
+	echo -e "requests" > requirements.txt
+	eapply_user
 }
 
 distutils_enable_tests pytest
