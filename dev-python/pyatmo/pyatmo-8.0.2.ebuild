@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python client library for the OpenAI API"
-HOMEPAGE="https://github.com/openai/openai-python https://pypi.org/project/openai/"
+DESCRIPTION="Simple API to access Netatmo weather station data from any Python 3 script. Designed for Home Assistant (but not only)"
+HOMEPAGE="https://github.com/jabesq/pyatmo https://pypi.org/project/pyatmo/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,16 +18,13 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/oauthlib-3.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-1.3[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest
