@@ -977,7 +977,7 @@ dev-python/pysnmplib 5.0.21-r2: Pure-Python, open source and free implementation
 dev-python/pysnooz 0.8.6: Control SNOOZ white noise machines.
 dev-python/pysoma 0.0.12: A simple package for controlling SOMA devices
 dev-python/pyspcwebgw 0.7.0: A Python library for communicating with SPC Web Gateway.
-dev-python/pysqueezebox 0.6.3: Asynchronous library to control Logitech Media Server
+dev-python/pysqueezebox 0.6.3 0.7.1: Asynchronous library to control Logitech Media Server
 dev-python/pystiebeleltron 0.0.1: Python API for interacting with the Stiebel Eltron ISG web gateway via Modbus.
 dev-python/pysuez 0.1.19 0.2.0: Get your water consumption data from your Suez account (www.toutsurmoneau.fr)
 dev-python/pyswitchbee 1.8.0: SwitchBee Python Integration.
