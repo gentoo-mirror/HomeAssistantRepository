@@ -297,7 +297,6 @@ dev-python/boschshcpy 0.2.57 0.2.75: Bosch Smart Home Controller API Python Libr
 dev-python/boto3 1.28.17: The AWS SDK for Python
 dev-python/bravia-tv 1.0.11: Python Bravia TV remote control
 dev-python/broadlink 0.18.3: Python API for controlling Broadlink devices
-dev-python/brother 2.3.0: Python wrapper for getting data from Brother laser and inkjet printers via SNMP.
 dev-python/brotlipy 0.7.0: Python binding to the Brotli library
 dev-python/brottsplatskartan 0.0.1 1.0.5: Simple API wrapper to brottsplatskartan.se.
 dev-python/brunt 1.2.0: Unofficial python SDK for Brunt, this package allows you to control your Brunt devices from code.
@@ -457,7 +456,7 @@ dev-python/georss-qld-bushfire-alert-client 0.5: A GeoRSS client library for the
 dev-python/getmac 0.8.2 0.8.3 0.9.4: Get MAC addresses of remote hosts and local interfaces
 dev-python/gios 3.1.0 3.2.0 3.2.2: Python wrapper for getting air quality data from GIOS servers.
 dev-python/gitterpy 0.1.7: Python interface for the Gitter API
-dev-python/glances-api 0.4.3: Python API for interacting with Glances.
+dev-python/glances-api 0.4.3 0.5.0: Python API for interacting with Glances.
 dev-python/gntp 1.0.3: Growl Notification Transport Protocol for Python
 dev-python/goalzero 0.2.2: Goal Zero REST Api Library
 dev-python/goodwe 0.2.31 0.2.32: Read data from GoodWe inverter via local network
