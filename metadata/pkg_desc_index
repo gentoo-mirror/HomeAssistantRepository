@@ -195,7 +195,7 @@ dev-python/aiosteamist 0.3.2: Control Steamist steam systems
 dev-python/aioswitcher 3.3.0: Switcher Python Integration.
 dev-python/aiosyncthing 0.5.1: Asynchronous Python client for the Syncthing REST API
 dev-python/aiotractive 0.5.6: Asynchronous Python client for the Tractive REST API
-dev-python/aiounifi 63 65 67: An asynchronous Python library for communicating with Unifi Network Controller API
+dev-python/aiounifi 67 68: An asynchronous Python library for communicating with Unifi Network Controller API
 dev-python/aiounittest 1.4.2: Test asyncio code more easily.
 dev-python/aiovlc 0.1.0: A package for talking to vlc over its telnet interface using asyncio.
 dev-python/aiovodafone 0.3.1 0.4.2 0.4.3: Python library to control Vodafone Station
@@ -1056,10 +1056,10 @@ dev-python/pytouchline 0.7: A Roth Touchline interface library
 dev-python/pytraccar 1.0.0 2.0.0: Update and fetch device information from Traccar.
 dev-python/pytrackr 0.0.5: Interface to the TrackR API
 dev-python/pytradfri 9.0.1: IKEA Tradfri/Tradfri API. Control and observe your lights from Python.
-dev-python/pytrafikverket 0.3.6 0.3.7 0.3.9.1: Retreive values from public API at the Swedish Transport Administration (Trafikverket).
+dev-python/pytrafikverket 0.3.6 0.3.7 0.3.9.1 0.3.9.2: Retreive values from public API at the Swedish Transport Administration (Trafikverket).
 dev-python/pytrydan 0.4.0: Library to interface with V2C EVSE Trydan
 dev-python/pyudev 0.23.2: Python binding to libudev
-dev-python/pyunifiprotect 4.20.0 4.21.0 4.22.0 4.22.3: Unofficial UniFi Protect Python API and CLI
+dev-python/pyunifiprotect 4.20.0 4.21.0 4.22.0 4.22.3 4.22.5: Unofficial UniFi Protect Python API and CLI
 dev-python/pyuptimerobot 22.2.0: Python API wrapper for Uptime Robot.
 dev-python/pyvera 0.3.13: Python API for talking to Veracontrollers
 dev-python/pyversasense 0.0.6: Versasense API consumer
@@ -1241,6 +1241,7 @@ dev-python/uasiren 0.0.1: Implements siren.pp.ua API - public wrapper for api.uk
 dev-python/ulid-transform 0.8.1 0.9.0: Create and transform ULIDs
 dev-python/ultraheat-api 0.5.7: Reading usage data from the Landys & Gyr Ultraheat heat meter unit
 dev-python/unicode-rbnf 1.0.0: Rule-based number formatting using Unicode CLDR data
+dev-python/unifi-ap 0.0.1: Python API for UniFi accesspoints
 dev-python/unifi-discovery 1.1.7: Discover Unifi Devices
 dev-python/unifiled 0.11: Easily connect to Ubiquiti Unifi led devices
 dev-python/universal-silabs-flasher 0.0.14-r1 0.0.15: Tool to flash firmware onto any Silicon Labs radio running EmberZNet, CPC multi-PAN, or just a bare Gecko Bootloader
