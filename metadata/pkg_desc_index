@@ -530,7 +530,7 @@ dev-python/hyper 0.7.0: HTTP/2 Client for Python
 dev-python/hyperion-py 0.7.5: Hyperion Ambient Lighting Python Package
 dev-python/hyundai-kia-connect-api 3.10.6 3.10.8: This is a Kia UVO and Hyundai Bluelink written in python for Homeassistant
 dev-python/i2csense 0.0.4: A library to handle i2c sensors with the Raspberry Pi
-dev-python/iammeter 0.1.7: IamMeter api
+dev-python/iammeter 0.1.7 0.2.1: IamMeter api
 dev-python/iaqualink 0.5.0: Asynchronous library for Jandy iAqualink
 dev-python/ibeacon-ble 1.0.1: Parser for iBeacon devices
 dev-python/ibm-cloud-sdk-core 3.11.3: Core library used by SDKs for IBM Cloud Services
@@ -889,7 +889,7 @@ dev-python/pylaunches 1.4.0: A python packages to get information form upcoming 
 dev-python/pylgnetcast 0.3.7: Client for the LG Smart TV running NetCast 3 or 4.
 dev-python/pylibrespot-java 0.1.1: Python Interface for librespot-java
 dev-python/pylint-per-file-ignores 1.2.1: A pylint plugin to ignore error codes per file.
-dev-python/pylitejet 0.5.0: A library for controlling a LiteJet lighting system.
+dev-python/pylitejet 0.5.0 0.6.2: A library for controlling a LiteJet lighting system.
 dev-python/pylitterbot 2023.4.9: Python package for controlling Whisker automatic robots.
 dev-python/pyloopenergy 0.2.1: Access Loop Energy energy monitors via Socket.IO API
 dev-python/pylutron 0.2.8: Python library for Lutron RadioRA 2
