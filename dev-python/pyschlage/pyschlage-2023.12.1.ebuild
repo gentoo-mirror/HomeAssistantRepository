@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -26,8 +26,10 @@ BDEPEND="
 		dev-python/pytest-timeout[${PYTHON_USEDEP}]
 	)"
 
-python_test() {
-	py.test -v -v || die
+src_prepare() {
+	# remove dynamic-versioning
+	sed 's/dynamic = \["readme", "version"\]/version = \"'${PV}'\"/g' -i pyproject.toml || die
+	eapply_user
 }
 
 distutils_enable_tests pytest
