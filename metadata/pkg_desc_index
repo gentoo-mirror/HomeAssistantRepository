@@ -1182,6 +1182,7 @@ dev-python/striprtf 0.0.26: A simple library to convert rtf to text
 dev-python/subarulink 0.7.6 0.7.8 0.7.9: A package for interacting with Subaru Starlink Remote Services API.
 dev-python/sucks 0.9.4: a library for controlling certain robot vacuums
 dev-python/sunwatcher 0.2.1: Binding to SolarLog HTTP API
+dev-python/sunweg 2.0.3: A library to retrieve data from sunweg.net
 dev-python/surepy 0.8.0 0.9.0: Library to interact with the flaps & doors from Sure Petcare.
 dev-python/swisshydrodata 0.1.0: A library to fetch data from the Swiss federal Office for Environment FEON
 dev-python/switchbot-api 1.1.0 1.2.1: An asynchronous library to use Switchbot API
