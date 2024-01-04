@@ -7,10 +7,10 @@ PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Interface for Pentair ScreenLogic connected pool controllers over IP via Python"
-HOMEPAGE="https://github.com/dieselrabbit/screenlogicpy https://pypi.org/project/screenlogicpy/"
+DESCRIPTION="Strong cryptography support for PySNMP (SNMP library for Python)"
+HOMEPAGE="https://github.com/etingof/pysnmpcrypto https://pypi.org/project/pysnmpcrypto/"
 
-LICENSE="GPL-3"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,14 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="$(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' python3_10)"
+RDEPEND="dev-python/cryptography[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest
