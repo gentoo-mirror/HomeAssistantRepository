@@ -144,7 +144,7 @@ dev-python/aiogithubapi 22.10.1: Asynchronous Python client for the GitHub API
 dev-python/aioguardian 2022.7.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aiohappyeyeballs 2.3.1: Happy Eyeballs
 dev-python/aioharmony 0.2.10: Asyncio Python library for connecting to and controlling the Logitech Harmony
-dev-python/aiohomekit 3.0.5 3.0.9: An asyncio HomeKit client
+dev-python/aiohomekit 3.0.5 3.0.9 3.1.1: An asyncio HomeKit client
 dev-python/aiohttp 3.8.4 3.9.0_beta0: HTTP client/server for asyncio
 dev-python/aiohttp-fast-url-dispatcher 0.3.0: A faster URL dispatcher for aiohttp
 dev-python/aiohttp-retry 2.8.3: Simple retry client for aiohttp
@@ -510,7 +510,7 @@ dev-python/hikvision 0.4: Provides a python interface to interact with a hikvisi
 dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
-dev-python/holidays 0.28 0.35 0.36 0.39: Generate and work with holidays in Python
+dev-python/holidays 0.35 0.36 0.39: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.10.3 1.10.4: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2023.10.2: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20231005.0 20231030.2 20231208.2 20240103.0: The Home Assistant frontend
