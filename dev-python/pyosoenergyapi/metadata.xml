@@ -6,10 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyprusalink</remote-id>
+    <remote-id type="pypi">pyosoenergyapi</remote-id>
+    <remote-id type="github">osohotwateriot/apyosohotwaterapi</remote-id>
     <maintainer status="unknown">
-      <email>hello@home-assistant.io</email>
-      <name>The Home Assistant Authors</name>
+      <email>osowh.iot@gmail.com</email>
+      <name>OSO Energy</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
