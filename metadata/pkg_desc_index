@@ -30,6 +30,7 @@ dev-python/Adafruit_BBIO 1.1.1: A module to control BeagleBone IO channels
 dev-python/Adax-local 0.1.5: A python3 library to communicate with Adax
 dev-python/Ambiclimate 0.2.1: A python3 library to communicate with Ambiclimate
 dev-python/Authlib 1.2.0: The ultimate Python library in building OAuth and OpenID Connect servers.
+dev-python/Babel 2.13.1: Collection of tools for internationalizing Python applications
 dev-python/BlinkStick 1.2.0: Python package to control BlinkStick USB devices.
 dev-python/CO2Signal 0.4.2: A package to access the co2signal API
 dev-python/DateTime 5.3: This package provides a DateTime data type, as known from Zope. Unless you need to communicate with Zope APIs, you're probably better off using Python's built-in datetime module.
@@ -460,11 +461,11 @@ dev-python/glances-api 0.4.3 0.5.0: Python API for interacting with Glances.
 dev-python/gntp 1.0.3: Growl Notification Transport Protocol for Python
 dev-python/goalzero 0.2.2: Goal Zero REST Api Library
 dev-python/goodwe 0.2.31 0.2.32: Read data from GoodWe inverter via local network
-dev-python/google-ai-generativelanguage 0.3.3: Google Ai Generativelanguage API client library
+dev-python/google-ai-generativelanguage 0.3.3 0.4.0: Google Ai Generativelanguage API client library
 dev-python/google-api-python-client 2.71.0-r1: Google API Client for Python
 dev-python/google-cloud-pubsub 2.13.11: Google Cloud Pub/Sub API client library
 dev-python/google-cloud-texttospeech 2.12.3: Google Cloud Text-to-Speech API client library
-dev-python/google-generativeai 0.1.0: Google Generative AI High level API client library and tools.
+dev-python/google-generativeai 0.1.0 0.3.1: Google Generative AI High level API client library and tools.
 dev-python/google-nest-sdm 3.0.2 3.0.3: Library for the Google Nest SDM API
 dev-python/googlemaps 2.5.1: Python client library for Google Maps API Web Services
 dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud API
@@ -509,7 +510,7 @@ dev-python/hikvision 0.4: Provides a python interface to interact with a hikvisi
 dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
-dev-python/holidays 0.28 0.35 0.36: Generate and work with holidays in Python
+dev-python/holidays 0.28 0.35 0.36 0.39: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.10.3 1.10.4: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2023.10.2: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20231005.0 20231030.2 20231208.2 20240103.0: The Home Assistant frontend
