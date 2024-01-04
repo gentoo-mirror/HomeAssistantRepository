@@ -1087,12 +1087,13 @@ dev-python/rapt-ble 0.1.2: Parser for the RAPT Pill hydrometer BLE packets.
 dev-python/raspihats 2.2.3: package for controlling raspihats.com boards
 dev-python/raspyrfm-client 1.2.8: A library to send rc signals with the RaspyRFM module
 dev-python/readlike 0.1.2: GNU Readline-like line editing module
+dev-python/refoss-ha 1.2.0: Refoss to support for Home Assistant
 dev-python/regenmaschine 2023.6.0: A simple API for RainMachine sprinkler controllers
 dev-python/regex 2021.8.28: Alternative regular expression module to replace re
 dev-python/related 0.7.2: Related: Straightforward nested object models in Python
 dev-python/renault-api 0.2.0 0.2.1: Renault API
-dev-python/renson-endura-delta 1.6.0: Unofficial Renson endura delta Python library
-dev-python/reolink-aio 0.7.14 0.8.2 0.8.4: Reolink NVR/cameras API package
+dev-python/renson-endura-delta 1.6.0 1.7.1: Unofficial Renson endura delta Python library
+dev-python/reolink-aio 0.7.14 0.8.2 0.8.4 0.8.5: Reolink NVR/cameras API package
 dev-python/requests 2.28.2: HTTP library for human beings
 dev-python/requests-oauth 0.4.1: Hook for adding Open Authentication support to Python-requests HTTP library.
 dev-python/respx 0.20.2: A utility for mocking out the Python HTTPX and HTTP Core libraries.
