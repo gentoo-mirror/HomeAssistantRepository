@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Retreive values from public API at the Swedish Transport Administration (Trafikverket)."
-HOMEPAGE="https://github.com/endor-force/pytrafikverket https://pypi.org/project/pytrafikverket/"
+DESCRIPTION="Python API for UniFi accesspoints"
+HOMEPAGE="https://github.com/tofuSCHNITZEL/unifi_ap https://pypi.org/project/unifi-ap/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,16 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	$(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' python3_10)
-	dev-python/lxml[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/paramiko[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest
