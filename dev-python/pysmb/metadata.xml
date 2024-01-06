@@ -6,7 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyspcwebgw</remote-id>
-    <remote-id type="github">mbrrg/pyspcwebgw</remote-id>
+    <remote-id type="pypi">pysmb</remote-id>
+    <remote-id type="github">miketeo/pysmb</remote-id>
+    <maintainer status="unknown">
+      <email>miketeo@miketeo.net</email>
+      <name>Michael Teo</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>
