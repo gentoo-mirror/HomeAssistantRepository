@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">emoji</remote-id>
-    <remote-id type="github">carpedm20/emoji</remote-id>
+    <remote-id type="pypi">pyotp</remote-id>
+    <remote-id type="github">pyotp/pyotp</remote-id>
     <maintainer status="unknown">
-      <email>carpedm20@gmail.com</email>
-      <name>Taehoon Kim, Kevin Wurster</name>
+      <email>kislyuk@gmail.com</email>
+      <name>PyOTP contributors</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
