@@ -220,7 +220,7 @@ dev-python/androidtvremote2 0.0.14: A Python library for interacting with Androi
 dev-python/anel-pwrctrl-homeassistant 0.0.1: Discover and control ANEL NET-PwrCtrl devices.
 dev-python/anova-wifi 0.10.0: A package to get read only data from Anova precision cookers with wifi
 dev-python/anthemav 1.4.1: Python API for controlling Anthem Receivers
-dev-python/anyio 4.0.0: Compatibility layer for multiple asynchronous event loop implementations
+dev-python/anyio 4.0.0 4.1.0: Compatibility layer for multiple asynchronous event loop implementations
 dev-python/apcaccess 0.0.13: This project implements the apcaccess tool in pure Python and provides
 dev-python/apischema 0.18.1: JSON (de)serialization, GraphQL and JSON schema generation using Python typing.
 dev-python/apns2 0.3.0: Interacting with the Apple Push Notification Service via HTTP/2 protocol
