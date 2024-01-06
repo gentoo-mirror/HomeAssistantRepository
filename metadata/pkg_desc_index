@@ -1326,7 +1326,7 @@ dev-python/zigpy-zigate 0.11.0 0.12.0: A library which communicates with ZiGate 
 dev-python/zigpy-znp 0.11.6-r1 0.12.0 0.12.1: A library for zigpy which communicates with TI ZNP radios
 dev-python/zlib-ng 0.2.0: Drop-in replacement for zlib and gzip modules using zlib-ng
 dev-python/zm-py 0.5.2-r1: A loose python wrapper around the ZoneMinder REST API.
-dev-python/zwave-js-server-python 0.52.1 0.53.1 0.54.0 0.55.2: Python wrapper for zwave-js-server
+dev-python/zwave-js-server-python 0.54.0 0.55.2: Python wrapper for zwave-js-server
 dev-python/zwave-me-ws 0.4.3: Library, implementing websocket connection to ZWave-Me
 dev-vcs/pre-commit 3.4.0: A framework for managing and maintaining multi-language Git pre-commit hooks
 net-misc/yt-dlp 2023.09.24 2023.10.13 2023.11.16: youtube-dl fork with additional features and fixes
