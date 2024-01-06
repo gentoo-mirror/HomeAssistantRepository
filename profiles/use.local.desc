@@ -61,7 +61,6 @@ app-misc/homeassistant:bmw_connected_drive - Retrieve data from the BMW Connecte
 app-misc/homeassistant:bond - Asynchronous Python wrapper library over Bond Local API
 app-misc/homeassistant:braviatv - Control almost all Sony Bravia TV 2013 and newer
 app-misc/homeassistant:broadlink - Allows you to interact with Broadlink remote control devices
-app-misc/homeassistant:brother - Read current data from your local Brother printer
 app-misc/homeassistant:brottsplatskartan - brottsplatskartan sensor allows one to track reported incidents
 app-misc/homeassistant:brunt - The brunt platform allows one to control Blind Engines by Brunt
 app-misc/homeassistant:bsblan - This integration integrates BSBLan device into Home Assistant
@@ -123,6 +122,7 @@ app-misc/homeassistant:fronius - Add (very basic) Support for Fronius Symo JSON 
 app-misc/homeassistant:garmin_connect - The Garmin Connect sensor allows you to expose data from Garmin Connect
 app-misc/homeassistant:gios - Source for air quality data for Home Assistant
 app-misc/homeassistant:github - GitHub sensor integrates data from GitHub to monitor your favorite repositories
+app-misc/homeassistant:glances - Allows you to monitor the system information provided by the Glances API
 app-misc/homeassistant:gogogate2 - Control Gogogate2-Enabled garage doors from Home Assistant
 app-misc/homeassistant:greeneye_monitor - Allows you to create sensors for the various data channels of the GEM
 app-misc/homeassistant:growatt_server - Talk to growatt server from Home Assistant
@@ -131,6 +131,7 @@ app-misc/homeassistant:harman_kardon_avr - Allows you to control Harman Kardon N
 app-misc/homeassistant:harmony - Logitech Harmony support for Home Assistant
 app-misc/homeassistant:heos - Controlling HEOS devices through the HEOS CLI Protocol from Home Assistant
 app-misc/homeassistant:here_travel_time - here_travel_time sensor provides travel time from the HERE Routing API
+app-misc/homeassistant:holiday - create a calendar of holidays in Home Assistant for powering automations
 app-misc/homeassistant:homekit - Integrate HomeKit controller and accessory in Home Assistant
 app-misc/homeassistant:homekit_controller - Allows you to connect accessories with the “Works with HomeKit” logo
 app-misc/homeassistant:homematic - An API for the homematicip cloud
@@ -335,6 +336,7 @@ app-misc/homeassistant-full:androidtv - Library for controlling an Android TV, f
 app-misc/homeassistant-full:androidtv_remote - allows you to control an Android TV and launching apps
 app-misc/homeassistant-full:anova - allows you to control Anova sous vides with Wi-Fi capability
 app-misc/homeassistant-full:anthemav - Both Anthem’s current and last generation of A/V Receivers and Processors suppor
+app-misc/homeassistant-full:aosmith - control a compatible A. O. Smith iCOMM-enabled water heater from Home Assistant
 app-misc/homeassistant-full:apache_kafka - Sends all state changes from Home Assistant to a Apache Kafka topic
 app-misc/homeassistant-full:apcupsd - Query Apcupsd status information from Home Assistant
 app-misc/homeassistant-full:apns - Use Apple Push Notification service (APNS) to deliver notifications
@@ -382,6 +384,7 @@ app-misc/homeassistant-full:blink - Get events from Blink camera and security sy
 app-misc/homeassistant-full:blinksticklight - The blinkstick platform lets you control your Blinkstick lights
 app-misc/homeassistant-full:blinkt - The blinkt light platform lets you control the Blinkt! board, featuring eight su
 app-misc/homeassistant-full:blockchain - Displays Bitcoin wallet balances from blockchain.info
+app-misc/homeassistant-full:blue_current - connect to your blue current account to Home Assistant
 app-misc/homeassistant-full:bluemaestro - Integrates BlueMaestro devices into Home Assistant
 app-misc/homeassistant-full:bluesound - Allows you to control your Bluesound HiFi wireless speakers and audio integratio
 app-misc/homeassistant-full:bluetooth - The Bluetooth integration will detect nearby Bluetooth devices
@@ -395,7 +398,6 @@ app-misc/homeassistant-full:bond - Asynchronous Python wrapper library over Bond
 app-misc/homeassistant-full:bosch_shc - integrate your Bosch SHC into Home Assistant
 app-misc/homeassistant-full:braviatv - Control almost all Sony Bravia TV 2013 and newer
 app-misc/homeassistant-full:broadlink - Allows you to interact with Broadlink remote control devices
-app-misc/homeassistant-full:brother - Read current data from your local Brother printer
 app-misc/homeassistant-full:brottsplatskartan - brottsplatskartan sensor allows one to track reported incidents
 app-misc/homeassistant-full:brunt - The brunt platform allows one to control Blind Engines by Brunt
 app-misc/homeassistant-full:bsblan - This integration integrates BSBLan device into Home Assistant
@@ -407,6 +409,7 @@ app-misc/homeassistant-full:caldav - Integrate a CalDAV (RFC4791) calendar in Ho
 app-misc/homeassistant-full:camera - The camera integration allows you to use IP cameras with Home Assistant
 app-misc/homeassistant-full:canary - Allows you to integrate your Canary devices from Home Assistant
 app-misc/homeassistant-full:cast - Let Home Assitant talk to Google Chromecast
+app-misc/homeassistant-full:ccm15 - integrate Midea CCM15 devices in Home Assistant.
 app-misc/homeassistant-full:channels - Allows you to control Channels from Home Assistant
 app-misc/homeassistant-full:circuit - Unify Circuit platform allows you to send notifications
 app-misc/homeassistant-full:cisco_ios - Presence detection scanner for Cisco IOS devices
@@ -468,6 +471,7 @@ app-misc/homeassistant-full:doorbird - The doorbird implementation allows you to
 app-misc/homeassistant-full:dormakaba_dkey - Integrates Dormakaba dKey Bluetooth Low Energy connected locks
 app-misc/homeassistant-full:dovado - The dovado integration manages communication with the Dovado router
 app-misc/homeassistant-full:dremel_3d_printer - monitor your Dremel 3D printer and its progress with your Home Assistant
+app-misc/homeassistant-full:drop_connect - provides connectivity with DROP smart water system devices via a local MQTT API
 app-misc/homeassistant-full:dsmr - Dutch Smart Meters which comply to DSMR (Dutch Smart Meter Requirements)
 app-misc/homeassistant-full:dunehd - control a Dune HD media player
 app-misc/homeassistant-full:duotecno - used to control Duotecno nodes in Home Assistant
@@ -543,6 +547,7 @@ app-misc/homeassistant-full:fixer - current exchange rate from Fixer.io using da
 app-misc/homeassistant-full:fjaraskupan - Fjäråskupan allows you to control your Bluetooth equipped kitchen fan
 app-misc/homeassistant-full:fleetgo - integrate your vehicles equipped with FleetGO hardware into Home Assistant
 app-misc/homeassistant-full:flexit - Integrates Flexit Air Conditioning unit into Home Assistant
+app-misc/homeassistant-full:flexit_bacnet - Integrates Flexit Nordic series air handling unit into Home Assistant
 app-misc/homeassistant-full:flic - The flic platform allows you to receive click events from flic smart buttons
 app-misc/homeassistant-full:flick_electric - Flick Electric Co is a power company in New Zealand
 app-misc/homeassistant-full:flipr - Flipr is a smart pool monitor (Cloud Polling)
@@ -622,6 +627,7 @@ app-misc/homeassistant-full:hikvisioncam - Allows you to control your motion det
 app-misc/homeassistant-full:hisense_aehw4a1 - Give Wi-Fi connectivity to some Hisense ACs
 app-misc/homeassistant-full:hive - Set up and integrate all supported Hive devices in Home Assistant
 app-misc/homeassistant-full:hlk_sw16 - HLK-SW16 by Hi-Link is a simple networkable 16 port relay device
+app-misc/homeassistant-full:holiday - create a calendar of holidays in Home Assistant for powering automations
 app-misc/homeassistant-full:home_connect - Home Connect standard for Bosch and Siemens
 app-misc/homeassistant-full:home_plus_control - allows you to control a range of Legrand in-wall switches and power outlets
 app-misc/homeassistant-full:homekit - Integrate HomeKit controller and accessory in Home Assistant
@@ -783,6 +789,7 @@ app-misc/homeassistant-full:mopeka - Integrates Mopeka devices into Home Assista
 app-misc/homeassistant-full:mosquitto - Set a runtime dependency for Mosquitto MQTT broker
 app-misc/homeassistant-full:motion_blinds - control Motion Blinds from Coulisse B.V.
 app-misc/homeassistant-full:motioneye - integrate your motionEye server into Home Assistant
+app-misc/homeassistant-full:motionmount - control the position of your TVM 7675 Pro Signature MotionMount
 app-misc/homeassistant-full:mpd - allows you to control a Music Player Daemon from Home Assistant
 app-misc/homeassistant-full:mqtt - install MQTT Broker and dependencies
 app-misc/homeassistant-full:msteams - send notifications from Home Assistant to a team channel in Microsoft Teams
@@ -867,6 +874,7 @@ app-misc/homeassistant-full:oralb - Integrates Oral-B devices into Home Assistan
 app-misc/homeassistant-full:orangepi_gpio - The orangepi_gpio integration is the base for all related GPIO platforms
 app-misc/homeassistant-full:oru - fetches your current energy usage from your ORU smart meter
 app-misc/homeassistant-full:orvibo - allows you to toggle your (dangerous) Orvibo S20 Wifi Smart Sockets
+app-misc/homeassistant-full:osoenergy - allows you to interact with supported devices and services offered by OSO Energy
 app-misc/homeassistant-full:osramlightify - allows you to integrate your Osram Lightify into Home Assistant
 app-misc/homeassistant-full:otbr - calling an Open Thread Border Router’s REST API in Home Assistant
 app-misc/homeassistant-full:otp - generates One-Time Passwords according to RFC6238
@@ -1068,6 +1076,7 @@ app-misc/homeassistant-full:stream - provides a way to proxy live streams throug
 app-misc/homeassistant-full:streamlabswater - interact with StreamLabs water monitoring devices
 app-misc/homeassistant-full:subaru - MySubaru connected vehicle services
 app-misc/homeassistant-full:suez_water - consumption of water from the French water provider Tout Sur Mon Eau
+app-misc/homeassistant-full:sunweg - a sensor to collect information from your WEG inverters using Sun WEG server
 app-misc/homeassistant-full:supla - Supla is an Open Source home automation system for ESP8266 based devices
 app-misc/homeassistant-full:surepetcare - information on your Sure Petcare Connect Pet or Cat Flap
 app-misc/homeassistant-full:swiss_hydrological_data - details (temperature, level, and discharge) of rivers and lakes in Switzerland
@@ -1087,6 +1096,7 @@ app-misc/homeassistant-full:systemmonitor - Allows you to monitor disk usage, me
 app-misc/homeassistant-full:tado - an interface to the my.tado.com website
 app-misc/homeassistant-full:tahoma - interface to the tahomalink.com website. It adds covers, scenes and a sun sensor
 app-misc/homeassistant-full:tailscale - monitor and automate on the state of the devices in your Tailscale VPN
+app-misc/homeassistant-full:tailwind - integrates Tailwind garage door controllers fully locally
 app-misc/homeassistant-full:tami4 - Support for Tami4 Edge / Edge+ by Strauss in Home Assistant
 app-misc/homeassistant-full:tank_utility - Add Tank Utility propane tank monitors to Home Assistant
 app-misc/homeassistant-full:tankerkoenig - monitor the fuel prices with tankerkoenig.de
@@ -1100,6 +1110,7 @@ app-misc/homeassistant-full:tellstick - integrates TellStick devices into Home A
 app-misc/homeassistant-full:temper - get the current temperature from a TEMPer device
 app-misc/homeassistant-full:tesla - integration with the Tesla cloud service
 app-misc/homeassistant-full:tesla_wall_connector - allows you to integrate your Gen 3 Tesla Wall Connector with Wi-Fi
+app-misc/homeassistant-full:tessie - control Tesla vehicles connected to your Tessie account from HA
 app-misc/homeassistant-full:test - internal and developer use
 app-misc/homeassistant-full:tfiac - integrates several vendors air conditioning systems into Home Assistant
 app-misc/homeassistant-full:thermobeacon - Integrates ThermoBeacon devices into Home Assistant
@@ -1270,6 +1281,8 @@ app-misc/homeassistant-min:file - Store notifications as a file
 app-misc/homeassistant-min:forecast_solar - Asynchronous Python client for getting forecast solar information
 app-misc/homeassistant-min:fronius - Add (very basic) Support for Fronius Symo JSON Api to Home Assistant
 app-misc/homeassistant-min:github - GitHub sensor integrates data from GitHub to monitor your favorite repositories
+app-misc/homeassistant-min:glances - Allows you to monitor the system information provided by the Glances API
+app-misc/homeassistant-min:holiday - create a calendar of holidays in Home Assistant for powering automations
 app-misc/homeassistant-min:homekit - Integrate HomeKit controller and accessory in Home Assistant
 app-misc/homeassistant-min:homekit_controller - Allows you to connect accessories with the “Works with HomeKit” logo
 app-misc/homeassistant-min:http - Serves all files and data required for the Home Assistant frontend
