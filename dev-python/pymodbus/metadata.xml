@@ -11,6 +11,6 @@
     <doc>https://pythonhosted.org/pymodbus/</doc>
   </upstream>
   <use>
-		<flag name="serial">Install serial support.</flag>
-	</use>
+    <flag name="serial">Install serial support.</flag>
+  </use>
 </pkgmetadata>

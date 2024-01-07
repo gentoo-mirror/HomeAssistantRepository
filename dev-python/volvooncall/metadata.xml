@@ -14,7 +14,7 @@
     </maintainer>
   </upstream>
   <use>
-		<flag name="mqtt">Install mqtt client.</flag>
-		<flag name="console">add CLI support.</flag>
-	</use>
+    <flag name="mqtt">Install mqtt client.</flag>
+    <flag name="console">add CLI support.</flag>
+  </use>
 </pkgmetadata>
