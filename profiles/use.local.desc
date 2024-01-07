@@ -1356,9 +1356,27 @@ dev-embedded/esphome:server - add server for ESPHome dashboard
 dev-libs/libgit2:gssapi - Enable GSSAPI support for SPNEGO auth
 dev-libs/libgit2:ssh - Enable SSH transport support
 dev-libs/libgit2:trace - Enable tracing support
+dev-python/adb-shell:async - Add async support.
+dev-python/androidtv:async - Add async support.
+dev-python/bimmer-connected:china - Add RDEPEND to dev-python/pillow
 dev-python/envs:cli - add cli support
 dev-python/fritzconnection:qrcode - add dev-python/segno RDEP for qrcode support
+dev-python/httpx:cli - Install the CLI "httpx" client.
 dev-python/matplotlib:excel - Pull dev-python/xlwt for the exceltools toolkit
 dev-python/matplotlib:gtk3 - Enable x11-libs/gtk+:3 support
 dev-python/matplotlib:webagg - Enable webagg backend that uses dev-python/tornado
+dev-python/pillow:imagequant - Build with Image Quantization Library support
+dev-python/pure-python-adb:async - Add async support.
 dev-python/pydantic:native-extensions - Compiles native "C" extensions.
+dev-python/pylutron-caseta:cli - Install the CLI client.
+dev-python/pymodbus:serial - Install serial support.
+dev-python/pymysensors:mqtt - Install mqtt client.
+dev-python/python-openzwave-mqtt:async - Add async support.
+dev-python/ring-doorbell:listen - Add listen support.
+dev-python/roombapy:mqtt - Install mqtt client.
+dev-python/samsungctl:websocket - Build with websocket support
+dev-python/samsungtvws:async - Add async support.
+dev-python/samsungtvws:encrypted - Build with cryptography.
+dev-python/volvooncall:console - add CLI support.
+dev-python/volvooncall:mqtt - Install mqtt client.
+dev-python/zeep:async - Add async support.
