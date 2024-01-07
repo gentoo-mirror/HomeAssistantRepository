@@ -652,7 +652,6 @@ dev-python/mutesync 0.0.1: Asynchronous library to control mutesync devices.
 dev-python/mychevy 2.1.1: Python interface to My Chevy online data
 dev-python/mycroftapi 2.0: a library to communicate with Mycroft API
 dev-python/mypermobil 0.1.6: A Python wrapper for the MyPermobil API
-dev-python/mypy 1.1.1: Optional static typing for Python
 dev-python/mysql-connector-python 8.0.28-r1: Python client library for MariaDB/MySQL
 dev-python/nad-receiver 0.3.0: Library to interface with NAD receivers through RS232, TCP and telnet
 dev-python/nclib 1.0.1: Netcat as a library: convienent socket interfaces
@@ -1096,7 +1095,6 @@ dev-python/related 0.7.2: Related: Straightforward nested object models in Pytho
 dev-python/renault-api 0.2.0 0.2.1: Renault API
 dev-python/renson-endura-delta 1.6.0 1.7.1: Unofficial Renson endura delta Python library
 dev-python/reolink-aio 0.8.2 0.8.4 0.8.5: Reolink NVR/cameras API package
-dev-python/requests 2.28.2: HTTP library for human beings
 dev-python/requests-oauth 0.4.1: Hook for adding Open Authentication support to Python-requests HTTP library.
 dev-python/respx 0.20.2: A utility for mocking out the Python HTTPX and HTTP Core libraries.
 dev-python/rfk101py 0.0.1: RFK101 Proximity card reader over Ethernet
