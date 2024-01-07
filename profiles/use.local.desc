@@ -1372,6 +1372,8 @@ dev-python/pylutron-caseta:cli - Install the CLI client.
 dev-python/pymodbus:serial - Install serial support.
 dev-python/pymysensors:mqtt - Install mqtt client.
 dev-python/python-openzwave-mqtt:async - Add async support.
+dev-python/python-socketio:asyncio_client - install with async client
+dev-python/python-socketio:client - install with client
 dev-python/ring-doorbell:listen - Add listen support.
 dev-python/roombapy:mqtt - Install mqtt client.
 dev-python/samsungctl:websocket - Build with websocket support
