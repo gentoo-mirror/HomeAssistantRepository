@@ -1042,7 +1042,7 @@ dev-python/python-singleton 0.1.2: Singleton Metaclass.
 dev-python/python-slugify 4.0.1: A Python Slugify application that handles Unicode
 dev-python/python-smarttub 0.0.33 0.0.35 0.0.36: API to query and control hot tubs using the SmartTub system
 dev-python/python-sochain-api 0.0.2: Python API for interacting with chain.so.
-dev-python/python-socketio 4.6.0-r2 5.3.0: Socket.IO server
+dev-python/python-socketio 4.6.0-r2 5.3.0-r1: Socket.IO server
 dev-python/python-songpal 0.15 0.15.2 0.16: Python library for interfacing with Sony's Songpal devices
 dev-python/python-tado 0.15.0 0.17.0 0.17.3: PyTado -- Pythonize your central heating
 dev-python/python-telegram-bot 13.1: We have made you a wrapper you can't refuse
