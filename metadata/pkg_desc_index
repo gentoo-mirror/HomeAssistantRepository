@@ -564,6 +564,7 @@ dev-python/jaraco-email 3.1.0: E-mail facilities by jaraco
 dev-python/jaraco-functools 3.9.0: Additional functions used by other projects by developer jaraco
 dev-python/jaraco-net 9.3.1: Networking tools by jaraco
 dev-python/jellyfin-apiclient-python 1.9.2: Python API client for Jellyfin
+dev-python/jinja 3.1.2: A full-featured template engine for Python
 dev-python/jsonpath 0.82 0.82.2: An XPath for JSON
 dev-python/jsonpath-ng 1.5.3: A final implementation of JSONPath for Python that aims to be standard compliant.
 dev-python/jsonpickle 1.4.1-r1: Python library for serializing any arbitrary object graph into JSON
