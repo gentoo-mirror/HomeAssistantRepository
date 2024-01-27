@@ -34,7 +34,7 @@ DOCS="README.md"
 RDEPEND="
 	server? ( acct-group/${PN} acct-user/${PN} )
 	$(python_gen_cond_dep '
-		~dev-python/voluptuous-0.14.1[${PYTHON_USEDEP}]
+		dev-python/voluptuous[${PYTHON_USEDEP}]
 		~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 		~dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
 		dev-python/colorama[${PYTHON_USEDEP}]
@@ -79,6 +79,7 @@ src_prepare() {
 	sed "/click==/c\click" -i requirements.txt || die
 	sed "/colorama==/c\colorama" -i requirements.txt || die
 	sed "/zeroconf==/c\zeroconf" -i requirements.txt || die
+	sed "/voluptuous==/c\voluptuous" -i requirements.txt || die
 	eapply_user
 }
 
