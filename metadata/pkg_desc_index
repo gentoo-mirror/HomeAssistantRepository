@@ -107,8 +107,8 @@ dev-python/aenum 3.1.15: Advanced Enumerations (compatible with Python's stdlib 
 dev-python/afsapi 0.2.7: Asynchronous Implementation of the Frontier Silicon API
 dev-python/agent-py 0.0.23: A python wrapper around the Agent REST API.
 dev-python/ahocorapy 1.6.1: ahocorapy - Pure python ahocorasick implementation
-dev-python/aio-geojson-client 0.18: An async GeoJSON client library.
-dev-python/aio-geojson-generic-client 0.3: An generic async GeoJSON client library.
+dev-python/aio-geojson-client 0.18 0.20: An async GeoJSON client library.
+dev-python/aio-geojson-generic-client 0.3 0.4: An generic async GeoJSON client library.
 dev-python/aio-geojson-geonetnz-quakes 0.15: An async GeoJSON client library for GeoNet NZ Quakes feed.
 dev-python/aio-geojson-geonetnz-volcano 0.8: An async GeoJSON client library for GeoNet NZ Volcanic Alert Level feed.
 dev-python/aio-geojson-nsw-rfs-incidents 0.6: An async GeoJSON client library for NSW Rural Fire Service Incidents.
@@ -426,7 +426,7 @@ dev-python/fixerio 1.0.0_alpha0: A Python client for Fixer.io
 dev-python/fjaraskupan 2.2.0: A python library for speaking to fjäråskupan
 dev-python/flake8-docstrings 1.6.0-r1: Extension for flake8 which uses pydocstyle to check docstrings
 dev-python/flexit-bacnet 2.1.0: Client BACnet library for Flexit Nordic series of air handling units.
-dev-python/flipr-api 1.5.0: Python client for flipr API.
+dev-python/flipr-api 1.5.0 1.5.1: Python client for flipr API.
 dev-python/flux-led 1.0.4: A Python library to communicate with the flux_led smart bulbs
 dev-python/fnv-hash-fast 0.4.1 0.5.0: A fast version of fnv1a
 dev-python/fnvhash 0.1.0: Pure Python FNV hash implementation
@@ -835,7 +835,7 @@ dev-python/pyecoforest 0.3.0 0.4.0: Python library for ecoforest local device.
 dev-python/pyeconet 0.1.20 0.1.22: Interface to the unofficial EcoNet API
 dev-python/pyedimax 0.2.1: Interface with Edimax Smart Plugs
 dev-python/pyefergy 22.1.1: An API library for Efergy energy meters.
-dev-python/pyenphase 1.14.2 1.14.3 1.15.2: Library to control enphase envoy
+dev-python/pyenphase 1.14.3 1.15.2 1.17.0: Library to control enphase envoy
 dev-python/pyenvisalink 4.6: A python3 library for running asynchronus communications with envisalink alarm control panel modules.
 dev-python/pyephember 0.3.1: Python library to work with ember from EPH Controls
 dev-python/pyeverlights 0.1.0: A library for controlling an EverLights lighting system.
