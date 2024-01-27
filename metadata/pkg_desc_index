@@ -144,7 +144,7 @@ dev-python/aiogithubapi 22.10.1: Asynchronous Python client for the GitHub API
 dev-python/aioguardian 2022.7.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aiohappyeyeballs 2.3.1: Happy Eyeballs
 dev-python/aioharmony 0.2.10: Asyncio Python library for connecting to and controlling the Logitech Harmony
-dev-python/aiohomekit 3.0.5 3.0.9 3.1.1 3.1.2: An asyncio HomeKit client
+dev-python/aiohomekit 3.0.9 3.1.1 3.1.2 3.1.3: An asyncio HomeKit client
 dev-python/aiohttp-fast-url-dispatcher 0.3.0: A faster URL dispatcher for aiohttp
 dev-python/aiohttp-retry 2.8.3: Simple retry client for aiohttp
 dev-python/aiohttp-zlib-ng 0.1.1 0.1.3: Enable zlib_ng on aiohttp
@@ -177,7 +177,7 @@ dev-python/aiopvpc 4.2.2: Retrieval of Spanish Electricity hourly prices (PVPC)
 dev-python/aiopyarr 23.4.0: An Asynchronous Lidarr, Radarr, Readarr, Sonarr APIs for Python.
 dev-python/aioqsw 0.3.5: Library to control QNAP QSW devices
 dev-python/aiorecollect 2023.9.0: A Python 3, asyncio-based library for the ReCollect Waste API
-dev-python/aioridwell 2023.7.0: A Python3, asyncio-based API for interacting with Ridwell waste recycling
+dev-python/aioridwell 2023.7.0 2024.1.0: A Python3, asyncio-based API for interacting with Ridwell waste recycling
 dev-python/aiortsp 1.3.7: An asyncio-based RTSP library
 dev-python/aioruckus 0.34: Python API to interact with Ruckus Unleashed and ZoneDirector devices.
 dev-python/aiorun 2023.7.2: Boilerplate for asyncio applications
@@ -626,7 +626,7 @@ dev-python/matrix-client 0.4.0: Client-Server SDK for Matrix
 dev-python/matrix-nio 0.21.2 0.22.1: A Python Matrix client library, designed according to sans I/O principles.
 dev-python/maxcube-api 0.4.3-r1: eQ-3/ELV MAX! Cube Python API
 dev-python/mbddns 0.1.2: Mythic Beasts Dynamic DNS updater
-dev-python/mcstatus 11.0.0: A library to query Minecraft Servers for their status and capabilities.
+dev-python/mcstatus 11.0.0 11.1.1: A library to query Minecraft Servers for their status and capabilities.
 dev-python/meater-python 0.0.8: A wrapper for the Apption Labs Meater probe API v1
 dev-python/medcom-ble 0.1.1: Library to communicate with Medcom BLE radiation monitors
 dev-python/melnor-bluetooth 0.0.25: A small python library for discovery and interacting with Melnor, Eden, etc Bluetooth water timers.
@@ -1095,7 +1095,7 @@ dev-python/regex 2021.8.28: Alternative regular expression module to replace re
 dev-python/related 0.7.2: Related: Straightforward nested object models in Python
 dev-python/renault-api 0.2.0 0.2.1: Renault API
 dev-python/renson-endura-delta 1.6.0 1.7.1: Unofficial Renson endura delta Python library
-dev-python/reolink-aio 0.8.2 0.8.4 0.8.5: Reolink NVR/cameras API package
+dev-python/reolink-aio 0.8.2 0.8.4 0.8.5 0.8.7: Reolink NVR/cameras API package
 dev-python/requests-oauth 0.4.1: Hook for adding Open Authentication support to Python-requests HTTP library.
 dev-python/respx 0.20.2: A utility for mocking out the Python HTTPX and HTTP Core libraries.
 dev-python/rfk101py 0.0.1: RFK101 Proximity card reader over Ethernet
