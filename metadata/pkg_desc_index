@@ -278,7 +278,7 @@ dev-python/bleak 0.21.1: Bluetooth Low Energy platform Agnostic Klient
 dev-python/bleak-esphome 0.4.0: Bleak backend of ESPHome
 dev-python/bleak-retry-connector 3.3.0 3.4.0: A connector for Bleak Clients that handles transient connection failures
 dev-python/blebox-uniapi 2.1.4 2.2.0: Python API for accessing BleBox smart home devices
-dev-python/blinkpy 0.22.3 0.22.4: A Blink camera Python library running on Python 3.
+dev-python/blinkpy 0.22.3 0.22.4 0.22.5: A Blink camera Python library running on Python 3.
 dev-python/blinkt 0.1.0: Python library for driving Pimoroni Blinkt!
 dev-python/blockchain 1.4.4: Blockchain API library (v1)
 dev-python/bluecurrent-api 1.0.6: A wrapper for the Blue Current websocket api
@@ -678,7 +678,7 @@ dev-python/nsapi 3.0.5: api wrapper for Dutch Railways (NS)
 dev-python/nsw-fuel-api-client 1.1.0: API Client for NSW Government Fuel
 dev-python/nuheat 1.0.1: Control of connected NuHeat Signature radiant floor thermostats.
 dev-python/numato-gpio 0.10.0: Python API for Numato GPIO Expanders
-dev-python/numpy 1.26.0: Fast array and numerical python library
+dev-python/numpy 1.26.0-r1: Fast array and numerical python library
 dev-python/oasatelematics 0.3: Python wrapper for the OASA Telematics API
 dev-python/oauth2client 4.1.3: OAuth 2.0 client library
 dev-python/odp-amsterdam 5.3.1 6.0.0: Asynchronous Python client providing Open Data information of Amsterdam
@@ -756,7 +756,7 @@ dev-python/pushbullet-py 0.11.0: A simple python client for pushbullet.com
 dev-python/pushover_complete 1.1.1: A Python package for interacting with *all* aspects of the Pushover API
 dev-python/pvo 1.0.0 2.0.0 2.1.1: Asynchronous client for the PVOutput API.
 dev-python/pwmled 1.6.10: Control LEDs connected to a micro controller using pwm.
-dev-python/py-aosmith 1.0.1: A Python client library for A. O. Smith water heaters
+dev-python/py-aosmith 1.0.1 1.0.4: A Python client library for A. O. Smith water heaters
 dev-python/py-canary 0.5.3: Python API for Canary Security Camera
 dev-python/py-ccm15 0.0.9: A package to control Midea CCM15 data converter modules
 dev-python/py-cpuinfo 8.0.0: Get CPU info with pure Python 2 & 3
