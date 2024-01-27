@@ -322,7 +322,7 @@ dev-python/clx-sdk-xms 1.0.0: Library for CLX Communications HTTP REST Messaging
 dev-python/codecov 2.1.12-r1: Hosted coverage reports for GitHub, Bitbucket and Gitlab
 dev-python/coinbase 2.1.0: Coinbase API client library
 dev-python/colored 1.4.4: Simple library for color and formatting to terminal
-dev-python/colorlog 6.6.0-r1: Log formatting with colors
+dev-python/colorlog 6.6.0-r1 6.7.0: Log formatting with colors
 dev-python/colorthief 0.2.1: A module for grabbing the color palette from an image.
 dev-python/colorzero 2.0: Yet another Python color library
 dev-python/concord232 0.15: GE Concord 4 RS232 Serial Interface Library and Server
