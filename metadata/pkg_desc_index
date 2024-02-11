@@ -13,7 +13,7 @@ app-misc/homeassistant 2023.12.1 2023.12.4 2024.1.0 2024.1.2 2024.1.5: Open-sour
 app-misc/homeassistant-full 2023.12.1 2023.12.4 2024.1.0 2024.1.2 2024.1.5 9999: Open-source home automation platform running on Python.
 app-misc/homeassistant-min 2023.12.4 2024.1.2 2024.1.5: Open-source home automation platform running on Python.
 app-misc/node-red 3.0.2 3.1.3: A visual tool for wiring the Internet of Things.
-app-misc/zigbee2mqtt 1.34.0: It bridges events and allows you to control your Zigbee devices via MQTT
+app-misc/zigbee2mqtt 1.35.2: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2023.10.6 2023.11.6 2023.12.5 2023.12.9 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20230904.0 20231107.0: ESPHome dashboard
 dev-embedded/platformio 6.1.11 6.1.11-r1: An open source ecosystem for IoT development
@@ -197,7 +197,7 @@ dev-python/aiotractive 0.5.6: Asynchronous Python client for the Tractive REST A
 dev-python/aiounifi 67 68 69: An asynchronous Python library for communicating with Unifi Network Controller API
 dev-python/aiounittest 1.4.2: Test asyncio code more easily.
 dev-python/aiovlc 0.1.0: A package for talking to vlc over its telnet interface using asyncio.
-dev-python/aiovodafone 0.3.1 0.4.2 0.4.3: Python library to control Vodafone Station
+dev-python/aiovodafone 0.4.3 0.5.4: Python library to control Vodafone Station
 dev-python/aiowaqi 2.1.0 3.0.0 3.0.1: Asynchronous Python client for WAQI API.
 dev-python/aiowatttime 0.1.1: An asyncio-based Python3 library for interacting with WattTime
 dev-python/aiowebostv 0.3.3: Library to control webOS based LG TV devices
@@ -1306,7 +1306,7 @@ dev-python/yalexs-ble 2.3.0 2.3.2 2.4.0: Bluetooth control of Yale and August lo
 dev-python/yarl 1.9.2: Yet another URL library
 dev-python/yeelight 0.7.13 0.7.14: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
-dev-python/yolink-api 0.3.1 0.3.4: A library to authenticate with yolink device
+dev-python/yolink-api 0.3.1 0.3.4 0.3.6: A library to authenticate with yolink device
 dev-python/youless-api 1.0.1: A bridge for python to the YouLess sensor
 dev-python/youtubeaio 1.1.5: Asynchronous Python client for YouTube V3 API.
 dev-python/zamg 0.3.0 0.3.3: Asynchronous Python client for ZAMG weather data.
@@ -1317,7 +1317,7 @@ dev-python/zeversolar 0.3.1: Simple Python wrapper for the local CGI provided by
 dev-python/zha-quirks 0.0.106 0.0.107 0.0.108 0.0.109: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
-dev-python/zigpy 0.59.0 0.60.0 0.60.1 0.60.2 0.60.4 0.60.6: Library implementing a ZigBee stack
+dev-python/zigpy 0.59.0 0.60.0 0.60.1 0.60.2 0.60.4 0.60.6 0.60.7: Library implementing a ZigBee stack
 dev-python/zigpy-deconz 0.21.1-r1 0.22.0 0.22.2 0.22.3 0.22.4: A library which communicates with Deconz radios for zigpy
 dev-python/zigpy-xbee 0.18.3 0.19.0 0.20.0 0.20.1: A library which communicates with XBee radios for zigpy
 dev-python/zigpy-zigate 0.11.0 0.12.0: A library which communicates with ZiGate radios for zigpy
