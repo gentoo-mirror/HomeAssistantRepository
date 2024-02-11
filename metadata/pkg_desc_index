@@ -117,7 +117,7 @@ dev-python/aio-georss-client 0.11: An async GeoRSS client library.
 dev-python/aio-georss-gdacs 0.8: An async GeoRSS client library for GDACS feeds.
 dev-python/aioairq 0.3.1 0.3.2: Asynchronous library to retrieve data from air-Q devices.
 dev-python/aioairzone 0.6.9 0.7.2: Library to control Airzone devices
-dev-python/aioairzone-cloud 0.2.3 0.3.5 0.3.6: Library to control Airzone Cloud devices
+dev-python/aioairzone-cloud 0.3.6 0.3.8: Library to control Airzone Cloud devices
 dev-python/aioambient 2023.4.0: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioapcaccess 0.4.2: Async version of apcaccess library implemented in python.
 dev-python/aioaseko 0.0.2: Async Python package for the Aseko Pool Live API
@@ -207,12 +207,13 @@ dev-python/airly 1.1.0: Python wrapper for getting air quality data from Airly s
 dev-python/airthings-ble 0.6.0 0.6.1: Manage Airthings BLE devices
 dev-python/airthings-cloud 0.1.0 0.2.0: A python3 library to communicate with Airthings devices
 dev-python/airtouch4pyapi 1.0.5-r1: An api allowing control of AC state (temperature, on/off, mode) of an Airtouch 4 controller locally over TCP
+dev-python/airtouch5py 0.2.8: Python client for the airtouch 5
 dev-python/ajsonrpc 1.2.0: Async JSON-RPC 2.0 protocol + server powered by asyncio
 dev-python/aladdin-connect 0.4: Python API controlling Genie garage doors connected to Aladdin Connect devices
 dev-python/alarmdecoder 1.13.11: Python interface for the AlarmDecoder (AD2) family of alarm devices which includes the AD2USB, AD2SERIAL and AD2PI.
 dev-python/alpha-vantage 2.3.1: Python module to get stock data from the Alpha Vantage Api
 dev-python/ambee 0.4.0: Asynchronous Python client for the Ambee API.
-dev-python/amberelectric 1.0.4: Interface to the Amber Electric API, allowing you to download current and forecast price, as well as download your historic usage.
+dev-python/amberelectric 1.0.4 1.1.0: Interface to the Amber Electric API, allowing you to download current and forecast price, as well as download your historic usage.
 dev-python/amcrest 1.9.8: Python wrapper implementation for Amcrest cameras.
 dev-python/amqtt 0.10.1: MQTT client/broker using Python asyncio
 dev-python/androidtv 0.0.72 0.0.73-r1: Communicate with an Android TV or Fire TV device via ADB over a network.
@@ -294,7 +295,7 @@ dev-python/bme680 1.0.5: Python library for driving the Pimoroni BME680 Breakout
 dev-python/bond-api 0.1.16: Asynchronous Python wrapper library over Bond Local API
 dev-python/bond-async 0.2.1: Asynchronous Python wrapper library over Bond Local API
 dev-python/boschshcpy 0.2.57 0.2.75: Bosch Smart Home Controller API Python Library
-dev-python/boto3 1.28.17: The AWS SDK for Python
+dev-python/boto3 1.28.17 1.33.13: The AWS SDK for Python
 dev-python/bravia-tv 1.0.11: Python Bravia TV remote control
 dev-python/broadlink 0.18.3: Python API for controlling Broadlink devices
 dev-python/brother 2.3.0 3.0.0: Python wrapper for getting data from Brother laser and inkjet printers via SNMP.
