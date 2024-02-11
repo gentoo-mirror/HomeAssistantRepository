@@ -118,7 +118,7 @@ dev-python/aio-georss-gdacs 0.8: An async GeoRSS client library for GDACS feeds.
 dev-python/aioairq 0.3.1 0.3.2: Asynchronous library to retrieve data from air-Q devices.
 dev-python/aioairzone 0.6.9 0.7.2: Library to control Airzone devices
 dev-python/aioairzone-cloud 0.3.6 0.3.8: Library to control Airzone Cloud devices
-dev-python/aioambient 2023.4.0: A clean, async-friendly library for the Ambient Weather API
+dev-python/aioambient 2023.4.0 2024.1.0: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioapcaccess 0.4.2: Async version of apcaccess library implemented in python.
 dev-python/aioaseko 0.0.2: Async Python package for the Aseko Pool Live API
 dev-python/aioasuswrt 1.4.0: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/
@@ -151,7 +151,7 @@ dev-python/aiohttp-zlib-ng 0.1.1 0.1.3: Enable zlib_ng on aiohttp
 dev-python/aiohue 4.7.0: Python module to talk to Philips Hue.
 dev-python/aioimaplib 1.0.1: Python asyncio IMAP4rev1 client library
 dev-python/aioitertools 0.11.0: itertools and builtins for AsyncIO and mixed iterables
-dev-python/aiokafka 0.7.2: Kafka integration with asyncio.
+dev-python/aiokafka 0.7.2 0.10.0: Kafka integration with asyncio.
 dev-python/aiokef 0.2.16: Asyncio Python API for KEF speakers.
 dev-python/aiolifx 0.8.10 1.0.0: API for local communication with LIFX devices over a LAN with asyncio.
 dev-python/aiolifx-connection 1.0.0: A wrapper for aiolifx to connect to a single LIFX device
@@ -759,7 +759,7 @@ dev-python/pushbullet-py 0.11.0: A simple python client for pushbullet.com
 dev-python/pushover_complete 1.1.1: A Python package for interacting with *all* aspects of the Pushover API
 dev-python/pvo 1.0.0 2.0.0 2.1.1: Asynchronous client for the PVOutput API.
 dev-python/pwmled 1.6.10: Control LEDs connected to a micro controller using pwm.
-dev-python/py-aosmith 1.0.1 1.0.4: A Python client library for A. O. Smith water heaters
+dev-python/py-aosmith 1.0.1 1.0.4 1.0.8: A Python client library for A. O. Smith water heaters
 dev-python/py-canary 0.5.3: Python API for Canary Security Camera
 dev-python/py-ccm15 0.0.9: A package to control Midea CCM15 data converter modules
 dev-python/py-cpuinfo 8.0.0: Get CPU info with pure Python 2 & 3
@@ -1019,6 +1019,7 @@ dev-python/python-fullykiosk 0.0.12: Python wrapper for Fully Kiosk Browser REST
 dev-python/python-gammu 3.2.4: Gammu bindings
 dev-python/python-gc100 1.0.3_alpha0: A Python-based socket client for Global Cache GC100 digital I/O interface
 dev-python/python-gitlab 1.6.0: Interact with GitLab API
+dev-python/python-homeassistant-analytics 0.6.0: Asynchronous Python client for Homeassistant Analytics.
 dev-python/python-homewizard-energy 2.1.0 2.1.2 4.1.0: Asynchronous Python client for the HomeWizard Energy
 dev-python/python-hpilo 4.3: Accessing the HP iLO XML interface from python
 dev-python/python-http-client 3.3.2: HTTP REST client, simplified for Python
