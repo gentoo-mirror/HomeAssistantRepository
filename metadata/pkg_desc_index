@@ -271,7 +271,7 @@ dev-python/bcrypt 4.0.1: Modern password hashing for software and servers
 dev-python/beacontools 2.1.0: A Python library for working with various types of Bluetooth LE Beacons.
 dev-python/beautifulsoup4 4.11.1 4.12.2: Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree
 dev-python/beewi-smartclim 0.0.10: Library to read data from BeeWi SmartClim sensor using Bluetooth LE
-dev-python/bellows 0.36.8 0.37.1 0.37.3 0.37.4 0.37.6: Library implementing EZSP
+dev-python/bellows 0.36.8 0.37.1 0.37.3 0.37.4 0.37.6 0.38.0: Library implementing EZSP
 dev-python/bidict 0.22.0: The bidirectional mapping library for Python.
 dev-python/bimmer-connected 0.14.1 0.14.2 0.14.3 0.14.6-r1: Library to read data from the BMW Connected Drive portal
 dev-python/bitstruct 8.17.0: This module performs conversions between Python values and C bit field structs represented as Python byte strings.
@@ -356,6 +356,7 @@ dev-python/dbus-fast 2.14.0 2.21.0 2.21.1: A faster version of dbus-next
 dev-python/debugpy 1.8.0: An implementation of the Debug Adapter Protocol for Python
 dev-python/decora 0.6: Python API for controlling Decora dimmer switches
 dev-python/decora-wifi 1.4: Python API for controlling Leviton Decora Smart WiFi switches
+dev-python/deebot-client 5.2.1: Deebot client library in python 3
 dev-python/deepdiff 6.2.1: Deep Difference and Search of any Python object/data.
 dev-python/deluge-client 1.7.1: Simple Deluge Client
 dev-python/demetriek 0.4.0: Asynchronous Python client for LaMetric TIME devices
@@ -770,7 +771,7 @@ dev-python/py-melissa-climate 2.1.4: Api wrapper for Melissa Climate https://see
 dev-python/py-nextbusnext 0.1.5 1.0.2: Minimalistic Python client for the NextBus public API for real-time transit arrival data
 dev-python/py-nightscout 1.2.2: A library that provides a Python async interface to Nightscout
 dev-python/py-schluter 0.1.7: Python API for Schluter DITRA-HEAT thermostat
-dev-python/py-sucks 0.9.8: a library for controlling certain robot vacuums
+dev-python/py-sucks 0.9.8 0.9.9: a library for controlling certain robot vacuums
 dev-python/py-synologydsm-api 2.1.4: Python API for communication with Synology DSM
 dev-python/py-vapid 1.8.2: Simple VAPID header generation library
 dev-python/py-zabbix 1.1.7: Python module to work with zabbix.
@@ -1250,7 +1251,7 @@ dev-python/unicode-rbnf 1.0.0: Rule-based number formatting using Unicode CLDR d
 dev-python/unifi-ap 0.0.1: Python API for UniFi accesspoints
 dev-python/unifi-discovery 1.1.7: Discover Unifi Devices
 dev-python/unifiled 0.11: Easily connect to Ubiquiti Unifi led devices
-dev-python/universal-silabs-flasher 0.0.14-r1 0.0.15: Tool to flash firmware onto any Silicon Labs radio running EmberZNet, CPC multi-PAN, or just a bare Gecko Bootloader
+dev-python/universal-silabs-flasher 0.0.14-r1 0.0.15 0.0.18: Tool to flash firmware onto any Silicon Labs radio running EmberZNet, CPC multi-PAN, or just a bare Gecko Bootloader
 dev-python/uonet-request-signer-hebe 0.1.1: UONET+ (hebe) request signer for Python
 dev-python/upb-lib 0.5.4: Library for interacting with UPB PIM.
 dev-python/upcloud-api 2.0.0: UpCloud API Client
@@ -1306,7 +1307,7 @@ dev-python/xmltodict 0.12.0-r1: Makes working with XML feel like you are working
 dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontrol XS1 Gateway
 dev-python/yagrc 1.1.2: Yet another gRPC reflection client
 dev-python/yalesmartalarmclient 0.3.9: Interact with Yale Smart Alarm systems
-dev-python/yalexs 1.10.0: Python API for Yale Access (formerly August) Smart Lock and Doorbell
+dev-python/yalexs 1.10.0 1.11.2: Python API for Yale Access (formerly August) Smart Lock and Doorbell
 dev-python/yalexs-ble 2.3.2 2.4.0 2.4.1: Bluetooth control of Yale and August locks
 dev-python/yarl 1.9.2: Yet another URL library
 dev-python/yeelight 0.7.13 0.7.14: A Python library for controlling YeeLight RGB bulbs.
@@ -1322,8 +1323,8 @@ dev-python/zeversolar 0.3.1: Simple Python wrapper for the local CGI provided by
 dev-python/zha-quirks 0.0.106 0.0.107 0.0.108 0.0.109: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
-dev-python/zigpy 0.59.0 0.60.0 0.60.1 0.60.2 0.60.4 0.60.6 0.60.7: Library implementing a ZigBee stack
-dev-python/zigpy-deconz 0.21.1-r1 0.22.0 0.22.2 0.22.3 0.22.4: A library which communicates with Deconz radios for zigpy
+dev-python/zigpy 0.59.0 0.60.0 0.60.1 0.60.2 0.60.4 0.60.6 0.60.7 0.62.3: Library implementing a ZigBee stack
+dev-python/zigpy-deconz 0.21.1-r1 0.22.0 0.22.2 0.22.3 0.22.4 0.23.0: A library which communicates with Deconz radios for zigpy
 dev-python/zigpy-xbee 0.18.3 0.19.0 0.20.0 0.20.1: A library which communicates with XBee radios for zigpy
 dev-python/zigpy-zigate 0.11.0 0.12.0: A library which communicates with ZiGate radios for zigpy
 dev-python/zigpy-znp 0.11.6-r1 0.12.0 0.12.1: A library for zigpy which communicates with TI ZNP radios
