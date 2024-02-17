@@ -5,12 +5,12 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
-DESCRIPTION="A Python module for the Rachio API."
-HOMEPAGE="https://github.com/rfverbruggen/rachiopy https://pypi.org/project/RachioPy/"
 
-LICENSE="MIT"
+DESCRIPTION="Asynchronous communication with Rainforest RAVEn devices."
+HOMEPAGE=" https://pypi.org/project/aioraven/"
+
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,14 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+RDEPEND="
+	dev-python/iso4217[${PYTHON_USEDEP}]
+	dev-python/pyserial[${PYTHON_USEDEP}]
+	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest
