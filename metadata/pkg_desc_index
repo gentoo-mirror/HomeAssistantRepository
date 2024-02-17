@@ -64,7 +64,7 @@ dev-python/PyPubSub 4.0.3: Python Publish-Subscribe Package
 dev-python/PyRIC 0.1.6.3: Python Wireless Library
 dev-python/PyRMVtransport 0.3.3: Define module-level imports.
 dev-python/PySocks 1.7.1: A Python SOCKS client module. See https://github.com/Anorov/PySocks.
-dev-python/PySwitchbot 0.40.1 0.43.0: A library to communicate with Switchbot
+dev-python/PySwitchbot 0.40.1 0.43.0 0.44.0 0.45.0: A library to communicate with Switchbot
 dev-python/PySwitchmate 0.5.1: A library to communicate with Switchmate
 dev-python/PySyncThru 0.7.10: Automated JSON API based communication with Samsung SyncThru Web Service
 dev-python/PyTransportNSW 0.1.1: Get transport information from TransportNSW
@@ -194,7 +194,7 @@ dev-python/aiosteamist 0.3.2: Control Steamist steam systems
 dev-python/aioswitcher 3.3.0 3.4.1: Switcher Python Integration.
 dev-python/aiosyncthing 0.5.1: Asynchronous Python client for the Syncthing REST API
 dev-python/aiotractive 0.5.6: Asynchronous Python client for the Tractive REST API
-dev-python/aiounifi 67 68 69: An asynchronous Python library for communicating with Unifi Network Controller API
+dev-python/aiounifi 67 68 69 71: An asynchronous Python library for communicating with Unifi Network Controller API
 dev-python/aiounittest 1.4.2: Test asyncio code more easily.
 dev-python/aiovlc 0.1.0: A package for talking to vlc over its telnet interface using asyncio.
 dev-python/aiovodafone 0.4.3 0.5.4: Python library to control Vodafone Station
@@ -1052,6 +1052,7 @@ dev-python/python-sochain-api 0.0.2: Python API for interacting with chain.so.
 dev-python/python-socketio 4.6.0-r2 5.3.0-r1: Socket.IO server
 dev-python/python-songpal 0.15 0.15.2 0.16: Python library for interfacing with Sony's Songpal devices
 dev-python/python-tado 0.15.0 0.17.0 0.17.3 0.17.4: PyTado -- Pythonize your central heating
+dev-python/python-technove 1.2.1 1.2.2: Asynchronous Python client for TechnoVE.
 dev-python/python-telegram-bot 13.1: We have made you a wrapper you can't refuse
 dev-python/python-vlc 1.1.2 3.0.18122: VLC bindings for python.
 dev-python/python-wink 1.10.5: Access Wink devices via the Wink API
