@@ -111,7 +111,7 @@ dev-python/aio-geojson-client 0.18 0.20: An async GeoJSON client library.
 dev-python/aio-geojson-generic-client 0.3 0.4: An generic async GeoJSON client library.
 dev-python/aio-geojson-geonetnz-quakes 0.15: An async GeoJSON client library for GeoNet NZ Quakes feed.
 dev-python/aio-geojson-geonetnz-volcano 0.8: An async GeoJSON client library for GeoNet NZ Volcanic Alert Level feed.
-dev-python/aio-geojson-nsw-rfs-incidents 0.6: An async GeoJSON client library for NSW Rural Fire Service Incidents.
+dev-python/aio-geojson-nsw-rfs-incidents 0.6 0.7: An async GeoJSON client library for NSW Rural Fire Service Incidents.
 dev-python/aio-geojson-usgs-earthquakes 0.2 0.3: An async GeoJSON client library for the U.S. Geological Survey Earthquake Hazards Program.
 dev-python/aio-georss-client 0.11: An async GeoRSS client library.
 dev-python/aio-georss-gdacs 0.8: An async GeoRSS client library for GDACS feeds.
@@ -670,11 +670,11 @@ dev-python/netdisco 3.0.0-r1: Discover devices on your local network
 dev-python/netmap 0.7.0.2: This is a python class to use nmap and access scan results from python3
 dev-python/nettigo-air-monitor 2.1.0 2.2.0 2.2.2: Python wrapper for getting air quality data from Nettigo Air Monitor devices.
 dev-python/neurio 0.3.1: Neurio energy sensor and appliance automation API library
-dev-python/nexia 2.0.7: Python library for connecting to nexia
-dev-python/nextcloudmonitor 1.4.0: Python wrapper around nextcloud monitor api
+dev-python/nexia 2.0.7 2.0.8: Python library for connecting to nexia
+dev-python/nextcloudmonitor 1.4.0 1.5.0: Python wrapper around nextcloud monitor api
 dev-python/nextcord 2.0.0_alpha8: A Python wrapper for the Discord API forked from discord.py
 dev-python/nextdns 1.4.0 2.0.0 2.1.0: Python wrapper for NextDNS API.
-dev-python/nibe 2.2.0 2.4.0 2.5.2: Nibe heatpump communication library
+dev-python/nibe 2.5.2 2.8.0: Nibe heatpump communication library
 dev-python/niko-home-control 0.2.1: SDK for Niko Home Control
 dev-python/niluclient 0.1.2: An API client for getting pollution data from NILU sensor stations in Norway.
 dev-python/noaa-coops 0.1.9: Python wrapper for NOAA Tides & Currents Data and Metadata
@@ -802,7 +802,7 @@ dev-python/pyarlo 0.2.4: Python Arlo is a library written in Python 2.7/3x that 
 dev-python/pyasn1 0.4.8-r2: ASN.1 library for Python
 dev-python/pyasuswrt 0.1.20 0.1.21: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/ using protocol HTTP
 dev-python/pyatag 0.3.5.3: Python module to talk to Atag One.
-dev-python/pyatmo 7.5.0 7.6.0 8.0.1 8.0.2: Simple API to access Netatmo weather station data from any Python 3 script. Designed for Home Assistant (but not only)
+dev-python/pyatmo 7.5.0 7.6.0 8.0.1 8.0.2 8.0.3: Simple API to access Netatmo weather station data from any Python 3 script. Designed for Home Assistant (but not only)
 dev-python/pyatv 0.13.4 0.14.3: A client library for Apple TV and AirPlay devices
 dev-python/pyaussiebb 0.0.15: Aussie Broadband API module
 dev-python/pybalboa 1.0.1: Module to communicate with a Balboa spa wifi adapter.
