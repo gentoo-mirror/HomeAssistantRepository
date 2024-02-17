@@ -1375,7 +1375,6 @@ dev-python/pillow:imagequant - Build with Image Quantization Library support
 dev-python/pure-python-adb:async - Add async support.
 dev-python/pydantic:native-extensions - Compiles native "C" extensions.
 dev-python/pylutron-caseta:cli - Install the CLI client.
-dev-python/pymodbus:serial - Install serial support.
 dev-python/pymysensors:mqtt - Install mqtt client.
 dev-python/python-openzwave-mqtt:async - Add async support.
 dev-python/python-socketio:asyncio_client - install with async client
