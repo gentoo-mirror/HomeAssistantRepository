@@ -1380,7 +1380,6 @@ dev-python/pymysensors:mqtt - Install mqtt client.
 dev-python/python-openzwave-mqtt:async - Add async support.
 dev-python/python-socketio:asyncio_client - install with async client
 dev-python/python-socketio:client - install with client
-dev-python/ring-doorbell:listen - Add listen support.
 dev-python/roombapy:mqtt - Install mqtt client.
 dev-python/samsungctl:websocket - Build with websocket support
 dev-python/samsungtvws:async - Add async support.
