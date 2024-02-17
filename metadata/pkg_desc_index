@@ -1078,7 +1078,7 @@ dev-python/pyvolumio 0.1.5: A python library to control Volumio.
 dev-python/pywaze 0.5.1: Asynchronous Waze client for calculating routes and travel times.
 dev-python/pyweatherflowudp 1.4.5: An event-based asynchronous library to read UDP packets from Weatherflow weather systems on a local network without any reliance on the cloud.
 dev-python/pywebpush 1.9.2: WebPush publication library
-dev-python/pywemo 1.3.0: Lightweight Python module to discover and control WeMo devices
+dev-python/pywemo 1.3.0 1.4.0: Lightweight Python module to discover and control WeMo devices
 dev-python/pywilight 0.0.74: Python API for WiLight in Home Assistant
 dev-python/pywizlight 0.5.14: A python connector for WiZ light bulbs (e.g SLV Play)
 dev-python/pyws66i 1.1: Python API for talking to Soundavo's WS66i 6-zone amplifier using the telnet protocol
@@ -1262,9 +1262,9 @@ dev-python/uscisstatus 0.1.1-r1: USCIS Status Checker
 dev-python/user-agents 2.0-r2: A library to identify devices (phones, tablets) and their capabilities by parsing browser user agent strings.
 dev-python/uvcclient 0.11.0: A remote control client for Ubiquiti's UVC NVR
 dev-python/vacuum-map-parser-roborock 0.1.1: Functionalities for Roborock vacuum map parsing
-dev-python/vallox-websocket-api 3.3.0 4.0.2: Vallox WebSocket API
+dev-python/vallox-websocket-api 3.3.0 4.0.2 4.0.3: Vallox WebSocket API
 dev-python/vehicle 2.0.0 2.2.1: Asynchronous Python client providing RDW vehicle information.
-dev-python/velbus-aio 2023.10.1 2023.10.2 2023.11.0: Python Library for the Velbus protocol based on asyncio
+dev-python/velbus-aio 2023.11.0 2023.12.0: Python Library for the Velbus protocol based on asyncio
 dev-python/venstarcolortouch 0.19: Interface Library for Venstar ColorTouch Thermostat API v5
 dev-python/vilfo-api-client 0.4.1: Simple wrapper client for the Vilfo router API
 dev-python/vincenty 0.1.4: Calculate the geographical distance between 2 points with extreme accuracy.
@@ -1276,7 +1276,7 @@ dev-python/voluptuous-serialize 2.6.0: Convert voluptuous schemas to dictionarie
 dev-python/volvooncall 0.10.3: Communicate with VOC
 dev-python/vsure 2.6.6: Read and change status of verisure devices through mypages.
 dev-python/vtjp 0.1.14 0.2.1: Vasttrafik API
-dev-python/vulcan-api 2.3.0: Nieoficjalne API do dzienniczka elektronicznego UONET+
+dev-python/vulcan-api 2.3.0 2.3.2: Nieoficjalne API do dzienniczka elektronicznego UONET+
 dev-python/vultr 0.1.2: Vultr.com API Client
 dev-python/wakeonlan 2.1.0: A small python module for wake on lan.
 dev-python/wallbox 0.4.12 0.4.14: Module for interacting with Wallbox EV charger api
