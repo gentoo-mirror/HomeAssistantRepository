@@ -112,7 +112,7 @@ dev-python/aio-geojson-generic-client 0.3 0.4: An generic async GeoJSON client l
 dev-python/aio-geojson-geonetnz-quakes 0.15: An async GeoJSON client library for GeoNet NZ Quakes feed.
 dev-python/aio-geojson-geonetnz-volcano 0.8: An async GeoJSON client library for GeoNet NZ Volcanic Alert Level feed.
 dev-python/aio-geojson-nsw-rfs-incidents 0.6: An async GeoJSON client library for NSW Rural Fire Service Incidents.
-dev-python/aio-geojson-usgs-earthquakes 0.2: An async GeoJSON client library for the U.S. Geological Survey Earthquake Hazards Program.
+dev-python/aio-geojson-usgs-earthquakes 0.2 0.3: An async GeoJSON client library for the U.S. Geological Survey Earthquake Hazards Program.
 dev-python/aio-georss-client 0.11: An async GeoRSS client library.
 dev-python/aio-georss-gdacs 0.8: An async GeoRSS client library for GDACS feeds.
 dev-python/aioairq 0.3.1 0.3.2: Asynchronous library to retrieve data from air-Q devices.
@@ -241,7 +241,7 @@ dev-python/astroid 3.0.1: Abstract Syntax Tree for logilab packages
 dev-python/async-interrupt 1.1.1: Context manager to raise an exception when a future is done
 dev-python/async-modbus 0.2.1-r1: Async ModBus python library
 dev-python/async-timeout 4.0.2-r1: Timeout context manager for asyncio programs
-dev-python/async-upnp-client 0.36.2 0.38.0 0.38.1: Async UPnP Client
+dev-python/async-upnp-client 0.36.2 0.38.0 0.38.1 0.38.2: Async UPnP Client
 dev-python/asyncclick 8.0.1.3: Composable command line interface toolkit, async version
 dev-python/asynccmd 0.2.4: Asyncio implementation of Cmd Python lib.
 dev-python/asyncinotify 4.0.2: A simple optionally-async python inotify library, focused on simplicity of use and operation, and leveraging modern Python features
@@ -583,7 +583,7 @@ dev-python/keba-kecontact 1.1.0: A python library to communicate with the KEBA c
 dev-python/kegtron-ble 0.4.0: Kegtron BLE support
 dev-python/keyrings_alt 4.1.0: Alternate keyring implementations
 dev-python/kiwiki-client 0.1.1: KIWI Lock Client Library
-dev-python/knx-frontend 2023.6.23.191712: KNX panel for Home Assistant
+dev-python/knx-frontend 2023.6.23.191712 2024.1.20.105944: KNX panel for Home Assistant
 dev-python/konnected 1.2.0: Library for interacting with Konnected home automation controllers.
 dev-python/korean-lunar-calendar 0.3.1: Korean Lunar Calendar
 dev-python/kostal-plenticore 0.2.0: Kostal Plenticore REST-API client
