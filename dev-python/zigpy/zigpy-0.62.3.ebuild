@@ -5,11 +5,10 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Tool to flash firmware onto any Silicon Labs radio running EmberZNet, CPC multi-PAN, or just a bare Gecko Bootloader"
-HOMEPAGE="https://github.com/NabuCasa/universal-silabs-flasher https://pypi.org/project/universal-silabs-flasher/"
+DESCRIPTION="Library implementing a ZigBee stack"
+HOMEPAGE="https://github.com/zigpy/zigpy https://pypi.org/project/zigpy/"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -19,17 +18,19 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/zigpy[${PYTHON_USEDEP}]
-	dev-python/crc[${PYTHON_USEDEP}]
-	>=dev-python/bellows-0.34.3[${PYTHON_USEDEP}]
-	dev-python/gpiod[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+RDEPEND="dev-python/attrs[${PYTHON_USEDEP}]
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiosqlite-0.16.0[${PYTHON_USEDEP}]
+	dev-python/crccheck[${PYTHON_USEDEP}]
+	dev-python/cryptography[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' python3_10)
+	dev-python/voluptuous[${PYTHON_USEDEP}]
+	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/asynctest[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	)"
 
 src_prepare() {
@@ -37,10 +38,6 @@ src_prepare() {
 	sed 's/dynamic = \["version"\]/version = \"'${PV}'\"/g' -i pyproject.toml || die
 	sed 's/, "setuptools-git-versioning<2"//g' -i pyproject.toml || die
 	eapply_user
-}
-
-python_test() {
-	py.test -v -v || die
 }
 
 distutils_enable_tests pytest
