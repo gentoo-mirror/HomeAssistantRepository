@@ -5,10 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="A Python wrapper for the MyPermobil API"
-HOMEPAGE="https://github.com/IsakNyberg/MyPermobil-API https://pypi.org/project/mypermobil/"
+DESCRIPTION="API to interact with an OTBR via its REST API"
+HOMEPAGE="https://github.com/home-assistant-libs/python-otbr-api https://pypi.org/project/python-otbr-api/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,15 +20,9 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiocache[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/aiounittest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+	dev-python/bitstruct[${PYTHON_USEDEP}]
+	dev-python/cryptography[${PYTHON_USEDEP}]
+	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	dev-python/voluptuous[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
