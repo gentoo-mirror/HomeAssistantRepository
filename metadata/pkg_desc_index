@@ -659,7 +659,7 @@ dev-python/mullvad-api 1.0.0: Python wrapper around mullvad api
 dev-python/mutesync 0.0.1: Asynchronous library to control mutesync devices.
 dev-python/mychevy 2.1.1: Python interface to My Chevy online data
 dev-python/mycroftapi 2.0: a library to communicate with Mycroft API
-dev-python/mypermobil 0.1.6: A Python wrapper for the MyPermobil API
+dev-python/mypermobil 0.1.6 0.1.8: A Python wrapper for the MyPermobil API
 dev-python/mysql-connector-python 8.0.28-r1: Python client library for MariaDB/MySQL
 dev-python/nad-receiver 0.3.0: Library to interface with NAD receivers through RS232, TCP and telnet
 dev-python/nclib 1.0.1: Netcat as a library: convienent socket interfaces
@@ -705,7 +705,7 @@ dev-python/opensensemap-api 0.2.0: Python client for interacting with the openSe
 dev-python/openwebifpy 3.2.7 4.0.2 4.0.4 4.2.1: Provides a python interface to interact with a device running OpenWebIf
 dev-python/openwrt-luci-rpc 1.1.16: Module for interacting with OpenWrt Luci RPC interface
 dev-python/openwrt-ubus-rpc 0.0.2: OpenWrt ubus RPC API library
-dev-python/opower 0.0.36 0.0.39 0.1.0: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
+dev-python/opower 0.0.36 0.0.39 0.1.0 0.2.0: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
 dev-python/opuslib 3.0.1: Python bindings to the libopus, IETF low-delay audio codec
 dev-python/oralb-ble 0.17.6: Bluetooth library for Oral B devices
 dev-python/orjson 3.9.9: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
@@ -740,7 +740,7 @@ dev-python/pizzapi 0.0.3: A Python wrapper for the Dominos Pizza API
 dev-python/pkce 1.0.3: PKCE Pyhton generator.
 dev-python/plexauth 0.0.6: Handles the authorization flow to obtain tokens from Plex.tv via external redirection.
 dev-python/plexwebsocket 0.0.13 0.0.14: Support for issuing callbacks in response to Plex websocket updates.
-dev-python/plugwise 0.33.0 0.33.2 0.34.5 0.35.3: Plugwise (Adam/Anna/P1/Stick/Stretch) API to use in conjunction with Home Assistant Core.
+dev-python/plugwise 0.34.5 0.35.3 0.36.3: Plugwise (Adam/Anna/P1/Stick/Stretch) API to use in conjunction with Home Assistant Core.
 dev-python/plumlightpad 0.0.11: A python package that interacts with the Plum Lightpad
 dev-python/pmsensor 0.4: Library to read data from environment sensors
 dev-python/poolsense 0.0.8: Asynchronous Python client for getting PoolSense data.
@@ -1043,9 +1043,10 @@ dev-python/python-nest 4.2.0: Python API and command line tool for talking to th
 dev-python/python-opendata-transport 0.3.0 0.4.0: Python API for interacting with transport.opendata.ch.
 dev-python/python-opensky 0.2.1 1.0.0: Asynchronous Python client for Opensky API.
 dev-python/python-openzwave-mqtt 1.4.0: Converts MQTT messages from qt-openzwave into Python objects and events
-dev-python/python-otbr-api 2.5.0: API to interact with an OTBR via its REST API
+dev-python/python-otbr-api 2.5.0 2.6.0: API to interact with an OTBR via its REST API
 dev-python/python-picnic-api 1.1.0: Unofficial Python wrapper for the Picnic API
 dev-python/python-qbittorrent 0.4.3: Python wrapper for qBittorrent >4.1.x
+dev-python/python-rabbitair 0.0.8: Python library for local control of Rabbit Air air purifiers
 dev-python/python-ripple-api 0.0.3: Python API for interacting with ripple.com.
 dev-python/python-roborock 0.36.2 0.38.0 0.39.1: A package to control Roborock vacuums.
 dev-python/python-sense-hat 2.2.0-r3: Raspberry Pi Sense HAT python library
@@ -1214,7 +1215,7 @@ dev-python/temescal 0.5: Python API for controlling LG speakers
 dev-python/temperusb 1.6.0 1.6.1: Reads temperature from TEMPerV1 devices (USB 0c45:7401)
 dev-python/tenacity 8.0.1-r1: General-purpose retrying library
 dev-python/tesla-fleet-api 0.2.3: Tesla Fleet API library for Python
-dev-python/tesla-powerwall 0.3.19: API for Tesla Powerwall
+dev-python/tesla-powerwall 0.3.19 0.5.1: API for Tesla Powerwall
 dev-python/tesla-wall-connector 1.0.2: API Library for communicating with a Tesla Wall Connector
 dev-python/teslajsonpy 0.18.3: A library to work with Tesla API.
 dev-python/tessie-api 0.0.9: A small python package that wraps up the Tessie API
