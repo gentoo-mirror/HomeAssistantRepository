@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python library for interfacing with Motion Blinds"
-HOMEPAGE="https://github.com/starkillerOG/motion-blinds https://pypi.org/project/motionblinds/"
+DESCRIPTION="API package for myUplink"
+HOMEPAGE="https://github.com/pajzo/myuplink https://pypi.org/project/myuplink/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,4 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/pycryptodomex[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+
+distutils_enable_tests pytest
