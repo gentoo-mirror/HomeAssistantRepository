@@ -6,8 +6,8 @@ EAPI=8
 PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="A GeoRSS generic client library."
-HOMEPAGE="https://github.com/exxamalte/python-georss-generic-client https://pypi.org/project/georss-generic-client/"
+DESCRIPTION="A GeoRSS client library."
+HOMEPAGE="https://github.com/exxamalte/python-georss-client https://pypi.org/project/georss-client/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -17,14 +17,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/georss-client-0.14[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+RDEPEND=">=dev-python/haversine-2.8.1[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/dateparser-1.2.0[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
