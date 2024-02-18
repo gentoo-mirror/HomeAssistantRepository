@@ -6,10 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
-DESCRIPTION="ChaCha20Poly1305 that is reuseable for asyncio"
-HOMEPAGE="https://github.com/bdraco/chacha20poly1305-reuseable https://pypi.org/project/chacha20poly1305-reuseable/"
 
-LICENSE="Apache-2.0"
+DESCRIPTION="An unofficial Python wrapper for public API of Hong Kong Observatory"
+HOMEPAGE="https://github.com/MisterCommand/python-hko https://pypi.org/project/hko/"
+
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -17,6 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/cryptography-36.0.2[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+BDEPEND="
+	test? (
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	)"
 
 distutils_enable_tests pytest
