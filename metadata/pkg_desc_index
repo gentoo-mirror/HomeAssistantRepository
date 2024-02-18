@@ -133,10 +133,10 @@ dev-python/aiodiscover 1.5.1 1.6.0: Discover hosts by arp and ptr lookup
 dev-python/aiodns 3.0.0-r1: Simple DNS resolver for asyncio
 dev-python/aioeafm 0.1.2-r1: An asyncio wrapper for the UK Environment Agency Flood Monitoring API
 dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
-dev-python/aioecowitt 2023.5.0: Python wrapper for EcoWitt Protocol
+dev-python/aioecowitt 2023.5.0 2024.2.1: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 0.1.5 0.4.0: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 18.5.7 19.2.1 21.0.1: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 18.5.7 19.2.1 21.0.1 21.0.2: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.21.3: ftp client/server for asyncio
@@ -279,7 +279,7 @@ dev-python/bimmer-connected 0.14.1 0.14.2 0.14.3 0.14.6-r1: Library to read data
 dev-python/bitstruct 8.17.0: This module performs conversions between Python values and C bit field structs represented as Python byte strings.
 dev-python/bizkaibus 0.1.1: Online information for buses of Biscay bus services (Basque Country, Spain).
 dev-python/bleak 0.21.1: Bluetooth Low Energy platform Agnostic Klient
-dev-python/bleak-esphome 0.4.0: Bleak backend of ESPHome
+dev-python/bleak-esphome 0.4.0 0.4.1: Bleak backend of ESPHome
 dev-python/bleak-retry-connector 3.3.0 3.4.0: A connector for Bleak Clients that handles transient connection failures
 dev-python/blebox-uniapi 2.1.4 2.2.0: Python API for accessing BleBox smart home devices
 dev-python/blinkpy 0.22.3 0.22.4 0.22.5 0.22.6: A Blink camera Python library running on Python 3.
@@ -385,15 +385,16 @@ dev-python/dweepy 0.3.0: Dweepy is a Python client for dweet.io
 dev-python/dynalite-devices 0.1.47: An unofficial Dynalite DyNET interface creating devices.
 dev-python/dynalite-panel 0.0.4: Dynalite panel for Home Assistant
 dev-python/eagle100 0.1.1: Tool to read data from Rainforest Legacy Eagle.
-dev-python/easyenergy 1.0.0 2.1.0: Asynchronous Python client providing energy/gas prices from easyEnergy
+dev-python/easyenergy 1.0.0 2.1.0 2.1.1: Asynchronous Python client providing energy/gas prices from easyEnergy
 dev-python/ebusdpy 0.0.17: eBusd python integration library
 dev-python/ecoaliface 0.4.0: Interface to eSterownik.pl eCoal water boiler controller.
 dev-python/eebrightbox 0.0.4: Connector for EE BrightBox routers.
 dev-python/electrickiwi-api 0.8.5: Electric Kiwi Python API
-dev-python/elgato 4.0.1 5.0.0 5.1.1: Asynchronous Python client for Elgato Lights.
+dev-python/elgato 5.1.1 5.1.2: Asynchronous Python client for Elgato Lights.
 dev-python/eliqonline 1.2.2: Eliq Online API Library
 dev-python/elkm1-lib 2.2.6: Library for interacting with ElkM1 alarm/automation panel.
 dev-python/elmax-api 0.0.4: Asynchronous API Library to work with Elmax devices
+dev-python/elvia 0.1.0: Python bindings for the Elvia API
 dev-python/emoji 1.5.0 2.8.0: Emoji for Python
 dev-python/emulated-roku 0.2.1: Library to emulate a roku server to serve as a proxyfor remotes such as Harmony
 dev-python/energyflip-client 0.2.2: Client for EnergyFlip
@@ -407,6 +408,7 @@ dev-python/envoy-reader 0.20.1: A program to read from an Enphase Envoy on the l
 dev-python/envoy-utils 0.0.1: Python utilities for the Enphase Envoy
 dev-python/envs 1.4-r2: Easy access of environment variables from Python with support for strings, booleans, list, tuples, and dicts.
 dev-python/ephem 4.1.2 4.1.5: Compute positions of the planets and stars
+dev-python/epion 0.0.3: A python API wrapper for Epion Air senor data
 dev-python/epson-projector 0.5.1: Epson projector support for Python
 dev-python/epsonprinter 0.0.9: Communication package for Epson Workforce printer
 dev-python/esphome-dashboard-api 1.2.3: API to interact with ESPHome Dashboard
@@ -521,7 +523,7 @@ dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.35 0.36 0.39 0.42: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.10.3 1.10.4 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2023.10.2 2023.12.0 2024.1.0: Python-base APIs and tools for CHIP.
-dev-python/home-assistant-frontend 20231005.0 20231030.2 20231208.2 20240103.3 20240104.0 20240207.1: The Home Assistant frontend
+dev-python/home-assistant-frontend 20231208.2 20240103.3 20240104.0 20240207.1: The Home Assistant frontend
 dev-python/home-assistant-intents 2023.10.16 2023.12.5 2024.1.2-r1: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.15 1.0.16: An API for the homematicip cloud
@@ -848,7 +850,7 @@ dev-python/pyecoforest 0.3.0 0.4.0: Python library for ecoforest local device.
 dev-python/pyeconet 0.1.20 0.1.22: Interface to the unofficial EcoNet API
 dev-python/pyedimax 0.2.1: Interface with Edimax Smart Plugs
 dev-python/pyefergy 22.1.1: An API library for Efergy energy meters.
-dev-python/pyenphase 1.14.3 1.15.2 1.17.0: Library to control enphase envoy
+dev-python/pyenphase 1.14.3 1.15.2 1.17.0 1.19.0: Library to control enphase envoy
 dev-python/pyenvisalink 4.6: A python3 library for running asynchronus communications with envisalink alarm control panel modules.
 dev-python/pyephember 0.3.1: Python library to work with ember from EPH Controls
 dev-python/pyeverlights 0.1.0: A library for controlling an EverLights lighting system.
@@ -863,7 +865,7 @@ dev-python/pyflunearyou 2.0.2: A clean, well-tested Python3 API for Flu Near You
 dev-python/pyfnip 0.2: Python wrapper for FutureNow IP relay/dimmer units
 dev-python/pyforked-daapd 0.1.14: Python Interface for forked-daapd
 dev-python/pyfreedompro 1.1.0: Freedompro API
-dev-python/pyfritzhome 0.6.9: Fritz!Box Smarthome Python Library
+dev-python/pyfritzhome 0.6.9 0.6.10: Fritz!Box Smarthome Python Library
 dev-python/pyfttt 0.3.2: Python tools for interacting with the IFTTT Webhooks Channel
 dev-python/pygatt 4.0.5-r1: Python Bluetooth LE (Low Energy) and GATT Library
 dev-python/pygtfs 0.1.9: Models GTFS data in a database.
