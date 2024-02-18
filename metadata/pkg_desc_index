@@ -144,7 +144,7 @@ dev-python/aiogithubapi 22.10.1: Asynchronous Python client for the GitHub API
 dev-python/aioguardian 2022.7.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aiohappyeyeballs 2.3.1: Happy Eyeballs
 dev-python/aioharmony 0.2.10: Asyncio Python library for connecting to and controlling the Logitech Harmony
-dev-python/aiohomekit 3.0.9 3.1.1 3.1.2 3.1.3: An asyncio HomeKit client
+dev-python/aiohomekit 3.0.9 3.1.1 3.1.2 3.1.3 3.1.4: An asyncio HomeKit client
 dev-python/aiohttp-fast-url-dispatcher 0.3.0: A faster URL dispatcher for aiohttp
 dev-python/aiohttp-retry 2.8.3: Simple retry client for aiohttp
 dev-python/aiohttp-zlib-ng 0.1.1 0.1.3 0.3.1: Enable zlib_ng on aiohttp
@@ -316,7 +316,7 @@ dev-python/cached-ipaddress 0.3.0: Cache construction of ipaddress objects
 dev-python/caio 0.9.8: Asynchronous file IO for Linux MacOS or Windows.
 dev-python/caldav 1.3.8: CalDAV (RFC4791) client library for Python
 dev-python/chacha20poly1305 0.0.3: Chacha20Poly1305
-dev-python/chacha20poly1305-reuseable 0.10.2 0.12.0: ChaCha20Poly1305 that is reuseable for asyncio
+dev-python/chacha20poly1305-reuseable 0.10.2 0.12.0 0.12.1: ChaCha20Poly1305 that is reuseable for asyncio
 dev-python/charset-normalizer 3.2.0: The Real First Universal Charset Detector
 dev-python/circuit-webhook 1.0.1: circuit-webhook is a python client library for Unify Circuit api
 dev-python/ciscomobilityexpress 0.3.9: Module to interact with Cisco Mobility Express APIs to fetch connected devices.
@@ -514,9 +514,10 @@ dev-python/hijri-converter 2.2.4: Accurate Hijri-Gregorian dates converter based
 dev-python/hijridate 2.3.0: Accurate Hijri-Gregorian dates converter based on the Umm al-Qura calendar
 dev-python/hikvision 0.4: Provides a python interface to interact with a hikvision camera
 dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
+dev-python/hko 0.3.2: An unofficial Python wrapper for public API of Hong Kong Observatory
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
-dev-python/holidays 0.35 0.36 0.39: Generate and work with holidays in Python
+dev-python/holidays 0.35 0.36 0.39 0.42: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.10.3 1.10.4 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2023.10.2 2023.12.0 2024.1.0: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20231005.0 20231030.2 20231208.2 20240103.3 20240104.0: The Home Assistant frontend
@@ -1030,7 +1031,7 @@ dev-python/python-gammu 3.2.4: Gammu bindings
 dev-python/python-gc100 1.0.3_alpha0: A Python-based socket client for Global Cache GC100 digital I/O interface
 dev-python/python-gitlab 1.6.0: Interact with GitLab API
 dev-python/python-homeassistant-analytics 0.6.0: Asynchronous Python client for Homeassistant Analytics.
-dev-python/python-homewizard-energy 2.1.0 2.1.2 4.1.0 4.3.0: Asynchronous Python client for the HomeWizard Energy
+dev-python/python-homewizard-energy 4.1.0 4.3.0: Asynchronous Python client for the HomeWizard Energy
 dev-python/python-hpilo 4.3: Accessing the HP iLO XML interface from python
 dev-python/python-http-client 3.3.2: HTTP REST client, simplified for Python
 dev-python/python-izone 1.2.9: A python interface to the iZone airconditioner controller
