@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Home Assistant Bluetooth Models and Helpers"
-HOMEPAGE="https://github.com/home-assistant-libs/home-assistant-bluetooth https://pypi.org/project/home-assistant-bluetooth/"
+DESCRIPTION="Models for storing and converting Sensor Data state"
+HOMEPAGE="https://github.com/bluetooth-devices/sensor-state-data https://pypi.org/project/sensor-state-data/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -17,11 +17,5 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
-
-RDEPEND=">=dev-python/habluetooth-0.11.0[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest-cov[${PYTHON_USEDEP}]
-	)"
 
 distutils_enable_tests pytest
