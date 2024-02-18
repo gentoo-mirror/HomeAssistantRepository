@@ -545,7 +545,7 @@ dev-python/ibmiotf 0.3.4: Python Client for IBM Watson IoT Platform
 dev-python/ical 5.0.1 5.1.0 6.1.0 6.1.1: Python iCalendar implementation (rfc 2445)
 dev-python/icmplib 3.0 3.0.4: Easily forge ICMP packets and make your own ping and traceroute.
 dev-python/idasen 0.10.3: ikea IDASEN desk API and CLI.
-dev-python/idasen-ha 1.4.1 2.3 2.4: Home Assistant helper lib for the IKEA Idasen Desk integration
+dev-python/idasen-ha 1.4.1 2.3 2.4 2.5: Home Assistant helper lib for the IKEA Idasen Desk integration
 dev-python/ifaddr 0.1.7: Enumerate IP addresses on the local network adapters
 dev-python/iglo 1.2.7: Control iGlo based RGB lights
 dev-python/ihcsdk 2.8.5: IHC Python SDK
@@ -578,7 +578,7 @@ dev-python/jsonrpc-async 2.1.0: A JSON-RPC client library for asyncio
 dev-python/jsonrpc-base 2.1.0: A JSON-RPC client library base interface
 dev-python/jsonrpc-websocket 3.1.1: A JSON-RPC websocket client library for asyncio
 dev-python/justbackoff 0.6.0: Simple backoff algorithm in Python
-dev-python/justnimbus 0.6.0: A Python Wrapper for the Just Nimbus API
+dev-python/justnimbus 0.6.0 0.7.3: A Python Wrapper for the Just Nimbus API
 dev-python/kaiterra-async-client 1.0.0: Kaiterra API Async Client
 dev-python/kasa-crypt 0.3.0: Fast kasa crypt
 dev-python/kconfiglib 13.7.1: A flexible Python Kconfig implementation
@@ -838,7 +838,7 @@ dev-python/pydelijn 1.1.0: Get realtime info on stop passages of De Lijn (api.de
 dev-python/pydexcom 0.2.3: Python API to interact with Dexcom Share API
 dev-python/pydiscovergy 2.0.3 2.0.5: Async Python 3 library for interacting with Discovergy smart meters API
 dev-python/pydoods 1.0.2: A Python wrapper for the DOODS image detection service
-dev-python/pydrawise 2023.8.0 2023.10.0 2023.11.0: Python API for interacting with Hydrawise sprinkler controllers.
+dev-python/pydrawise 2023.8.0 2023.10.0 2023.11.0 2024.1.0: Python API for interacting with Hydrawise sprinkler controllers.
 dev-python/pydroid-ipcam 2.0.0: Library for handling the Android IP Webcam app
 dev-python/pyebox 1.1.4: Get your EBox consumption (wwww.ebox.ca)
 dev-python/pyecoforest 0.3.0 0.4.0: Python library for ecoforest local device.
@@ -874,7 +874,7 @@ dev-python/pyhumps 3.5.0-r1: Convert strings (and dictionary keys) between snake
 dev-python/pyialarm 2.2.0: A simple library to interface with iAlarm systems, built for use with Home-Assistant
 dev-python/pyialarmxr-homeassistant 1.0.18: A simple library to interface with iAlarmXR systems, built for use with Home Assistant
 dev-python/pyicloud 1.0.0: PyiCloud is a module which allows pythonistas to interact with iCloud webservices.
-dev-python/pyinsteon 1.5.1 1.5.2: Python API for controlling Insteon devices
+dev-python/pyinsteon 1.5.1 1.5.2 1.5.3: Python API for controlling Insteon devices
 dev-python/pyintesishome 1.8.0: A python3 library for running asynchronus communications with IntesisHome Smart AC Controllers
 dev-python/pyipma 3.0.7: Python library to retrieve information from Instituto PortuguÃªs do Mar e Atmosfera
 dev-python/pyipp 0.14.4: Asynchronous Python client for Internet Printing Protocol (IPP).
@@ -883,7 +883,7 @@ dev-python/pyirishrail 0.0.2: Python library to get the real-time transport info
 dev-python/pyiss 1.0.1: A simple python3 library for info about the current International Space Station location
 dev-python/pyisy 3.1.14: Python module to talk to ISY devices from UDI.
 dev-python/pyitachip2ir 0.0.7: A library for sending IR commands to an ITach IP2IR gateway
-dev-python/pyjvcprojector 1.0.6: A python library for controlling a JVC Projector over a network connection
+dev-python/pyjvcprojector 1.0.6 1.0.9: A python library for controlling a JVC Projector over a network connection
 dev-python/pykaleidescape 1.0.1: A python client library for the Kaleidescape System Control Protocol.
 dev-python/pykira 0.1.1: Communicate with Kira IR-IP modules
 dev-python/pykmtronic 0.3.0: Python library to interface with KM Tronic Web Relays
