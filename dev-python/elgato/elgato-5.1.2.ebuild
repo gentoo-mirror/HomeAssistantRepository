@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,12 +18,13 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
-	>=dev-python/pydantic-1.8.0[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.10[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.9.8[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/aresponses[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	)"
 
@@ -32,9 +33,5 @@ src_prepare() {
 	sed 's/0.0.0/${PV}/g' -i pyproject.toml || die
 	eapply_user
 	}
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

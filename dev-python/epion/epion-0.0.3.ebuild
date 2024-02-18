@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Fritz!Box Smarthome Python Library"
-HOMEPAGE="https://github.com/hthiery/python-fritzhome https://pypi.org/project/pyfritzhome/"
+DESCRIPTION="A python API wrapper for Epion Air senor data"
+HOMEPAGE="https://github.com/devenzo-com/epion_python https://pypi.org/project/epion/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -16,16 +16,9 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
+DOCS="README.md"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/pytz[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
