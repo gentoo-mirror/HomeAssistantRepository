@@ -109,8 +109,8 @@ dev-python/agent-py 0.0.23: A python wrapper around the Agent REST API.
 dev-python/ahocorapy 1.6.1: ahocorapy - Pure python ahocorasick implementation
 dev-python/aio-geojson-client 0.18 0.20: An async GeoJSON client library.
 dev-python/aio-geojson-generic-client 0.3 0.4: An generic async GeoJSON client library.
-dev-python/aio-geojson-geonetnz-quakes 0.15: An async GeoJSON client library for GeoNet NZ Quakes feed.
-dev-python/aio-geojson-geonetnz-volcano 0.8: An async GeoJSON client library for GeoNet NZ Volcanic Alert Level feed.
+dev-python/aio-geojson-geonetnz-quakes 0.15 0.16: An async GeoJSON client library for GeoNet NZ Quakes feed.
+dev-python/aio-geojson-geonetnz-volcano 0.8 0.9: An async GeoJSON client library for GeoNet NZ Volcanic Alert Level feed.
 dev-python/aio-geojson-nsw-rfs-incidents 0.6 0.7: An async GeoJSON client library for NSW Rural Fire Service Incidents.
 dev-python/aio-geojson-usgs-earthquakes 0.2 0.3: An async GeoJSON client library for the U.S. Geological Survey Earthquake Hazards Program.
 dev-python/aio-georss-client 0.11: An async GeoRSS client library.
@@ -475,7 +475,8 @@ dev-python/google-nest-sdm 3.0.2 3.0.3: Library for the Google Nest SDM API
 dev-python/googlemaps 2.5.1: Python client library for Google Maps API Web Services
 dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud API
 dev-python/gotailwind 0.2.2: Asynchronous Python client for Tailwind garage door openers.
-dev-python/govee-ble 0.23.0 0.24.0: Manage Govee BLE devices
+dev-python/govee-ble 0.23.0 0.24.0 0.31.0: Manage Govee BLE devices
+dev-python/govee-local-api 1.4.1: Library to communicate with Govee local API
 dev-python/gpiod 1.5.4: It is a pure Python library and has no dependencies on other packages
 dev-python/gpiozero 1.6.2: A simple interface to GPIO devices with Raspberry Pi.
 dev-python/gps3 0.33.3-r1: Python 2.7-3.5 clients for gpsd
