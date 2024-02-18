@@ -518,7 +518,7 @@ dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.35 0.36 0.39: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.10.3 1.10.4 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
-dev-python/home-assistant-chip-clusters 2023.10.2 2023.12.0: Python-base APIs and tools for CHIP.
+dev-python/home-assistant-chip-clusters 2023.10.2 2023.12.0 2024.1.0: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20231005.0 20231030.2 20231208.2 20240103.3 20240104.0: The Home Assistant frontend
 dev-python/home-assistant-intents 2023.10.16 2023.12.5 2024.1.2-r1: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
@@ -904,8 +904,8 @@ dev-python/pylutron-caseta 0.18.3: Provides an API to the Lutron Smartbridge
 dev-python/pymailgunner 1.4: A simple mailgun client - pymailgun fork with Python 3 support
 dev-python/pymata-express 1.19: A Python Protocol Abstraction Library For Arduino Firmata using Python asyncio
 dev-python/pymediaroom 0.6.5.4: Remote control your Mediaroom Set-up-box
-dev-python/pymelcloud 2.5.8: Python MELCloud interface
-dev-python/pymeteoclimatic 0.0.6: A Python wrapper around the Meteoclimatic service
+dev-python/pymelcloud 2.5.8 2.5.9: Python MELCloud interface
+dev-python/pymeteoclimatic 0.0.6 0.1.0: A Python wrapper around the Meteoclimatic service
 dev-python/pymfy 0.11.0: A Somfy Open API library
 dev-python/pymitv 1.4.3: A Python 3 based Xiaomi TV remote
 dev-python/pymochad 0.2.0: A python library for interacting with moch
@@ -1034,7 +1034,7 @@ dev-python/python-izone 1.2.9: A python interface to the iZone airconditioner co
 dev-python/python-join-api 0.0.9: Python API for interacting with Join by joaoapps.
 dev-python/python-juicenet 1.1.0: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
 dev-python/python-kasa 0.5.3 0.5.4 0.6.2.1: Python API for TP-Link Kasa Smarthome devices
-dev-python/python-matter-server 5.0.0-r1 5.1.1: Python Matter WebSocket Server
+dev-python/python-matter-server 5.0.0-r1 5.1.1 5.5.0: Python Matter WebSocket Server
 dev-python/python-metar 1.4.0: Metar - a package to parse METAR coded weather reports
 dev-python/python-miio 0.5.12: Python library for interfacing with Xiaomi smart appliances
 dev-python/python-mpd2 3.0.5: A Python MPD client library
