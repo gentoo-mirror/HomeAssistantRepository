@@ -1286,6 +1286,7 @@ app-misc/homeassistant-min:android_ip_webcam - The android_ip_webcam integration
 app-misc/homeassistant-min:androidtv - Library for controlling an Android TV, formerly firetv
 app-misc/homeassistant-min:androidtv_remote - allows you to control an Android TV and launching apps
 app-misc/homeassistant-min:axis - Communicating with newer devices from Axis Communications
+app-misc/homeassistant-min:backup - allows you to create and download backups for your Home Assistant Core
 app-misc/homeassistant-min:bluetooth - The Bluetooth integration will detect nearby Bluetooth devices
 app-misc/homeassistant-min:bluetooth_le_tracker - Tracks Bluetooth low-energy devices periodically based on interval_seconds value
 app-misc/homeassistant-min:caldav - Integrate a CalDAV (RFC4791) calendar in Home Assistant
