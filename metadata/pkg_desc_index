@@ -315,6 +315,7 @@ dev-python/bx-py-utils 75: Various Python utility functions
 dev-python/cached-ipaddress 0.3.0: Cache construction of ipaddress objects
 dev-python/caio 0.9.8: Asynchronous file IO for Linux MacOS or Windows.
 dev-python/caldav 1.3.8: CalDAV (RFC4791) client library for Python
+dev-python/casttube 0.2.1-r2: casttube provides a way to interact with the Youtube Chromecast api
 dev-python/chacha20poly1305 0.0.3: Chacha20Poly1305
 dev-python/chacha20poly1305-reuseable 0.10.2 0.12.0 0.12.1: ChaCha20Poly1305 that is reuseable for asyncio
 dev-python/charset-normalizer 3.2.0: The Real First Universal Charset Detector
