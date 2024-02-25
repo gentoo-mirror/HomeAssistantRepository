@@ -1335,6 +1335,7 @@ app-misc/homeassistant-min:nfandroidtv - Notifications for Android TV and Notifi
 app-misc/homeassistant-min:notify_events - The Notify.Events service is a platform for the notify component
 app-misc/homeassistant-min:octoprint - The main integration to integrate OctoPrint sensors
 app-misc/homeassistant-min:onvif - allows you to use an ONVIF Profile S conformant device
+app-misc/homeassistant-min:openweathermap - uses OpenWeatherMap as a source for current meteorological data
 app-misc/homeassistant-min:otp - generates One-Time Passwords according to RFC6238
 app-misc/homeassistant-min:owntracks - OwnTracks: track your location and send it directly to Home Assistant
 app-misc/homeassistant-min:ping - use the great ICMPLib for Presence Detection and as a binary Sensor
