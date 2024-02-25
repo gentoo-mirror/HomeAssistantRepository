@@ -116,7 +116,7 @@ dev-python/aio-geojson-usgs-earthquakes 0.2 0.3: An async GeoJSON client library
 dev-python/aio-georss-client 0.11 0.12: An async GeoRSS client library.
 dev-python/aio-georss-gdacs 0.8 0.9: An async GeoRSS client library for GDACS feeds.
 dev-python/aioairq 0.3.1 0.3.2: Asynchronous library to retrieve data from air-Q devices.
-dev-python/aioairzone 0.6.9 0.7.2: Library to control Airzone devices
+dev-python/aioairzone 0.6.9 0.7.2 0.7.4: Library to control Airzone devices
 dev-python/aioairzone-cloud 0.3.6 0.3.8: Library to control Airzone Cloud devices
 dev-python/aioambient 2023.4.0 2024.1.0: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioapcaccess 0.4.2: Async version of apcaccess library implemented in python.
@@ -358,9 +358,9 @@ dev-python/dbus-fast 2.14.0 2.21.0 2.21.1: A faster version of dbus-next
 dev-python/debugpy 1.8.0: An implementation of the Debug Adapter Protocol for Python
 dev-python/decora 0.6: Python API for controlling Decora dimmer switches
 dev-python/decora-wifi 1.4: Python API for controlling Leviton Decora Smart WiFi switches
-dev-python/deebot-client 5.2.1: Deebot client library in python 3
+dev-python/deebot-client 5.2.1 5.2.2: Deebot client library in python 3
 dev-python/deepdiff 6.2.1: Deep Difference and Search of any Python object/data.
-dev-python/deluge-client 1.7.1: Simple Deluge Client
+dev-python/deluge-client 1.7.1 1.10.2: Simple Deluge Client
 dev-python/demetriek 0.4.0: Asynchronous Python client for LaMetric TIME devices
 dev-python/demjson3 3.0.5: encoder, decoder, and lint/validator for JSON (JavaScript Object Notation) compliant with RFC 7159
 dev-python/devialet 1.4.3 1.4.5: Devialet API
