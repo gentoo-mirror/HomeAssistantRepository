@@ -712,10 +712,10 @@ dev-python/openerz-api 0.2.0 0.3.0: A Python wrapper around the OpenERZ API.
 dev-python/openevsewifi 1.1.2: A python library for communicating with the ESP8266-based wifi module from OpenEVSE
 dev-python/openhomedevice 2.2: Provides an API for requesting information from an Openhome device
 dev-python/opensensemap-api 0.2.0: Python client for interacting with the openSenseMap API.
-dev-python/openwebifpy 3.2.7 4.0.2 4.0.4 4.2.1: Provides a python interface to interact with a device running OpenWebIf
+dev-python/openwebifpy 3.2.7 4.0.2 4.2.1 4.2.4: Provides a python interface to interact with a device running OpenWebIf
 dev-python/openwrt-luci-rpc 1.1.16: Module for interacting with OpenWrt Luci RPC interface
 dev-python/openwrt-ubus-rpc 0.0.2: OpenWrt ubus RPC API library
-dev-python/opower 0.0.36 0.0.39 0.1.0 0.2.0: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
+dev-python/opower 0.0.39 0.1.0 0.2.0 0.3.1: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
 dev-python/opuslib 3.0.1: Python bindings to the libopus, IETF low-delay audio codec
 dev-python/oralb-ble 0.17.6: Bluetooth library for Oral B devices
 dev-python/orjson 3.9.9: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
@@ -1130,7 +1130,7 @@ dev-python/rjpl 0.3.6: Interface with Rejseplanen API
 dev-python/rocketchat-API 0.6.1: Python API wrapper for Rocket.Chat
 dev-python/rokuecp 0.18.1 0.19.0 0.19.1: Asynchronous Python client for Roku (ECP)
 dev-python/romy 0.0.7: Python program and library to control Wi-Fi enabled ROMY vacuum cleaners
-dev-python/roombapy 1.6.8 1.6.10 1.6.12: Python program and library to control Wi-Fi enabled iRobot Roombas
+dev-python/roombapy 1.6.8 1.6.10 1.6.12 1.6.13: Python program and library to control Wi-Fi enabled iRobot Roombas
 dev-python/roonapi 0.1.5 0.1.6: Provides a python interface to interact with Roon
 dev-python/rova 0.3.0: API wrapper for ROVA calendar
 dev-python/rpi-bad-power 0.1.0: A Python library to detect bad power supply on Raspberry Pi
