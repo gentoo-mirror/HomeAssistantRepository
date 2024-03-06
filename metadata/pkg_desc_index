@@ -796,6 +796,7 @@ dev-python/pyDuotecno 2023.11.1 2024.1.1 2024.1.2: Open-source home automation p
 dev-python/pyEight 0.3.2: Provides a python api to interact with an Eight Sleep mattress cover.
 dev-python/pyElectra 1.2.0: Electra Smart Python Integration.
 dev-python/pyEmby 1.9: Provides a python interface to interact with a Emby media server.
+dev-python/pyFortiManagerAPI 0.2.3: A Python wrapper for the FortiManager REST API
 dev-python/pyHik 0.3.2: Provides a python api to interact with a Hikvision camera event stream and toggle motion detection.
 dev-python/pyRFXtrx 0.30.1: a library to communicate with the RFXtrx family of devices
 dev-python/pySDCP 1: SDCP library to control Sony Projectors
