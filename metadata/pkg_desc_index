@@ -10,9 +10,9 @@ acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 2.8.0-r1: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.5 0.9.6 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2023.12.1 2023.12.4 2024.1.0 2024.1.6 2024.2.2 2024.2.3: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2023.12.1 2023.12.4 2024.1.0 2024.1.6 2024.2.2 2024.2.3 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2023.12.4 2024.1.6 2024.2.2-r1 2024.2.3: Open-source home automation platform running on Python.
+app-misc/homeassistant 2023.12.1 2023.12.4 2024.1.0 2024.1.6 2024.2.3 2024.2.4-r1: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2023.12.1 2023.12.4 2024.1.0 2024.1.6 2024.2.3 2024.2.4-r1 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2023.12.4 2024.1.6 2024.2.3 2024.2.4-r2: Open-source home automation platform running on Python.
 app-misc/node-red 3.0.2 3.1.3: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 1.35.2: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2023.10.6 2023.11.6 2023.12.5 2023.12.9 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
@@ -532,10 +532,10 @@ dev-python/homematicip 1.0.15 1.0.16: An API for the homematicip cloud
 dev-python/homepluscontrol 0.0.5: Python-based API to interact with the Legrand Home + Control interface
 dev-python/horimote 0.4.1: Async API wrapper for Samsumgs set-top boxes SMT-G7400 and SMT-G7401.
 dev-python/http-ece 1.1.0: Encrypted Content Encoding for HTTP
-dev-python/httpcore 0.17.3 0.18.0: A minimal low-level HTTP client
+dev-python/httpcore 0.18.0 1.0.2: A minimal low-level HTTP client
 dev-python/httplib2 0.20.4: A comprehensive HTTP client library
 dev-python/httpsig 1.3.0: Secure HTTP request signing using the HTTP Signature draft specification
-dev-python/httpx 0.24.1 0.25.0: Fully-featured HTTP client which provides sync and async APIs
+dev-python/httpx 0.25.0 0.26.0: Fully-featured HTTP client which provides sync and async APIs
 dev-python/huawei-lte-api 1.6.11 1.7.3: API For huawei LAN/WAN LTE Modems
 dev-python/huisbaasje-client 0.1.0: Client for Huisbaasje
 dev-python/huum 0.7.10: Python library for Huum saunas
@@ -1011,7 +1011,7 @@ dev-python/pytest-freezer 0.4.6: Pytest plugin providing a fixture interface for
 dev-python/pytest-picked 0.4.6 0.5.0: Run the tests related to the changed files
 dev-python/pytest-runner 6.0.0: Invoke py.test as distutils command with dependency resolution
 dev-python/pytest-socket 0.6.0: Pytest Plugin to disable socket calls during tests
-dev-python/pytest-sugar 0.9.5: py.test plugin that changes the default look and feel of py.test
+dev-python/pytest-sugar 0.9.7: Plugin that changes the default look and feel of pytest
 dev-python/pytest-test-groups 1.0.3: A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups.
 dev-python/pytest-timeout 2.1.0: pytest plugin to abort hanging tests
 dev-python/pytest-unordered 0.5.2: Test equality of unordered collections in pytest
@@ -1169,7 +1169,7 @@ dev-python/siobrultech-protocols 0.5.0: A Sans-I/O Python client library for Bru
 dev-python/sisyphus-control 3.1.3: Control your Sisyphus kinetic art tables (sisyphus-industries.com)
 dev-python/slackclient 2.5.0-r1: Slack API clients for Web API and RTM API
 dev-python/sleekxmppfs 1.4.1: A fork of SleekXMPP with TLS cert validation disabled, intended only to be used with the sucks project
-dev-python/slixmpp 1.8.2: Python 3 library for XMPP
+dev-python/slixmpp 1.8.4: Python 3 library for XMPP
 dev-python/smart-meter-texas 0.4.7: Package to connect to and retrieve data from the unofficial Smart Meter Texas API
 dev-python/smbus-cffi 0.5.1: SMBus access through the I2C /dev interface on Linux hosts.
 dev-python/smhi-pkg 1.0.16: Gets the weather forecast data from Swedish weather institute
@@ -1247,7 +1247,7 @@ dev-python/toonapi 0.2.1 0.3.0: Asynchronous Python client for the Quby ToonAPI.
 dev-python/total-connect-client 2023.2: Interact with Total Connect 2 alarm systems
 dev-python/tp-connected 0.0.4: TP-Link LTE modem API
 dev-python/tplink-omada-client 1.3.2: Python wrapper for TP-Link Omada SDN Controller API (OC200/OC300/Software Controller)
-dev-python/tqdm 4.64.0: Add a progress meter to your loops in a second
+dev-python/tqdm 4.66.1: Add a progress meter to your loops in a second
 dev-python/transmission-rpc 4.1.5 7.0.3: Python module that implements the Transmission bittorent client JSON-RPC protocol
 dev-python/transmissionrpc 0.11: Python module that implements the Transmission bittorent client RPC protocol.
 dev-python/ttls 1.5.1: Twinkly Twinkly Little Star
@@ -1355,5 +1355,6 @@ dev-vcs/pre-commit 3.4.0: A framework for managing and maintaining multi-languag
 net-misc/yt-dlp 2023.09.24 2023.10.13 2023.11.16: youtube-dl fork with additional features and fixes
 sci-geosciences/aranet4 2.1.3: Aranet4 Python client
 sci-geosciences/geopy 2.1.0 2.3.0: Python Geocoding Toolbox
+sci-libs/tensorflow 2.5.0-r3: Computation framework using data flow graphs for scalable machine learning
 sys-libs/tdb 1.4.10: Simple database API
 virtual/mqtt 1: Virtual for Home Assistant MQTT
