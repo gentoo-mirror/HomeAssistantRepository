@@ -123,6 +123,7 @@ dev-python/aioambient 2023.4.0 2024.1.0: A clean, async-friendly library for the
 dev-python/aioapcaccess 0.4.2: Async version of apcaccess library implemented in python.
 dev-python/aioaseko 0.0.2: Async Python package for the Aseko Pool Live API
 dev-python/aioasuswrt 1.4.0: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/
+dev-python/aioautomower 2024.2.10: MPython module to talk to Husqvarna Automower.
 dev-python/aioazuredevops 1.3.5: Get data from the Azure DevOps API.
 dev-python/aiobafi6 0.9.0: Big Ass Fans i6/Haiku protocol asynchronous Python library
 dev-python/aiobotocore 2.6.0 2.9.1: Async client for aws services using botocore and aiohttp
@@ -151,7 +152,7 @@ dev-python/aiohttp-fast-url-dispatcher 0.3.0: A faster URL dispatcher for aiohtt
 dev-python/aiohttp-retry 2.8.3: Simple retry client for aiohttp
 dev-python/aiohttp-wsgi 0.10.0: WSGI adapter for aiohttp.
 dev-python/aiohttp-zlib-ng 0.1.1 0.1.3 0.3.1: Enable zlib_ng on aiohttp
-dev-python/aiohue 4.7.0: Python module to talk to Philips Hue.
+dev-python/aiohue 4.7.0 4.7.1: Python module to talk to Philips Hue.
 dev-python/aioimaplib 1.0.1: Python asyncio IMAP4rev1 client library
 dev-python/aioitertools 0.11.0: itertools and builtins for AsyncIO and mixed iterables
 dev-python/aiokafka 0.7.2 0.10.0: Kafka integration with asyncio.
@@ -176,7 +177,7 @@ dev-python/aiooui 0.1.5: Async OUI lookups
 dev-python/aiopegelonline 0.0.6 0.0.8: Asynchronous library to retrieve data from PEGELONLINE.
 dev-python/aiopulse 0.4.3 0.4.4: Python module for Rollease Acmeda Automate integration.
 dev-python/aiopurpleair 2022.12.1: A Python 3, asyncio-based library to interact with the PurpleAir API
-dev-python/aiopvapi 2.0.4: Powerview blinds API wrapper
+dev-python/aiopvapi 2.0.4 3.0.2: Powerview blinds API wrapper
 dev-python/aiopvpc 4.2.2: Retrieval of Spanish Electricity hourly prices (PVPC)
 dev-python/aiopyarr 23.4.0: An Asynchronous Lidarr, Radarr, Readarr, Sonarr APIs for Python.
 dev-python/aioqsw 0.3.5: Library to control QNAP QSW devices
@@ -551,14 +552,14 @@ dev-python/hyundai-kia-connect-api 3.10.6 3.10.8 3.11.4 3.12.0: This is a Kia UV
 dev-python/i2csense 0.0.4: A library to handle i2c sensors with the Raspberry Pi
 dev-python/iammeter 0.1.7 0.2.1: IamMeter api
 dev-python/iaqualink 0.5.0: Asynchronous library for Jandy iAqualink
-dev-python/ibeacon-ble 1.0.1: Parser for iBeacon devices
+dev-python/ibeacon-ble 1.0.1 1.2.0: Parser for iBeacon devices
 dev-python/ibm-cloud-sdk-core 3.11.3: Core library used by SDKs for IBM Cloud Services
 dev-python/ibm-watson 5.2.2: Client library to use the IBM Watson Services
 dev-python/ibmiotf 0.3.4: Python Client for IBM Watson IoT Platform
 dev-python/ical 5.0.1 5.1.0 6.1.0 6.1.1: Python iCalendar implementation (rfc 2445)
 dev-python/icmplib 3.0 3.0.4: Easily forge ICMP packets and make your own ping and traceroute.
 dev-python/idasen 0.10.3: ikea IDASEN desk API and CLI.
-dev-python/idasen-ha 1.4.1 2.3 2.4 2.5: Home Assistant helper lib for the IKEA Idasen Desk integration
+dev-python/idasen-ha 1.4.1 2.3 2.4 2.5 2.5.1: Home Assistant helper lib for the IKEA Idasen Desk integration
 dev-python/ifaddr 0.1.7: Enumerate IP addresses on the local network adapters
 dev-python/iglo 1.2.7: Control iGlo based RGB lights
 dev-python/ihcsdk 2.8.5: IHC Python SDK
@@ -641,7 +642,7 @@ dev-python/mac-vendor-lookup 0.1.12: Find the vendor for a given MAC address
 dev-python/magicseaweed 1.0.3: Provides API wrapper to magicseaweed.com.
 dev-python/mariadb 1.0.11 1.1.6: Python MariaDB extension
 dev-python/marshmallow-dataclass 8.5.9: Python library to convert dataclasses into marshmallow schemas.
-dev-python/mashumaro 3.11: Fast and well tested serialization library
+dev-python/mashumaro 3.11 3.12: Fast and well tested serialization library
 dev-python/matplotlib 3.6.1: Pure python plotting library with matlab like syntax
 dev-python/matrix-client 0.4.0: Client-Server SDK for Matrix
 dev-python/matrix-nio 0.21.2 0.22.1 0.24.0: A Python Matrix client library, designed according to sans I/O principles.
@@ -853,7 +854,7 @@ dev-python/pydelijn 1.1.0: Get realtime info on stop passages of De Lijn (api.de
 dev-python/pydexcom 0.2.3: Python API to interact with Dexcom Share API
 dev-python/pydiscovergy 2.0.5 3.0.0: Async Python 3 library for interacting with Discovergy smart meters API
 dev-python/pydoods 1.0.2: A Python wrapper for the DOODS image detection service
-dev-python/pydrawise 2023.8.0 2023.10.0 2023.11.0 2024.1.0: Python API for interacting with Hydrawise sprinkler controllers.
+dev-python/pydrawise 2023.11.0 2024.1.0 2024.3.0: Python API for interacting with Hydrawise sprinkler controllers.
 dev-python/pydroid-ipcam 2.0.0: Library for handling the Android IP Webcam app
 dev-python/pyebox 1.1.4: Get your EBox consumption (wwww.ebox.ca)
 dev-python/pyecoforest 0.3.0 0.4.0: Python library for ecoforest local device.
