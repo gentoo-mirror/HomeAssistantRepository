@@ -130,7 +130,8 @@ dev-python/aiocache 0.11.1: multi backend asyncio cache
 dev-python/aiocoap 0.4.5: Python CoAP library
 dev-python/aiocomelit 0.6.2 0.7.0 0.7.3 0.8.3 0.9.0: Python library to control Comelit Simplehome
 dev-python/aioconsole 0.5.1: Asynchronous console and interfaces for asyncio
-dev-python/aiodiscover 1.5.1 1.6.0: Discover hosts by arp and ptr lookup
+dev-python/aiodhcpwatcher 0.8.0: Watch for DHCP packets with asyncio
+dev-python/aiodiscover 1.5.1 1.6.0 1.6.1: Discover hosts by arp and ptr lookup
 dev-python/aiodns 3.0.0-r1: Simple DNS resolver for asyncio
 dev-python/aioeafm 0.1.2-r1: An asyncio wrapper for the UK Environment Agency Flood Monitoring API
 dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
