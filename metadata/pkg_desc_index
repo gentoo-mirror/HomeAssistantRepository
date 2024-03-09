@@ -363,7 +363,7 @@ dev-python/dbus-fast 2.14.0 2.21.0 2.21.1: A faster version of dbus-next
 dev-python/debugpy 1.8.0 1.8.1: An implementation of the Debug Adapter Protocol for Python
 dev-python/decora 0.6: Python API for controlling Decora dimmer switches
 dev-python/decora-wifi 1.4: Python API for controlling Leviton Decora Smart WiFi switches
-dev-python/deebot-client 5.2.1 5.2.2: Deebot client library in python 3
+dev-python/deebot-client 5.2.2 6.0.2: Deebot client library in python 3
 dev-python/deepdiff 6.2.1: Deep Difference and Search of any Python object/data.
 dev-python/deluge-client 1.7.1 1.10.2: Simple Deluge Client
 dev-python/demetriek 0.4.0: Asynchronous Python client for LaMetric TIME devices
@@ -687,7 +687,7 @@ dev-python/nettigo-air-monitor 2.1.0 2.2.0 2.2.2: Python wrapper for getting air
 dev-python/neurio 0.3.1: Neurio energy sensor and appliance automation API library
 dev-python/nexia 2.0.7 2.0.8: Python library for connecting to nexia
 dev-python/nextcloudmonitor 1.4.0 1.5.0: Python wrapper around nextcloud monitor api
-dev-python/nextcord 2.0.0_alpha8: A Python wrapper for the Discord API forked from discord.py
+dev-python/nextcord 2.0.0_alpha8 2.6.0: A Python wrapper for the Discord API forked from discord.py
 dev-python/nextdns 1.4.0 2.0.0 2.1.0: Python wrapper for NextDNS API.
 dev-python/nibe 2.5.2 2.8.0: Nibe heatpump communication library
 dev-python/niko-home-control 0.2.1: SDK for Niko Home Control
@@ -850,7 +850,7 @@ dev-python/pydantic 1.10.12: Data parsing and validation using Python type hints
 dev-python/pydeconz 114 115: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
 dev-python/pydelijn 1.1.0: Get realtime info on stop passages of De Lijn (api.delijn.be)
 dev-python/pydexcom 0.2.3: Python API to interact with Dexcom Share API
-dev-python/pydiscovergy 2.0.3 2.0.5: Async Python 3 library for interacting with Discovergy smart meters API
+dev-python/pydiscovergy 2.0.5 3.0.0: Async Python 3 library for interacting with Discovergy smart meters API
 dev-python/pydoods 1.0.2: A Python wrapper for the DOODS image detection service
 dev-python/pydrawise 2023.8.0 2023.10.0 2023.11.0 2024.1.0: Python API for interacting with Hydrawise sprinkler controllers.
 dev-python/pydroid-ipcam 2.0.0: Library for handling the Android IP Webcam app
@@ -859,7 +859,7 @@ dev-python/pyecoforest 0.3.0 0.4.0: Python library for ecoforest local device.
 dev-python/pyeconet 0.1.20 0.1.22: Interface to the unofficial EcoNet API
 dev-python/pyedimax 0.2.1: Interface with Edimax Smart Plugs
 dev-python/pyefergy 22.1.1: An API library for Efergy energy meters.
-dev-python/pyenphase 1.14.3 1.15.2 1.17.0 1.19.0: Library to control enphase envoy
+dev-python/pyenphase 1.14.3 1.15.2 1.17.0 1.19.0 1.19.1: Library to control enphase envoy
 dev-python/pyenvisalink 4.6: A python3 library for running asynchronus communications with envisalink alarm control panel modules.
 dev-python/pyephember 0.3.1: Python library to work with ember from EPH Controls
 dev-python/pyeverlights 0.1.0: A library for controlling an EverLights lighting system.
