@@ -51,7 +51,7 @@ dev-python/PyDispatcher 2.0.5: Multi-producer-multi-consumer signal dispatching 
 dev-python/PyEssent 0.14: A wrapper around Essent's API
 dev-python/PyFlick 0.0.2: Python API For Flick Electric in New Zealand
 dev-python/PyFlume 0.6.5: Package to integrate with Flume Sensor
-dev-python/PyFronius 0.7.2: Automated JSON API based communication with Fronius Symo
+dev-python/PyFronius 0.7.2 0.7.3: Automated JSON API based communication with Fronius Symo
 dev-python/PyMVGLive 1.1.4: get live-data from mvg-live.de
 dev-python/PyMata 2.20: A Python Protocol Abstraction Library For Arduino Firmata
 dev-python/PyMeeus 0.5.11: Python implementation of Jean Meeus astronomical routines
@@ -138,7 +138,7 @@ dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2023.5.0 2024.2.1: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 0.1.5 0.4.0: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 18.5.7 19.2.1 21.0.1 21.0.2: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 19.2.1 21.0.1 21.0.2 23.0.0: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.21.3: ftp client/server for asyncio
@@ -282,7 +282,7 @@ dev-python/bimmer-connected 0.14.1 0.14.2 0.14.3 0.14.6-r1: Library to read data
 dev-python/bitstruct 8.17.0: This module performs conversions between Python values and C bit field structs represented as Python byte strings.
 dev-python/bizkaibus 0.1.1: Online information for buses of Biscay bus services (Basque Country, Spain).
 dev-python/bleak 0.21.1: Bluetooth Low Energy platform Agnostic Klient
-dev-python/bleak-esphome 0.4.0 0.4.1: Bleak backend of ESPHome
+dev-python/bleak-esphome 0.4.0 0.4.1 1.0.0: Bleak backend of ESPHome
 dev-python/bleak-retry-connector 3.3.0 3.4.0: A connector for Bleak Clients that handles transient connection failures
 dev-python/blebox-uniapi 2.2.0 2.2.2: Python API for accessing BleBox smart home devices
 dev-python/blinkpy 0.22.3 0.22.4 0.22.5 0.22.6: A Blink camera Python library running on Python 3.
@@ -611,7 +611,7 @@ dev-python/leaone-ble 0.1.0: Bluetooth parser for LeaOne devices
 dev-python/led-ble 1.0.1: Control a wide range of LED BLE devices
 dev-python/libcst 0.3.23: A concrete syntax tree with AST-like properties for Python 3.5, 3.6, 3.7 and 3.8 programs.
 dev-python/libpurecool 0.6.4: Dyson Pure Cool/Hot+Cool Link and 360 eye robot vacuum devices Python library
-dev-python/libpyfoscam 1.0: Python Library for Foscam IP Cameras
+dev-python/libpyfoscam 1.0 1.2.2: Python Library for Foscam IP Cameras
 dev-python/libpyvivotek 0.4.0: Python Library for Vivotek IP Cameras
 dev-python/librouteros 3.2.0: Python implementation of MikroTik RouterOS API
 dev-python/libsoundtouch 0.8.0-r1: Bose Soundtouch Python library
