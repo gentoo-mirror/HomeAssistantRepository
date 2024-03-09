@@ -117,8 +117,8 @@ dev-python/aio-geojson-usgs-earthquakes 0.2 0.3: An async GeoJSON client library
 dev-python/aio-georss-client 0.11 0.12: An async GeoRSS client library.
 dev-python/aio-georss-gdacs 0.8 0.9: An async GeoRSS client library for GDACS feeds.
 dev-python/aioairq 0.3.1 0.3.2: Asynchronous library to retrieve data from air-Q devices.
-dev-python/aioairzone 0.6.9 0.7.2 0.7.4: Library to control Airzone devices
-dev-python/aioairzone-cloud 0.3.6 0.3.8: Library to control Airzone Cloud devices
+dev-python/aioairzone 0.6.9 0.7.2 0.7.4 0.7.6: Library to control Airzone devices
+dev-python/aioairzone-cloud 0.3.6 0.3.8 0.4.5: Library to control Airzone Cloud devices
 dev-python/aioambient 2023.4.0 2024.1.0: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioapcaccess 0.4.2: Async version of apcaccess library implemented in python.
 dev-python/aioaseko 0.0.2: Async Python package for the Aseko Pool Live API
@@ -809,6 +809,7 @@ dev-python/pyaftership 21.11.0: A module to get information pending parcels.
 dev-python/pyairnow 1.2.1: A lightweight Python wrapper for EPA AirNow Air Quality API
 dev-python/pyairvisual 2023.8.1: A simple API for AirVisual air quality data
 dev-python/pyalmond 0.0.2: Python module to talk to the Web Almond API.
+dev-python/pyaprilaire 0.7.0: a library to interact with Aprilaire thermostats
 dev-python/pyarlo 0.2.4: Python Arlo is a library written in Python 2.7/3x that exposes the Netgear Arlo cameras as Python objects.
 dev-python/pyasn1 0.4.8-r2: ASN.1 library for Python
 dev-python/pyasuswrt 0.1.20 0.1.21: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/ using protocol HTTP
