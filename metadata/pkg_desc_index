@@ -528,7 +528,7 @@ dev-python/holidays 0.35 0.36 0.39 0.42 0.43: Generate and work with holidays in
 dev-python/home-assistant-bluetooth 1.10.3 1.10.4 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2023.10.2 2023.12.0 2024.1.0: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20231208.2 20240103.3 20240104.0 20240207.1: The Home Assistant frontend
-dev-python/home-assistant-intents 2023.10.16 2023.12.5 2024.1.2-r1 2024.2.2: Intents for Home Assistant
+dev-python/home-assistant-intents 2023.12.5 2024.1.2-r1 2024.2.2 2024.2.28: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.15 1.0.16: An API for the homematicip cloud
 dev-python/homepluscontrol 0.0.5: Python-based API to interact with the Legrand Home + Control interface
