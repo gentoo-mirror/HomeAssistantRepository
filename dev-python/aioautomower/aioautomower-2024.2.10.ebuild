@@ -3,12 +3,12 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{11..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for interacting with Hydrawise sprinkler controllers."
-HOMEPAGE="https://github.com/dknowles2/pydrawise https://pypi.org/project/pydrawise/"
+DESCRIPTION="MPython module to talk to Husqvarna Automower."
+HOMEPAGE=" https://pypi.org/project/aioautomower/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -18,7 +18,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.9.3[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.12[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

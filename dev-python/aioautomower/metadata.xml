@@ -6,7 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">aiopvapi</remote-id>
-    <remote-id type="github">sander76/aio-powerview-api</remote-id>
+    <remote-id type="pypi">aioautomower</remote-id>
+    <remote-id type="github">Thomas55555/aioautomower</remote-id>
+    <maintainer status="unknown">
+      <email>thomas.protzner@gmail.com</email>
+      <name>Thomas Protzner</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>

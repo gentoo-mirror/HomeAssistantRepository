@@ -6,9 +6,8 @@ EAPI=8
 PYTHON_COMPAT=( python3_{11..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-
-DESCRIPTION="Python API for interacting with Hydrawise sprinkler controllers."
-HOMEPAGE="https://github.com/dknowles2/pydrawise https://pypi.org/project/pydrawise/"
+DESCRIPTION="Python module to talk to Philips Hue."
+HOMEPAGE="https://github.com/home-assistant-libs/aiohue https://pypi.org/project/aiohue/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -19,13 +18,12 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/apischema[${PYTHON_USEDEP}]
-	dev-python/gql[${PYTHON_USEDEP}]
-	dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	dev-python/asyncio-throttle[${PYTHON_USEDEP}]
+	dev-python/awesomeversion[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	)"
 
 distutils_enable_tests pytest
