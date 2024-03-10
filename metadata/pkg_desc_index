@@ -658,6 +658,7 @@ dev-python/meteocalc 1.1.0: Functions for calculation of meteorological variable
 dev-python/meteofrance-api 1.2.0 1.3.0: Python client for Meteo-France API.
 dev-python/mficlient 0.3.0: A remote control client for Ubiquiti's mFi system
 dev-python/micloud 0.5: Xiaomi cloud connect library
+dev-python/microBeesPy 0.3.2: microBees Python Library
 dev-python/mill-local 0.3.0: A python3 library to communicate with Mill
 dev-python/millheater 0.11.6 0.11.7 0.11.8: A python3 library to communicate with Mill
 dev-python/miniaudio 1.59: python bindings for the miniaudio library and its decoders (mp3, flac, ogg vorbis, wav)
