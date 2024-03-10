@@ -3,12 +3,12 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{11..12} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
-
-DESCRIPTION="Library implementing a ZigBee stack"
-HOMEPAGE="https://github.com/zigpy/zigpy https://pypi.org/project/zigpy/"
+DESCRIPTION="A library which communicates with Deconz radios for zigpy"
+HOMEPAGE="https://github.com/zigpy/zigpy-deconz https://pypi.org/project/zigpy-deconz/"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -18,19 +18,13 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	>=dev-python/aiosqlite-0.16.0[${PYTHON_USEDEP}]
-	dev-python/crccheck[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	$(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' python3_10)
+RDEPEND=">=dev-python/zigpy-0.60.2[${PYTHON_USEDEP}]
 	dev-python/voluptuous[${PYTHON_USEDEP}]
-	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	$(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' python3_10)"
 BDEPEND="
 	test? (
-		dev-python/asynctest[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+		dev-python/asynctest[${PYTHON_USEDEP}]
 	)"
 
 src_prepare() {
