@@ -1223,7 +1223,7 @@ dev-python/surepy 0.8.0 0.9.0: Library to interact with the flaps & doors from S
 dev-python/swisshydrodata 0.1.0: A library to fetch data from the Swiss federal Office for Environment FEON
 dev-python/switchbot-api 1.1.0 1.2.1 1.3.0 2.0.0: An asynchronous library to use Switchbot API
 dev-python/synology-srm 0.2.0: Synology SRM API
-dev-python/syrupy 4.5.0 4.6.0: Pytest Snapshot Test Utility
+dev-python/syrupy 4.5.0 4.6.0 4.6.1: Pytest Snapshot Test Utility
 dev-python/systembridgeconnector 3.8.4 3.10.0: System Bridge Connector
 dev-python/tahoma-api 0.0.16: Tahoma Api - Python connect to Tahoma REST API
 dev-python/tailer 0.4.1: Python tail is a simple implementation of GNU tail and head.
