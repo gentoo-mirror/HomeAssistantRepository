@@ -208,7 +208,7 @@ dev-python/aiovlc 0.1.0: A package for talking to vlc over its telnet interface 
 dev-python/aiovodafone 0.4.3 0.5.4: Python library to control Vodafone Station
 dev-python/aiowaqi 2.1.0 3.0.0 3.0.1: Asynchronous Python client for WAQI API.
 dev-python/aiowatttime 0.1.1: An asyncio-based Python3 library for interacting with WattTime
-dev-python/aiowebostv 0.3.3: Library to control webOS based LG TV devices
+dev-python/aiowebostv 0.3.3 0.4.0: Library to control webOS based LG TV devices
 dev-python/aiowithings 1.0.2 2.0.0 2.1.0: Asynchronous Python client for Withings.
 dev-python/aioymaps 1.2.2: Async client for Yandex Maps
 dev-python/airly 1.1.0: Python wrapper for getting air quality data from Airly sensors.
@@ -530,7 +530,7 @@ dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hko 0.3.2: An unofficial Python wrapper for public API of Hong Kong Observatory
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
-dev-python/holidays 0.35 0.36 0.39 0.42 0.43: Generate and work with holidays in Python
+dev-python/holidays 0.36 0.39 0.43 0.44: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.10.3 1.10.4 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2023.10.2 2023.12.0 2024.1.0 2024.2.2: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20231208.2 20240103.3 20240104.0 20240207.1 20240306.0: The Home Assistant frontend
@@ -1313,7 +1313,9 @@ dev-python/waqiasync 1.0.0: asyncio-friendly python API for aqicn.org
 dev-python/warrant-lite 1.0.4-r1: Small Python library for process SRP requests for AWS Cognito.
 dev-python/watchdog 2.3.1: Python API and shell utilities to monitor file system events
 dev-python/waterfurnace 1.1.0: Python interface for waterfurnace geothermal systems
+dev-python/weatherflow4py 0.1.12: Simple Python library used by Home Assistant to interact with the WeatherFlow RESTApi
 dev-python/webexteamssdk 1.1.1: Community-developed Python SDK for the Webex Teams APIs
+dev-python/webmin-xmlrpc 0.0.1: Provides a python interface to interact with the Webmin XML-RPC API.
 dev-python/webrtc-noise-gain 1.2.3: Noise suppression and automatic gain with webrtc
 dev-python/webrtcvad 2.0.10: Python interface to the Google WebRTC Voice Activity Detector (VAD)
 dev-python/whirlpool-sixth-sense 0.18.4: Unofficial API for Whirlpool's 6th Sense appliances
