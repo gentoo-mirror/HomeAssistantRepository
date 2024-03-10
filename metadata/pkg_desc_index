@@ -1172,6 +1172,7 @@ dev-python/sfrbox-api 0.0.6 0.0.8: SFR Box API
 dev-python/sharkiq 1.0.2: Python API for Shark IQ robots
 dev-python/sharp_aquos_rc 0.3.2: Control Sharp Aquos SmartTVs through the IP interface.
 dev-python/shodan 1.28.0: Python library and command-line utility for Shodan (https://developer.shodan.io)
+dev-python/shortuuid 1.0.12: A generator library for concise, unambiguous and URL-safe UUIDs.
 dev-python/simplehound 0.3: Unofficial python API for Sighthound
 dev-python/simplepush 2.2.3: Simplepush python library
 dev-python/simplisafe-python 2023.8.0 2024.1.0: A Python3, async interface to the SimpliSafe API
@@ -1324,6 +1325,7 @@ dev-python/wiffi 1.1.2: Python 3 package to interface devices from STALL WIFFI.
 dev-python/wirelesstagpy 0.8.1: Simple python wrapper over wirelesstags REST API
 dev-python/withings-api 2.4.0: Library for the Withings API
 dev-python/wled 0.16.0 0.17.0: Asynchronous Python client for WLED.
+dev-python/wolf-comm 0.0.6: A package to communicate with Wolf SmartSet Cloud
 dev-python/wolf-smartset 0.1.11: A package to communicate with Wolf Smart Set Cloud
 dev-python/wolf_smartset 0.1.11: A package to comunicate with Wolf Smart Set Cloud
 dev-python/wyoming 1.4.0 1.5.2 1.5.3: Protocol for Rhasspy Voice Assistant
@@ -1339,7 +1341,7 @@ dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontro
 dev-python/yagrc 1.1.2: Yet another gRPC reflection client
 dev-python/yalesmartalarmclient 0.3.9: Interact with Yale Smart Alarm systems
 dev-python/yalexs 1.10.0 1.11.2 1.11.4: Python API for Yale Access (formerly August) Smart Lock and Doorbell
-dev-python/yalexs-ble 2.3.2 2.4.0 2.4.1: Bluetooth control of Yale and August locks
+dev-python/yalexs-ble 2.3.2 2.4.0 2.4.1 2.4.2: Bluetooth control of Yale and August locks
 dev-python/yarl 1.9.2: Yet another URL library
 dev-python/yeelight 0.7.13 0.7.14: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
