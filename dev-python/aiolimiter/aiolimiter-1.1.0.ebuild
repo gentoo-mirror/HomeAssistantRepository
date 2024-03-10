@@ -4,13 +4,13 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..12} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Tesla Fleet API library for Python"
-HOMEPAGE="https://github.com/Teslemetry/tesla_fleet_api https://pypi.org/project/tesla-fleet-api/"
+DESCRIPTION="asyncio rate limiter, a leaky bucket implementation"
+HOMEPAGE="https://github.com/mjpieters/aiolimiter https://pypi.org/project/aiolimiter/"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,6 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+src_prepare() {
+	remove uneccesary include
+	sed "16d" -i pyproject.toml || die
+	eapply_user
+}
 
 distutils_enable_tests pytest

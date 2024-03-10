@@ -4,13 +4,13 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..12} )
-DISTUTILS_USE_PEP517=hatchling
+DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python wrapper for TP-Link Omada SDN Controller API (OC200/OC300/Software Controller)"
-HOMEPAGE="https://github.com/MarkGodwin/tplink-omada-api https://pypi.org/project/tplink-omada-client/"
+DESCRIPTION="Tesla Fleet API library for Python"
+HOMEPAGE="https://github.com/Teslemetry/tesla_fleet_api https://pypi.org/project/tesla-fleet-api/"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -19,4 +19,6 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	>=dev-python/awesomeversion-22.9.0[${PYTHON_USEDEP}]"
+	dev-python/aiolimiter[${PYTHON_USEDEP}]"
+
+distutils_enable_tests pytest
