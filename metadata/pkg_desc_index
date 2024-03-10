@@ -161,6 +161,7 @@ dev-python/aiolifx 0.8.10 1.0.0: API for local communication with LIFX devices o
 dev-python/aiolifx-connection 1.0.0: A wrapper for aiolifx to connect to a single LIFX device
 dev-python/aiolifx-effects 0.3.2: aiolifx light effects
 dev-python/aiolifx-themes 0.4.5 0.4.10: Async library that applies color themes to LIFX lights
+dev-python/aiolimiter 1.1.0: asyncio rate limiter, a leaky bucket implementation
 dev-python/aiolivisi 0.0.19: Python module to communicate with LIVISI Smart Home Controllers.
 dev-python/aiolookin 1.0.0: Client for interaction of the LOOKin device with the Home Assistant
 dev-python/aiolyric 1.1.0: AIO package for the Honeywell Lyric Platform.
@@ -1085,7 +1086,7 @@ dev-python/pythonegardia 1.0.52: Python 3 support for Egardia / Woonveilig alarm
 dev-python/pytile 2023.4.0: A simple Python API for Tile Bluetooth trackers
 dev-python/pytomorrowio 0.3.6: Async Python3.9+ package to access the Tomorrow.io API
 dev-python/pytouchline 0.7: A Roth Touchline interface library
-dev-python/pytraccar 1.0.0 2.0.0: Update and fetch device information from Traccar.
+dev-python/pytraccar 2.0.0 2.1.1: Update and fetch device information from Traccar.
 dev-python/pytrackr 0.0.5: Interface to the TrackR API
 dev-python/pytradfri 9.0.1: IKEA Tradfri/Tradfri API. Control and observe your lights from Python.
 dev-python/pytrafikverket 0.3.6 0.3.7 0.3.9.1 0.3.9.2 0.3.10: Retreive values from public API at the Swedish Transport Administration (Trafikverket).
@@ -1235,14 +1236,14 @@ dev-python/tellsticknet 0.1.2: Listen for UDP sensor broadcasts from a Tellstick
 dev-python/temescal 0.5: Python API for controlling LG speakers
 dev-python/temperusb 1.6.0 1.6.1: Reads temperature from TEMPerV1 devices (USB 0c45:7401)
 dev-python/tenacity 8.0.1-r1: General-purpose retrying library
-dev-python/tesla-fleet-api 0.2.3: Tesla Fleet API library for Python
+dev-python/tesla-fleet-api 0.2.3 0.4.6: Tesla Fleet API library for Python
 dev-python/tesla-powerwall 0.3.19 0.5.1: API for Tesla Powerwall
 dev-python/tesla-wall-connector 1.0.2: API Library for communicating with a Tesla Wall Connector
 dev-python/teslajsonpy 0.18.3: A library to work with Tesla API.
 dev-python/tessie-api 0.0.9: A small python package that wraps up the Tessie API
 dev-python/tf-models-official 2.5.0: TensorFlow Official Models
 dev-python/thermobeacon-ble 0.6.0 0.6.2: Parser for Thermobeacon devices
-dev-python/thermopro-ble 0.4.5 0.5.0 0.9.0: Thermopro BLE Sensors
+dev-python/thermopro-ble 0.5.0 0.9.0 0.10.0: Thermopro BLE Sensors
 dev-python/thermoworks-smoke 0.1.8: Pull data for your thermoworks smoke thermometer
 dev-python/thingspeak 1.0.0: Client library for the thingspeak.com API
 dev-python/tikteck 0.4: Python API for controlling Tikteck LED bulbs
@@ -1255,7 +1256,7 @@ dev-python/tololib 0.1.0_beta4: Python Library for Controlling TOLO Sauna/Steam 
 dev-python/toonapi 0.2.1 0.3.0: Asynchronous Python client for the Quby ToonAPI.
 dev-python/total-connect-client 2023.2: Interact with Total Connect 2 alarm systems
 dev-python/tp-connected 0.0.4: TP-Link LTE modem API
-dev-python/tplink-omada-client 1.3.2: Python wrapper for TP-Link Omada SDN Controller API (OC200/OC300/Software Controller)
+dev-python/tplink-omada-client 1.3.2 1.3.11: Python wrapper for TP-Link Omada SDN Controller API (OC200/OC300/Software Controller)
 dev-python/tqdm 4.66.1: Add a progress meter to your loops in a second
 dev-python/transmission-rpc 4.1.5 7.0.3: Python module that implements the Transmission bittorent client JSON-RPC protocol
 dev-python/transmissionrpc 0.11: Python module that implements the Transmission bittorent client RPC protocol.
