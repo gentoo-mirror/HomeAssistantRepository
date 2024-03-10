@@ -468,7 +468,7 @@ dev-python/geojson 2.5.0: Python bindings and utilities for GeoJSON
 dev-python/geojson-client 0.6: A GeoJSON client library.
 dev-python/georss-client 0.15 0.17: A GeoRSS client library.
 dev-python/georss-generic-client 0.6 0.8: A GeoRSS generic client library.
-dev-python/georss-ign-sismologia-client 0.6: A GeoRSS client library for the IGN Sismologia feed.
+dev-python/georss-ign-sismologia-client 0.6 0.8: A GeoRSS client library for the IGN Sismologia feed.
 dev-python/georss-qld-bushfire-alert-client 0.5: A GeoRSS client library for the Queensland Bushfire Alert feed.
 dev-python/getmac 0.8.2 0.8.3 0.9.4: Get MAC addresses of remote hosts and local interfaces
 dev-python/gios 3.1.0 3.2.0 3.2.2: Python wrapper for getting air quality data from GIOS servers.
@@ -559,7 +559,7 @@ dev-python/ibmiotf 0.3.4: Python Client for IBM Watson IoT Platform
 dev-python/ical 5.0.1 5.1.0 6.1.0 6.1.1: Python iCalendar implementation (rfc 2445)
 dev-python/icmplib 3.0 3.0.4: Easily forge ICMP packets and make your own ping and traceroute.
 dev-python/idasen 0.10.3: ikea IDASEN desk API and CLI.
-dev-python/idasen-ha 1.4.1 2.3 2.4 2.5 2.5.1: Home Assistant helper lib for the IKEA Idasen Desk integration
+dev-python/idasen-ha 2.4 2.5 2.5.1: Home Assistant helper lib for the IKEA Idasen Desk integration
 dev-python/ifaddr 0.1.7: Enumerate IP addresses on the local network adapters
 dev-python/iglo 1.2.7: Control iGlo based RGB lights
 dev-python/ihcsdk 2.8.5: IHC Python SDK
