@@ -202,7 +202,7 @@ dev-python/aioswitcher 3.3.0 3.4.1: Switcher Python Integration.
 dev-python/aiosyncthing 0.5.1: Asynchronous Python client for the Syncthing REST API
 dev-python/aiotankerkoenig 0.3.0 0.4.1: Async Python 3 client for tankerkoenig.de
 dev-python/aiotractive 0.5.6: Asynchronous Python client for the Tractive REST API
-dev-python/aiounifi 67 68 69 71: An asynchronous Python library for communicating with Unifi Network Controller API
+dev-python/aiounifi 67 68 69 71 72: An asynchronous Python library for communicating with Unifi Network Controller API
 dev-python/aiounittest 1.4.2: Test asyncio code more easily.
 dev-python/aiovlc 0.1.0: A package for talking to vlc over its telnet interface using asyncio.
 dev-python/aiovodafone 0.4.3 0.5.4: Python library to control Vodafone Station
@@ -1092,7 +1092,7 @@ dev-python/pytradfri 9.0.1: IKEA Tradfri/Tradfri API. Control and observe your l
 dev-python/pytrafikverket 0.3.6 0.3.7 0.3.9.1 0.3.9.2 0.3.10: Retreive values from public API at the Swedish Transport Administration (Trafikverket).
 dev-python/pytrydan 0.4.0: Library to interface with V2C EVSE Trydan
 dev-python/pyudev 0.23.2: Python binding to libudev
-dev-python/pyunifiprotect 4.22.0 4.22.3 4.22.5 4.23.2: Unofficial UniFi Protect Python API and CLI
+dev-python/pyunifiprotect 4.22.0 4.22.3 4.22.5 4.23.2 4.23.3: Unofficial UniFi Protect Python API and CLI
 dev-python/pyuptimerobot 22.2.0: Python API wrapper for Uptime Robot.
 dev-python/pyusb 1.2.1-r2: USB support for Python
 dev-python/pyvera 0.3.13: Python API for talking to Veracontrollers
@@ -1278,7 +1278,7 @@ dev-python/ulid-transform 0.8.1 0.9.0: Create and transform ULIDs
 dev-python/ultraheat-api 0.5.7: Reading usage data from the Landys & Gyr Ultraheat heat meter unit
 dev-python/unicode-rbnf 1.0.0: Rule-based number formatting using Unicode CLDR data
 dev-python/unifi-ap 0.0.1: Python API for UniFi accesspoints
-dev-python/unifi-discovery 1.1.7: Discover Unifi Devices
+dev-python/unifi-discovery 1.1.7 1.1.8: Discover Unifi Devices
 dev-python/unifiled 0.11: Easily connect to Ubiquiti Unifi led devices
 dev-python/universal-silabs-flasher 0.0.14-r1 0.0.15 0.0.18: Tool to flash firmware onto any Silicon Labs radio running EmberZNet, CPC multi-PAN, or just a bare Gecko Bootloader
 dev-python/uonet-request-signer-hebe 0.1.1: UONET+ (hebe) request signer for Python
@@ -1291,7 +1291,7 @@ dev-python/uscisstatus 0.1.1-r1: USCIS Status Checker
 dev-python/user-agents 2.0-r2: A library to identify devices (phones, tablets) and their capabilities by parsing browser user agent strings.
 dev-python/uvcclient 0.11.0: A remote control client for Ubiquiti's UVC NVR
 dev-python/vacuum-map-parser-roborock 0.1.1: Functionalities for Roborock vacuum map parsing
-dev-python/vallox-websocket-api 3.3.0 4.0.2 4.0.3: Vallox WebSocket API
+dev-python/vallox-websocket-api 4.0.2 4.0.3 5.1.0: Vallox WebSocket API
 dev-python/vehicle 2.0.0 2.2.1: Asynchronous Python client providing RDW vehicle information.
 dev-python/velbus-aio 2023.11.0 2023.12.0: Python Library for the Velbus protocol based on asyncio
 dev-python/venstarcolortouch 0.19: Interface Library for Venstar ColorTouch Thermostat API v5
@@ -1308,7 +1308,7 @@ dev-python/vtjp 0.1.14 0.2.1: Vasttrafik API
 dev-python/vulcan-api 2.3.0 2.3.2: Nieoficjalne API do dzienniczka elektronicznego UONET+
 dev-python/vultr 0.1.2: Vultr.com API Client
 dev-python/wakeonlan 2.1.0: A small python module for wake on lan.
-dev-python/wallbox 0.4.12 0.4.14: Module for interacting with Wallbox EV charger api
+dev-python/wallbox 0.4.14 0.6.0: Module for interacting with Wallbox EV charger api
 dev-python/waqiasync 1.0.0: asyncio-friendly python API for aqicn.org
 dev-python/warrant-lite 1.0.4-r1: Small Python library for process SRP requests for AWS Cognito.
 dev-python/watchdog 2.3.1: Python API and shell utilities to monitor file system events
