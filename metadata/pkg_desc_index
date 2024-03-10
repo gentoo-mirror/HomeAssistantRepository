@@ -169,7 +169,7 @@ dev-python/aiomqtt 1.2.1 2.0.0: The idiomatic asyncio MQTT client, wrapped aroun
 dev-python/aiomusiccast 0.14.8: Companion library for musiccast devices intended for the Home Assistant integration.
 dev-python/aionanoleaf 0.2.1: Async Python package for the Nanoleaf API
 dev-python/aionotify 0.2.0: Asyncio-powered inotify library
-dev-python/aionotion 2023.5.5: A simple Python 3 library for Notion Home Monitoring
+dev-python/aionotion 2023.5.5 2024.2.2: A simple Python 3 library for Notion Home Monitoring
 dev-python/aionursery 0.3.0: Manage background asyncio tasks
 dev-python/aiooncue 0.3.5: Async for Oncue
 dev-python/aioopenexchangerates 0.4.0: Fetch rates from openexchangerates with aiohttp.
