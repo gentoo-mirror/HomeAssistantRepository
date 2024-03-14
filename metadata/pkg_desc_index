@@ -1314,7 +1314,7 @@ dev-python/waqiasync 1.0.0: asyncio-friendly python API for aqicn.org
 dev-python/warrant-lite 1.0.4-r1: Small Python library for process SRP requests for AWS Cognito.
 dev-python/watchdog 2.3.1: Python API and shell utilities to monitor file system events
 dev-python/waterfurnace 1.1.0: Python interface for waterfurnace geothermal systems
-dev-python/weatherflow4py 0.1.12: Simple Python library used by Home Assistant to interact with the WeatherFlow RESTApi
+dev-python/weatherflow4py 0.1.12 0.1.17: Simple Python library used by Home Assistant to interact with the WeatherFlow RESTApi
 dev-python/webexteamssdk 1.1.1: Community-developed Python SDK for the Webex Teams APIs
 dev-python/webmin-xmlrpc 0.0.1: Provides a python interface to interact with the Webmin XML-RPC API.
 dev-python/webrtc-noise-gain 1.2.3: Noise suppression and automatic gain with webrtc
