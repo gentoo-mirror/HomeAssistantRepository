@@ -2,14 +2,12 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-
 PYTHON_COMPAT=( python3_{11..12} )
 DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for Numato GPIO Expanders"
-HOMEPAGE="https://github.com/clssn/numato-gpio https://pypi.org/project/numato-gpio/"
+DESCRIPTION="API wrapper for ROVA calendar"
+HOMEPAGE="https://github.com/GidoHakvoort/rova https://pypi.org/project/rova/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,14 +17,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/pyserial-3.1.1[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

@@ -5,11 +5,10 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..12} )
 DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for Numato GPIO Expanders"
-HOMEPAGE="https://github.com/clssn/numato-gpio https://pypi.org/project/numato-gpio/"
+DESCRIPTION="A Tedee Lock Client package"
+HOMEPAGE="https://github.com/zweckj/pytedee_async https://pypi.org/project/pytedee-async/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,14 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/pyserial-3.1.1[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
