@@ -123,7 +123,7 @@ dev-python/aioambient 2023.4.0 2024.1.0: A clean, async-friendly library for the
 dev-python/aioapcaccess 0.4.2: Async version of apcaccess library implemented in python.
 dev-python/aioaseko 0.0.2: Async Python package for the Aseko Pool Live API
 dev-python/aioasuswrt 1.4.0: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/
-dev-python/aioautomower 2024.2.10: MPython module to talk to Husqvarna Automower.
+dev-python/aioautomower 2024.2.10 2024.3.0: MPython module to talk to Husqvarna Automower.
 dev-python/aioazuredevops 1.3.5: Get data from the Azure DevOps API.
 dev-python/aiobafi6 0.9.0: Big Ass Fans i6/Haiku protocol asynchronous Python library
 dev-python/aiobotocore 2.6.0 2.9.1: Async client for aws services using botocore and aiohttp
@@ -533,7 +533,7 @@ dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.36 0.39 0.43 0.44: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.10.3 1.10.4 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2023.10.2 2023.12.0 2024.1.0 2024.2.2: Python-base APIs and tools for CHIP.
-dev-python/home-assistant-frontend 20231208.2 20240103.3 20240104.0 20240207.1 20240306.0: The Home Assistant frontend
+dev-python/home-assistant-frontend 20231208.2 20240103.3 20240207.1 20240306.0 20240307.0: The Home Assistant frontend
 dev-python/home-assistant-intents 2023.12.5 2024.1.2-r1 2024.2.2 2024.2.28 2024.3.12: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.15 1.0.16 1.1.0: An API for the homematicip cloud
@@ -557,7 +557,7 @@ dev-python/ibeacon-ble 1.0.1 1.2.0: Parser for iBeacon devices
 dev-python/ibm-cloud-sdk-core 3.11.3: Core library used by SDKs for IBM Cloud Services
 dev-python/ibm-watson 5.2.2: Client library to use the IBM Watson Services
 dev-python/ibmiotf 0.3.4: Python Client for IBM Watson IoT Platform
-dev-python/ical 6.1.0 6.1.1 7.0.0: Python iCalendar implementation (rfc 2445)
+dev-python/ical 6.1.0 6.1.1 7.0.0 7.0.1: Python iCalendar implementation (rfc 2445)
 dev-python/icmplib 3.0 3.0.4: Easily forge ICMP packets and make your own ping and traceroute.
 dev-python/idasen 0.10.3: ikea IDASEN desk API and CLI.
 dev-python/idasen-ha 2.4 2.5 2.5.1: Home Assistant helper lib for the IKEA Idasen Desk integration
@@ -632,7 +632,7 @@ dev-python/locationsharinglib 5.0.1: A library to retrieve coordinates from an g
 dev-python/logi-circle 0.2.3: A Python library to communicate with Logi Circle cameras
 dev-python/lomond 0.3.3-r2: Websocket Client Library
 dev-python/london-tube-status 0.5: Parse London tube data into a dictionary
-dev-python/loqedAPI 2.1.8: Python package to use the Loqed Smart Door Lock APIs in a local network. To be used by Home Assistant.
+dev-python/loqedAPI 2.1.8 2.1.10: Python package to use the Loqed Smart Door Lock APIs in a local network. To be used by Home Assistant.
 dev-python/lru-dict 1.2.0 1.3.0: An Dict like LRU container.
 dev-python/luftdaten 0.7.4: Python API for interacting with luftdaten.info.
 dev-python/lupupy 0.3.0 0.3.1 0.3.2: A python cli for Lupusec alarm panels.
@@ -722,7 +722,7 @@ dev-python/openevsewifi 1.1.2: A python library for communicating with the ESP82
 dev-python/openhomedevice 2.2: Provides an API for requesting information from an Openhome device
 dev-python/opensensemap-api 0.2.0: Python client for interacting with the openSenseMap API.
 dev-python/openwebifpy 3.2.7 4.0.2 4.2.1 4.2.4: Provides a python interface to interact with a device running OpenWebIf
-dev-python/openwrt-luci-rpc 1.1.16: Module for interacting with OpenWrt Luci RPC interface
+dev-python/openwrt-luci-rpc 1.1.16 1.1.17: Module for interacting with OpenWrt Luci RPC interface
 dev-python/openwrt-ubus-rpc 0.0.2: OpenWrt ubus RPC API library
 dev-python/opower 0.0.39 0.1.0 0.2.0 0.3.1: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
 dev-python/opuslib 3.0.1: Python bindings to the libopus, IETF low-delay audio codec
@@ -895,7 +895,7 @@ dev-python/pyicloud 1.0.0: PyiCloud is a module which allows pythonistas to inte
 dev-python/pyinsteon 1.5.1 1.5.2 1.5.3: Python API for controlling Insteon devices
 dev-python/pyintesishome 1.8.0: A python3 library for running asynchronus communications with IntesisHome Smart AC Controllers
 dev-python/pyipma 3.0.7: Python library to retrieve information from Instituto PortuguÃªs do Mar e Atmosfera
-dev-python/pyipp 0.14.4 0.14.5: Asynchronous Python client for Internet Printing Protocol (IPP).
+dev-python/pyipp 0.14.4 0.14.5 0.15.0: Asynchronous Python client for Internet Printing Protocol (IPP).
 dev-python/pyiqvia 2022.4.0: A clean, async-focused Python3 API for IQVIA data
 dev-python/pyirishrail 0.0.2: Python library to get the real-time transport information (RTPI) from Irish Rail
 dev-python/pyiss 1.0.1: A simple python3 library for info about the current International Space Station location
