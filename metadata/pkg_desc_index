@@ -170,7 +170,7 @@ dev-python/aiomqtt 1.2.1 2.0.0: The idiomatic asyncio MQTT client, wrapped aroun
 dev-python/aiomusiccast 0.14.8: Companion library for musiccast devices intended for the Home Assistant integration.
 dev-python/aionanoleaf 0.2.1: Async Python package for the Nanoleaf API
 dev-python/aionotify 0.2.0: Asyncio-powered inotify library
-dev-python/aionotion 2023.5.5 2024.2.2: A simple Python 3 library for Notion Home Monitoring
+dev-python/aionotion 2023.5.5 2024.2.2 2024.3.0: A simple Python 3 library for Notion Home Monitoring
 dev-python/aionursery 0.3.0: Manage background asyncio tasks
 dev-python/aiooncue 0.3.5: Async for Oncue
 dev-python/aioopenexchangerates 0.4.0: Fetch rates from openexchangerates with aiohttp.
@@ -703,7 +703,7 @@ dev-python/notify-events 1.0.4: Extension to integrate your project with Notify.
 dev-python/nsapi 3.0.5: api wrapper for Dutch Railways (NS)
 dev-python/nsw-fuel-api-client 1.1.0: API Client for NSW Government Fuel
 dev-python/nuheat 1.0.1: Control of connected NuHeat Signature radiant floor thermostats.
-dev-python/numato-gpio 0.10.0: Python API for Numato GPIO Expanders
+dev-python/numato-gpio 0.10.0 0.12.0: Python API for Numato GPIO Expanders
 dev-python/numpy 1.26.0-r1: Fast array and numerical python library
 dev-python/oasatelematics 0.3: Python wrapper for the OASA Telematics API
 dev-python/oauth2client 4.1.3: OAuth 2.0 client library
@@ -929,7 +929,7 @@ dev-python/pymeteoclimatic 0.0.6 0.1.0: A Python wrapper around the Meteoclimati
 dev-python/pymfy 0.11.0: A Somfy Open API library
 dev-python/pymitv 1.4.3: A Python 3 based Xiaomi TV remote
 dev-python/pymochad 0.2.0: A python library for interacting with moch
-dev-python/pymodbus 3.5.4 3.6.3 3.6.4: A fully featured modbus protocol stack in python
+dev-python/pymodbus 3.5.4 3.6.3 3.6.4 3.6.5: A fully featured modbus protocol stack in python
 dev-python/pymonoprice 0.4: Python API for talking to Monoprice 6-zone amplifier
 dev-python/pymsteams 0.1.12: Format messages and post to Microsoft Teams.
 dev-python/pymyq 3.1.4: Python package for controlling MyQ-Enabled Garage Door
@@ -998,7 +998,7 @@ dev-python/pysmarty 0.8: Python API for Salda Smarty Modbus TCP
 dev-python/pysmb 1.2.9.1: pysmb is an experimental SMB/CIFS library written in Python
 dev-python/pysmi-lextudio 1.1.13: A pure-Python implementation of SNMP/SMI MIB parsing and conversion library.
 dev-python/pysml 0.0.12: Python library for EDL21 smart meters using Smart Message Language (SML)
-dev-python/pysnmp-lextudio 5.0.31 6.0.2: pure-Python, open source and free implementation of v1/v2c/v3 SNMP engine
+dev-python/pysnmp-lextudio 5.0.31 6.0.2 6.0.9: pure-Python, open source and free implementation of v1/v2c/v3 SNMP engine
 dev-python/pysnmp-pyasn1 1.1.3: ASN.1 types and codecs
 dev-python/pysnmp-pyasn1-modules 0.2.9: A collection of ASN.1-based protocols modules.
 dev-python/pysnmp-pysmi 1.1.10: PySMI is a pure-Python implementation of SNMP SMI MIB parser. This tool is designed to turn ASN.1 MIBs into various formats.
@@ -1013,7 +1013,7 @@ dev-python/pysuez 0.1.19 0.2.0: Get your water consumption data from your Suez a
 dev-python/pyswitchbee 1.8.0: SwitchBee Python Integration.
 dev-python/pytankerkoenig 0.0.6: Library for Tankerkoenig.de JSON API
 dev-python/pytautulli 23.1.1: Python API wrapper for Tautulli.
-dev-python/pytedee-async 0.2.13 0.2.15: A Tedee Lock Client package
+dev-python/pytedee-async 0.2.13 0.2.15 0.2.16: A Tedee Lock Client package
 dev-python/pytest 7.3.1-r2 7.4.3: Simple powerful testing with Python
 dev-python/pytest-asyncio 0.14.0 0.21.0 0.23.4-r1: Library for testing asyncio code with pytest
 dev-python/pytest-cov 3.0.0-r2: py.test plugin for coverage reporting
@@ -1139,11 +1139,11 @@ dev-python/ring-doorbell 0.7.3 0.8.3-r1 0.8.5 0.8.7: A Python library to communi
 dev-python/ritassist 0.9.2-r1: RitAssist API Access
 dev-python/rjpl 0.3.6: Interface with Rejseplanen API
 dev-python/rocketchat-API 0.6.1: Python API wrapper for Rocket.Chat
-dev-python/rokuecp 0.18.1 0.19.0 0.19.1: Asynchronous Python client for Roku (ECP)
+dev-python/rokuecp 0.18.1 0.19.1 0.19.2: Asynchronous Python client for Roku (ECP)
 dev-python/romy 0.0.7: Python program and library to control Wi-Fi enabled ROMY vacuum cleaners
 dev-python/roombapy 1.6.8 1.6.10 1.6.12 1.6.13: Python program and library to control Wi-Fi enabled iRobot Roombas
 dev-python/roonapi 0.1.5 0.1.6: Provides a python interface to interact with Roon
-dev-python/rova 0.3.0 0.4.0: API wrapper for ROVA calendar
+dev-python/rova 0.3.0 0.4.0 0.4.1: API wrapper for ROVA calendar
 dev-python/rpi-bad-power 0.1.0: A Python library to detect bad power supply on Raspberry Pi
 dev-python/rpi-rf 0.9.7: Send and receive 433/315MHz signals with GPIO RF modules on a Raspberry Pi
 dev-python/rtsp-to-webrtc 0.5.1: Python client library for RTSPtoWeb and RTSPtoWebRTC
