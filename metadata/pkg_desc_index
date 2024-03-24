@@ -1025,7 +1025,7 @@ dev-python/pytest-runner 6.0.0: Invoke py.test as distutils command with depende
 dev-python/pytest-socket 0.6.0 0.7.0: Pytest Plugin to disable socket calls during tests
 dev-python/pytest-sugar 0.9.7: Plugin that changes the default look and feel of pytest
 dev-python/pytest-test-groups 1.0.3: A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups.
-dev-python/pytest-timeout 2.1.0: pytest plugin to abort hanging tests
+dev-python/pytest-timeout 2.1.0 2.2.0: pytest plugin to abort hanging tests
 dev-python/pytest-unordered 0.5.2: Test equality of unordered collections in pytest
 dev-python/pytest-xdist 3.3.1-r1: Distributed testing and loop-on-failing modes
 dev-python/pytfiac 0.4: API for Tfiac AC
