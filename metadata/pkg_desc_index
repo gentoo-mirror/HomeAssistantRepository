@@ -17,7 +17,7 @@ app-misc/node-red 3.0.2 3.1.3: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 1.35.2: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2023.10.6 2023.11.6 2023.12.5 2023.12.9 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20230904.0 20231107.0 20240319.0: ESPHome dashboard
-dev-embedded/platformio 6.1.11 6.1.11-r1: An open source ecosystem for IoT development
+dev-embedded/platformio 6.1.11 6.1.11-r1 6.1.13: An open source ecosystem for IoT development
 dev-libs/libgit2 1.5.2: A linkable library for Git
 dev-libs/protobuf 24.2 24.3 25.1 25.2: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-python/AEMET-OpenData 0.4.6 0.4.7 0.5.1: AEMET OpenData Rest API library
@@ -216,7 +216,6 @@ dev-python/airthings-ble 0.6.1 0.7.1: Manage Airthings BLE devices
 dev-python/airthings-cloud 0.1.0 0.2.0: A python3 library to communicate with Airthings devices
 dev-python/airtouch4pyapi 1.0.5-r1: An api allowing control of AC state (temperature, on/off, mode) of an Airtouch 4 controller locally over TCP
 dev-python/airtouch5py 0.2.8: Python client for the airtouch 5
-dev-python/ajsonrpc 1.2.0: Async JSON-RPC 2.0 protocol + server powered by asyncio
 dev-python/aladdin-connect 0.4: Python API controlling Genie garage doors connected to Aladdin Connect devices
 dev-python/alarmdecoder 1.13.11: Python interface for the AlarmDecoder (AD2) family of alarm devices which includes the AD2USB, AD2SERIAL and AD2PI.
 dev-python/alpha-vantage 2.3.1: Python module to get stock data from the Alpha Vantage Api
@@ -1303,7 +1302,7 @@ dev-python/vincenty 0.1.4: Calculate the geographical distance between 2 points 
 dev-python/voip-utils 0.1.0: Voice over IP Utilities
 dev-python/vol 0.1.1: volume control in the shell for your mac
 dev-python/volkszaehler 0.4.0: Python Wrapper for interacting with the Volkszahler API.
-dev-python/voluptuous 0.13.1-r1: A Python data validation library
+dev-python/voluptuous 0.13.1-r1 0.14.1: A Python data validation library
 dev-python/voluptuous-serialize 2.6.0: Convert voluptuous schemas to dictionaries
 dev-python/volvooncall 0.10.3: Communicate with VOC
 dev-python/vsure 2.6.6: Read and change status of verisure devices through mypages.
