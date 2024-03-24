@@ -1404,6 +1404,9 @@ dev-python/matplotlib:webagg - Enable webagg backend that uses dev-python/tornad
 dev-python/pillow:imagequant - Build with Image Quantization Library support
 dev-python/pure-python-adb:async - Add async support.
 dev-python/pydantic:native-extensions - Compiles native "C" extensions.
+dev-python/pymodbus:repl - install with REPL (Read-Eval-Print Loop) tool.
+dev-python/pymodbus:serial - Add serial support.
+dev-python/pymodbus:simulator - add simulator.
 dev-python/pymysensors:mqtt - Install mqtt client.
 dev-python/python-openzwave-mqtt:async - Add async support.
 dev-python/python-socketio:asyncio_client - install with async client
