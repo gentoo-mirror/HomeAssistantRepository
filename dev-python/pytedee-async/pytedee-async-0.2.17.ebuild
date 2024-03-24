@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A python library to communicate with Risco Cloud."
-HOMEPAGE="https://github.com/OnFreund/PyRisco https://pypi.org/project/pyrisco/"
+DESCRIPTION="A Tedee Lock Client package"
+HOMEPAGE="https://github.com/zweckj/pytedee_async https://pypi.org/project/pytedee-async/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,13 +19,5 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest
