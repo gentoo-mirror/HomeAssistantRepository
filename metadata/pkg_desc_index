@@ -514,7 +514,7 @@ dev-python/ha-philipsjs 3.1.1: jointSPACE API for Home-Assistant
 dev-python/habitipy 0.2.0: tools and library for Habitica restful API (https://habitica.com)
 dev-python/habluetooth 2.0.1 2.1.0 2.4.0 2.4.2: High availability Bluetooth
 dev-python/hangups 0.4.18-r1: the first third-party instant messaging client for Google Hangouts
-dev-python/hass-nabucasa 0.74.0 0.75.1 0.76.0 0.78.0: Home Assistant cloud integration by Nabu Casa, Inc.
+dev-python/hass-nabucasa 0.74.0 0.75.1 0.76.0 0.78.0-r1 0.79.0: Home Assistant cloud integration by Nabu Casa, Inc.
 dev-python/hass-splunk 0.1.1: Async single threaded connector to Splunk HEC using an asyncio session
 dev-python/hassil 1.2.5 1.5.1 1.6.1: The Home Assistant Intent Language parser
 dev-python/haversine 2.8.0 2.8.1: Calculate the distance between 2 points on Earth.
