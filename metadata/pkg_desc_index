@@ -355,6 +355,7 @@ dev-python/crownstone-sse 2.0.4: Asynchronous Python library that listens to Cro
 dev-python/crownstone-uart 2.1.0: Official Python lib for Crownstone: "Crownstone Unified System Bridge", or Crownstone USB implementation
 dev-python/csrmesh 0.10.0: Reverse engineered implementation of the CSRMesh bridge protocol
 dev-python/curlify 2.2.1: Library to convert python requests object to curl command.
+dev-python/cython 0.29.37.1-r1: A Python to C compiler
 dev-python/d2to1 0.2.12_p1: Allows using distutils2-like setup.cfg files for a package's metadata with a distribute/setuptools setup.py
 dev-python/dacite 1.6.0 1.8.1: Simple creation of data classes from dictionaries.
 dev-python/dataclasses-json 0.6.3: Easily serialize dataclasses to and from JSON.
