@@ -1094,7 +1094,7 @@ dev-python/pytradfri 9.0.1: IKEA Tradfri/Tradfri API. Control and observe your l
 dev-python/pytrafikverket 0.3.6 0.3.7 0.3.9.1 0.3.9.2 0.3.10: Retreive values from public API at the Swedish Transport Administration (Trafikverket).
 dev-python/pytrydan 0.4.0: Library to interface with V2C EVSE Trydan
 dev-python/pyudev 0.23.2: Python binding to libudev
-dev-python/pyunifiprotect 4.22.0 4.22.5 4.23.2 4.23.3 5.0.2: Unofficial UniFi Protect Python API and CLI
+dev-python/pyunifiprotect 4.22.0 4.22.5 4.23.2 4.23.3 5.0.2 5.1.2: Unofficial UniFi Protect Python API and CLI
 dev-python/pyuptimerobot 22.2.0: Python API wrapper for Uptime Robot.
 dev-python/pyusb 1.2.1-r2: USB support for Python
 dev-python/pyvera 0.3.13: Python API for talking to Veracontrollers
@@ -1294,11 +1294,11 @@ dev-python/uscisstatus 0.1.1-r1: USCIS Status Checker
 dev-python/user-agents 2.0-r2: A library to identify devices (phones, tablets) and their capabilities by parsing browser user agent strings.
 dev-python/uvcclient 0.11.0: A remote control client for Ubiquiti's UVC NVR
 dev-python/vacuum-map-parser-roborock 0.1.1: Functionalities for Roborock vacuum map parsing
-dev-python/vallox-websocket-api 4.0.2 4.0.3 5.1.0: Vallox WebSocket API
+dev-python/vallox-websocket-api 4.0.2 4.0.3 5.1.0 5.1.1: Vallox WebSocket API
 dev-python/vehicle 2.0.0 2.2.1: Asynchronous Python client providing RDW vehicle information.
 dev-python/velbus-aio 2023.11.0 2023.12.0 2024.4.0: Python Library for the Velbus protocol based on asyncio
 dev-python/venstarcolortouch 0.19: Interface Library for Venstar ColorTouch Thermostat API v5
-dev-python/vilfo-api-client 0.4.1: Simple wrapper client for the Vilfo router API
+dev-python/vilfo-api-client 0.4.1 0.5.0: Simple wrapper client for the Vilfo router API
 dev-python/vincenty 0.1.4: Calculate the geographical distance between 2 points with extreme accuracy.
 dev-python/voip-utils 0.1.0: Voice over IP Utilities
 dev-python/vol 0.1.1: volume control in the shell for your mac
