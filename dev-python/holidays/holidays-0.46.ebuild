@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Client BACnet library for Flexit Nordic series of air handling units."
-HOMEPAGE="https://github.com/piotrbulinski/flexit_bacnet https://pypi.org/project/flexit-bacnet/"
+DESCRIPTION="Generate and work with holidays in Python"
+HOMEPAGE="https://github.com/dr-prodigy/python-holidays https://pypi.org/project/holidays/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -16,5 +16,6 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
-distutils_enable_tests pytest
+DOCS="README.rst"
+
+RDEPEND="dev-python/python-dateutil[${PYTHON_USEDEP}]"
