@@ -1239,7 +1239,7 @@ dev-python/tellsticknet 0.1.2: Listen for UDP sensor broadcasts from a Tellstick
 dev-python/temescal 0.5: Python API for controlling LG speakers
 dev-python/temperusb 1.6.0 1.6.1: Reads temperature from TEMPerV1 devices (USB 0c45:7401)
 dev-python/tenacity 8.0.1-r1: General-purpose retrying library
-dev-python/tesla-fleet-api 0.2.3 0.4.6: Tesla Fleet API library for Python
+dev-python/tesla-fleet-api 0.2.3 0.4.6 0.4.9: Tesla Fleet API library for Python
 dev-python/tesla-powerwall 0.3.19 0.5.1: API for Tesla Powerwall
 dev-python/tesla-wall-connector 1.0.2: API Library for communicating with a Tesla Wall Connector
 dev-python/teslajsonpy 0.18.3: A library to work with Tesla API.
