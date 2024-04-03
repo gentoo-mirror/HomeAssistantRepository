@@ -20,17 +20,17 @@ DOCS="README.md"
 
 RDEPEND="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	>=dev-python/aiosqlite-0.16.0[${PYTHON_USEDEP}]
+	>=dev-python/aiosqlite-0.20.0[${PYTHON_USEDEP}]
 	dev-python/crccheck[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	$(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' python3_10)
 	dev-python/voluptuous[${PYTHON_USEDEP}]
+	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/asynctest[${PYTHON_USEDEP}]
-		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	)"
 
 src_prepare() {
