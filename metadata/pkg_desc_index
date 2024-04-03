@@ -1321,7 +1321,7 @@ dev-python/webexteamssdk 1.1.1: Community-developed Python SDK for the Webex Tea
 dev-python/webmin-xmlrpc 0.0.1: Provides a python interface to interact with the Webmin XML-RPC API.
 dev-python/webrtc-noise-gain 1.2.3: Noise suppression and automatic gain with webrtc
 dev-python/webrtcvad 2.0.10: Python interface to the Google WebRTC Voice Activity Detector (VAD)
-dev-python/whirlpool-sixth-sense 0.18.4: Unofficial API for Whirlpool's 6th Sense appliances
+dev-python/whirlpool-sixth-sense 0.18.4 0.18.7: Unofficial API for Whirlpool's 6th Sense appliances
 dev-python/whois 0.9.27: Python package for retrieving WHOIS information of domains.
 dev-python/wiffi 1.1.2: Python 3 package to interface devices from STALL WIFFI.
 dev-python/wirelesstagpy 0.8.1: Simple python wrapper over wirelesstags REST API
