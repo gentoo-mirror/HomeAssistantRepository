@@ -442,7 +442,7 @@ dev-python/fivem-api 0.1.2: A library to query info, players and resources from 
 dev-python/fixerio 1.0.0_alpha0: A Python client for Fixer.io
 dev-python/fjaraskupan 2.2.0: A python library for speaking to fjäråskupan
 dev-python/flake8-docstrings 1.6.0-r1: Extension for flake8 which uses pydocstyle to check docstrings
-dev-python/flexit-bacnet 2.1.0: Client BACnet library for Flexit Nordic series of air handling units.
+dev-python/flexit-bacnet 2.1.0 2.2.1: Client BACnet library for Flexit Nordic series of air handling units.
 dev-python/flipr-api 1.5.0 1.5.1: Python client for flipr API.
 dev-python/flux-led 1.0.4: A Python library to communicate with the flux_led smart bulbs
 dev-python/fnv-hash-fast 0.4.1 0.5.0: A fast version of fnv1a
@@ -530,10 +530,10 @@ dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hko 0.3.2: An unofficial Python wrapper for public API of Hong Kong Observatory
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
-dev-python/holidays 0.36 0.39 0.43 0.44: Generate and work with holidays in Python
+dev-python/holidays 0.36 0.39 0.43 0.44 0.46: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.10.3 1.10.4 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2023.10.2 2023.12.0 2024.1.0 2024.2.2: Python-base APIs and tools for CHIP.
-dev-python/home-assistant-frontend 20231208.2 20240103.3 20240207.1 20240306.0 20240307.0: The Home Assistant frontend
+dev-python/home-assistant-frontend 20231208.2 20240103.3 20240207.1 20240306.0 20240307.0 20240403.1: The Home Assistant frontend
 dev-python/home-assistant-intents 2023.12.5 2024.1.2-r1 2024.2.2 2024.2.28 2024.3.12: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.15 1.0.16 1.1.0: An API for the homematicip cloud
@@ -725,7 +725,7 @@ dev-python/opensensemap-api 0.2.0: Python client for interacting with the openSe
 dev-python/openwebifpy 3.2.7 4.0.2 4.2.1 4.2.4: Provides a python interface to interact with a device running OpenWebIf
 dev-python/openwrt-luci-rpc 1.1.16 1.1.17: Module for interacting with OpenWrt Luci RPC interface
 dev-python/openwrt-ubus-rpc 0.0.2: OpenWrt ubus RPC API library
-dev-python/opower 0.0.39 0.1.0 0.2.0 0.3.1 0.4.2: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
+dev-python/opower 0.0.39 0.1.0 0.3.1 0.4.2: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
 dev-python/opuslib 3.0.1: Python bindings to the libopus, IETF low-delay audio codec
 dev-python/oralb-ble 0.17.6: Bluetooth library for Oral B devices
 dev-python/orjson 3.9.9: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
