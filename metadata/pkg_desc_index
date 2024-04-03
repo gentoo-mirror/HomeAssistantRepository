@@ -1126,7 +1126,7 @@ dev-python/raspihats 2.2.3: package for controlling raspihats.com boards
 dev-python/raspyrfm-client 1.2.8: A library to send rc signals with the RaspyRFM module
 dev-python/readlike 0.1.2: GNU Readline-like line editing module
 dev-python/refoss-ha 1.2.0: Refoss to support for Home Assistant
-dev-python/regenmaschine 2023.6.0 2024.1.0: A simple API for RainMachine sprinkler controllers
+dev-python/regenmaschine 2023.6.0 2024.1.0 2024.3.0: A simple API for RainMachine sprinkler controllers
 dev-python/regex 2021.8.28: Alternative regular expression module to replace re
 dev-python/related 0.7.2: Related: Straightforward nested object models in Python
 dev-python/renault-api 0.2.0 0.2.1: Renault API
