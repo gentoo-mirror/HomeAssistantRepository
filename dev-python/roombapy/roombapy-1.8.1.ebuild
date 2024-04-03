@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{11..12} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
@@ -20,6 +20,7 @@ DOCS="README.md"
 
 RDEPEND="mqtt? ( >=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}] )
 	>=dev-python/orjson-3.9.13[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.12[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
