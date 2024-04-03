@@ -24,7 +24,6 @@ RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.8.1[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/requests[${PYTHON_USEDEP}]
 	)"
 
