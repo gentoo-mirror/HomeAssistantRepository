@@ -5,12 +5,13 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..12} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="A utility for mocking out the Python HTTPX and HTTP Core libraries."
-HOMEPAGE="https://github.com/lundberg/respx https://pypi.org/project/respx/"
+DESCRIPTION="Test equality of unordered collections in pytest"
+HOMEPAGE="https://github.com/utapyngo/pytest-unordered https://pypi.org/project/pytest-unordered/"
 
-LICENSE="BSD"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,14 +19,7 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/httpx-0.21.0[${PYTHON_USEDEP}]"
 BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+	dev-python/pytest[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
