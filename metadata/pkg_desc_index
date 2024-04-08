@@ -533,7 +533,7 @@ dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.36 0.39 0.43 0.44 0.46: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.10.3 1.10.4 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2023.10.2 2023.12.0 2024.1.0 2024.2.2: Python-base APIs and tools for CHIP.
-dev-python/home-assistant-frontend 20231208.2 20240103.3 20240207.1 20240306.0 20240307.0 20240403.1: The Home Assistant frontend
+dev-python/home-assistant-frontend 20231208.2 20240103.3 20240207.1 20240306.0 20240307.0 20240403.1 20240404.1: The Home Assistant frontend
 dev-python/home-assistant-intents 2023.12.5 2024.1.2-r1 2024.2.2 2024.2.28 2024.3.12 2024.4.3: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.15 1.0.16 1.1.0: An API for the homematicip cloud
@@ -679,7 +679,7 @@ dev-python/mychevy 2.1.1: Python interface to My Chevy online data
 dev-python/mycroftapi 2.0: a library to communicate with Mycroft API
 dev-python/mypermobil 0.1.6 0.1.8: A Python wrapper for the MyPermobil API
 dev-python/mysql-connector-python 8.0.28-r1: Python client library for MariaDB/MySQL
-dev-python/myuplink 0.0.9 0.5.0: API package for myUplink
+dev-python/myuplink 0.0.9 0.5.0 0.6.0: API package for myUplink
 dev-python/nad-receiver 0.3.0: Library to interface with NAD receivers through RS232, TCP and telnet
 dev-python/nclib 1.0.1: Netcat as a library: convienent socket interfaces
 dev-python/ndms2-client 0.1.2: Keenetic NDMS 2.x and 3.x client
@@ -725,7 +725,7 @@ dev-python/opensensemap-api 0.2.0: Python client for interacting with the openSe
 dev-python/openwebifpy 3.2.7 4.0.2 4.2.1 4.2.4: Provides a python interface to interact with a device running OpenWebIf
 dev-python/openwrt-luci-rpc 1.1.16 1.1.17: Module for interacting with OpenWrt Luci RPC interface
 dev-python/openwrt-ubus-rpc 0.0.2: OpenWrt ubus RPC API library
-dev-python/opower 0.0.39 0.1.0 0.3.1 0.4.2: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
+dev-python/opower 0.0.39 0.1.0 0.3.1 0.4.3: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
 dev-python/opuslib 3.0.1: Python bindings to the libopus, IETF low-delay audio codec
 dev-python/oralb-ble 0.17.6: Bluetooth library for Oral B devices
 dev-python/orjson 3.9.9: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
@@ -1142,7 +1142,7 @@ dev-python/ritassist 0.9.2-r1: RitAssist API Access
 dev-python/rjpl 0.3.6: Interface with Rejseplanen API
 dev-python/rocketchat-API 0.6.1: Python API wrapper for Rocket.Chat
 dev-python/rokuecp 0.18.1 0.19.1 0.19.2: Asynchronous Python client for Roku (ECP)
-dev-python/romy 0.0.7: Python program and library to control Wi-Fi enabled ROMY vacuum cleaners
+dev-python/romy 0.0.7 0.0.10: Python program and library to control Wi-Fi enabled ROMY vacuum cleaners
 dev-python/roombapy 1.6.8 1.6.10 1.6.13 1.8.1: Python program and library to control Wi-Fi enabled iRobot Roombas
 dev-python/roonapi 0.1.5 0.1.6: Provides a python interface to interact with Roon
 dev-python/rova 0.3.0 0.4.0 0.4.1: API wrapper for ROVA calendar
@@ -1186,7 +1186,7 @@ dev-python/slixmpp 1.8.4: Python 3 library for XMPP
 dev-python/smart-meter-texas 0.4.7: Package to connect to and retrieve data from the unofficial Smart Meter Texas API
 dev-python/smbus-cffi 0.5.1: SMBus access through the I2C /dev interface on Linux hosts.
 dev-python/smhi-pkg 1.0.16: Gets the weather forecast data from Swedish weather institute
-dev-python/snapcast 2.3.3: Control Snapcast.
+dev-python/snapcast 2.3.3 2.3.6: Control Snapcast.
 dev-python/snitun 0.36.2: SNI proxy with TCP multiplexer
 dev-python/sockio 0.15.0: Concurrency agnostic socket API
 dev-python/soco 0.29.1 0.30.0 0.30.2: SoCo (Sonos Controller) is a simple library to control Sonos speakers.
