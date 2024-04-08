@@ -7,15 +7,14 @@ PYTHON_COMPAT=( python3_{11..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Nobø Hub / Nobø Energy Control TCP/IP Interface"
-HOMEPAGE="https://github.com/echoromeo/pynobo https://pypi.org/project/pynobo/"
+DESCRIPTION="Pure-Python implementation of the blurhash algorithm."
+HOMEPAGE="https://github.com/halcy/blurhash-python https://pypi.org/project/blurhash/"
 
-LICENSE="GPL-3+"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
-
+DOCS="blurhash"
 distutils_enable_tests pytest

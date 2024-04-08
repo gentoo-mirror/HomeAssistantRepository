@@ -6,10 +6,10 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">Mastodon.py</remote-id>
-    <remote-id type="github">halcy/Mastodon.py</remote-id>
+    <remote-id type="pypi">blurhash</remote-id>
+    <remote-id type="github">halcy/blurhash-python</remote-id>
     <maintainer status="unknown">
-      <email>lorenzd+mastodonpypypi@gmail.com</email>
+      <email>lorenzd+blurhashpypi@gmail.com</email>
       <name>Lorenz Diener</name>
     </maintainer>
   </upstream>

@@ -4,18 +4,24 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..12} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Nobø Hub / Nobø Energy Control TCP/IP Interface"
-HOMEPAGE="https://github.com/echoromeo/pynobo https://pypi.org/project/pynobo/"
+DESCRIPTION="Python API for Numato GPIO Expanders"
+HOMEPAGE="https://github.com/clssn/numato-gpio https://pypi.org/project/numato-gpio/"
 
-LICENSE="GPL-3+"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
+
+RDEPEND=">=dev-python/pyserial-3.1.1[${PYTHON_USEDEP}]"
+BDEPEND="
+	test? (
+		dev-python/pytest-xdist[${PYTHON_USEDEP}]
+	)"
 
 distutils_enable_tests pytest

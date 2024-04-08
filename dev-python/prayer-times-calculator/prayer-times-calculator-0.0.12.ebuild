@@ -7,15 +7,17 @@ PYTHON_COMPAT=( python3_{11..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Nobø Hub / Nobø Energy Control TCP/IP Interface"
-HOMEPAGE="https://github.com/echoromeo/pynobo https://pypi.org/project/pynobo/"
+DESCRIPTION="Prayer Times Calculator"
+HOMEPAGE="https://github.com/uchagani/prayer-times-calculator https://pypi.org/project/prayer-times-calculator/"
 
-LICENSE="GPL-3+"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
+#DOCS="README.MD"
+
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
