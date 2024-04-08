@@ -4,10 +4,11 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..12} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
-DESCRIPTION="Async for Oncue"
-HOMEPAGE="https://github.com/bdraco/aiooncue https://pypi.org/project/aiooncue/"
+
+DESCRIPTION="Asyncio Network UPS Tools"
+HOMEPAGE="https://github.com/bdraco/aionut https://pypi.org/project/aionut/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -15,16 +16,12 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
+DOCS="README.md"
 
 BDEPEND="
-	dev-python/pytest-runner[${PYTHON_USEDEP}]
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+		dev-python/pytest-cov[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

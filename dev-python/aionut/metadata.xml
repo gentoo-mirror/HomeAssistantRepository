@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="github">home-assistant-libs/pyprusalink</remote-id>
-    <remote-id type="pypi">pyprusalink</remote-id>
+    <remote-id type="pypi">aionut</remote-id>
+    <remote-id type="github">bdraco/aionut</remote-id>
     <maintainer status="unknown">
-      <email>hello@home-assistant.io</email>
-      <name>The Home Assistant Authors</name>
+      <email>nick@koston.org</email>
+      <name>J. Nick Koston</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

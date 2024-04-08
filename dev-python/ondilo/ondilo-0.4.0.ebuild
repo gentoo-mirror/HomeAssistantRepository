@@ -6,25 +6,20 @@ EAPI=8
 PYTHON_COMPAT=( python3_{11..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Async for Oncue"
-HOMEPAGE="https://github.com/bdraco/aiooncue https://pypi.org/project/aiooncue/"
 
-LICENSE="Apache-2.0"
+DESCRIPTION="A client to access Ondilo ICO APIs"
+HOMEPAGE="https://github.com/JeromeHXP/ondilo https://pypi.org/project/ondilo/"
+
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
+DOCS="README.md"
 
-BDEPEND="
-	dev-python/pytest-runner[${PYTHON_USEDEP}]
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
+	dev-python/oauthlib[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
