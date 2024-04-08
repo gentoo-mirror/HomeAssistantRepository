@@ -582,6 +582,7 @@ app-misc/homeassistant-full:fronius - Add (very basic) Support for Fronius Symo 
 app-misc/homeassistant-full:frontier_silicon - Support for Internet Radios based on the Frontier Silicon chipset
 app-misc/homeassistant-full:fully_kiosk - Fully Kiosk Browser control in Home Assistant
 app-misc/homeassistant-full:futurenow - Allows you to use P5 FutureNow relay/dimmer units as lights
+app-misc/homeassistant-full:fyta - uses the open API of FYTA to obtain the data from your plant sensors
 app-misc/homeassistant-full:garages_amsterdam - measure the occupancy of Amsterdam parking garages in the Netherlands
 app-misc/homeassistant-full:gardena_bluetooth - integrate their Gardena Bluetooth devices into Home Assistant
 app-misc/homeassistant-full:garmin_connect - The Garmin Connect sensor allows you to expose data from Garmin Connect
@@ -806,6 +807,7 @@ app-misc/homeassistant-full:monoprice - Python API for talking to Monoprice 6-zo
 app-misc/homeassistant-full:mopeka - Integrates Mopeka devices into Home Assistant
 app-misc/homeassistant-full:mosquitto - Set a runtime dependency for Mosquitto MQTT broker
 app-misc/homeassistant-full:motion_blinds - control Motion Blinds from Coulisse B.V.
+app-misc/homeassistant-full:motionblinds_ble - adds support for Motionblinds Bluetooth motors
 app-misc/homeassistant-full:motioneye - integrate your motionEye server into Home Assistant
 app-misc/homeassistant-full:motionmount - control the position of your TVM 7675 Pro Signature MotionMount
 app-misc/homeassistant-full:mpd - allows you to control a Music Player Daemon from Home Assistant
@@ -869,6 +871,7 @@ app-misc/homeassistant-full:obihai - view the call status for your Obihai device
 app-misc/homeassistant-full:octoprint - The main integration to integrate OctoPrint sensors
 app-misc/homeassistant-full:oem - ESP8266 based “WiFi MQTT Relay / Thermostat” sold by OpenEnergyMonitor
 app-misc/homeassistant-full:ohmconnect - show you the current OhmConnect status for the given OhmConnect ID
+app-misc/homeassistant-full:ollama - adds a conversation agent in Home Assistant powered by a local Ollama server
 app-misc/homeassistant-full:ombi - The Ombi integration monitors data from your Ombi instance
 app-misc/homeassistant-full:omnilogic - Hayward Onmilogic pool control system
 app-misc/homeassistant-full:oncue - allow you to monitor the state of your Oncue enabled Kohler generator
