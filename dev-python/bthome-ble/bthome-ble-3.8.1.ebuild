@@ -7,10 +7,10 @@ PYTHON_COMPAT=( python3_{11..12} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Watch for DHCP packets with asyncio"
-HOMEPAGE="https://github.com/bdraco/aiodhcpwatcher https://pypi.org/project/aiodhcpwatcher/"
+DESCRIPTION="BThome BLE support"
+HOMEPAGE="https://github.com/bluetooth-devices/bthome-ble https://pypi.org/project/bthome-ble/"
 
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,10 +18,12 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="net-analyzer/scapy[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/bluetooth-sensor-state-data-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-40.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sensor-state-data-2.16.1[${PYTHON_USEDEP}]
+	>=dev-python/bluetooth-data-tools-0.1.2[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
-		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 	)"
 

@@ -6,11 +6,10 @@ EAPI=8
 PYTHON_COMPAT=( python3_{11..12} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
+DESCRIPTION="Recover bluetooth adapters that are in an stuck state"
+HOMEPAGE="https://github.com/bluetooth-devices/bluetooth-auto-recovery https://pypi.org/project/bluetooth-auto-recovery/"
 
-DESCRIPTION="Watch for DHCP packets with asyncio"
-HOMEPAGE="https://github.com/bdraco/aiodhcpwatcher https://pypi.org/project/aiodhcpwatcher/"
-
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,7 +17,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="net-analyzer/scapy[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/PyRIC-0.1.6.3[${PYTHON_USEDEP}]
+	>=dev-python/btsocket-0.2.0[${PYTHON_USEDEP}]
+	>=dev-python/usb-devices-0.4.1[${PYTHON_USEDEP}]
+	>=dev-python/bluetooth-adapters-0.16.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
