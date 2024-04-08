@@ -7,10 +7,10 @@ PYTHON_COMPAT=( python3_{11..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python program and library to control Wi-Fi enabled ROMY vacuum cleaners"
-HOMEPAGE="https://github.com/xeniter/romy https://pypi.org/project/romy/"
+DESCRIPTION="API package for myUplink"
+HOMEPAGE="https://github.com/pajzo/myuplink https://pypi.org/project/myuplink/"
 
-LICENSE="AGPL-3"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,6 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
