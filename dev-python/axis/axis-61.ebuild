@@ -17,10 +17,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+RDEPEND="dev-python/httpx[${PYTHON_USEDEP}]
+	dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
