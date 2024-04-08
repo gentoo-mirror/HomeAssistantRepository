@@ -760,7 +760,7 @@ dev-python/piglow 1.2.4: Drive the Pimoroni PiGlow board, based on the sn3218 i2
 dev-python/pigpio 1.78: Raspberry Pi GPIO module
 dev-python/pilight 0.1.1: Pure python module to connect to a pilight daemon to send and receive commands.
 dev-python/pillow 9.3.0-r1: Python Imaging Library (fork)
-dev-python/pipdeptree 2.11.0 2.13.2: Utility for displaying installed packages in a dependency tree
+dev-python/pipdeptree 2.11.0 2.13.2 2.16.1: Utility for displaying installed packages in a dependency tree
 dev-python/pizzapi 0.0.3: A Python wrapper for the Dominos Pizza API
 dev-python/pkce 1.0.3: PKCE Pyhton generator.
 dev-python/plexauth 0.0.6: Handles the authorization flow to obtain tokens from Plex.tv via external redirection.
@@ -1025,6 +1025,7 @@ dev-python/pytest 7.3.1-r2 7.4.3: Simple powerful testing with Python
 dev-python/pytest-asyncio 0.14.0 0.21.0 0.23.4-r1: Library for testing asyncio code with pytest
 dev-python/pytest-cov 3.0.0-r2: py.test plugin for coverage reporting
 dev-python/pytest-freezer 0.4.6: Pytest plugin providing a fixture interface for spulec/freezegun
+dev-python/pytest-github-actions-annotate-failures 0.2.0: pytest plugin to annotate failed tests with a workflow command for GitHub Actions
 dev-python/pytest-picked 0.4.6 0.5.0: Run the tests related to the changed files
 dev-python/pytest-runner 6.0.0: Invoke py.test as distutils command with dependency resolution
 dev-python/pytest-socket 0.6.0 0.7.0: Pytest Plugin to disable socket calls during tests
@@ -1373,7 +1374,7 @@ dev-python/zlib-ng 0.2.0: Drop-in replacement for zlib and gzip modules using zl
 dev-python/zm-py 0.5.2-r1 0.5.4: A loose python wrapper around the ZoneMinder REST API.
 dev-python/zwave-js-server-python 0.54.0 0.55.2 0.55.3: Python wrapper for zwave-js-server
 dev-python/zwave-me-ws 0.4.3: Library, implementing websocket connection to ZWave-Me
-dev-vcs/pre-commit 3.6.2: A framework for managing and maintaining multi-language Git pre-commit hooks
+dev-vcs/pre-commit 3.6.2 3.7.0: A framework for managing and maintaining multi-language Git pre-commit hooks
 media-libs/lv2 1.18.10: A simple but extensible successor of LADSPA
 net-misc/yt-dlp 2023.09.24 2023.10.13 2023.11.16: youtube-dl fork with additional features and fixes
 sci-geosciences/GeographicLib 1.52-r2: C++ library for converting geographic coordinate systems
