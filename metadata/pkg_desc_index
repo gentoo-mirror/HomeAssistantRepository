@@ -157,20 +157,20 @@ dev-python/aioimaplib 1.0.1: Python asyncio IMAP4rev1 client library
 dev-python/aioitertools 0.11.0: itertools and builtins for AsyncIO and mixed iterables
 dev-python/aiokafka 0.7.2 0.10.0: Kafka integration with asyncio.
 dev-python/aiokef 0.2.16: Asyncio Python API for KEF speakers.
-dev-python/aiolifx 0.8.10 1.0.0: API for local communication with LIFX devices over a LAN with asyncio.
+dev-python/aiolifx 1.0.0: API for local communication with LIFX devices over a LAN with asyncio.
 dev-python/aiolifx-connection 1.0.0: A wrapper for aiolifx to connect to a single LIFX device
 dev-python/aiolifx-effects 0.3.2: aiolifx light effects
-dev-python/aiolifx-themes 0.4.5 0.4.10: Async library that applies color themes to LIFX lights
+dev-python/aiolifx-themes 0.4.10: Async library that applies color themes to LIFX lights
 dev-python/aiolimiter 1.1.0: asyncio rate limiter, a leaky bucket implementation
 dev-python/aiolivisi 0.0.19: Python module to communicate with LIVISI Smart Home Controllers.
 dev-python/aiolookin 1.0.0: Client for interaction of the LOOKin device with the Home Assistant
 dev-python/aiolyric 1.1.0: AIO package for the Honeywell Lyric Platform.
 dev-python/aiomodernforms 0.1.8: Asynchronous Python client for Modern Forms fans.
-dev-python/aiomqtt 1.2.1 2.0.0: The idiomatic asyncio MQTT client, wrapped around paho-mqtt
+dev-python/aiomqtt 2.0.0: The idiomatic asyncio MQTT client, wrapped around paho-mqtt
 dev-python/aiomusiccast 0.14.8: Companion library for musiccast devices intended for the Home Assistant integration.
 dev-python/aionanoleaf 0.2.1: Async Python package for the Nanoleaf API
 dev-python/aionotify 0.2.0: Asyncio-powered inotify library
-dev-python/aionotion 2023.5.5 2024.2.2 2024.3.0: A simple Python 3 library for Notion Home Monitoring
+dev-python/aionotion 2023.5.5 2024.3.0: A simple Python 3 library for Notion Home Monitoring
 dev-python/aionursery 0.3.0: Manage background asyncio tasks
 dev-python/aionut 4.3.2: Asyncio Network UPS Tools
 dev-python/aiooncue 0.3.5 0.3.7: Async for Oncue
@@ -201,19 +201,19 @@ dev-python/aiosqlite 0.17.0: asyncio bridge to the standard sqlite3 module
 dev-python/aiosteamist 0.3.2: Control Steamist steam systems
 dev-python/aioswitcher 3.3.0 3.4.1: Switcher Python Integration.
 dev-python/aiosyncthing 0.5.1: Asynchronous Python client for the Syncthing REST API
-dev-python/aiotankerkoenig 0.3.0 0.4.1: Async Python 3 client for tankerkoenig.de
+dev-python/aiotankerkoenig 0.4.1: Async Python 3 client for tankerkoenig.de
 dev-python/aiotractive 0.5.6: Asynchronous Python client for the Tractive REST API
 dev-python/aiounifi 67 68 71 72 74: An asynchronous Python library for communicating with Unifi Network Controller API
 dev-python/aiounittest 1.4.2: Test asyncio code more easily.
 dev-python/aiovlc 0.1.0: A package for talking to vlc over its telnet interface using asyncio.
 dev-python/aiovodafone 0.4.3 0.5.4: Python library to control Vodafone Station
-dev-python/aiowaqi 2.1.0 3.0.0 3.0.1: Asynchronous Python client for WAQI API.
+dev-python/aiowaqi 3.0.1: Asynchronous Python client for WAQI API.
 dev-python/aiowatttime 0.1.1: An asyncio-based Python3 library for interacting with WattTime
 dev-python/aiowebostv 0.3.3 0.4.0: Library to control webOS based LG TV devices
-dev-python/aiowithings 1.0.2 2.0.0 2.1.0: Asynchronous Python client for Withings.
+dev-python/aiowithings 2.0.0 2.1.0: Asynchronous Python client for Withings.
 dev-python/aioymaps 1.2.2: Async client for Yandex Maps
 dev-python/airly 1.1.0: Python wrapper for getting air quality data from Airly sensors.
-dev-python/airthings-ble 0.6.1 0.7.1: Manage Airthings BLE devices
+dev-python/airthings-ble 0.7.1: Manage Airthings BLE devices
 dev-python/airthings-cloud 0.1.0 0.2.0: A python3 library to communicate with Airthings devices
 dev-python/airtouch4pyapi 1.0.5-r1: An api allowing control of AC state (temperature, on/off, mode) of an Airtouch 4 controller locally over TCP
 dev-python/airtouch5py 0.2.8: Python client for the airtouch 5
@@ -224,7 +224,7 @@ dev-python/ambee 0.4.0: Asynchronous Python client for the Ambee API.
 dev-python/amberelectric 1.0.4 1.1.0: Interface to the Amber Electric API, allowing you to download current and forecast price, as well as download your historic usage.
 dev-python/amcrest 1.9.8: Python wrapper implementation for Amcrest cameras.
 dev-python/amqtt 0.10.1: MQTT client/broker using Python asyncio
-dev-python/androidtv 0.0.72 0.0.73-r1: Communicate with an Android TV or Fire TV device via ADB over a network.
+dev-python/androidtv 0.0.73-r1: Communicate with an Android TV or Fire TV device via ADB over a network.
 dev-python/androidtvremote2 0.0.14: A Python library for interacting with Android TV using the Android TV Remote protocol v2
 dev-python/anel-pwrctrl-homeassistant 0.0.1: Discover and control ANEL NET-PwrCtrl devices.
 dev-python/anova-wifi 0.10.0: A package to get read only data from Anova precision cookers with wifi
@@ -233,7 +233,7 @@ dev-python/anyio 4.0.0 4.1.0: Compatibility layer for multiple asynchronous even
 dev-python/apcaccess 0.0.13: This project implements the apcaccess tool in pure Python and provides
 dev-python/apischema 0.18.1: JSON (de)serialization, GraphQL and JSON schema generation using Python typing.
 dev-python/apns2 0.3.0: Interacting with the Apple Push Notification Service via HTTP/2 protocol
-dev-python/apple_weatherkit 1.0.4 1.1.2: Python client for Apple WeatherKit API
+dev-python/apple_weatherkit 1.1.2: Python client for Apple WeatherKit API
 dev-python/apprise 1.6.0 1.7.2: Push Notifications that work with just about every platform!
 dev-python/aprslib 0.7.0: Module for accessing APRS-IS and parsing APRS packets
 dev-python/aqipy-atmotech 0.1.5: AQI calculation library
@@ -269,7 +269,7 @@ dev-python/aurorapy 0.2.7: Python implementation of Aurora Protocol
 dev-python/av 9.2.0: Pythonic bindings for FFmpeg's libraries.
 dev-python/avea 1.5.1: Control an Elgato Avea bulb using python3
 dev-python/avion 0.10: Python API for controlling Avi-on Bluetooth dimmers
-dev-python/awesomeversion 23.8.0 23.11.0 24.2.0: One version package to rule them all, One version package to find them, One version package to bring them all, and in the darkness bind them.
+dev-python/awesomeversion 23.11.0 24.2.0: One version package to rule them all, One version package to find them, One version package to bring them all, and in the darkness bind them.
 dev-python/axis 48 58 60 61: A Python library for communicating with devices from Axis Communications
 dev-python/backports-strenum 1.2.8: Base class for creating enumerated constants that are also subclasses of str
 dev-python/baidu-aip 1.6.6.0: Baidu AIP SDK
@@ -277,9 +277,9 @@ dev-python/base36 0.1.1: Yet another implementation for the positional numeral s
 dev-python/batinfo 0.4.2: A simple Python module to retrieve battery information
 dev-python/bcrypt 4.0.1: Modern password hashing for software and servers
 dev-python/beacontools 2.1.0: A Python library for working with various types of Bluetooth LE Beacons.
-dev-python/beautifulsoup4 4.11.1 4.12.2: Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree
+dev-python/beautifulsoup4 4.12.2: Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree
 dev-python/beewi-smartclim 0.0.10: Library to read data from BeeWi SmartClim sensor using Bluetooth LE
-dev-python/bellows 0.37.1 0.37.4 0.37.6 0.38.0 0.38.1: Library implementing EZSP
+dev-python/bellows 0.37.1 0.37.6 0.38.0 0.38.1: Library implementing EZSP
 dev-python/bidict 0.22.0: The bidirectional mapping library for Python.
 dev-python/bimmer-connected 0.14.1 0.14.2 0.14.3 0.14.6-r1: Library to read data from the BMW Connected Drive portal
 dev-python/bitstruct 8.17.0: This module performs conversions between Python values and C bit field structs represented as Python byte strings.
