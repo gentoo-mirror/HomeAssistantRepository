@@ -22,7 +22,7 @@ dev-libs/libgit2 1.5.2: A linkable library for Git
 dev-libs/protobuf 24.2 24.3 25.1 25.2: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-python/AEMET-OpenData 0.4.6 0.4.7 0.5.1: AEMET OpenData Rest API library
 dev-python/AIOAladdinConnect 0.1.58: Python Async API for controlling Genie garage doors connected to Aladdin Connect devices
-dev-python/AIOSomecomfort 0.0.17 0.0.22 0.0.24 0.0.25: A client for Honeywell's US-based cloud devices
+dev-python/AIOSomecomfort 0.0.24 0.0.25: A client for Honeywell's US-based cloud devices
 dev-python/Adafruit-Blinka 7.1.1: CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython.
 dev-python/Adafruit-GPIO 1.0.3: GPIO interface on the Raspberry Pi.
 dev-python/Adafruit-PureIO 1.1.9: Pure python (i.e. no native extensions) access to Linux IO including I2C and SPI. Drop in replacement for smbus and spidev modules.
