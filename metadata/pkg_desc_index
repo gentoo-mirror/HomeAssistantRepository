@@ -499,27 +499,27 @@ dev-python/graphql-core 3.3.0_alpha2: GraphQL implementation for Python, a port 
 dev-python/greeclimate 1.4.1: Discover, connect and control Gree based minisplit systems
 dev-python/greeneye-monitor 3.0.3: Receive data packets from GreenEye Monitor (https://www.brultech.com/greeneye/)
 dev-python/greenwavereality 0.5.1: Control of Greenwave Reality Lights
-dev-python/gridnet 4.2.0 5.0.0: Asynchronous Python client for a NET2GRID devices
+dev-python/gridnet 5.0.0: Asynchronous Python client for a NET2GRID devices
 dev-python/growattServer 1.3.0: A package to talk to growatt server
 dev-python/grpc-google-iam-v1 0.12.4: GRPC library for the google-iam-v1 service
-dev-python/grpcio 1.58.0 1.59.0: High-performance RPC framework (python libraries)
-dev-python/grpcio-reflection 1.58.0 1.59.0: Standard Protobuf Reflection Service for gRPC
-dev-python/grpcio-status 1.58.0 1.59.0: Status proto mapping for gRPC
+dev-python/grpcio 1.59.0: High-performance RPC framework (python libraries)
+dev-python/grpcio-reflection 1.59.0: Standard Protobuf Reflection Service for gRPC
+dev-python/grpcio-status 1.59.0: Status proto mapping for gRPC
 dev-python/gspread 5.5.0: Google Spreadsheets Python API
 dev-python/gstreamer-player 1.1.2: Python 3 wrapper for playing media via gstreamer
-dev-python/guppy3 3.1.3 3.1.4 3.1.4_p1: Guppy 3 -- Guppy-PE ported to Python 3
+dev-python/guppy3 3.1.4: Guppy 3 -- Guppy-PE ported to Python 3
 dev-python/ha-HAP-python 4.5.2: HomeKit Accessory Protocol implementation in python
 dev-python/ha-av 10.1.1: Pythonic bindings for FFmpeg's libraries.
 dev-python/ha-ffmpeg 3.1.0 3.2.0: A library that handling with ffmpeg for home-assistant
 dev-python/ha-iotawattpy 0.1.1: Python library for the IoTaWatt Energy device
 dev-python/ha-philipsjs 3.1.1: jointSPACE API for Home-Assistant
 dev-python/habitipy 0.2.0: tools and library for Habitica restful API (https://habitica.com)
-dev-python/habluetooth 2.0.1 2.1.0 2.4.0 2.4.2: High availability Bluetooth
+dev-python/habluetooth 2.0.1 2.4.0 2.4.2: High availability Bluetooth
 dev-python/hangups 0.4.18-r1: the first third-party instant messaging client for Google Hangouts
-dev-python/hass-nabucasa 0.74.0 0.75.1 0.76.0 0.78.0-r1 0.79.0: Home Assistant cloud integration by Nabu Casa, Inc.
+dev-python/hass-nabucasa 0.75.1 0.76.0 0.78.0-r1 0.79.0: Home Assistant cloud integration by Nabu Casa, Inc.
 dev-python/hass-splunk 0.1.1: Async single threaded connector to Splunk HEC using an asyncio session
-dev-python/hassil 1.2.5 1.5.1 1.6.1: The Home Assistant Intent Language parser
-dev-python/haversine 2.8.0 2.8.1: Calculate the distance between 2 points on Earth.
+dev-python/hassil 1.5.1 1.6.1: The Home Assistant Intent Language parser
+dev-python/haversine 2.8.1: Calculate the distance between 2 points on Earth.
 dev-python/hbmqtt 0.9.5: MQTT client/broker using Python 3.4 asyncio library
 dev-python/hdate 0.10.4: Jewish/Hebrew date and Zmanim in native Python
 dev-python/heatmiserV3 1.1.18: A library to interact with Heatmiser Themostats using V3
@@ -532,34 +532,34 @@ dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hko 0.3.2: An unofficial Python wrapper for public API of Hong Kong Observatory
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
-dev-python/holidays 0.36 0.39 0.43 0.44 0.46: Generate and work with holidays in Python
-dev-python/home-assistant-bluetooth 1.10.3 1.10.4 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
+dev-python/holidays 0.39 0.43 0.44 0.46: Generate and work with holidays in Python
+dev-python/home-assistant-bluetooth 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2023.10.2 2023.12.0 2024.1.0 2024.2.2: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20240103.3 20240207.1 20240307.0 20240404.1 20240404.2: The Home Assistant frontend
-dev-python/home-assistant-intents 2023.12.5 2024.1.2-r1 2024.2.2 2024.2.28 2024.3.12 2024.4.3: Intents for Home Assistant
+dev-python/home-assistant-intents 2024.1.2-r1 2024.2.2 2024.3.12 2024.4.3: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
-dev-python/homematicip 1.0.15 1.0.16 1.1.0: An API for the homematicip cloud
+dev-python/homematicip 1.0.16 1.1.0: An API for the homematicip cloud
 dev-python/homepluscontrol 0.0.5: Python-based API to interact with the Legrand Home + Control interface
 dev-python/horimote 0.4.1: Async API wrapper for Samsumgs set-top boxes SMT-G7400 and SMT-G7401.
 dev-python/http-ece 1.1.0: Encrypted Content Encoding for HTTP
-dev-python/httpcore 0.18.0 1.0.2 1.0.4: A minimal low-level HTTP client
+dev-python/httpcore 1.0.2 1.0.4: A minimal low-level HTTP client
 dev-python/httplib2 0.20.4: A comprehensive HTTP client library
 dev-python/httpsig 1.3.0: Secure HTTP request signing using the HTTP Signature draft specification
-dev-python/httpx 0.25.0 0.26.0: Fully-featured HTTP client which provides sync and async APIs
-dev-python/huawei-lte-api 1.6.11 1.7.3: API For huawei LAN/WAN LTE Modems
+dev-python/httpx 0.26.0: Fully-featured HTTP client which provides sync and async APIs
+dev-python/huawei-lte-api 1.7.3: API For huawei LAN/WAN LTE Modems
 dev-python/huisbaasje-client 0.1.0: Client for Huisbaasje
 dev-python/huum 0.7.10: Python library for Huum saunas
 dev-python/hyper 0.7.0: HTTP/2 Client for Python
 dev-python/hyperion-py 0.7.5: Hyperion Ambient Lighting Python Package
-dev-python/hyundai-kia-connect-api 3.10.8 3.11.4 3.12.0 3.17.5: This is a Kia UVO and Hyundai Bluelink written in python for Homeassistant
+dev-python/hyundai-kia-connect-api 3.12.0 3.17.5: This is a Kia UVO and Hyundai Bluelink written in python for Homeassistant
 dev-python/i2csense 0.0.4: A library to handle i2c sensors with the Raspberry Pi
-dev-python/iammeter 0.1.7 0.2.1: IamMeter api
+dev-python/iammeter 0.2.1: IamMeter api
 dev-python/iaqualink 0.5.0: Asynchronous library for Jandy iAqualink
 dev-python/ibeacon-ble 1.0.1 1.2.0: Parser for iBeacon devices
 dev-python/ibm-cloud-sdk-core 3.11.3: Core library used by SDKs for IBM Cloud Services
 dev-python/ibm-watson 5.2.2: Client library to use the IBM Watson Services
 dev-python/ibmiotf 0.3.4: Python Client for IBM Watson IoT Platform
-dev-python/ical 6.1.0 6.1.1 7.0.0 7.0.1 7.0.3: Python iCalendar implementation (rfc 2445)
+dev-python/ical 6.1.1 7.0.3: Python iCalendar implementation (rfc 2445)
 dev-python/icmplib 3.0 3.0.4: Easily forge ICMP packets and make your own ping and traceroute.
 dev-python/idasen 0.10.3: ikea IDASEN desk API and CLI.
 dev-python/idasen-ha 2.4 2.5 2.5.1: Home Assistant helper lib for the IKEA Idasen Desk integration
@@ -643,7 +643,6 @@ dev-python/lxml 4.9.1: A Pythonic binding for the libxml2 and libxslt libraries
 dev-python/lyft_rides 0.2: Unofficial Lyft Rides API Python SDK
 dev-python/mac-vendor-lookup 0.1.12: Find the vendor for a given MAC address
 dev-python/magicseaweed 1.0.3: Provides API wrapper to magicseaweed.com.
-dev-python/mariadb 1.0.11 1.1.6: Python MariaDB extension
 dev-python/marshmallow-dataclass 8.5.9: Python library to convert dataclasses into marshmallow schemas.
 dev-python/mashumaro 3.11 3.12: Fast and well tested serialization library
 dev-python/matplotlib 3.6.1: Pure python plotting library with matlab like syntax
