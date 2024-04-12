@@ -868,13 +868,13 @@ dev-python/pyecoforest 0.4.0: Python library for ecoforest local device.
 dev-python/pyeconet 0.1.22: Interface to the unofficial EcoNet API
 dev-python/pyedimax 0.2.1: Interface with Edimax Smart Plugs
 dev-python/pyefergy 22.1.1: An API library for Efergy energy meters.
-dev-python/pyenphase 1.14.3 1.15.2 1.19.0 1.19.2 1.20.1: Library to control enphase envoy
+dev-python/pyenphase 1.15.2 1.19.0 1.19.2 1.20.1: Library to control enphase envoy
 dev-python/pyenvisalink 4.6: A python3 library for running asynchronus communications with envisalink alarm control panel modules.
 dev-python/pyephember 0.3.1: Python library to work with ember from EPH Controls
 dev-python/pyeverlights 0.1.0: A library for controlling an EverLights lighting system.
 dev-python/pyevilgenius 2.0.0: Python module to talk to Evil Genius Labs devices.
 dev-python/pyezviz 0.2.1.2: Pilot your Ezviz cameras
-dev-python/pyfibaro 0.7.2 0.7.6: Simple API to access fibaro home center from any Python 3 script. Designed for Home Assistant (but not only)
+dev-python/pyfibaro 0.7.6: Simple API to access fibaro home center from any Python 3 script. Designed for Home Assistant (but not only)
 dev-python/pyfido 2.1.2: Get your Fido consumption (wwww.fido.ca)
 dev-python/pyfireservicerota 0.0.43: Python 3 API wrapper for FireServiceRota/BrandweerRooster
 dev-python/pyflexit 0.3: Flexit CI66 helper library
@@ -890,17 +890,17 @@ dev-python/pygtfs 0.1.9: Models GTFS data in a database.
 dev-python/pygti 0.9.4: access public transport information in hamburg, germany.
 dev-python/pyhaversion 22.8.0: Get the latest Home Assistant version from various sources.
 dev-python/pyheos 0.7.2: An async python library for controlling HEOS devices through the HEOS CLI Protocol
-dev-python/pyhiveapi 0.5.14 0.5.16: A Python library to interface with the Hive API
+dev-python/pyhiveapi 0.5.16: A Python library to interface with the Hive API
 dev-python/pyhomematic 0.1.77: Homematic interface
 dev-python/pyhomeworks 0.0.6: Lutron Homeworks Series 4 and 8 interface over Ethernet
 dev-python/pyhumps 3.5.0-r1: Convert strings (and dictionary keys) between snake case, camel case and pascal case in Python. Inspired by Humps for Node
 dev-python/pyialarm 2.2.0: A simple library to interface with iAlarm systems, built for use with Home-Assistant
 dev-python/pyialarmxr-homeassistant 1.0.18: A simple library to interface with iAlarmXR systems, built for use with Home Assistant
 dev-python/pyicloud 1.0.0: PyiCloud is a module which allows pythonistas to interact with iCloud webservices.
-dev-python/pyinsteon 1.5.1 1.5.2 1.5.3: Python API for controlling Insteon devices
+dev-python/pyinsteon 1.5.2 1.5.3: Python API for controlling Insteon devices
 dev-python/pyintesishome 1.8.0: A python3 library for running asynchronus communications with IntesisHome Smart AC Controllers
 dev-python/pyipma 3.0.7: Python library to retrieve information from Instituto PortuguÃªs do Mar e Atmosfera
-dev-python/pyipp 0.14.4 0.14.5 0.15.0: Asynchronous Python client for Internet Printing Protocol (IPP).
+dev-python/pyipp 0.14.4 0.15.0: Asynchronous Python client for Internet Printing Protocol (IPP).
 dev-python/pyiqvia 2022.4.0: A clean, async-focused Python3 API for IQVIA data
 dev-python/pyirishrail 0.0.2: Python library to get the real-time transport information (RTPI) from Irish Rail
 dev-python/pyiss 1.0.1: A simple python3 library for info about the current International Space Station location
@@ -911,7 +911,7 @@ dev-python/pykaleidescape 1.0.1: A python client library for the Kaleidescape Sy
 dev-python/pykira 0.1.1: Communicate with Kira IR-IP modules
 dev-python/pykmtronic 0.3.0: Python library to interface with KM Tronic Web Relays
 dev-python/pykodi 0.2.7-r1: An async python interface for Kodi over JSON-RPC.
-dev-python/pykoplenti 1.0.0 1.2.2: Python REST-Client for Kostal Plenticore Solar Inverters
+dev-python/pykoplenti 1.2.2: Python REST-Client for Kostal Plenticore Solar Inverters
 dev-python/pykrakenapi 0.1.8: A Python implementation of the Kraken API.
 dev-python/pykulersky 0.5.2: Library to control Brightech Kuler Sky Bluetooth LED smart lamps
 dev-python/pykwb 0.0.8: KWB Easyfire serial library, for inclusion into homeassistant
@@ -921,7 +921,7 @@ dev-python/pylaunches 1.4.0: A python packages to get information form upcoming 
 dev-python/pylgnetcast 0.3.7: Client for the LG Smart TV running NetCast 3 or 4.
 dev-python/pylibrespot-java 0.1.1: Python Interface for librespot-java
 dev-python/pylint-per-file-ignores 1.2.1 1.3.2: A pylint plugin to ignore error codes per file.
-dev-python/pylitejet 0.5.0 0.6.2: A library for controlling a LiteJet lighting system.
+dev-python/pylitejet 0.6.2: A library for controlling a LiteJet lighting system.
 dev-python/pylitterbot 2023.4.9 2023.4.11: Python package for controlling Whisker automatic robots.
 dev-python/pyloopenergy 0.2.1: Access Loop Energy energy monitors via Socket.IO API
 dev-python/pylutron 0.2.8 0.2.12: Python library for Lutron RadioRA 2
@@ -946,7 +946,7 @@ dev-python/pynetio 0.1.9.1: Binding library for Koukaam netio devices
 dev-python/pynobo 1.6.0 1.8.0 1.8.1: NobÃ¸ Hub / NobÃ¸ Energy Control TCP/IP Interface
 dev-python/pynuki 1.6.2 1.6.3: Python bindings for nuki.io bridges
 dev-python/pynut2 2.1.2: A Python abstraction class to access NUT servers.
-dev-python/pynws 1.5.1 1.6.0: Python library to retrieve observations and forecasts from NWS/NOAA
+dev-python/pynws 1.6.0: Python library to retrieve observations and forecasts from NWS/NOAA
 dev-python/pynx584 0.5: NX584/NX8E Interface Library and Server
 dev-python/pynzbgetapi 0.2.0: Basic Python NZBGet API client.
 dev-python/pyobihai 1.4.2: A Python wrapper for Obihai
@@ -969,10 +969,10 @@ dev-python/pypca 0.0.7: A python cli for PCA 301 smart plugs.
 dev-python/pypck 0.7.17: LCN-PCK library
 dev-python/pypjlink2 1.2.1: PJLink is a standard for controlling data projectors.
 dev-python/pyplaato 0.0.18: Asynchronous Python client for getting Plaato Airlock and Keg data
-dev-python/pypoint 2.3.0 2.3.2: API for Minut Point
+dev-python/pypoint 2.3.2: API for Minut Point
 dev-python/pyprof2calltree 1.4.5: Help visualize profiling data from cProfile with kcachegrind and qcachegrind
 dev-python/pyprosegur 0.0.9: Unofficial Python library to interface with Prosegur Alarmes PT/ES.
-dev-python/pyprusalink 1.1.0 2.0.0 2.1.1: Library to interact with PrusaLink v2
+dev-python/pyprusalink 2.0.0 2.1.1: Library to interact with PrusaLink v2
 dev-python/pyps4-2ndscreen 1.3.1: PS4 2nd Screen Python Library
 dev-python/pyqrcode 1.2.1-r3: A pure Python QR code generator with SVG, EPS, PNG and terminal output
 dev-python/pyqvrpro 0.52: QVR Pro API wrapper.
@@ -981,7 +981,7 @@ dev-python/pyrail 0.0.3: Python wrapper for the iRail API
 dev-python/pyrainbird 4.0.1 4.0.2: Rain Bird Controller
 dev-python/pyrecswitch 1.0.2: A pure-python interface for controlling Ankuoo RecSwitch MS6126
 dev-python/pyrepetierng 0.1.0-r1: A updated python Repetier-Server library based on Mtrabs library
-dev-python/pyrisco 0.5.7 0.5.8 0.5.10 0.6.0: A python library to communicate with Risco Cloud.
+dev-python/pyrisco 0.5.8 0.5.10 0.6.0: A python library to communicate with Risco Cloud.
 dev-python/pyrituals 0.0.6-r1: Async Python wrapper for the Rituals Perfume Genie API
 dev-python/pyroute2 0.7.5: A pure Python netlink and Linux network configuration library
 dev-python/pyrympro 0.0.7: A python library to communicate with Read Your Meter Pro.
@@ -1082,7 +1082,6 @@ dev-python/python-singleton 0.1.2: Singleton Metaclass.
 dev-python/python-slugify 4.0.1 8.0.1: A Python Slugify application that handles Unicode
 dev-python/python-smarttub 0.0.33 0.0.35 0.0.36: API to query and control hot tubs using the SmartTub system
 dev-python/python-sochain-api 0.0.2: Python API for interacting with chain.so.
-dev-python/python-socketio 4.6.0-r2 5.3.0-r1: Socket.IO server
 dev-python/python-songpal 0.15 0.15.2 0.16 0.16.1: Python library for interfacing with Sony's Songpal devices
 dev-python/python-tado 0.15.0 0.17.0 0.17.3 0.17.4: PyTado -- Pythonize your central heating
 dev-python/python-technove 1.2.1 1.2.2: Asynchronous Python client for TechnoVE.
