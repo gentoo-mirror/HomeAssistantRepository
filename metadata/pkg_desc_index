@@ -1294,13 +1294,13 @@ dev-python/upb-lib 0.5.4: Library for interacting with UPB PIM.
 dev-python/upcloud-api 2.0.0: UpCloud API Client
 dev-python/uplink 0.9.7: A Declarative HTTP Client for Python.
 dev-python/uplink-protobuf 0.1.0: Protocol Buffers (Protobuf) support for Uplink.
-dev-python/usb-devices 0.4.1 0.4.5: Tools for mapping, describing, and resetting USB devices
+dev-python/usb-devices 0.4.5: Tools for mapping, describing, and resetting USB devices
 dev-python/uscisstatus 0.1.1-r1: USCIS Status Checker
 dev-python/user-agents 2.0-r2: A library to identify devices (phones, tablets) and their capabilities by parsing browser user agent strings.
 dev-python/uvcclient 0.11.0: A remote control client for Ubiquiti's UVC NVR
 dev-python/vacuum-map-parser-roborock 0.1.1: Functionalities for Roborock vacuum map parsing
 dev-python/vallox-websocket-api 4.0.2 4.0.3 5.1.0 5.1.1: Vallox WebSocket API
-dev-python/vehicle 2.0.0 2.2.1: Asynchronous Python client providing RDW vehicle information.
+dev-python/vehicle 2.2.1: Asynchronous Python client providing RDW vehicle information.
 dev-python/velbus-aio 2023.11.0 2023.12.0 2024.4.0 2024.4.1: Python Library for the Velbus protocol based on asyncio
 dev-python/venstarcolortouch 0.19: Interface Library for Venstar ColorTouch Thermostat API v5
 dev-python/vilfo-api-client 0.4.1 0.5.0: Simple wrapper client for the Vilfo router API
@@ -1312,7 +1312,7 @@ dev-python/voluptuous 0.13.1-r1 0.14.1: A Python data validation library
 dev-python/voluptuous-serialize 2.6.0: Convert voluptuous schemas to dictionaries
 dev-python/volvooncall 0.10.3: Communicate with VOC
 dev-python/vsure 2.6.6: Read and change status of verisure devices through mypages.
-dev-python/vtjp 0.1.14 0.2.1: Vasttrafik API
+dev-python/vtjp 0.2.1: Vasttrafik API
 dev-python/vulcan-api 2.3.0 2.3.2: Nieoficjalne API do dzienniczka elektronicznego UONET+
 dev-python/vultr 0.1.2: Vultr.com API Client
 dev-python/wakeonlan 2.1.0: A small python module for wake on lan.
@@ -1321,7 +1321,7 @@ dev-python/waqiasync 1.0.0: asyncio-friendly python API for aqicn.org
 dev-python/warrant-lite 1.0.4-r1: Small Python library for process SRP requests for AWS Cognito.
 dev-python/watchdog 2.3.1: Python API and shell utilities to monitor file system events
 dev-python/waterfurnace 1.1.0: Python interface for waterfurnace geothermal systems
-dev-python/weatherflow4py 0.1.12 0.1.17 0.2.17 0.2.20: Simple Python library used by Home Assistant to interact with the WeatherFlow RESTApi
+dev-python/weatherflow4py 0.1.17 0.2.20: Simple Python library used by Home Assistant to interact with the WeatherFlow RESTApi
 dev-python/webexteamssdk 1.1.1: Community-developed Python SDK for the Webex Teams APIs
 dev-python/webmin-xmlrpc 0.0.1 0.0.2: Provides a python interface to interact with the Webmin XML-RPC API.
 dev-python/webrtc-noise-gain 1.2.3: Noise suppression and automatic gain with webrtc
@@ -1331,11 +1331,11 @@ dev-python/whois 0.9.27: Python package for retrieving WHOIS information of doma
 dev-python/wiffi 1.1.2: Python 3 package to interface devices from STALL WIFFI.
 dev-python/wirelesstagpy 0.8.1: Simple python wrapper over wirelesstags REST API
 dev-python/withings-api 2.4.0: Library for the Withings API
-dev-python/wled 0.16.0 0.17.0: Asynchronous Python client for WLED.
+dev-python/wled 0.17.0: Asynchronous Python client for WLED.
 dev-python/wolf-comm 0.0.6: A package to communicate with Wolf SmartSet Cloud
 dev-python/wolf-smartset 0.1.11: A package to communicate with Wolf Smart Set Cloud
 dev-python/wolf_smartset 0.1.11: A package to comunicate with Wolf Smart Set Cloud
-dev-python/wyoming 1.4.0 1.5.2 1.5.3: Protocol for Rhasspy Voice Assistant
+dev-python/wyoming 1.5.3: Protocol for Rhasspy Voice Assistant
 dev-python/xbee-helper 0.0.7: a high level API to an XBee device
 dev-python/xbox-webapi 2.0.11: A library to authenticate with Windows Live/Xbox Live and use their API
 dev-python/xboxapi 2.0.1: A wrapper library for XboxAPI.com
@@ -1348,9 +1348,9 @@ dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontro
 dev-python/yagrc 1.1.2: Yet another gRPC reflection client
 dev-python/yalesmartalarmclient 0.3.9: Interact with Yale Smart Alarm systems
 dev-python/yalexs 1.10.0 1.11.2 1.11.4 2.0.0: Python API for Yale Access (formerly August) Smart Lock and Doorbell
-dev-python/yalexs-ble 2.3.2 2.4.0 2.4.1 2.4.2: Bluetooth control of Yale and August locks
+dev-python/yalexs-ble 2.4.0 2.4.1 2.4.2: Bluetooth control of Yale and August locks
 dev-python/yarl 1.9.2: Yet another URL library
-dev-python/yeelight 0.7.13 0.7.14: A Python library for controlling YeeLight RGB bulbs.
+dev-python/yeelight 0.7.14: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
 dev-python/yolink-api 0.3.4 0.3.6 0.3.7 0.4.1 0.4.2: A library to authenticate with yolink device
 dev-python/youless-api 1.0.1: A bridge for python to the YouLess sensor
@@ -1360,17 +1360,17 @@ dev-python/zeep 4.2.1: A modern/fast Python SOAP client based on lxml / requests
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs
 dev-python/zeroconf 0.128.5: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-python/zeversolar 0.3.1: Simple Python wrapper for the local CGI provided by ZeverSolar
-dev-python/zha-quirks 0.0.107 0.0.108 0.0.109 0.0.111 0.0.112 0.0.113 0.0.114: Library implementing Zigpy quirks for ZHA in Home Assistant
+dev-python/zha-quirks 0.0.109 0.0.111 0.0.112 0.0.113 0.0.114: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9 1.0.12: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
-dev-python/zigpy 0.60.0 0.60.4 0.62.3 0.63.4 0.63.5: Library implementing a ZigBee stack
-dev-python/zigpy-deconz 0.22.0 0.22.3 0.22.4 0.23.0 0.23.1: A library which communicates with Deconz radios for zigpy
-dev-python/zigpy-xbee 0.18.3 0.19.0 0.20.0 0.20.1: A library which communicates with XBee radios for zigpy
-dev-python/zigpy-zigate 0.11.0 0.12.0: A library which communicates with ZiGate radios for zigpy
-dev-python/zigpy-znp 0.11.6-r1 0.12.0 0.12.1: A library for zigpy which communicates with TI ZNP radios
+dev-python/zigpy 0.60.4 0.62.3 0.63.4 0.63.5: Library implementing a ZigBee stack
+dev-python/zigpy-deconz 0.22.4 0.23.0 0.23.1: A library which communicates with Deconz radios for zigpy
+dev-python/zigpy-xbee 0.20.1: A library which communicates with XBee radios for zigpy
+dev-python/zigpy-zigate 0.12.0: A library which communicates with ZiGate radios for zigpy
+dev-python/zigpy-znp 0.12.1: A library for zigpy which communicates with TI ZNP radios
 dev-python/zlib-ng 0.2.0: Drop-in replacement for zlib and gzip modules using zlib-ng
 dev-python/zm-py 0.5.2-r1 0.5.4: A loose python wrapper around the ZoneMinder REST API.
-dev-python/zwave-js-server-python 0.54.0 0.55.2 0.55.3: Python wrapper for zwave-js-server
+dev-python/zwave-js-server-python 0.55.2 0.55.3: Python wrapper for zwave-js-server
 dev-python/zwave-me-ws 0.4.3: Library, implementing websocket connection to ZWave-Me
 dev-vcs/pre-commit 3.6.2 3.7.0: A framework for managing and maintaining multi-language Git pre-commit hooks
 media-libs/lv2 1.18.10: A simple but extensible successor of LADSPA
