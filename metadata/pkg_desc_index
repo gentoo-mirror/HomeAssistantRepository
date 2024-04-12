@@ -1060,15 +1060,15 @@ dev-python/python-http-client 3.3.2: HTTP REST client, simplified for Python
 dev-python/python-izone 1.2.9: A python interface to the iZone airconditioner controller
 dev-python/python-join-api 0.0.9: Python API for interacting with Join by joaoapps.
 dev-python/python-juicenet 1.1.0: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
-dev-python/python-kasa 0.5.3 0.5.4 0.6.2.1: Python API for TP-Link Kasa Smarthome devices
-dev-python/python-matter-server 5.0.0-r1 5.1.1 5.5.0 5.7.0: Python Matter WebSocket Server
+dev-python/python-kasa 0.5.4 0.6.2.1: Python API for TP-Link Kasa Smarthome devices
+dev-python/python-matter-server 5.1.1 5.5.0 5.7.0: Python Matter WebSocket Server
 dev-python/python-metar 1.4.0: Metar - a package to parse METAR coded weather reports
 dev-python/python-miio 0.5.12: Python library for interfacing with Xiaomi smart appliances
 dev-python/python-mpd2 3.0.5: A Python MPD client library
 dev-python/python-myq 3.1.13: Python package for controlling MyQ-Enabled Garage Door.
 dev-python/python-mystrom 2.2.0: Python API for interacting with myStrom devices
 dev-python/python-nest 4.2.0: Python API and command line tool for talking to the Nest Thermostat
-dev-python/python-opendata-transport 0.3.0 0.4.0: Python API for interacting with transport.opendata.ch.
+dev-python/python-opendata-transport 0.4.0: Python API for interacting with transport.opendata.ch.
 dev-python/python-opensky 0.2.1 1.0.0: Asynchronous Python client for Opensky API.
 dev-python/python-openzwave-mqtt 1.4.0: Converts MQTT messages from qt-openzwave into Python objects and events
 dev-python/python-otbr-api 2.5.0 2.6.0: API to interact with an OTBR via its REST API
