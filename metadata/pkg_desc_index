@@ -777,7 +777,7 @@ dev-python/protobuf-python 4.24.3-r1 4.25.1 4.25.2: Google's Protocol Buffers - 
 dev-python/proxmoxer 2.0.1: Python Wrapper for the Proxmox 2.x API (HTTP and SSH)
 dev-python/psutil 5.9.2: Retrieve information on running processes and system utilization
 dev-python/psutil-home-assistant 0.0.1: Wrapper for psutil to allow it to be used several times in the same process.
-dev-python/pubnub 6.4.1 7.4.2: PubNub Real-time push service in the cloud
+dev-python/pubnub 7.4.2: PubNub Real-time push service in the cloud
 dev-python/pubnubsub-handler 1.0.9: Handles the PubNub subscriptions between PubNub and Home-Assistant for Wink
 dev-python/pulsectl 20.2.4: Python high-level interface and ctypes-based bindings for PulseAudio (libpulse)
 dev-python/pure-pcapy3 1.0.1-r1: Pure Python reimplementation of pcapy. This package is API compatible and a drop-in replacement.
@@ -785,16 +785,16 @@ dev-python/pure-python-adb 0.3.0-r2: Pure python implementation of the adb clien
 dev-python/push-receiver 0.1.1: subscribe to GCM/FCM and receive notifications
 dev-python/pushbullet-py 0.11.0: A simple python client for pushbullet.com
 dev-python/pushover_complete 1.1.1: A Python package for interacting with *all* aspects of the Pushover API
-dev-python/pvo 1.0.0 2.0.0 2.1.1: Asynchronous client for the PVOutput API.
+dev-python/pvo 2.1.1: Asynchronous client for the PVOutput API.
 dev-python/pwmled 1.6.10: Control LEDs connected to a micro controller using pwm.
-dev-python/py-aosmith 1.0.1 1.0.4 1.0.8: A Python client library for A. O. Smith water heaters
+dev-python/py-aosmith 1.0.1 1.0.8: A Python client library for A. O. Smith water heaters
 dev-python/py-canary 0.5.3: Python API for Canary Security Camera
 dev-python/py-ccm15 0.0.9: A package to control Midea CCM15 data converter modules
 dev-python/py-cpuinfo 8.0.0: Get CPU info with pure Python 2 & 3
 dev-python/py-dormakaba-dkey 1.0.5: API to interact with a Dormakaba dkey lock via bluetooth
 dev-python/py-improv-ble-client 1.0.3: API to provision devices which implement Improv via BLE
 dev-python/py-melissa-climate 2.1.4: Api wrapper for Melissa Climate https://seemelissa.com
-dev-python/py-nextbusnext 0.1.5 1.0.2: Minimalistic Python client for the NextBus public API for real-time transit arrival data
+dev-python/py-nextbusnext 1.0.2: Minimalistic Python client for the NextBus public API for real-time transit arrival data
 dev-python/py-nightscout 1.2.2: A library that provides a Python async interface to Nightscout
 dev-python/py-schluter 0.1.7: Python API for Schluter DITRA-HEAT thermostat
 dev-python/py-sucks 0.9.8 0.9.9: a library for controlling certain robot vacuums
@@ -806,7 +806,7 @@ dev-python/py3rijndael 0.3.3: Rijndael algorithm library for Python3.
 dev-python/pyAtome 0.1.1: Get your energy consumption from Atome Linky device
 dev-python/pyCEC 0.5.2: Provide HDMI CEC devices as objects, especially for use with Home Assistant
 dev-python/pyControl4 1.1.0: Python 3 asyncio package for interacting with Control4 systems
-dev-python/pyDuotecno 2023.11.1 2024.1.1 2024.1.2 2024.3.2: Open-source home automation platform running on Python 3.
+dev-python/pyDuotecno 2024.1.1 2024.1.2 2024.3.2: Open-source home automation platform running on Python 3.
 dev-python/pyEight 0.3.2: Provides a python api to interact with an Eight Sleep mattress cover.
 dev-python/pyElectra 1.2.0: Electra Smart Python Integration.
 dev-python/pyEmby 1.9: Provides a python interface to interact with a Emby media server.
@@ -826,10 +826,10 @@ dev-python/pyalmond 0.0.2: Python module to talk to the Web Almond API.
 dev-python/pyaprilaire 0.7.0: a library to interact with Aprilaire thermostats
 dev-python/pyarlo 0.2.4: Python Arlo is a library written in Python 2.7/3x that exposes the Netgear Arlo cameras as Python objects.
 dev-python/pyasn1 0.4.8-r2: ASN.1 library for Python
-dev-python/pyasuswrt 0.1.20 0.1.21: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/ using protocol HTTP
+dev-python/pyasuswrt 0.1.21: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/ using protocol HTTP
 dev-python/pyatag 0.3.5.3: Python module to talk to Atag One.
-dev-python/pyatmo 7.6.0 8.0.1 8.0.2 8.0.3: Simple API to access Netatmo weather station data from any Python 3 script. Designed for Home Assistant (but not only)
-dev-python/pyatv 0.13.4 0.14.3: A client library for Apple TV and AirPlay devices
+dev-python/pyatmo 8.0.2 8.0.3: Simple API to access Netatmo weather station data from any Python 3 script. Designed for Home Assistant (but not only)
+dev-python/pyatv 0.14.3: A client library for Apple TV and AirPlay devices
 dev-python/pyaussiebb 0.0.15: Aussie Broadband API module
 dev-python/pybalboa 1.0.1: Module to communicate with a Balboa spa wifi adapter.
 dev-python/pybbox 0.0.5_alpha0: a simple python3 library for the Bouygues BBox Routeur API
@@ -838,9 +838,9 @@ dev-python/pybluez 0.22-r1: Bluetooth Python extension module
 dev-python/pybotvac 0.0.24 0.0.25: Python package for controlling Neato pybotvac Connected vacuum robot
 dev-python/pybravia 0.3.3: Python async library for remote control of Sony Bravia TVs 2013 and newer.
 dev-python/pycarwings2 2.14: Python library for interacting with the Nissan Leaf Carwings telematics service
-dev-python/pycfdns 2.0.1 3.0.0: Update Cloudflare DNS A-records.
+dev-python/pycfdns 3.0.0: Update Cloudflare DNS A-records.
 dev-python/pychannels 1.2.3: API client for the Channels app - https://getchannels.com
-dev-python/pychromecast 13.0.8 13.1.0-r1 14.0.0 14.0.1: Python module to talk to Google Chromecast
+dev-python/pychromecast 13.0.8 13.1.0-r1 14.0.1: Python module to talk to Google Chromecast
 dev-python/pycketcasts 1.0.1: Interact with PocketCast's unofficial API
 dev-python/pyclimacell 0.18.2: Async Python3.7+ package to access the ClimaCell API
 dev-python/pycmus 0.1.1: A python cmus remote library
@@ -850,7 +850,7 @@ dev-python/pycomfoconnect 0.5.1: Python interface for the Zehnder ComfoConnect L
 dev-python/pycoolmasternet-async 0.1.5: A python library to control CoolMasterNet HVAC bridges over asyncio.
 dev-python/pycountry-convert 0.7.2: Extension of Python package pycountry providing conversion functions.
 dev-python/pycrc16 0.1.2: Library for calculating CRC16
-dev-python/pycryptodomex 3.19.0 3.19.1 3.20.0: Cryptographic library for Python
+dev-python/pycryptodomex 3.20.0: Cryptographic library for Python
 dev-python/pycsspeechtts 1.0.8: Python 3 interface to Microsoft Cognitive Services Text To Speech
 dev-python/pycups 1.9.73-r3: Python bindings for the CUPS API
 dev-python/pydaikin 2.11.1: Python Daikin HVAC appliances interface
@@ -864,8 +864,8 @@ dev-python/pydoods 1.0.2: A Python wrapper for the DOODS image detection service
 dev-python/pydrawise 2023.11.0 2024.1.0 2024.3.0: Python API for interacting with Hydrawise sprinkler controllers.
 dev-python/pydroid-ipcam 2.0.0: Library for handling the Android IP Webcam app
 dev-python/pyebox 1.1.4: Get your EBox consumption (wwww.ebox.ca)
-dev-python/pyecoforest 0.3.0 0.4.0: Python library for ecoforest local device.
-dev-python/pyeconet 0.1.20 0.1.22: Interface to the unofficial EcoNet API
+dev-python/pyecoforest 0.4.0: Python library for ecoforest local device.
+dev-python/pyeconet 0.1.22: Interface to the unofficial EcoNet API
 dev-python/pyedimax 0.2.1: Interface with Edimax Smart Plugs
 dev-python/pyefergy 22.1.1: An API library for Efergy energy meters.
 dev-python/pyenphase 1.14.3 1.15.2 1.19.0 1.19.2 1.20.1: Library to control enphase envoy
