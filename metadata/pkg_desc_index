@@ -543,7 +543,7 @@ dev-python/homematicip 1.0.15 1.0.16 1.1.0: An API for the homematicip cloud
 dev-python/homepluscontrol 0.0.5: Python-based API to interact with the Legrand Home + Control interface
 dev-python/horimote 0.4.1: Async API wrapper for Samsumgs set-top boxes SMT-G7400 and SMT-G7401.
 dev-python/http-ece 1.1.0: Encrypted Content Encoding for HTTP
-dev-python/httpcore 0.18.0 1.0.2: A minimal low-level HTTP client
+dev-python/httpcore 0.18.0 1.0.2 1.0.4: A minimal low-level HTTP client
 dev-python/httplib2 0.20.4: A comprehensive HTTP client library
 dev-python/httpsig 1.3.0: Secure HTTP request signing using the HTTP Signature draft specification
 dev-python/httpx 0.25.0 0.26.0: Fully-featured HTTP client which provides sync and async APIs
@@ -734,7 +734,7 @@ dev-python/openwrt-ubus-rpc 0.0.2: OpenWrt ubus RPC API library
 dev-python/opower 0.0.39 0.1.0 0.3.1 0.4.3: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
 dev-python/opuslib 3.0.1: Python bindings to the libopus, IETF low-delay audio codec
 dev-python/oralb-ble 0.17.6: Bluetooth library for Oral B devices
-dev-python/orjson 3.9.9: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
+dev-python/orjson 3.9.9 3.9.15: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
 dev-python/oru 0.1.11: Python client for Orange and Rockland Utility smart energy meters
 dev-python/orvibo 1.1.1 1.1.2: Control Orvibo products.
 dev-python/oscrypto 1.3.0: TLS (SSL) sockets, key generation, encryption, decryption, signing, verification and KDFs using the OS crypto libraries.
@@ -1379,7 +1379,7 @@ dev-vcs/pre-commit 3.6.2 3.7.0: A framework for managing and maintaining multi-l
 media-libs/lv2 1.18.10: A simple but extensible successor of LADSPA
 net-misc/yt-dlp 2023.09.24 2023.10.13 2023.11.16: youtube-dl fork with additional features and fixes
 sci-geosciences/GeographicLib 1.52-r2: C++ library for converting geographic coordinate systems
-sci-geosciences/aranet4 2.2.2 2.2.3: Aranet4 and Aranet2 Python client
+sci-geosciences/aranet4 2.2.2 2.3.3: Aranet4 and Aranet2 Python client
 sci-geosciences/geopy 2.1.0 2.3.0-r2: Python client for several popular geocoding web services
 sci-libs/tensorflow 2.5.0-r3: Computation framework using data flow graphs for scalable machine learning
 sys-libs/tdb 1.4.10: Simple database API
