@@ -1404,6 +1404,7 @@ dev-python/httpx:cli - Install the CLI "httpx" client.
 dev-python/matplotlib:excel - Pull dev-python/xlwt for the exceltools toolkit
 dev-python/matplotlib:gtk3 - Enable x11-libs/gtk+:3 support
 dev-python/matplotlib:webagg - Enable webagg backend that uses dev-python/tornado
+dev-python/pandas:full-support - Pull all packages to give pandas full support
 dev-python/pillow:imagequant - Build with Image Quantization Library support
 dev-python/pure-python-adb:async - Add async support.
 dev-python/pydantic:native-extensions - Compiles native "C" extensions.
