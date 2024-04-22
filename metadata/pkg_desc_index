@@ -1076,6 +1076,7 @@ dev-python/python-singleton 0.1.2: Singleton Metaclass.
 dev-python/python-slugify 4.0.1 8.0.1: A Python Slugify application that handles Unicode
 dev-python/python-smarttub 0.0.36: API to query and control hot tubs using the SmartTub system
 dev-python/python-sochain-api 0.0.2: Python API for interacting with chain.so.
+dev-python/python-socketio 4.6.0-r2: Socket.IO server
 dev-python/python-songpal 0.16 0.16.1: Python library for interfacing with Sony's Songpal devices
 dev-python/python-tado 0.17.0 0.17.4: PyTado -- Pythonize your central heating
 dev-python/python-technove 1.2.2: Asynchronous Python client for TechnoVE.
