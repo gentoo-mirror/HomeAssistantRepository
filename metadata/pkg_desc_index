@@ -1131,6 +1131,7 @@ dev-python/related 0.7.2: Related: Straightforward nested object models in Pytho
 dev-python/renault-api 0.2.1: Renault API
 dev-python/renson-endura-delta 1.7.1: Unofficial Renson endura delta Python library
 dev-python/reolink-aio 0.8.5 0.8.8 0.8.9: Reolink NVR/cameras API package
+dev-python/requests-mock 1.11.0: Mock out responses from the requests package
 dev-python/requests-oauth 0.4.1: Hook for adding Open Authentication support to Python-requests HTTP library.
 dev-python/respx 0.21.0: A utility for mocking out the Python HTTPX and HTTP Core libraries.
 dev-python/rfk101py 0.0.1: RFK101 Proximity card reader over Ethernet
