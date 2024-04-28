@@ -204,7 +204,7 @@ dev-python/aioswitcher 3.3.0 3.4.1: Switcher Python Integration.
 dev-python/aiosyncthing 0.5.1: Asynchronous Python client for the Syncthing REST API
 dev-python/aiotankerkoenig 0.4.1: Async Python 3 client for tankerkoenig.de
 dev-python/aiotractive 0.5.6: Asynchronous Python client for the Tractive REST API
-dev-python/aiounifi 67 68 71 72 74: An asynchronous Python library for communicating with Unifi Network Controller API
+dev-python/aiounifi 67 68 71 72 74 75: Python library for communicating with UniFi Network Controller API
 dev-python/aiounittest 1.4.2: Test asyncio code more easily.
 dev-python/aiovlc 0.1.0: A package for talking to vlc over its telnet interface using asyncio.
 dev-python/aiovodafone 0.4.3 0.5.4: Python library to control Vodafone Station
@@ -235,7 +235,7 @@ dev-python/apcaccess 0.0.13: This project implements the apcaccess tool in pure 
 dev-python/apischema 0.18.1: JSON (de)serialization, GraphQL and JSON schema generation using Python typing.
 dev-python/apns2 0.3.0: Interacting with the Apple Push Notification Service via HTTP/2 protocol
 dev-python/apple_weatherkit 1.1.2: Python client for Apple WeatherKit API
-dev-python/apprise 1.6.0 1.7.2: Push Notifications that work with just about every platform!
+dev-python/apprise 1.6.0 1.7.2 1.7.4: Push Notifications that work with just about every platform!
 dev-python/aprslib 0.7.0: Module for accessing APRS-IS and parsing APRS packets
 dev-python/aqipy-atmotech 0.1.5: AQI calculation library
 dev-python/aqualogic 2.6: Library for interfacing with a Hayward/Goldline AquaLogic/ProLogic pool controller.
@@ -1128,7 +1128,7 @@ dev-python/refoss-ha 1.2.0: Refoss to support for Home Assistant
 dev-python/regenmaschine 2023.6.0 2024.1.0 2024.3.0: A simple API for RainMachine sprinkler controllers
 dev-python/regex 2021.8.28: Alternative regular expression module to replace re
 dev-python/related 0.7.2: Related: Straightforward nested object models in Python
-dev-python/renault-api 0.2.1: Renault API
+dev-python/renault-api 0.2.1 0.2.2: Renault API
 dev-python/renson-endura-delta 1.7.1: Unofficial Renson endura delta Python library
 dev-python/reolink-aio 0.8.5 0.8.8 0.8.9: Reolink NVR/cameras API package
 dev-python/requests-mock 1.11.0: Mock out responses from the requests package
