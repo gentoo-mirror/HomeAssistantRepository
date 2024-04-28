@@ -44,7 +44,7 @@ dev-python/Hydrawiser 0.2: A Python library to communicate with Hunter Wi-Fi irr
 dev-python/Mastodon-py 1.5.1 1.8.1: Python wrapper for the Mastodon API
 dev-python/OPi-GPIO 0.5.2: A drop-in replacement for RPi.GPIO for the Orange Pi Zero
 dev-python/Pint 0.22: Physical quantities module
-dev-python/PlexAPI 4.15.4 4.15.7 4.15.10 4.15.11 4.15.12: Python bindings for the Plex API.
+dev-python/PlexAPI 4.15.7 4.15.10 4.15.11 4.15.12: Python bindings for the Plex API.
 dev-python/ProgettiHWSW 0.1.3: Controls ProgettiHWSW relay boards.
 dev-python/PsychroLib 2.5.0: Library of psychrometric functions to calculate thermodynamic properties of air
 dev-python/PyDispatcher 2.0.5: Multi-producer-multi-consumer signal dispatching mechanism
