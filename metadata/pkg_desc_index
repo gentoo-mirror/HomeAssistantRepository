@@ -306,7 +306,7 @@ dev-python/bme680 1.0.5: Python library for driving the Pimoroni BME680 Breakout
 dev-python/bond-api 0.1.16: Asynchronous Python wrapper library over Bond Local API
 dev-python/bond-async 0.2.1: Asynchronous Python wrapper library over Bond Local API
 dev-python/boschshcpy 0.2.75 0.2.82: Bosch Smart Home Controller API Python Library
-dev-python/boto3 1.28.17 1.33.13: The AWS SDK for Python
+dev-python/boto3 1.33.13 1.34.51: The AWS SDK for Python
 dev-python/bravia-tv 1.0.11: Python Bravia TV remote control
 dev-python/bring-api 0.5.6 0.5.7: Unofficial package to access Bring! shopping lists API.
 dev-python/broadlink 0.18.3: Python API for controlling Broadlink devices
@@ -1344,7 +1344,7 @@ dev-python/xmltodict 0.12.0-r1: Makes working with XML feel like you are working
 dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontrol XS1 Gateway
 dev-python/yagrc 1.1.2: Yet another gRPC reflection client
 dev-python/yalesmartalarmclient 0.3.9: Interact with Yale Smart Alarm systems
-dev-python/yalexs 1.10.0 1.11.2 1.11.4 2.0.0 3.0.1: Python API for Yale Access (formerly August) Smart Lock and Doorbell
+dev-python/yalexs 1.11.4 2.0.0 3.0.1: Python API for Yale Access (formerly August) Smart Lock and Doorbell
 dev-python/yalexs-ble 2.4.0 2.4.1 2.4.2: Bluetooth control of Yale and August locks
 dev-python/yarl 1.9.2: Yet another URL library
 dev-python/yeelight 0.7.14: A Python library for controlling YeeLight RGB bulbs.
