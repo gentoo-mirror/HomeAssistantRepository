@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pynws</remote-id>
-    <remote-id type="github">MatthewFlamm/pynws</remote-id>
+    <remote-id type="pypi">sanix</remote-id>
+    <remote-id type="github">tomaszsluszniak/sanix_py</remote-id>
     <maintainer status="unknown">
-      <email>matthewhflamm0@gmail.com</email>
-      <name>Matthew Flamm</name>
+      <email>tomasz.sluszniak@gmail.com</email>
+      <name>Tomasz Słuszniak</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
