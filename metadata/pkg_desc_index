@@ -515,7 +515,7 @@ dev-python/guppy3 3.1.4 3.1.4_p1: Guppy 3 -- Guppy-PE ported to Python 3
 dev-python/ha-HAP-python 4.5.2: HomeKit Accessory Protocol implementation in python
 dev-python/ha-av 10.1.1: Pythonic bindings for FFmpeg's libraries.
 dev-python/ha-ffmpeg 3.1.0 3.2.0: A library that handling with ffmpeg for home-assistant
-dev-python/ha-iotawattpy 0.1.1: Python library for the IoTaWatt Energy device
+dev-python/ha-iotawattpy 0.1.1 0.1.2: Python library for the IoTaWatt Energy device
 dev-python/ha-philipsjs 3.1.1: jointSPACE API for Home-Assistant
 dev-python/habitipy 0.2.0: tools and library for Habitica restful API (https://habitica.com)
 dev-python/habluetooth 2.0.1 2.4.0 2.4.2: High availability Bluetooth
