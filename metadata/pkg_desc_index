@@ -345,6 +345,7 @@ dev-python/config 0.5.1: A hierarchical, easy-to-use, powerful configuration mod
 dev-python/connect-box 0.2.8: Python client for interacting with Compal CH7465LG devices.
 dev-python/connio 0.2.0: Concurrency agnostic socket API
 dev-python/construct 2.10.68: A powerful declarative parser for binary data
+dev-python/construct-typing 0.6.2: Extension for the python package 'construct' that adds typing features
 dev-python/convertdate 2.4.0: Converts between Gregorian dates and other calendar systems.
 dev-python/coronavirus 1.1.1: Asynchronous Python client for getting Corona virus info.
 dev-python/coverage 7.3.4: Code coverage measurement for Python
@@ -424,6 +425,7 @@ dev-python/epicstore-api 0.1.7: An API wrapper for Epic Games Store written in P
 dev-python/epion 0.0.3: A python API wrapper for Epion Air senor data
 dev-python/epson-projector 0.5.1: Epson projector support for Python
 dev-python/epsonprinter 0.0.9: Communication package for Epson Workforce printer
+dev-python/eq3btsmart 1.1.6: Python library that allows interaction with eQ-3 Bluetooth smart thermostats.
 dev-python/esphome-dashboard-api 1.2.3: API to interact with ESPHome Dashboard
 dev-python/esprima 4.0.1: ECMAScript parsing infrastructure for multipurpose analysis in Python
 dev-python/eternalegypt 0.0.16: Netgear LTE modem API
