@@ -416,7 +416,7 @@ dev-python/energyzero 2.1.0: Asynchronous Python client providing energy/gas pri
 dev-python/enocean 0.50.1: EnOcean serial protocol implementation
 dev-python/enturclient 0.2.4: An API client for public transport data from Entur.
 dev-python/enum-compat 0.0.3: enum/enum34 compatibility package
-dev-python/env-canada 0.6.0: A package to access meteorological data from Environment Canada
+dev-python/env-canada 0.6.0 0.6.2: A package to access meteorological data from Environment Canada
 dev-python/envirophat 0.0.6: Enviro pHAT environmental sensor board driver
 dev-python/envoy-reader 0.20.1: A program to read from an Enphase Envoy on the local network
 dev-python/envoy-utils 0.0.1: Python utilities for the Enphase Envoy
@@ -876,7 +876,7 @@ dev-python/pyecoforest 0.4.0: Python library for ecoforest local device.
 dev-python/pyeconet 0.1.22: Interface to the unofficial EcoNet API
 dev-python/pyedimax 0.2.1: Interface with Edimax Smart Plugs
 dev-python/pyefergy 22.1.1: An API library for Efergy energy meters.
-dev-python/pyenphase 1.15.2 1.19.0 1.19.2 1.20.1: Library to control enphase envoy
+dev-python/pyenphase 1.19.2 1.20.1 1.20.3: Library to control enphase envoy
 dev-python/pyenvisalink 4.6: A python3 library for running asynchronus communications with envisalink alarm control panel modules.
 dev-python/pyephember 0.3.1: Python library to work with ember from EPH Controls
 dev-python/pyeverlights 0.1.0: A library for controlling an EverLights lighting system.
@@ -1381,7 +1381,7 @@ dev-python/zwave-me-ws 0.4.3: Library, implementing websocket connection to ZWav
 dev-vcs/pre-commit 3.6.2 3.7.0: A framework for managing and maintaining multi-language Git pre-commit hooks
 media-libs/lv2 1.18.10: A simple but extensible successor of LADSPA
 net-misc/yt-dlp 2023.09.24 2023.10.13 2023.11.16: youtube-dl fork with additional features and fixes
-sci-geosciences/GeographicLib 1.52-r2: C++ library for converting geographic coordinate systems
+sci-geosciences/GeographicLib 1.52-r3: C++ library for converting geographic coordinate systems
 sci-geosciences/aranet4 2.2.2 2.3.3: Aranet4 and Aranet2 Python client
 sci-geosciences/geopy 2.1.0 2.3.0-r2: Python client for several popular geocoding web services
 sci-libs/tensorflow 2.5.0-r3: Computation framework using data flow graphs for scalable machine learning
