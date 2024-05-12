@@ -578,7 +578,7 @@ dev-python/influxdb 5.3.1: InfluxDB client
 dev-python/influxdb-client 1.24.0: InfluxDB 2.0 Python client library
 dev-python/inkbird-ble 0.5.6: Parser for INKBIRD BLE devices
 dev-python/inquirerpy 0.3.4: Python port of Inquirer.js (A collection of common interactive command-line user interfaces)
-dev-python/insteon-frontend-home-assistant 0.4.0: The Insteon frontend for Home Assistant
+dev-python/insteon-frontend-home-assistant 0.4.0 0.5.0: The Insteon frontend for Home Assistant
 dev-python/intel-amt 0.9.0: Tools for interacting with Intel's AMT
 dev-python/intellifire4py 2.2.2: An API to read the status of an intellifire wifi module
 dev-python/iotawattpy 0.1.0: Python library for the IoTaWatt Energy device
