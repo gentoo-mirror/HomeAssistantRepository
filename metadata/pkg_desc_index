@@ -143,7 +143,7 @@ dev-python/aioesphomeapi 21.0.1 21.0.2 23.0.0 23.2.0 24.3.0: Python API for inte
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.21.3: ftp client/server for asyncio
-dev-python/aiogithubapi 22.10.1: Asynchronous Python client for the GitHub API
+dev-python/aiogithubapi 22.10.1 23.11.0: Asynchronous Python client for the GitHub API
 dev-python/aioguardian 2022.7.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aiohappyeyeballs 2.3.1: Happy Eyeballs
 dev-python/aioharmony 0.2.10: Asyncio Python library for connecting to and controlling the Logitech Harmony
@@ -480,7 +480,7 @@ dev-python/georss-qld-bushfire-alert-client 0.5 0.7: A GeoRSS client library for
 dev-python/getmac 0.8.2 0.9.4: Get MAC addresses of remote hosts and local interfaces
 dev-python/gios 3.2.2 4.0.0: Python wrapper for getting air quality data from GIOS servers.
 dev-python/gitterpy 0.1.7: Python interface for the Gitter API
-dev-python/glances-api 0.5.0: Python API for interacting with Glances.
+dev-python/glances-api 0.5.0 0.6.0: Python API for interacting with Glances.
 dev-python/gntp 1.0.3: Growl Notification Transport Protocol for Python
 dev-python/goalzero 0.2.2: Goal Zero REST Api Library
 dev-python/goodwe 0.2.32: Read data from GoodWe inverter via local network
