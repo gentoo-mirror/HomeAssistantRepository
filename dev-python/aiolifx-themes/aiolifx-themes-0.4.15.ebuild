@@ -4,11 +4,11 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Client for the LG Smart TV running NetCast 3 or 4."
-HOMEPAGE="https://github.com/Drafteed/python-lgnetcast https://pypi.org/project/pylgnetcast/"
+DESCRIPTION="Async library that applies color themes to LIFX lights"
+HOMEPAGE="https://github.com/Djelibeybi/aiolifx-themes https://pypi.org/project/aiolifx-themes/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,6 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiolifx-1.0.0[${PYTHON_USEDEP}]"
+BDEPEND="
+	test? (
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	)"
 
 distutils_enable_tests pytest
