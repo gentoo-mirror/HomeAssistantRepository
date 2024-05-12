@@ -819,7 +819,7 @@ dev-python/pyElectra 1.2.0: Electra Smart Python Integration.
 dev-python/pyEmby 1.9: Provides a python interface to interact with a Emby media server.
 dev-python/pyFortiManagerAPI 0.2.3: A Python wrapper for the FortiManager REST API
 dev-python/pyHik 0.3.2: Provides a python api to interact with a Hikvision camera event stream and toggle motion detection.
-dev-python/pyRFXtrx 0.30.1 0.31.0: a library to communicate with the RFXtrx family of devices
+dev-python/pyRFXtrx 0.31.0 0.31.1: a library to communicate with the RFXtrx family of devices
 dev-python/pySDCP 1: SDCP library to control Sony Projectors
 dev-python/pyTibber 0.28.2: A python3 library to communicate with Tibber
 dev-python/pyW215 0.7.0: Interface for d-link W215 Smart Plugs.
@@ -988,7 +988,7 @@ dev-python/pyrail 0.0.3: Python wrapper for the iRail API
 dev-python/pyrainbird 4.0.1 4.0.2: Rain Bird Controller
 dev-python/pyrecswitch 1.0.2: A pure-python interface for controlling Ankuoo RecSwitch MS6126
 dev-python/pyrepetierng 0.1.0-r1: A updated python Repetier-Server library based on Mtrabs library
-dev-python/pyrisco 0.5.8 0.5.10 0.6.0: A python library to communicate with Risco Cloud.
+dev-python/pyrisco 0.5.10 0.6.0 0.6.1: A python library to communicate with Risco Cloud.
 dev-python/pyrituals 0.0.6-r1: Async Python wrapper for the Rituals Perfume Genie API
 dev-python/pyroute2 0.7.5: A pure Python netlink and Linux network configuration library
 dev-python/pyrympro 0.0.7: A python library to communicate with Read Your Meter Pro.
@@ -1077,7 +1077,7 @@ dev-python/python-picnic-api 1.1.0: Unofficial Python wrapper for the Picnic API
 dev-python/python-qbittorrent 0.4.3: Python wrapper for qBittorrent >4.1.x
 dev-python/python-rabbitair 0.0.8: Python library for local control of Rabbit Air air purifiers
 dev-python/python-ripple-api 0.0.3: Python API for interacting with ripple.com.
-dev-python/python-roborock 0.40.0: A package to control Roborock vacuums.
+dev-python/python-roborock 0.40.0 2.0.0: A package to control Roborock vacuums.
 dev-python/python-sense-hat 2.2.0-r3: Raspberry Pi Sense HAT python library
 dev-python/python-singleton 0.1.2: Singleton Metaclass.
 dev-python/python-slugify 4.0.1 8.0.1: A Python Slugify application that handles Unicode
@@ -1144,7 +1144,7 @@ dev-python/respx 0.21.0: A utility for mocking out the Python HTTPX and HTTP Cor
 dev-python/rfk101py 0.0.1: RFK101 Proximity card reader over Ethernet
 dev-python/rflink 0.0.65 0.0.66: Library and CLI tools for interacting with RFlink 433MHz transceiver.
 dev-python/rich 12.6.0: Python library for rendering rich text, tables, etc. to the terminal
-dev-python/ring-doorbell 0.8.5 0.8.7 0.8.9: A Python library to communicate with Ring Door Bell (https://ring.com/)
+dev-python/ring-doorbell 0.8.7 0.8.9 0.8.11: A Python library to communicate with Ring Door Bell (https://ring.com/)
 dev-python/ritassist 0.9.2-r1: RitAssist API Access
 dev-python/rjpl 0.3.6: Interface with Rejseplanen API
 dev-python/rocketchat-API 0.6.1: Python API wrapper for Rocket.Chat
