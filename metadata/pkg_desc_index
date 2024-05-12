@@ -484,7 +484,7 @@ dev-python/gitterpy 0.1.7: Python interface for the Gitter API
 dev-python/glances-api 0.5.0 0.6.0: Python API for interacting with Glances.
 dev-python/gntp 1.0.3: Growl Notification Transport Protocol for Python
 dev-python/goalzero 0.2.2: Goal Zero REST Api Library
-dev-python/goodwe 0.2.32: Read data from GoodWe inverter via local network
+dev-python/goodwe 0.2.32 0.3.5: Read data from GoodWe inverter via local network
 dev-python/google-ai-generativelanguage 0.3.3 0.4.0: Google Ai Generativelanguage API client library
 dev-python/google-api-python-client 2.71.0-r1: Google API Client for Python
 dev-python/google-cloud-pubsub 2.13.11: Google Cloud Pub/Sub API client library
@@ -540,7 +540,7 @@ dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.44 0.46 0.47: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2: Python-base APIs and tools for CHIP.
-dev-python/home-assistant-frontend 20240103.3 20240207.1 20240307.0 20240404.1 20240404.2: The Home Assistant frontend
+dev-python/home-assistant-frontend 20240307.0 20240404.2 20240501.1: The Home Assistant frontend
 dev-python/home-assistant-intents 2024.3.12 2024.4.3 2024.4.24: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.16 1.1.0: An API for the homematicip cloud
