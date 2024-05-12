@@ -538,7 +538,7 @@ dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.44 0.46 0.47: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
-dev-python/home-assistant-chip-clusters 2023.10.2 2023.12.0 2024.1.0 2024.2.2: Python-base APIs and tools for CHIP.
+dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20240103.3 20240207.1 20240307.0 20240404.1 20240404.2: The Home Assistant frontend
 dev-python/home-assistant-intents 2024.3.12 2024.4.3 2024.4.24: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
@@ -694,7 +694,7 @@ dev-python/nessclient 1.0.0: Implementation/abstraction of the Ness D8x / D16x S
 dev-python/netdata 1.1.0: Python API for interacting with Netdata.
 dev-python/netdisco 3.0.0-r1: Discover devices on your local network
 dev-python/netmap 0.7.0.2: This is a python class to use nmap and access scan results from python3
-dev-python/nettigo-air-monitor 2.2.2: Python wrapper for getting air quality data from Nettigo Air Monitor devices.
+dev-python/nettigo-air-monitor 2.2.2 3.0.0: Python wrapper for getting air quality data from Nettigo Air Monitor devices.
 dev-python/neurio 0.3.1: Neurio energy sensor and appliance automation API library
 dev-python/nexia 2.0.7 2.0.8: Python library for connecting to nexia
 dev-python/nextcloudmonitor 1.4.0 1.5.0: Python wrapper around nextcloud monitor api
@@ -1036,7 +1036,7 @@ dev-python/pytest-unordered 0.5.2 0.6.0: Test equality of unordered collections 
 dev-python/pytest-xdist 3.3.1-r1: Distributed testing and loop-on-failing modes
 dev-python/pytfiac 0.4: API for Tfiac AC
 dev-python/pythinkingcleaner 0.0.3: Library to control ThinkingCleaner devices
-dev-python/python-MotionMount 0.3.1: Control your MotionMount Signature TVM7675 Pro using Python
+dev-python/python-MotionMount 0.3.1 1.0.0: Control your MotionMount Signature TVM7675 Pro using Python
 dev-python/python-awair 0.2.4: asyncio client for the Awair GraphQL and Local APIs
 dev-python/python-blockchain-api 0.0.2: Python API for interacting with blockchain.info.
 dev-python/python-bring-api 3.0.0: Unofficial python package to access Bring! shopping lists API.
@@ -1062,7 +1062,7 @@ dev-python/python-izone 1.2.9: A python interface to the iZone airconditioner co
 dev-python/python-join-api 0.0.9: Python API for interacting with Join by joaoapps.
 dev-python/python-juicenet 1.1.0: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
 dev-python/python-kasa 0.5.4 0.6.2.1: Python API for TP-Link Kasa Smarthome devices
-dev-python/python-matter-server 5.1.1 5.5.0 5.7.0: Python Matter WebSocket Server
+dev-python/python-matter-server 5.7.0 5.10.0: Python Matter WebSocket Server
 dev-python/python-metar 1.4.0: Metar - a package to parse METAR coded weather reports
 dev-python/python-miio 0.5.12: Python library for interfacing with Xiaomi smart appliances
 dev-python/python-mpd2 3.0.5: A Python MPD client library
