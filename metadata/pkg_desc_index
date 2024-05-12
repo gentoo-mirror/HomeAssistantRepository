@@ -372,7 +372,7 @@ dev-python/dbus-fast 2.21.0 2.21.1: A faster version of dbus-next
 dev-python/debugpy 1.8.0 1.8.1: An implementation of the Debug Adapter Protocol for Python
 dev-python/decora 0.6: Python API for controlling Decora dimmer switches
 dev-python/decora-wifi 1.4: Python API for controlling Leviton Decora Smart WiFi switches
-dev-python/deebot-client 5.2.2 6.0.2: Deebot client library in python 3
+dev-python/deebot-client 6.0.2 7.2.0: Deebot client library in python 3
 dev-python/deepdiff 6.2.1: Deep Difference and Search of any Python object/data.
 dev-python/deluge-client 1.7.1 1.10.2: Simple Deluge Client
 dev-python/demetriek 0.4.0: Asynchronous Python client for LaMetric TIME devices
@@ -406,7 +406,7 @@ dev-python/eebrightbox 0.0.4: Connector for EE BrightBox routers.
 dev-python/electrickiwi-api 0.8.5: Electric Kiwi Python API
 dev-python/elgato 5.1.1 5.1.2: Asynchronous Python client for Elgato Lights.
 dev-python/eliqonline 1.2.2: Eliq Online API Library
-dev-python/elkm1-lib 2.2.6: Library for interacting with ElkM1 alarm/automation panel.
+dev-python/elkm1-lib 2.2.6 2.2.7: Library for interacting with ElkM1 alarm/automation panel.
 dev-python/elmax-api 0.0.4: Asynchronous API Library to work with Elmax devices
 dev-python/elvia 0.1.0: Python bindings for the Elvia API
 dev-python/emoji 2.8.0: Emoji for Python
@@ -519,7 +519,7 @@ dev-python/ha-ffmpeg 3.1.0 3.2.0: A library that handling with ffmpeg for home-a
 dev-python/ha-iotawattpy 0.1.1 0.1.2: Python library for the IoTaWatt Energy device
 dev-python/ha-philipsjs 3.1.1: jointSPACE API for Home-Assistant
 dev-python/habitipy 0.2.0: tools and library for Habitica restful API (https://habitica.com)
-dev-python/habluetooth 2.0.1 2.4.0 2.4.2: High availability Bluetooth
+dev-python/habluetooth 2.4.2 2.8.1: High availability Bluetooth
 dev-python/hangups 0.4.18-r1: the first third-party instant messaging client for Google Hangouts
 dev-python/hass-nabucasa 0.75.1 0.76.0 0.78.0-r1 0.79.0: Home Assistant cloud integration by Nabu Casa, Inc.
 dev-python/hass-splunk 0.1.1: Async single threaded connector to Splunk HEC using an asyncio session
