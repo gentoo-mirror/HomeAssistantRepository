@@ -1397,7 +1397,6 @@ dev-libs/libgit2:ssh - Enable SSH transport support
 dev-libs/libgit2:trace - Enable tracing support
 dev-python/adb-shell:async - Add async support.
 dev-python/androidtv:async - Add async support.
-dev-python/bimmer-connected:china - Add RDEPEND to dev-python/pillow
 dev-python/envs:cli - add cli support
 dev-python/fritzconnection:qrcode - add dev-python/segno RDEP for qrcode support
 dev-python/httpx:cli - Install the CLI "httpx" client.
