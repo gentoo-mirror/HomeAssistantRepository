@@ -216,7 +216,7 @@ dev-python/aiowebostv 0.3.3 0.4.0: Library to control webOS based LG TV devices
 dev-python/aiowithings 2.0.0 2.1.0: Asynchronous Python client for Withings.
 dev-python/aioymaps 1.2.2: Async client for Yandex Maps
 dev-python/airly 1.1.0: Python wrapper for getting air quality data from Airly sensors.
-dev-python/airthings-ble 0.7.1: Manage Airthings BLE devices
+dev-python/airthings-ble 0.7.1 0.9.0: Manage Airthings BLE devices
 dev-python/airthings-cloud 0.1.0 0.2.0: A python3 library to communicate with Airthings devices
 dev-python/airtouch4pyapi 1.0.5-r1: An api allowing control of AC state (temperature, on/off, mode) of an Airtouch 4 controller locally over TCP
 dev-python/airtouch5py 0.2.8: Python client for the airtouch 5
@@ -228,7 +228,7 @@ dev-python/amberelectric 1.0.4 1.1.0: Interface to the Amber Electric API, allow
 dev-python/amcrest 1.9.8: Python wrapper implementation for Amcrest cameras.
 dev-python/amqtt 0.10.1: MQTT client/broker using Python asyncio
 dev-python/androidtv 0.0.73-r1: Communicate with an Android TV or Fire TV device via ADB over a network.
-dev-python/androidtvremote2 0.0.14: A Python library for interacting with Android TV using the Android TV Remote protocol v2
+dev-python/androidtvremote2 0.0.14 0.0.15: A Python library for interacting with Android TV using the Android TV Remote protocol v2
 dev-python/anel-pwrctrl-homeassistant 0.0.1: Discover and control ANEL NET-PwrCtrl devices.
 dev-python/anova-wifi 0.10.0: A package to get read only data from Anova precision cookers with wifi
 dev-python/anthemav 1.4.1: Python API for controlling Anthem Receivers
@@ -297,8 +297,8 @@ dev-python/blockchain 1.4.4: Blockchain API library (v1)
 dev-python/bluecurrent-api 1.0.6 1.2.3: A wrapper for the Blue Current websocket api
 dev-python/bluemaestro-ble 0.2.3: bluemaestro BLE devices
 dev-python/bluepy 1.3.0: Python module for interfacing with BLE devices through Bluez
-dev-python/bluetooth-adapters 0.16.1 0.16.2 0.17.0 0.18.0: Tools to enumerate and find Bluetooth Adapters
-dev-python/bluetooth-auto-recovery 1.2.3 1.3.0 1.4.0: Recover bluetooth adapters that are in an stuck state
+dev-python/bluetooth-adapters 0.18.0 0.19.2: Tools to enumerate and find Bluetooth Adapters
+dev-python/bluetooth-auto-recovery 1.3.0 1.4.0 1.4.2: Recover bluetooth adapters that are in an stuck state
 dev-python/bluetooth-data-tools 1.15.0 1.19.0: Tools for converting bluetooth data and packets
 dev-python/bluetooth-sensor-state-data 1.6.2: Models for storing and converting Bluetooth Sensor State Data
 dev-python/blurhash 1.1.4: Pure-Python implementation of the blurhash algorithm.
@@ -1285,6 +1285,7 @@ dev-python/tzdata 2022.2: Provider of IANA time zone data
 dev-python/uModbus 1.0.4: Implementation of the Modbus protocol in pure Python.
 dev-python/ua-parser 0.10.0: Python port of Browserscope's user agent parser
 dev-python/uamqp 1.6.0-r1: AMQP 1.0 Client Library for Python
+dev-python/uart-devices 0.1.0: UART Devices for Linux
 dev-python/uasiren 0.0.1: Implements siren.pp.ua API - public wrapper for api.ukrainealarm.com API that returns info about Ukraine air-raid alarms.
 dev-python/ulid-transform 0.9.0: Create and transform ULIDs
 dev-python/ultraheat-api 0.5.7: Reading usage data from the Landys & Gyr Ultraheat heat meter unit
