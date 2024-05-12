@@ -478,7 +478,7 @@ dev-python/georss-generic-client 0.6 0.8: A GeoRSS generic client library.
 dev-python/georss-ign-sismologia-client 0.6 0.8: A GeoRSS client library for the IGN Sismologia feed.
 dev-python/georss-qld-bushfire-alert-client 0.5 0.7: A GeoRSS client library for the Queensland Bushfire Alert feed.
 dev-python/getmac 0.8.2 0.9.4: Get MAC addresses of remote hosts and local interfaces
-dev-python/gios 3.2.2: Python wrapper for getting air quality data from GIOS servers.
+dev-python/gios 3.2.2 4.0.0: Python wrapper for getting air quality data from GIOS servers.
 dev-python/gitterpy 0.1.7: Python interface for the Gitter API
 dev-python/glances-api 0.5.0: Python API for interacting with Glances.
 dev-python/gntp 1.0.3: Growl Notification Transport Protocol for Python
@@ -889,7 +889,7 @@ dev-python/pyflunearyou 2.0.2: A clean, well-tested Python3 API for Flu Near You
 dev-python/pyfnip 0.2: Python wrapper for FutureNow IP relay/dimmer units
 dev-python/pyforked-daapd 0.1.14: Python Interface for forked-daapd
 dev-python/pyfreedompro 1.1.0: Freedompro API
-dev-python/pyfritzhome 0.6.9 0.6.10: Fritz!Box Smarthome Python Library
+dev-python/pyfritzhome 0.6.9 0.6.10 0.6.11: Fritz!Box Smarthome Python Library
 dev-python/pyfttt 0.3.2: Python tools for interacting with the IFTTT Webhooks Channel
 dev-python/pygatt 4.0.5-r1: Python Bluetooth LE (Low Energy) and GATT Library
 dev-python/pygtfs 0.1.9: Models GTFS data in a database.
