@@ -493,7 +493,7 @@ dev-python/google-nest-sdm 3.0.3: Library for the Google Nest SDM API
 dev-python/googlemaps 2.5.1: Python client library for Google Maps API Web Services
 dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud API
 dev-python/gotailwind 0.2.2: Asynchronous Python client for Tailwind garage door openers.
-dev-python/govee-ble 0.24.0 0.31.0: Manage Govee BLE devices
+dev-python/govee-ble 0.24.0 0.31.0 0.31.2: Manage Govee BLE devices
 dev-python/govee-local-api 1.4.4: Library to communicate with Govee local API
 dev-python/gpiod 1.5.4: It is a pure Python library and has no dependencies on other packages
 dev-python/gpiozero 1.6.2: A simple interface to GPIO devices with Raspberry Pi.
