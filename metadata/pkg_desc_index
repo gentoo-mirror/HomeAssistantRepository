@@ -282,7 +282,7 @@ dev-python/bcrypt 4.0.1: Modern password hashing for software and servers
 dev-python/beacontools 2.1.0: A Python library for working with various types of Bluetooth LE Beacons.
 dev-python/beautifulsoup4 4.12.2: Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree
 dev-python/beewi-smartclim 0.0.10: Library to read data from BeeWi SmartClim sensor using Bluetooth LE
-dev-python/bellows 0.37.1 0.37.6 0.38.0 0.38.1: Library implementing EZSP
+dev-python/bellows 0.38.1 0.38.4: Library implementing EZSP
 dev-python/bidict 0.22.0: The bidirectional mapping library for Python.
 dev-python/bimmer-connected 0.14.6-r1 0.15.2: Library to read data from the BMW Connected Drive portal
 dev-python/bitstruct 8.17.0: This module performs conversions between Python values and C bit field structs represented as Python byte strings.
@@ -1099,7 +1099,7 @@ dev-python/pytraccar 2.0.0 2.1.1: Update and fetch device information from Tracc
 dev-python/pytrackr 0.0.5: Interface to the TrackR API
 dev-python/pytradfri 9.0.1: IKEA Tradfri/Tradfri API. Control and observe your lights from Python.
 dev-python/pytrafikverket 0.3.9.2 0.3.10: Retreive values from public API at the Swedish Transport Administration (Trafikverket).
-dev-python/pytrydan 0.4.0: Library to interface with V2C EVSE Trydan
+dev-python/pytrydan 0.4.0 0.6.0: Library to interface with V2C EVSE Trydan
 dev-python/pyudev 0.23.2: Python binding to libudev
 dev-python/pyunifiprotect 4.22.5 4.23.2 5.0.2 5.1.2: Unofficial UniFi Protect Python API and CLI
 dev-python/pyuptimerobot 22.2.0: Python API wrapper for Uptime Robot.
@@ -1110,7 +1110,7 @@ dev-python/pyvesync 2.1.1 2.1.10: pyvesync is a library to manage Etekcity Devic
 dev-python/pyvizio 0.1.61: Python library for interfacing with Vizio SmartCast TVs and Sound Bars (2016+ models)
 dev-python/pyvlx 0.2.21: PyVLX is a wrapper for the Velux KLF 200 API. PyVLX enables you to run scenes and or open and close velux windows.
 dev-python/pyvolumio 0.1.5: A python library to control Volumio.
-dev-python/pywaze 0.5.1 1.0.0: Asynchronous Waze client for calculating routes and travel times.
+dev-python/pywaze 0.5.1 1.0.0 1.0.1: Asynchronous Waze client for calculating routes and travel times.
 dev-python/pyweatherflowudp 1.4.5: An event-based asynchronous library to read UDP packets from Weatherflow weather systems on a local network without any reliance on the cloud.
 dev-python/pywebpush 1.9.2 1.14.1: WebPush publication library
 dev-python/pywemo 1.3.0 1.4.0: Lightweight Python module to discover and control WeMo devices
@@ -1359,7 +1359,7 @@ dev-python/yalexs-ble 2.4.0 2.4.1 2.4.2: Bluetooth control of Yale and August lo
 dev-python/yarl 1.9.2: Yet another URL library
 dev-python/yeelight 0.7.14: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
-dev-python/yolink-api 0.3.4 0.3.6 0.3.7 0.4.1 0.4.2: A library to authenticate with yolink device
+dev-python/yolink-api 0.3.7 0.4.2 0.4.4: A library to authenticate with yolink device
 dev-python/youless-api 1.0.1: A bridge for python to the YouLess sensor
 dev-python/youtubeaio 1.1.5: Asynchronous Python client for YouTube V3 API.
 dev-python/zamg 0.3.3 0.3.5 0.3.6: Asynchronous Python client for ZAMG weather data.
@@ -1367,10 +1367,10 @@ dev-python/zeep 4.2.1: A modern/fast Python SOAP client based on lxml / requests
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs
 dev-python/zeroconf 0.128.5: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-python/zeversolar 0.3.1: Simple Python wrapper for the local CGI provided by ZeverSolar
-dev-python/zha-quirks 0.0.109 0.0.111 0.0.112 0.0.113 0.0.114: Library implementing Zigpy quirks for ZHA in Home Assistant
+dev-python/zha-quirks 0.0.112 0.0.114 0.0.115: Library implementing Zigpy quirks for ZHA in Home Assistant
 dev-python/zhong-hong-hvac 1.0.9 1.0.12: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
-dev-python/zigpy 0.60.4 0.62.3 0.63.4 0.63.5: Library implementing a ZigBee stack
+dev-python/zigpy 0.63.4 0.63.5 0.64.0: Library implementing a ZigBee stack
 dev-python/zigpy-deconz 0.22.4 0.23.0 0.23.1: A library which communicates with Deconz radios for zigpy
 dev-python/zigpy-xbee 0.20.1: A library which communicates with XBee radios for zigpy
 dev-python/zigpy-zigate 0.12.0: A library which communicates with ZiGate radios for zigpy
