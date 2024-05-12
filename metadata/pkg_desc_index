@@ -139,7 +139,7 @@ dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2023.5.0 2024.2.1: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 0.1.5 0.4.0: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 21.0.1 21.0.2 23.0.0 23.2.0: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 21.0.1 21.0.2 23.0.0 23.2.0 24.3.0: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.21.3: ftp client/server for asyncio
@@ -880,7 +880,7 @@ dev-python/pyephember 0.3.1: Python library to work with ember from EPH Controls
 dev-python/pyeverlights 0.1.0: A library for controlling an EverLights lighting system.
 dev-python/pyevilgenius 2.0.0: Python module to talk to Evil Genius Labs devices.
 dev-python/pyezviz 0.2.1.2: Pilot your Ezviz cameras
-dev-python/pyfibaro 0.7.6: Simple API to access fibaro home center from any Python 3 script. Designed for Home Assistant (but not only)
+dev-python/pyfibaro 0.7.6 0.7.8: Simple API to access fibaro home center from any Python 3 script. Designed for Home Assistant (but not only)
 dev-python/pyfido 2.1.2: Get your Fido consumption (wwww.fido.ca)
 dev-python/pyfireservicerota 0.0.43: Python 3 API wrapper for FireServiceRota/BrandweerRooster
 dev-python/pyflexit 0.3: Flexit CI66 helper library
