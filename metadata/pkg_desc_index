@@ -958,7 +958,7 @@ dev-python/pynetio 0.1.9.1: Binding library for Koukaam netio devices
 dev-python/pynobo 1.6.0 1.8.0 1.8.1: NobÃ¸ Hub / NobÃ¸ Energy Control TCP/IP Interface
 dev-python/pynuki 1.6.2 1.6.3: Python bindings for nuki.io bridges
 dev-python/pynut2 2.1.2: A Python abstraction class to access NUT servers.
-dev-python/pynws 1.6.0 1.8.0: Python library to retrieve observations and forecasts from NWS/NOAA
+dev-python/pynws 1.6.0 1.7.0 1.8.0: Python library to retrieve observations and forecasts from NWS/NOAA
 dev-python/pynx584 0.5: NX584/NX8E Interface Library and Server
 dev-python/pynzbgetapi 0.2.0: Basic Python NZBGet API client.
 dev-python/pyobihai 1.4.2: A Python wrapper for Obihai
