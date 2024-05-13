@@ -333,6 +333,7 @@ app-misc/homeassistant-full:amazon_polly - Text-to-speech platform that works wi
 app-misc/homeassistant-full:ambee - Asynchronous Python client for the Ambee API
 app-misc/homeassistant-full:amberelectric - Interface to the Amber Electric API, allowing you to download current and foreca
 app-misc/homeassistant-full:ambiclimate - Communicate with Ambiclimate devices
+app-misc/homeassistant-full:ambient_network - retrieves local weather station information via the Ambient Weather Network
 app-misc/homeassistant-full:ambient_station - Retrieves local weather information from Ambient Weather
 app-misc/homeassistant-full:amcrest - Integrate your Amcrest or Dahua IP camera
 app-misc/homeassistant-full:ampio - Will query the open data API of ampio.pl to monitor air quality sensor station
@@ -358,6 +359,7 @@ app-misc/homeassistant-full:arduino - deprecated
 app-misc/homeassistant-full:arlo - Allows you to integrate your Arlo devices into Home Assistant
 app-misc/homeassistant-full:arris_tg2492lg - Presence detection from an Arris TG2492LG router
 app-misc/homeassistant-full:aruba - Presence detection by looking at connected devices to an Aruba Instant device
+app-misc/homeassistant-full:arve - monitor real-life air quality data, as measured by your Arve device
 app-misc/homeassistant-full:aseko_pool_live - allows you to monitor your Aseko ASIN Aqua dosing systems
 app-misc/homeassistant-full:assist_pipeline - provides the foundation for the Assist voice assistant in Home Assistant
 app-misc/homeassistant-full:asterisk_mbox - asterisk_mbox Asterisk Voicemail integration
@@ -423,7 +425,6 @@ app-misc/homeassistant-full:channels - Allows you to control Channels from Home 
 app-misc/homeassistant-full:circuit - Unify Circuit platform allows you to send notifications
 app-misc/homeassistant-full:cisco_ios - Presence detection scanner for Cisco IOS devices
 app-misc/homeassistant-full:cisco_mobility_express - ciscomobilityexpress support for Home Assistant
-app-misc/homeassistant-full:cisco_webex_teams - Deliver rich notifications from Home Assistant to Cisco Webex Teams
 app-misc/homeassistant-full:clementine - The clementine platform allows you to control a Clementine Music Player
 app-misc/homeassistant-full:cli - Set a dependency for Home Assistant Cli hass-cli (lots of modules required)
 app-misc/homeassistant-full:climacell - obtain weather information from the ClimaCell API
@@ -517,6 +518,7 @@ app-misc/homeassistant-full:emonitor - SiteSage Emonitor allows local power moni
 app-misc/homeassistant-full:emulated_hue - Emulated_hue integration provides a virtual Philips Hue bridge
 app-misc/homeassistant-full:emulated_kasa - Emulates a TP-Link Kasa smart plug and announces the power usage
 app-misc/homeassistant-full:emulated_roku - Emulate Roku API for Harmony and Android remotes
+app-misc/homeassistant-full:energenie_power_sockets - include Energenie USB Power-Sockets into your Home Assistant setup
 app-misc/homeassistant-full:energyzero - integrates the EnergyZero API platform with Home Assistant
 app-misc/homeassistant-full:enigma2 - Support for Enigma2 boxes with openwebif support
 app-misc/homeassistant-full:enocean - Support for Enocean devices in Home Assistant
@@ -526,6 +528,7 @@ app-misc/homeassistant-full:environment_canada - Access meteorological data from
 app-misc/homeassistant-full:envirophat - Display information collected by an Enviro pHAT add-on board
 app-misc/homeassistant-full:envisalink - Link Envisalink devices to Home Assistant
 app-misc/homeassistant-full:ephember - The ephember climate platform lets you control EPH Controls thermostats
+app-misc/homeassistant-full:epic_games_store - integrates the Epic Games Store service into Home Assistant
 app-misc/homeassistant-full:epion - Integrates Epion Air sensors into Home Assistant
 app-misc/homeassistant-full:epson - The epson platform allows you to control a Epson projector
 app-misc/homeassistant-full:epsonworkforce - monitor the ink levels of a Epson Workforce printer
@@ -1012,6 +1015,7 @@ app-misc/homeassistant-full:rympro - connects with a Read Your Meter Pro account
 app-misc/homeassistant-full:sabnzbd - monitor and control your downloads with SABnzbd from within Home Assistant
 app-misc/homeassistant-full:saj - poll a SAJ solar inverter and present the values as sensors
 app-misc/homeassistant-full:samsungtv - Support for Samsung TV Sets
+app-misc/homeassistant-full:sanix - get water/sewage level sensor measurements from the Sanix devices
 app-misc/homeassistant-full:satel_integra - Satel Integra alarm panel to leverage
 app-misc/homeassistant-full:schlage - provides connectivity with Schlage WiFi smart locks through Schlage’s cloud API
 app-misc/homeassistant-full:schluter - integrate your Schluter-DITRA-HEAT-E-WiFi electric floor heating thermostat
@@ -1346,6 +1350,7 @@ app-misc/homeassistant-min:onvif - allows you to use an ONVIF Profile S conforma
 app-misc/homeassistant-min:openweathermap - uses OpenWeatherMap as a source for current meteorological data
 app-misc/homeassistant-min:otp - generates One-Time Passwords according to RFC6238
 app-misc/homeassistant-min:owntracks - OwnTracks: track your location and send it directly to Home Assistant
+app-misc/homeassistant-min:ozw - Open Zwave MQTT
 app-misc/homeassistant-min:ping - use the great ICMPLib for Presence Detection and as a binary Sensor
 app-misc/homeassistant-min:plex - Python bindings for the Plex API
 app-misc/homeassistant-min:ps4 - allows you to control a Sony PlayStation 4 console
@@ -1376,6 +1381,7 @@ app-misc/homeassistant-min:test - internal and developer use
 app-misc/homeassistant-min:tile - API for Tile Bluetooth trackers
 app-misc/homeassistant-min:tomorrowio - obtain weather, air quality, pollen, and fire information fro tomorrow.io
 app-misc/homeassistant-min:tplink - control your TP-Link Smart Home Devices
+app-misc/homeassistant-min:tradfri - Control/observe IKEA Tradfri devices
 app-misc/homeassistant-min:upnp - support UPnP/Internet Gateway Device (IGD) Protocol
 app-misc/homeassistant-min:utility_meter - integration provides functionality to track consumptions of various utilities
 app-misc/homeassistant-min:version - display the current Home Assistant versions
