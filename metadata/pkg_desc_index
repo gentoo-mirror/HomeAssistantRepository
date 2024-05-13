@@ -446,7 +446,7 @@ dev-python/feedparser 6.0.10: Parse RSS and Atom feeds in Python
 dev-python/fiblary3 0.1.8: Home Center API Python Library
 dev-python/file-read-backwards 2.0.0: Memory efficient way of reading files line-by-line from the end of file
 dev-python/fints 3.1.0: Pure-python FinTS 3.0 (formerly known as HBCI) implementation
-dev-python/firebase-messaging 0.2.0: FCM/GCM push notification client
+dev-python/firebase-messaging 0.2.0 0.2.1: FCM/GCM push notification client
 dev-python/fitbit 0.3.1: Fitbit API Wrapper.
 dev-python/fivem-api 0.1.2: A library to query info, players and resources from FiveM server
 dev-python/fixerio 1.0.0_alpha0: A Python client for Fixer.io
