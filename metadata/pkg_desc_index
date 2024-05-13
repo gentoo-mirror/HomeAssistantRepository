@@ -150,6 +150,7 @@ dev-python/aioharmony 0.2.10: Asyncio Python library for connecting to and contr
 dev-python/aiohomekit 3.0.9 3.1.1 3.1.4 3.1.5: An asyncio HomeKit client
 dev-python/aiohttp 3.9.4: HTTP client/server for asyncio
 dev-python/aiohttp-fast-url-dispatcher 0.3.0: A faster URL dispatcher for aiohttp
+dev-python/aiohttp-isal 0.3.1: isal support for aiohttp
 dev-python/aiohttp-retry 2.8.3: Simple retry client for aiohttp
 dev-python/aiohttp-session 2.12.0: sessions for aiohttp.web
 dev-python/aiohttp-wsgi 0.10.0: WSGI adapter for aiohttp.
@@ -459,6 +460,7 @@ dev-python/forecast-solar 3.0.0 3.1.0: Asynchronous Python client for getting fo
 dev-python/fortiosapi 1.0.5: Python modules to use Fortigate APIs
 dev-python/freebox-api 1.1.0: Provides asynchronous authentication and access to Freebox servers
 dev-python/freesms 0.2.0: Send SMS with Free Mobile
+dev-python/freezegun 1.4.0: Let your Python tests travel through time
 dev-python/fritzconnection 1.4.2-r1: Communicate with the AVM FRITZ!Box
 dev-python/ftfy 6.1.3: Fixes mojibake and other problems with Unicode, after the fact
 dev-python/fyta-cli 0.3.3 0.3.5 0.4.1: Python library to access the FYTA API
