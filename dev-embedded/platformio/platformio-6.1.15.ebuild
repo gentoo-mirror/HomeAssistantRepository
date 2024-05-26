@@ -20,25 +20,24 @@ KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
 	$(python_gen_cond_dep '
-		>=dev-python/aiofiles-22.1[${PYTHON_USEDEP}]
-		dev-python/ajsonrpc[${PYTHON_USEDEP}]
-		<dev-python/bottle-0.13[${PYTHON_USEDEP}]
-		=dev-python/click-8*[${PYTHON_USEDEP}]
+		~dev-python/bottle-0.12.25[${PYTHON_USEDEP}]
+		>=dev-python/click-8.0.4[${PYTHON_USEDEP}]
+		<dev-python/click-9[${PYTHON_USEDEP}]
 		dev-python/colorama[${PYTHON_USEDEP}]
-		>=dev-python/pyserial-3[${PYTHON_USEDEP}]
-		<dev-python/pyserial-4[${PYTHON_USEDEP}]
-		>=dev-python/zeroconf-0.37[${PYTHON_USEDEP}]
-		=dev-python/requests-2*[${PYTHON_USEDEP}]
+		~dev-python/marshmallow-3.21.1[${PYTHON_USEDEP}]
+		~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
+		dev-python/requests[${PYTHON_USEDEP}]
 		>=dev-python/semantic-version-2.10[${PYTHON_USEDEP}]
 		<dev-python/semantic-version-3[${PYTHON_USEDEP}]
-		=dev-python/tabulate-0.9*[${PYTHON_USEDEP}]
-		dev-python/twisted[${PYTHON_USEDEP}]
-		>=dev-python/pyelftools-0.30[${PYTHON_USEDEP}]
-		<dev-python/pyelftools-1[${PYTHON_USEDEP}]
-		=dev-python/marshmallow-3*[${PYTHON_USEDEP}]
+		<dev-python/tabulate-1[${PYTHON_USEDEP}]
+		~dev-python/ajsonrpc-1.2.0[${PYTHON_USEDEP}]
 		>=dev-python/starlette-0.21[${PYTHON_USEDEP}]
+		<dev-python/starlette-0.38[${PYTHON_USEDEP}]
 		>=dev-python/uvicorn-0.19[${PYTHON_USEDEP}]
+		<dev-python/uvicorn-0.30[${PYTHON_USEDEP}]
 		dev-python/wsproto[${PYTHON_USEDEP}]
+		>=dev-python/pyelftools-0.27[${PYTHON_USEDEP}]
+		<dev-python/pyelftools-1[${PYTHON_USEDEP}]
 	')
 	virtual/udev"
 DEPEND="virtual/udev"
@@ -81,23 +80,6 @@ EPYTEST_DESELECT=(
 )
 
 distutils_enable_tests pytest
-
-python_prepare_all() {
-	# Allow newer versions of:
-	# - zeroconf, bug #831181.
-	# - wsproto
-	# - semantic_version, bug #853247
-	# - starlette & uvicorn, bug #888427
-	sed \
-		-e '/zeroconf/s/<[0-9.*]*//' \
-		-e '/wsproto/s/==.*/"/' \
-		-e '/semantic_version/s/==[0-9.*]*//' \
-		-e '/starlette/s/==.*/"/' \
-		-e '/uvicorn/s/==.*/"/' \
-		-i setup.py || die
-
-	distutils-r1_python_prepare_all
-}
 
 python_test() {
 	epytest -k "not skip_ci"

@@ -13,7 +13,7 @@ if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/home-assistant/core.git"
 	EGIT_BRANCH="dev"
-	S="${WORKDIR}/homeassistant-full-9999/"
+	S="${WORKDIR}/core/"
 else
 	inherit pypi
 	MY_PV=${PV/_beta/b}
@@ -198,7 +198,7 @@ RDEPEND="${RDEPEND}
 	aprs? ( ~dev-python/aprslib-0.7.2[${PYTHON_USEDEP}] ~sci-geosciences/geopy-2.3.0 )
 	aqualogic? ( ~dev-python/aqualogic-2.6[${PYTHON_USEDEP}] )
 	aquostv? ( ~dev-python/sharp_aquos_rc-0.3.2[${PYTHON_USEDEP}] )
-	aranet? ( ~sci-geosciences/aranet4-2.3.3 )
+	aranet? ( ~sci-geosciences/aranet4-2.3.4 )
 	arcam_fmj? ( ~dev-python/arcam-fmj-1.4.0[${PYTHON_USEDEP}] )
 	arlo? ( ~dev-python/pyarlo-0.2.4[${PYTHON_USEDEP}] )
 	arris_tg2492lg? ( ~dev-python/arris-tg2492lg-2.2.0[${PYTHON_USEDEP}] )
@@ -286,7 +286,7 @@ RDEPEND="${RDEPEND}
 	coronavirus? ( ~dev-python/coronavirus-1.1.1[${PYTHON_USEDEP}] )
 	cppm_tracker? ( ~dev-python/clearpasspy-1.0.2[${PYTHON_USEDEP}] )
 	cpuspeed? ( ~dev-python/py-cpuinfo-9.0.0[${PYTHON_USEDEP}] )
-	crownstone? ( ~dev-python/crownstone-cloud-1.4.9[${PYTHON_USEDEP}] ~dev-python/crownstone-sse-2.0.4[${PYTHON_USEDEP}] ~dev-python/crownstone-uart-2.1.0[${PYTHON_USEDEP}] ~dev-python/pyserial-3.5[${PYTHON_USEDEP}] )
+	crownstone? ( ~dev-python/crownstone-cloud-1.4.11[${PYTHON_USEDEP}] ~dev-python/crownstone-sse-2.0.5[${PYTHON_USEDEP}] ~dev-python/crownstone-uart-2.1.0[${PYTHON_USEDEP}] ~dev-python/pyserial-3.5[${PYTHON_USEDEP}] )
 	cups? ( ~dev-python/pycups-1.9.73[${PYTHON_USEDEP}] )
 	daikin? ( ~dev-python/pydaikin-2.11.1[${PYTHON_USEDEP}] )
 	danfoss_air? ( ~dev-python/pydanfossair-0.1.0[${PYTHON_USEDEP}] )
@@ -759,7 +759,7 @@ RDEPEND="${RDEPEND}
 	pegel_online? ( ~dev-python/aiopegelonline-0.0.10[${PYTHON_USEDEP}] )
 	pencom? ( ~dev-python/pencompy-0.0.3[${PYTHON_USEDEP}] )
 	permobil? ( ~dev-python/mypermobil-0.1.8[${PYTHON_USEDEP}] )
-	philips_js? ( ~dev-python/ha-philipsjs-3.1.1[${PYTHON_USEDEP}] )
+	philips_js? ( ~dev-python/ha-philipsjs-3.2.1[${PYTHON_USEDEP}] )
 	picnic? ( ~dev-python/python-picnic-api-1.1.0[${PYTHON_USEDEP}] )
 	piglow? ( ~dev-python/piglow-1.2.4[${PYTHON_USEDEP}] )
 	pilight? ( ~dev-python/pilight-0.1.1[${PYTHON_USEDEP}] )
@@ -832,7 +832,7 @@ RDEPEND="${RDEPEND}
 	ridwell? ( ~dev-python/aioridwell-2024.1.0[${PYTHON_USEDEP}] )
 	ring? ( ~dev-python/ring-doorbell-0.8.11[listen,${PYTHON_USEDEP}] )
 	ripple? ( ~dev-python/python-ripple-api-0.0.3[${PYTHON_USEDEP}] )
-	risco? ( ~dev-python/pyrisco-0.6.1[${PYTHON_USEDEP}] )
+	risco? ( ~dev-python/pyrisco-0.6.2[${PYTHON_USEDEP}] )
 	rituals_perfume_genie? ( ~dev-python/pyrituals-0.0.6[${PYTHON_USEDEP}] )
 	rmvtransport? ( ~dev-python/PyRMVtransport-0.3.3[${PYTHON_USEDEP}] )
 	rocketchat? ( ~dev-python/rocketchat-API-0.6.1[${PYTHON_USEDEP}] )
@@ -853,7 +853,7 @@ RDEPEND="${RDEPEND}
 	russound_rnet? ( ~dev-python/russound-0.1.9[${PYTHON_USEDEP}] )
 	ruuvitag_ble? ( ~dev-python/ruuvitag-ble-0.1.2[${PYTHON_USEDEP}] )
 	ruuvi_gateway? ( ~dev-python/aioruuvigateway-0.1.0[${PYTHON_USEDEP}] )
-	rympro? ( ~dev-python/pyrympro-0.0.7[${PYTHON_USEDEP}] )
+	rympro? ( ~dev-python/pyrympro-0.0.8[${PYTHON_USEDEP}] )
 	sabnzbd? ( ~dev-python/pysabnzbd-1.1.1[${PYTHON_USEDEP}] )
 	saj? ( ~dev-python/pysaj-0.0.16[${PYTHON_USEDEP}] )
 	samsungtv? ( ~dev-python/getmac-0.9.4[${PYTHON_USEDEP}] ~dev-python/samsungctl-0.7.1[${PYTHON_USEDEP}] ~dev-python/samsungtvws-2.6.0[async,encrypted,${PYTHON_USEDEP}] ~dev-python/wakeonlan-2.1.0[${PYTHON_USEDEP}] ~dev-python/async-upnp-client-0.38.3[${PYTHON_USEDEP}] )
@@ -954,7 +954,7 @@ RDEPEND="${RDEPEND}
 	swiss_hydrological_data? ( ~dev-python/swisshydrodata-0.1.0[${PYTHON_USEDEP}] )
 	swiss_public_transport? ( ~dev-python/python-opendata-transport-0.4.0[${PYTHON_USEDEP}] )
 	switchbee? ( ~dev-python/pyswitchbee-1.8.0[${PYTHON_USEDEP}] )
-	switchbot? ( ~dev-python/PySwitchbot-0.45.0[${PYTHON_USEDEP}] )
+	switchbot? ( ~dev-python/PySwitchbot-0.46.1[${PYTHON_USEDEP}] )
 	switchbot_cloud? ( ~dev-python/switchbot-api-2.1.0[${PYTHON_USEDEP}] )
 	switcher_kis? ( ~dev-python/aioswitcher-3.4.1[${PYTHON_USEDEP}] )
 	switchmate? ( ~dev-python/PySwitchmate-0.5.1[${PYTHON_USEDEP}] )
@@ -1090,7 +1090,7 @@ RDEPEND="${RDEPEND}
 	wirelesstag? ( ~dev-python/wirelesstagpy-0.8.1[${PYTHON_USEDEP}] )
 	withings? ( ~dev-python/aiowithings-2.1.0[${PYTHON_USEDEP}] )
 	wiz? ( ~dev-python/pywizlight-0.5.14[${PYTHON_USEDEP}] )
-	wled? ( ~dev-python/wled-0.17.1[${PYTHON_USEDEP}] )
+	wled? ( ~dev-python/wled-0.18.0[${PYTHON_USEDEP}] )
 	wolflink? ( ~dev-python/wolf-comm-0.0.7[${PYTHON_USEDEP}] )
 	workday? ( ~dev-python/holidays-0.47[${PYTHON_USEDEP}] )
 	ws66i? ( ~dev-python/pyws66i-1.1[${PYTHON_USEDEP}] )
@@ -1162,13 +1162,13 @@ BDEPEND="${RDEPEND}
 	dev-python/mock[${PYTHON_USEDEP}]"
 
 src_prepare() {
-	if use test ; then
-		cp --no-preserve=mode --recursive ${WORKDIR}/core-${MY_PV}/tests ${S}
+    if use test ; then
+        cp --no-preserve=mode --recursive ${WORKDIR}/core-${MY_PV}/tests ${S}
 		chmod u+x ${S}/tests/auth/providers/test_command_line_cmd.sh
-	fi
-	sed -E -i "s/regex==[^ ]*/regex/g" -i homeassistant/package_constraints.txt || die
+    fi
+    sed -E -i "s/regex==[^ ]*/regex/g" -i homeassistant/package_constraints.txt || die
 
-	distutils-r1_src_prepare
+    distutils-r1_src_prepare
 }
 INSTALL_DIR="/opt/${MY_PN}"
 
