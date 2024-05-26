@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Aranet4 and Aranet2 Python client"
-HOMEPAGE="https://github.com/Anrijs/Aranet4-Python https://pypi.org/project/aranet4/"
+DESCRIPTION="Asynchronous Python library that listens to Crownstone SSE events."
+HOMEPAGE="https://github.com/crownstone/crownstone-lib-python-sse https://pypi.org/project/crownstone-sse/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,15 +18,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/bleak[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	dev-python/certifi[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
+		>=dev-python/asynctest-0.13.0[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest
