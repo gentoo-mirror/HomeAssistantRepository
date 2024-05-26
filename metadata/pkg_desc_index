@@ -846,6 +846,7 @@ dev-python/pyatmo 8.0.2 8.0.3: Simple API to access Netatmo weather station data
 dev-python/pyatv 0.14.3: A client library for Apple TV and AirPlay devices
 dev-python/pyaussiebb 0.0.15: Aussie Broadband API module
 dev-python/pybalboa 1.0.1: Module to communicate with a Balboa spa wifi adapter.
+dev-python/pybase64 1.3.2: Fast Base64 implementation
 dev-python/pybbox 0.0.5_alpha0: a simple python3 library for the Bouygues BBox Routeur API
 dev-python/pyblackbird 0.6: Python API for talking to Monoprice Blackbird 4k 8x8 HDBaseT Matrix
 dev-python/pybluez 0.22-r1: Bluetooth Python extension module
@@ -1177,7 +1178,7 @@ dev-python/schedule 1.1.0: Job scheduling for humans.
 dev-python/schiene 0.23: schiene is a Python library for interacting with Bahn.de
 dev-python/screenlogicpy 0.10.0: Interface for Pentair ScreenLogic connected pool controllers over IP via Python
 dev-python/scsgate 0.1.0: A Python module to interact with SCSGate
-dev-python/securesystemslib 1.0.0: A library that provides cryptographic and general-purpose routines for Secure Systems Lab projects at NYU
+dev-python/securesystemslib 0.31.0 1.0.0: A library that provides cryptographic and general-purpose routines for Secure Systems Lab projects at NYU
 dev-python/securetar 2023.3.0 2024.2.1: Python module to handle tarfile backups.
 dev-python/sendgrid 6.8.2: Twilio SendGrid library for Python
 dev-python/sense-energy 0.12.2: API for the Sense Energy Monitor
