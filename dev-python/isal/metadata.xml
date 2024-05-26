@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">tuf</remote-id>
-    <remote-id type="github">theupdateframework/python-tuf</remote-id>
+    <remote-id type="pypi">isal</remote-id>
+    <remote-id type="github">pycompression/python-isal</remote-id>
     <maintainer status="unknown">
-      <email>theupdateframework@googlegroups.com</email>
-      <name>The Update Framework (TUF)</name>
+      <email>r.h.p.vorderman@lumc.nl</email>
+      <name>Leiden University Medical Center</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
