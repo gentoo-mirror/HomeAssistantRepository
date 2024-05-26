@@ -145,7 +145,7 @@ dev-python/aioesphomeapi 21.0.1 21.0.2 23.0.0 23.2.0 24.3.0: Python API for inte
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.21.3: ftp client/server for asyncio
-dev-python/aiogithubapi 22.10.1 23.11.0: Asynchronous Python client for the GitHub API
+dev-python/aiogithubapi 22.10.1 23.11.0-r1: Asynchronous Python client for the GitHub API
 dev-python/aioguardian 2022.7.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aiohappyeyeballs 2.3.1: Happy Eyeballs
 dev-python/aioharmony 0.2.10: Asyncio Python library for connecting to and controlling the Logitech Harmony
@@ -1192,6 +1192,7 @@ dev-python/sharkiq 1.0.2: Python API for Shark IQ robots
 dev-python/sharp_aquos_rc 0.3.2: Control Sharp Aquos SmartTVs through the IP interface.
 dev-python/shodan 1.28.0: Python library and command-line utility for Shodan (https://developer.shodan.io)
 dev-python/shortuuid 1.0.12: A generator library for concise, unambiguous and URL-safe UUIDs.
+dev-python/sigstore 1.0.0: A tool for generating and verifying Sigstore signatures.
 dev-python/simplehound 0.3: Unofficial python API for Sighthound
 dev-python/simplepush 2.2.3: Simplepush python library
 dev-python/simplisafe-python 2023.8.0 2024.1.0: A Python3, async interface to the SimpliSafe API
