@@ -218,6 +218,7 @@ dev-python/aiowatttime 0.1.1: An asyncio-based Python3 library for interacting w
 dev-python/aiowebostv 0.3.3 0.4.0: Library to control webOS based LG TV devices
 dev-python/aiowithings 2.0.0 2.1.0: Asynchronous Python client for Withings.
 dev-python/aioymaps 1.2.2: Async client for Yandex Maps
+dev-python/aiozoneinfo 0.1.0: Tools to fetch zoneinfo with asyncio
 dev-python/airly 1.1.0: Python wrapper for getting air quality data from Airly sensors.
 dev-python/airthings-ble 0.7.1 0.9.0: Manage Airthings BLE devices
 dev-python/airthings-cloud 0.1.0 0.2.0: A python3 library to communicate with Airthings devices
