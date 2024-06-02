@@ -281,7 +281,7 @@ dev-python/backports-strenum 1.2.8: Base class for creating enumerated constants
 dev-python/baidu-aip 1.6.6.0: Baidu AIP SDK
 dev-python/base36 0.1.1: Yet another implementation for the positional numeral system using 36 as the radix.
 dev-python/batinfo 0.4.2: A simple Python module to retrieve battery information
-dev-python/bcrypt 4.0.1: Modern password hashing for software and servers
+dev-python/bcrypt 4.0.1 4.1.2: Modern password hashing for software and servers
 dev-python/beacontools 2.1.0: A Python library for working with various types of Bluetooth LE Beacons.
 dev-python/beautifulsoup4 4.12.2: Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree
 dev-python/beewi-smartclim 0.0.10: Library to read data from BeeWi SmartClim sensor using Bluetooth LE
