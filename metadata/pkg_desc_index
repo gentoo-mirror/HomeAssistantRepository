@@ -655,6 +655,7 @@ dev-python/lxml 4.9.1: A Pythonic binding for the libxml2 and libxslt libraries
 dev-python/lyft_rides 0.2: Unofficial Lyft Rides API Python SDK
 dev-python/mac-vendor-lookup 0.1.12: Find the vendor for a given MAC address
 dev-python/magicseaweed 1.0.3: Provides API wrapper to magicseaweed.com.
+dev-python/marshmallow 3.21.1: A library for converting to and from native Python datatypes
 dev-python/marshmallow-dataclass 8.5.9: Python library to convert dataclasses into marshmallow schemas.
 dev-python/mashumaro 3.12: Fast and well tested serialization library
 dev-python/matplotlib 3.6.1: Pure python plotting library with matlab like syntax
