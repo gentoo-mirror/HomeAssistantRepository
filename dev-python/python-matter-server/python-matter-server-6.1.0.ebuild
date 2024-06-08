@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for interacting with Hydrawise sprinkler controllers."
-HOMEPAGE="https://github.com/dknowles2/pydrawise https://pypi.org/project/pydrawise/"
+DESCRIPTION="Python Matter WebSocket Server"
+HOMEPAGE=" https://pypi.org/project/python-matter-server/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -19,9 +19,14 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/apischema[${PYTHON_USEDEP}]
-	dev-python/gql[${PYTHON_USEDEP}]
-	dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	dev-python/aiorun[${PYTHON_USEDEP}]
+	dev-python/coloredlogs[${PYTHON_USEDEP}]
+	dev-python/orjson[${PYTHON_USEDEP}]
+	~dev-python/home-assistant-chip-clusters-2024.5.2[${PYTHON_USEDEP}]"
+BDEPEND="
+	test? (
+		dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
+		dev-python/pytest-cov[${PYTHON_USEDEP}]
+	)"
 
 distutils_enable_tests pytest
