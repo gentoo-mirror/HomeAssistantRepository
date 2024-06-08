@@ -193,7 +193,7 @@ dev-python/aiorecollect 2023.9.0: A Python 3, asyncio-based library for the ReCo
 dev-python/aioridwell 2023.7.0 2024.1.0: A Python3, asyncio-based API for interacting with Ridwell waste recycling
 dev-python/aiortsp 1.3.7: An asyncio-based RTSP library
 dev-python/aioruckus 0.34: Python API to interact with Ruckus Unleashed and ZoneDirector devices.
-dev-python/aiorun 2023.7.2: Boilerplate for asyncio applications
+dev-python/aiorun 2023.7.2 2024.5.1: Boilerplate for asyncio applications
 dev-python/aioruuvigateway 0.1.0: An asyncio-native library for requesting data from a Ruuvi Gateway
 dev-python/aiosenseme 0.6.1: SenseME by Big Ass Fans asynchronous Python library
 dev-python/aiosenz 1.0.0-r1: Async Typed Python package for the nVent RAYCHEM SENZ RestAPI
@@ -545,7 +545,7 @@ dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.44 0.46 0.47: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
-dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2: Python-base APIs and tools for CHIP.
+dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2 2024.5.2: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20240307.0 20240404.2 20240501.1: The Home Assistant frontend
 dev-python/home-assistant-intents 2024.3.12 2024.4.3 2024.4.24: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
@@ -878,7 +878,7 @@ dev-python/pydelijn 1.1.0: Get realtime info on stop passages of De Lijn (api.de
 dev-python/pydexcom 0.2.3: Python API to interact with Dexcom Share API
 dev-python/pydiscovergy 2.0.5 3.0.0: Async Python 3 library for interacting with Discovergy smart meters API
 dev-python/pydoods 1.0.2: A Python wrapper for the DOODS image detection service
-dev-python/pydrawise 2023.11.0 2024.1.0 2024.3.0: Python API for interacting with Hydrawise sprinkler controllers.
+dev-python/pydrawise 2024.3.0 2024.6.3: Python API for interacting with Hydrawise sprinkler controllers.
 dev-python/pydroid-ipcam 2.0.0: Library for handling the Android IP Webcam app
 dev-python/pyebox 1.1.4: Get your EBox consumption (wwww.ebox.ca)
 dev-python/pyecoforest 0.4.0: Python library for ecoforest local device.
@@ -1073,7 +1073,7 @@ dev-python/python-izone 1.2.9: A python interface to the iZone airconditioner co
 dev-python/python-join-api 0.0.9: Python API for interacting with Join by joaoapps.
 dev-python/python-juicenet 1.1.0: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
 dev-python/python-kasa 0.5.4 0.6.2.1: Python API for TP-Link Kasa Smarthome devices
-dev-python/python-matter-server 5.7.0 5.10.0: Python Matter WebSocket Server
+dev-python/python-matter-server 5.7.0 5.10.0 6.1.0: Python Matter WebSocket Server
 dev-python/python-metar 1.4.0: Metar - a package to parse METAR coded weather reports
 dev-python/python-miio 0.5.12: Python library for interfacing with Xiaomi smart appliances
 dev-python/python-mpd2 3.0.5: A Python MPD client library
