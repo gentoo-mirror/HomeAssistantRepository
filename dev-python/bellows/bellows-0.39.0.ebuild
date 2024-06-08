@@ -2,14 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-
 PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
-
-DESCRIPTION="Tool to flash firmware onto any Silicon Labs radio running EmberZNet, CPC multi-PAN, or just a bare Gecko Bootloader"
-HOMEPAGE="https://github.com/NabuCasa/universal-silabs-flasher https://pypi.org/project/universal-silabs-flasher/"
+DESCRIPTION="Library implementing EZSP"
+HOMEPAGE="https://github.com/zigpy/bellows https://pypi.org/project/bellows/"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -17,20 +14,16 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
-
 RDEPEND="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/zigpy[${PYTHON_USEDEP}]
-	dev-python/crc[${PYTHON_USEDEP}]
-	>=dev-python/bellows-0.38.0[${PYTHON_USEDEP}]
-	dev-python/gpiod[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/click-log-0.2.1[${PYTHON_USEDEP}]
+	~dev-python/pure-pcapy3-1.0.1[${PYTHON_USEDEP}]
+	dev-python/voluptuous[${PYTHON_USEDEP}]
+	>=dev-python/zigpy-0.60.2[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/asynctest[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+		dev-python/pytest-timeout[${PYTHON_USEDEP}]
 	)"
 
 src_prepare() {
