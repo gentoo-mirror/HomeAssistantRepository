@@ -529,7 +529,7 @@ dev-python/habluetooth 2.4.2 2.8.1: High availability Bluetooth
 dev-python/hangups 0.4.18-r1: the first third-party instant messaging client for Google Hangouts
 dev-python/hass-nabucasa 0.75.1 0.76.0 0.78.0-r1 0.79.0: Home Assistant cloud integration by Nabu Casa, Inc.
 dev-python/hass-splunk 0.1.1: Async single threaded connector to Splunk HEC using an asyncio session
-dev-python/hassil 1.5.1 1.6.1: The Home Assistant Intent Language parser
+dev-python/hassil 1.6.1 1.7.1: The Home Assistant Intent Language parser
 dev-python/haversine 2.8.1: Calculate the distance between 2 points on Earth.
 dev-python/hbmqtt 0.9.5: MQTT client/broker using Python 3.4 asyncio library
 dev-python/hdate 0.10.4: Jewish/Hebrew date and Zmanim in native Python
@@ -543,11 +543,11 @@ dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hko 0.3.2: An unofficial Python wrapper for public API of Hong Kong Observatory
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
-dev-python/holidays 0.44 0.46 0.47: Generate and work with holidays in Python
+dev-python/holidays 0.44 0.46 0.47 0.50: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2 2024.5.2: Python-base APIs and tools for CHIP.
-dev-python/home-assistant-frontend 20240307.0 20240404.2 20240501.1: The Home Assistant frontend
-dev-python/home-assistant-intents 2024.3.12 2024.4.3 2024.4.24: Intents for Home Assistant
+dev-python/home-assistant-frontend 20240307.0 20240404.2 20240501.1 20240605.0: The Home Assistant frontend
+dev-python/home-assistant-intents 2024.3.12 2024.4.3 2024.4.24 2024.6.5: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.16 1.1.0: An API for the homematicip cloud
 dev-python/homepluscontrol 0.0.5: Python-based API to interact with the Legrand Home + Control interface
