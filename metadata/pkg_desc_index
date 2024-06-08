@@ -834,7 +834,7 @@ dev-python/pySDCP 1: SDCP library to control Sony Projectors
 dev-python/pyTibber 0.28.2: A python3 library to communicate with Tibber
 dev-python/pyW215 0.7.0: Interface for d-link W215 Smart Plugs.
 dev-python/pyW800rf32 0.4: A library to communicate with the W800rf32 family of devices
-dev-python/pyads 3.2.2: Python wrapper for TwinCAT ADS library
+dev-python/pyads 3.2.2 3.4.0: Python wrapper for TwinCAT ADS library
 dev-python/pyaehw4a1 0.3.9: Python interface for Hisense AEH-W4A1 module
 dev-python/pyaftership 21.11.0: A module to get information pending parcels.
 dev-python/pyairnow 1.2.1: A lightweight Python wrapper for EPA AirNow Air Quality API
@@ -1355,10 +1355,10 @@ dev-python/wiffi 1.1.2: Python 3 package to interface devices from STALL WIFFI.
 dev-python/wirelesstagpy 0.8.1: Simple python wrapper over wirelesstags REST API
 dev-python/withings-api 2.4.0: Library for the Withings API
 dev-python/wled 0.17.0 0.17.1 0.18.0: Asynchronous Python client for WLED.
-dev-python/wolf-comm 0.0.6 0.0.7: A package to communicate with Wolf SmartSet Cloud
+dev-python/wolf-comm 0.0.6 0.0.7 0.0.8: A package to communicate with Wolf SmartSet Cloud
 dev-python/wolf-smartset 0.1.11: A package to communicate with Wolf Smart Set Cloud
 dev-python/wolf_smartset 0.1.11: A package to comunicate with Wolf Smart Set Cloud
-dev-python/wyoming 1.5.3: Protocol for Rhasspy Voice Assistant
+dev-python/wyoming 1.5.3 1.5.4: Protocol for Rhasspy Voice Assistant
 dev-python/xbee-helper 0.0.7: a high level API to an XBee device
 dev-python/xbox-webapi 2.0.11: A library to authenticate with Windows Live/Xbox Live and use their API
 dev-python/xboxapi 2.0.1: A wrapper library for XboxAPI.com
@@ -1376,7 +1376,7 @@ dev-python/yarl 1.9.2: Yet another URL library
 dev-python/yeelight 0.7.14: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
 dev-python/yolink-api 0.3.7 0.4.2 0.4.4: A library to authenticate with yolink device
-dev-python/youless-api 1.0.1: A bridge for python to the YouLess sensor
+dev-python/youless-api 1.0.1 1.1.1: A bridge for python to the YouLess sensor
 dev-python/youtubeaio 1.1.5: Asynchronous Python client for YouTube V3 API.
 dev-python/zamg 0.3.3 0.3.5 0.3.6: Asynchronous Python client for ZAMG weather data.
 dev-python/zeep 4.2.1: A modern/fast Python SOAP client based on lxml / requests
@@ -1393,7 +1393,7 @@ dev-python/zigpy-zigate 0.12.0: A library which communicates with ZiGate radios 
 dev-python/zigpy-znp 0.12.1: A library for zigpy which communicates with TI ZNP radios
 dev-python/zlib-ng 0.2.0: Drop-in replacement for zlib and gzip modules using zlib-ng
 dev-python/zm-py 0.5.2-r1 0.5.4: A loose python wrapper around the ZoneMinder REST API.
-dev-python/zwave-js-server-python 0.55.3 0.55.4: Python wrapper for zwave-js-server
+dev-python/zwave-js-server-python 0.55.3 0.55.4 0.56.0: Python wrapper for zwave-js-server
 dev-python/zwave-me-ws 0.4.3: Library, implementing websocket connection to ZWave-Me
 dev-vcs/pre-commit 3.6.2 3.7.0: A framework for managing and maintaining multi-language Git pre-commit hooks
 media-libs/lv2 1.18.10: A simple but extensible successor of LADSPA
