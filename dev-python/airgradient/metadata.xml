@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">snitun</remote-id>
-    <remote-id type="github">NabuCasa/snitun.git</remote-id>
+    <remote-id type="pypi">airgradient</remote-id>
+    <remote-id type="github">airgradienthq/python-airgradient</remote-id>
     <maintainer status="unknown">
-      <email>opensource@nabucasa.com</email>
-      <name>"Nabu Casa, Inc."</name>
+      <email>joostlek@outlook.com</email>
+      <name>Joost Lekkerkerker</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
