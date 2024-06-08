@@ -7,17 +7,15 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="The Home Assistant Intent Language parser"
-HOMEPAGE="http://github.com/home-assistant/hassil https://pypi.org/project/hassil/"
+DESCRIPTION="Generate and work with holidays in Python"
+HOMEPAGE="https://github.com/dr-prodigy/python-holidays https://pypi.org/project/holidays/"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
+DOCS="README.rst"
 
-RDEPEND="dev-python/pyyaml[${PYTHON_USEDEP}]"
-
-distutils_enable_tests pytest
+RDEPEND="dev-python/python-dateutil[${PYTHON_USEDEP}]"
