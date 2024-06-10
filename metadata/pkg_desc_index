@@ -211,8 +211,8 @@ dev-python/aiotankerkoenig 0.4.1: Async Python 3 client for tankerkoenig.de
 dev-python/aiotractive 0.5.6: Asynchronous Python client for the Tractive REST API
 dev-python/aiounifi 72 74 75 77: Python library for communicating with UniFi Network Controller API
 dev-python/aiounittest 1.4.2: Test asyncio code more easily.
-dev-python/aiovlc 0.1.0: A package for talking to vlc over its telnet interface using asyncio.
-dev-python/aiovodafone 0.4.3 0.5.4: Python library to control Vodafone Station
+dev-python/aiovlc 0.1.0 0.3.2: A package for talking to vlc over its telnet interface using asyncio.
+dev-python/aiovodafone 0.4.3 0.5.4 0.6.0: Python library to control Vodafone Station
 dev-python/aiowaqi 3.0.1: Asynchronous Python client for WAQI API.
 dev-python/aiowatttime 0.1.1: An asyncio-based Python3 library for interacting with WattTime
 dev-python/aiowebostv 0.3.3 0.4.0: Library to control webOS based LG TV devices
