@@ -2,13 +2,12 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-
 PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="UpCloud API Client"
-HOMEPAGE="https://github.com/UpCloudLtd/upcloud-python-api https://pypi.org/project/upcloud-api/"
+DESCRIPTION="Interact with Total Connect 2 alarm systems"
+HOMEPAGE="https://github.com/craigjmidwinter/total-connect-client https://pypi.org/project/total-connect-client/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,15 +17,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+RDEPEND=">=dev-python/zeep-4.1.0[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
