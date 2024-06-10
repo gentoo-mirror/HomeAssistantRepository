@@ -500,7 +500,7 @@ dev-python/google-generativeai 0.3.1: Google Generative AI High level API client
 dev-python/google-nest-sdm 3.0.3 3.0.4: Library for the Google Nest SDM API
 dev-python/googlemaps 2.5.1: Python client library for Google Maps API Web Services
 dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud API
-dev-python/gotailwind 0.2.2: Asynchronous Python client for Tailwind garage door openers.
+dev-python/gotailwind 0.2.2 0.2.3: Asynchronous Python client for Tailwind garage door openers.
 dev-python/govee-ble 0.24.0 0.31.0 0.31.2: Manage Govee BLE devices
 dev-python/govee-local-api 1.4.4 1.4.5: Library to communicate with Govee local API
 dev-python/gpiod 1.5.4: It is a pure Python library and has no dependencies on other packages
@@ -579,6 +579,7 @@ dev-python/ifaddr 0.1.7: Enumerate IP addresses on the local network adapters
 dev-python/iglo 1.2.7: Control iGlo based RGB lights
 dev-python/ihcsdk 2.8.5: IHC Python SDK
 dev-python/imaplib2 3.6: A threaded Python IMAP4 client.
+dev-python/imgw-pib 1.0.4: Python wrapper for IMGW-PIB API.
 dev-python/importlib_resources 5.12.0: Read resources from Python packages
 dev-python/imutils 0.5.4: A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images, sorting contours, detecting edges, and much more easier with OpenCV and both Python 2.7 and Python 3.
 dev-python/incomfort-client 0.5.0: A aiohttp-based client for Intergas InComfort/InTouch Lan2RF systems
@@ -1263,7 +1264,7 @@ dev-python/tellsticknet 0.1.2: Listen for UDP sensor broadcasts from a Tellstick
 dev-python/temescal 0.5: Python API for controlling LG speakers
 dev-python/temperusb 1.6.1: Reads temperature from TEMPerV1 devices (USB 0c45:7401)
 dev-python/tenacity 8.0.1-r1: General-purpose retrying library
-dev-python/tesla-fleet-api 0.2.3 0.4.6 0.4.9: Tesla Fleet API library for Python
+dev-python/tesla-fleet-api 0.4.6 0.4.9 0.5.12: Tesla Fleet API library for Python
 dev-python/tesla-powerwall 0.3.19 0.5.1: API for Tesla Powerwall
 dev-python/tesla-wall-connector 1.0.2: API Library for communicating with a Tesla Wall Connector
 dev-python/teslajsonpy 0.18.3: A library to work with Tesla API.
@@ -1288,6 +1289,7 @@ dev-python/tqdm 4.66.2: Add a progress meter to your loops in a second
 dev-python/transmission-rpc 7.0.3: Python module that implements the Transmission bittorent client JSON-RPC protocol
 dev-python/transmissionrpc 0.11: Python module that implements the Transmission bittorent client RPC protocol.
 dev-python/ttls 1.5.1: Twinkly Twinkly Little Star
+dev-python/ttn-client 0.0.4: A python client to fetch/receive and parse uplink messages from The Thinks Network
 dev-python/tuf 4.0.0 5.0.0: A secure updater framework for Python
 dev-python/tuya-device-sharing-sdk 0.1.9: A Python sdk for Tuya Open API, which provides IoT capabilities, maintained by Tuya official
 dev-python/tuya-iot-py-sdk 0.6.6: A Python sdk for Tuya Open API, which provides IoT capabilities, maintained by Tuya official
