@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Tesla Fleet API library for Python"
-HOMEPAGE="https://github.com/Teslemetry/tesla_fleet_api https://pypi.org/project/tesla-fleet-api/"
+DESCRIPTION="Python wrapper for IMGW-PIB API."
+HOMEPAGE="https://github.com/bieniu/imgw-pib https://pypi.org/project/imgw-pib/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -18,7 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiolimiter[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.8.0"
 
 distutils_enable_tests pytest

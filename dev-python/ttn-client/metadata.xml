@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">tesla-fleet-api</remote-id>
-    <remote-id type="github">Teslemetry/tesla_fleet_api</remote-id>
+    <remote-id type="pypi">ttn-client</remote-id>
+    <remote-id type="github">angelnu/thethinksnetwork_python_client</remote-id>
     <maintainer status="unknown">
-      <email>hello@teslemetry.com</email>
-      <name>Brett Adams</name>
+      <email>pypi@angelnu.com</email>
+      <name>Angel Nunez Mencias</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -6,11 +6,7 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">tesla-fleet-api</remote-id>
-    <remote-id type="github">Teslemetry/tesla_fleet_api</remote-id>
-    <maintainer status="unknown">
-      <email>hello@teslemetry.com</email>
-      <name>Brett Adams</name>
-    </maintainer>
+    <remote-id type="pypi">imgw-pib</remote-id>
+    <remote-id type="github">bieniu/imgw-pib</remote-id>
   </upstream>
 </pkgmetadata>
