@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for the HomeWizard Energy"
-HOMEPAGE="https://github.com/dcsbl/python-homewizard-energy https://pypi.org/project/python-homewizard-energy/"
+DESCRIPTION="MPython module to talk to Husqvarna Automower."
+HOMEPAGE="https://github.com/Thomas55555/aioautomower https://pypi.org/project/aioautomower/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -19,11 +19,7 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	$(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' python3_10)"
-BDEPEND="
-	test? (
-		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-		dev-python/aresponses[${PYTHON_USEDEP}]
-	)"
+	dev-python/mashumaro[${PYTHON_USEDEP}]
+	dev-python/pyjwt[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
