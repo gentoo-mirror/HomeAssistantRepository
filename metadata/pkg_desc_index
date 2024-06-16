@@ -199,7 +199,7 @@ dev-python/aiosenseme 0.6.1: SenseME by Big Ass Fans asynchronous Python library
 dev-python/aiosenz 1.0.0-r1: Async Typed Python package for the nVent RAYCHEM SENZ RestAPI
 dev-python/aioserial 1.3.0: An asynchronous serial port library of Python
 dev-python/aioshelly 8.1.1 8.2.0 9.0.0: Asynchronous library to control Shelly devices.
-dev-python/aioshutil 1.1: Asynchronous shutil module.
+dev-python/aioshutil 1.1 1.4: Asynchronous shutil module.
 dev-python/aioskybell 22.7.0: A Skybell HD Python library running on Python 3.
 dev-python/aioslimproto 2.3.3 3.0.0: Python module to talk to Logitech Squeezebox players directly (without Logitech server).
 dev-python/aiosolaredge 0.2.0: Asyncio SolarEdge
@@ -1305,6 +1305,7 @@ dev-python/ua-parser 0.10.0: Python port of Browserscope's user agent parser
 dev-python/uamqp 1.6.0-r1: AMQP 1.0 Client Library for Python
 dev-python/uart-devices 0.1.0: UART Devices for Linux
 dev-python/uasiren 0.0.1: Implements siren.pp.ua API - public wrapper for api.ukrainealarm.com API that returns info about Ukraine air-raid alarms.
+dev-python/uiprotect 1.7.2: Python API for Unifi Protect (Unofficial)
 dev-python/ulid-transform 0.9.0: Create and transform ULIDs
 dev-python/ultraheat-api 0.5.7: Reading usage data from the Landys & Gyr Ultraheat heat meter unit
 dev-python/unicode-rbnf 1.0.0: Rule-based number formatting using Unicode CLDR data
