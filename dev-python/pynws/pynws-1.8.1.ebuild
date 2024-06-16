@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A client to access Ondilo ICO APIs"
-HOMEPAGE="https://github.com/JeromeHXP/ondilo https://pypi.org/project/ondilo/"
+DESCRIPTION="Python library to retrieve observations and forecasts from NWS/NOAA"
+HOMEPAGE="https://github.com/MatthewFlamm/pynws https://pypi.org/project/pynws/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,8 +18,7 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/python-metar[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

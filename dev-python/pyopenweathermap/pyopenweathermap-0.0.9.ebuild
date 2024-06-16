@@ -4,11 +4,11 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="A client to access Ondilo ICO APIs"
-HOMEPAGE="https://github.com/JeromeHXP/ondilo https://pypi.org/project/ondilo/"
+DESCRIPTION="lib for OpenWeatherMap for Home Assistant"
+HOMEPAGE="https://pypi.org/project/pyopenweathermap/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,8 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]"
+BDEPEND="
+	test? (
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	)"
 
 distutils_enable_tests pytest
