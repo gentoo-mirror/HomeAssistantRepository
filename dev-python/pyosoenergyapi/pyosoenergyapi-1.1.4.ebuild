@@ -7,10 +7,10 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A package for interacting with Subaru Starlink Remote Services API."
-HOMEPAGE="https://github.com/G-Two/subarulink https://pypi.org/project/subarulink/"
+DESCRIPTION="A Python library to interface with the OSO Energy API"
+HOMEPAGE="https://github.com/osohotwateriot/apyosohotwaterapi https://pypi.org/project/pyosoenergyapi/"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -19,14 +19,7 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/stdiomask[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+	dev-python/unasync[${PYTHON_USEDEP}]
+	dev-python/loguru[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
