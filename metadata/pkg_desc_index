@@ -705,7 +705,7 @@ dev-python/nessclient 1.0.0: Implementation/abstraction of the Ness D8x / D16x S
 dev-python/netdata 1.1.0: Python API for interacting with Netdata.
 dev-python/netdisco 3.0.0-r1: Discover devices on your local network
 dev-python/netmap 0.7.0.2: This is a python class to use nmap and access scan results from python3
-dev-python/nettigo-air-monitor 2.2.2 3.0.0: Python wrapper for getting air quality data from Nettigo Air Monitor devices.
+dev-python/nettigo-air-monitor 2.2.2 3.0.0 3.1.0: Python wrapper for getting air quality data from Nettigo Air Monitor devices.
 dev-python/neurio 0.3.1: Neurio energy sensor and appliance automation API library
 dev-python/nexia 2.0.7 2.0.8: Python library for connecting to nexia
 dev-python/nextcloudmonitor 1.4.0 1.5.0: Python wrapper around nextcloud monitor api
@@ -730,7 +730,7 @@ dev-python/odp-amsterdam 6.0.0 6.0.1: Asynchronous Python client providing Open 
 dev-python/oemthermostat 1.1.1: A package to interface with the HTTP API of the OpenEnergyMonitor Thermostat.
 dev-python/ollama-hass 0.1.7: A fork of the official Python client for Ollama for Home Assistant.
 dev-python/omnilogic 0.4.5: Integration for the Hayward OmniLogic pool control system
-dev-python/ondilo 0.2.0 0.4.0: A client to access Ondilo ICO APIs
+dev-python/ondilo 0.2.0 0.4.0 0.5.0: A client to access Ondilo ICO APIs
 dev-python/onkyo-eiscp 1.2.7: Control Onkyo receivers over ethernet.
 dev-python/onvif-zeep-async 3.1.12: Async Python Client for ONVIF Camera
 dev-python/open-garage 0.2.0: A python3 library to communicate with Open Garage
@@ -965,7 +965,7 @@ dev-python/pynetio 0.1.9.1: Binding library for Koukaam netio devices
 dev-python/pynobo 1.6.0 1.8.0 1.8.1: NobÃ¸ Hub / NobÃ¸ Energy Control TCP/IP Interface
 dev-python/pynuki 1.6.2 1.6.3: Python bindings for nuki.io bridges
 dev-python/pynut2 2.1.2: A Python abstraction class to access NUT servers.
-dev-python/pynws 1.6.0 1.7.0 1.8.0: Python library to retrieve observations and forecasts from NWS/NOAA
+dev-python/pynws 1.6.0 1.7.0 1.8.0 1.8.1: Python library to retrieve observations and forecasts from NWS/NOAA
 dev-python/pynx584 0.5: NX584/NX8E Interface Library and Server
 dev-python/pynzbgetapi 0.2.0: Basic Python NZBGet API client.
 dev-python/pyobihai 1.4.2: A Python wrapper for Obihai
@@ -974,6 +974,7 @@ dev-python/pyombi 0.1.10: A python module to retrieve information from Ombi.
 dev-python/pyopensprinkler 0.7.6: Python module for OpenSprinker API
 dev-python/pyopenssl 23.2.0: Python interface to the OpenSSL library
 dev-python/pyopenuv 2023.2.0: A simple Python API data from openuv.io
+dev-python/pyopenweathermap 0.0.9: lib for OpenWeatherMap for Home Assistant
 dev-python/pyopnsense 0.4.0: A python API client for OPNsense
 dev-python/pyoppleio 1.0.5: Python library for interfacing with opple mobile control light
 dev-python/pyoppleio-legacy 1.0.8: Python library for interfacing with old models of opple lights with wifi control.
