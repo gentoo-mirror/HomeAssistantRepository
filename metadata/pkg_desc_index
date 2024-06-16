@@ -326,7 +326,7 @@ dev-python/bthomehub5-devicelist 0.1.1: A library that returns a list of devices
 dev-python/btlewrap 0.1.0: wrapper around different bluetooth low energy backends
 dev-python/btsmarthub-devicelist 0.2.3: Retrieve a list of devices from a bt smarthub or bt smarthub 2 on a local network
 dev-python/btsocket 0.2.0: Python library for BlueZ Bluetooth Management API
-dev-python/buienradar 1.0.5: Library and CLI tools for interacting with buienradar.
+dev-python/buienradar 1.0.5 1.0.6: Library and CLI tools for interacting with buienradar.
 dev-python/bx-py-utils 75: Various Python utility functions
 dev-python/cached-ipaddress 0.3.0: Cache construction of ipaddress objects
 dev-python/caio 0.9.8: Asynchronous file IO for Linux MacOS or Windows.
@@ -471,7 +471,7 @@ dev-python/ftfy 6.1.3: Fixes mojibake and other problems with Unicode, after the
 dev-python/fyta-cli 0.3.3 0.3.5 0.4.1: Python library to access the FYTA API
 dev-python/gTTS 2.2.4: gTTS (Google Text-to-Speech), a Python library and CLI tool to interface with Google Translate text-to-speech API
 dev-python/garages-amsterdam 3.0.0: Asynchronous Python client for getting garage occupancy in Amsterdam
-dev-python/gardena-bluetooth 1.4.1: controlling gardena bluetooth enabled watering computers
+dev-python/gardena-bluetooth 1.4.1 1.4.2: controlling gardena bluetooth enabled watering computers
 dev-python/garminconnect-ha 0.1.6: Garmin Connect Python 3 API wrapper for Home Assistant
 dev-python/gassist-text 0.0.10 0.0.11: A Python library for interacting with Google Assistant API via text
 dev-python/gatt 0.2.7: Bluetooth GATT SDK for Python
@@ -547,7 +547,7 @@ dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.44 0.46 0.47 0.50: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2 2024.5.2: Python-base APIs and tools for CHIP.
-dev-python/home-assistant-frontend 20240307.0 20240404.2 20240501.1 20240605.0: The Home Assistant frontend
+dev-python/home-assistant-frontend 20240307.0 20240404.2 20240501.1 20240610.1: The Home Assistant frontend
 dev-python/home-assistant-intents 2024.3.12 2024.4.3 2024.4.24 2024.6.5: Intents for Home Assistant
 dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.0.16 1.1.0: An API for the homematicip cloud
