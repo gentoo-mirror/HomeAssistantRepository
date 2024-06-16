@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pylaunches</remote-id>
-    <remote-id type="github">ludeeus/pylaunches</remote-id>
+    <remote-id type="pypi">monzopy</remote-id>
+    <remote-id type="github">JakeMartin-ICL/monzopy</remote-id>
     <maintainer status="unknown">
-      <email>ludeeus@ludeeus.dev</email>
-      <name>Ludeeus</name>
+      <email>jake_martin_@outlook.com</email>
+      <name>Jake Martin</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
