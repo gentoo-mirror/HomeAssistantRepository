@@ -235,7 +235,7 @@ dev-python/amqtt 0.10.1: MQTT client/broker using Python asyncio
 dev-python/androidtv 0.0.73-r1: Communicate with an Android TV or Fire TV device via ADB over a network.
 dev-python/androidtvremote2 0.0.14 0.0.15: A Python library for interacting with Android TV using the Android TV Remote protocol v2
 dev-python/anel-pwrctrl-homeassistant 0.0.1: Discover and control ANEL NET-PwrCtrl devices.
-dev-python/anova-wifi 0.10.0: A package to get read only data from Anova precision cookers with wifi
+dev-python/anova-wifi 0.10.0 0.12.0: A package to get read only data from Anova precision cookers with wifi
 dev-python/anthemav 1.4.1: Python API for controlling Anthem Receivers
 dev-python/anyio 4.0.0 4.1.0: Compatibility layer for multiple asynchronous event loop implementations
 dev-python/apcaccess 0.0.13: This project implements the apcaccess tool in pure Python and provides
@@ -244,6 +244,7 @@ dev-python/apns2 0.3.0: Interacting with the Apple Push Notification Service via
 dev-python/apple_weatherkit 1.1.2: Python client for Apple WeatherKit API
 dev-python/apprise 1.6.0 1.7.2 1.7.4: Push Notifications that work with just about every platform!
 dev-python/aprslib 0.7.0 0.7.2: Module for accessing APRS-IS and parsing APRS packets
+dev-python/apsystems-ez1 1.3.1: The APsystems EZ1 Python library offers a streamlined interface for interacting with the local API of APsystems EZ1 Microinverters.
 dev-python/aqipy-atmotech 0.1.5: AQI calculation library
 dev-python/aqualogic 2.6: Library for interfacing with a Hayward/Goldline AquaLogic/ProLogic pool controller.
 dev-python/arcam-fmj 1.4.0 1.5.2: A python library for speaking to Arcam receivers
