@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">anova-wifi</remote-id>
-    <remote-id type="github">Lash-L/anova-wifi</remote-id>
+    <remote-id type="pypi">apsystems-ez1</remote-id>
+    <remote-id type="github">SonnenladenGmbH/APsystems-EZ1-API-HomeAssistant</remote-id>
     <maintainer status="unknown">
-      <email>conway220@gmail.com</email>
-      <name>Luke</name>
+      <email>l.tiedt@sonnenladen.de</email>
+      <name>Sonnenladen GmbH</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
