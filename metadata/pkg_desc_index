@@ -103,7 +103,7 @@ dev-python/adafruit-circuitpython-typing 1.3.0: Types needed for type annotation
 dev-python/adax 0.4.0: A python3 library to communicate with Adax
 dev-python/adb-homeassistant 1.3.2: A pure python implementation of the Android ADB and Fastboot protocols
 dev-python/adb-shell 0.4.4-r1: A Python implementation of ADB with shell and FileSync functionality.
-dev-python/adext 0.4.2: AlarmDecoder extended
+dev-python/adext 0.4.2 0.4.3: AlarmDecoder extended
 dev-python/adguardhome 0.6.3: Asynchronous Python client for the AdGuard Home API.
 dev-python/advantage-air 0.4.4: API helper for Advantage Air's MyAir and e-zone API
 dev-python/aenum 3.1.15: Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants
@@ -233,7 +233,7 @@ dev-python/amberelectric 1.0.4 1.1.0: Interface to the Amber Electric API, allow
 dev-python/amcrest 1.9.8: Python wrapper implementation for Amcrest cameras.
 dev-python/amqtt 0.10.1: MQTT client/broker using Python asyncio
 dev-python/androidtv 0.0.73-r1: Communicate with an Android TV or Fire TV device via ADB over a network.
-dev-python/androidtvremote2 0.0.14 0.0.15: A Python library for interacting with Android TV using the Android TV Remote protocol v2
+dev-python/androidtvremote2 0.0.14 0.0.15 0.1.1: A Python library for interacting with Android TV using the Android TV Remote protocol v2
 dev-python/anel-pwrctrl-homeassistant 0.0.1: Discover and control ANEL NET-PwrCtrl devices.
 dev-python/anova-wifi 0.10.0 0.12.0: A package to get read only data from Anova precision cookers with wifi
 dev-python/anthemav 1.4.1: Python API for controlling Anthem Receivers
@@ -478,6 +478,7 @@ dev-python/gassist-text 0.0.10 0.0.11: A Python library for interacting with Goo
 dev-python/gatt 0.2.7: Bluetooth GATT SDK for Python
 dev-python/gcal-sync 6.0.3 6.0.4: A python library for syncing Google Calendar to local storage
 dev-python/gcloud 0.18.3: API Client library for Google Cloud
+dev-python/genie-partner-sdk 1.0.2: An SDK to interact with the AladdinConnect (or OHD) partner API
 dev-python/geniushub-client 0.7.1: An aiohttp-based client for Genius Hub systems
 dev-python/geocachingapi 0.2.1: Python client for controlling the Geocaching API
 dev-python/geojson 2.5.0: Python bindings and utilities for GeoJSON
