@@ -289,7 +289,7 @@ dev-python/beautifulsoup4 4.12.2: Pythonic idioms for iterating, searching, and 
 dev-python/beewi-smartclim 0.0.10: Library to read data from BeeWi SmartClim sensor using Bluetooth LE
 dev-python/bellows 0.38.1 0.38.4 0.39.0 0.39.1: Library implementing EZSP
 dev-python/bidict 0.22.0: The bidirectional mapping library for Python.
-dev-python/bimmer-connected 0.14.6-r1 0.15.2: Library to read data from the BMW Connected Drive portal
+dev-python/bimmer-connected 0.14.6-r1 0.15.2 0.15.3: Library to read data from the BMW Connected Drive portal
 dev-python/bitstruct 8.17.0: This module performs conversions between Python values and C bit field structs represented as Python byte strings.
 dev-python/bizkaibus 0.1.1: Online information for buses of Biscay bus services (Basque Country, Spain).
 dev-python/bleak 0.21.1: Bluetooth Low Energy platform Agnostic Klient
@@ -314,7 +314,7 @@ dev-python/bond-async 0.2.1: Asynchronous Python wrapper library over Bond Local
 dev-python/boschshcpy 0.2.75 0.2.82 0.2.91: Bosch Smart Home Controller API Python Library
 dev-python/boto3 1.33.13 1.34.51: The AWS SDK for Python
 dev-python/bravia-tv 1.0.11: Python Bravia TV remote control
-dev-python/bring-api 0.5.6 0.5.7: Unofficial package to access Bring! shopping lists API.
+dev-python/bring-api 0.5.6 0.5.7 0.7.1: Unofficial package to access Bring! shopping lists API.
 dev-python/broadlink 0.18.3 0.19.0: Python API for controlling Broadlink devices
 dev-python/brother 2.3.0 4.1.0: Python wrapper for getting data from Brother laser and inkjet printers via SNMP.
 dev-python/brotlipy 0.7.0: Python binding to the Brotli library
@@ -397,7 +397,7 @@ dev-python/dlms-cosem 21.3.2: A Python library for DLMS/COSEM
 dev-python/dovado 0.4.1: Communicate with Dovado router
 dev-python/dpkt 1.9.8: fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols
 dev-python/dremel3dpy 2.1.1: A Dremel 3D Printer Python Library running on Python 3
-dev-python/dropmqttapi 1.0.1 1.0.2: MQTT API for DROP water management products
+dev-python/dropmqttapi 1.0.2 1.0.3: MQTT API for DROP water management products
 dev-python/dsmr-parser 1.3.1: Library to parse Dutch Smart Meter Requirements (DSMR)
 dev-python/dtlssocket 0.1.12 0.1.16: DTLSSocket is a cython wrapper for tinydtls with a Socket like interface
 dev-python/dwdwfsapi 1.0.6-r1 1.0.7: Python client to retrieve data provided by DWD via their geoserver WFS API
@@ -824,7 +824,7 @@ dev-python/py3rijndael 0.3.3: Rijndael algorithm library for Python3.
 dev-python/pyAtome 0.1.1: Get your energy consumption from Atome Linky device
 dev-python/pyCEC 0.5.2: Provide HDMI CEC devices as objects, especially for use with Home Assistant
 dev-python/pyControl4 1.1.0: Python 3 asyncio package for interacting with Control4 systems
-dev-python/pyDuotecno 2024.1.2 2024.3.2 2024.5.0: Open-source home automation platform running on Python 3.
+dev-python/pyDuotecno 2024.1.2 2024.3.2 2024.5.0 2024.5.1: Open-source home automation platform running on Python 3.
 dev-python/pyEGPS 0.2.5: Controlling Energenie Power Strips with python.
 dev-python/pyEight 0.3.2: Provides a python api to interact with an Eight Sleep mattress cover.
 dev-python/pyElectra 1.2.0 1.2.1: Electra Smart Python Integration.
@@ -876,10 +876,10 @@ dev-python/pycups 1.9.73-r3: Python bindings for the CUPS API
 dev-python/pydaikin 2.11.1: Python Daikin HVAC appliances interface
 dev-python/pydanfossair 0.1.0: Python interface for Danfoss Air HRV systems
 dev-python/pydantic 1.10.12: Data parsing and validation using Python type hints
-dev-python/pydeconz 114 115: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
+dev-python/pydeconz 115 116: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
 dev-python/pydelijn 1.1.0: Get realtime info on stop passages of De Lijn (api.delijn.be)
 dev-python/pydexcom 0.2.3: Python API to interact with Dexcom Share API
-dev-python/pydiscovergy 2.0.5 3.0.0: Async Python 3 library for interacting with Discovergy smart meters API
+dev-python/pydiscovergy 3.0.0 3.0.1: Async Python 3 library for interacting with Discovergy smart meters API
 dev-python/pydoods 1.0.2: A Python wrapper for the DOODS image detection service
 dev-python/pydrawise 2024.3.0 2024.6.3 2024.6.4: Python API for interacting with Hydrawise sprinkler controllers.
 dev-python/pydroid-ipcam 2.0.0: Library for handling the Android IP Webcam app
@@ -1059,7 +1059,7 @@ dev-python/python-bsblan 0.5.16 0.5.18: Asynchronous Python client for BSBLAN
 dev-python/python-clementine-remote 1.0.1: Python library and CLI for the Clementine Music Player remote protocol.
 dev-python/python-didl-lite 1.4.0: DIDL-Lite (Digital Item Declaration Language) tools for Python
 dev-python/python-digitalocean 1.13.2: digitalocean.com API to manage Droplets and Images
-dev-python/python-ecobee-api 0.2.17: Python API for talking to Ecobee thermostats
+dev-python/python-ecobee-api 0.2.17 0.2.18: Python API for talking to Ecobee thermostats
 dev-python/python-engineio 3.14.2: Python implementation of the Engine.IO realtime server.
 dev-python/python-eq3bt 0.2: EQ3 bluetooth thermostat support library
 dev-python/python-etherscan-api 0.0.3: Python API for interacting with etherscan.io.
