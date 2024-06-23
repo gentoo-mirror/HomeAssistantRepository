@@ -31,7 +31,7 @@ dev-python/Adafruit_BBIO 1.1.1: A module to control BeagleBone IO channels
 dev-python/Adax-local 0.1.5: A python3 library to communicate with Adax
 dev-python/Ambiclimate 0.2.1: A python3 library to communicate with Ambiclimate
 dev-python/Authlib 1.2.0: The ultimate Python library in building OAuth and OpenID Connect servers.
-dev-python/Babel 2.13.1: Collection of tools for internationalizing Python applications
+dev-python/Babel 2.13.1 2.15.0: Collection of tools for internationalizing Python applications
 dev-python/BlinkStick 1.2.0: Python package to control BlinkStick USB devices.
 dev-python/CO2Signal 0.4.2: A package to access the co2signal API
 dev-python/DateTime 5.3: This package provides a DateTime data type, as known from Zope. Unless you need to communicate with Zope APIs, you're probably better off using Python's built-in datetime module.
@@ -422,7 +422,7 @@ dev-python/energyzero 2.1.0: Asynchronous Python client providing energy/gas pri
 dev-python/enocean 0.50.1: EnOcean serial protocol implementation
 dev-python/enturclient 0.2.4: An API client for public transport data from Entur.
 dev-python/enum-compat 0.0.3: enum/enum34 compatibility package
-dev-python/env-canada 0.6.0 0.6.2: A package to access meteorological data from Environment Canada
+dev-python/env-canada 0.6.0 0.6.2 0.6.3: A package to access meteorological data from Environment Canada
 dev-python/envirophat 0.0.6: Enviro pHAT environmental sensor board driver
 dev-python/envoy-reader 0.20.1: A program to read from an Enphase Envoy on the local network
 dev-python/envoy-utils 0.0.1: Python utilities for the Enphase Envoy
@@ -544,7 +544,7 @@ dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hko 0.3.2: An unofficial Python wrapper for public API of Hong Kong Observatory
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
-dev-python/holidays 0.44 0.46 0.47 0.50: Generate and work with holidays in Python
+dev-python/holidays 0.44 0.46 0.47 0.51: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2 2024.5.2: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20240307.0 20240404.2 20240501.1 20240610.1: The Home Assistant frontend
@@ -881,7 +881,7 @@ dev-python/pydelijn 1.1.0: Get realtime info on stop passages of De Lijn (api.de
 dev-python/pydexcom 0.2.3: Python API to interact with Dexcom Share API
 dev-python/pydiscovergy 2.0.5 3.0.0: Async Python 3 library for interacting with Discovergy smart meters API
 dev-python/pydoods 1.0.2: A Python wrapper for the DOODS image detection service
-dev-python/pydrawise 2024.3.0 2024.6.3: Python API for interacting with Hydrawise sprinkler controllers.
+dev-python/pydrawise 2024.3.0 2024.6.3 2024.6.4: Python API for interacting with Hydrawise sprinkler controllers.
 dev-python/pydroid-ipcam 2.0.0: Library for handling the Android IP Webcam app
 dev-python/pyebox 1.1.4: Get your EBox consumption (wwww.ebox.ca)
 dev-python/pyecoforest 0.4.0: Python library for ecoforest local device.
