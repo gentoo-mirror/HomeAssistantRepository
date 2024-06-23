@@ -806,7 +806,7 @@ dev-python/pushover_complete 1.1.1: A Python package for interacting with *all* 
 dev-python/pvo 2.1.1: Asynchronous client for the PVOutput API.
 dev-python/pwmled 1.6.10: Control LEDs connected to a micro controller using pwm.
 dev-python/py-aosmith 1.0.1 1.0.8: A Python client library for A. O. Smith water heaters
-dev-python/py-canary 0.5.3: Python API for Canary Security Camera
+dev-python/py-canary 0.5.3 0.5.4: Python API for Canary Security Camera
 dev-python/py-ccm15 0.0.9: A package to control Midea CCM15 data converter modules
 dev-python/py-cpuinfo 8.0.0: Get CPU info with pure Python 2 & 3
 dev-python/py-dormakaba-dkey 1.0.5: API to interact with a Dormakaba dkey lock via bluetooth
