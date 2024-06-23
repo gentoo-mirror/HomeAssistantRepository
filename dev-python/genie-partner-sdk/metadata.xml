@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">anova-wifi</remote-id>
-    <remote-id type="github">Lash-L/anova_wifi</remote-id>
+    <remote-id type="pypi">genie-partner-sdk</remote-id>
+    <remote-id type="github">genie-garage/aladdin-python-sdk</remote-id>
     <maintainer status="unknown">
-      <email>conway220@gmail.com</email>
-      <name>Luke</name>
+      <email>adam_johnston@geniecompany.com</email>
+      <name>Adam Johnston</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
