@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="MQTT API for DROP water management products"
-HOMEPAGE=" https://pypi.org/project/dropmqttapi/"
+DESCRIPTION="Unofficial package to access Bring! shopping lists API."
+HOMEPAGE="https://github.com/miaucl/python-bring-api https://pypi.org/project/bring-api/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -17,3 +17,6 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+
+distutils_enable_tests pytest

@@ -2,18 +2,14 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="MQTT API for DROP water management products"
-HOMEPAGE=" https://pypi.org/project/dropmqttapi/"
+DESCRIPTION="Open-source home automation platform running on Python 3."
+HOMEPAGE="https://github.com/Cereal2nd/pyDuotecno https://pypi.org/project/pyDuotecno/"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
-IUSE="test"
-RESTRICT="!test? ( test )"
-
 DOCS="README.md"

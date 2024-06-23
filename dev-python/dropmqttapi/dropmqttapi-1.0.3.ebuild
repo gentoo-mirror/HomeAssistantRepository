@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
 DESCRIPTION="MQTT API for DROP water management products"
-HOMEPAGE=" https://pypi.org/project/dropmqttapi/"
+HOMEPAGE="https://github.com/ChandlerSystems/dropmqttapi https://pypi.org/project/dropmqttapi/"
 
 LICENSE="MIT"
 SLOT="0"

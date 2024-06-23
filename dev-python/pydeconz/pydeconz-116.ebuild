@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-PYTHON_COMPAT=( python3_{11..12} )
+PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1
 
@@ -21,11 +21,9 @@ RESTRICT="!test? ( test )"
 DOCS="README.rst"
 
 RDEPEND=">=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
-	$(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' python3_10)
-	>=dev-python/orjson-3.9.5[${PYTHON_USEDEP}]"
+	>=dev-python/orjson-3.9[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
 		dev-python/aioresponses[${PYTHON_USEDEP}]
 	)"

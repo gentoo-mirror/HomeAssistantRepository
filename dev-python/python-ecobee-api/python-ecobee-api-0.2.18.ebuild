@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="MQTT API for DROP water management products"
-HOMEPAGE=" https://pypi.org/project/dropmqttapi/"
+DESCRIPTION="Python API for talking to Ecobee thermostats"
+HOMEPAGE="https://github.com/nkgilley/python-ecobee-api https://pypi.org/project/python-ecobee-api/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -17,3 +17,7 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
+
+RDEPEND=">=dev-python/requests-2.25[${PYTHON_USEDEP}]"
+
+distutils_enable_tests pytest
