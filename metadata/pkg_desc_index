@@ -413,7 +413,7 @@ dev-python/electrickiwi-api 0.8.5: Electric Kiwi Python API
 dev-python/elgato 5.1.1 5.1.2: Asynchronous Python client for Elgato Lights.
 dev-python/eliqonline 1.2.2: Eliq Online API Library
 dev-python/elkm1-lib 2.2.6 2.2.7: Library for interacting with ElkM1 alarm/automation panel.
-dev-python/elmax-api 0.0.4: Asynchronous API Library to work with Elmax devices
+dev-python/elmax-api 0.0.4 0.0.5: Asynchronous API Library to work with Elmax devices
 dev-python/elvia 0.1.0: Python bindings for the Elvia API
 dev-python/emoji 2.8.0: Emoji for Python
 dev-python/emulated-roku 0.2.1 0.3.0: Library to emulate a roku server to serve as a proxyfor remotes such as Harmony
