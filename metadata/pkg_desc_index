@@ -281,6 +281,8 @@ dev-python/avion 0.10: Python API for controlling Avi-on Bluetooth dimmers
 dev-python/awesomeversion 23.11.0 24.2.0: One version package to rule them all, One version package to find them, One version package to bring them all, and in the darkness bind them.
 dev-python/axis 48 58 60 61: A Python library for communicating with devices from Axis Communications
 dev-python/azure-core 1.30.2: Microsoft Azure Core Library for Python
+dev-python/azure-identity 1.17.1: Microsoft Azure Identity Library for Python
+dev-python/azure-kusto-data 3.1.0: Kusto Data Client
 dev-python/backports-strenum 1.2.8: Base class for creating enumerated constants that are also subclasses of str
 dev-python/baidu-aip 1.6.6.0: Baidu AIP SDK
 dev-python/base36 0.1.1: Yet another implementation for the positional numeral system using 36 as the radix.
@@ -693,6 +695,8 @@ dev-python/motionblindsble 0.0.9: Python library for interfacing with Motionblin
 dev-python/motioneye-client 0.3.14: motionEye client library Python Package
 dev-python/mozart-api 3.2.1.150.6 3.4.1.8.5: Mozart platform API
 dev-python/ms-cv 0.1.1: A correlation vector implementation in python
+dev-python/msal 1.29.0: The Microsoft Authentication Library (MSAL) for Python library enables your app to access the Microsoft Cloud by supporting authentication of users with Microsoft Azure Active Directory accounts (AAD) and Microsoft Accounts (MSA) using industry standard OAuth2 and OpenID Connect.
+dev-python/msal-extensions 1.2.0: Microsoft Authentication Library extensions (MSAL EX) provides a persistence API that can save your data on disk, encrypted on Windows, macOS and Linux. Concurrent data access will be coordinated by a file lock mechanism.
 dev-python/mt_940 4.26.0: A library to parse MT940 files and returns smart Python collections for statistics and manipulation.
 dev-python/mullvad-api 1.0.0: Python wrapper around mullvad api
 dev-python/mutesync 0.0.1: Asynchronous library to control mutesync devices.
