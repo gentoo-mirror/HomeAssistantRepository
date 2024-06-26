@@ -153,6 +153,7 @@ app-misc/homeassistant:insteon - allowing linked INSTEON devices to be used
 app-misc/homeassistant:intesishome - communications with IntesisHome Smart AC Controllers
 app-misc/homeassistant:ipma - ipma weather platform
 app-misc/homeassistant:ipp - read current data from your networked printer
+app-misc/homeassistant:isal - Intelligent Storage Acceleration, is used for accelerating aiohttp
 app-misc/homeassistant:islamic_prayer_times - integration displays the various prayer times for Muslims as sensors
 app-misc/homeassistant:jewish_calendar - Displays information related to the Jewish Calendar as a variety of sensors
 app-misc/homeassistant:joaoapps_join - joaoapps_join integration exposes services from Join
@@ -315,6 +316,7 @@ app-misc/homeassistant-full:advantage_air - API helper for Advantage Air's MyAir
 app-misc/homeassistant-full:aemet - AEMET OpenData meteorological data
 app-misc/homeassistant-full:aftership - The aftership platform allows one to track deliveries by AfterShip
 app-misc/homeassistant-full:agent_dvr - Agent DVR is a free* software DVR solution
+app-misc/homeassistant-full:airgradient - The AirGradient integration will fetch data from your AirGradient devices
 app-misc/homeassistant-full:airly - Uses the Airly web service as a source for air quality data
 app-misc/homeassistant-full:airnow - AirNow web service as a source for air quality data
 app-misc/homeassistant-full:airq - integrating the sensors provided by your air-Q device
@@ -351,6 +353,7 @@ app-misc/homeassistant-full:apple_tv - Library for controlling an Apple TV
 app-misc/homeassistant-full:apprise - The Apprise service is an all-in-one solution to open up Home Assistant
 app-misc/homeassistant-full:aprilaire - The Aprilaire integration allows you to control an Aprilaire thermostat
 app-misc/homeassistant-full:aprs - Tracker integration connects to the APRS-IS
+app-misc/homeassistant-full:apsystems - allows you to read the data from your APsystems EZ1 microinverter
 app-misc/homeassistant-full:aqualogic - Provides connectivity to a Hayward/Goldline AquaLogic/ProLogic pool controller
 app-misc/homeassistant-full:aquostv - The aquostv platform allows you to control a Sharp Aquos TV
 app-misc/homeassistant-full:aranet - Integrates Aranet devices into Home Assistant
@@ -377,6 +380,7 @@ app-misc/homeassistant-full:avri - deprecated
 app-misc/homeassistant-full:awair - Library to integrate the Awair GraphQL API into Home Assistant
 app-misc/homeassistant-full:aws - Interact with Amazon Web Services
 app-misc/homeassistant-full:axis - Communicating with newer devices from Axis Communications
+app-misc/homeassistant-full:azure_data_explorer - allows you to forward events to Azure Data Explorer
 app-misc/homeassistant-full:backup - allows you to create and download backups for your Home Assistant Core
 app-misc/homeassistant-full:baf - Integrates Big Ass Fans devices into Home Assistant
 app-misc/homeassistant-full:baidu - Text-to-speech platform uses Baidu TTS engine to read a text with natural soundi
@@ -683,6 +687,7 @@ app-misc/homeassistant-full:ihc - use IHC Python SDK
 app-misc/homeassistant-full:image - handle image assets in Home Assistant
 app-misc/homeassistant-full:image_upload - handle image assets in Home Assistant
 app-misc/homeassistant-full:imap - observing your IMAP server and reporting the amount of unread emails
+app-misc/homeassistant-full:imgw_pib - hydrological data from Institute of Meteorology and Water Management - Poland
 app-misc/homeassistant-full:improv_ble - allows connecting devices implementing Improv via BLE to Wi-Fi
 app-misc/homeassistant-full:incomfort - client for Intergas InComfort/InTouch Lan2RF systems
 app-misc/homeassistant-full:influxdb - transfer sensor data to a local InfluxDB database
@@ -697,6 +702,7 @@ app-misc/homeassistant-full:ipma - ipma weather platform
 app-misc/homeassistant-full:ipp - read current data from your networked printer
 app-misc/homeassistant-full:iqvia - collects allergy, asthma and disease information (based on a U.S. ZIP code)
 app-misc/homeassistant-full:irish_rail_transport - will give you the time until the next two departures
+app-misc/homeassistant-full:isal - Intelligent Storage Acceleration, is used for accelerating aiohttp
 app-misc/homeassistant-full:islamic_prayer_times - integration displays the various prayer times for Muslims as sensors
 app-misc/homeassistant-full:iss - know if the station is above your home location
 app-misc/homeassistant-full:isy994 - controller that is capable of controlling Insteon and X10 devices
@@ -807,6 +813,7 @@ app-misc/homeassistant-full:modem_callerid - Uses an available modem for collect
 app-misc/homeassistant-full:modern_forms - Asynchronous Python client for Modern Forms fans
 app-misc/homeassistant-full:moehlenhoff_alpha2 - allows you to control a Möhlenhoff Alpha 2 temperature control system
 app-misc/homeassistant-full:monoprice - Python API for talking to Monoprice 6-zone amplifier
+app-misc/homeassistant-full:monzo - allows you to connect your Monzo bank accounts to Home Assistant
 app-misc/homeassistant-full:mopeka - Integrates Mopeka devices into Home Assistant
 app-misc/homeassistant-full:mosquitto - Set a runtime dependency for Mosquitto MQTT broker
 app-misc/homeassistant-full:motion_blinds - control Motion Blinds from Coulisse B.V.
@@ -1327,6 +1334,7 @@ app-misc/homeassistant-min:http - Serves all files and data required for the Hom
 app-misc/homeassistant-min:hyperion - integrate your Hyperion into Home Assistant
 app-misc/homeassistant-min:ibeacon - Adding iBeacon Tracker to your Home Assistant instance
 app-misc/homeassistant-min:influxdb - transfer sensor data to a local InfluxDB database
+app-misc/homeassistant-min:isal - Intelligent Storage Acceleration, is used for accelerating aiohttp
 app-misc/homeassistant-min:knx - Asynchronous Library for the KNX protocol
 app-misc/homeassistant-min:kodi - control a Kodi multimedia system
 app-misc/homeassistant-min:kraken - allows you to monitor exchange rates on kraken.com
