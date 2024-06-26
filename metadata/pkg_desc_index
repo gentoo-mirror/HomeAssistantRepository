@@ -152,6 +152,7 @@ dev-python/aioharmony 0.2.10: Asyncio Python library for connecting to and contr
 dev-python/aiohomekit 3.0.9 3.1.1 3.1.4 3.1.5: An asyncio HomeKit client
 dev-python/aiohttp 3.9.4: HTTP client/server for asyncio
 dev-python/aiohttp-fast-url-dispatcher 0.3.0: A faster URL dispatcher for aiohttp
+dev-python/aiohttp-fast-zlib 0.1.1: Use the fastest installed zlib compatible library with aiohttp
 dev-python/aiohttp-isal 0.3.1-r1: isal support for aiohttp
 dev-python/aiohttp-retry 2.8.3: Simple retry client for aiohttp
 dev-python/aiohttp-session 2.12.0: sessions for aiohttp.web
@@ -218,7 +219,7 @@ dev-python/aiowatttime 0.1.1: An asyncio-based Python3 library for interacting w
 dev-python/aiowebostv 0.3.3 0.4.0: Library to control webOS based LG TV devices
 dev-python/aiowithings 2.0.0 2.1.0: Asynchronous Python client for Withings.
 dev-python/aioymaps 1.2.2: Async client for Yandex Maps
-dev-python/aiozoneinfo 0.1.0: Tools to fetch zoneinfo with asyncio
+dev-python/aiozoneinfo 0.1.0 0.2.0: Tools to fetch zoneinfo with asyncio
 dev-python/airgradient 0.4.3: Asynchronous Python client for AirGradient.
 dev-python/airly 1.1.0: Python wrapper for getting air quality data from Airly sensors.
 dev-python/airthings-ble 0.7.1 0.9.0: Manage Airthings BLE devices
@@ -237,7 +238,7 @@ dev-python/androidtvremote2 0.0.14 0.0.15 0.1.1: A Python library for interactin
 dev-python/anel-pwrctrl-homeassistant 0.0.1: Discover and control ANEL NET-PwrCtrl devices.
 dev-python/anova-wifi 0.10.0 0.12.0: A package to get read only data from Anova precision cookers with wifi
 dev-python/anthemav 1.4.1: Python API for controlling Anthem Receivers
-dev-python/anyio 4.0.0 4.1.0: Compatibility layer for multiple asynchronous event loop implementations
+dev-python/anyio 4.1.0 4.3.0-r1: Compatibility layer for multiple asynchronous event loop implementations
 dev-python/apcaccess 0.0.13: This project implements the apcaccess tool in pure Python and provides
 dev-python/apischema 0.18.1: JSON (de)serialization, GraphQL and JSON schema generation using Python typing.
 dev-python/apns2 0.3.0: Interacting with the Apple Push Notification Service via HTTP/2 protocol
@@ -1051,7 +1052,7 @@ dev-python/pyswitchbee 1.8.0: SwitchBee Python Integration.
 dev-python/pytankerkoenig 0.0.6: Library for Tankerkoenig.de JSON API
 dev-python/pytautulli 23.1.1: Python API wrapper for Tautulli.
 dev-python/pytedee-async 0.2.13 0.2.17: A Tedee Lock Client package
-dev-python/pytest 8.1.1: Simple powerful testing with Python
+dev-python/pytest 8.1.1 8.2.0-r1: Simple powerful testing with Python
 dev-python/pytest-github-actions-annotate-failures 0.2.0: pytest plugin to annotate failed tests with a workflow command for GitHub Actions
 dev-python/pytest-picked 0.5.0: Run the tests related to the changed files
 dev-python/pytest-runner 6.0.0: Invoke py.test as distutils command with dependency resolution
