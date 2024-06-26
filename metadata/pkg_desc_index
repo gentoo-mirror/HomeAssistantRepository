@@ -1235,6 +1235,7 @@ dev-python/sonos-websocket 0.1.2 0.1.3: An asynchronous Python library to commun
 dev-python/speak2mary 1.4.0: A Python wrapper for Mary TTS
 dev-python/spiderpy 1.6.1: Python wrapper for the Spider API, a way to manage your Spider installation
 dev-python/spidev 3.5: Python bindings for Linux SPI access through spidev
+dev-python/spotipy 2.23.0: A lightweight Python library for the Spotify Web API
 dev-python/sqlitedict 1.6.0: Persistent dict in Python, backed up by sqlite3 and pickle, multithread-safe.
 dev-python/srpenergy 1.3.6: An unofficial Python module for interacting with Srp Energy data.
 dev-python/srptools 1.0.1: Tools to implement Secure Remote Password (SRP) authentication
