@@ -687,6 +687,7 @@ dev-python/micloud 0.5: Xiaomi cloud connect library
 dev-python/microBeesPy 0.3.2: microBees Python Library
 dev-python/mill-local 0.3.0: A python3 library to communicate with Mill
 dev-python/millheater 0.11.8: A python3 library to communicate with Mill
+dev-python/mini-racer 0.12.1: Minimal, modern embedded V8 for Python.
 dev-python/miniaudio 1.59: python bindings for the miniaudio library and its decoders (mp3, flac, ogg vorbis, wav)
 dev-python/minio 7.1.12: MinIO Python Library for Amazon S3 Compatible Cloud Storage for Python
 dev-python/moat-ble 0.1.1: Manager Moat BLE Devices
