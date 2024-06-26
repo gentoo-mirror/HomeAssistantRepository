@@ -362,7 +362,7 @@ dev-python/construct 2.10.68: A powerful declarative parser for binary data
 dev-python/construct-typing 0.6.2: Extension for the python package 'construct' that adds typing features
 dev-python/convertdate 2.4.0: Converts between Gregorian dates and other calendar systems.
 dev-python/coronavirus 1.1.1: Asynchronous Python client for getting Corona virus info.
-dev-python/coverage 7.3.4: Code coverage measurement for Python
+dev-python/coverage 7.3.4 7.5.0: Code coverage measurement for Python
 dev-python/coveralls 3.3.1-r1: Show coverage stats online via coveralls.io
 dev-python/crc 5.0.0: Library and CLI to calculate and verify all kinds of CRC checksums
 dev-python/crc16 0.1.1: Library for calculating CRC16
@@ -473,7 +473,7 @@ dev-python/forecast-solar 3.0.0 3.1.0: Asynchronous Python client for getting fo
 dev-python/fortiosapi 1.0.5: Python modules to use Fortigate APIs
 dev-python/freebox-api 1.1.0: Provides asynchronous authentication and access to Freebox servers
 dev-python/freesms 0.2.0: Send SMS with Free Mobile
-dev-python/freezegun 1.4.0: Let your Python tests travel through time
+dev-python/freezegun 1.4.0 1.5.0: Let your Python tests travel through time
 dev-python/fritzconnection 1.4.2-r1: Communicate with the AVM FRITZ!Box
 dev-python/ftfy 6.1.3: Fixes mojibake and other problems with Unicode, after the fact
 dev-python/fyta-cli 0.3.3 0.3.5 0.4.1: Python library to access the FYTA API
@@ -787,7 +787,7 @@ dev-python/piglow 1.2.4: Drive the Pimoroni PiGlow board, based on the sn3218 i2
 dev-python/pigpio 1.78: Raspberry Pi GPIO module
 dev-python/pilight 0.1.1: Pure python module to connect to a pilight daemon to send and receive commands.
 dev-python/pillow 9.3.0-r1: Python Imaging Library (fork)
-dev-python/pipdeptree 2.11.0 2.13.2 2.16.1: Utility for displaying installed packages in a dependency tree
+dev-python/pipdeptree 2.13.2 2.16.1 2.19.0: Utility for displaying installed packages in a dependency tree
 dev-python/pizzapi 0.0.3: A Python wrapper for the Dominos Pizza API
 dev-python/pkce 1.0.3: PKCE Pyhton generator.
 dev-python/plexauth 0.0.6: Handles the authorization flow to obtain tokens from Plex.tv via external redirection.
@@ -1412,7 +1412,7 @@ dev-python/zlib-ng 0.2.0: Drop-in replacement for zlib and gzip modules using zl
 dev-python/zm-py 0.5.2-r1 0.5.4: A loose python wrapper around the ZoneMinder REST API.
 dev-python/zwave-js-server-python 0.55.3 0.55.4 0.56.0: Python wrapper for zwave-js-server
 dev-python/zwave-me-ws 0.4.3: Library, implementing websocket connection to ZWave-Me
-dev-vcs/pre-commit 3.6.2 3.7.0: A framework for managing and maintaining multi-language Git pre-commit hooks
+dev-vcs/pre-commit 3.6.2 3.7.1: A framework for managing and maintaining multi-language Git pre-commit hooks
 media-libs/lv2 1.18.10: A simple but extensible successor of LADSPA
 net-misc/yt-dlp 2023.09.24 2023.10.13 2023.11.16: youtube-dl fork with additional features and fixes
 sci-geosciences/GeographicLib 1.52-r3: C++ library for converting geographic coordinate systems
