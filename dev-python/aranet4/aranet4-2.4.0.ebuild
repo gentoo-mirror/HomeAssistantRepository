@@ -6,8 +6,9 @@ EAPI=8
 PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="A Python library for communicating with devices from Axis Communications"
-HOMEPAGE="https://github.com/Kane610/axis https://pypi.org/project/axis/"
+
+DESCRIPTION="Aranet Python client"
+HOMEPAGE="https://github.com/Anrijs/Aranet4-Python https://pypi.org/project/aranet4/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -17,9 +18,7 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/bleak[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

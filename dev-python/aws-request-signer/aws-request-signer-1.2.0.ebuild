@@ -6,8 +6,9 @@ EAPI=8
 PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
-DESCRIPTION="A faster version of dbus-next"
-HOMEPAGE="https://github.com/bluetooth-devices/dbus-fast https://pypi.org/project/dbus-fast/"
+
+DESCRIPTION="A python library to sign AWS requests using AWS Signature V4."
+HOMEPAGE="https://www.github.com/iksteen/aws-request-signer https://pypi.org/project/aws-request-signer/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -17,12 +18,7 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-BDEPEND="
-	>=dev-python/cython-3[${PYTHON_USEDEP}]
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/pytest-cov[${PYTHON_USEDEP}]
-		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	)"
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/requests-toolbelt[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
