@@ -7,15 +7,15 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Cryptographic library for Python"
-HOMEPAGE="https://github.com/Legrandin/pycryptodome/ https://www.pycryptodome.org https://pypi.org/project/pycryptodomex/"
+DESCRIPTION="Self-contained voice activity detector"
+HOMEPAGE="https://github.com/rhasspy/pymicro-vad https://pypi.org/project/pymicro-vad/"
 
-LICENSE="BSD"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
+DOCS="README.md"
 
 distutils_enable_tests pytest
