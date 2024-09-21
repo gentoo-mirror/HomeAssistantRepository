@@ -356,11 +356,12 @@ dev-python/clearpasspy 1.0.2: ClearPass API Python Library
 dev-python/clx-sdk-xms 1.0.0: Library for CLX Communications HTTP REST Messaging API
 dev-python/codecov 2.1.12-r1: Hosted coverage reports for GitHub, Bitbucket and Gitlab
 dev-python/coinbase 2.1.0: Coinbase API client library
+dev-python/coinbase-advanced-py 1.2.2: Coinbase Advanced API Python SDK
 dev-python/colored 1.4.4: Simple library for color and formatting to terminal
 dev-python/colorlog 6.6.0-r1 6.7.0: Log formatting with colors
 dev-python/colorthief 0.2.1: A module for grabbing the color palette from an image.
 dev-python/colorzero 2.0: Yet another Python color library
-dev-python/concord232 0.15: GE Concord 4 RS232 Serial Interface Library and Server
+dev-python/concord232 0.15 0.15.1: GE Concord 4 RS232 Serial Interface Library and Server
 dev-python/config 0.5.1: A hierarchical, easy-to-use, powerful configuration module for Python
 dev-python/connect-box 0.2.8 0.3.1: Python client for interacting with Compal CH7465LG devices.
 dev-python/connio 0.2.0: Concurrency agnostic socket API
