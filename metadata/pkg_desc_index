@@ -1322,7 +1322,7 @@ dev-python/uamqp 1.6.0-r1: AMQP 1.0 Client Library for Python
 dev-python/uart-devices 0.1.0: UART Devices for Linux
 dev-python/uasiren 0.0.1: Implements siren.pp.ua API - public wrapper for api.ukrainealarm.com API that returns info about Ukraine air-raid alarms.
 dev-python/uiprotect 1.7.2: Python API for Unifi Protect (Unofficial)
-dev-python/ulid-transform 0.9.0: Create and transform ULIDs
+dev-python/ulid-transform 0.9.0 1.0.2: Create and transform ULIDs
 dev-python/ultraheat-api 0.5.7: Reading usage data from the Landys & Gyr Ultraheat heat meter unit
 dev-python/unicode-rbnf 1.0.0 1.1.0: Rule-based number formatting using Unicode CLDR data
 dev-python/unifi-ap 0.0.1: Python API for UniFi accesspoints
