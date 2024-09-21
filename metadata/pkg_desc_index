@@ -279,6 +279,7 @@ dev-python/atomicwrites-homeassistant 1.4.1: Atomic file writes
 dev-python/attrs 23.1.0: Attributes without boilerplate
 dev-python/auroranoaa 0.0.3: NOAA Aurora Wrapper for Home Assistant Integration.
 dev-python/aurorapy 0.2.7: Python implementation of Aurora Protocol
+dev-python/autarco 2.0.0: Asynchronous Python client for the Autarco Inverters
 dev-python/av 9.2.0: Pythonic bindings for FFmpeg's libraries.
 dev-python/avea 1.5.1: Control an Elgato Avea bulb using python3
 dev-python/avion 0.10: Python API for controlling Avi-on Bluetooth dimmers
@@ -308,7 +309,7 @@ dev-python/bleak 0.21.1 0.22.1 0.22.2: Bluetooth Low Energy platform Agnostic Kl
 dev-python/bleak-esphome 0.4.0 0.4.1 1.0.0: Bleak backend of ESPHome
 dev-python/bleak-retry-connector 3.3.0 3.4.0 3.5.0: A connector for Bleak Clients that handles transient connection failures
 dev-python/blebox-uniapi 2.2.0 2.2.2: Python API for accessing BleBox smart home devices
-dev-python/blinkpy 0.22.3 0.22.4 0.22.6: A Blink camera Python library running on Python 3.
+dev-python/blinkpy 0.22.6 0.23.0: A Blink camera Python library running on Python 3.
 dev-python/blinkt 0.1.0: Python library for driving Pimoroni Blinkt!
 dev-python/blockchain 1.4.4: Blockchain API library (v1)
 dev-python/bluecurrent-api 1.0.6 1.2.3: A wrapper for the Blue Current websocket api
@@ -476,6 +477,7 @@ dev-python/foobot_async 1.0.0: API Client for Foobot Air Quality Monitoring devi
 dev-python/forecast-solar 3.0.0 3.1.0: Asynchronous Python client for getting forecast solar information
 dev-python/fortiosapi 1.0.5: Python modules to use Fortigate APIs
 dev-python/freebox-api 1.1.0: Provides asynchronous authentication and access to Freebox servers
+dev-python/freenub 0.1.0: This is a fork of pubnub when it still had an MIT license
 dev-python/freesms 0.2.0: Send SMS with Free Mobile
 dev-python/freezegun 1.4.0 1.5.0: Let your Python tests travel through time
 dev-python/fritzconnection 1.4.2-r1: Communicate with the AVM FRITZ!Box
@@ -969,6 +971,7 @@ dev-python/pymediaroom 0.6.5.4: Remote control your Mediaroom Set-up-box
 dev-python/pymelcloud 2.5.8 2.5.9: Python MELCloud interface
 dev-python/pymeteoclimatic 0.0.6 0.1.0: A Python wrapper around the Meteoclimatic service
 dev-python/pymfy 0.11.0: A Somfy Open API library
+dev-python/pymicro-vad 1.0.1: Self-contained voice activity detector
 dev-python/pymitv 1.4.3: A Python 3 based Xiaomi TV remote
 dev-python/pymochad 0.2.0: A python library for interacting with moch
 dev-python/pymodbus 3.5.4 3.6.3 3.6.6 3.6.7 3.6.8: A fully featured modbus protocol stack in python
@@ -1116,7 +1119,7 @@ dev-python/python-singleton 0.1.2: Singleton Metaclass.
 dev-python/python-slugify 4.0.1 8.0.1: A Python Slugify application that handles Unicode
 dev-python/python-smarttub 0.0.36: API to query and control hot tubs using the SmartTub system
 dev-python/python-sochain-api 0.0.2: Python API for interacting with chain.so.
-dev-python/python-socketio 4.6.0-r2: Socket.IO server
+dev-python/python-socketio 4.6.0-r2 5.11.4: Socket.IO server
 dev-python/python-songpal 0.16 0.16.1 0.16.2: Python library for interfacing with Sony's Songpal devices
 dev-python/python-tado 0.17.0 0.17.4: PyTado -- Pythonize your central heating
 dev-python/python-technove 1.2.2: Asynchronous Python client for TechnoVE.
@@ -1395,8 +1398,8 @@ dev-python/xmltodict 0.12.0-r1: Makes working with XML feel like you are working
 dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontrol XS1 Gateway
 dev-python/yagrc 1.1.2: Yet another gRPC reflection client
 dev-python/yalesmartalarmclient 0.3.9: Interact with Yale Smart Alarm systems
-dev-python/yalexs 1.11.4 2.0.0 3.0.1 3.1.0: Python API for Yale Access (formerly August) Smart Lock and Doorbell
-dev-python/yalexs-ble 2.4.0 2.4.1 2.4.2: Bluetooth control of Yale and August locks
+dev-python/yalexs 1.11.4 2.0.0 3.0.1 3.1.0 8.6.4: Python API for Yale Access (formerly August) Smart Lock and Doorbell
+dev-python/yalexs-ble 2.4.0 2.4.1 2.4.2 2.4.3: Bluetooth control of Yale and August locks
 dev-python/yarl 1.9.2: Yet another URL library
 dev-python/yeelight 0.7.14: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
