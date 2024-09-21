@@ -452,6 +452,7 @@ dev-python/eternalegypt 0.0.16: Netgear LTE modem API
 dev-python/eufylife-ble-client 0.1.8: A library to communicate with EufyLife Bluetooth devices.
 dev-python/evdev 1.6.1: Bindings to the Linux input handling subsystem
 dev-python/evohome-async 0.4.15 0.4.19: An async Python client for connecting to the Evohome webservice
+dev-python/evolutionhttp 0.0.18: An HTTP client for controlling a Bryant Evolution HVAC system
 dev-python/faadelays 2023.9.1: A package to retrieve FAA airport status
 dev-python/face-recognition 1.2.3: Recognize faces from Python or from the command line
 dev-python/face_recognition 1.2.3: Recognize faces from Python or from the command line
