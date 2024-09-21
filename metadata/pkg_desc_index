@@ -774,7 +774,7 @@ dev-python/panasonic-viera 0.3.6: Library to control Panasonic Viera TVs
 dev-python/pandas 2.1.4: Powerful data structures for data analysis and statistics
 dev-python/pcal9535a 0.7: A library to control NXP PCAL9535A GPIO expander
 dev-python/pdunehd 1.3.2: A Python wrapper for Dune HD media player API
-dev-python/peco 0.0.29-r1: Wrapper for PECO Outage API
+dev-python/peco 0.0.29-r1 0.0.30: Wrapper for PECO Outage API
 dev-python/pem 21.2.0: Easy PEM file parsing in Python.
 dev-python/pencompy 0.0.3: Pencom relay controller over Ethernet
 dev-python/pescea 1.0.12: A python interface to the Escea fireplace controllers
