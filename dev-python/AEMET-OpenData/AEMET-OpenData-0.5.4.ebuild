@@ -6,10 +6,10 @@ EAPI=8
 PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Library to control Airzone devices"
-HOMEPAGE="https://github.com/Noltari/aioairzone https://pypi.org/project/aioairzone/"
+DESCRIPTION="AEMET OpenData Rest API library"
+HOMEPAGE="https://github.com/Noltari/AEMET-OpenData https://pypi.org/project/AEMET-OpenData/"
 
-LICENSE="Apache-2.0"
+LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -17,6 +17,7 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
-
-distutils_enable_tests pytest
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	sci-geosciences/geopy[${PYTHON_USEDEP}]
+"

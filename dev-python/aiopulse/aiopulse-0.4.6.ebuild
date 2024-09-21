@@ -3,11 +3,11 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{11..12} )
-DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{11..13} )
+DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
-DESCRIPTION="Library to control Airzone devices"
-HOMEPAGE="https://github.com/Noltari/aioairzone https://pypi.org/project/aioairzone/"
+DESCRIPTION="Python module for Rollease Acmeda Automate integration."
+HOMEPAGE="https://github.com/atmurray/aiopulse https://pypi.org/project/aiopulse/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -17,5 +17,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/async-timeout[${PYTHON_USEDEP}]"
+
 distutils_enable_tests pytest
