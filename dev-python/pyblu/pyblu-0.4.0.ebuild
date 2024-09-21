@@ -2,29 +2,28 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+
 PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Module to communicate with a Balboa spa wifi adapter."
-HOMEPAGE="https://github.com/garbled1/pybalboa https://pypi.org/project/pybalboa/"
+DESCRIPTION="This is a Python library for interfacing with BluOS players"
+HOMEPAGE="https://github.com/LouisChrist/pyblu https://pypi.org/project/pyblu/"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
+DOCS="README.md"
 
+RDEPEND=">=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/aresponses[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

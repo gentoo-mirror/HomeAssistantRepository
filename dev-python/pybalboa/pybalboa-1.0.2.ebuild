@@ -2,12 +2,12 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
-DESCRIPTION="Python API for accessing BleBox smart home devices"
-HOMEPAGE="https://github.com/blebox/blebox_uniapi/ https://pypi.org/project/blebox-uniapi/"
+
+DESCRIPTION="Module to communicate with a Balboa spa wifi adapter."
+HOMEPAGE="https://github.com/garbled1/pybalboa https://pypi.org/project/pybalboa/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -17,12 +17,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 BDEPEND="
-	dev-python/pytest-runner[${PYTHON_USEDEP}]
 	test? (
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-		dev-python/deepmerge[${PYTHON_USEDEP}]
+		dev-python/pytest-timeout[${PYTHON_USEDEP}]
 	)"
 
 distutils_enable_tests pytest

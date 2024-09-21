@@ -4,12 +4,11 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=1
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Unofficial package to access Bring! shopping lists API."
-HOMEPAGE="https://github.com/miaucl/python-bring-api https://pypi.org/project/bring-api/"
+DESCRIPTION="Python async library for remote control of Sony Bravia TVs 2013 and newer."
+HOMEPAGE="https://github.com/Drafteed/pybravia https://pypi.org/project/pybravia/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,6 +17,7 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
+
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
