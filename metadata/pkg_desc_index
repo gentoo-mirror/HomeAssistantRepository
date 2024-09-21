@@ -246,7 +246,7 @@ dev-python/apns2 0.3.0: Interacting with the Apple Push Notification Service via
 dev-python/apple_weatherkit 1.1.2: Python client for Apple WeatherKit API
 dev-python/apprise 1.6.0 1.7.2 1.7.4: Push Notifications that work with just about every platform!
 dev-python/aprslib 0.7.0 0.7.2: Module for accessing APRS-IS and parsing APRS packets
-dev-python/apsystems-ez1 1.3.1: The APsystems EZ1 Python library offers a streamlined interface for interacting with the local API of APsystems EZ1 Microinverters.
+dev-python/apsystems-ez1 1.3.1 2.2.1: The APsystems EZ1 Python library offers a streamlined interface for interacting with the local API of APsystems EZ1 Microinverters.
 dev-python/aqipy-atmotech 0.1.5: AQI calculation library
 dev-python/aqualogic 2.6: Library for interfacing with a Hayward/Goldline AquaLogic/ProLogic pool controller.
 dev-python/arcam-fmj 1.4.0 1.5.2: A python library for speaking to Arcam receivers
@@ -342,7 +342,7 @@ dev-python/caio 0.9.8: Asynchronous file IO for Linux MacOS or Windows.
 dev-python/caldav 1.3.8: CalDAV (RFC4791) client library for Python
 dev-python/casttube 0.2.1-r2: casttube provides a way to interact with the Youtube Chromecast api
 dev-python/chacha20poly1305 0.0.3: Chacha20Poly1305
-dev-python/chacha20poly1305-reuseable 0.12.1: ChaCha20Poly1305 that is reuseable for asyncio
+dev-python/chacha20poly1305-reuseable 0.12.1 0.13.2: ChaCha20Poly1305 that is reuseable for asyncio
 dev-python/charset-normalizer 3.2.0: The Real First Universal Charset Detector
 dev-python/circuit-webhook 1.0.1: circuit-webhook is a python client library for Unify Circuit api
 dev-python/ciscomobilityexpress 0.3.9: Module to interact with Cisco Mobility Express APIs to fetch connected devices.
@@ -804,7 +804,7 @@ dev-python/prayer-times-calculator 0.0.10 0.0.12: Prayer Times Calculator
 dev-python/prayer-times-calculator-offline 1.0.3: Prayer Times Calculator - Offline
 dev-python/proliphix 0.4.1: API for Proliphix nt10e network thermostat.
 dev-python/prometheus-client 0.17.1: Python client for the Prometheus monitoring system
-dev-python/protobuf-python 4.24.3-r1 4.25.1 4.25.2: Google's Protocol Buffers - Python bindings
+dev-python/protobuf-python 4.25.1 4.25.2: Google's Protocol Buffers - Python bindings
 dev-python/proxmoxer 2.0.1: Python Wrapper for the Proxmox 2.x API (HTTP and SSH)
 dev-python/psutil 5.9.2: Retrieve information on running processes and system utilization
 dev-python/psutil-home-assistant 0.0.1: Wrapper for psutil to allow it to be used several times in the same process.
@@ -855,13 +855,13 @@ dev-python/pyaftership 21.11.0: A module to get information pending parcels.
 dev-python/pyairnow 1.2.1: A lightweight Python wrapper for EPA AirNow Air Quality API
 dev-python/pyairvisual 2023.8.1: A simple API for AirVisual air quality data
 dev-python/pyalmond 0.0.2: Python module to talk to the Web Almond API.
-dev-python/pyaprilaire 0.7.0: a library to interact with Aprilaire thermostats
+dev-python/pyaprilaire 0.7.0 0.7.4: a library to interact with Aprilaire thermostats
 dev-python/pyarlo 0.2.4: Python Arlo is a library written in Python 2.7/3x that exposes the Netgear Arlo cameras as Python objects.
 dev-python/pyasn1 0.4.8-r2: ASN.1 library for Python
 dev-python/pyasuswrt 0.1.21: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/ using protocol HTTP
 dev-python/pyatag 0.3.5.3: Python module to talk to Atag One.
 dev-python/pyatmo 8.0.2 8.0.3: Simple API to access Netatmo weather station data from any Python 3 script. Designed for Home Assistant (but not only)
-dev-python/pyatv 0.14.3: A client library for Apple TV and AirPlay devices
+dev-python/pyatv 0.14.3 0.15.1: A client library for Apple TV and AirPlay devices
 dev-python/pyaussiebb 0.0.15: Aussie Broadband API module
 dev-python/pybalboa 1.0.1: Module to communicate with a Balboa spa wifi adapter.
 dev-python/pybase64 1.3.2: Fast Base64 implementation
