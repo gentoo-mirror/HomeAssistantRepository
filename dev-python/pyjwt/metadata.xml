@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">aresponses</remote-id>
-    <remote-id type="github">aresponses/aresponses</remote-id>
+    <remote-id type="pypi">PyJWT</remote-id>
+    <remote-id type="github">jpadilla/pyjwt</remote-id>
     <maintainer status="unknown">
-      <email>aresponses@brycedrennan.com</email>
-      <name>Bryce Drennan</name>
+      <email>hello@jpadilla.com</email>
+      <name>Jose Padilla</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

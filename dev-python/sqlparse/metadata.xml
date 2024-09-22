@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">aresponses</remote-id>
-    <remote-id type="github">aresponses/aresponses</remote-id>
+    <remote-id type="pypi">sqlparse</remote-id>
+    <remote-id type="github">andialbrecht/sqlparse</remote-id>
     <maintainer status="unknown">
-      <email>aresponses@brycedrennan.com</email>
-      <name>Bryce Drennan</name>
+      <email>albrecht.andi@gmail.com</email>
+      <name>Andi Albrecht</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

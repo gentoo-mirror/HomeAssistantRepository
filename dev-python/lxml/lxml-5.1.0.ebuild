@@ -3,6 +3,7 @@
 
 EAPI=8
 
+DISTUTILS_EXT=1
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{11..13} )
 
@@ -12,10 +13,13 @@ DESCRIPTION="A Pythonic binding for the libxml2 and libxslt libraries"
 HOMEPAGE="
 	https://lxml.de/
 	https://pypi.org/project/lxml/
-	https://github.com/lxml/lxml
+	https://github.com/lxml/lxml/
 "
-SRC_URI="https://github.com/lxml/lxml/archive/${P}.tar.gz -> ${P}.gh.tar.gz"
-S="${WORKDIR}"/lxml-${P}
+SRC_URI="
+	https://github.com/lxml/lxml/archive/${P}.tar.gz
+		-> ${P}.gh.tar.gz
+"
+S=${WORKDIR}/lxml-${P}
 
 LICENSE="BSD ElementTree GPL-2 PSF-2"
 SLOT="0"
@@ -25,20 +29,21 @@ RESTRICT="!test? ( test )"
 
 # Note: lib{xml2,xslt} are used as C libraries, not Python modules.
 DEPEND="
-	>=dev-libs/libxml2-2.9.12-r2
-	>=dev-libs/libxslt-1.1.28"
+	>=dev-libs/libxml2-2.10.3
+	>=dev-libs/libxslt-1.1.38
+"
 RDEPEND="
 	${DEPEND}
 "
 BDEPEND="
 	virtual/pkgconfig
-	>=dev-python/cython-0.29.29[${PYTHON_USEDEP}]
+	>=dev-python/cython-3.0.7[${PYTHON_USEDEP}]
 	doc? (
 		$(python_gen_any_dep '
 			dev-python/docutils[${PYTHON_USEDEP}]
 			dev-python/pygments[${PYTHON_USEDEP}]
 			dev-python/sphinx[${PYTHON_USEDEP}]
-			dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}]
+			dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
 		')
 	)
 	test? (
@@ -47,7 +52,7 @@ BDEPEND="
 "
 
 PATCHES=(
-	"${FILESDIR}"/${PN}-4.6.0-tests-pypy.patch
+	"${FILESDIR}/${P}-pypy.patch"
 )
 
 python_check_deps() {
@@ -55,7 +60,7 @@ python_check_deps() {
 	python_has_version -b "dev-python/docutils[${PYTHON_USEDEP}]" &&
 	python_has_version -b "dev-python/pygments[${PYTHON_USEDEP}]" &&
 	python_has_version -b "dev-python/sphinx[${PYTHON_USEDEP}]" &&
-	python_has_version -b "dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}]"
+	python_has_version -b "dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]"
 }
 
 python_prepare_all() {
@@ -70,6 +75,10 @@ python_prepare_all() {
 }
 
 python_compile() {
+	local DISTUTILS_ARGS=(
+		# by default it adds -w to CFLAGS
+		--warnings
+	)
 	tc-export PKG_CONFIG
 	distutils-r1_python_compile
 }
