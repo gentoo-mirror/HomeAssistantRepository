@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pydaikin</remote-id>
-    <remote-id type="github">fredrike/pydaikin</remote-id>
+    <remote-id type="pypi">python-socketio-v4</remote-id>
+    <remote-id type="github">bdraco/python-socketio-v4</remote-id>
     <maintainer status="unknown">
-      <email>fredrik.e@gmail.com</email>
-      <name>Fredrik Erlandsson</name>
+      <email>miguelgrinberg50@gmail.com</email>
+      <name>Miguel Grinberg</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
