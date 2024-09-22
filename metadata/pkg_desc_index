@@ -426,6 +426,7 @@ dev-python/ebusdpy 0.0.17: eBusd python integration library
 dev-python/ecoaliface 0.4.0: Interface to eSterownik.pl eCoal water boiler controller.
 dev-python/eebrightbox 0.0.4: Connector for EE BrightBox routers.
 dev-python/electrickiwi-api 0.8.5: Electric Kiwi Python API
+dev-python/elevenlabs 1.6.1: The official Python API for ElevenLabs text-to-speech software.
 dev-python/elgato 5.1.1 5.1.2: Asynchronous Python client for Elgato Lights.
 dev-python/eliqonline 1.2.2: Eliq Online API Library
 dev-python/elkm1-lib 2.2.6 2.2.7: Library for interacting with ElkM1 alarm/automation panel.
@@ -850,7 +851,7 @@ dev-python/pyDuotecno 2024.1.2 2024.3.2 2024.5.0 2024.5.1: Open-source home auto
 dev-python/pyEGPS 0.2.5: Controlling Energenie Power Strips with python.
 dev-python/pyEight 0.3.2: Provides a python api to interact with an Eight Sleep mattress cover.
 dev-python/pyElectra 1.2.0 1.2.1 1.2.4: Electra Smart Python Integration.
-dev-python/pyEmby 1.9: Provides a python interface to interact with a Emby media server.
+dev-python/pyEmby 1.9 1.10: Provides a python interface to interact with a Emby media server.
 dev-python/pyFortiManagerAPI 0.2.3: A Python wrapper for the FortiManager REST API
 dev-python/pyHik 0.3.2: Provides a python api to interact with a Hikvision camera event stream and toggle motion detection.
 dev-python/pyRFXtrx 0.31.0 0.31.1: a library to communicate with the RFXtrx family of devices
@@ -911,6 +912,7 @@ dev-python/pyecoforest 0.4.0: Python library for ecoforest local device.
 dev-python/pyeconet 0.1.22: Interface to the unofficial EcoNet API
 dev-python/pyedimax 0.2.1: Interface with Edimax Smart Plugs
 dev-python/pyefergy 22.1.1 22.5.0: An API library for Efergy energy meters.
+dev-python/pyemoncms 0.0.7: A python library to interrogate emoncms API
 dev-python/pyenphase 1.19.2 1.20.1 1.20.3: Library to control enphase envoy
 dev-python/pyenvisalink 4.6 4.7: A python3 library for running asynchronus communications with envisalink alarm control panel modules.
 dev-python/pyephember 0.3.1: Python library to work with ember from EPH Controls
