@@ -952,7 +952,7 @@ dev-python/pyiss 1.0.1: A simple python3 library for info about the current Inte
 dev-python/pyisy 3.1.14: Python module to talk to ISY devices from UDI.
 dev-python/pyitachip2ir 0.0.7: A library for sending IR commands to an ITach IP2IR gateway
 dev-python/pyjvcprojector 1.0.6 1.0.9 1.0.11: A python library for controlling a JVC Projector over a network connection
-dev-python/pyjwt 2.9.0: JSON Web Token implementation in Python
+dev-python/pyjwt 2.8.0 2.9.0: JSON Web Token implementation in Python
 dev-python/pykaleidescape 1.0.1: A python client library for the Kaleidescape System Control Protocol.
 dev-python/pykira 0.1.1: Communicate with Kira IR-IP modules
 dev-python/pykmtronic 0.3.0: Python library to interface with KM Tronic Web Relays
