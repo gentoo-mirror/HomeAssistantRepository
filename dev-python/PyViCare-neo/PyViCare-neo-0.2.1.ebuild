@@ -2,12 +2,13 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+
 PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Discover Unifi Devices"
-HOMEPAGE="https://github.com/bdraco/unifi-discovery https://pypi.org/project/unifi-discovery/"
+DESCRIPTION="Library to communicate with the Viessmann ViCare API."
+HOMEPAGE="https://github.com/CFenner/PyViCare https://pypi.org/project/PyViCare-neo/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -17,12 +18,7 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
-	>=dev-python/pyroute2-0.6.5[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-		dev-python/aioresponses[${PYTHON_USEDEP}]
-	)"
+RDEPEND=">=dev-python/Authlib-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
