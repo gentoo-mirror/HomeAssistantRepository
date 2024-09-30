@@ -4,19 +4,20 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
+
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Library to control webOS based LG TV devices"
-HOMEPAGE="https://github.com/home-assistant-libs/aiowebostv https://pypi.org/project/aiowebostv/"
+DESCRIPTION="Async client for Yandex Maps"
+HOMEPAGE="https://github.com/devbis/aioymaps/ https://pypi.org/project/aioymaps/"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
+DOCS="README.rst"
 
-RDEPEND=">=dev-python/websockets-10.3[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
