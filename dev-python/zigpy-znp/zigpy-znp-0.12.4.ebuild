@@ -3,12 +3,12 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{11..12} )
+PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
-DESCRIPTION="A library which communicates with Deconz radios for zigpy"
-HOMEPAGE="https://github.com/zigpy/zigpy-deconz https://pypi.org/project/zigpy-deconz/"
+
+DESCRIPTION="A library for zigpy which communicates with TI ZNP radios"
+HOMEPAGE="https://github.com/zigpy/zigpy-znp https://pypi.org/project/zigpy-znp/"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -19,12 +19,16 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND=">=dev-python/zigpy-0.60.2[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' python3_10)
 	dev-python/voluptuous[${PYTHON_USEDEP}]
-	$(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' python3_10)"
+	dev-python/coloredlogs[${PYTHON_USEDEP}]
+	dev-python/jsonschema[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-		dev-python/asynctest[${PYTHON_USEDEP}]
+		dev-python/pytest-cov[${PYTHON_USEDEP}]
+		dev-python/pytest-mock[${PYTHON_USEDEP}]
+		dev-python/pytest-timeout[${PYTHON_USEDEP}]
 	)"
 
 src_prepare() {
@@ -35,3 +39,5 @@ src_prepare() {
 }
 
 distutils_enable_tests pytest
+
+# TODO: Make symlinks for zigpy_znp/tools and add TOOLS.md and docs/*.pdf , but only it is in github package
