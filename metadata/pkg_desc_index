@@ -856,7 +856,7 @@ dev-python/pyFortiManagerAPI 0.2.3: A Python wrapper for the FortiManager REST A
 dev-python/pyHik 0.3.2: Provides a python api to interact with a Hikvision camera event stream and toggle motion detection.
 dev-python/pyRFXtrx 0.31.0 0.31.1: a library to communicate with the RFXtrx family of devices
 dev-python/pySDCP 1: SDCP library to control Sony Projectors
-dev-python/pyTibber 0.28.2: A python3 library to communicate with Tibber
+dev-python/pyTibber 0.28.2 0.30.2: A python3 library to communicate with Tibber
 dev-python/pyW215 0.7.0: Interface for d-link W215 Smart Plugs.
 dev-python/pyW800rf32 0.4: A library to communicate with the W800rf32 family of devices
 dev-python/pyads 3.2.2 3.4.0: Python wrapper for TwinCAT ADS library
@@ -905,7 +905,7 @@ dev-python/pydelijn 1.1.0: Get realtime info on stop passages of De Lijn (api.de
 dev-python/pydexcom 0.2.3: Python API to interact with Dexcom Share API
 dev-python/pydiscovergy 3.0.0 3.0.1: Async Python 3 library for interacting with Discovergy smart meters API
 dev-python/pydoods 1.0.2: A Python wrapper for the DOODS image detection service
-dev-python/pydrawise 2024.3.0 2024.6.3 2024.6.4: Python API for interacting with Hydrawise sprinkler controllers.
+dev-python/pydrawise 2024.3.0 2024.6.4 2024.9.0: Python API for interacting with Hydrawise sprinkler controllers.
 dev-python/pydroid-ipcam 2.0.0: Library for handling the Android IP Webcam app
 dev-python/pyebox 1.1.4: Get your EBox consumption (wwww.ebox.ca)
 dev-python/pyecoforest 0.4.0: Python library for ecoforest local device.
@@ -951,7 +951,7 @@ dev-python/pyirishrail 0.0.2: Python library to get the real-time transport info
 dev-python/pyiss 1.0.1: A simple python3 library for info about the current International Space Station location
 dev-python/pyisy 3.1.14: Python module to talk to ISY devices from UDI.
 dev-python/pyitachip2ir 0.0.7: A library for sending IR commands to an ITach IP2IR gateway
-dev-python/pyjvcprojector 1.0.6 1.0.9 1.0.11: A python library for controlling a JVC Projector over a network connection
+dev-python/pyjvcprojector 1.0.11 1.1.0: A python library for controlling a JVC Projector over a network connection
 dev-python/pyjwt 2.8.0 2.9.0: JSON Web Token implementation in Python
 dev-python/pykaleidescape 1.0.1: A python client library for the Kaleidescape System Control Protocol.
 dev-python/pykira 0.1.1: Communicate with Kira IR-IP modules
@@ -1219,7 +1219,7 @@ dev-python/scsgate 0.1.0: A Python module to interact with SCSGate
 dev-python/securesystemslib 0.31.0 1.0.0: A library that provides cryptographic and general-purpose routines for Secure Systems Lab projects at NYU
 dev-python/securetar 2023.3.0 2024.2.1: Python module to handle tarfile backups.
 dev-python/sendgrid 6.8.2: Twilio SendGrid library for Python
-dev-python/sense-energy 0.12.2: API for the Sense Energy Monitor
+dev-python/sense-energy 0.12.2 0.12.4: API for the Sense Energy Monitor
 dev-python/sensirion-ble 0.1.1-r2: Manage Sensirion BLE devices
 dev-python/sensor-state-data 2.18.0: Models for storing and converting Sensor Data state
 dev-python/sensorpro-ble 0.5.3: SensorPro BLE Devices
