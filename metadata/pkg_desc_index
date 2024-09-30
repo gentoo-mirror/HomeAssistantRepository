@@ -1335,7 +1335,7 @@ dev-python/tuya-device-sharing-sdk 0.1.9: A Python sdk for Tuya Open API, which 
 dev-python/tuya-iot-py-sdk 0.6.6: A Python sdk for Tuya Open API, which provides IoT capabilities, maintained by Tuya official
 dev-python/twentemilieu 2.0.1: Asynchronous Python client for Twente Milieu API.
 dev-python/twilio 6.32.0: Helper library for the Twilio API
-dev-python/twitchAPI 4.0.0: A Python 3.7+ implementation of the Twitch Helix API, its Webhook, PubSub and EventSub
+dev-python/twitchAPI 4.0.0 4.2.1: A Python 3.7+ implementation of the Twitch Helix API, its Webhook, PubSub and EventSub
 dev-python/typer 0.7.0 0.12.3: Typer, build great CLIs. Easy to code. Based on Python type hints.
 dev-python/typing-extensions 4.4.0: Backported and Experimental Type Hints for Python 3.7+
 dev-python/typing-inspect 0.7.1: Runtime inspection utilities for typing module.
