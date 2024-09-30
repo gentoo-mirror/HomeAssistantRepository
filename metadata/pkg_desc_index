@@ -124,7 +124,7 @@ dev-python/aioairzone-cloud 0.4.7 0.5.1 0.6.2: Library to control Airzone Cloud 
 dev-python/aioambient 2024.1.0 2024.8.0: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioapcaccess 0.4.2: Async version of apcaccess library implemented in python.
 dev-python/aioaquacell 0.2.0: Asynchronous library to retrieve details of your Aquacell water softener device
-dev-python/aioaseko 0.1.1 0.2.0: Async Python package for the Aseko Pool Live API
+dev-python/aioaseko 0.1.1 0.2.0 1.0.0: Async Python package for the Aseko Pool Live API
 dev-python/aioasuswrt 1.4.0: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/
 dev-python/aioautomower 2024.3.3 2024.3.4 2024.4.3 2024.5.1: MPython module to talk to Husqvarna Automower.
 dev-python/aioazuredevops 1.3.5 2.0.0 2.2.1: Get data from the Azure DevOps API.
@@ -221,7 +221,7 @@ dev-python/aiowebostv 0.3.3 0.4.0: Library to control webOS based LG TV devices
 dev-python/aiowithings 2.0.0 2.1.0: Asynchronous Python client for Withings.
 dev-python/aioymaps 1.2.2: Async client for Yandex Maps
 dev-python/aiozoneinfo 0.1.0 0.2.0: Tools to fetch zoneinfo with asyncio
-dev-python/airgradient 0.4.3 0.8.0: Asynchronous Python client for AirGradient.
+dev-python/airgradient 0.4.3 0.8.0 0.9.0: Asynchronous Python client for AirGradient.
 dev-python/airly 1.1.0: Python wrapper for getting air quality data from Airly sensors.
 dev-python/airthings-ble 0.7.1 0.9.0 0.9.1: Manage Airthings BLE devices
 dev-python/airthings-cloud 0.1.0 0.2.0: A python3 library to communicate with Airthings devices
@@ -435,7 +435,7 @@ dev-python/elvia 0.1.0: Python bindings for the Elvia API
 dev-python/emoji 2.8.0: Emoji for Python
 dev-python/emulated-roku 0.2.1 0.3.0: Library to emulate a roku server to serve as a proxyfor remotes such as Harmony
 dev-python/energyflip-client 0.2.2: Client for EnergyFlip
-dev-python/energyzero 2.1.0: Asynchronous Python client providing energy/gas prices from EnergyZero
+dev-python/energyzero 2.1.0 2.1.1: Asynchronous Python client providing energy/gas prices from EnergyZero
 dev-python/enocean 0.50.1: EnOcean serial protocol implementation
 dev-python/enturclient 0.2.4: An API client for public transport data from Entur.
 dev-python/enum-compat 0.0.3: enum/enum34 compatibility package
@@ -564,7 +564,7 @@ dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hko 0.3.2: An unofficial Python wrapper for public API of Hong Kong Observatory
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
-dev-python/holidays 0.44 0.46 0.47 0.51: Generate and work with holidays in Python
+dev-python/holidays 0.47 0.51 0.57: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2 2024.5.2: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20240307.0 20240404.2 20240501.1 20240610.1: The Home Assistant frontend
@@ -709,7 +709,7 @@ dev-python/mopeka-iot-ble 0.5.0 0.7.0: Mopeka IOT BLE Parser
 dev-python/motionblinds 0.6.19 0.6.21 0.6.23: Python library for interfacing with Motion Blinds
 dev-python/motionblindsble 0.0.9: Python library for interfacing with Motionblinds using Bluetooth Low Energy (BLE).
 dev-python/motioneye-client 0.3.14: motionEye client library Python Package
-dev-python/mozart-api 3.2.1.150.6 3.4.1.8.5 3.4.1.8.6: Mozart platform API
+dev-python/mozart-api 3.4.1.8.5 3.4.1.8.8: Mozart platform API
 dev-python/ms-cv 0.1.1: A correlation vector implementation in python
 dev-python/msal 1.29.0: The Microsoft Authentication Library (MSAL) for Python library enables your app to access the Microsoft Cloud by supporting authentication of users with Microsoft Azure Active Directory accounts (AAD) and Microsoft Accounts (MSA) using industry standard OAuth2 and OpenID Connect.
 dev-python/msal-extensions 1.2.0: Microsoft Authentication Library extensions (MSAL EX) provides a persistence API that can save your data on disk, encrypted on Windows, macOS and Linux. Concurrent data access will be coordinated by a file lock mechanism.
@@ -897,7 +897,7 @@ dev-python/pycrc16 0.1.2: Library for calculating CRC16
 dev-python/pycryptodomex 3.20.0: Cryptographic library for Python
 dev-python/pycsspeechtts 1.0.8: Python 3 interface to Microsoft Cognitive Services Text To Speech
 dev-python/pycups 1.9.73-r3: Python bindings for the CUPS API
-dev-python/pydaikin 2.11.1 2.13.6: Python Daikin HVAC appliances interface
+dev-python/pydaikin 2.11.1 2.13.6 2.13.7: Python Daikin HVAC appliances interface
 dev-python/pydanfossair 0.1.0: Python interface for Danfoss Air HRV systems
 dev-python/pydantic 1.10.12 1.10.15: Data parsing and validation using Python type hints
 dev-python/pydeconz 115 116: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
@@ -913,7 +913,7 @@ dev-python/pyeconet 0.1.22: Interface to the unofficial EcoNet API
 dev-python/pyedimax 0.2.1: Interface with Edimax Smart Plugs
 dev-python/pyefergy 22.1.1 22.5.0: An API library for Efergy energy meters.
 dev-python/pyemoncms 0.0.7: A python library to interrogate emoncms API
-dev-python/pyenphase 1.19.2 1.20.1 1.20.3: Library to control enphase envoy
+dev-python/pyenphase 1.20.3 1.22.0: Library to control enphase envoy
 dev-python/pyenvisalink 4.6 4.7: A python3 library for running asynchronus communications with envisalink alarm control panel modules.
 dev-python/pyephember 0.3.1: Python library to work with ember from EPH Controls
 dev-python/pyeverlights 0.1.0: A library for controlling an EverLights lighting system.
