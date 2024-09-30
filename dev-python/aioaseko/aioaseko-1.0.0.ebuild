@@ -4,12 +4,12 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Asynchronous Python client providing energy/gas prices from EnergyZero"
-HOMEPAGE="https://github.com/klaasnicolaas/python-energyzero https://pypi.org/project/energyzero/"
+DESCRIPTION="Async Python package for the Aseko Pool Live API"
+HOMEPAGE="https://github.com/milanmeu/aioaseko https://pypi.org/project/aioaseko/"
 
-LICENSE="MIT"
+LICENSE="LGPL-3+"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,10 +18,7 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
+	dev-python/gql[${PYTHON_USEDEP}]
+	dev-python/apischema[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
