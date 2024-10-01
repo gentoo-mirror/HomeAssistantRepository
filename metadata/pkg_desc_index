@@ -482,6 +482,7 @@ dev-python/fnv-hash-fast 0.5.0: A fast version of fnv1a
 dev-python/fnvhash 0.1.0: Pure Python FNV hash implementation
 dev-python/foobot_async 1.0.0: API Client for Foobot Air Quality Monitoring devices.
 dev-python/forecast-solar 3.0.0 3.1.0: Asynchronous Python client for getting forecast solar information
+dev-python/fortigate-api 2.0.2: Python package to configure Fortigate (Fortios) devices using REST API and SSH
 dev-python/fortiosapi 1.0.5: Python modules to use Fortigate APIs
 dev-python/freebox-api 1.1.0: Provides asynchronous authentication and access to Freebox servers
 dev-python/freenub 0.1.0: This is a fork of pubnub when it still had an MIT license
@@ -1369,6 +1370,7 @@ dev-python/vallox-websocket-api 5.1.1 5.3.0: Vallox WebSocket API
 dev-python/vehicle 2.2.1: Asynchronous Python client providing RDW vehicle information.
 dev-python/velbus-aio 2024.4.1 2024.5.1 2024.7.6: Python Library for the Velbus protocol based on asyncio
 dev-python/venstarcolortouch 0.19: Interface Library for Venstar ColorTouch Thermostat API v5
+dev-python/vhelpers 0.3.0: Often used functions in vladimirs-git projects
 dev-python/vilfo-api-client 0.4.1 0.5.0: Simple wrapper client for the Vilfo router API
 dev-python/vincenty 0.1.4: Calculate the geographical distance between 2 points with extreme accuracy.
 dev-python/voip-utils 0.1.0: Voice over IP Utilities
