@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">aioautomower</remote-id>
-    <remote-id type="github">Thomas55555/aioautomower</remote-id>
+    <remote-id type="pypi">pywmspro</remote-id>
+    <remote-id type="github">mback2k/pywmspro</remote-id>
     <maintainer status="unknown">
-      <email>thomas.protzner@gmail.com</email>
-      <name>Thomas Peter Protzner</name>
+      <email>info@marc-hoersken.de</email>
+      <name>Marc Hoersken</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
