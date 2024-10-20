@@ -290,8 +290,8 @@ dev-python/aws-request-signer 1.2.0: A python library to sign AWS requests using
 dev-python/axis 61 62: A Python library for communicating with devices from Axis Communications
 dev-python/azure-core 1.30.2: Microsoft Azure Core Library for Python
 dev-python/azure-identity 1.17.1: Microsoft Azure Identity Library for Python
-dev-python/azure-kusto-data 3.1.0: Kusto Data Client
-dev-python/azure-kusto-ingest 3.1.0: Kusto Ingest Client
+dev-python/azure-kusto-data 3.1.0 4.5.1: Kusto Data Client
+dev-python/azure-kusto-ingest 3.1.0 4.5.1: Kusto Ingest Client
 dev-python/azure-storage-blob 12.20.0: Microsoft Azure Blob Storage Client Library for Python
 dev-python/azure-storage-queue 12.10.0: Microsoft Azure Azure Queue Storage Client Library for Python
 dev-python/backports-strenum 1.2.8: Base class for creating enumerated constants that are also subclasses of str
@@ -1068,6 +1068,7 @@ dev-python/pysnmplib 5.0.21-r3: Pure-Python, open source and free implementation
 dev-python/pysnooz 0.8.6: Control SNOOZ white noise machines.
 dev-python/pysoma 0.0.12: A simple package for controlling SOMA devices
 dev-python/pyspcwebgw 0.7.0: A Python library for communicating with SPC Web Gateway.
+dev-python/pyspeex-noise 1.0.2: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
 dev-python/pysqueezebox 0.7.1: Asynchronous library to control Logitech Media Server
 dev-python/pystiebeleltron 0.0.1: Python API for interacting with the Stiebel Eltron ISG web gateway via Modbus.
 dev-python/pysuez 0.2.0: Get your water consumption data from your Suez account (www.toutsurmoneau.fr)
