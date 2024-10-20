@@ -479,7 +479,7 @@ dev-python/flake8-docstrings 1.6.0-r1: Extension for flake8 which uses pydocstyl
 dev-python/flexit-bacnet 2.1.0 2.2.1: Client BACnet library for Flexit Nordic series of air handling units.
 dev-python/flipr-api 1.5.0 1.5.1: Python client for flipr API.
 dev-python/flux-led 1.0.4: A Python library to communicate with the flux_led smart bulbs
-dev-python/fnv-hash-fast 0.5.0: A fast version of fnv1a
+dev-python/fnv-hash-fast 0.5.0 1.0.2: A fast version of fnv1a
 dev-python/fnvhash 0.1.0: Pure Python FNV hash implementation
 dev-python/foobot_async 1.0.0: API Client for Foobot Air Quality Monitoring devices.
 dev-python/forecast-solar 3.0.0 3.1.0: Asynchronous Python client for getting forecast solar information
@@ -561,7 +561,7 @@ dev-python/hbmqtt 0.9.5: MQTT client/broker using Python 3.4 asyncio library
 dev-python/hdate 0.10.4 0.10.8 0.10.9: Jewish/Hebrew date and Zmanim in native Python
 dev-python/heatmiserV3 1.1.18: A library to interact with Heatmiser Themostats using V3
 dev-python/here-routing 0.2.0 1.0.1: Asynchronous Python client for the HERE Routing V8 API
-dev-python/here-transit 1.2.0: Asynchronous Python client for the HERE Transit V8 API
+dev-python/here-transit 1.2.0 1.2.1: Asynchronous Python client for the HERE Transit V8 API
 dev-python/hijri-converter 2.2.4: Accurate Hijri-Gregorian dates converter based on the Umm al-Qura calendar
 dev-python/hijridate 2.3.0: Accurate Hijri-Gregorian dates converter based on the Umm al-Qura calendar
 dev-python/hikvision 0.4: Provides a python interface to interact with a hikvision camera
@@ -574,7 +574,7 @@ dev-python/home-assistant-bluetooth 1.11.0 1.12.0: Home Assistant Bluetooth Mode
 dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2 2024.5.2: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20240307.0 20240404.2 20240501.1 20240610.1: The Home Assistant frontend
 dev-python/home-assistant-intents 2024.4.24 2024.6.21 2024.9.4: Intents for Home Assistant
-dev-python/homeconnect 0.7.2: Python client for the BSH Home Connect REST API
+dev-python/homeconnect 0.7.2 0.8.0: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.1.0 1.1.1: An API for the homematicip cloud
 dev-python/homepluscontrol 0.0.5: Python-based API to interact with the Legrand Home + Control interface
 dev-python/horimote 0.4.1: Async API wrapper for Samsumgs set-top boxes SMT-G7400 and SMT-G7401.
