@@ -526,14 +526,14 @@ dev-python/google-nest-sdm 3.0.3 3.0.4 4.0.5: Library for the Google Nest SDM AP
 dev-python/googlemaps 2.5.1: Python client library for Google Maps API Web Services
 dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud API
 dev-python/gotailwind 0.2.2 0.2.3: Asynchronous Python client for Tailwind garage door openers.
-dev-python/govee-ble 0.24.0 0.31.0 0.31.2: Manage Govee BLE devices
+dev-python/govee-ble 0.31.2 0.40.0: Manage Govee BLE devices
 dev-python/govee-local-api 1.4.4 1.4.5 1.5.0: Library to communicate with Govee local API
 dev-python/gpiod 1.5.4: It is a pure Python library and has no dependencies on other packages
 dev-python/gpiozero 1.6.2: A simple interface to GPIO devices with Raspberry Pi.
 dev-python/gps3 0.33.3-r1: Python 2.7-3.5 clients for gpsd
 dev-python/gql 3.4.1: GraphQL client for Python
 dev-python/graphql-core 3.3.0_alpha2: GraphQL implementation for Python, a port of GraphQL.js, the JavaScript reference implementation for GraphQL.
-dev-python/greeclimate 1.4.1: Discover, connect and control Gree based minisplit systems
+dev-python/greeclimate 1.4.1 2.1.0: Discover, connect and control Gree based minisplit systems
 dev-python/greeneye-monitor 3.0.3: Receive data packets from GreenEye Monitor (https://www.brultech.com/greeneye/)
 dev-python/greenwavereality 0.5.1: Control of Greenwave Reality Lights
 dev-python/gridnet 5.0.0: Asynchronous Python client for a NET2GRID devices
@@ -560,7 +560,7 @@ dev-python/haversine 2.8.1: Calculate the distance between 2 points on Earth.
 dev-python/hbmqtt 0.9.5: MQTT client/broker using Python 3.4 asyncio library
 dev-python/hdate 0.10.4 0.10.8 0.10.9: Jewish/Hebrew date and Zmanim in native Python
 dev-python/heatmiserV3 1.1.18: A library to interact with Heatmiser Themostats using V3
-dev-python/here-routing 0.2.0: Asynchronous Python client for the HERE Routing V8 API
+dev-python/here-routing 0.2.0 1.0.1: Asynchronous Python client for the HERE Routing V8 API
 dev-python/here-transit 1.2.0: Asynchronous Python client for the HERE Transit V8 API
 dev-python/hijri-converter 2.2.4: Accurate Hijri-Gregorian dates converter based on the Umm al-Qura calendar
 dev-python/hijridate 2.3.0: Accurate Hijri-Gregorian dates converter based on the Umm al-Qura calendar
