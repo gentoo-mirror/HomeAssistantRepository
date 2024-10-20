@@ -452,7 +452,7 @@ dev-python/epicstore-api 0.1.7: An API wrapper for Epic Games Store written in P
 dev-python/epion 0.0.3: A python API wrapper for Epion Air senor data
 dev-python/epson-projector 0.5.1: Epson projector support for Python
 dev-python/epsonprinter 0.0.9: Communication package for Epson Workforce printer
-dev-python/eq3btsmart 1.1.6 1.1.8: Python library that allows interaction with eQ-3 Bluetooth smart thermostats.
+dev-python/eq3btsmart 1.1.6 1.1.8 1.1.9: Python library that allows interaction with eQ-3 Bluetooth smart thermostats.
 dev-python/esphome-dashboard-api 1.2.3: API to interact with ESPHome Dashboard
 dev-python/esprima 4.0.1: ECMAScript parsing infrastructure for multipurpose analysis in Python
 dev-python/eternalegypt 0.0.16: Netgear LTE modem API
@@ -770,7 +770,7 @@ dev-python/openerz-api 0.2.0 0.3.0: A Python wrapper around the OpenERZ API.
 dev-python/openevsewifi 1.1.2: A python library for communicating with the ESP8266-based wifi module from OpenEVSE
 dev-python/openhomedevice 2.2: Provides an API for requesting information from an Openhome device
 dev-python/opensensemap-api 0.2.0: Python client for interacting with the openSenseMap API.
-dev-python/openwebifpy 4.0.2 4.2.4: Provides a python interface to interact with a device running OpenWebIf
+dev-python/openwebifpy 4.2.4 4.2.7: Provides a python interface to interact with a device running OpenWebIf
 dev-python/openwrt-luci-rpc 1.1.16 1.1.17: Module for interacting with OpenWrt Luci RPC interface
 dev-python/openwrt-ubus-rpc 0.0.2: OpenWrt ubus RPC API library
 dev-python/opower 0.3.1 0.4.3 0.4.4 0.4.7: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
