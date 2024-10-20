@@ -610,8 +610,8 @@ There are 2021 Ebuilds in total, 2010 of them have in total 2038 (42 different) 
 
 |License| Ebuilds using it|
 |-------|-----|
-|MIT|1169|
-|Apache-2.0|451|
+|MIT|1167|
+|Apache-2.0|452|
 |GPL-3|119|
 |BSD|113|
 |GPL-2|25|
@@ -628,6 +628,7 @@ There are 2021 Ebuilds in total, 2010 of them have in total 2038 (42 different) 
 |ZPL|3|
 |LGPL-2.1+|3|
 |AGPL-3|3|
+|CC0-1.0|3|
 |AGPL-3+|2|
 |LGPL-2+|2|
 |public-domain|2|
@@ -635,7 +636,6 @@ There are 2021 Ebuilds in total, 2010 of them have in total 2038 (42 different) 
 |ElementTree|2|
 |BSD-4|2|
 |LGPL-2|2|
-|CC0-1.0|2|
 |0BSD|1|
 |CC-BY-4.0|1|
 |PYTHON|1|

@@ -4,24 +4,25 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Fritz!Box Smarthome Python Library"
-HOMEPAGE="https://github.com/hthiery/python-fritzhome https://pypi.org/project/pyfritzhome/"
+DESCRIPTION="Context manager to raise an exception when a future is done"
+HOMEPAGE="https://github.com/bdraco/async_interrupt https://pypi.org/project/async-interrupt/"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
+DOCS="README.md"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-cov[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	)"
 
 python_test() {
