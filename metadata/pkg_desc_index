@@ -143,7 +143,7 @@ dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2023.5.0 2024.2.1: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 0.1.5 0.4.0: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 23.0.0 23.2.0 24.3.0 24.5.0: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 24.3.0 24.5.0 27.0.0: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.21.3: ftp client/server for asyncio
@@ -260,7 +260,7 @@ dev-python/asmog 0.0.6: Python API for Ampio Smog Sensors
 dev-python/asterisk_mbox 0.5.0: The client side of a client/server to interact with Asterisk voicemail mailboxes
 dev-python/astral 2.2-r1: Calculations for the position of the sun and moon.
 dev-python/astroid 3.0.1: Abstract Syntax Tree for logilab packages
-dev-python/async-interrupt 1.1.1: Context manager to raise an exception when a future is done
+dev-python/async-interrupt 1.1.1 1.2.0: Context manager to raise an exception when a future is done
 dev-python/async-modbus 0.2.1-r1: Async ModBus python library
 dev-python/async-timeout 4.0.2-r1: Timeout context manager for asyncio programs
 dev-python/async-upnp-client 0.38.3 0.40.0: Async UPnP Client
@@ -458,7 +458,7 @@ dev-python/esprima 4.0.1: ECMAScript parsing infrastructure for multipurpose ana
 dev-python/eternalegypt 0.0.16: Netgear LTE modem API
 dev-python/eufylife-ble-client 0.1.8: A library to communicate with EufyLife Bluetooth devices.
 dev-python/evdev 1.6.1: Bindings to the Linux input handling subsystem
-dev-python/evohome-async 0.4.15 0.4.19: An async Python client for connecting to the Evohome webservice
+dev-python/evohome-async 0.4.19 0.4.20: An async Python client for connecting to the Evohome webservice
 dev-python/evolutionhttp 0.0.18: An HTTP client for controlling a Bryant Evolution HVAC system
 dev-python/faadelays 2023.9.1: A package to retrieve FAA airport status
 dev-python/face-recognition 1.2.3: Recognize faces from Python or from the command line
@@ -928,12 +928,12 @@ dev-python/pyfibaro 0.7.6 0.7.8: Simple API to access fibaro home center from an
 dev-python/pyfido 2.1.2: Get your Fido consumption (wwww.fido.ca)
 dev-python/pyfireservicerota 0.0.43: Python 3 API wrapper for FireServiceRota/BrandweerRooster
 dev-python/pyflexit 0.3: Flexit CI66 helper library
-dev-python/pyflic 2.0.3: Python library to connect to and interact with Flic buttons.
+dev-python/pyflic 2.0.3 2.0.4: Python library to connect to and interact with Flic buttons.
 dev-python/pyflunearyou 2.0.2: A clean, well-tested Python3 API for Flu Near You
 dev-python/pyfnip 0.2: Python wrapper for FutureNow IP relay/dimmer units
 dev-python/pyforked-daapd 0.1.14: Python Interface for forked-daapd
 dev-python/pyfreedompro 1.1.0: Freedompro API
-dev-python/pyfritzhome 0.6.9 0.6.10 0.6.11: Fritz!Box Smarthome Python Library
+dev-python/pyfritzhome 0.6.11 0.6.12: Fritz!Box Smarthome Python Library
 dev-python/pyfttt 0.3.2: Python tools for interacting with the IFTTT Webhooks Channel
 dev-python/pygatt 4.0.5-r1: Python Bluetooth LE (Low Energy) and GATT Library
 dev-python/pygtfs 0.1.9: Models GTFS data in a database.
