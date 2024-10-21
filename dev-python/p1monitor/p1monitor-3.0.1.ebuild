@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Async OUI lookups"
-HOMEPAGE="https://github.com/bluetooth-devices/aiooui https://pypi.org/project/aiooui/"
+DESCRIPTION="Asynchronous Python client for the P1 Monitor"
+HOMEPAGE="https://github.com/klaasnicolaas/python-p1monitor https://pypi.org/project/p1monitor/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,9 +18,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
+		dev-python/aresponses[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 	)"
