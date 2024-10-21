@@ -5,11 +5,10 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Home Assistant helper lib for the IKEA Idasen Desk integration"
-HOMEPAGE="https://github.com/abmantis/idasen-ha/ https://pypi.org/project/idasen-ha/"
+DESCRIPTION="Lutron Homeworks Series 4 and 8 interface over Ethernet"
+HOMEPAGE="https://github.com/dubnom/pyhomeworks https://pypi.org/project/pyhomeworks/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,15 +17,5 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
-
-RDEPEND="dev-python/idasen[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest
