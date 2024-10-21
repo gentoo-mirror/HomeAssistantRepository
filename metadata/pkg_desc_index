@@ -173,7 +173,7 @@ dev-python/aiolifx-themes 0.4.15 0.5.5: Async library that applies color themes 
 dev-python/aiolimiter 1.1.0: asyncio rate limiter, a leaky bucket implementation
 dev-python/aiolivisi 0.0.19: Python module to communicate with LIVISI Smart Home Controllers.
 dev-python/aiolookin 1.0.0: Client for interaction of the LOOKin device with the Home Assistant
-dev-python/aiolyric 1.1.0: AIO package for the Honeywell Lyric Platform.
+dev-python/aiolyric 1.1.0 2.0.1: AIO package for the Honeywell Lyric Platform.
 dev-python/aiomodernforms 0.1.8: Asynchronous Python client for Modern Forms fans.
 dev-python/aiomqtt 2.0.0 2.1.0: The idiomatic asyncio MQTT client, wrapped around paho-mqtt
 dev-python/aiomusiccast 0.14.8: Companion library for musiccast devices intended for the Home Assistant integration.
@@ -442,7 +442,7 @@ dev-python/energyzero 2.1.0 2.1.1: Asynchronous Python client providing energy/g
 dev-python/enocean 0.50.1: EnOcean serial protocol implementation
 dev-python/enturclient 0.2.4: An API client for public transport data from Entur.
 dev-python/enum-compat 0.0.3: enum/enum34 compatibility package
-dev-python/env-canada 0.6.0 0.6.2 0.6.3: A package to access meteorological data from Environment Canada
+dev-python/env-canada 0.6.2 0.6.3 0.7.2: A package to access meteorological data from Environment Canada
 dev-python/envirophat 0.0.6: Enviro pHAT environmental sensor board driver
 dev-python/envoy-reader 0.20.1: A program to read from an Enphase Envoy on the local network
 dev-python/envoy-utils 0.0.1: Python utilities for the Enphase Envoy
@@ -695,10 +695,10 @@ dev-python/meater-python 0.0.8: A wrapper for the Apption Labs Meater probe API 
 dev-python/medcom-ble 0.1.1: Library to communicate with Medcom BLE radiation monitors
 dev-python/melnor-bluetooth 0.0.25: A small python library for discovery and interacting with Melnor, Eden, etc Bluetooth water timers.
 dev-python/messagebird 1.2.0: MessageBird's REST API
-dev-python/meteoalertapi 0.3.0: A small api to get alerting messages from extreme weather in Europe from https://www.meteoalarm.org.
+dev-python/meteoalertapi 0.3.0 0.3.1: A small api to get alerting messages from extreme weather in Europe from https://www.meteoalarm.org.
 dev-python/meteocalc 1.1.0: Functions for calculation of meteorological variables.
 dev-python/meteofrance-api 1.3.0: Python client for Meteo-France API.
-dev-python/mficlient 0.3.0: A remote control client for Ubiquiti's mFi system
+dev-python/mficlient 0.3.0 0.5.0: A remote control client for Ubiquiti's mFi system
 dev-python/micloud 0.5: Xiaomi cloud connect library
 dev-python/microBeesPy 0.3.2: microBees Python Library
 dev-python/mill-local 0.3.0: A python3 library to communicate with Mill
@@ -711,7 +711,7 @@ dev-python/mock-open 1.4.0: A better mock for file I/O
 dev-python/moehlenhoff-alpha2 1.3.0: Python client for the Moehlenhoff Alpha2 underfloor heating system
 dev-python/monzopy 1.2.0: A simple async python wrapper for the Monzo API, used primarily by the Monzo Home Assistant integration.
 dev-python/mopeka-iot-ble 0.5.0 0.7.0: Mopeka IOT BLE Parser
-dev-python/motionblinds 0.6.19 0.6.21 0.6.23: Python library for interfacing with Motion Blinds
+dev-python/motionblinds 0.6.23 0.6.25: Python library for interfacing with Motion Blinds
 dev-python/motionblindsble 0.0.9: Python library for interfacing with Motionblinds using Bluetooth Low Energy (BLE).
 dev-python/motioneye-client 0.3.14: motionEye client library Python Package
 dev-python/mozart-api 3.4.1.8.5 3.4.1.8.8: Mozart platform API
@@ -988,7 +988,7 @@ dev-python/pymfy 0.11.0: A Somfy Open API library
 dev-python/pymicro-vad 1.0.1: Self-contained voice activity detector
 dev-python/pymitv 1.4.3: A Python 3 based Xiaomi TV remote
 dev-python/pymochad 0.2.0: A python library for interacting with moch
-dev-python/pymodbus 3.5.4 3.6.3 3.6.6 3.6.7 3.6.8: A fully featured modbus protocol stack in python
+dev-python/pymodbus 3.6.8 3.6.9: A fully featured modbus protocol stack in python
 dev-python/pymodbus-repl 2.0.3: REPL (Read-Eval-Print Loop) tool for working with Modbus devices using the Pymodbus library.
 dev-python/pymonoprice 0.4: Python API for talking to Monoprice 6-zone amplifier
 dev-python/pymsteams 0.1.12: Format messages and post to Microsoft Teams.
