@@ -7,10 +7,10 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python wrapper around nextcloud monitor api"
-HOMEPAGE="https://github.com/meichthys/nextcloud_monitor https://pypi.org/project/nextcloudmonitor/"
+DESCRIPTION="A simple async python wrapper for the Monzo API, used primarily by the Monzo Home Assistant integration."
+HOMEPAGE="https://github.com/JakeMartin-ICL/monzopy https://pypi.org/project/monzopy/"
 
-LICENSE="MIT"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,5 +18,4 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
-distutils_enable_tests pytest
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
