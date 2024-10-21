@@ -527,7 +527,7 @@ dev-python/googlemaps 2.5.1: Python client library for Google Maps API Web Servi
 dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud API
 dev-python/gotailwind 0.2.2 0.2.3: Asynchronous Python client for Tailwind garage door openers.
 dev-python/govee-ble 0.31.2 0.40.0: Manage Govee BLE devices
-dev-python/govee-local-api 1.4.4 1.4.5 1.5.0: Library to communicate with Govee local API
+dev-python/govee-local-api 1.4.4 1.4.5 1.5.0 1.5.2: Library to communicate with Govee local API
 dev-python/gpiod 1.5.4: It is a pure Python library and has no dependencies on other packages
 dev-python/gpiozero 1.6.2: A simple interface to GPIO devices with Raspberry Pi.
 dev-python/gps3 0.33.3-r1: Python 2.7-3.5 clients for gpsd
@@ -575,7 +575,7 @@ dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2 2024.5.2: Python-base 
 dev-python/home-assistant-frontend 20240307.0 20240404.2 20240501.1 20240610.1: The Home Assistant frontend
 dev-python/home-assistant-intents 2024.4.24 2024.6.21 2024.9.4: Intents for Home Assistant
 dev-python/homeconnect 0.7.2 0.8.0: Python client for the BSH Home Connect REST API
-dev-python/homematicip 1.1.0 1.1.1: An API for the homematicip cloud
+dev-python/homematicip 1.1.0 1.1.1 1.1.2: An API for the homematicip cloud
 dev-python/homepluscontrol 0.0.5: Python-based API to interact with the Legrand Home + Control interface
 dev-python/horimote 0.4.1: Async API wrapper for Samsumgs set-top boxes SMT-G7400 and SMT-G7401.
 dev-python/http-ece 1.1.0: Encrypted Content Encoding for HTTP
@@ -1106,7 +1106,7 @@ dev-python/python-gammu 3.2.4: Gammu bindings
 dev-python/python-gc100 1.0.3_alpha0: A Python-based socket client for Global Cache GC100 digital I/O interface
 dev-python/python-gitlab 1.6.0: Interact with GitLab API
 dev-python/python-homeassistant-analytics 0.6.0 0.7.0: Asynchronous Python client for Homeassistant Analytics.
-dev-python/python-homewizard-energy 4.3.1 5.0.0 6.0.0: Asynchronous Python client for the HomeWizard Energy
+dev-python/python-homewizard-energy 4.3.1 5.0.0 6.0.0 6.3.0: Asynchronous Python client for the HomeWizard Energy
 dev-python/python-hpilo 4.3 4.4.3: Accessing the HP iLO XML interface from python
 dev-python/python-http-client 3.3.2: HTTP REST client, simplified for Python
 dev-python/python-izone 1.2.9: A python interface to the iZone airconditioner controller
