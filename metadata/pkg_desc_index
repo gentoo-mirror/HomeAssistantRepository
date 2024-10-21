@@ -169,7 +169,7 @@ dev-python/aiokef 0.2.16: Asyncio Python API for KEF speakers.
 dev-python/aiolifx 1.0.2 1.1.1: API for local communication with LIFX devices over a LAN with asyncio.
 dev-python/aiolifx-connection 1.0.0: A wrapper for aiolifx to connect to a single LIFX device
 dev-python/aiolifx-effects 0.3.2: aiolifx light effects
-dev-python/aiolifx-themes 0.4.10 0.4.15: Async library that applies color themes to LIFX lights
+dev-python/aiolifx-themes 0.4.15 0.5.5: Async library that applies color themes to LIFX lights
 dev-python/aiolimiter 1.1.0: asyncio rate limiter, a leaky bucket implementation
 dev-python/aiolivisi 0.0.19: Python module to communicate with LIVISI Smart Home Controllers.
 dev-python/aiolookin 1.0.0: Client for interaction of the LOOKin device with the Home Assistant
@@ -649,7 +649,7 @@ dev-python/kostal-plenticore 0.2.0: Kostal Plenticore REST-API client
 dev-python/krakenex 2.1.0: kraken.com cryptocurrency exchange API
 dev-python/lacrosse-view 1.0.1 1.0.2: Client for retrieving data from the La Crosse View cloud
 dev-python/lakeside 0.13: Python API for controlling Eufy LED bulbs
-dev-python/laundrify-aio 1.1.2: A Python package to communicate with the laundrify API
+dev-python/laundrify-aio 1.1.2 1.2.2: A Python package to communicate with the laundrify API
 dev-python/ld2410-ble 0.1.1: Interface with LD2410B modules from HiLink
 dev-python/leaone-ble 0.1.0: Bluetooth parser for LeaOne devices
 dev-python/led-ble 1.0.1 1.0.2: Control a wide range of LED BLE devices
@@ -915,6 +915,7 @@ dev-python/pydroid-ipcam 2.0.0: Library for handling the Android IP Webcam app
 dev-python/pyebox 1.1.4: Get your EBox consumption (wwww.ebox.ca)
 dev-python/pyecoforest 0.4.0: Python library for ecoforest local device.
 dev-python/pyeconet 0.1.22: Interface to the unofficial EcoNet API
+dev-python/pyecotrend-ista 3.3.1: Python ecotrend-ista Api
 dev-python/pyedimax 0.2.1: Interface with Edimax Smart Plugs
 dev-python/pyefergy 22.1.1 22.5.0: An API library for Efergy energy meters.
 dev-python/pyemoncms 0.0.7: A python library to interrogate emoncms API
@@ -976,8 +977,8 @@ dev-python/pylint-per-file-ignores 1.2.1 1.3.2: A pylint plugin to ignore error 
 dev-python/pylitejet 0.6.2: A library for controlling a LiteJet lighting system.
 dev-python/pylitterbot 2023.4.9 2023.4.11 2023.5.0: Python package for controlling Whisker automatic robots.
 dev-python/pyloopenergy 0.2.1: Access Loop Energy energy monitors via Socket.IO API
-dev-python/pylutron 0.2.8 0.2.12 0.2.13: Python library for Lutron RadioRA 2
-dev-python/pylutron-caseta 0.18.3 0.19.0 0.20.0: Provides an API to the Lutron Smartbridge
+dev-python/pylutron 0.2.12 0.2.13 0.2.15: Python library for Lutron RadioRA 2
+dev-python/pylutron-caseta 0.20.0 0.21.1: Provides an API to the Lutron Smartbridge
 dev-python/pymailgunner 1.4: A simple mailgun client - pymailgun fork with Python 3 support
 dev-python/pymata-express 1.19: A Python Protocol Abstraction Library For Arduino Firmata using Python asyncio
 dev-python/pymediaroom 0.6.5.4: Remote control your Mediaroom Set-up-box
