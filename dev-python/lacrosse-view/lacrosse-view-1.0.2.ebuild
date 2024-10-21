@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A Python implementation of the new La Marzocco API"
-HOMEPAGE="https://github.com/zweckj/lmcloud https://pypi.org/project/lmcloud/"
+DESCRIPTION="Client for retrieving data from the La Crosse View cloud"
+HOMEPAGE="https://github.com/IceBotYT/lacrosse_view https://pypi.org/project/lacrosse-view/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,9 +18,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/httpx-0.16.1[${PYTHON_USEDEP}]
-	>=dev-python/Authlib-0.15.5[${PYTHON_USEDEP}]
-	>=dev-python/websockets-11.0.2[${PYTHON_USEDEP}]
-	>=dev-python/bleak-0.20.2[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/aiozoneinfo-0.2.1[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

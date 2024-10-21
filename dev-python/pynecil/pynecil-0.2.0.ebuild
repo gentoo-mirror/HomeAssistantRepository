@@ -4,18 +4,18 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="A Python Wrapper for the Just Nimbus API"
-HOMEPAGE="https://github.com/kvanzuijlen/justnimbus https://pypi.org/project/justnimbus/"
+DESCRIPTION="Python library to communicate with Pinecil V2 soldering irons via Bluetooth"
+HOMEPAGE="https://github.com/tr4nt0r/pynecil/ https://pypi.org/project/pynecil/"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
+DOCS="README.md"
 
 distutils_enable_tests pytest
