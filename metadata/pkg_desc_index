@@ -161,7 +161,7 @@ dev-python/aiohttp-session 2.12.0: sessions for aiohttp.web
 dev-python/aiohttp-sse-client2 0.3.0: A Server-Sent Event python client base on aiohttp
 dev-python/aiohttp-wsgi 0.10.0: WSGI adapter for aiohttp.
 dev-python/aiohttp-zlib-ng 0.1.1 0.1.3 0.3.1: Enable zlib_ng on aiohttp
-dev-python/aiohue 4.7.0 4.7.1: Python module to talk to Philips Hue.
+dev-python/aiohue 4.7.1 4.7.3: Python module to talk to Philips Hue.
 dev-python/aioimaplib 1.0.1 1.1.0: Python asyncio IMAP4rev1 client library
 dev-python/aioitertools 0.11.0: itertools and builtins for AsyncIO and mixed iterables
 dev-python/aiokafka 0.7.2 0.10.0: Kafka integration with asyncio.
@@ -599,7 +599,7 @@ dev-python/ibmiotf 0.3.4: Python Client for IBM Watson IoT Platform
 dev-python/ical 7.0.3 8.0.0 8.0.1: Python iCalendar implementation (rfc 2445)
 dev-python/icmplib 3.0 3.0.4: Easily forge ICMP packets and make your own ping and traceroute.
 dev-python/idasen 0.10.3: ikea IDASEN desk API and CLI.
-dev-python/idasen-ha 2.4 2.5 2.5.1 2.5.3: Home Assistant helper lib for the IKEA Idasen Desk integration
+dev-python/idasen-ha 2.5 2.5.1 2.5.3 2.6.2: Home Assistant helper lib for the IKEA Idasen Desk integration
 dev-python/ifaddr 0.1.7: Enumerate IP addresses on the local network adapters
 dev-python/iglo 1.2.7: Control iGlo based RGB lights
 dev-python/ihcsdk 2.8.5: IHC Python SDK
@@ -607,14 +607,14 @@ dev-python/imaplib2 3.6: A threaded Python IMAP4 client.
 dev-python/imgw-pib 1.0.4 1.0.5: Python wrapper for IMGW-PIB API.
 dev-python/importlib_resources 5.12.0: Read resources from Python packages
 dev-python/imutils 0.5.4: A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images, sorting contours, detecting edges, and much more easier with OpenCV and both Python 2.7 and Python 3.
-dev-python/incomfort-client 0.5.0: A aiohttp-based client for Intergas InComfort/InTouch Lan2RF systems
+dev-python/incomfort-client 0.5.0 0.6.3: A aiohttp-based client for Intergas InComfort/InTouch Lan2RF systems
 dev-python/influxdb 5.3.1: InfluxDB client
 dev-python/influxdb-client 1.24.0: InfluxDB 2.0 Python client library
-dev-python/inkbird-ble 0.5.6: Parser for INKBIRD BLE devices
+dev-python/inkbird-ble 0.5.6 0.5.8: Parser for INKBIRD BLE devices
 dev-python/inquirerpy 0.3.4: Python port of Inquirer.js (A collection of common interactive command-line user interfaces)
 dev-python/insteon-frontend-home-assistant 0.4.0 0.5.0: The Insteon frontend for Home Assistant
 dev-python/intel-amt 0.9.0: Tools for interacting with Intel's AMT
-dev-python/intellifire4py 2.2.2: An API to read the status of an intellifire wifi module
+dev-python/intellifire4py 2.2.2 4.1.9: An API to read the status of an intellifire wifi module
 dev-python/iotawattpy 0.1.0: Python library for the IoTaWatt Energy device
 dev-python/iperf3 0.1.11: Python wrapper around iperf3
 dev-python/isal 1.6.1: Faster zlib and gzip compatible compression and decompression by providing Python bindings for the ISA-L library
@@ -942,12 +942,12 @@ dev-python/pyhaversion 22.8.0: Get the latest Home Assistant version from variou
 dev-python/pyheos 0.7.2: An async python library for controlling HEOS devices through the HEOS CLI Protocol
 dev-python/pyhiveapi 0.5.16: A Python library to interface with the Hive API
 dev-python/pyhomematic 0.1.77: Homematic interface
-dev-python/pyhomeworks 0.0.6: Lutron Homeworks Series 4 and 8 interface over Ethernet
+dev-python/pyhomeworks 0.0.6 1.1.2: Lutron Homeworks Series 4 and 8 interface over Ethernet
 dev-python/pyhumps 3.5.0-r1: Convert strings (and dictionary keys) between snake case, camel case and pascal case in Python. Inspired by Humps for Node
 dev-python/pyialarm 2.2.0: A simple library to interface with iAlarm systems, built for use with Home-Assistant
 dev-python/pyialarmxr-homeassistant 1.0.18: A simple library to interface with iAlarmXR systems, built for use with Home Assistant
 dev-python/pyicloud 1.0.0: PyiCloud is a module which allows pythonistas to interact with iCloud webservices.
-dev-python/pyinsteon 1.5.2 1.5.3 1.6.1: Python API for controlling Insteon devices
+dev-python/pyinsteon 1.5.3 1.6.1 1.6.3: Python API for controlling Insteon devices
 dev-python/pyintesishome 1.8.0: A python3 library for running asynchronus communications with IntesisHome Smart AC Controllers
 dev-python/pyipma 3.0.7: Python library to retrieve information from Instituto PortuguÃªs do Mar e Atmosfera
 dev-python/pyipp 0.14.4 0.15.0 0.16.0: Asynchronous Python client for Internet Printing Protocol (IPP).
