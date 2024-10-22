@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="KNX panel for Home Assistant"
-HOMEPAGE="https://github.com/XKNX/knx-frontend https://pypi.org/project/knx-frontend/"
+DESCRIPTION="Python library for interfacing with Motionblinds using Bluetooth Low Energy (BLE)."
+HOMEPAGE="https://github.com/LennP/PyPi-Motionblinds_BLE https://pypi.org/project/motionblindsble/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -17,5 +17,9 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
+
+RDEPEND="dev-python/bleak[${PYTHON_USEDEP}]
+	dev-python/bleak-retry-connector[${PYTHON_USEDEP}]
+	dev-python/pycryptodome[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
