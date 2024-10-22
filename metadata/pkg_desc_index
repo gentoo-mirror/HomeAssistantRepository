@@ -569,7 +569,7 @@ dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hko 0.3.2: An unofficial Python wrapper for public API of Hong Kong Observatory
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
-dev-python/holidays 0.47 0.51 0.57 0.58: Generate and work with holidays in Python
+dev-python/holidays 0.47 0.51 0.58: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2 2024.5.2: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20240307.0 20240404.2 20240501.1 20240610.1: The Home Assistant frontend
@@ -642,7 +642,7 @@ dev-python/keba-kecontact 1.1.0: A python library to communicate with the KEBA c
 dev-python/kegtron-ble 0.4.0: Kegtron BLE support
 dev-python/keyrings_alt 4.1.0: Alternate keyring implementations
 dev-python/kiwiki-client 0.1.1: KIWI Lock Client Library
-dev-python/knx-frontend 2023.6.23.191712 2024.1.20.105944: KNX panel for Home Assistant
+dev-python/knx-frontend 2023.6.23.191712 2024.1.20.105944 2024.9.10.221729: KNX panel for Home Assistant
 dev-python/konnected 1.2.0: Library for interacting with Konnected home automation controllers.
 dev-python/korean-lunar-calendar 0.3.1: Korean Lunar Calendar
 dev-python/kostal-plenticore 0.2.0: Kostal Plenticore REST-API client
@@ -712,7 +712,7 @@ dev-python/moehlenhoff-alpha2 1.3.0 1.3.1: Python client for the Moehlenhoff Alp
 dev-python/monzopy 1.2.0 1.3.2: A simple async python wrapper for the Monzo API, used primarily by the Monzo Home Assistant integration.
 dev-python/mopeka-iot-ble 0.7.0 0.8.0: Mopeka IOT BLE Parser
 dev-python/motionblinds 0.6.23 0.6.25: Python library for interfacing with Motion Blinds
-dev-python/motionblindsble 0.0.9: Python library for interfacing with Motionblinds using Bluetooth Low Energy (BLE).
+dev-python/motionblindsble 0.0.9 0.1.2: Python library for interfacing with Motionblinds using Bluetooth Low Energy (BLE).
 dev-python/motioneye-client 0.3.14: motionEye client library Python Package
 dev-python/mozart-api 3.4.1.8.5 3.4.1.8.8: Mozart platform API
 dev-python/ms-cv 0.1.1: A correlation vector implementation in python
@@ -773,7 +773,7 @@ dev-python/opensensemap-api 0.2.0: Python client for interacting with the openSe
 dev-python/openwebifpy 4.2.4 4.2.7: Provides a python interface to interact with a device running OpenWebIf
 dev-python/openwrt-luci-rpc 1.1.16 1.1.17: Module for interacting with OpenWrt Luci RPC interface
 dev-python/openwrt-ubus-rpc 0.0.2: OpenWrt ubus RPC API library
-dev-python/opower 0.3.1 0.4.3 0.4.4 0.4.7 0.8.3: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
+dev-python/opower 0.4.4 0.4.7 0.8.3: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
 dev-python/opuslib 3.0.1: Python bindings to the libopus, IETF low-delay audio codec
 dev-python/oralb-ble 0.17.6: Bluetooth library for Oral B devices
 dev-python/orjson 3.9.9 3.9.15: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
