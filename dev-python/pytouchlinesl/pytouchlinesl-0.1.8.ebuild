@@ -7,10 +7,10 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="KNX panel for Home Assistant"
-HOMEPAGE="https://github.com/XKNX/knx-frontend https://pypi.org/project/knx-frontend/"
+DESCRIPTION="An API client for Roth's TouchlineSL control system."
+HOMEPAGE="https://github.com/jnsgruk/pytouchlinesl https://pypi.org/project/pytouchlinesl/"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -20,11 +20,7 @@ DOCS="README.md"
 
 BDEPEND="
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest
