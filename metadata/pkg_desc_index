@@ -573,7 +573,7 @@ dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.47 0.51 0.58: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2 2024.5.2: Python-base APIs and tools for CHIP.
-dev-python/home-assistant-frontend 20240307.0 20240404.2 20240501.1 20240610.1: The Home Assistant frontend
+dev-python/home-assistant-frontend 20240307.0 20240404.2 20240501.1 20240610.1 20241002.3: The Home Assistant frontend
 dev-python/home-assistant-intents 2024.4.24 2024.6.21 2024.9.4: Intents for Home Assistant
 dev-python/homeconnect 0.7.2 0.8.0: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.1.0 1.1.1 1.1.2: An API for the homematicip cloud
