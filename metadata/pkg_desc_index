@@ -120,7 +120,7 @@ dev-python/aio-geojson-usgs-earthquakes 0.2 0.3: An async GeoJSON client library
 dev-python/aio-georss-client 0.11 0.12 0.14: An async GeoRSS client library.
 dev-python/aio-georss-gdacs 0.9 0.10: An async GeoRSS client library for GDACS feeds.
 dev-python/aioairq 0.3.1 0.3.2: Asynchronous library to retrieve data from air-Q devices.
-dev-python/aioairzone 0.7.6 0.8.2: Library to control Airzone devices
+dev-python/aioairzone 0.7.6 0.8.2 0.9.3: Library to control Airzone devices
 dev-python/aioairzone-cloud 0.4.7 0.5.1 0.6.2 0.6.6: Library to control Airzone Cloud devices
 dev-python/aioambient 2024.1.0 2024.8.0: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioapcaccess 0.4.2: Async version of apcaccess library implemented in python.
@@ -217,7 +217,7 @@ dev-python/aioswitcher 3.4.1 3.4.3 4.0.3: Switcher Python Integration.
 dev-python/aiosyncthing 0.5.1: Asynchronous Python client for the Syncthing REST API
 dev-python/aiotankerkoenig 0.4.1 0.4.2: Async Python 3 client for tankerkoenig.de
 dev-python/aiotractive 0.5.6: Asynchronous Python client for the Tractive REST API
-dev-python/aiounifi 72 74 75 77: Python library for communicating with UniFi Network Controller API
+dev-python/aiounifi 72 74 75 77 80: Python library for communicating with UniFi Network Controller API
 dev-python/aiounittest 1.4.2: Test asyncio code more easily.
 dev-python/aiovlc 0.1.0 0.3.2 0.5.1: A package for talking to vlc over its telnet interface using asyncio.
 dev-python/aiovodafone 0.4.3 0.5.4 0.6.0: Python library to control Vodafone Station
