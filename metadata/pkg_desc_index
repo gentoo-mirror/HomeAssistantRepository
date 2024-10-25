@@ -653,6 +653,7 @@ dev-python/krakenex 2.1.0: kraken.com cryptocurrency exchange API
 dev-python/lacrosse-view 1.0.1 1.0.2: Client for retrieving data from the La Crosse View cloud
 dev-python/lakeside 0.13: Python API for controlling Eufy LED bulbs
 dev-python/laundrify-aio 1.1.2 1.2.2: A Python package to communicate with the laundrify API
+dev-python/lcn-frontend 0.1.6: LCN panel for Home Assistant
 dev-python/ld2410-ble 0.1.1: Interface with LD2410B modules from HiLink
 dev-python/leaone-ble 0.1.0: Bluetooth parser for LeaOne devices
 dev-python/led-ble 1.0.1 1.0.2: Control a wide range of LED BLE devices
@@ -713,6 +714,7 @@ dev-python/minio 7.1.12: MinIO Python Library for Amazon S3 Compatible Cloud Sto
 dev-python/moat-ble 0.1.1: Manager Moat BLE Devices
 dev-python/mock-open 1.4.0: A better mock for file I/O
 dev-python/moehlenhoff-alpha2 1.3.0 1.3.1: Python client for the Moehlenhoff Alpha2 underfloor heating system
+dev-python/monarchmoney 0.1.13: Monarch Money API for Python
 dev-python/monzopy 1.2.0 1.3.2: A simple async python wrapper for the Monzo API, used primarily by the Monzo Home Assistant integration.
 dev-python/mopeka-iot-ble 0.7.0 0.8.0: Mopeka IOT BLE Parser
 dev-python/motionblinds 0.6.23 0.6.25: Python library for interfacing with Motion Blinds
@@ -759,6 +761,7 @@ dev-python/numato-gpio 0.10.0 0.12.0 0.13.0: Python API for Numato GPIO Expander
 dev-python/numpy 1.26.0-r1: Fast array and numerical python library
 dev-python/nyt-games 0.4.3: Asynchronous Python client for NYT games.
 dev-python/oasatelematics 0.3: Python wrapper for the OASA Telematics API
+dev-python/oathtool 2.3.2: One-time password generator
 dev-python/oauth2client 4.1.3: OAuth 2.0 client library
 dev-python/objgraph 3.5.0-r1: Draws Python object reference graphs with graphviz
 dev-python/odp-amsterdam 6.0.1 6.0.2: Asynchronous Python client providing Open Data information of Amsterdam
@@ -1356,6 +1359,7 @@ dev-python/tuya-iot-py-sdk 0.6.6: A Python sdk for Tuya Open API, which provides
 dev-python/twentemilieu 2.0.1: Asynchronous Python client for Twente Milieu API.
 dev-python/twilio 6.32.0: Helper library for the Twilio API
 dev-python/twitchAPI 4.0.0 4.2.1: A Python 3.7+ implementation of the Twitch Helix API, its Webhook, PubSub and EventSub
+dev-python/typedmonarchmoney 0.3.1: A Typed wrapper around Monarch Money
 dev-python/typer 0.7.0 0.12.3: Typer, build great CLIs. Easy to code. Based on Python type hints.
 dev-python/typing-extensions 4.4.0: Backported and Experimental Type Hints for Python 3.7+
 dev-python/typing-inspect 0.7.1: Runtime inspection utilities for typing module.
