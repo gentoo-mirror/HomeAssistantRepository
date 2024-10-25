@@ -151,7 +151,7 @@ dev-python/aiogithubapi 22.10.1 23.11.0-r1: Asynchronous Python client for the G
 dev-python/aioguardian 2022.7.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aiohappyeyeballs 2.3.1: Happy Eyeballs
 dev-python/aioharmony 0.2.10: Asyncio Python library for connecting to and controlling the Logitech Harmony
-dev-python/aiohomekit 3.0.9 3.1.1 3.1.4 3.1.5: An asyncio HomeKit client
+dev-python/aiohomekit 3.1.5 3.2.3: An asyncio HomeKit client
 dev-python/aiohttp 3.9.4: HTTP client/server for asyncio
 dev-python/aiohttp-fast-url-dispatcher 0.3.0: A faster URL dispatcher for aiohttp
 dev-python/aiohttp-fast-zlib 0.1.0 0.1.1: Use the fastest installed zlib compatible library with aiohttp
@@ -198,6 +198,7 @@ dev-python/aioridwell 2023.7.0 2024.1.0: A Python3, asyncio-based API for intera
 dev-python/aiortsp 1.3.7: An asyncio-based RTSP library
 dev-python/aioruckus 0.34 0.41: Python API to interact with Ruckus Unleashed and ZoneDirector devices.
 dev-python/aiorun 2023.7.2 2024.5.1: Boilerplate for asyncio applications
+dev-python/aiorussound 4.0.5: Asyncio client for Russound RIO devices.
 dev-python/aioruuvigateway 0.1.0: An asyncio-native library for requesting data from a Ruuvi Gateway
 dev-python/aiosenseme 0.6.1: SenseME by Big Ass Fans asynchronous Python library
 dev-python/aiosenz 1.0.0-r1: Async Typed Python package for the nVent RAYCHEM SENZ RestAPI
@@ -1059,6 +1060,7 @@ dev-python/pysmappee 0.2.29: Offical Smappee dev API and MQTT python wrapper
 dev-python/pysmartapp 0.3.5: A python library for building a SmartThings SmartApp
 dev-python/pysmartthings 0.7.8: A python library for interacting with the SmartThings cloud API build with asyncio and aiohttp.
 dev-python/pysmarty 0.8: Python API for Salda Smarty Modbus TCP
+dev-python/pysmarty2 0.10.1: Python API for Salda Smarty Modbus TCP
 dev-python/pysmb 1.2.9.1: pysmb is an experimental SMB/CIFS library written in Python
 dev-python/pysmi-lextudio 1.4.1: A pure-Python implementation of SNMP/SMI MIB parsing and conversion library.
 dev-python/pysml 0.0.12: Python library for EDL21 smart meters using Smart Message Language (SML)
@@ -1340,6 +1342,7 @@ dev-python/tplink-omada-client 1.3.2 1.3.11 1.3.12: Python wrapper for TP-Link O
 dev-python/tqdm 4.66.2: Add a progress meter to your loops in a second
 dev-python/transmission-rpc 7.0.3: Python module that implements the Transmission bittorent client JSON-RPC protocol
 dev-python/transmissionrpc 0.11: Python module that implements the Transmission bittorent client RPC protocol.
+dev-python/triggercmd 0.0.27: Python agent for TRIGGERcmd cloud service.
 dev-python/ttls 1.5.1: Twinkly Twinkly Little Star
 dev-python/ttn-client 0.0.4 1.0.0: A python client to fetch/receive and parse uplink messages from The Thinks Network
 dev-python/tuf 4.0.0 5.0.0: A secure updater framework for Python
@@ -1357,7 +1360,7 @@ dev-python/ua-parser 0.10.0: Python port of Browserscope's user agent parser
 dev-python/uamqp 1.6.0-r1: AMQP 1.0 Client Library for Python
 dev-python/uart-devices 0.1.0: UART Devices for Linux
 dev-python/uasiren 0.0.1: Implements siren.pp.ua API - public wrapper for api.ukrainealarm.com API that returns info about Ukraine air-raid alarms.
-dev-python/uiprotect 1.7.2 6.0.2: Python API for Unifi Protect (Unofficial)
+dev-python/uiprotect 1.7.2 6.1.0: Python API for Unifi Protect (Unofficial)
 dev-python/ulid-transform 0.9.0 1.0.2: Create and transform ULIDs
 dev-python/ultraheat-api 0.5.7: Reading usage data from the Landys & Gyr Ultraheat heat meter unit
 dev-python/unicode-rbnf 1.0.0 1.1.0: Rule-based number formatting using Unicode CLDR data
