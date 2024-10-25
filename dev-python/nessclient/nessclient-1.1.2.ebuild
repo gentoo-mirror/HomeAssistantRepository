@@ -6,10 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Python wrapper for NextDNS API."
-HOMEPAGE="https://github.com/bieniu/nextdns https://pypi.org/project/nextdns/"
 
-LICENSE="Apache-2.0"
+DESCRIPTION="Implementation/abstraction of the Ness D8x / D16x Serial Interface ASCII protocol"
+HOMEPAGE="https://github.com/nickw444/nessclient https://pypi.org/project/nessclient/"
+
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -17,12 +18,13 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.7.0[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/justbackoff[${PYTHON_USEDEP}]
+	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-		dev-python/aioresponses[${PYTHON_USEDEP}]
+		dev-python/asynctest[${PYTHON_USEDEP}]
 	)"
 
 python_test() {
