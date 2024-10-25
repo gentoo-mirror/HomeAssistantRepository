@@ -4,11 +4,11 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="A python library to communicate with Risco Cloud."
-HOMEPAGE="https://github.com/OnFreund/PyRisco https://pypi.org/project/pyrisco/"
+DESCRIPTION="asyncio-friendly python API for Sensibo"
+HOMEPAGE="https://github.com/andrey-git/pysensibo https://pypi.org/project/pysensibo/"
 
 LICENSE="MIT"
 SLOT="0"
