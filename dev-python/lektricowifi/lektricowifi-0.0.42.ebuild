@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A library for controlling a LiteJet lighting system."
-HOMEPAGE="https://github.com/joncar/pylitejet https://pypi.org/project/pylitejet/"
+DESCRIPTION="Communication with Lektrico's chargers"
+HOMEPAGE="https://lektri.co https://pypi.org/project/lektricowifi/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,6 +18,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/pyserial[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.27.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.17[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

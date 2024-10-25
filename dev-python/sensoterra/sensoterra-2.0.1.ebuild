@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A library for controlling a LiteJet lighting system."
-HOMEPAGE="https://github.com/joncar/pylitejet https://pypi.org/project/pylitejet/"
+DESCRIPTION="Query Sensoterra probes using the Customer API"
+HOMEPAGE="https://gitlab.com/sensoterra/public/python https://pypi.org/project/sensoterra/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,6 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/pyserial[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
