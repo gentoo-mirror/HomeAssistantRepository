@@ -117,8 +117,8 @@ dev-python/aio-geojson-geonetnz-quakes 0.15 0.16: An async GeoJSON client librar
 dev-python/aio-geojson-geonetnz-volcano 0.8 0.9: An async GeoJSON client library for GeoNet NZ Volcanic Alert Level feed.
 dev-python/aio-geojson-nsw-rfs-incidents 0.6 0.7: An async GeoJSON client library for NSW Rural Fire Service Incidents.
 dev-python/aio-geojson-usgs-earthquakes 0.2 0.3: An async GeoJSON client library for the U.S. Geological Survey Earthquake Hazards Program.
-dev-python/aio-georss-client 0.11 0.12: An async GeoRSS client library.
-dev-python/aio-georss-gdacs 0.8 0.9: An async GeoRSS client library for GDACS feeds.
+dev-python/aio-georss-client 0.11 0.12 0.14: An async GeoRSS client library.
+dev-python/aio-georss-gdacs 0.9 0.10: An async GeoRSS client library for GDACS feeds.
 dev-python/aioairq 0.3.1 0.3.2: Asynchronous library to retrieve data from air-Q devices.
 dev-python/aioairzone 0.7.6 0.8.2: Library to control Airzone devices
 dev-python/aioairzone-cloud 0.4.7 0.5.1 0.6.2 0.6.6: Library to control Airzone Cloud devices
@@ -147,7 +147,7 @@ dev-python/aioesphomeapi 24.3.0 24.5.0 27.0.0: Python API for interacting with E
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.21.3: ftp client/server for asyncio
-dev-python/aiogithubapi 22.10.1 23.11.0-r1: Asynchronous Python client for the GitHub API
+dev-python/aiogithubapi 23.11.0-r1 24.6.0: Asynchronous Python client for the GitHub API
 dev-python/aioguardian 2022.7.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aiohappyeyeballs 2.3.1: Happy Eyeballs
 dev-python/aioharmony 0.2.10: Asyncio Python library for connecting to and controlling the Logitech Harmony
@@ -348,7 +348,7 @@ dev-python/btsmarthub-devicelist 0.2.3: Retrieve a list of devices from a bt sma
 dev-python/btsocket 0.2.0: Python library for BlueZ Bluetooth Management API
 dev-python/buienradar 1.0.5 1.0.6: Library and CLI tools for interacting with buienradar.
 dev-python/bx-py-utils 75: Various Python utility functions
-dev-python/cached-ipaddress 0.3.0 0.5.0: Cache construction of ipaddress objects
+dev-python/cached-ipaddress 0.3.0 0.5.0 0.6.0 0.8.0: Cache construction of ipaddress objects
 dev-python/caio 0.9.8: Asynchronous file IO for Linux MacOS or Windows.
 dev-python/caldav 1.3.8: CalDAV (RFC4791) client library for Python
 dev-python/casttube 0.2.1-r2: casttube provides a way to interact with the Youtube Chromecast api
@@ -481,7 +481,7 @@ dev-python/fixerio 1.0.0_alpha0: A Python client for Fixer.io
 dev-python/fjaraskupan 2.2.0 2.3.0: A python library for speaking to fjäråskupan
 dev-python/flake8-docstrings 1.6.0-r1: Extension for flake8 which uses pydocstyle to check docstrings
 dev-python/flexit-bacnet 2.1.0 2.2.1: Client BACnet library for Flexit Nordic series of air handling units.
-dev-python/flipr-api 1.5.0 1.5.1: Python client for flipr API.
+dev-python/flipr-api 1.5.1 1.6.1: Python client for flipr API.
 dev-python/flux-led 1.0.4: A Python library to communicate with the flux_led smart bulbs
 dev-python/fnv-hash-fast 0.5.0 1.0.2: A fast version of fnv1a
 dev-python/fnvhash 0.1.0: Pure Python FNV hash implementation
@@ -503,7 +503,7 @@ dev-python/gardena-bluetooth 1.4.1 1.4.2 1.4.3: controlling gardena bluetooth en
 dev-python/garminconnect-ha 0.1.6: Garmin Connect Python 3 API wrapper for Home Assistant
 dev-python/gassist-text 0.0.10 0.0.11: A Python library for interacting with Google Assistant API via text
 dev-python/gatt 0.2.7: Bluetooth GATT SDK for Python
-dev-python/gcal-sync 6.0.3 6.0.4 6.1.5: A python library for syncing Google Calendar to local storage
+dev-python/gcal-sync 6.0.4 6.1.5: A python library for syncing Google Calendar to local storage
 dev-python/gcloud 0.18.3: API Client library for Google Cloud
 dev-python/genie-partner-sdk 1.0.2: An SDK to interact with the AladdinConnect (or OHD) partner API
 dev-python/geniushub-client 0.7.1: An aiohttp-based client for Genius Hub systems
@@ -917,10 +917,11 @@ dev-python/pycups 1.9.73-r3: Python bindings for the CUPS API
 dev-python/pydaikin 2.11.1 2.13.6 2.13.7: Python Daikin HVAC appliances interface
 dev-python/pydanfossair 0.1.0: Python interface for Danfoss Air HRV systems
 dev-python/pydantic 1.10.12 1.10.15: Data parsing and validation using Python type hints
+dev-python/pydeako 0.4.0: Connect and interact with deako devices over the network locally
 dev-python/pydeconz 115 116: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
 dev-python/pydelijn 1.1.0: Get realtime info on stop passages of De Lijn (api.delijn.be)
 dev-python/pydexcom 0.2.3: Python API to interact with Dexcom Share API
-dev-python/pydiscovergy 3.0.0 3.0.1: Async Python 3 library for interacting with Discovergy smart meters API
+dev-python/pydiscovergy 3.0.0 3.0.1 3.0.2: Async Python 3 library for interacting with Discovergy smart meters API
 dev-python/pydoods 1.0.2: A Python wrapper for the DOODS image detection service
 dev-python/pydrawise 2024.3.0 2024.6.4 2024.9.0: Python API for interacting with Hydrawise sprinkler controllers.
 dev-python/pydroid-ipcam 2.0.0: Library for handling the Android IP Webcam app
