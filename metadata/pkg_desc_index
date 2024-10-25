@@ -572,7 +572,7 @@ dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.47 0.51 0.58: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.11.0 1.12.0: Home Assistant Bluetooth Models and Helpers
-dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2 2024.5.2: Python-base APIs and tools for CHIP.
+dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2 2024.5.2 2024.9.0: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20240307.0 20240404.2 20240501.1 20240610.1 20241002.3: The Home Assistant frontend
 dev-python/home-assistant-intents 2024.4.24 2024.6.21 2024.9.4: Intents for Home Assistant
 dev-python/homeconnect 0.7.2 0.8.0: Python client for the BSH Home Connect REST API
@@ -688,7 +688,7 @@ dev-python/marshmallow-dataclass 8.5.9: Python library to convert dataclasses in
 dev-python/mashumaro 3.12 3.13.1: Fast and well tested serialization library
 dev-python/matplotlib 3.6.1: Pure python plotting library with matlab like syntax
 dev-python/matrix-client 0.4.0: Client-Server SDK for Matrix
-dev-python/matrix-nio 0.22.1 0.24.0 0.25.2: A Python Matrix client library, designed according to sans I/O principles.
+dev-python/matrix-nio 0.24.0 0.25.2: A Python Matrix client library, designed according to sans I/O principles.
 dev-python/maxcube-api 0.4.3-r1: eQ-3/ELV MAX! Cube Python API
 dev-python/mbddns 0.1.2: Mythic Beasts Dynamic DNS updater
 dev-python/mcstatus 11.0.0 11.1.1: A library to query Minecraft Servers for their status and capabilities.
@@ -1118,7 +1118,7 @@ dev-python/python-join-api 0.0.9: Python API for interacting with Join by joaoap
 dev-python/python-juicenet 1.1.0: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
 dev-python/python-kasa 0.5.4 0.6.2.1: Python API for TP-Link Kasa Smarthome devices
 dev-python/python-linkplay 0.0.15: A Python Library for Seamless LinkPlay Device Control
-dev-python/python-matter-server 5.7.0 5.10.0 6.1.0: Python Matter WebSocket Server
+dev-python/python-matter-server 5.7.0 5.10.0 6.1.0 6.5.2: Python Matter WebSocket Server
 dev-python/python-metar 1.4.0: Metar - a package to parse METAR coded weather reports
 dev-python/python-miio 0.5.12: Python library for interfacing with Xiaomi smart appliances
 dev-python/python-mpd2 3.0.5: A Python MPD client library
@@ -1311,7 +1311,7 @@ dev-python/tank-utility 1.5.0: A smart propane tank monitor.
 dev-python/tapsaff 0.2.1: Provides an API for requesting information from taps-aff.co.uk
 dev-python/tellcore-net 0.4: a Python module that allow to run tellcore over TCP/IP
 dev-python/tellcore-py 1.1.2: Python wrapper for Telldus' home automation library
-dev-python/tellduslive 0.10.11: Communicate with Telldus Live
+dev-python/tellduslive 0.10.11 0.10.12: Communicate with Telldus Live
 dev-python/tellsticknet 0.1.2: Listen for UDP sensor broadcasts from a Tellstick
 dev-python/temescal 0.5: Python API for controlling LG speakers
 dev-python/temperusb 1.6.1: Reads temperature from TEMPerV1 devices (USB 0c45:7401)
