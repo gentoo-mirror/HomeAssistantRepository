@@ -4,10 +4,10 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Switcher Python Integration."
-HOMEPAGE="https://github.com/tomerfi/aioswitcher/ https://pypi.org/project/aioswitcher/"
+DESCRIPTION="Python wrapper for NextDNS API."
+HOMEPAGE="https://github.com/bieniu/nextdns https://pypi.org/project/nextdns/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -17,19 +17,12 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
+RDEPEND=">=dev-python/aiohttp-3.9.4[${PYTHON_USEDEP}]
+	dev-python/tenacity[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+		dev-python/aioresponses[${PYTHON_USEDEP}]
 	)"
 
-python_test() {
-	py.test -v -v || die
-}
-
 distutils_enable_tests pytest
-
-src_prepare() {
-	# /usr/lib/python3.10/site-packages/py.typed ?
-	rm "${S}/py.typed" || die
-	eapply_user
-}
