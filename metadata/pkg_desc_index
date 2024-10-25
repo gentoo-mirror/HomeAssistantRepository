@@ -151,6 +151,7 @@ dev-python/aiogithubapi 22.10.1 23.11.0-r1: Asynchronous Python client for the G
 dev-python/aioguardian 2022.7.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aiohappyeyeballs 2.3.1: Happy Eyeballs
 dev-python/aioharmony 0.2.10: Asyncio Python library for connecting to and controlling the Logitech Harmony
+dev-python/aiohasupervisor 0.1.0: Asynchronous python client for Home Assistant Supervisor.
 dev-python/aiohomekit 3.1.5 3.2.3: An asyncio HomeKit client
 dev-python/aiohttp 3.9.4: HTTP client/server for asyncio
 dev-python/aiohttp-fast-url-dispatcher 0.3.0: A faster URL dispatcher for aiohttp
@@ -502,7 +503,7 @@ dev-python/gardena-bluetooth 1.4.1 1.4.2 1.4.3: controlling gardena bluetooth en
 dev-python/garminconnect-ha 0.1.6: Garmin Connect Python 3 API wrapper for Home Assistant
 dev-python/gassist-text 0.0.10 0.0.11: A Python library for interacting with Google Assistant API via text
 dev-python/gatt 0.2.7: Bluetooth GATT SDK for Python
-dev-python/gcal-sync 6.0.3 6.0.4: A python library for syncing Google Calendar to local storage
+dev-python/gcal-sync 6.0.3 6.0.4 6.1.5: A python library for syncing Google Calendar to local storage
 dev-python/gcloud 0.18.3: API Client library for Google Cloud
 dev-python/genie-partner-sdk 1.0.2: An SDK to interact with the AladdinConnect (or OHD) partner API
 dev-python/geniushub-client 0.7.1: An aiohttp-based client for Genius Hub systems
@@ -522,7 +523,7 @@ dev-python/goalzero 0.2.2: Goal Zero REST Api Library
 dev-python/goodwe 0.2.32 0.3.5 0.3.6: Read data from GoodWe inverter via local network
 dev-python/google-ai-generativelanguage 0.3.3 0.4.0 0.6.5: Google Ai Generativelanguage API client library
 dev-python/google-api-python-client 2.71.0-r1: Google API Client for Python
-dev-python/google-cloud-pubsub 2.13.11: Google Cloud Pub/Sub API client library
+dev-python/google-cloud-pubsub 2.13.11 2.23.0: Google Cloud Pub/Sub API client library
 dev-python/google-cloud-texttospeech 2.12.3: Google Cloud Text-to-Speech API client library
 dev-python/google-generativeai 0.3.1 0.6.0: Google Generative AI High level API client library and tools.
 dev-python/google-nest-sdm 3.0.3 3.0.4 4.0.5 5.0.1: Library for the Google Nest SDM API
@@ -619,6 +620,7 @@ dev-python/insteon-frontend-home-assistant 0.4.0 0.5.0: The Insteon frontend for
 dev-python/intel-amt 0.9.0: Tools for interacting with Intel's AMT
 dev-python/intellifire4py 2.2.2 4.1.9: An API to read the status of an intellifire wifi module
 dev-python/iotawattpy 0.1.0: Python library for the IoTaWatt Energy device
+dev-python/iottycloud 0.2.1: A Python library to interact with iotty CloudApi
 dev-python/iperf3 0.1.11: Python wrapper around iperf3
 dev-python/isal 1.6.1 1.7.1: Faster zlib and gzip compatible compression and decompression by providing Python bindings for the ISA-L library
 dev-python/ismartgate 5.0.1: iSmartGate and GogoGate2 API
@@ -645,6 +647,7 @@ dev-python/keba-kecontact 1.1.0: A python library to communicate with the KEBA c
 dev-python/kegtron-ble 0.4.0: Kegtron BLE support
 dev-python/keyrings_alt 4.1.0: Alternate keyring implementations
 dev-python/kiwiki-client 0.1.1: KIWI Lock Client Library
+dev-python/knocki 0.3.5: Asynchronous Python client for Knocki.
 dev-python/knx-frontend 2024.1.20.105944 2024.9.10.221729: KNX panel for Home Assistant
 dev-python/konnected 1.2.0: Library for interacting with Konnected home automation controllers.
 dev-python/korean-lunar-calendar 0.3.1: Korean Lunar Calendar
