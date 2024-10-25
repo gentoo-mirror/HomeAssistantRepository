@@ -4,7 +4,7 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Python library to communicate with Ring Door Bell (https://ring.com/)"
@@ -18,13 +18,13 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND=">=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
-	>=dev-python/requests-oauthlib-1.3.0[${PYTHON_USEDEP}]
-	>=dev-python/oauthlib-3.0.0[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/oauthlib-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2022.0[${PYTHON_USEDEP}]
 	dev-python/asyncclick[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
-	listen? ( dev-python/firebase-messaging[${PYTHON_USEDEP}] )"
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/aiofiles[${PYTHON_USEDEP}]
+	dev-python/websockets[${PYTHON_USEDEP}]
+	listen? ( >=dev-python/firebase-messaging-0.2.1[${PYTHON_USEDEP}] )"
 
 distutils_enable_tests pytest
 

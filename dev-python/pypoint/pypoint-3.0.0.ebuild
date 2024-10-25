@@ -6,8 +6,9 @@ EAPI=8
 PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Reolink NVR/cameras API package"
-HOMEPAGE="https://github.com/starkillerOG/reolink_aio https://pypi.org/project/reolink-aio/"
+
+DESCRIPTION="API for Minut Point"
+HOMEPAGE="https://github.com/fredrike/pypoint https://pypi.org/project/pypoint/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -17,7 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiortsp[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+
+distutils_enable_tests pytest

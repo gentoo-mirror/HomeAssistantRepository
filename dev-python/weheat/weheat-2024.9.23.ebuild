@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="API for Minut Point"
-HOMEPAGE="https://github.com/fredrike/pypoint https://pypi.org/project/pypoint/"
+DESCRIPTION="Weheat Backend client"
+HOMEPAGE="https://github.com/wefabricate/wh-python https://pypi.org/project/weheat/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,15 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/httpx-0.19.0[${PYTHON_USEDEP}]
-	dev-python/Authlib[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+RDEPEND=">=dev-python/urllib3-1.25.3[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.5[${PYTHON_USEDEP}]
+	>=dev-python/aenum-3.1.11[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
