@@ -2,19 +2,20 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-DISTUTILS_USE_PEP517=setuptools
+
 PYTHON_COMPAT=( python3_{11..13} )
-PYPI_NO_NORMALIZE=1
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
-DESCRIPTION="Python module to help parse and construct Tasmota MQTT messages."
-HOMEPAGE="https://github.com/emontnemery/hatasmota https://pypi.org/project/HATasmota/"
+
+DESCRIPTION="An asynchronous library to use Switchbot API"
+HOMEPAGE="https://github.com/SeraphicCorp/py-switchbot-api https://pypi.org/project/switchbot-api/"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
-
 DOCS="README.md"
+RDEPEND=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]"
 
-RDEPEND=">=dev-python/voluptuous-0.12.0[${PYTHON_USEDEP}]"
+distutils_enable_tests pytest
