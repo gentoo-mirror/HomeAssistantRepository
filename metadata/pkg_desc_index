@@ -184,7 +184,7 @@ dev-python/aionotion 2023.5.5 2024.3.0: A simple Python 3 library for Notion Hom
 dev-python/aionursery 0.3.0: Manage background asyncio tasks
 dev-python/aionut 4.3.2 4.3.3: Asyncio Network UPS Tools
 dev-python/aiooncue 0.3.5 0.3.7: Async for Oncue
-dev-python/aioopenexchangerates 0.4.0: Fetch rates from openexchangerates with aiohttp.
+dev-python/aioopenexchangerates 0.4.0 0.6.2: Fetch rates from openexchangerates with aiohttp.
 dev-python/aiooui 0.1.5 0.1.6: Async OUI lookups
 dev-python/aiopegelonline 0.0.9 0.0.10: Asynchronous library to retrieve data from PEGELONLINE.
 dev-python/aiopulse 0.4.3 0.4.4 0.4.6: Python module for Rollease Acmeda Automate integration.
@@ -960,6 +960,7 @@ dev-python/pyipma 3.0.7: Python library to retrieve information from Instituto P
 dev-python/pyipp 0.14.4 0.15.0 0.16.0: Asynchronous Python client for Internet Printing Protocol (IPP).
 dev-python/pyiqvia 2022.4.0: A clean, async-focused Python3 API for IQVIA data
 dev-python/pyirishrail 0.0.2: Python library to get the real-time transport information (RTPI) from Irish Rail
+dev-python/pyiskra 0.1.14: Python Iskra devices interface
 dev-python/pyiss 1.0.1: A simple python3 library for info about the current International Space Station location
 dev-python/pyisy 3.1.14: Python module to talk to ISY devices from UDI.
 dev-python/pyitachip2ir 0.0.7: A library for sending IR commands to an ITach IP2IR gateway
@@ -1096,7 +1097,7 @@ dev-python/pytest-unordered 0.5.2 0.6.0: Test equality of unordered collections 
 dev-python/pytest-xdist 3.3.1-r1 3.5.0: Distributed testing and loop-on-failing modes
 dev-python/pytfiac 0.4: API for Tfiac AC
 dev-python/pythinkingcleaner 0.0.3: Library to control ThinkingCleaner devices
-dev-python/python-MotionMount 0.3.1 1.0.0: Control your MotionMount Signature TVM7675 Pro using Python
+dev-python/python-MotionMount 0.3.1 1.0.0 2.2.0: Control your MotionMount Signature TVM7675 Pro using Python
 dev-python/python-awair 0.2.4: asyncio client for the Awair GraphQL and Local APIs
 dev-python/python-blockchain-api 0.0.2: Python API for interacting with blockchain.info.
 dev-python/python-bring-api 3.0.0: Unofficial python package to access Bring! shopping lists API.
