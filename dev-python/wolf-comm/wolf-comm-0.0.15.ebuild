@@ -7,10 +7,10 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="LCN-PCK library"
-HOMEPAGE="https://github.com/alengwenus/pypck https://pypi.org/project/pypck/"
+DESCRIPTION="A package to communicate with Wolf SmartSet Cloud"
+HOMEPAGE="https://github.com/janrothkegel/wolf-comm https://pypi.org/project/wolf-comm/"
 
-LICENSE="EPL-2.0"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,13 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+RDEPEND="dev-python/httpx[${PYTHON_USEDEP}]
+	dev-python/lxml[${PYTHON_USEDEP}]
+	dev-python/pkce[${PYTHON_USEDEP}]
+	dev-python/shortuuid[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

@@ -606,12 +606,12 @@ A daily compile test is run at Github with Python 3.9 to catch general faults. E
 
 ## Licenses
 This repository itself is released under GPL-3 (like most Gentoo repositories), all work on the depending components under the licenses they came from. Perhaps you came here because I filed an issue at your component about a bad or missing license. It is easy to [assign a license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). During cleanups and license investigations I have been asked often which license to choose. I am not a lawyer, but I can offer the following table, counted over this repository, perhaps this helps your decision. If a package has more than one license listed, all of them are counted.
-There are 2067 Ebuilds in total, 2056 of them have in total 2084 (42 different) licenses assigned.
+There are 2072 Ebuilds in total, 2061 of them have in total 2089 (42 different) licenses assigned.
 
 |License| Ebuilds using it|
 |-------|-----|
-|MIT|1195|
-|Apache-2.0|466|
+|MIT|1196|
+|Apache-2.0|469|
 |GPL-3|126|
 |BSD|111|
 |LGPL-3|24|
@@ -636,6 +636,7 @@ There are 2067 Ebuilds in total, 2056 of them have in total 2084 (42 different) 
 |ElementTree|2|
 |BSD-4|2|
 |LGPL-2|2|
+|EPL-2.0|2|
 |0BSD|1|
 |CC-BY-4.0|1|
 |PYTHON|1|
@@ -649,7 +650,6 @@ There are 2067 Ebuilds in total, 2056 of them have in total 2084 (42 different) 
 |HPND|1|
 |CC-BY-NC-SA-3.0|1|
 |CC-BY-NC-SA-4.0|1|
-|EPL-2.0|1|
 |GPL-2+|1|
 |GPL-2-with-linking-exception|1|
 

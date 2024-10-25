@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Retreive values from public API at the Swedish Transport Administration (Trafikverket)."
-HOMEPAGE="https://github.com/endor-force/pytrafikverket https://pypi.org/project/pytrafikverket/"
+DESCRIPTION="A python library for controlling a JVC Projector over a network connection"
+HOMEPAGE="https://github.com/SteveEasley/pyjvcprojector https://pypi.org/project/pyjvcprojector/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,11 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
+RDEPEND=">=dev-python/aiodns-3.2.0[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
