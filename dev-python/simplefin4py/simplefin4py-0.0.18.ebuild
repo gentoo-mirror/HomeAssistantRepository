@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="SFR Box API"
-HOMEPAGE="https://github.com/hacf-fr/sfrbox-api https://pypi.org/project/sfrbox-api/"
+DESCRIPTION="This library helps you access simpelFIN with python"
+HOMEPAGE=" https://pypi.org/project/simplefin4py/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,16 +18,12 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/httpx-0.23.1[${PYTHON_USEDEP}]
-	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
-	>=dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
+	>=dev-python/dataclasses-json-0.6.3[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/aioresponses[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest
