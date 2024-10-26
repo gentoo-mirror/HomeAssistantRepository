@@ -4,11 +4,11 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="lib for OpenWeatherMap for Home Assistant"
-HOMEPAGE="https://github.com/freekode/pyopenweathermap https://pypi.org/project/pyopenweathermap/"
+DESCRIPTION="Simple wrapper for pyLoad's API."
+HOMEPAGE="https://github.com/tr4nt0r/pyloadapi https://pypi.org/project/PyLoadAPI/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,9 +18,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
+	dev-python/click[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
+		dev-python/aioresponses[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	)"
 
