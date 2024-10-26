@@ -626,7 +626,7 @@ dev-python/isal 1.6.1 1.7.1: Faster zlib and gzip compatible compression and dec
 dev-python/ismartgate 5.0.1: iSmartGate and GogoGate2 API
 dev-python/iso4217 1.11.20220401: ISO 4217 currency data package for Python
 dev-python/janus 1.0.0: Mixed sync-async queue to interoperate between asyncio tasks and classic threads
-dev-python/jaraco-abode 3.3.0 5.2.1: A library interfacing to the Abode home security system
+dev-python/jaraco-abode 3.3.0 5.2.1 6.2.1: A library interfacing to the Abode home security system
 dev-python/jaraco-email 3.1.0: E-mail facilities by jaraco
 dev-python/jaraco-functools 3.9.0: Additional functions used by other projects by developer jaraco
 dev-python/jaraco-net 9.3.1: Networking tools by jaraco
