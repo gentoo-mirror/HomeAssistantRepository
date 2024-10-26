@@ -535,6 +535,7 @@ dev-python/google-cloud-speech 2.27.0: Google speech recognition technologies
 dev-python/google-cloud-texttospeech 2.12.3 2.17.2: Google Cloud Text-to-Speech API client library
 dev-python/google-generativeai 0.3.1 0.6.0 0.8.2: Google Generative AI High level API client library and tools.
 dev-python/google-nest-sdm 3.0.3 3.0.4 4.0.5 5.0.1: Library for the Google Nest SDM API
+dev-python/google-photos-library-api 0.12.1: A python client library for Google Photos Library API
 dev-python/googlemaps 2.5.1: Python client library for Google Maps API Web Services
 dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud API
 dev-python/gotailwind 0.2.2 0.2.3 0.2.4: Asynchronous Python client for Tailwind garage door openers.
