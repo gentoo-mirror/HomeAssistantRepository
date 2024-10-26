@@ -57,6 +57,7 @@ dev-python/PyFlick 0.0.2: Python API For Flick Electric in New Zealand
 dev-python/PyFlume 0.6.5: Package to integrate with Flume Sensor
 dev-python/PyFronius 0.7.2 0.7.3: Automated JSON API based communication with Fronius Symo
 dev-python/PyKCS11 1.5.15: A Full PKCS#11 wrapper for Python
+dev-python/PyLoadAPI 1.3.2: Simple wrapper for pyLoad's API.
 dev-python/PyMVGLive 1.1.4: get live-data from mvg-live.de
 dev-python/PyMata 2.20: A Python Protocol Abstraction Library For Arduino Firmata
 dev-python/PyMeeus 0.5.11: Python implementation of Jean Meeus astronomical routines
