@@ -861,6 +861,7 @@ dev-python/py-ccm15 0.0.9: A package to control Midea CCM15 data converter modul
 dev-python/py-cpuinfo 8.0.0: Get CPU info with pure Python 2 & 3
 dev-python/py-dormakaba-dkey 1.0.5: API to interact with a Dormakaba dkey lock via bluetooth
 dev-python/py-improv-ble-client 1.0.3: API to provision devices which implement Improv via BLE
+dev-python/py-madvr2 1.6.32: A package to control MadVR Envy over IP
 dev-python/py-melissa-climate 2.1.4: Api wrapper for Melissa Climate https://seemelissa.com
 dev-python/py-nextbusnext 1.0.2 2.0.5: Minimalistic Python client for the NextBus public API for real-time transit arrival data
 dev-python/py-nightscout 1.2.2: A library that provides a Python async interface to Nightscout
@@ -1274,6 +1275,7 @@ dev-python/sharkiq 1.0.2: Python API for Shark IQ robots
 dev-python/sharp_aquos_rc 0.3.2: Control Sharp Aquos SmartTVs through the IP interface.
 dev-python/shortuuid 1.0.12: A generator library for concise, unambiguous and URL-safe UUIDs.
 dev-python/sigstore 1.0.0 1.1.2: A tool for generating and verifying Sigstore signatures.
+dev-python/simplefin4py 0.0.18: This library helps you access simpelFIN with python
 dev-python/simplehound 0.3: Unofficial python API for Sighthound
 dev-python/simplepush 2.2.3: Simplepush python library
 dev-python/simplisafe-python 2023.8.0 2024.1.0: A Python3, async interface to the SimpliSafe API
