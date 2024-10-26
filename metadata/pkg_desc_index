@@ -1291,7 +1291,6 @@ dev-python/soco 0.30.2 0.30.3 0.30.4: SoCo (Sonos Controller) is a simple librar
 dev-python/solaredge 0.0.2: A python API wrapper for Solaredge monitoring service
 dev-python/solaredge-local 0.2.3: API wrapper to communicate locally with SolarEdge Inverters
 dev-python/solarlog-cli 0.3.2: Python library to access the Solar-Log
-dev-python/solarlog_cli 0.3.1 0.3.2: Python library to access the Solar-Log JSON interface
 dev-python/solax 3.1.0 3.1.1: Solax inverter API client
 dev-python/somecomfort 0.8.0: A client for Honeywell's US-based cloud devices
 dev-python/somfy-mylink-synergy 1.0.6: Python API to utilise the Somfy Synergy JsonRPC API
