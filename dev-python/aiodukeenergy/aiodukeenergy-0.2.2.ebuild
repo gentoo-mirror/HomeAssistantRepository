@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="The Ollama Python library provides the easiest way to integrate Ollama."
-HOMEPAGE="https://ollama.ai https://github.com/ollama/ollama-python https://pypi.org/project/ollama/"
+DESCRIPTION="Asyncio Duke Energy"
+HOMEPAGE="https://github.com/hunterjm/aiodukeenergy https://pypi.org/project/aiodukeenergy/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,11 +18,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/httpx-0.27.0[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.9.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-		dev-python/pytest-cov[${PYTHON_USEDEP}]
 	)"
 
 distutils_enable_tests pytest
