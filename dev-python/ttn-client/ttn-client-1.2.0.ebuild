@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python wrapper for TP-Link Omada SDN Controller API (OC200/OC300/Software Controller)"
-HOMEPAGE="https://github.com/MarkGodwin/tplink-omada-api https://pypi.org/project/tplink-omada-client/"
+DESCRIPTION="A python client to fetch/receive and parse uplink messages from The Thinks Network"
+HOMEPAGE="https://github.com/angelnu/thethinksnetwork_python_client/ https://pypi.org/project/ttn-client/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,5 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	>=dev-python/awesomeversion-22.9.0[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.9.4[${PYTHON_USEDEP}]"
+
+distutils_enable_tests pytest
