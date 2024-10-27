@@ -745,7 +745,7 @@ dev-python/mutesync 0.0.1: Asynchronous library to control mutesync devices.
 dev-python/mychevy 2.1.1: Python interface to My Chevy online data
 dev-python/mycroftapi 2.0: a library to communicate with Mycroft API
 dev-python/mypermobil 0.1.6 0.1.8: A Python wrapper for the MyPermobil API
-dev-python/mypy-dev 1.11.0_alpha3: Optional static typing for Python
+dev-python/mypy-dev 1.11.0_alpha3 1.12.0_alpha3: Optional static typing for Python
 dev-python/mysql-connector-python 8.0.28-r1: Python client library for MariaDB/MySQL
 dev-python/myuplink 0.0.9 0.5.0 0.6.0: API package for myUplink
 dev-python/nad-receiver 0.3.0: Library to interface with NAD receivers through RS232, TCP and telnet
@@ -830,6 +830,7 @@ dev-python/piglow 1.2.4: Drive the Pimoroni PiGlow board, based on the sn3218 i2
 dev-python/pigpio 1.78: Raspberry Pi GPIO module
 dev-python/pilight 0.1.1: Pure python module to connect to a pilight daemon to send and receive commands.
 dev-python/pillow 9.3.0-r1: Python Imaging Library (fork)
+dev-python/pip-licenses 5.0.0: Dump the software license list of Python packages installed with pip.
 dev-python/pipdeptree 2.13.2 2.16.1 2.19.0: Utility for displaying installed packages in a dependency tree
 dev-python/pizzapi 0.0.3 0.0.6: A Python wrapper for the Dominos Pizza API
 dev-python/pkce 1.0.3: PKCE Pyhton generator.
@@ -1119,7 +1120,7 @@ dev-python/pytest-picked 0.5.0: Run the tests related to the changed files
 dev-python/pytest-runner 6.0.0: Invoke py.test as distutils command with dependency resolution
 dev-python/pytest-socket 0.6.0 0.7.0: Pytest Plugin to disable socket calls during tests
 dev-python/pytest-test-groups 1.0.3: A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups.
-dev-python/pytest-unordered 0.5.2 0.6.0: Test equality of unordered collections in pytest
+dev-python/pytest-unordered 0.5.2 0.6.0 0.6.1: Test equality of unordered collections in pytest
 dev-python/pytest-xdist 3.3.1-r1 3.5.0: Distributed testing and loop-on-failing modes
 dev-python/pytfiac 0.4: API for Tfiac AC
 dev-python/pythinkingcleaner 0.0.3: Library to control ThinkingCleaner devices
