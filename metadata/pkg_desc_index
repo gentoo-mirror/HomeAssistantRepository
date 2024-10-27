@@ -1335,7 +1335,7 @@ dev-python/svg-py 1.4.3: SVG drawing library
 dev-python/swisshydrodata 0.1.0: A library to fetch data from the Swiss federal Office for Environment FEON
 dev-python/switchbot-api 2.0.0 2.1.0 2.2.1: An asynchronous library to use Switchbot API
 dev-python/synology-srm 0.2.0: Synology SRM API
-dev-python/syrupy 4.6.0 4.6.1: Pytest Snapshot Test Utility
+dev-python/syrupy 4.6.0 4.6.1 4.7.1: Pytest Snapshot Test Utility
 dev-python/systembridgeconnector 3.10.0 4.0.3 4.1.5: System Bridge Connector
 dev-python/systembridgemodels 4.0.4 4.2.4: System Bridge Models
 dev-python/tahoma-api 0.0.16: Tahoma Api - Python connect to Tahoma REST API
