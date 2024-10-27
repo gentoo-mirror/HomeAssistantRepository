@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">firebase-messaging</remote-id>
-    <remote-id type="github">sdb9696/firebase-messaging</remote-id>
+    <remote-id type="pypi">sigstore-rekor-types</remote-id>
+    <remote-id type="github">trailofbits/sigstore-rekor-types</remote-id>
     <maintainer status="unknown">
-      <email>sdb9696@users.noreply.github.com</email>
-      <name>sdb9696</name>
+      <email>opensource@trailofbits.com</email>
+      <name>Trail of Bits</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
