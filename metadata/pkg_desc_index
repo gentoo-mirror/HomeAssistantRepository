@@ -477,6 +477,7 @@ dev-python/face-recognition 1.2.3: Recognize faces from Python or from the comma
 dev-python/face_recognition 1.2.3: Recognize faces from Python or from the command line
 dev-python/face_recognition_models 0.3.0: Models used by the face_recognition package.
 dev-python/fastdotcom 0.0.3: Python API for testing internet speed on Fast.com
+dev-python/faust-cchardet 2.1.19: cChardet is high speed universal character encoding detector.
 dev-python/feedparser 6.0.10: Parse RSS and Atom feeds in Python
 dev-python/fiblary3 0.1.8: Home Center API Python Library
 dev-python/file-read-backwards 2.0.0: Memory efficient way of reading files line-by-line from the end of file
