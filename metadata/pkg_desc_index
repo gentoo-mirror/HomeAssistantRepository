@@ -1426,7 +1426,7 @@ dev-python/vincenty 0.1.4: Calculate the geographical distance between 2 points 
 dev-python/voip-utils 0.1.0: Voice over IP Utilities
 dev-python/vol 0.1.1: volume control in the shell for your mac
 dev-python/volkszaehler 0.4.0: Python Wrapper for interacting with the Volkszahler API.
-dev-python/voluptuous 0.13.1-r1 0.14.1: A Python data validation library
+dev-python/voluptuous 0.13.1-r1 0.14.1 0.14.2: A Python data validation library
 dev-python/voluptuous-openapi 0.0.4 0.0.5: Convert voluptuous schemas to OpenAPI Schema object
 dev-python/voluptuous-serialize 2.6.0: Convert voluptuous schemas to dictionaries
 dev-python/volvooncall 0.10.3: Communicate with VOC
