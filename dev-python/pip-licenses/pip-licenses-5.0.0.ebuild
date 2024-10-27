@@ -5,11 +5,10 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Test equality of unordered collections in pytest"
-HOMEPAGE="https://github.com/utapyngo/pytest-unordered https://pypi.org/project/pytest-unordered/"
+DESCRIPTION="Dump the software license list of Python packages installed with pip."
+HOMEPAGE="https://github.com/raimon49/pip-licenses https://pypi.org/project/pip-licenses/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,7 +18,7 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-BDEPEND="
-	dev-python/pytest[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/prettytable[${PYTHON_USEDEP}]
+	dev-python/tomli[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
