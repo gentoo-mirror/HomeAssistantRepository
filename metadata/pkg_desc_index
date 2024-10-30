@@ -1444,6 +1444,7 @@ dev-python/waterfurnace 1.1.0: Python interface for waterfurnace geothermal syst
 dev-python/weatherflow4py 0.2.20 0.2.21 0.2.23 1.0.6: Simple Python library used by Home Assistant to interact with the WeatherFlow RESTApi
 dev-python/webexteamssdk 1.1.1: Community-developed Python SDK for the Webex Teams APIs
 dev-python/webmin-xmlrpc 0.0.1 0.0.2: Provides a python interface to interact with the Webmin XML-RPC API.
+dev-python/webrtc-models 0.1.0: Python WebRTC models
 dev-python/webrtc-noise-gain 1.2.3: Noise suppression and automatic gain with webrtc
 dev-python/webrtcvad 2.0.10: Python interface to the Google WebRTC Voice Activity Detector (VAD)
 dev-python/websockets 10.4: Library for building WebSocket servers and clients in Python
