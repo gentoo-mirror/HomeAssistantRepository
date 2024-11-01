@@ -218,7 +218,7 @@ dev-python/aioslimproto 2.3.3 3.0.0: Python module to talk to Logitech Squeezebo
 dev-python/aiosolaredge 0.2.0: Asyncio SolarEdge
 dev-python/aiosqlite 0.17.0: asyncio bridge to the standard sqlite3 module
 dev-python/aiosteamist 0.3.2 1.0.0: Control Steamist steam systems
-dev-python/aiostreammagic 2.5.0: An async python package for interfacing with Cambridge Audio / Stream Magic compatible streamers.
+dev-python/aiostreammagic 2.5.0 2.8.4: An async python package for interfacing with Cambridge Audio / Stream Magic compatible streamers.
 dev-python/aioswitcher 3.4.1 3.4.3 4.0.3: Switcher Python Integration.
 dev-python/aiosyncthing 0.5.1: Asynchronous Python client for the Syncthing REST API
 dev-python/aiotankerkoenig 0.4.1 0.4.2: Async Python 3 client for tankerkoenig.de
