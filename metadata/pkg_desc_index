@@ -404,7 +404,7 @@ dev-python/dataclasses-json 0.6.3: Easily serialize dataclasses to and from JSON
 dev-python/datadog 0.15.0: The Datadog Python library
 dev-python/datapoint 0.9.8 0.9.9: Python interface to the Met Office's Datapoint API
 dev-python/dateparser 1.2.0: Date parsing library designed to parse dates from HTML pages
-dev-python/dbus-fast 2.21.1 2.21.3 2.22.1 2.24.0: A faster version of dbus-next
+dev-python/dbus-fast 2.21.1 2.21.3 2.22.1 2.24.0 2.24.3: A faster version of dbus-next
 dev-python/debugpy 1.8.0 1.8.1: An implementation of the Debug Adapter Protocol for Python
 dev-python/decora 0.6: Python API for controlling Decora dimmer switches
 dev-python/decora-wifi 1.4: Python API for controlling Leviton Decora Smart WiFi switches
