@@ -404,7 +404,7 @@ dev-python/dataclasses-json 0.6.3: Easily serialize dataclasses to and from JSON
 dev-python/datadog 0.15.0: The Datadog Python library
 dev-python/datapoint 0.9.8 0.9.9: Python interface to the Met Office's Datapoint API
 dev-python/dateparser 1.2.0: Date parsing library designed to parse dates from HTML pages
-dev-python/dbus-fast 2.21.1 2.21.3 2.22.1 2.24.0 2.24.3: A faster version of dbus-next
+dev-python/dbus-fast 2.21.1 2.21.3 2.24.0 2.24.3: A faster version of dbus-next
 dev-python/debugpy 1.8.0 1.8.1: An implementation of the Debug Adapter Protocol for Python
 dev-python/decora 0.6: Python API for controlling Decora dimmer switches
 dev-python/decora-wifi 1.4: Python API for controlling Leviton Decora Smart WiFi switches
@@ -566,7 +566,7 @@ dev-python/ha-ffmpeg 3.1.0 3.2.0: A library that handling with ffmpeg for home-a
 dev-python/ha-iotawattpy 0.1.1 0.1.2: Python library for the IoTaWatt Energy device
 dev-python/ha-philipsjs 3.1.1 3.2.1 3.2.2: jointSPACE API for Home-Assistant
 dev-python/habitipy 0.2.0 0.3.1: tools and library for Habitica restful API (https://habitica.com)
-dev-python/habluetooth 2.8.1 3.1.1 3.1.3 3.3.2 3.4.0: High availability Bluetooth
+dev-python/habluetooth 2.8.1 3.1.1 3.4.0 3.6.0: High availability Bluetooth
 dev-python/hangups 0.4.18-r1: the first third-party instant messaging client for Google Hangouts
 dev-python/hass-nabucasa 0.78.0-r1 0.81.1-r2: Home Assistant cloud integration by Nabu Casa, Inc.
 dev-python/hass-splunk 0.1.1: Async single threaded connector to Splunk HEC using an asyncio session
@@ -1128,7 +1128,7 @@ dev-python/python-MotionMount 0.3.1 1.0.0 2.2.0: Control your MotionMount Signat
 dev-python/python-awair 0.2.4: asyncio client for the Awair GraphQL and Local APIs
 dev-python/python-blockchain-api 0.0.2: Python API for interacting with blockchain.info.
 dev-python/python-bring-api 3.0.0: Unofficial python package to access Bring! shopping lists API.
-dev-python/python-bsblan 0.5.18 0.6.2: Asynchronous Python client for BSBLAN
+dev-python/python-bsblan 0.5.18 0.6.2 0.6.4: Asynchronous Python client for BSBLAN
 dev-python/python-clementine-remote 1.0.1: Python library and CLI for the Clementine Music Player remote protocol.
 dev-python/python-didl-lite 1.4.0: DIDL-Lite (Digital Item Declaration Language) tools for Python
 dev-python/python-digitalocean 1.13.2: digitalocean.com API to manage Droplets and Images
