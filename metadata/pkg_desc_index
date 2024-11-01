@@ -328,7 +328,7 @@ dev-python/blockchain 1.4.4: Blockchain API library (v1)
 dev-python/bluecurrent-api 1.0.6 1.2.3: A wrapper for the Blue Current websocket api
 dev-python/bluemaestro-ble 0.2.3: bluemaestro BLE devices
 dev-python/bluepy 1.3.0: Python module for interfacing with BLE devices through Bluez
-dev-python/bluetooth-adapters 0.19.2 0.19.3 0.19.4 0.20.0: Tools to enumerate and find Bluetooth Adapters
+dev-python/bluetooth-adapters 0.19.2 0.19.4 0.20.0: Tools to enumerate and find Bluetooth Adapters
 dev-python/bluetooth-auto-recovery 1.3.0 1.4.0 1.4.2: Recover bluetooth adapters that are in an stuck state
 dev-python/bluetooth-data-tools 1.19.0 1.19.3 1.19.4 1.20.0: Tools for converting bluetooth data and packets
 dev-python/bluetooth-sensor-state-data 1.6.2: Models for storing and converting Bluetooth Sensor State Data
