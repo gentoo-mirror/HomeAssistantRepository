@@ -126,7 +126,7 @@ dev-python/aio-georss-client 0.11 0.12 0.14: An async GeoRSS client library.
 dev-python/aio-georss-gdacs 0.9 0.10: An async GeoRSS client library for GDACS feeds.
 dev-python/aioairq 0.3.1 0.3.2: Asynchronous library to retrieve data from air-Q devices.
 dev-python/aioairzone 0.7.6 0.8.2 0.9.3 0.9.5: Library to control Airzone devices
-dev-python/aioairzone-cloud 0.4.7 0.5.1 0.6.2 0.6.6: Library to control Airzone Cloud devices
+dev-python/aioairzone-cloud 0.4.7 0.5.1 0.6.2 0.6.6 0.6.10: Library to control Airzone Cloud devices
 dev-python/aioambient 2024.1.0 2024.8.0: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioapcaccess 0.4.2: Async version of apcaccess library implemented in python.
 dev-python/aioaquacell 0.2.0: Asynchronous library to retrieve details of your Aquacell water softener device
