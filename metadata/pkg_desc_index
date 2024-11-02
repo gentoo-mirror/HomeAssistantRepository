@@ -666,14 +666,14 @@ dev-python/konnected 1.2.0: Library for interacting with Konnected home automati
 dev-python/korean-lunar-calendar 0.3.1: Korean Lunar Calendar
 dev-python/kostal-plenticore 0.2.0: Kostal Plenticore REST-API client
 dev-python/krakenex 2.1.0 2.2.2: kraken.com cryptocurrency exchange API
-dev-python/lacrosse-view 1.0.1 1.0.2: Client for retrieving data from the La Crosse View cloud
+dev-python/lacrosse-view 1.0.1 1.0.2 1.0.3: Client for retrieving data from the La Crosse View cloud
 dev-python/lakeside 0.13: Python API for controlling Eufy LED bulbs
 dev-python/laundrify-aio 1.1.2 1.2.2: A Python package to communicate with the laundrify API
-dev-python/lcn-frontend 0.1.6: Home Assistant Panel for configuring the LCN integration.
+dev-python/lcn-frontend 0.1.6 0.2.0: Home Assistant Panel for configuring the LCN integration.
 dev-python/ld2410-ble 0.1.1: Interface with LD2410B modules from HiLink
 dev-python/leaone-ble 0.1.0: Bluetooth parser for LeaOne devices
 dev-python/led-ble 1.0.1 1.0.2: Control a wide range of LED BLE devices
-dev-python/lektricowifi 0.0.42: Communication with Lektrico's chargers
+dev-python/lektricowifi 0.0.42 0.0.43: Communication with Lektrico's chargers
 dev-python/libcst 0.3.23: A concrete syntax tree with AST-like properties for Python 3.5, 3.6, 3.7 and 3.8 programs.
 dev-python/libpurecool 0.6.4: Dyson Pure Cool/Hot+Cool Link and 360 eye robot vacuum devices Python library
 dev-python/libpyfoscam 1.0 1.2.2: Python Library for Foscam IP Cameras
@@ -1055,7 +1055,7 @@ dev-python/pyowm 3.2.0: A Python wrapper around OpenWeatherMap web APIs
 dev-python/pyownet 0.10.0_p1: Python OWFS client library (owserver protocol)
 dev-python/pypandoc 1.7.4: Thin wrapper for pandoc.
 dev-python/pypca 0.0.7: A python cli for PCA 301 smart plugs.
-dev-python/pypck 0.7.17 0.7.23: LCN-PCK library
+dev-python/pypck 0.7.17 0.7.23 0.7.24: LCN-PCK library
 dev-python/pypjlink2 1.2.1: PJLink is a standard for controlling data projectors.
 dev-python/pyplaato 0.0.18: Asynchronous Python client for getting Plaato Airlock and Keg data
 dev-python/pypoint 2.3.2 3.0.0: API for Minut Point
