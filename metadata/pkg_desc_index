@@ -464,7 +464,7 @@ dev-python/epicstore-api 0.1.7: An API wrapper for Epic Games Store written in P
 dev-python/epion 0.0.3: A python API wrapper for Epion Air senor data
 dev-python/epson-projector 0.5.1: Epson projector support for Python
 dev-python/epsonprinter 0.0.9: Communication package for Epson Workforce printer
-dev-python/eq3btsmart 1.1.6 1.1.8 1.1.9: Python library that allows interaction with eQ-3 Bluetooth smart thermostats.
+dev-python/eq3btsmart 1.1.6 1.1.8 1.1.9 1.2.0: Python library that allows interaction with eQ-3 Bluetooth smart thermostats.
 dev-python/esphome-dashboard-api 1.2.3: API to interact with ESPHome Dashboard
 dev-python/esprima 4.0.1: ECMAScript parsing infrastructure for multipurpose analysis in Python
 dev-python/eternalegypt 0.0.16: Netgear LTE modem API
@@ -1132,7 +1132,7 @@ dev-python/python-bsblan 0.5.18 0.6.2 0.6.4: Asynchronous Python client for BSBL
 dev-python/python-clementine-remote 1.0.1: Python library and CLI for the Clementine Music Player remote protocol.
 dev-python/python-didl-lite 1.4.0: DIDL-Lite (Digital Item Declaration Language) tools for Python
 dev-python/python-digitalocean 1.13.2: digitalocean.com API to manage Droplets and Images
-dev-python/python-ecobee-api 0.2.17 0.2.18: Python API for talking to Ecobee thermostats
+dev-python/python-ecobee-api 0.2.17 0.2.18 0.2.20: Python API for talking to Ecobee thermostats
 dev-python/python-engineio-v3 3.14.2: Python implementation of the Engine.IO realtime server.
 dev-python/python-eq3bt 0.2: EQ3 bluetooth thermostat support library
 dev-python/python-etherscan-api 0.0.3: Python API for interacting with etherscan.io.
@@ -1266,7 +1266,7 @@ dev-python/scsgate 0.1.0: A Python module to interact with SCSGate
 dev-python/securesystemslib 0.31.0 1.0.0: A library that provides cryptographic and general-purpose routines for Secure Systems Lab projects at NYU
 dev-python/securetar 2023.3.0 2024.2.1: Python module to handle tarfile backups.
 dev-python/sendgrid 6.8.2: Twilio SendGrid library for Python
-dev-python/sense-energy 0.12.2 0.12.4: API for the Sense Energy Monitor
+dev-python/sense-energy 0.12.2 0.12.4 0.13.2: API for the Sense Energy Monitor
 dev-python/sensirion-ble 0.1.1-r2: Manage Sensirion BLE devices
 dev-python/sensor-state-data 2.18.0: Models for storing and converting Sensor Data state
 dev-python/sensorpro-ble 0.5.3: SensorPro BLE Devices
