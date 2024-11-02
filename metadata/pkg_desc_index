@@ -512,7 +512,7 @@ dev-python/gardena-bluetooth 1.4.1 1.4.2 1.4.3 1.4.4: controlling gardena blueto
 dev-python/garminconnect-ha 0.1.6: Garmin Connect Python 3 API wrapper for Home Assistant
 dev-python/gassist-text 0.0.10 0.0.11: A Python library for interacting with Google Assistant API via text
 dev-python/gatt 0.2.7: Bluetooth GATT SDK for Python
-dev-python/gcal-sync 6.0.4 6.1.5 6.1.6: A python library for syncing Google Calendar to local storage
+dev-python/gcal-sync 6.0.4 6.1.5 6.1.6 6.2.0: A python library for syncing Google Calendar to local storage
 dev-python/gcloud 0.18.3: API Client library for Google Cloud
 dev-python/genie-partner-sdk 1.0.2: An SDK to interact with the AladdinConnect (or OHD) partner API
 dev-python/geniushub-client 0.7.1: An aiohttp-based client for Genius Hub systems
@@ -524,7 +524,7 @@ dev-python/georss-generic-client 0.6 0.8: A GeoRSS generic client library.
 dev-python/georss-ign-sismologia-client 0.6 0.8: A GeoRSS client library for the IGN Sismologia feed.
 dev-python/georss-qld-bushfire-alert-client 0.5 0.7 0.8: A GeoRSS client library for the Queensland Bushfire Alert feed.
 dev-python/getmac 0.8.2 0.9.4: Get MAC addresses of remote hosts and local interfaces
-dev-python/gios 3.2.2 4.0.0: Python wrapper for getting air quality data from GIOS servers.
+dev-python/gios 4.0.0 5.0.0: Python wrapper for getting air quality data from GIOS servers.
 dev-python/gitterpy 0.1.7: Python interface for the Gitter API
 dev-python/glances-api 0.5.0 0.6.0 0.8.0: Python API for interacting with Glances.
 dev-python/gntp 1.0.3: Growl Notification Transport Protocol for Python
@@ -542,7 +542,7 @@ dev-python/googlemaps 2.5.1: Python client library for Google Maps API Web Servi
 dev-python/goslide-api 0.5.1: Python API to utilise the goslide.io Open Cloud API
 dev-python/gotailwind 0.2.2 0.2.3 0.2.4: Asynchronous Python client for Tailwind garage door openers.
 dev-python/govee-ble 0.31.2 0.40.0: Manage Govee BLE devices
-dev-python/govee-local-api 1.4.4 1.4.5 1.5.0 1.5.2: Library to communicate with Govee local API
+dev-python/govee-local-api 1.4.4 1.4.5 1.5.0 1.5.2 1.5.3: Library to communicate with Govee local API
 dev-python/gpiod 1.5.4: It is a pure Python library and has no dependencies on other packages
 dev-python/gpiozero 1.6.2: A simple interface to GPIO devices with Raspberry Pi.
 dev-python/gps3 0.33.3-r1: Python 2.7-3.5 clients for gpsd
