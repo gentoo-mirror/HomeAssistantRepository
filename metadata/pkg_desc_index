@@ -192,7 +192,7 @@ dev-python/aionursery 0.3.0: Manage background asyncio tasks
 dev-python/aionut 4.3.2 4.3.3: Asyncio Network UPS Tools
 dev-python/aiooncue 0.3.5 0.3.7: Async for Oncue
 dev-python/aioopenexchangerates 0.4.0 0.6.2: Fetch rates from openexchangerates with aiohttp.
-dev-python/aiooui 0.1.5 0.1.6: Async OUI lookups
+dev-python/aiooui 0.1.5 0.1.6 0.1.7: Async OUI lookups
 dev-python/aiopegelonline 0.0.9 0.0.10: Asynchronous library to retrieve data from PEGELONLINE.
 dev-python/aiopulse 0.4.3 0.4.4 0.4.6: Python module for Rollease Acmeda Automate integration.
 dev-python/aiopurpleair 2022.12.1: A Python 3, asyncio-based library to interact with the PurpleAir API
@@ -787,7 +787,7 @@ dev-python/oauth2client 4.1.3: OAuth 2.0 client library
 dev-python/objgraph 3.5.0-r1: Draws Python object reference graphs with graphviz
 dev-python/odp-amsterdam 6.0.1 6.0.2: Asynchronous Python client providing Open Data information of Amsterdam
 dev-python/oemthermostat 1.1.1: A package to interface with the HTTP API of the OpenEnergyMonitor Thermostat.
-dev-python/ollama 0.3.1: The Ollama Python library provides the easiest way to integrate Ollama.
+dev-python/ollama 0.3.1 0.3.3: The Ollama Python library provides the easiest way to integrate Ollama.
 dev-python/ollama-hass 0.1.7: A fork of the official Python client for Ollama for Home Assistant.
 dev-python/omnilogic 0.4.5: Integration for the Hayward OmniLogic pool control system
 dev-python/ondilo 0.2.0 0.4.0 0.5.0: A client to access Ondilo ICO APIs
