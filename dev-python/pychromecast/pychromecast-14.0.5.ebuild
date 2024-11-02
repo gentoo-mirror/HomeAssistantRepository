@@ -15,13 +15,13 @@ HOMEPAGE="
 	https://github.com/home-assistant-libs/pychromecast/
 	https://pypi.org/project/PyChromecast/
 "
-
+DOCE="README.rst"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
 	>=dev-python/casttube-0.2.0[${PYTHON_USEDEP}]
-	>=dev-python/protobuf-python-3.19.1[${PYTHON_USEDEP}]
-	>=dev-python/zeroconf-0.25.1[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-python-4.25.1[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.135[${PYTHON_USEDEP}]
 "
