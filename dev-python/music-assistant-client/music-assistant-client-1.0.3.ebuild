@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python Matter WebSocket Server"
-HOMEPAGE=" https://pypi.org/project/python-matter-server/"
+DESCRIPTION="Music Assistant Client"
+HOMEPAGE="https://pypi.org/project/music-assistant-client/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -19,14 +19,11 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiorun[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	~dev-python/home-assistant-chip-clusters-2024.5.2[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
-		dev-python/pytest-cov[${PYTHON_USEDEP}]
-	)"
+	~dev-python/music-assistant-models-1.0.0[${PYTHON_USEDEP}]"
+
+src_prepare() {
+	echo -ne '\n[build-system]\nrequires = ["setuptools"]\nbuild-backend = "setuptools.build_meta"\n' >> pyproject.toml || die
+	default
+}
 
 distutils_enable_tests pytest
