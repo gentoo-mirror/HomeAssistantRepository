@@ -298,6 +298,8 @@ dev-python/avea 1.5.1: Control an Elgato Avea bulb using python3
 dev-python/avion 0.10: Python API for controlling Avi-on Bluetooth dimmers
 dev-python/awesomeversion 23.11.0 24.2.0 24.6.0: One version package to rule them all, One version package to find them, One version package to bring them all, and in the darkness bind them.
 dev-python/aws-request-signer 1.2.0: A python library to sign AWS requests using AWS Signature V4.
+dev-python/awscrt 0.21.1 0.23.0: A common runtime for AWS Python projects
+dev-python/awsiotsdk 1.22.0: AWS IoT SDK based on the AWS Common Runtime
 dev-python/axis 61 62 63: A Python library for communicating with devices from Axis Communications
 dev-python/ayla-iot-unofficial 1.4.2: Python API for Ayla IoT products
 dev-python/azure-core 1.30.2: Microsoft Azure Core Library for Python
@@ -1362,6 +1364,7 @@ dev-python/thermobeacon-ble 0.6.2 0.7.0: Parser for Thermobeacon devices
 dev-python/thermopro-ble 0.5.0 0.9.0 0.10.0: Thermopro BLE Sensors
 dev-python/thermoworks-smoke 0.1.8: Pull data for your thermoworks smoke thermometer
 dev-python/thingspeak 1.0.0: Client library for the thingspeak.com API
+dev-python/thinqconnect 0.9.9: ThinQ Connect Python SDK
 dev-python/tikteck 0.4: Python API for controlling Tikteck LED bulbs
 dev-python/tilt-ble 0.2.3: Parser for Tilt BLE devices
 dev-python/tinytuya 1.15.0: Python module to interface with Tuya WiFi smart devices
