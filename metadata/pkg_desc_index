@@ -132,7 +132,7 @@ dev-python/aioapcaccess 0.4.2: Async version of apcaccess library implemented in
 dev-python/aioaquacell 0.2.0: Asynchronous library to retrieve details of your Aquacell water softener device
 dev-python/aioaseko 0.1.1 0.2.0 1.0.0: Async Python package for the Aseko Pool Live API
 dev-python/aioasuswrt 1.4.0: Api wrapper for Asuswrt https://www.asus.com/ASUSWRT/
-dev-python/aioautomower 2024.4.3 2024.5.1 2024.10.0: MPython module to talk to Husqvarna Automower.
+dev-python/aioautomower 2024.4.3 2024.5.1 2024.10.0 2024.10.3: MPython module to talk to Husqvarna Automower.
 dev-python/aioazuredevops 1.3.5 2.0.0 2.2.1: Get data from the Azure DevOps API.
 dev-python/aiobafi6 0.9.0: Big Ass Fans i6/Haiku protocol asynchronous Python library
 dev-python/aiobotocore 2.12.1 2.13.1: Async client for aws services using botocore and aiohttp
