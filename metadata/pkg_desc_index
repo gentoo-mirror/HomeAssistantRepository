@@ -22,7 +22,7 @@ dev-libs/foils_hid 0.3: Freebox Network HID devices library
 dev-libs/libela 0.3: Runtime Event Loop Abstraction library
 dev-libs/libgit2 1.5.2: A linkable library for Git
 dev-libs/librudp 0.3: UDP transport with optional reliability
-dev-libs/protobuf 24.2 24.3 25.1 25.1-r1 25.2 25.2-r1: Google's Protocol Buffers - Extensible mechanism for serializing structured data
+dev-libs/protobuf 24.2 24.3 25.1 25.1-r1 25.2 25.2-r1 28.2: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-python/AEMET-OpenData 0.5.1 0.5.2 0.5.4: AEMET OpenData Rest API library
 dev-python/AIOAladdinConnect 0.1.58: Python Async API for controlling Genie garage doors connected to Aladdin Connect devices
 dev-python/AIOSomecomfort 0.0.24 0.0.25: A client for Honeywell's US-based cloud devices

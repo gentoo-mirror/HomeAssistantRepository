@@ -1442,6 +1442,11 @@ dev-embedded/esphome:server - add server for ESPHome dashboard
 dev-libs/libgit2:gssapi - Enable GSSAPI support for SPNEGO auth
 dev-libs/libgit2:ssh - Enable SSH transport support
 dev-libs/libgit2:trace - Enable tracing support
+dev-libs/protobuf:conformance - Build conformance tests
+dev-libs/protobuf:libprotoc - Build libprotoc
+dev-libs/protobuf:libupb - Build libupb
+dev-libs/protobuf:protobuf - Build protobuf libraries and protoc compiler
+dev-libs/protobuf:protoc - Build libprotoc and protoc compiler
 dev-python/adb-shell:async - Add async support.
 dev-python/androidtv:async - Add async support.
 dev-python/envs:cli - add cli support
