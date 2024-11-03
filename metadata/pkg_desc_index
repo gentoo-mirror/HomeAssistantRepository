@@ -386,7 +386,7 @@ dev-python/construct-typing 0.6.2: Extension for the python package 'construct' 
 dev-python/convertdate 2.4.0: Converts between Gregorian dates and other calendar systems.
 dev-python/convertertools 0.5.0: Tools for converting python data types
 dev-python/coronavirus 1.1.1: Asynchronous Python client for getting Corona virus info.
-dev-python/coverage 7.3.4 7.5.0: Code coverage measurement for Python
+dev-python/coverage 7.5.0 7.6.1: Code coverage measurement for Python
 dev-python/coveralls 3.3.1-r1 4.0.1: Show coverage stats online via coveralls.io
 dev-python/crc 5.0.0: Library and CLI to calculate and verify all kinds of CRC checksums
 dev-python/crc16 0.1.1: Library for calculating CRC16
@@ -396,7 +396,7 @@ dev-python/crownstone-cloud 1.4.9 1.4.11: Asynchronous Python library to get dat
 dev-python/crownstone-core 3.0.1: This is the core of the python lib. It contains shared classes, definitions and utils
 dev-python/crownstone-sse 2.0.4 2.0.5: Asynchronous Python library that listens to Crownstone SSE events.
 dev-python/crownstone-uart 2.1.0: Official Python lib for Crownstone: "Crownstone Unified System Bridge", or Crownstone USB implementation
-dev-python/cryptography 42.0.5: Library providing cryptographic recipes and primitives
+dev-python/cryptography 42.0.5 43.0.1: Library providing cryptographic recipes and primitives
 dev-python/csrmesh 0.10.0: Reverse engineered implementation of the CSRMesh bridge protocol
 dev-python/curio-compat 1.6.7: Curio is a coroutine-based library for concurrent systems programming.
 dev-python/curlify 2.2.1: Library to convert python requests object to curl command.
@@ -1479,7 +1479,7 @@ dev-python/xiaomi-ble 0.28.0 0.32.0 0.33.0: Manage Xiaomi BLE devices
 dev-python/xknx 2.12.2 3.1.1 3.2.0 3.3.0: An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/
 dev-python/xknxproject 3.7.1 3.8.0 3.8.1: A library to gather information from ETS project files used for KNX
 dev-python/xmlsec 1.3.12-r3: Python bindings for the XML Security Library
-dev-python/xmltodict 0.12.0-r1: Makes working with XML feel like you are working with JSON
+dev-python/xmltodict 0.12.0-r1 0.13.0: Makes working with XML feel like you are working with JSON
 dev-python/xs1-api-client 3.0.0: A library to get and set values of the EZcontrol XS1 Gateway
 dev-python/yagrc 1.1.2: Yet another gRPC reflection client
 dev-python/yalesmartalarmclient 0.3.9 0.4.0 0.4.3: Interact with Yale Smart Alarm systems
@@ -1509,7 +1509,7 @@ dev-python/zlib-ng 0.2.0: Drop-in replacement for zlib and gzip modules using zl
 dev-python/zm-py 0.5.2-r1 0.5.4: A loose python wrapper around the ZoneMinder REST API.
 dev-python/zwave-js-server-python 0.55.4 0.56.0 0.57.0 0.58.0 0.58.1-r1: Python wrapper for zwave-js-server
 dev-python/zwave-me-ws 0.4.3: Library, implementing websocket connection to ZWave-Me
-dev-vcs/pre-commit 3.6.2 3.7.1 4.0.0: A framework for managing and maintaining multi-language Git pre-commit hooks
+dev-vcs/pre-commit 3.7.1 4.0.0: A framework for managing and maintaining multi-language Git pre-commit hooks
 dev-vcs/python-gitlab 1.6.0: Interact with GitLab API
 media-libs/lv2 1.18.10: A simple but extensible successor of LADSPA
 net-analyzer/shodan 1.28.0: The official Python library for Shodan
