@@ -1155,7 +1155,7 @@ dev-python/python-http-client 3.3.2: HTTP REST client, simplified for Python
 dev-python/python-izone 1.2.9: A python interface to the iZone airconditioner controller
 dev-python/python-join-api 0.0.9: Python API for interacting with Join by joaoapps.
 dev-python/python-juicenet 1.1.0: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
-dev-python/python-kasa 0.7.1 0.7.2 0.7.3 0.7.4 0.7.5: Python API for TP-Link Kasa Smarthome devices
+dev-python/python-kasa 0.7.3 0.7.5 0.7.6: Python API for TP-Link Kasa Smarthome devices
 dev-python/python-linkplay 0.0.15: A Python Library for Seamless LinkPlay Device Control
 dev-python/python-matter-server 5.10.0 6.1.0 6.3.0 6.5.2 6.6.0: Python Matter WebSocket Server
 dev-python/python-metar 1.4.0: Metar - a package to parse METAR coded weather reports
@@ -1416,7 +1416,7 @@ dev-python/unifiled 0.11: Easily connect to Ubiquiti Unifi led devices
 dev-python/universal-silabs-flasher 0.0.18 0.0.20 0.0.22: Tool to flash firmware onto any Silicon Labs radio running EmberZNet, CPC multi-PAN, or just a bare Gecko Bootloader
 dev-python/uonet-request-signer-hebe 0.1.1: UONET+ (hebe) request signer for Python
 dev-python/upb-lib 0.5.6 0.5.8: Library for interacting with UPB PIM.
-dev-python/upcloud-api 2.0.0 2.5.1: UpCloud API Client
+dev-python/upcloud-api 2.0.0 2.5.1 2.6.0: UpCloud API Client
 dev-python/uplink 0.9.7: A Declarative HTTP Client for Python.
 dev-python/uplink-protobuf 0.1.0: Protocol Buffers (Protobuf) support for Uplink.
 dev-python/usb-devices 0.4.5: Tools for mapping, describing, and resetting USB devices
