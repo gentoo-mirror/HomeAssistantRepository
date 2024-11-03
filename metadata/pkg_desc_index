@@ -86,7 +86,7 @@ dev-python/Pysher 1.0.7: Pusher websocket client for python, based on Erik Kulyk
 dev-python/RPi-GPIO 0.7.1_alpha4: A module to control Raspberry Pi GPIO channels
 dev-python/RachioPy 1.0.3 1.1.0: A Python module for the Rachio API.
 dev-python/ReParser 1.4.3: Simple regex-based lexer/parser for inline markup
-dev-python/RestrictedPython 6.2 7.0_alpha1-r0 7.0 7.2 7.3: subset of Python which allows program input into a trusted environment.
+dev-python/RestrictedPython 7.0 7.3 7.4: subset of Python which allows program input into a trusted environment.
 dev-python/RtmAPI 0.7.2-r2: API package for rememberthemilk.com
 dev-python/Rx 3.2.0-r1: Reactive Extensions (Rx) for Python
 dev-python/SmartHab 0.21: This package allows controlling devices in a SmartHab-powered home.
@@ -841,7 +841,7 @@ dev-python/pizzapi 0.0.3 0.0.6: A Python wrapper for the Dominos Pizza API
 dev-python/pkce 1.0.3: PKCE Pyhton generator.
 dev-python/plexauth 0.0.6: Handles the authorization flow to obtain tokens from Plex.tv via external redirection.
 dev-python/plexwebsocket 0.0.14: Support for issuing callbacks in response to Plex websocket updates.
-dev-python/plugwise 0.37.3 0.37.4.1 0.38.3 1.4.0: Plugwise (Adam/Anna/P1/Stick/Stretch) API to use in conjunction with Home Assistant Core.
+dev-python/plugwise 0.37.3 0.37.4.1 0.38.3 1.4.0 1.4.4: Plugwise (Adam/Anna/P1/Stick/Stretch) API to use in conjunction with Home Assistant Core.
 dev-python/plumlightpad 0.0.11: A python package that interacts with the Plum Lightpad
 dev-python/pmsensor 0.4: Library to read data from environment sensors
 dev-python/poolsense 0.0.8: Asynchronous Python client for getting PoolSense data.
@@ -1057,6 +1057,7 @@ dev-python/pyotp 2.8.0: PyOTP is a Python library for generating and verifying o
 dev-python/pyoverkiz 1.13.10 1.13.11 1.14.1: Async Python client to interact with internal OverKiz API (e.g. used by Somfy TaHoma).
 dev-python/pyowm 3.2.0: A Python wrapper around OpenWeatherMap web APIs
 dev-python/pyownet 0.10.0_p1: Python OWFS client library (owserver protocol)
+dev-python/pypalazzetti 0.1.6: A Python library to access and control a Palazzetti stove through a Palazzetti Connection Box
 dev-python/pypandoc 1.7.4: Thin wrapper for pandoc.
 dev-python/pypca 0.0.7: A python cli for PCA 301 smart plugs.
 dev-python/pypck 0.7.17 0.7.23 0.7.24: LCN-PCK library
@@ -1221,7 +1222,7 @@ dev-python/qbittorrent-api 2024.2.59: Python client for qBittorrent v4.1+ Web AP
 dev-python/qingping-ble 0.9.0 0.10.0: Qingping BLE support
 dev-python/qnapstats 0.4.0: Python API for obtaining QNAP NAS system stats
 dev-python/quantum-gateway 0.0.8: Query a Quantum Gateway
-dev-python/radios 0.2.0 0.3.1: Asynchronous Python client for the Radio Browser API
+dev-python/radios 0.2.0 0.3.1 0.3.2: Asynchronous Python client for the Radio Browser API
 dev-python/radiotherm 2.1.0: client library for wifi thermostats sold by radiothermostat.com
 dev-python/raincloudy 0.0.7-r1: Melnor RainCloud Smart Garden Watering Irrigation Timer.
 dev-python/rapt-ble 0.1.2: Parser for the RAPT Pill hydrometer BLE packets.
