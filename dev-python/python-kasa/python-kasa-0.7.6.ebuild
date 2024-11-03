@@ -13,18 +13,15 @@ HOMEPAGE="https://github.com/python-kasa/python-kasa https://pypi.org/project/py
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
-IUSE="docs shell speedups test"
+IUSE="docs shell +speedups test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/anyio[${PYTHON_USEDEP}]
-	>=dev-python/asyncclick-8.0[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/asyncclick-8.1.7[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-1.9.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	>=dev-python/kasa-crypt-0.2.0[${PYTHON_USEDEP}]
 	docs? (	dev-python/sphinx[${PYTHON_USEDEP}] dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] dev-python/myst-parser[${PYTHON_USEDEP}] >=dev-python/docutils-0.17.0[${PYTHON_USEDEP}] )
 	shell? ( dev-python/ptpython[${PYTHON_USEDEP}] dev-python/rich[${PYTHON_USEDEP}] )
 	speedups? ( >=dev-python/orjson-3.9.1[${PYTHON_USEDEP}] >=dev-python/kasa-crypt-0.2.0[${PYTHON_USEDEP}] )
