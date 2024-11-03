@@ -291,7 +291,7 @@ dev-python/atomicwrites-homeassistant 1.4.1: Atomic file writes.
 dev-python/attrs 23.2.0: Attributes without boilerplate
 dev-python/auroranoaa 0.0.3 0.0.5: NOAA Aurora Wrapper for Home Assistant Integration.
 dev-python/aurorapy 0.2.7: Python implementation of Aurora Protocol
-dev-python/autarco 2.0.0 3.0.0: Asynchronous Python client for the Autarco Inverters
+dev-python/autarco 2.0.0 3.0.0 3.1.0: Asynchronous Python client for the Autarco Inverters
 dev-python/automower-ble 0.2.0: An unofficial reverse engineered Husqvarna Automower Connect BLE library
 dev-python/av 9.2.0: Pythonic bindings for FFmpeg's libraries.
 dev-python/avea 1.5.1: Control an Elgato Avea bulb using python3
@@ -590,7 +590,7 @@ dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.47 0.51 0.58 0.59: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.11.0 1.12.0 1.12.2 1.13.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2 2024.5.2 2024.9.0: Python-base APIs and tools for CHIP.
-dev-python/home-assistant-frontend 20240501.1 20240610.1 20241002.3 20241002.4: The Home Assistant frontend
+dev-python/home-assistant-frontend 20240501.1 20240610.1 20241002.3 20241002.4 20241031.0: The Home Assistant frontend
 dev-python/home-assistant-intents 2024.4.24 2024.6.21 2024.9.4 2024.10.2 2024.10.30: Intents for Home Assistant
 dev-python/homeconnect 0.7.2 0.8.0: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.1.0 1.1.1 1.1.2: An API for the homematicip cloud
@@ -1497,7 +1497,7 @@ dev-python/zeroconf 0.132.2 0.133.0: Pure Python Multicast DNS Service Discovery
 dev-python/zeversolar 0.3.1 0.3.2: Simple Python wrapper for the local CGI provided by ZeverSolar
 dev-python/zha 0.0.33 0.0.34 0.0.37: Library implementing ZHA for Home Assistant
 dev-python/zha-quirks 0.0.112 0.0.114 0.0.115 0.0.116 0.0.117 0.0.122: Library implementing Zigpy quirks for ZHA in Home Assistant
-dev-python/zhong-hong-hvac 1.0.9 1.0.12 1.0.13: Python library for interfacing with ZhongHong HVAC controller
+dev-python/zhong-hong-hvac 1.0.12 1.0.13: Python library for interfacing with ZhongHong HVAC controller
 dev-python/ziggo-mediabox-xl 1.1.0: Python interface to Ziggo's Mediabox XL
 dev-python/zigpy 0.64.0 0.64.1 0.67.0 0.70.0 0.71.0: Library implementing a ZigBee stack
 dev-python/zigpy-deconz 0.23.1 0.23.2 0.23.3 0.24.0: A library which communicates with Deconz radios for zigpy
