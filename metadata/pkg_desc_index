@@ -78,7 +78,7 @@ dev-python/PySyncThru 0.7.10: Automated JSON API based communication with Samsun
 dev-python/PyTransportNSW 0.1.1: Get transport information from TransportNSW
 dev-python/PyTurboJPEG 1.7.1 1.7.5: A Python wrapper of libjpeg-turbo for decoding and encoding JPEG image.
 dev-python/PyUserInput 0.1.11: A simple, cross-platform module for mouse and keyboard control
-dev-python/PyViCare 2.34.0: Library to communicate with the Viessmann ViCare API
+dev-python/PyViCare 2.34.0 2.35.0: Library to communicate with the Viessmann ViCare API
 dev-python/PyViCare-neo 0.2.1 0.3.0: Library to communicate with the Viessmann ViCare API.
 dev-python/PyXiaomiGateway 0.14.3: A library to communicate with the Xiaomi Gateway
 dev-python/Pyrebase4 4.5.0: A simple python wrapper for the Firebase API with current deps
@@ -226,7 +226,7 @@ dev-python/aiotractive 0.5.6 0.6.0: Asynchronous Python client for the Tractive 
 dev-python/aiounifi 72 74 75 77 80: Python library for communicating with UniFi Network Controller API
 dev-python/aiounittest 1.4.2: Test asyncio code more easily.
 dev-python/aiovlc 0.1.0 0.3.2 0.5.1: A package for talking to vlc over its telnet interface using asyncio.
-dev-python/aiovodafone 0.4.3 0.5.4 0.6.0: Python library to control Vodafone Station
+dev-python/aiovodafone 0.4.3 0.5.4 0.6.0 0.6.1: Python library to control Vodafone Station
 dev-python/aiowaqi 3.0.1 3.1.0: Asynchronous Python client for WAQI API.
 dev-python/aiowatttime 0.1.1: An asyncio-based Python3 library for interacting with WattTime
 dev-python/aiowebostv 0.4.0 0.4.2: Library to control webOS based LG TV devices
@@ -1429,7 +1429,7 @@ dev-python/vacuum-map-parser-base 0.1.2 0.1.3: Common code for vacuum map parser
 dev-python/vacuum-map-parser-roborock 0.1.1 0.1.2: Functionalities for Roborock vacuum map parsing
 dev-python/vallox-websocket-api 5.1.1 5.3.0: Vallox WebSocket API
 dev-python/vehicle 2.2.1 2.2.2: Asynchronous Python client providing RDW vehicle information.
-dev-python/velbus-aio 2024.4.1 2024.5.1 2024.7.6: Python Library for the Velbus protocol based on asyncio
+dev-python/velbus-aio 2024.4.1 2024.5.1 2024.7.6 2024.10.0: Python Library for the Velbus protocol based on asyncio
 dev-python/venstarcolortouch 0.19: Interface Library for Venstar ColorTouch Thermostat API v5
 dev-python/vhelpers 0.3.0: Often used functions in vladimirs-git projects
 dev-python/vilfo-api-client 0.4.1 0.5.0: Simple wrapper client for the Vilfo router API
