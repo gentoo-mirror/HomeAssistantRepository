@@ -191,7 +191,7 @@ dev-python/aionotion 2023.5.5 2024.3.0: A simple Python 3 library for Notion Hom
 dev-python/aionursery 0.3.0: Manage background asyncio tasks
 dev-python/aionut 4.3.2 4.3.3: Asyncio Network UPS Tools
 dev-python/aiooncue 0.3.5 0.3.7: Async for Oncue
-dev-python/aioopenexchangerates 0.4.0 0.6.2: Fetch rates from openexchangerates with aiohttp.
+dev-python/aioopenexchangerates 0.4.0 0.6.2 0.6.8: Fetch rates from openexchangerates with aiohttp.
 dev-python/aiooui 0.1.5 0.1.6 0.1.7: Async OUI lookups
 dev-python/aiopegelonline 0.0.9 0.0.10: Asynchronous library to retrieve data from PEGELONLINE.
 dev-python/aiopulse 0.4.3 0.4.4 0.4.6: Python module for Rollease Acmeda Automate integration.
@@ -804,7 +804,7 @@ dev-python/opensensemap-api 0.2.0: Python client for interacting with the openSe
 dev-python/openwebifpy 4.2.4 4.2.7: Provides a python interface to interact with a device running OpenWebIf
 dev-python/openwrt-luci-rpc 1.1.16 1.1.17: Module for interacting with OpenWrt Luci RPC interface
 dev-python/openwrt-ubus-rpc 0.0.2: OpenWrt ubus RPC API library
-dev-python/opower 0.4.4 0.4.7 0.8.3: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
+dev-python/opower 0.4.4 0.4.7 0.8.3 0.8.6: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
 dev-python/opuslib 3.0.1: Python bindings to the libopus, IETF low-delay audio codec
 dev-python/oralb-ble 0.17.6: Bluetooth library for Oral B devices
 dev-python/orjson 3.9.9 3.9.15: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
@@ -814,7 +814,7 @@ dev-python/oscrypto 1.3.0: TLS (SSL) sockets, key generation, encryption, decryp
 dev-python/ourgroceries 1.5.4: Our Groceries Unofficial Python Package
 dev-python/ovoenergy 1.2.0 2.0.0: Get energy data from OVO's API
 dev-python/oyaml 1.0: Ordered YAML: drop-in replacement for PyYAML which preserves dict ordering
-dev-python/p1monitor 3.0.0 3.0.1: Asynchronous Python client for the P1 Monitor
+dev-python/p1monitor 3.0.0 3.0.1 3.1.0: Asynchronous Python client for the P1 Monitor
 dev-python/paho-mqtt 1.6.1: MQTT version 5.0/3.1.1 client class
 dev-python/panacotta 0.2: Python API for controlling Panasonic Blu-Ray players
 dev-python/panasonic-viera 0.4.2: Library to control Panasonic Viera TVs
@@ -1047,7 +1047,7 @@ dev-python/pyombi 0.1.10: A python module to retrieve information from Ombi.
 dev-python/pyopensprinkler 0.7.6 0.7.12: Python module for OpenSprinker API
 dev-python/pyopenssl 24.1.0: Python interface to the OpenSSL library
 dev-python/pyopenuv 2023.2.0: A simple Python API data from openuv.io
-dev-python/pyopenweathermap 0.0.9 0.1.1: lib for OpenWeatherMap for Home Assistant
+dev-python/pyopenweathermap 0.0.9 0.1.1 0.2.1: lib for OpenWeatherMap for Home Assistant
 dev-python/pyopnsense 0.4.0: A python API client for OPNsense
 dev-python/pyoppleio 1.0.5: Python library for interfacing with opple mobile control light
 dev-python/pyoppleio-legacy 1.0.8: Python library for interfacing with old models of opple lights with wifi control.
