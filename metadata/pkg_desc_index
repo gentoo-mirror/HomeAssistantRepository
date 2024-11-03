@@ -1345,7 +1345,7 @@ dev-python/svg-py 1.4.3: SVG drawing library
 dev-python/swisshydrodata 0.1.0: A library to fetch data from the Swiss federal Office for Environment FEON
 dev-python/switchbot-api 2.0.0 2.1.0 2.2.1: An asynchronous library to use Switchbot API
 dev-python/synology-srm 0.2.0: Synology SRM API
-dev-python/syrupy 4.6.0 4.6.1 4.7.1: Pytest Snapshot Test Utility
+dev-python/syrupy 4.6.1 4.7.1 4.7.2: Pytest Snapshot Test Utility
 dev-python/systembridgeconnector 3.10.0 4.0.3 4.1.5: System Bridge Connector
 dev-python/systembridgemodels 4.0.4 4.2.4: System Bridge Models
 dev-python/tahoma-api 0.0.16: Tahoma Api - Python connect to Tahoma REST API
@@ -1509,7 +1509,7 @@ dev-python/zlib-ng 0.2.0: Drop-in replacement for zlib and gzip modules using zl
 dev-python/zm-py 0.5.2-r1 0.5.4: A loose python wrapper around the ZoneMinder REST API.
 dev-python/zwave-js-server-python 0.55.4 0.56.0 0.57.0 0.58.0 0.58.1-r1: Python wrapper for zwave-js-server
 dev-python/zwave-me-ws 0.4.3: Library, implementing websocket connection to ZWave-Me
-dev-vcs/pre-commit 3.6.2 3.7.1: A framework for managing and maintaining multi-language Git pre-commit hooks
+dev-vcs/pre-commit 3.6.2 3.7.1 4.0.0: A framework for managing and maintaining multi-language Git pre-commit hooks
 dev-vcs/python-gitlab 1.6.0: Interact with GitLab API
 media-libs/lv2 1.18.10: A simple but extensible successor of LADSPA
 net-analyzer/shodan 1.28.0: The official Python library for Shodan
