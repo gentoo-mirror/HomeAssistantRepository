@@ -5,12 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=poetry
-PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
-DESCRIPTION="Library to communicate with the Viessmann ViCare API"
-HOMEPAGE="https://github.com/somm15/PyViCare https://pypi.org/project/PyViCare/"
-SRC_URI="$(pypi_sdist_url "${PN^}" "${PV}")"
-S="${WORKDIR}/${P,,}"
+
+DESCRIPTION="Python library to control Vodafone Station"
+HOMEPAGE="https://github.com/chemelli74/aiovodafone https://pypi.org/project/aiovodafone/"
+
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
@@ -19,14 +18,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/Authlib-1.2.0[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/beautifulsoup4[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-cov[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest
