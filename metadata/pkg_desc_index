@@ -462,7 +462,7 @@ dev-python/envirophat 0.0.6: Enviro pHAT environmental sensor board driver
 dev-python/envoy-reader 0.20.1: A program to read from an Enphase Envoy on the local network
 dev-python/envoy-utils 0.0.1: Python utilities for the Enphase Envoy
 dev-python/envs 1.4-r2: Easy access of environment variables from Python with support for strings, booleans, list, tuples, and dicts.
-dev-python/ephem 4.1.5: Compute positions of the planets and stars
+dev-python/ephem 4.1.5 4.1.6: Compute positions of the planets and stars
 dev-python/epicstore-api 0.1.7: An API wrapper for Epic Games Store written in Python
 dev-python/epion 0.0.3: A python API wrapper for Epion Air senor data
 dev-python/epson-projector 0.5.1: Epson projector support for Python
@@ -1171,7 +1171,7 @@ dev-python/python-picnic-api 1.1.0: Unofficial Python wrapper for the Picnic API
 dev-python/python-qbittorrent 0.4.3: Python wrapper for qBittorrent >4.1.x
 dev-python/python-rabbitair 0.0.8: Python library for local control of Rabbit Air air purifiers
 dev-python/python-ripple-api 0.0.3: Python API for interacting with ripple.com.
-dev-python/python-roborock 2.0.0 2.2.3 2.3.0 2.6.0: A package to control Roborock vacuums.
+dev-python/python-roborock 2.6.1: A package to control Roborock vacuums.
 dev-python/python-sense-hat 2.2.0-r3: Raspberry Pi Sense HAT python library
 dev-python/python-singleton 0.1.2: Singleton Metaclass.
 dev-python/python-slugify 4.0.1 8.0.1: A Python Slugify application that handles Unicode
@@ -1222,7 +1222,7 @@ dev-python/qbittorrent-api 2024.2.59: Python client for qBittorrent v4.1+ Web AP
 dev-python/qingping-ble 0.9.0 0.10.0: Qingping BLE support
 dev-python/qnapstats 0.4.0: Python API for obtaining QNAP NAS system stats
 dev-python/quantum-gateway 0.0.8: Query a Quantum Gateway
-dev-python/radios 0.2.0 0.3.1 0.3.2: Asynchronous Python client for the Radio Browser API
+dev-python/radios 0.3.1 0.3.2: Asynchronous Python client for the Radio Browser API
 dev-python/radiotherm 2.1.0: client library for wifi thermostats sold by radiothermostat.com
 dev-python/raincloudy 0.0.7-r1: Melnor RainCloud Smart Garden Watering Irrigation Timer.
 dev-python/rapt-ble 0.1.2: Parser for the RAPT Pill hydrometer BLE packets.
@@ -1276,7 +1276,7 @@ dev-python/sense-energy 0.12.2 0.12.4 0.13.2: API for the Sense Energy Monitor
 dev-python/sensirion-ble 0.1.1-r2: Manage Sensirion BLE devices
 dev-python/sensor-state-data 2.18.0: Models for storing and converting Sensor Data state
 dev-python/sensorpro-ble 0.5.3: SensorPro BLE Devices
-dev-python/sensorpush-ble 1.5.5 1.6.2: Parser for SensorPush BLE devices
+dev-python/sensorpush-ble 1.5.5 1.6.2 1.7.0: Parser for SensorPush BLE devices
 dev-python/sensoterra 2.0.1: Query Sensoterra probes using the Customer API
 dev-python/sentry-sdk 1.37.1 1.39.2 1.40.3: Python client for Sentry
 dev-python/sepaxml 2.2.0: Python SEPA XML implementations
