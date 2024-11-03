@@ -149,7 +149,7 @@ dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2023.5.0 2024.2.1: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 0.1.5 0.4.0: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 24.3.0 24.5.0 24.6.1 25.0.0 25.3.1 27.0.0 27.0.1: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 24.3.0 24.5.0 25.3.1 27.0.0 27.0.1: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.21.3: ftp client/server for asyncio
@@ -157,8 +157,8 @@ dev-python/aiogithubapi 23.11.0-r1 24.6.0: Asynchronous Python client for the Gi
 dev-python/aioguardian 2022.7.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aiohappyeyeballs 2.3.1: Happy Eyeballs
 dev-python/aioharmony 0.2.10: Asyncio Python library for connecting to and controlling the Logitech Harmony
-dev-python/aiohasupervisor 0.1.0 0.2.0: Asynchronous python client for Home Assistant Supervisor.
-dev-python/aiohomekit 3.1.5 3.2.3 3.2.5: An asyncio HomeKit client
+dev-python/aiohasupervisor 0.1.0 0.2.1: Asynchronous python client for Home Assistant Supervisor.
+dev-python/aiohomekit 3.1.5 3.2.3 3.2.6: An asyncio HomeKit client
 dev-python/aiohttp 3.9.5 3.10.8: HTTP client/server for asyncio
 dev-python/aiohttp-fast-url-dispatcher 0.3.0: A faster URL dispatcher for aiohttp
 dev-python/aiohttp-fast-zlib 0.1.0 0.1.1: Use the fastest installed zlib compatible library with aiohttp
@@ -230,7 +230,7 @@ dev-python/aiovodafone 0.5.4 0.6.0 0.6.1: Python library to control Vodafone Sta
 dev-python/aiowaqi 3.0.1 3.1.0: Asynchronous Python client for WAQI API.
 dev-python/aiowatttime 0.1.1: An asyncio-based Python3 library for interacting with WattTime
 dev-python/aiowebostv 0.4.0 0.4.2: Library to control webOS based LG TV devices
-dev-python/aiowithings 2.1.0 3.0.3 3.1.0: Asynchronous Python client for Withings.
+dev-python/aiowithings 2.1.0 3.0.3 3.1.0 3.1.1: Asynchronous Python client for Withings.
 dev-python/aioymaps 1.2.2 1.2.5: Async client for Yandex Maps
 dev-python/aiozoneinfo 0.1.0 0.2.0 0.2.1: Tools to fetch zoneinfo with asyncio
 dev-python/airgradient 0.4.3 0.8.0 0.9.0 0.9.1: Asynchronous Python client for AirGradient.
@@ -1277,7 +1277,7 @@ dev-python/sense-energy 0.12.2 0.12.4 0.13.2: API for the Sense Energy Monitor
 dev-python/sensirion-ble 0.1.1-r2: Manage Sensirion BLE devices
 dev-python/sensor-state-data 2.18.0: Models for storing and converting Sensor Data state
 dev-python/sensorpro-ble 0.5.3: SensorPro BLE Devices
-dev-python/sensorpush-ble 1.6.2 1.7.0: Parser for SensorPush BLE devices
+dev-python/sensorpush-ble 1.6.2 1.7.1: Parser for SensorPush BLE devices
 dev-python/sensoterra 2.0.1: Query Sensoterra probes using the Customer API
 dev-python/sentry-sdk 1.37.1 1.39.2 1.40.3: Python client for Sentry
 dev-python/sepaxml 2.2.0: Python SEPA XML implementations
@@ -1314,7 +1314,7 @@ dev-python/sonos-websocket 0.1.2 0.1.3: An asynchronous Python library to commun
 dev-python/speak2mary 1.4.0: A Python wrapper for Mary TTS
 dev-python/spiderpy 1.6.1: Python wrapper for the Spider API, a way to manage your Spider installation
 dev-python/spidev 3.5: Python bindings for Linux SPI access through spidev
-dev-python/spotifyaio 0.7.1: Asynchronous Python client for Spotify.
+dev-python/spotifyaio 0.8.2: Asynchronous Python client for Spotify.
 dev-python/spotipy 2.23.0: A lightweight Python library for the Spotify Web API
 dev-python/sqlalchemy 2.0.30-r1 2.0.31: Python SQL toolkit and Object Relational Mapper
 dev-python/sqlitedict 1.6.0: Persistent dict in Python, backed up by sqlite3 and pickle, multithread-safe.
