@@ -16,9 +16,6 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
-PATCHES=(
-	"${FILESDIR}/aioshelly.patch"
-)
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
 	>=dev-python/bluetooth-data-tools-1.19.0[${PYTHON_USEDEP}]
@@ -29,3 +26,10 @@ BDEPEND="
 	test? (
 		dev-python/requests[${PYTHON_USEDEP}]
 	)"
+
+src_prepare() {
+	sed "s/packages=find_packages()/packages=find_packages(exclude=['tests','tests.*'])/g" -i setup.py || die
+	eapply_user
+}
+
+distutils_enable_tests pytest
