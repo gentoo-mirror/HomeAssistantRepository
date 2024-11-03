@@ -5,13 +5,14 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=1
-inherit distutils-r1 pypi
-MY_P=${P/_beta/b}
-MY_PV=${PV/_beta/b}
+inherit distutils-r1
+MY_PV1=${PV/_beta/b}
+MY_PV=${MY_PV1/_alpha/a}
 
 DESCRIPTION="subset of Python which allows program input into a trusted environment."
 HOMEPAGE="https://github.com/zopefoundation/RestrictedPython https://pypi.python.org/pypi/RestrictedPython https://pypi.org/project/RestrictedPython/"
+SRC_URI="https://github.com/zopefoundation/${PN}/archive/refs/tags/${MY_PV}.tar.gz -> ${P}.gh.tar.gz"
+S=${WORKDIR}/${PN}-${MY_PV}
 
 LICENSE="ZPL"
 SLOT="0"
@@ -23,15 +24,9 @@ DOCS="README.rst"
 
 DEPEND="
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-mock[${PYTHON_USEDEP}]
 	)"
 
-S="${WORKDIR}/${MY_P}"
 PYTHON_MODULES="${PN}"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

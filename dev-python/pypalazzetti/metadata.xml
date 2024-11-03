@@ -6,11 +6,11 @@
     <name>Andreas Billmeier</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">RestrictedPython</remote-id>
-    <remote-id type="github">zopefoundation/RestrictedPython</remote-id>
+    <remote-id type="pypi">pypalazzetti</remote-id>
+    <remote-id type="github">dotvav/python-palazzetti-api</remote-id>
     <maintainer status="unknown">
-      <email>zope-dev@zope.dev</email>
-      <name>Zope Foundation and Contributors</name>
+      <email>vincent.roukine@gmail.com</email>
+      <name>Vincent Roukine</name>
     </maintainer>
   </upstream>
 </pkgmetadata>
