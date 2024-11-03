@@ -149,7 +149,7 @@ dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2023.5.0 2024.2.1: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 0.1.5 0.4.0: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 24.3.0 24.5.0 24.6.1 25.0.0 25.3.1 27.0.0: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 24.3.0 24.5.0 24.6.1 25.0.0 25.3.1 27.0.0 27.0.1: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.21.3: ftp client/server for asyncio
@@ -159,7 +159,7 @@ dev-python/aiohappyeyeballs 2.3.1: Happy Eyeballs
 dev-python/aioharmony 0.2.10: Asyncio Python library for connecting to and controlling the Logitech Harmony
 dev-python/aiohasupervisor 0.1.0 0.2.0: Asynchronous python client for Home Assistant Supervisor.
 dev-python/aiohomekit 3.1.5 3.2.3 3.2.5: An asyncio HomeKit client
-dev-python/aiohttp 3.8.6 3.9.4 3.9.5 3.10.7: HTTP client/server for asyncio
+dev-python/aiohttp 3.9.5 3.10.8: HTTP client/server for asyncio
 dev-python/aiohttp-fast-url-dispatcher 0.3.0: A faster URL dispatcher for aiohttp
 dev-python/aiohttp-fast-zlib 0.1.0 0.1.1: Use the fastest installed zlib compatible library with aiohttp
 dev-python/aiohttp-isal 0.3.1-r1: isal support for aiohttp
@@ -291,7 +291,7 @@ dev-python/atomicwrites-homeassistant 1.4.1: Atomic file writes.
 dev-python/attrs 23.2.0: Attributes without boilerplate
 dev-python/auroranoaa 0.0.3 0.0.5: NOAA Aurora Wrapper for Home Assistant Integration.
 dev-python/aurorapy 0.2.7: Python implementation of Aurora Protocol
-dev-python/autarco 2.0.0 3.0.0 3.1.0: Asynchronous Python client for the Autarco Inverters
+dev-python/autarco 3.0.0 3.1.0: Asynchronous Python client for the Autarco Inverters
 dev-python/automower-ble 0.2.0: An unofficial reverse engineered Husqvarna Automower Connect BLE library
 dev-python/av 9.2.0: Pythonic bindings for FFmpeg's libraries.
 dev-python/avea 1.5.1: Control an Elgato Avea bulb using python3
@@ -346,7 +346,7 @@ dev-python/botocore 1.34.131: Low-level, data-driven core of boto 3
 dev-python/bravia-tv 1.0.11: Python Bravia TV remote control
 dev-python/bring-api 0.5.7 0.7.1 0.8.1 0.9.0: Unofficial package to access Bring! shopping lists API.
 dev-python/broadlink 0.18.3 0.19.0: Python API for controlling Broadlink devices
-dev-python/brother 4.1.0 4.3.0: Python wrapper for getting data from Brother laser and inkjet printers via SNMP.
+dev-python/brother 4.1.0 4.3.0 4.3.1: Python wrapper for getting data from Brother laser and inkjet printers via SNMP.
 dev-python/brotlipy 0.7.0: Python binding to the Brotli library
 dev-python/brottsplatskartan 0.0.1 1.0.5: Simple API wrapper to brottsplatskartan.se.
 dev-python/brunt 1.2.0: Unofficial python SDK for Brunt, this package allows you to control your Brunt devices from code.
@@ -1484,7 +1484,7 @@ dev-python/yagrc 1.1.2: Yet another gRPC reflection client
 dev-python/yalesmartalarmclient 0.3.9 0.4.0 0.4.3: Interact with Yale Smart Alarm systems
 dev-python/yalexs 3.0.1 3.1.0 8.6.4 8.10.0: Python API for Yale Access (formerly August) Smart Lock and Doorbell
 dev-python/yalexs-ble 2.4.2 2.4.3 2.5.0: Bluetooth control of Yale and August locks
-dev-python/yarl 1.9.2 1.9.7 1.13.0: Yet another URL library
+dev-python/yarl 1.9.7 1.13.1: Yet another URL library
 dev-python/yeelight 0.7.14: A Python library for controlling YeeLight RGB bulbs.
 dev-python/yeelightsunflower 0.0.10: Python package for interacting with Yeelight Sunflower bulbs
 dev-python/yolink-api 0.4.4 0.4.7: A library to authenticate with yolink device
