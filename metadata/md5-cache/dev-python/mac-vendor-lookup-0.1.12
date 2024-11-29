@@ -12,5 +12,5 @@ REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 python_tar
 RESTRICT=!test? ( test ) !test? ( test )
 SLOT=0
 SRC_URI=https://github.com/bauerj/mac_vendor_lookup/archive/90dbea48f8a9d567b5f9039ebd151ddfe7d12a19.tar.gz -> mac-vendor-lookup-0.1.12.gh.tar.gz https://hasf.edevau.net/m/mac-vendors/mac-vendors-0.1.12.txt.xz
-_eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	2fee95c11e5f883024588d4837db6802	python-r1	2def7a4ce233dfa344f613025c619a23	distutils-r1	db6e4e998c9effc162bd2aa3b0d8f855
+_eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	b5b2c146634108c3b50cf26eb05b848a	python-r1	2def7a4ce233dfa344f613025c619a23	distutils-r1	5c393084b49367027d2b181952f0bbdb
 _md5_=f9d7c8e8a94da9de4ea86777c454d676
