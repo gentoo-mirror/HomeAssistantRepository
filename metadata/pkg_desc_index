@@ -22,7 +22,7 @@ dev-libs/foils_hid 0.3: Freebox Network HID devices library
 dev-libs/libela 0.3: Runtime Event Loop Abstraction library
 dev-libs/libgit2 1.5.2: A linkable library for Git
 dev-libs/librudp 0.3: UDP transport with optional reliability
-dev-libs/protobuf 24.2 24.3 25.1 25.1-r1 25.2 25.2-r1 28.2: Google's Protocol Buffers - Extensible mechanism for serializing structured data
+dev-libs/protobuf 25.1-r1 25.2 25.2-r1 28.2: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-python/AEMET-OpenData 0.5.1 0.5.2 0.5.4: AEMET OpenData Rest API library
 dev-python/AIOAladdinConnect 0.1.58: Python Async API for controlling Genie garage doors connected to Aladdin Connect devices
 dev-python/AIOSomecomfort 0.0.24 0.0.25: A client for Honeywell's US-based cloud devices
@@ -752,7 +752,7 @@ dev-python/mychevy 2.1.1: Python interface to My Chevy online data
 dev-python/mycroftapi 2.0: a library to communicate with Mycroft API
 dev-python/mypermobil 0.1.6 0.1.8: A Python wrapper for the MyPermobil API
 dev-python/mypy-dev 1.11.0_alpha3 1.12.0_alpha3: Optional static typing for Python
-dev-python/mysql-connector-python 8.0.28-r1: Python client library for MariaDB/MySQL
+dev-python/mysql-connector-python 8.0.28-r2: Python client library for MariaDB/MySQL
 dev-python/myuplink 0.0.9 0.5.0 0.6.0: API package for myUplink
 dev-python/nad-receiver 0.3.0: Library to interface with NAD receivers through RS232, TCP and telnet
 dev-python/nclib 1.0.1: Netcat as a library: convienent socket interfaces
