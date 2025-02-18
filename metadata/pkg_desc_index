@@ -779,6 +779,7 @@ dev-python/nsapi 3.0.5: api wrapper for Dutch Railways (NS)
 dev-python/nsw-fuel-api-client 1.1.0: API Client for NSW Government Fuel
 dev-python/nuheat 1.0.1: Control of connected NuHeat Signature radiant floor thermostats.
 dev-python/numato-gpio 0.10.0 0.12.0 0.13.0: Python API for Numato GPIO Expanders
+dev-python/numexpr 2.9.0: Fast numerical array expression evaluator for Python and NumPy
 dev-python/numpy 1.26.0-r1: Fast array and numerical python library
 dev-python/nyt-games 0.4.3 0.4.4: Asynchronous Python client for NYT games.
 dev-python/oasatelematics 0.3: Python wrapper for the OASA Telematics API
