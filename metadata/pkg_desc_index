@@ -851,7 +851,7 @@ dev-python/prayer-times-calculator 0.0.10 0.0.12: Prayer Times Calculator
 dev-python/prayer-times-calculator-offline 1.0.3: Prayer Times Calculator - Offline
 dev-python/proliphix 0.4.1: API for Proliphix nt10e network thermostat.
 dev-python/prometheus-client 0.17.1: Python client for the Prometheus monitoring system
-dev-python/protobuf 4.25.1 4.25.2 5.28.2: Google's Protocol Buffers - Python bindings
+dev-python/protobuf 4.25.1 5.28.2: Google's Protocol Buffers - Python bindings
 dev-python/proxmoxer 2.0.1: Python Wrapper for the Proxmox 2.x API (HTTP and SSH)
 dev-python/psutil 5.9.2: Retrieve information on running processes and system utilization
 dev-python/psutil-home-assistant 0.0.1: Wrapper for psutil to allow it to be used several times in the same process.
@@ -1022,7 +1022,7 @@ dev-python/pymediaroom 0.6.5.4: Remote control your Mediaroom Set-up-box
 dev-python/pymelcloud 2.5.8 2.5.9: Python MELCloud interface
 dev-python/pymeteoclimatic 0.0.6 0.1.0: A Python wrapper around the Meteoclimatic service
 dev-python/pymfy 0.11.0: A Somfy Open API library
-dev-python/pymicro-vad 1.0.1: Self-contained voice activity detector
+dev-python/pymicro-vad 1.0.1 1.0.1-r1: Self-contained voice activity detector
 dev-python/pymitv 1.4.3: A Python 3 based Xiaomi TV remote
 dev-python/pymochad 0.2.0: A python library for interacting with moch
 dev-python/pymodbus 3.6.8 3.6.9: A fully featured modbus protocol stack in python
@@ -1110,7 +1110,7 @@ dev-python/pysnmpcrypto 0.0.4: Strong cryptography support for PySNMP (SNMP libr
 dev-python/pysnooz 0.8.6: Control SNOOZ white noise machines.
 dev-python/pysoma 0.0.12: A simple package for controlling SOMA devices
 dev-python/pyspcwebgw 0.7.0: A Python library for communicating with SPC Web Gateway.
-dev-python/pyspeex-noise 1.0.2: Noise suppression and automatic gain with speex.
+dev-python/pyspeex-noise 1.0.2 1.0.2-r1: Noise suppression and automatic gain with speex.
 dev-python/pysqueezebox 0.7.1 0.9.3 0.10.0: Asynchronous library to control Logitech Media Server
 dev-python/pystiebeleltron 0.0.1: Python API for interacting with the Stiebel Eltron ISG web gateway via Modbus.
 dev-python/pysuez 0.2.0: Get your water consumption data from your Suez account (www.toutsurmoneau.fr)
