@@ -33,7 +33,6 @@ dev-python/Adafruit_BBIO 1.1.1: A module to control BeagleBone IO channels
 dev-python/Adax-local 0.1.5: A python3 library to communicate with Adax
 dev-python/Ambiclimate 0.2.1: A python3 library to communicate with Ambiclimate
 dev-python/Authlib 1.2.0: The ultimate Python library in building OAuth and OpenID Connect servers.
-dev-python/Babel 2.13.1 2.15.0: Collection of tools for internationalizing Python applications
 dev-python/BlinkStick 1.2.0: Python package to control BlinkStick USB devices.
 dev-python/CO2Signal 0.4.2: A package to access the co2signal API
 dev-python/DTLSSocket 0.2.2: DTLSSocket is a cython wrapper for tinydtls with a Socket like interface
@@ -307,6 +306,7 @@ dev-python/azure-kusto-data 3.1.0 4.5.1: Kusto Data Client
 dev-python/azure-kusto-ingest 3.1.0 4.5.1: Kusto Ingest Client
 dev-python/azure-storage-blob 12.20.0: Microsoft Azure Blob Storage Client Library for Python
 dev-python/azure-storage-queue 12.10.0: Microsoft Azure Azure Queue Storage Client Library for Python
+dev-python/babel 2.13.1 2.15.0: Collection of tools for internationalizing Python applications
 dev-python/backports-strenum 1.2.8: Base class for creating enumerated constants that are also subclasses of str
 dev-python/baidu-aip 1.6.6.0: Baidu AIP SDK
 dev-python/base36 0.1.1: Yet another implementation for the positional numeral system using 36 as the radix.
