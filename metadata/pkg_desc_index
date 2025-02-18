@@ -251,7 +251,7 @@ dev-python/anel-pwrctrl-homeassistant 0.0.1: Discover and control ANEL NET-PwrCt
 dev-python/anova-wifi 0.10.0 0.12.0 0.17.0: A package to get read only data from Anova precision cookers with wifi
 dev-python/anthemav 1.4.1: Python API for controlling Anthem Receivers
 dev-python/anthropic 0.31.2: The official Python library for the anthropic API
-dev-python/anyio 4.1.0 4.3.0-r1 4.4.0: Compatibility layer for multiple asynchronous event loop implementations
+dev-python/anyio 4.1.0 4.3.0-r1 4.4.0 4.6.0: Compatibility layer for multiple asynchronous event loop implementations
 dev-python/apcaccess 0.0.13: This project implements the apcaccess tool in pure Python and provides
 dev-python/apischema 0.18.1: JSON (de)serialization, GraphQL and JSON schema generation using Python typing.
 dev-python/apns2 0.3.0: Interacting with the Apple Push Notification Service via HTTP/2 protocol
@@ -311,7 +311,7 @@ dev-python/backports-strenum 1.2.8: Base class for creating enumerated constants
 dev-python/baidu-aip 1.6.6.0: Baidu AIP SDK
 dev-python/base36 0.1.1: Yet another implementation for the positional numeral system using 36 as the radix.
 dev-python/batinfo 0.4.2: A simple Python module to retrieve battery information
-dev-python/bcrypt 4.0.1 4.1.2 4.1.3: Modern password hashing for software and servers
+dev-python/bcrypt 4.1.2 4.1.3 4.2.0-r3: Modern password hashing for software and servers
 dev-python/beacontools 2.1.0: A Python library for working with various types of Bluetooth LE Beacons.
 dev-python/beautifulsoup4 4.12.2: Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree
 dev-python/beewi-smartclim 0.0.10: Library to read data from BeeWi SmartClim sensor using Bluetooth LE
@@ -373,7 +373,7 @@ dev-python/codecov 2.1.12-r1: Hosted coverage reports for GitHub, Bitbucket and 
 dev-python/coinbase 2.1.0: Coinbase API client library
 dev-python/coinbase-advanced-py 1.2.2: Coinbase Advanced API Python SDK
 dev-python/colored 1.4.4: Simple library for color and formatting to terminal
-dev-python/colorlog 6.6.0-r1 6.7.0: Log formatting with colors
+dev-python/colorlog 6.6.0-r1 6.7.0 6.8.2: Log formatting with colors
 dev-python/colorthief 0.2.1: A module for grabbing the color palette from an image.
 dev-python/colorzero 2.0: Yet another Python color library
 dev-python/concord232 0.15 0.15.1: GE Concord 4 RS232 Serial Interface Library and Server
@@ -411,7 +411,7 @@ dev-python/debugpy 1.8.1 1.8.6: An implementation of the Debug Adapter Protocol 
 dev-python/decora 0.6: Python API for controlling Decora dimmer switches
 dev-python/decora-wifi 1.4: Python API for controlling Leviton Decora Smart WiFi switches
 dev-python/deebot-client 7.2.0 7.3.0 8.4.0: Deebot client library in python 3
-dev-python/deepdiff 6.2.1: Deep Difference and Search of any Python object/data.
+dev-python/deepdiff 6.2.1 7.0.1: A library for comparing dictionaries, iterables, strings and other objects
 dev-python/deluge-client 1.7.1 1.10.2: Simple Deluge Client
 dev-python/demetriek 0.4.0: Asynchronous Python client for LaMetric TIME devices
 dev-python/demjson3 3.0.5: encoder, decoder, and lint/validator for JSON (JavaScript Object Notation) compliant with RFC 7159
@@ -808,7 +808,7 @@ dev-python/openwrt-ubus-rpc 0.0.2: OpenWrt ubus RPC API library
 dev-python/opower 0.4.4 0.4.7 0.8.3 0.8.6: A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG&E
 dev-python/opuslib 3.0.1: Python bindings to the libopus, IETF low-delay audio codec
 dev-python/oralb-ble 0.17.6: Bluetooth library for Oral B devices
-dev-python/orjson 3.9.9 3.9.15: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
+dev-python/orjson 3.9.9 3.9.15 3.10.7-r1: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
 dev-python/oru 0.1.11: Python client for Orange and Rockland Utility smart energy meters
 dev-python/orvibo 1.1.1 1.1.2: Control Orvibo products.
 dev-python/oscrypto 1.3.0: TLS (SSL) sockets, key generation, encryption, decryption, signing, verification and KDFs using the OS crypto libraries.
@@ -854,7 +854,7 @@ dev-python/proliphix 0.4.1: API for Proliphix nt10e network thermostat.
 dev-python/prometheus-client 0.17.1: Python client for the Prometheus monitoring system
 dev-python/protobuf 4.25.1 5.28.2: Google's Protocol Buffers - Python bindings
 dev-python/proxmoxer 2.0.1: Python Wrapper for the Proxmox 2.x API (HTTP and SSH)
-dev-python/psutil 5.9.2: Retrieve information on running processes and system utilization
+dev-python/psutil 5.9.2 6.0.0-r1: Retrieve information on running processes and system utilization
 dev-python/psutil-home-assistant 0.0.1: Wrapper for psutil to allow it to be used several times in the same process.
 dev-python/pubnub 7.4.2: PubNub Real-time push service in the cloud
 dev-python/pubnubsub-handler 1.0.9: Handles the PubNub subscriptions between PubNub and Home-Assistant for Wink
@@ -940,6 +940,7 @@ dev-python/pycups 1.9.73-r3: Python bindings for the CUPS API
 dev-python/pydaikin 2.11.1 2.13.4 2.13.6 2.13.7-r1: Python Daikin HVAC appliances interface
 dev-python/pydanfossair 0.1.0: Python interface for Danfoss Air HRV systems
 dev-python/pydantic 1.10.12 1.10.13 1.10.15 1.10.17 1.10.18: Data parsing and validation using Python type hints
+dev-python/pydantic-core 2.25.0-r1: Core validation logic for pydantic written in Rust
 dev-python/pydeako 0.4.0 0.5.4: Connect and interact with deako devices over the network locally
 dev-python/pydeconz 115 116 118: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
 dev-python/pydelijn 1.1.0: Get realtime info on stop passages of De Lijn (api.delijn.be)
@@ -1197,7 +1198,7 @@ dev-python/pytrackr 0.0.5: Interface to the TrackR API
 dev-python/pytradfri 9.0.1: IKEA Tradfri/Tradfri API. Control and observe your lights from Python.
 dev-python/pytrafikverket 0.3.10 1.0.0: Retreive values from public API at the Swedish Transport Administration (Trafikverket).
 dev-python/pytrydan 0.6.0 0.6.1 0.8.0: Library to interface with V2C EVSE Trydan
-dev-python/pyudev 0.23.2: Python binding to libudev
+dev-python/pyudev 0.23.2 0.24.1: Python binding to libudev
 dev-python/pyuptimerobot 22.2.0: Python API wrapper for Uptime Robot.
 dev-python/pyusb 1.2.1-r2: USB support for Python
 dev-python/pyvera 0.3.13 0.3.15: Python API for talking to Veracontrollers
@@ -1494,7 +1495,7 @@ dev-python/youtubeaio 1.1.5: Asynchronous Python client for YouTube V3 API.
 dev-python/zamg 0.3.3 0.3.5 0.3.6: Asynchronous Python client for ZAMG weather data.
 dev-python/zeep 4.2.1: A modern/fast Python SOAP client based on lxml / requests
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs
-dev-python/zeroconf 0.132.2 0.133.0 0.136.0: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
+dev-python/zeroconf 0.132.2 0.133.0 0.135.0 0.136.0: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-python/zeversolar 0.3.1 0.3.2: Simple Python wrapper for the local CGI provided by ZeverSolar
 dev-python/zha 0.0.33 0.0.34 0.0.37: Library implementing ZHA for Home Assistant
 dev-python/zha-quirks 0.0.112 0.0.114 0.0.115 0.0.116 0.0.117 0.0.122: Library implementing Zigpy quirks for ZHA in Home Assistant
