@@ -938,7 +938,7 @@ dev-python/pycsspeechtts 1.0.8: Python 3 interface to Microsoft Cognitive Servic
 dev-python/pycups 1.9.73-r3: Python bindings for the CUPS API
 dev-python/pydaikin 2.11.1 2.13.4 2.13.6 2.13.7-r1: Python Daikin HVAC appliances interface
 dev-python/pydanfossair 0.1.0: Python interface for Danfoss Air HRV systems
-dev-python/pydantic 1.10.12 1.10.13 1.10.15 1.10.17: Data parsing and validation using Python type hints
+dev-python/pydantic 1.10.12 1.10.13 1.10.15 1.10.17 1.10.18: Data parsing and validation using Python type hints
 dev-python/pydeako 0.4.0 0.5.4: Connect and interact with deako devices over the network locally
 dev-python/pydeconz 115 116 118: A Python library for communicating with deCONZ REST-API from Dresden Elektronik
 dev-python/pydelijn 1.1.0: Get realtime info on stop passages of De Lijn (api.delijn.be)
