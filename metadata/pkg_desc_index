@@ -1022,7 +1022,7 @@ dev-python/pymediaroom 0.6.5.4: Remote control your Mediaroom Set-up-box
 dev-python/pymelcloud 2.5.8 2.5.9: Python MELCloud interface
 dev-python/pymeteoclimatic 0.0.6 0.1.0: A Python wrapper around the Meteoclimatic service
 dev-python/pymfy 0.11.0: A Somfy Open API library
-dev-python/pymicro-vad 1.0.1 1.0.1-r1: Self-contained voice activity detector
+dev-python/pymicro-vad 1.0.1-r1: Self-contained voice activity detector
 dev-python/pymitv 1.4.3: A Python 3 based Xiaomi TV remote
 dev-python/pymochad 0.2.0: A python library for interacting with moch
 dev-python/pymodbus 3.6.8 3.6.9: A fully featured modbus protocol stack in python
