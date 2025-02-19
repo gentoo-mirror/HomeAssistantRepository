@@ -530,7 +530,7 @@ dev-python/gios 4.0.0 5.0.0: Python wrapper for getting air quality data from GI
 dev-python/gitterpy 0.1.7: Python interface for the Gitter API
 dev-python/glances-api 0.5.0 0.6.0 0.8.0: Python API for interacting with Glances.
 dev-python/gntp 1.0.3: Growl Notification Transport Protocol for Python
-dev-python/go2rtc-client 0.0.1_beta3 0.1.0: Python client for go2rtc
+dev-python/go2rtc-client 0.1.0-r1: Python client for go2rtc
 dev-python/goalzero 0.2.2: Goal Zero REST Api Library
 dev-python/goodwe 0.2.32 0.3.5 0.3.6: Read data from GoodWe inverter via local network
 dev-python/google-ai-generativelanguage 0.3.3 0.4.0 0.6.5: Google Ai Generativelanguage API client library
