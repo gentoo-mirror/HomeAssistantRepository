@@ -851,7 +851,7 @@ dev-python/prawcore 2.3.0: Low-level communication layer for PRAW 4+.
 dev-python/prayer-times-calculator 0.0.10 0.0.12: Prayer Times Calculator
 dev-python/prayer-times-calculator-offline 1.0.3: Prayer Times Calculator - Offline
 dev-python/proliphix 0.4.1: API for Proliphix nt10e network thermostat.
-dev-python/prometheus-client 0.17.1: Python client for the Prometheus monitoring system
+dev-python/prometheus-client 0.17.1 0.21.0: Python client for the Prometheus monitoring system
 dev-python/protobuf 4.25.1 5.28.2: Google's Protocol Buffers - Python bindings
 dev-python/proxmoxer 2.0.1: Python Wrapper for the Proxmox 2.x API (HTTP and SSH)
 dev-python/psutil 5.9.2 6.0.0-r1: Retrieve information on running processes and system utilization
@@ -1514,7 +1514,7 @@ dev-vcs/pre-commit 3.7.1 4.0.0: A framework for managing and maintaining multi-l
 dev-vcs/python-gitlab 1.6.0: Interact with GitLab API
 media-libs/lv2 1.18.10: A simple but extensible successor of LADSPA
 net-analyzer/shodan 1.28.0: The official Python library for Shodan
-net-misc/yt-dlp 2023.11.16 2024.05.27 2024.08.06 2024.09.27: youtube-dl fork with additional features and fixes
+net-misc/yt-dlp 2024.05.27 2024.08.06 2024.09.27 2024.10.22: youtube-dl fork with additional features and fixes
 sci-geosciences/GeographicLib 1.52-r3: C++ library for converting geographic coordinate systems
 sci-geosciences/geopy 2.1.0 2.3.0-r2: Python client for several popular geocoding web services
 sci-libs/tensorflow 2.5.0-r3: Computation framework using data flow graphs for scalable machine learning
