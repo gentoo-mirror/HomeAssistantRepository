@@ -3,17 +3,22 @@
 
 EAPI=8
 
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 PYTHON_COMPAT=( python3_{11..13} )
 inherit bash-completion-r1 distutils-r1 optfeature wrapper
 
 DESCRIPTION="youtube-dl fork with additional features and fixes"
 HOMEPAGE="https://github.com/yt-dlp/yt-dlp/"
-SRC_URI="https://github.com/yt-dlp/yt-dlp/releases/download/${PV}/${PN}.tar.gz -> ${P}.tar.gz"
-S="${WORKDIR}/${PN}"
+SRC_URI="
+	https://github.com/yt-dlp/yt-dlp/releases/download/${PV}/${PN}.tar.gz
+		-> ${P}.tar.gz
+"
+S=${WORKDIR}/${PN}
 
 LICENSE="Unlicense"
 SLOT="0"
+# note that yt-dlp bumps are typically done straight-to-stable (unless there
+# was major/breaking changes) given website changes breaks it on a whim
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
@@ -26,14 +31,16 @@ distutils_enable_tests pytest
 src_prepare() {
 	distutils-r1_src_prepare
 
-	# adjust requires for pycryptodome and optional dependencies (bug #828466)
-	sed -ri requirements.txt \
-		-e "s/^(pycryptodome)x/\1/" \
-		-e "/^(brotli.*|certifi|mutagen|requests|urllib3|websockets)/d" || die
+	# adjust pycryptodome and drop optional dependencies (bug #828466)
+	sed -Ei pyproject.toml \
+		-e 's/("pycryptodome)x/\1/' \
+		-e '/"(brotli.*|certifi|mutagen|requests|urllib3|websockets)/d' || die
 }
 
 python_test() {
 	local EPYTEST_DESELECT=(
+		# fails with FEATURES=network-sandbox
+		test/test_networking.py::TestHTTPRequestHandler::test_connect_timeout
 		# fails with FEATURES=distcc, bug #915614
 		test/test_networking.py::TestYoutubeDLNetworking::test_proxy\[None-expected2\]
 	)
