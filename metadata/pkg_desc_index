@@ -10,9 +10,9 @@ acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 2.8.0-r1 2.9.0-r1: ACME protocol implementation in Python
 app-misc/home-assistant-cli 0.9.6 9999: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2024.5.5 2024.6.4 2024.9.3 2024.10.4 2024.10.4-r1 2024.11.1: Open-source home automation platform running on Python.
-app-misc/homeassistant-full 2024.5.5 2024.6.4 2024.10.2 2024.10.3 2024.10.4 2024.10.4-r1 2024.11.1 2024.11.3 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2024.5.5 2024.6.4 2024.10.4 2024.11.1: Open-source home automation platform running on Python.
+app-misc/homeassistant 2024.5.5 2024.6.4 2024.9.3 2024.10.4 2024.10.4-r1 2024.11.1 2024.11.3: Open-source home automation platform running on Python.
+app-misc/homeassistant-full 2024.5.5 2024.6.4 2024.10.2 2024.10.3 2024.10.4 2024.10.4-r1 2024.11.1 2024.11.3-r1 9999: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2024.5.5 2024.6.4 2024.10.4 2024.11.1 2024.11.3: Open-source home automation platform running on Python.
 app-misc/zigbee2mqtt 1.35.2 1.39.1 1.40.1: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2023.12.9 2024.2.2 2024.3.2-r1 2024.5.3-r1 2024.7.0-r1 2024.10.2-r1 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20231107.0 20240319.0 20240412.0 20240429.1 20240620.0: ESPHome dashboard
