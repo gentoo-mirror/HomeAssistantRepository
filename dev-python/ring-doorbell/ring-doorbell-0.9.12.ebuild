@@ -13,24 +13,20 @@ HOMEPAGE="https://github.com/tchellomello/python-ring-doorbell https://pypi.org/
 LICENSE="LGPL-3+"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
-IUSE="listen test"
+IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND=">=dev-python/oauthlib-3.0.0[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/oauthlib-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2022.0[${PYTHON_USEDEP}]
-	dev-python/asyncclick[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	listen? ( >=dev-python/firebase-messaging-0.2.1[${PYTHON_USEDEP}] )"
+	>=dev-python/asyncclick-8.1.7.1[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-23.0.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/websockets-13.0.0[${PYTHON_USEDEP}]
+	>=dev-python/firebase-messaging-0.4.0[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
-
-python_prepare_all() {
-	sed -i -e 's:"LICENSE",::' pyproject.toml || die
-	sed -i -e 's:"CONTRIBUTING.rst", ::' pyproject.toml || die
-	sed -i -e 's:"CHANGELOG.rst",::' pyproject.toml || die
-	distutils-r1_python_prepare_all
-	}
