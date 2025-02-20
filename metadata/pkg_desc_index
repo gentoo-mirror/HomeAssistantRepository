@@ -122,8 +122,8 @@ dev-python/aio-geojson-nsw-rfs-incidents 0.6 0.7: An async GeoJSON client librar
 dev-python/aio-geojson-usgs-earthquakes 0.2 0.3: An async GeoJSON client library for the U.S. Geological Survey Earthquake Hazards Program.
 dev-python/aio-georss-client 0.11 0.12 0.14: An async GeoRSS client library.
 dev-python/aio-georss-gdacs 0.9 0.10: An async GeoRSS client library for GDACS feeds.
-dev-python/aioairq 0.3.1 0.3.2: Asynchronous library to retrieve data from air-Q devices.
-dev-python/aioairzone 0.7.6 0.8.2 0.9.3 0.9.5: Library to control Airzone devices
+dev-python/aioairq 0.3.2 0.4.3: Asynchronous library to retrieve data from air-Q devices.
+dev-python/aioairzone 0.7.6 0.8.2 0.9.3 0.9.5 0.9.7: Library to control Airzone devices
 dev-python/aioairzone-cloud 0.5.1 0.6.6 0.6.10: Library to control Airzone Cloud devices
 dev-python/aioambient 2024.1.0 2024.8.0: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioapcaccess 0.4.2: Async version of apcaccess library implemented in python.
@@ -233,7 +233,7 @@ dev-python/aioymaps 1.2.2 1.2.5: Async client for Yandex Maps
 dev-python/aiozoneinfo 0.1.0 0.2.0 0.2.1: Tools to fetch zoneinfo with asyncio
 dev-python/airgradient 0.4.3 0.8.0 0.9.0 0.9.1: Asynchronous Python client for AirGradient.
 dev-python/airly 1.1.0: Python wrapper for getting air quality data from Airly sensors.
-dev-python/airthings-ble 0.7.1 0.9.0 0.9.1: Manage Airthings BLE devices
+dev-python/airthings-ble 0.7.1 0.9.0 0.9.1 0.9.2: Manage Airthings BLE devices
 dev-python/airthings-cloud 0.1.0 0.2.0: A python3 library to communicate with Airthings devices
 dev-python/airtouch4pyapi 1.0.5-r1: An api allowing control of AC state (temperature, on/off, mode) of an Airtouch 4 controller locally over TCP
 dev-python/airtouch5py 0.2.8 0.2.10: Python client for the airtouch 5
