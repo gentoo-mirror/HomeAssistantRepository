@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Library implementing Zigpy quirks for ZHA in Home Assistant"
-HOMEPAGE="https://github.com/dmulcahey/zha-device-handlers https://pypi.org/project/zha-quirks/"
+DESCRIPTION="Python wrapper for zwave-js-server"
+HOMEPAGE="https://github.com/home-assistant-libs/zwave-js-server-python https://pypi.org/project/zwave-js-server-python/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -17,12 +17,18 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/zigpy-0.63.5[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.10.5[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.0[${PYTHON_USEDEP}]"
+BDEPEND="
+	test? (
+		dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
+		dev-python/pytest-cov[${PYTHON_USEDEP}]
+		dev-python/pytest-timeout[${PYTHON_USEDEP}]
+	)"
 
 src_prepare() {
 	# remove dynamic-versioning
 	sed 's/dynamic = \["version"\]/version = \"'${PV}'\"/g' -i pyproject.toml || die
-	sed 's/, "setuptools-git-versioning<2"//g' -i pyproject.toml || die
 	eapply_user
 }
 

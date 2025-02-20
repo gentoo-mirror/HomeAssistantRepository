@@ -5,19 +5,26 @@ EAPI=8
 PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
+DESCRIPTION="Library implementing EZSP"
+HOMEPAGE="https://github.com/zigpy/bellows https://pypi.org/project/bellows/"
 
-DESCRIPTION="Library implementing Zigpy quirks for ZHA in Home Assistant"
-HOMEPAGE="https://github.com/dmulcahey/zha-device-handlers https://pypi.org/project/zha-quirks/"
-
-LICENSE="Apache-2.0"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
-
-RDEPEND=">=dev-python/zigpy-0.63.5[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-log-0.2.1[${PYTHON_USEDEP}]
+	~dev-python/pure-pcapy3-1.0.1[${PYTHON_USEDEP}]
+	dev-python/voluptuous[${PYTHON_USEDEP}]
+	>=dev-python/zigpy-0.70.0[${PYTHON_USEDEP}]"
+BDEPEND="
+	test? (
+		dev-python/asynctest[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+		dev-python/pytest-timeout[${PYTHON_USEDEP}]
+	)"
 
 src_prepare() {
 	# remove dynamic-versioning
