@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for Ayla IoT products"
-HOMEPAGE="https://github.com/rewardone/ayla-iot-unofficial https://pypi.org/project/ayla-iot-unofficial/"
+DESCRIPTION="Python library for Lutron RadioRA 2"
+HOMEPAGE="https://github.com/thecynic/pylutron https://pypi.org/project/pylutron/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -17,9 +17,5 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
-
-RDEPEND=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
-	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	>=dev-python/ujson-5.8.0[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

@@ -7,10 +7,10 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for Ayla IoT products"
-HOMEPAGE="https://github.com/rewardone/ayla-iot-unofficial https://pypi.org/project/ayla-iot-unofficial/"
+DESCRIPTION="ThinQ Connect Python SDK"
+HOMEPAGE="https://github.com/thinq-connect/pythinqconnect https://pypi.org/project/thinqconnect/"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,8 +18,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
-	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	>=dev-python/ujson-5.8.0[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/awsiotsdk[${PYTHON_USEDEP}]
+	dev-python/pyopenssl[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
