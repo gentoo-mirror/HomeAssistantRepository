@@ -6,17 +6,17 @@ EAPI=8
 PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Library to control Airzone devices"
-HOMEPAGE="https://github.com/Noltari/aioairzone https://pypi.org/project/aioairzone/"
 
-LICENSE="Apache-2.0"
+DESCRIPTION="Unofficial package to access Bring! shopping lists API."
+HOMEPAGE="https://github.com/miaucl/python-bring-api https://pypi.org/project/bring-api/"
+
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
-
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
