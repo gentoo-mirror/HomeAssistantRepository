@@ -1176,7 +1176,7 @@ dev-python/python-picnic-api 1.1.0: Unofficial Python wrapper for the Picnic API
 dev-python/python-qbittorrent 0.4.3: Python wrapper for qBittorrent >4.1.x
 dev-python/python-rabbitair 0.0.8: Python library for local control of Rabbit Air air purifiers
 dev-python/python-ripple-api 0.0.3: Python API for interacting with ripple.com.
-dev-python/python-roborock 2.6.1: A package to control Roborock vacuums.
+dev-python/python-roborock 2.6.1 2.7.2: A package to control Roborock vacuums.
 dev-python/python-sense-hat 2.2.0-r3: Raspberry Pi Sense HAT python library
 dev-python/python-singleton 0.1.2: Singleton Metaclass.
 dev-python/python-slugify 4.0.1 8.0.1: A Python Slugify application that handles Unicode
@@ -1429,8 +1429,8 @@ dev-python/user-agents 2.0-r2: A library to identify devices (phones, tablets) a
 dev-python/uv 0.1.35 0.1.43 0.4.15: A Python package installer and resolver, written in Rust
 dev-python/uvcclient 0.11.0 0.12.1: A remote control client for Ubiquiti's UVC NVR
 dev-python/uvicorn 0.29.0: Lightning-fast ASGI server implementation
-dev-python/vacuum-map-parser-base 0.1.2 0.1.3: Common code for vacuum map parsers
-dev-python/vacuum-map-parser-roborock 0.1.1 0.1.2: Functionalities for Roborock vacuum map parsing
+dev-python/vacuum-map-parser-base 0.1.3: Common code for vacuum map parsers
+dev-python/vacuum-map-parser-roborock 0.1.2: Functionalities for Roborock vacuum map parsing
 dev-python/vallox-websocket-api 5.1.1 5.3.0: Vallox WebSocket API
 dev-python/vehicle 2.2.1 2.2.2: Asynchronous Python client providing RDW vehicle information.
 dev-python/velbus-aio 2024.4.1 2024.5.1 2024.7.6 2024.10.0: Python Library for the Velbus protocol based on asyncio
