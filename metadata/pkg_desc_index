@@ -1275,7 +1275,7 @@ dev-python/schiene 0.23: schiene is a Python library for interacting with Bahn.d
 dev-python/screenlogicpy 0.10.0: Interface for Pentair ScreenLogic connected pool controllers over IP via Python
 dev-python/scsgate 0.1.0: A Python module to interact with SCSGate
 dev-python/securesystemslib 0.31.0 1.0.0: A library that provides cryptographic and general-purpose routines for Secure Systems Lab projects at NYU
-dev-python/securetar 2023.3.0 2024.2.1: Python module to handle tarfile backups.
+dev-python/securetar 2023.3.0 2024.2.1 2024.11.0: Python module to handle tarfile backups.
 dev-python/sendgrid 6.8.2: Twilio SendGrid library for Python
 dev-python/sense-energy 0.12.2 0.12.4 0.13.2 0.13.4: API for the Sense Energy Monitor
 dev-python/sensirion-ble 0.1.1-r2: Manage Sensirion BLE devices
