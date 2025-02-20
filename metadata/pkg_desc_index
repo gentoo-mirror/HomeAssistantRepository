@@ -157,7 +157,7 @@ dev-python/aiohappyeyeballs 2.3.1: Happy Eyeballs
 dev-python/aioharmony 0.2.10: Asyncio Python library for connecting to and controlling the Logitech Harmony
 dev-python/aiohasupervisor 0.1.0 0.2.1: Asynchronous python client for Home Assistant Supervisor.
 dev-python/aiohomekit 3.1.5 3.2.3 3.2.6: An asyncio HomeKit client
-dev-python/aiohttp 3.9.5 3.10.8 3.10.10: HTTP client/server for asyncio
+dev-python/aiohttp 3.9.5 3.10.8 3.10.10 3.10.11: HTTP client/server for asyncio
 dev-python/aiohttp-fast-url-dispatcher 0.3.0: A faster URL dispatcher for aiohttp
 dev-python/aiohttp-fast-zlib 0.1.0 0.1.1: Use the fastest installed zlib compatible library with aiohttp
 dev-python/aiohttp-isal 0.3.1-r1: isal support for aiohttp
