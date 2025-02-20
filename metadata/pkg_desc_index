@@ -1397,7 +1397,7 @@ dev-python/tuf 4.0.0 5.0.0: A secure updater framework for Python
 dev-python/tuya-device-sharing-sdk 0.1.9: A Python sdk for Tuya Open API, which provides IoT capabilities, maintained by Tuya official
 dev-python/tuya-iot-py-sdk 0.6.6: A Python sdk for Tuya Open API, which provides IoT capabilities, maintained by Tuya official
 dev-python/tweepy 4.14.0: Twitter library for Python
-dev-python/twentemilieu 2.0.1: Asynchronous Python client for Twente Milieu API.
+dev-python/twentemilieu 2.0.1 2.1.0: Asynchronous Python client for Twente Milieu API.
 dev-python/twilio 6.32.0: Helper library for the Twilio API
 dev-python/twitchAPI 4.2.1: Twitch Helix API, its Webhook, PubSub and EventSub
 dev-python/typedmonarchmoney 0.3.1: A Typed wrapper around Monarch Money
