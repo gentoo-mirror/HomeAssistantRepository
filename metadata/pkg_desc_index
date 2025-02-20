@@ -391,6 +391,7 @@ dev-python/crc 5.0.0: Library and CLI to calculate and verify all kinds of CRC c
 dev-python/crc16 0.1.1: Library for calculating CRC16
 dev-python/crccheck 1.3.0: Calculation library for CRCs and checksums
 dev-python/croniter 1.0.6 2.0.2: croniter provides iteration for datetime object with cron like format
+dev-python/cronsim 2.6: Cron expression parser and evaluator
 dev-python/crownstone-cloud 1.4.9 1.4.11: Asynchronous Python library to get data from the cloud, and switch Crownstones
 dev-python/crownstone-core 3.0.1: This is the core of the python lib. It contains shared classes, definitions and utils
 dev-python/crownstone-sse 2.0.4 2.0.5: Asynchronous Python library that listens to Crownstone SSE events.
@@ -1159,7 +1160,7 @@ dev-python/python-http-client 3.3.2: HTTP REST client, simplified for Python
 dev-python/python-izone 1.2.9: A python interface to the iZone airconditioner controller
 dev-python/python-join-api 0.0.9: Python API for interacting with Join by joaoapps.
 dev-python/python-juicenet 1.1.0: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
-dev-python/python-kasa 0.7.3 0.7.5 0.7.6 0.7.7: Python API for TP-Link Kasa Smarthome devices
+dev-python/python-kasa 0.7.3 0.7.5 0.7.6 0.7.7 0.8.1 0.10.2: Python API for TP-Link Kasa Smarthome devices
 dev-python/python-linkplay 0.0.15 0.0.20: A Python Library for Seamless LinkPlay Device Control
 dev-python/python-matter-server 5.10.0 6.1.0 6.3.0 6.5.2 6.6.0: Python Matter WebSocket Server
 dev-python/python-metar 1.4.0: Metar - a package to parse METAR coded weather reports
@@ -1497,7 +1498,7 @@ dev-python/youtubeaio 1.1.5: Asynchronous Python client for YouTube V3 API.
 dev-python/zamg 0.3.3 0.3.5 0.3.6: Asynchronous Python client for ZAMG weather data.
 dev-python/zeep 4.2.1: A modern/fast Python SOAP client based on lxml / requests
 dev-python/zengge 0.2: Python API for controlling Zengge LED bulbs
-dev-python/zeroconf 0.132.2 0.133.0 0.135.0 0.136.0: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
+dev-python/zeroconf 0.132.2 0.133.0 0.135.0 0.136.0 0.136.2: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-python/zeversolar 0.3.1 0.3.2: Simple Python wrapper for the local CGI provided by ZeverSolar
 dev-python/zha 0.0.33 0.0.34 0.0.37 0.0.39: Library implementing ZHA for Home Assistant
 dev-python/zha-quirks 0.0.112 0.0.114 0.0.115 0.0.116 0.0.117 0.0.122: Library implementing Zigpy quirks for ZHA in Home Assistant
