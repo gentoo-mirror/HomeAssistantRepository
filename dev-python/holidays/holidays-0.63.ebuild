@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
 DESCRIPTION="Generate and work with holidays in Python"
-HOMEPAGE="https://github.com/dr-prodigy/python-holidays https://pypi.org/project/holidays/"
+HOMEPAGE="https://github.com/vacanza/holidays https://pypi.org/project/holidays/"
 
 LICENSE="MIT"
 SLOT="0"
