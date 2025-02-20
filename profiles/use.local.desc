@@ -225,6 +225,7 @@ app-misc/homeassistant:recorder - storing details in a database per sqlalchemy
 app-misc/homeassistant:rejseplanen - travel details for Danish public transport
 app-misc/homeassistant:rest - rest sensor platform for data exposed by a RESTful API
 app-misc/homeassistant:ring - integrate your ring.com devices
+app-misc/homeassistant:roborock - "supported_by": "xiaomi_miio"
 app-misc/homeassistant:roku - add support for Roku players
 app-misc/homeassistant:roomba - control a iRobot Roomba vacuum or iRobot Braava m-series mop
 app-misc/homeassistant:roon - allows you to control RoonLabs music players
@@ -618,6 +619,7 @@ app-misc/homeassistant-full:gitlab_ci - Sensor platform integrates results repor
 app-misc/homeassistant-full:gitter - Sensor allows one to monitor a Gitter.im chatroom for unread messages
 app-misc/homeassistant-full:glances - Allows you to monitor the system information provided by the Glances API
 app-misc/homeassistant-full:gntp - Growl Notification Protocol: sending and receiving notifications
+app-misc/homeassistant-full:go2rtc - connects to a go2rtc instance and provides a WebRTC prox
 app-misc/homeassistant-full:goalfeed - Use your Goalfeed account to trigger events in Home Assistant
 app-misc/homeassistant-full:goalzero - Access Goal Zero REST Api from Home Assistant
 app-misc/homeassistant-full:gogogate2 - Control Gogogate2-Enabled garage doors from Home Assistant
@@ -679,6 +681,7 @@ app-misc/homeassistant-full:hue - talk to Philips Hue
 app-misc/homeassistant-full:huisbaasje - Huisbaasje smart energy meters
 app-misc/homeassistant-full:hunterdouglas_powerview - integrate your Hunter Douglas PowerView devices
 app-misc/homeassistant-full:husqvarna_automower - integration provides connectivity with Husqvarna Automowers lawn mowers
+app-misc/homeassistant-full:husqvarna_automower_ble - Husqvarna Automowers lawn mowers via a local Bluetooth connection
 app-misc/homeassistant-full:huum - Integrates Huum saunas into Home Assistant
 app-misc/homeassistant-full:hvv_departures - departures of busses, trains and ferries in Hamburg
 app-misc/homeassistant-full:hydrawise - communicate with Hunter Wi-Fi irrigation controllers
@@ -765,6 +768,7 @@ app-misc/homeassistant-full:led_ble - Integrates multiple brands of Bluetooth Lo
 app-misc/homeassistant-full:lektrico - ntegration integrates your Lektrico Charging Station
 app-misc/homeassistant-full:lg_netcast - allows you to control a LG Smart TV running NetCast 3.0
 app-misc/homeassistant-full:lg_soundbar - allows you to control LG Soundbars from Home Assistant
+app-misc/homeassistant-full:lg_thinq - connect LG ThinQ devices to Home Assistant
 app-misc/homeassistant-full:lidarr - The Lidarr integration pulls data from a given Lidarr instance
 app-misc/homeassistant-full:life360 - detect presence using the unofficial API of Life360
 app-misc/homeassistant-full:lifx - The lifx integration allows you to integrate your LIFX into Home Assistant
@@ -846,6 +850,7 @@ app-misc/homeassistant-full:mpd - allows you to control a Music Player Daemon fr
 app-misc/homeassistant-full:mqtt - install MQTT Broker and dependencies
 app-misc/homeassistant-full:msteams - send notifications from Home Assistant to a team channel in Microsoft Teams
 app-misc/homeassistant-full:mullvad - Mullvad VPN integration pulls Mullvad VPN status information
+app-misc/homeassistant-full:music_assistant - connect Home Assistant to a Music Assistant Server
 app-misc/homeassistant-full:mutesync - mutesync integration for Home Assistant connects to the mütesync virtual button
 app-misc/homeassistant-full:mvglive - departure times bus, tram, subway, train of Munich public transport network
 app-misc/homeassistant-full:mychevy - communicates with the my.chevrolet website using the javascript API
@@ -940,6 +945,7 @@ app-misc/homeassistant-full:ovo_energy - allows you to monitor your energy consu
 app-misc/homeassistant-full:owntracks - OwnTracks: track your location and send it directly to Home Assistant
 app-misc/homeassistant-full:ozw - Open Zwave MQTT
 app-misc/homeassistant-full:p1_monitor - The P1 Monitor integration integrates the P1 Monitor API platform
+app-misc/homeassistant-full:palazzetti - integrates the Palazzetti stoves equipped with a Connection Box
 app-misc/homeassistant-full:panasonic_bluray - allows you to control a Panasonic Blu-Ray player
 app-misc/homeassistant-full:panasonic_viera - panasonic_viera platform allows you to control a Panasonic Viera TV
 app-misc/homeassistant-full:pandora - Pandora account, you can control it from Home Assistant with this media player
@@ -1024,6 +1030,7 @@ app-misc/homeassistant-full:ripple - The ripple sensor platform displays Ripple 
 app-misc/homeassistant-full:risco - This integration connects with Risco Alarms over Risco Cloud
 app-misc/homeassistant-full:rituals_perfume_genie - monitor your Rituals perfume diffusers
 app-misc/homeassistant-full:rmvtransport - departure time of bus, tram, subway, train in Rhein-Main area public transport
+app-misc/homeassistant-full:roborock - "supported_by": "xiaomi_miio"
 app-misc/homeassistant-full:rocketchat - allows you to send messages to your Rocket.Chat instance from Home Assistant
 app-misc/homeassistant-full:roku - add support for Roku players
 app-misc/homeassistant-full:romy - The ROMY integration allows you to control your ROMY vacuum robot
@@ -1402,6 +1409,7 @@ app-misc/homeassistant-min:radio_browser - use the directory of radio stations c
 app-misc/homeassistant-min:recorder - storing details in a database per sqlalchemy
 app-misc/homeassistant-min:rest - rest sensor platform for data exposed by a RESTful API
 app-misc/homeassistant-min:ring - integrate your ring.com devices
+app-misc/homeassistant-min:roborock - "supported_by": "xiaomi_miio"
 app-misc/homeassistant-min:samsungtv - Support for Samsung TV Sets
 app-misc/homeassistant-min:scrape - scraping information from websites
 app-misc/homeassistant-min:season - display astronomical or meteorological season (Spring, Summer, Autumn, Winter)
