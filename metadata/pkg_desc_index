@@ -1060,12 +1060,12 @@ dev-python/pyotp 2.8.0: PyOTP is a Python library for generating and verifying o
 dev-python/pyoverkiz 1.13.10 1.13.11 1.14.1: Async Python client to interact with internal OverKiz API (e.g. used by Somfy TaHoma).
 dev-python/pyowm 3.2.0: A Python wrapper around OpenWeatherMap web APIs
 dev-python/pyownet 0.10.0_p1: Python OWFS client library (owserver protocol)
-dev-python/pypalazzetti 0.1.6: A Python library to access and control a Palazzetti stove through a Palazzetti Connection Box
+dev-python/pypalazzetti 0.1.6 0.1.10: A Python library to access and control a Palazzetti stove through a Palazzetti Connection Box
 dev-python/pypandoc 1.7.4: Thin wrapper for pandoc.
 dev-python/pypca 0.0.7: A python cli for PCA 301 smart plugs.
 dev-python/pypck 0.7.17 0.7.23 0.7.24: LCN-PCK library
 dev-python/pypjlink2 1.2.1: PJLink is a standard for controlling data projectors.
-dev-python/pyplaato 0.0.18: Asynchronous Python client for getting Plaato Airlock and Keg data
+dev-python/pyplaato 0.0.18 0.0.19: Asynchronous Python client for getting Plaato Airlock and Keg data
 dev-python/pypoint 2.3.2 3.0.0: API for Minut Point
 dev-python/pyprof2calltree 1.4.5: Help visualize profiling data from cProfile with kcachegrind and qcachegrind
 dev-python/pyprosegur 0.0.9: Unofficial Python library to interface with Prosegur Alarmes PT/ES.
@@ -1240,7 +1240,7 @@ dev-python/regex 2023.12.25: Alternative regular expression module to replace re
 dev-python/related 0.7.2: Related: Straightforward nested object models in Python
 dev-python/renault-api 0.2.1 0.2.2 0.2.3 0.2.7: Renault API
 dev-python/renson-endura-delta 1.7.1: Unofficial Renson endura delta Python library
-dev-python/reolink-aio 0.8.10 0.9.1 0.9.11 0.10.2: Reolink NVR/cameras API package
+dev-python/reolink-aio 0.8.10 0.9.1 0.9.11 0.10.2 0.11.2: Reolink NVR/cameras API package
 dev-python/requests 2.31.0: HTTP library for human beings
 dev-python/requests-aws4auth 1.3.1: AWS4 authentication for Requests
 dev-python/requests-mock 1.11.0: Mock out responses from the requests package
@@ -1250,7 +1250,7 @@ dev-python/retry2 0.9.5: easy to use retry decorator in python
 dev-python/rfk101py 0.0.1: RFK101 Proximity card reader over Ethernet
 dev-python/rflink 0.0.65 0.0.66: Library and CLI tools for interacting with RFlink 433MHz transceiver.
 dev-python/rich 12.6.0: Python library for rendering rich text, tables, etc. to the terminal
-dev-python/ring-doorbell 0.8.11 0.9.5 0.9.6 0.9.8: A Python library to communicate with Ring Door Bell (https://ring.com/)
+dev-python/ring-doorbell 0.8.11 0.9.6 0.9.8 0.9.12: A Python library to communicate with Ring Door Bell (https://ring.com/)
 dev-python/ritassist 0.9.2-r1: RitAssist API Access
 dev-python/rjpl 0.3.6: Interface with Rejseplanen API
 dev-python/rocketchat-API 0.6.1: Python API wrapper for Rocket.Chat
