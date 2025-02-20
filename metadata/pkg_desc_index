@@ -708,7 +708,7 @@ dev-python/mac-vendor-lookup 0.1.12: Find the vendor for a given MAC address
 dev-python/magicseaweed 1.0.3: Provides API wrapper to magicseaweed.com.
 dev-python/marshmallow 3.21.1: A library for converting to and from native Python datatypes
 dev-python/marshmallow-dataclass 8.5.9: Python library to convert dataclasses into marshmallow schemas.
-dev-python/mashumaro 3.12 3.13.1: Fast and well tested serialization library
+dev-python/mashumaro 3.15: Fast and well tested serialization library
 dev-python/matplotlib 3.6.1: Pure python plotting library with matlab like syntax
 dev-python/matrix-client 0.4.0: Client-Server SDK for Matrix
 dev-python/matrix-nio 0.24.0 0.25.2: A Python Matrix client library, designed according to sans I/O principles.
@@ -1159,7 +1159,7 @@ dev-python/python-http-client 3.3.2: HTTP REST client, simplified for Python
 dev-python/python-izone 1.2.9: A python interface to the iZone airconditioner controller
 dev-python/python-join-api 0.0.9: Python API for interacting with Join by joaoapps.
 dev-python/python-juicenet 1.1.0: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
-dev-python/python-kasa 0.7.3 0.7.5 0.7.6: Python API for TP-Link Kasa Smarthome devices
+dev-python/python-kasa 0.7.3 0.7.5 0.7.6 0.7.7: Python API for TP-Link Kasa Smarthome devices
 dev-python/python-linkplay 0.0.15 0.0.20: A Python Library for Seamless LinkPlay Device Control
 dev-python/python-matter-server 5.10.0 6.1.0 6.3.0 6.5.2 6.6.0: Python Matter WebSocket Server
 dev-python/python-metar 1.4.0: Metar - a package to parse METAR coded weather reports
