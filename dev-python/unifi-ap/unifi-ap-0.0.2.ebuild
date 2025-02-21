@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python Library for the Velbus protocol based on asyncio"
-HOMEPAGE="https://github.com/Cereal2nd/velbus-aio https://pypi.org/project/velbus-aio/"
+DESCRIPTION="Python API for UniFi accesspoints"
+HOMEPAGE="https://github.com/tofuSCHNITZEL/unifi_ap https://pypi.org/project/unifi-ap/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,8 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/pyserial-asyncio-fast-0.11[${PYTHON_USEDEP}]
-	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.10.0[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/paramiko[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
