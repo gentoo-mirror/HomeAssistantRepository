@@ -23,7 +23,8 @@ RDEPEND="
 	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	>=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.7.2[${PYTHON_USEDEP}]
-	>=dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]"
+	>=dev-python/mashumaro-3.13.1[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.9.10[${PYTHON_USEDEP}]"
 BDEPEND="
 	dev-python/packaging[${PYTHON_USEDEP}]"
 
