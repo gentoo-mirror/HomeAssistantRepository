@@ -385,7 +385,7 @@ dev-python/construct-typing 0.6.2: Extension for the python package 'construct' 
 dev-python/convertdate 2.4.0: Converts between Gregorian dates and other calendar systems.
 dev-python/convertertools 0.5.0: Tools for converting python data types
 dev-python/coronavirus 1.1.1: Asynchronous Python client for getting Corona virus info.
-dev-python/coverage 7.5.0 7.6.1: Code coverage measurement for Python
+dev-python/coverage 7.5.0 7.6.1 7.6.8: Code coverage measurement for Python
 dev-python/coveralls 3.3.1-r1 4.0.1: Show coverage stats online via coveralls.io
 dev-python/crc 5.0.0: Library and CLI to calculate and verify all kinds of CRC checksums
 dev-python/crc16 0.1.1: Library for calculating CRC16
@@ -1465,7 +1465,7 @@ dev-python/webrtc-models 0.1.0 0.2.0 0.3.0: Python WebRTC models
 dev-python/webrtc-noise-gain 1.2.3: Noise suppression and automatic gain with webrtc
 dev-python/webrtcvad 2.0.10: Python interface to the Google WebRTC Voice Activity Detector (VAD)
 dev-python/websockets 10.4: Library for building WebSocket servers and clients in Python
-dev-python/weheat 2024.9.23: Weheat Backend client
+dev-python/weheat 2024.9.23 2024.11.26: Weheat Backend client
 dev-python/whirlpool-sixth-sense 0.18.4 0.18.7 0.18.8: Unofficial API for Whirlpool's 6th Sense appliances
 dev-python/whois 0.9.27: Python package for retrieving WHOIS information of domains.
 dev-python/wiffi 1.1.2: Python 3 package to interface devices from STALL WIFFI.
@@ -1517,6 +1517,7 @@ dev-python/zwave-me-ws 0.4.3: Library, implementing websocket connection to ZWav
 dev-vcs/pre-commit 3.7.1 4.0.0: A framework for managing and maintaining multi-language Git pre-commit hooks
 dev-vcs/python-gitlab 1.6.0: Interact with GitLab API
 media-libs/lv2 1.18.10: A simple but extensible successor of LADSPA
+net-analyzer/scapy 2.6.1: A Python interactive packet manipulation program for mastering the network
 net-analyzer/shodan 1.28.0: The official Python library for Shodan
 net-misc/yt-dlp 2024.08.06 2024.09.27 2024.10.22 2024.11.04 2024.12.13: youtube-dl fork with additional features and fixes
 sci-geosciences/GeographicLib 1.52-r3: C++ library for converting geographic coordinate systems
