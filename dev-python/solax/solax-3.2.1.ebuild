@@ -20,8 +20,6 @@ DOCS="README.md"
 
 RDEPEND=">=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
 	>=dev-python/voluptuous-0.11.5[${PYTHON_USEDEP}]"
-BDEPEND="
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
-	"
+BDEPEND="dev-python/setuptools-scm[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

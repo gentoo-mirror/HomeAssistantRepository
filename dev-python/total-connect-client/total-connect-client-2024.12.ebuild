@@ -8,7 +8,6 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Interact with Total Connect 2 alarm systems"
 HOMEPAGE="https://github.com/craigjmidwinter/total-connect-client https://pypi.org/project/total-connect-client/"
-SRC_URI="$(pypi_sdist_url)"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,6 +17,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/zeep-4.1.0[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/zeep-4.3.1[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
