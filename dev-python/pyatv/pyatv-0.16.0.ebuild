@@ -18,12 +18,12 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND=">=dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
-	>=dev-python/chacha20poly1305-reuseable-0.13.2[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-43.0.0[${PYTHON_USEDEP}]
+	>=dev-python/chacha20poly1305-reuseable-0.13.2[${PYTHON_USEDEP}]
 	>=dev-python/ifaddr-0.1.7[${PYTHON_USEDEP}]
-	>=dev-python/mediafile-0.8.1[${PYTHON_USEDEP}]
 	>=dev-python/miniaudio-1.45[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-5.28.1[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10.10[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	>=dev-python/srptools-0.2.0[${PYTHON_USEDEP}]
