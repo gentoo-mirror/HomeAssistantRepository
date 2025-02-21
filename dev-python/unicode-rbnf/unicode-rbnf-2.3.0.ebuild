@@ -5,19 +5,16 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
 DISTUTILS_USE_PEP517=setuptools
-inherit distutils-r1 pypi
+inherit distutils-r1
 
-DESCRIPTION="The Home Assistant Intent Language parser"
-HOMEPAGE="http://github.com/home-assistant/hassil https://pypi.org/project/hassil/"
+DESCRIPTION="Rule-based number formatting using Unicode CLDR data"
+HOMEPAGE="https://github.com/rhasspy/unicode-rbnf https://pypi.org/project/unicode-rbnf/"
+SRC_URI="https://github.com/rhasspy/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
-
-DOCS="README.md"
-
-RDEPEND="dev-python/pyyaml[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
