@@ -159,7 +159,7 @@ dev-python/aiohasupervisor 0.1.0 0.2.1: Asynchronous python client for Home Assi
 dev-python/aiohomekit 3.2.3 3.2.6 3.2.7: An asyncio HomeKit client
 dev-python/aiohttp 3.9.5 3.10.8 3.10.10 3.10.11: HTTP client/server for asyncio
 dev-python/aiohttp-fast-url-dispatcher 0.3.0: A faster URL dispatcher for aiohttp
-dev-python/aiohttp-fast-zlib 0.1.0 0.1.1: Use the fastest installed zlib compatible library with aiohttp
+dev-python/aiohttp-fast-zlib 0.1.0 0.1.1 0.2.0: Use the fastest installed zlib compatible library with aiohttp
 dev-python/aiohttp-isal 0.3.1-r1: isal support for aiohttp
 dev-python/aiohttp-retry 2.8.3: Simple retry client for aiohttp
 dev-python/aiohttp-session 2.12.0: sessions for aiohttp.web
@@ -221,14 +221,14 @@ dev-python/aioswitcher 3.4.1 3.4.3 4.0.3 4.4.0: Switcher Python Integration.
 dev-python/aiosyncthing 0.5.1: Asynchronous Python client for the Syncthing REST API
 dev-python/aiotankerkoenig 0.4.1 0.4.2: Async Python 3 client for tankerkoenig.de
 dev-python/aiotractive 0.5.6 0.6.0: Asynchronous Python client for the Tractive REST API
-dev-python/aiounifi 72 74 75 77 80: Python library for communicating with UniFi Network Controller API
+dev-python/aiounifi 80 81: Python library for communicating with UniFi Network Controller API
 dev-python/aiounittest 1.4.2: Test asyncio code more easily.
 dev-python/aiovlc 0.1.0 0.3.2 0.5.1: A package for talking to vlc over its telnet interface using asyncio.
 dev-python/aiovodafone 0.5.4 0.6.0 0.6.1: Python library to control Vodafone Station
 dev-python/aiowaqi 3.0.1 3.1.0: Asynchronous Python client for WAQI API.
 dev-python/aiowatttime 0.1.1: An asyncio-based Python3 library for interacting with WattTime
 dev-python/aiowebostv 0.4.0 0.4.2: Library to control webOS based LG TV devices
-dev-python/aiowithings 2.1.0 3.0.3 3.1.1 3.1.3: Asynchronous Python client for Withings.
+dev-python/aiowithings 3.0.3 3.1.1 3.1.3 3.1.4: Asynchronous Python client for Withings.
 dev-python/aioymaps 1.2.2 1.2.5: Async client for Yandex Maps
 dev-python/aiozoneinfo 0.1.0 0.2.0 0.2.1: Tools to fetch zoneinfo with asyncio
 dev-python/airgradient 0.4.3 0.8.0 0.9.0 0.9.1: Asynchronous Python client for AirGradient.
@@ -1395,7 +1395,7 @@ dev-python/triggercmd 0.0.27: Python agent for TRIGGERcmd cloud service.
 dev-python/ttls 1.5.1 1.8.3: Twinkly Twinkly Little Star
 dev-python/ttn-client 0.0.4 1.0.0 1.2.0: A python client to fetch/receive and parse uplink messages from The Thinks Network
 dev-python/tuf 4.0.0 5.0.0: A secure updater framework for Python
-dev-python/tuya-device-sharing-sdk 0.1.9: A Python sdk for Tuya Open API, which provides IoT capabilities, maintained by Tuya official
+dev-python/tuya-device-sharing-sdk 0.1.9 0.2.1: A Python sdk for Tuya Open API, which provides IoT capabilities, maintained by Tuya official
 dev-python/tuya-iot-py-sdk 0.6.6: A Python sdk for Tuya Open API, which provides IoT capabilities, maintained by Tuya official
 dev-python/tweepy 4.14.0: Twitter library for Python
 dev-python/twentemilieu 2.0.1 2.1.0: Asynchronous Python client for Twente Milieu API.
@@ -1415,7 +1415,7 @@ dev-python/uiprotect 1.7.2 6.1.0 6.3.2 6.4.0: Python API for Unifi Protect (Unof
 dev-python/ulid-transform 0.9.0 1.0.2: Create and transform ULIDs
 dev-python/ultraheat-api 0.5.7: Reading usage data from the Landys & Gyr Ultraheat heat meter unit
 dev-python/unicode-rbnf 1.0.0 1.1.0: Rule-based number formatting using Unicode CLDR data
-dev-python/unifi-ap 0.0.1: Python API for UniFi accesspoints
+dev-python/unifi-ap 0.0.1 0.0.2: Python API for UniFi accesspoints
 dev-python/unifi-discovery 1.1.8 1.2.0: Discover Unifi Devices
 dev-python/unifiled 0.11: Easily connect to Ubiquiti Unifi led devices
 dev-python/universal-silabs-flasher 0.0.18 0.0.20 0.0.22 0.0.24 0.0.25: Tool to flash firmware onto any Silicon Labs radio running EmberZNet, CPC multi-PAN, or just a bare Gecko Bootloader
@@ -1434,7 +1434,7 @@ dev-python/vacuum-map-parser-base 0.1.3: Common code for vacuum map parsers
 dev-python/vacuum-map-parser-roborock 0.1.2: Functionalities for Roborock vacuum map parsing
 dev-python/vallox-websocket-api 5.1.1 5.3.0: Vallox WebSocket API
 dev-python/vehicle 2.2.1 2.2.2: Asynchronous Python client providing RDW vehicle information.
-dev-python/velbus-aio 2024.4.1 2024.5.1 2024.7.6 2024.10.0: Python Library for the Velbus protocol based on asyncio
+dev-python/velbus-aio 2024.7.6 2024.10.0 2024.11.1: Python Library for the Velbus protocol based on asyncio
 dev-python/venstarcolortouch 0.19: Interface Library for Venstar ColorTouch Thermostat API v5
 dev-python/vhelpers 0.3.0: Often used functions in vladimirs-git projects
 dev-python/vilfo-api-client 0.4.1 0.5.0: Simple wrapper client for the Vilfo router API
