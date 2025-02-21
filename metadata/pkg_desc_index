@@ -159,7 +159,7 @@ dev-python/aiohasupervisor 0.1.0 0.2.1: Asynchronous python client for Home Assi
 dev-python/aiohomekit 3.2.3 3.2.6 3.2.7: An asyncio HomeKit client
 dev-python/aiohttp 3.9.5 3.10.8 3.10.10 3.10.11: HTTP client/server for asyncio
 dev-python/aiohttp-fast-url-dispatcher 0.3.0: A faster URL dispatcher for aiohttp
-dev-python/aiohttp-fast-zlib 0.1.0 0.1.1 0.2.0: Use the fastest installed zlib compatible library with aiohttp
+dev-python/aiohttp-fast-zlib 0.1.1 0.2.0: Use the fastest installed zlib compatible library with aiohttp
 dev-python/aiohttp-isal 0.3.1-r1: isal support for aiohttp
 dev-python/aiohttp-retry 2.8.3: Simple retry client for aiohttp
 dev-python/aiohttp-session 2.12.0: sessions for aiohttp.web
@@ -363,7 +363,7 @@ dev-python/caldav 1.3.8: CalDAV (RFC4791) client library for Python
 dev-python/casttube 0.2.1-r2: casttube provides a way to interact with the Youtube Chromecast api
 dev-python/chacha20poly1305 0.0.3: Chacha20Poly1305
 dev-python/chacha20poly1305-reuseable 0.12.1 0.13.2: ChaCha20Poly1305 that is reuseable for asyncio
-dev-python/charset-normalizer 3.2.0: The Real First Universal Charset Detector
+dev-python/charset-normalizer 3.2.0 3.4.0: The Real First Universal Charset Detector
 dev-python/circuit-webhook 1.0.1: circuit-webhook is a python client library for Unify Circuit api
 dev-python/ciscomobilityexpress 0.3.9: Module to interact with Cisco Mobility Express APIs to fetch connected devices.
 dev-python/ciso8601 2.3.0 2.3.1: Fast ISO8601 date time parser for Python written in C
@@ -1327,6 +1327,7 @@ dev-python/sqlparse 0.5.0: A non-validating SQL parser module for Python
 dev-python/srpenergy 1.3.6: An unofficial Python module for interacting with Srp Energy data.
 dev-python/srptools 1.0.1: Tools to implement Secure Remote Password (SRP) authentication
 dev-python/sseclient-py 1.7.2: SSE client for Python
+dev-python/standard-aifc 3.13.0: Standard library aifc redistribution.
 dev-python/starkbank-ecdsa 1.0.0: A lightweight and fast pure python ECDSA library
 dev-python/starline 0.1.5: Unofficial python library for StarLine API
 dev-python/starlingbank 3.2: Python package that provides access to parts of the Starling bank API.
@@ -1427,7 +1428,7 @@ dev-python/uplink-protobuf 0.1.0: Protocol Buffers (Protobuf) support for Uplink
 dev-python/usb-devices 0.4.5: Tools for mapping, describing, and resetting USB devices
 dev-python/uscisstatus 0.1.1-r1: USCIS Status Checker
 dev-python/user-agents 2.0-r2: A library to identify devices (phones, tablets) and their capabilities by parsing browser user agent strings.
-dev-python/uv 0.1.35 0.1.43 0.4.15: A Python package installer and resolver, written in Rust
+dev-python/uv 0.1.35 0.1.43 0.4.15 0.4.28 0.5.4: A Python package installer and resolver, written in Rust
 dev-python/uvcclient 0.11.0 0.12.1: A remote control client for Ubiquiti's UVC NVR
 dev-python/uvicorn 0.29.0: Lightning-fast ASGI server implementation
 dev-python/vacuum-map-parser-base 0.1.3: Common code for vacuum map parsers
