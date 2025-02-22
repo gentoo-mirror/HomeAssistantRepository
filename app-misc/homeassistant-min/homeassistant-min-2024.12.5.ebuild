@@ -110,7 +110,7 @@ RDEPEND="${RDEPEND}
 	~dev-python/orjson-3.10.12[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.1[${PYTHON_USEDEP}]
 	~dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
-	~dev-python/pandas-2.2.3${PYTHON_USEDEP}]
+	~dev-python/pandas-2.2.3[${PYTHON_USEDEP}]
 	~dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	~dev-python/propcache-0.2.1[${PYTHON_USEDEP}]
 	~dev-python/protobuf-5.28.3[${PYTHON_USEDEP}]
@@ -273,7 +273,7 @@ BDEPEND="${RDEPEND}
 		~dev-python/mock-open-1.4.0[${PYTHON_USEDEP}]
 		~dev-python/mypy-1.14.1[${PYTHON_USEDEP}]
 		~dev-python/pipdeptree-2.23.4[${PYTHON_USEDEP}]
-		~dev-vcs/pre-commit-4.0.0[${PYTHON_USEDEP}]
+		~dev-vcs/pre-commit-4.0.0
 		~dev-python/pydantic-1.10.19[${PYTHON_USEDEP}]
 		~dev-python/pylint-per-file-ignores-1.3.2[${PYTHON_USEDEP}]
 		~dev-python/pylint-3.3.1[${PYTHON_USEDEP}]
