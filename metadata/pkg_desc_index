@@ -569,7 +569,7 @@ dev-python/gspread 5.5.0: Google Spreadsheets Python API
 dev-python/gstreamer-player 1.1.2: Python 3 wrapper for playing media via gstreamer
 dev-python/guppy3 3.1.4 3.1.4_p1: Guppy 3 -- Guppy-PE ported to Python 3
 dev-python/ha-HAP-python 4.5.2: HomeKit Accessory Protocol implementation in python
-dev-python/ha-av 10.1.1: Pythonic bindings for FFmpeg's libraries.
+dev-python/ha-av 10.1.1-r1: Pythonic bindings for FFmpeg's libraries.
 dev-python/ha-ffmpeg 3.2.0 3.2.1 3.2.2: A library that handling with ffmpeg for home-assistant
 dev-python/ha-iotawattpy 0.1.1 0.1.2: Python library for the IoTaWatt Energy device
 dev-python/ha-philipsjs 3.1.1 3.2.1 3.2.2: jointSPACE API for Home-Assistant
