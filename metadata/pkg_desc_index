@@ -17,7 +17,7 @@ app-misc/homeassistant 2024.9.3 2024.10.4 2024.10.4-r1 2024.11.1 2024.11.3 2024.
 app-misc/homeassistant-full 2024.10.2 2024.10.3 2024.10.4 2024.10.4-r1 2024.11.1 2024.11.3-r1 9999: Open-source home automation platform running on Python.
 app-misc/homeassistant-min 2024.10.4 2024.11.1 2024.11.3 2024.12.5: Open-source home automation platform running on Python.
 app-misc/zigbee2mqtt 1.35.2 1.39.1 1.40.1: It bridges events and allows you to control your Zigbee devices via MQTT
-dev-embedded/esphome 2023.12.9 2024.2.2 2024.3.2-r1 2024.5.3-r1 2024.7.0-r1 2024.10.2-r1 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 2023.12.9 2024.2.2 2024.3.2-r1 2024.5.3-r1 2024.7.0-r1 2024.10.2-r2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20231107.0 20240319.0 20240412.0 20240429.1 20240620.0: ESPHome dashboard
 dev-embedded/platformio 6.1.11 6.1.11-r1 6.1.13 6.1.15: An open source ecosystem for IoT development
 dev-libs/foils_hid 0.3: Freebox Network HID devices library
@@ -759,6 +759,7 @@ dev-python/mutesync 0.0.1: Asynchronous library to control mutesync devices.
 dev-python/mychevy 2.1.1: Python interface to My Chevy online data
 dev-python/mycroftapi 2.0: a library to communicate with Mycroft API
 dev-python/mypermobil 0.1.6 0.1.8: A Python wrapper for the MyPermobil API
+dev-python/mypy 1.14.1-r1: Optional static typing for Python
 dev-python/mypy-dev 1.11.0_beta1 1.12.0_beta1: Optional static typing for Python
 dev-python/mysql-connector-python 8.0.28-r2: Python client library for MariaDB/MySQL
 dev-python/myuplink 0.0.9 0.5.0 0.6.0: API package for myUplink
