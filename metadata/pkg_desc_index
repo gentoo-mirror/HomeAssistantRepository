@@ -17,10 +17,10 @@ app-misc/homeassistant 2024.9.3 2024.10.4 2024.10.4-r1 2024.11.1 2024.11.3 2024.
 app-misc/homeassistant-full 2024.10.2 2024.10.3 2024.10.4 2024.10.4-r1 2024.11.1 2024.11.3-r1 9999: Open-source home automation platform running on Python.
 app-misc/homeassistant-min 2024.10.4 2024.11.1 2024.11.3 2024.12.5: Open-source home automation platform running on Python.
 app-misc/zigbee2mqtt 1.35.2 1.39.1 1.40.1: It bridges events and allows you to control your Zigbee devices via MQTT
-dev-embedded/esphome 2024.3.2-r1 2024.5.3-r1 2024.7.0-r1 2024.10.2-r2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
-dev-embedded/esphome-dashboard 20231107.0 20240319.0 20240412.0 20240429.1 20240620.0: ESPHome dashboard
+dev-embedded/esphome 2024.3.2-r1 2024.5.3-r1 2024.7.0-r1 2024.10.2-r2 2025.2.2 9999: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome-dashboard 20231107.0 20240319.0 20240412.0 20240429.1 20240620.0 20250212.0: ESPHome dashboard
 dev-embedded/esphome-glyphsets 0.1.0: A lightweight version of glyphsets for ESPHome
-dev-embedded/platformio 6.1.11 6.1.11-r1 6.1.13 6.1.15 6.1.16: An open source ecosystem for IoT development
+dev-embedded/platformio 6.1.13 6.1.15 6.1.16: An open source ecosystem for IoT development
 dev-libs/foils_hid 0.3: Freebox Network HID devices library
 dev-libs/libela 0.3: Runtime Event Loop Abstraction library
 dev-libs/libgit2 1.5.2: A linkable library for Git
@@ -151,7 +151,7 @@ dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2023.5.0 2024.2.1: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 0.1.5 0.4.0: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 25.3.1 27.0.0 27.0.1 28.0.0-r1: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 25.3.1 27.0.0 27.0.1 28.0.0-r1 29.3.2: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.21.3: ftp client/server for asyncio
