@@ -1038,7 +1038,7 @@ dev-python/pymfy 0.11.0: A Somfy Open API library
 dev-python/pymicro-vad 1.0.1-r1: Self-contained voice activity detector
 dev-python/pymitv 1.4.3: A Python 3 based Xiaomi TV remote
 dev-python/pymochad 0.2.0: A python library for interacting with moch
-dev-python/pymodbus 3.6.8 3.6.9: A fully featured modbus protocol stack in python
+dev-python/pymodbus 3.6.8 3.6.9 3.7.4: A fully featured modbus protocol stack in python
 dev-python/pymodbus-repl 2.0.3: REPL (Read-Eval-Print Loop) tool for working with Modbus devices using the Pymodbus library.
 dev-python/pymonoprice 0.4: Python API for talking to Monoprice 6-zone amplifier
 dev-python/pymsteams 0.1.12: Format messages and post to Microsoft Teams.
