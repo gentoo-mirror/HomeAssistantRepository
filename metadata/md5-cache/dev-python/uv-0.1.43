@@ -13,5 +13,5 @@ RDEPEND=dev-libs/libgit2:=
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/astral-sh/uv/archive/0.1.43.tar.gz -> uv-0.1.43.gh.tar.gz https://github.com/charliermarsh/rs-async-zip/archive/1dcb40cfe1bf5325a6fd4bfcf9894db40241f585.tar.gz -> rs-async-zip-1dcb40cfe1bf5325a6fd4bfcf9894db40241f585.gh.tar.gz https://github.com/astral-sh/pubgrub/archive/0e684a874c9fb8f74738cd8875524c80e3d4820b.tar.gz -> pubgrub-0e684a874c9fb8f74738cd8875524c80e3d4820b.gh.tar.gz https://dev.gentoo.org/~mgorny/dist/uv-0.1.43-crates.tar.xz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	rust	e9d31591b9b0251018cd5c60a43bafa1	rust-toolchain	76468983281b0a7fc167ca224f84ecfd	cargo	a841e8aa4e7e39f3be436a349ef5d072	check-reqs	2a9731073c152554078a9a8df8fc0f1b
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	rust	e9d31591b9b0251018cd5c60a43bafa1	rust-toolchain	76468983281b0a7fc167ca224f84ecfd	cargo	df2b134de0bbaddf4c0d660969d80029	check-reqs	2a9731073c152554078a9a8df8fc0f1b
 _md5_=3dfae163450e2f6944cc5505e3239187
