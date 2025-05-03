@@ -623,7 +623,7 @@ dev-python/ibm-cloud-sdk-core 3.11.3: Core library used by SDKs for IBM Cloud Se
 dev-python/ibm-watson 5.2.2: Client library to use the IBM Watson Services
 dev-python/ibmiotf 0.3.4: Python Client for IBM Watson IoT Platform
 dev-python/ical 8.0.0 8.0.1 8.1.1 8.2.0: Python iCalendar implementation (rfc 2445)
-dev-python/icmplib 3.0 3.0.4: Easily forge ICMP packets and make your own ping and traceroute.
+dev-python/icmplib 3.0.4: Easily forge ICMP packets and make your own ping and traceroute.
 dev-python/idasen 0.10.3: ikea IDASEN desk API and CLI.
 dev-python/idasen-ha 2.5 2.5.1 2.5.3 2.6.2: Home Assistant helper lib for the IKEA Idasen Desk integration
 dev-python/ifaddr 0.1.7: Enumerate IP addresses on the local network adapters
@@ -1038,8 +1038,8 @@ dev-python/pymfy 0.11.0: A Somfy Open API library
 dev-python/pymicro-vad 1.0.1-r1: Self-contained voice activity detector
 dev-python/pymitv 1.4.3: A Python 3 based Xiaomi TV remote
 dev-python/pymochad 0.2.0: A python library for interacting with moch
-dev-python/pymodbus 3.6.8 3.6.9 3.7.4: A fully featured modbus protocol stack in python
-dev-python/pymodbus-repl 2.0.3: REPL (Read-Eval-Print Loop) tool for working with Modbus devices using the Pymodbus library.
+dev-python/pymodbus 3.6.9 3.7.4: A fully featured modbus protocol stack in python
+dev-python/pymodbus-repl 2.0.4: REPL (Read-Eval-Print Loop) tool for working with Modbus devices using the Pymodbus library.
 dev-python/pymonoprice 0.4: Python API for talking to Monoprice 6-zone amplifier
 dev-python/pymsteams 0.1.12: Format messages and post to Microsoft Teams.
 dev-python/pymyq 3.1.4: Python package for controlling MyQ-Enabled Garage Door
