@@ -299,7 +299,7 @@ dev-python/automower-ble 0.2.0: An unofficial reverse engineered Husqvarna Autom
 dev-python/av 13.1.0 14.1.0: Pythonic bindings for FFmpeg's libraries.
 dev-python/avea 1.5.1: Control an Elgato Avea bulb using python3
 dev-python/avion 0.10: Python API for controlling Avi-on Bluetooth dimmers
-dev-python/awesomeversion 23.11.0 24.2.0 24.6.0: One version package to rule them all, One version package to find them, One version package to bring them all, and in the darkness bind them.
+dev-python/awesomeversion 24.6.0: One version package to rule them all, One version package to find them, One version package to bring them all, and in the darkness bind them.
 dev-python/aws-request-signer 1.2.0: A python library to sign AWS requests using AWS Signature V4.
 dev-python/awscrt 0.21.1 0.23.0: A common runtime for AWS Python projects
 dev-python/awsiotsdk 1.22.0: AWS IoT SDK based on the AWS Common Runtime
