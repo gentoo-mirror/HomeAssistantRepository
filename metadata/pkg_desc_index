@@ -863,7 +863,6 @@ dev-python/prayer-times-calculator 0.0.10 0.0.12: Prayer Times Calculator
 dev-python/prayer-times-calculator-offline 1.0.3: Prayer Times Calculator - Offline
 dev-python/proliphix 0.4.1: API for Proliphix nt10e network thermostat.
 dev-python/prometheus-client 0.17.1 0.21.0: Python client for the Prometheus monitoring system
-dev-python/protobuf 4.25.1 5.28.2: Google's Protocol Buffers - Python bindings
 dev-python/proxmoxer 2.0.1: Python Wrapper for the Proxmox 2.x API (HTTP and SSH)
 dev-python/psutil 5.9.2 6.0.0-r1: Retrieve information on running processes and system utilization
 dev-python/psutil-home-assistant 0.0.1: Wrapper for psutil to allow it to be used several times in the same process.
