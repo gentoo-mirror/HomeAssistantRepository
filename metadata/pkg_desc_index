@@ -1393,6 +1393,7 @@ dev-python/tmb 0.0.4: Library that interacts with TMB API
 dev-python/todoist-api-python 2.1.2: Official Python SDK for the Todoist REST API.
 dev-python/todoist-python 8.0.0: todoist-python - The official Todoist Python API library
 dev-python/tololib 1.1.0: Python Library for Controlling TOLO Sauna/Steam Bath Devices
+dev-python/toml 0.10.2: Python Library for Tom's Obvious, Minimal Language
 dev-python/toonapi 0.3.0: Asynchronous Python client for the Quby ToonAPI.
 dev-python/total-connect-client 2024.5 2024.12: Interact with Total Connect 2 alarm systems
 dev-python/tp-connected 0.0.4: TP-Link LTE modem API
