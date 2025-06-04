@@ -882,7 +882,6 @@ dev-python/py-ccm15 0.0.9: A package to control Midea CCM15 data converter modul
 dev-python/py-cpuinfo 8.0.0: Get CPU info with pure Python 2 & 3
 dev-python/py-dormakaba-dkey 1.0.5: API to interact with a Dormakaba dkey lock via bluetooth
 dev-python/py-improv-ble-client 1.0.3: API to provision devices which implement Improv via BLE
-dev-python/py-madvr2 1.6.32: A package to control MadVR Envy over IP
 dev-python/py-melissa-climate 2.1.4: Api wrapper for Melissa Climate https://seemelissa.com
 dev-python/py-nextbusnext 1.0.2 2.0.5: Minimalistic Python client for the NextBus public API for real-time transit arrival data
 dev-python/py-nightscout 1.2.2: A library that provides a Python async interface to Nightscout
@@ -1227,7 +1226,6 @@ dev-python/pywizlight 0.5.14: A python connector for WiZ light bulbs (e.g SLV Pl
 dev-python/pywmspro 0.2.1: Python library for WMS WebControl pro API
 dev-python/pyws66i 1.1: Python API for talking to Soundavo's WS66i 6-zone amplifier using the telnet protocol
 dev-python/pyxeoma 1.4.1 1.4.2: Python wrapper for Xeoma web server API
-dev-python/pyyaml 6.0.1-r1: YAML parser and emitter for Python
 dev-python/pyyardian 1.1.1: A module for interacting with the Yardian irrigation controller
 dev-python/pyzbar 0.1.7: Read one-dimensional barcodes and QR codes from Python
 dev-python/pyzerproc 0.4.8: Async library to control Zerproc Bluetooth LED smart string lights
@@ -1379,7 +1377,6 @@ dev-python/tesla-wall-connector 1.0.2: API Library for communicating with a Tesl
 dev-python/teslajsonpy 0.18.3: A library to work with Tesla API.
 dev-python/teslemetry-stream 0.4.2: Teslemetry Streaming API library for Python
 dev-python/tessie-api 0.0.9 0.1.1: A small python package that wraps up the Tessie API
-dev-python/tf-models-official 2.5.0: TensorFlow Official Models
 dev-python/thermobeacon-ble 0.6.2 0.7.0: Parser for Thermobeacon devices
 dev-python/thermopro-ble 0.5.0 0.9.0 0.10.0: Thermopro BLE Sensors
 dev-python/thermoworks-smoke 0.1.8: Pull data for your thermoworks smoke thermometer
@@ -1526,7 +1523,6 @@ dev-python/zwave-me-ws 0.4.3: Library, implementing websocket connection to ZWav
 dev-vcs/pre-commit 3.7.1 4.0.0: A framework for managing and maintaining multi-language Git pre-commit hooks
 dev-vcs/python-gitlab 1.6.0: Interact with GitLab API
 media-libs/lv2 1.18.10: A simple but extensible successor of LADSPA
-net-analyzer/scapy 2.6.1: A Python interactive packet manipulation program for mastering the network
 net-analyzer/shodan 1.28.0: The official Python library for Shodan
 net-misc/yt-dlp 2024.08.06 2024.09.27 2024.10.22 2024.11.04 2024.12.13: youtube-dl fork with additional features and fixes
 sci-geosciences/GeographicLib 1.52-r3: C++ library for converting geographic coordinate systems
