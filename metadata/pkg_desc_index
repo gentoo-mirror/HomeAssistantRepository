@@ -1226,6 +1226,7 @@ dev-python/pywizlight 0.5.14: A python connector for WiZ light bulbs (e.g SLV Pl
 dev-python/pywmspro 0.2.1: Python library for WMS WebControl pro API
 dev-python/pyws66i 1.1: Python API for talking to Soundavo's WS66i 6-zone amplifier using the telnet protocol
 dev-python/pyxeoma 1.4.1 1.4.2: Python wrapper for Xeoma web server API
+dev-python/pyyaml 6.0.1-r1: YAML parser and emitter for Python
 dev-python/pyyardian 1.1.1: A module for interacting with the Yardian irrigation controller
 dev-python/pyzbar 0.1.7: Read one-dimensional barcodes and QR codes from Python
 dev-python/pyzerproc 0.4.8: Async library to control Zerproc Bluetooth LED smart string lights
