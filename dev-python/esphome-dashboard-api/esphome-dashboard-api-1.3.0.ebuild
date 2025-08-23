@@ -7,8 +7,8 @@ PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Get MAC addresses of remote hosts and local interfaces"
-HOMEPAGE="https://github.com/GhostofGoes/getmac https://pypi.org/project/getmac/"
+DESCRIPTION="API to interact with ESPHome Dashboard"
+HOMEPAGE="https://github.com/esphome/dashboard-api https://pypi.org/project/esphome-dashboard-api/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -17,3 +17,8 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
+
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/orjson[${PYTHON_USEDEP}]"
+
+distutils_enable_tests pytest
