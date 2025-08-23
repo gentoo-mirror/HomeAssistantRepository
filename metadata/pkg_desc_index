@@ -364,7 +364,7 @@ dev-python/buienradar 1.0.5 1.0.6: Library and CLI tools for interacting with bu
 dev-python/bx-py-utils 75: Various Python utility functions
 dev-python/cached-ipaddress 0.3.0 0.5.0 0.6.0 0.8.0: Cache construction of ipaddress objects
 dev-python/caio 0.9.17: Asynchronous file IO for Linux MacOS or Windows.
-dev-python/caldav 1.3.8: CalDAV (RFC4791) client library for Python
+dev-python/caldav 1.3.8 1.6.0: CalDAV (RFC4791) client library for Python
 dev-python/casttube 0.2.1-r2: casttube provides a way to interact with the Youtube Chromecast api
 dev-python/chacha20poly1305 0.0.3: Chacha20Poly1305
 dev-python/chacha20poly1305-reuseable 0.12.1 0.13.2: ChaCha20Poly1305 that is reuseable for asyncio
@@ -957,7 +957,7 @@ dev-python/pydexcom 0.2.3: Python API to interact with Dexcom Share API
 dev-python/pydiscovergy 3.0.0 3.0.1 3.0.2: Async Python 3 library for interacting with Discovergy smart meters API
 dev-python/pydoods 1.0.2: A Python wrapper for the DOODS image detection service
 dev-python/pydrawise 2024.9.0 2024.12.0: Python API for interacting with Hydrawise sprinkler controllers.
-dev-python/pydroid-ipcam 2.0.0: Library for handling the Android IP Webcam app
+dev-python/pydroid-ipcam 2.0.0 3.0.0: Library for handling the Android IP Webcam app
 dev-python/pyebox 1.1.4: Get your EBox consumption (wwww.ebox.ca)
 dev-python/pyecoforest 0.4.0: Python library for ecoforest local device.
 dev-python/pyeconet 0.1.22 0.1.23: Interface to the unofficial EcoNet API
