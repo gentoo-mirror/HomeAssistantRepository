@@ -148,7 +148,7 @@ dev-python/aiodns 3.0.0-r1 3.1.1 3.2.0: Simple DNS resolver for asyncio
 dev-python/aiodukeenergy 0.2.2: Asyncio Duke Energy
 dev-python/aioeafm 0.1.2-r1: An asyncio wrapper for the UK Environment Agency Flood Monitoring API
 dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
-dev-python/aioecowitt 2023.5.0 2024.2.1: Python wrapper for EcoWitt Protocol
+dev-python/aioecowitt 2023.5.0 2024.2.1 2025.3.1: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 0.1.5 0.4.0: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
 dev-python/aioesphomeapi 25.3.1 27.0.0 27.0.1 28.0.0-r1 29.3.2: Python API for interacting with ESPHome devices.
@@ -473,7 +473,7 @@ dev-python/epion 0.0.3: A python API wrapper for Epion Air senor data
 dev-python/epson-projector 0.5.1: Epson projector support for Python
 dev-python/epsonprinter 0.0.9: Communication package for Epson Workforce printer
 dev-python/eq3btsmart 1.1.6 1.1.8 1.1.9 1.2.0: Python library that allows interaction with eQ-3 Bluetooth smart thermostats.
-dev-python/esphome-dashboard-api 1.2.3: API to interact with ESPHome Dashboard
+dev-python/esphome-dashboard-api 1.2.3 1.3.0: API to interact with ESPHome Dashboard
 dev-python/esprima 4.0.1: ECMAScript parsing infrastructure for multipurpose analysis in Python
 dev-python/eternalegypt 0.0.16: Netgear LTE modem API
 dev-python/eufylife-ble-client 0.1.8: A library to communicate with EufyLife Bluetooth devices.
@@ -531,7 +531,7 @@ dev-python/georss-client 0.17: A GeoRSS client library.
 dev-python/georss-generic-client 0.6 0.8: A GeoRSS generic client library.
 dev-python/georss-ign-sismologia-client 0.6 0.8: A GeoRSS client library for the IGN Sismologia feed.
 dev-python/georss-qld-bushfire-alert-client 0.5 0.7 0.8: A GeoRSS client library for the Queensland Bushfire Alert feed.
-dev-python/getmac 0.8.2 0.9.4: Get MAC addresses of remote hosts and local interfaces
+dev-python/getmac 0.8.2 0.9.4 0.9.5: Get MAC addresses of remote hosts and local interfaces
 dev-python/gios 4.0.0 5.0.0: Python wrapper for getting air quality data from GIOS servers.
 dev-python/gitterpy 0.1.7: Python interface for the Gitter API
 dev-python/glances-api 0.5.0 0.6.0 0.8.0: Python API for interacting with Glances.
