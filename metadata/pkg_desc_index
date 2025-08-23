@@ -371,7 +371,7 @@ dev-python/chacha20poly1305-reuseable 0.12.1 0.13.2: ChaCha20Poly1305 that is re
 dev-python/charset-normalizer 3.2.0 3.4.0: The Real First Universal Charset Detector
 dev-python/circuit-webhook 1.0.1: circuit-webhook is a python client library for Unify Circuit api
 dev-python/ciscomobilityexpress 0.3.9: Module to interact with Cisco Mobility Express APIs to fetch connected devices.
-dev-python/ciso8601 2.3.0 2.3.1: Fast ISO8601 date time parser for Python written in C
+dev-python/ciso8601 2.3.1 2.3.2: Fast ISO8601 date time parser for Python written in C
 dev-python/clearpasspy 1.0.2: ClearPass API Python Library
 dev-python/clx-sdk-xms 1.0.0: Library for CLX Communications HTTP REST Messaging API
 dev-python/codecov 2.1.12-r1: Hosted coverage reports for GitHub, Bitbucket and Gitlab
