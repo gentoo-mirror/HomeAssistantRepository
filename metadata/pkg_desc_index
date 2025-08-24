@@ -312,6 +312,7 @@ dev-python/azure-kusto-ingest 3.1.0 4.5.1: Kusto Ingest Client
 dev-python/azure-storage-blob 12.20.0: Microsoft Azure Blob Storage Client Library for Python
 dev-python/azure-storage-queue 12.10.0: Microsoft Azure Azure Queue Storage Client Library for Python
 dev-python/babel 2.13.1 2.15.0: Collection of tools for internationalizing Python applications
+dev-python/backoff 2.2.1: Function decoration for backoff and retry
 dev-python/backports-strenum 1.2.8: Base class for creating enumerated constants that are also subclasses of str
 dev-python/baidu-aip 1.6.6.0: Baidu AIP SDK
 dev-python/base36 0.1.1: Yet another implementation for the positional numeral system using 36 as the radix.
@@ -664,7 +665,7 @@ dev-python/jsonrpc-websocket 3.1.1: A JSON-RPC websocket client library for asyn
 dev-python/justbackoff 0.6.0: Simple backoff algorithm in Python
 dev-python/justnimbus 0.6.0 0.7.3 0.7.4: A Python Wrapper for the Just Nimbus API
 dev-python/kaiterra-async-client 1.0.0: Kaiterra API Async Client
-dev-python/kasa-crypt 0.3.0: Fast kasa crypt
+dev-python/kasa-crypt 0.6.3: Fast kasa crypt
 dev-python/kconfiglib 13.7.1: A flexible Python Kconfig implementation
 dev-python/keba-kecontact 1.1.0: A python library to communicate with the KEBA charging stations via udp
 dev-python/kegtron-ble 0.4.0: Kegtron BLE support
@@ -1168,7 +1169,7 @@ dev-python/python-http-client 3.3.2: HTTP REST client, simplified for Python
 dev-python/python-izone 1.2.9: A python interface to the iZone airconditioner controller
 dev-python/python-join-api 0.0.9: Python API for interacting with Join by joaoapps.
 dev-python/python-juicenet 1.1.0: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
-dev-python/python-kasa 0.7.3 0.7.5 0.7.6 0.7.7 0.8.1 0.10.2: Python API for TP-Link Kasa Smarthome devices
+dev-python/python-kasa 0.7.3 0.7.7 0.8.1 0.10.2: Python API for TP-Link Kasa Smarthome devices
 dev-python/python-linkplay 0.0.15 0.0.20: A Python Library for Seamless LinkPlay Device Control
 dev-python/python-matter-server 5.10.0 6.1.0 6.3.0 6.5.2 6.6.0: Python Matter WebSocket Server
 dev-python/python-metar 1.4.0: Metar - a package to parse METAR coded weather reports
@@ -1481,7 +1482,7 @@ dev-python/wiffi 1.1.2: Python 3 package to interface devices from STALL WIFFI.
 dev-python/winix 0.2.1: Winix C545 Air Purifier Controller.
 dev-python/wirelesstagpy 0.8.1: Simple python wrapper over wirelesstags REST API
 dev-python/withings-api 2.4.0: Library for the Withings API
-dev-python/wled 0.18.0 0.20.2: Asynchronous Python client for WLED.
+dev-python/wled 0.20.2 0.21.0: Asynchronous Python client for WLED.
 dev-python/wolf-comm 0.0.7 0.0.8 0.0.9 0.0.15: A package to communicate with Wolf SmartSet Cloud
 dev-python/wolf-smartset 0.1.11: A package to communicate with Wolf Smart Set Cloud
 dev-python/wolf_smartset 0.1.11: A package to comunicate with Wolf Smart Set Cloud
