@@ -4,12 +4,11 @@
 EAPI=8
 
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
-DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=1
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Rijndael algorithm library for Python3."
-HOMEPAGE="https://github.com/meyt/py3rijndael https://pypi.org/project/py3rijndael/"
+DESCRIPTION="Function decoration for backoff and retry"
+HOMEPAGE="https://github.com/litl/backoff https://pypi.org/project/backoff/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -21,11 +20,9 @@ DOCS="README.rst"
 
 BDEPEND="
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+		dev-python/requests[${PYTHON_USEDEP}]
+		dev-python/responses[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest
