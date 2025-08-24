@@ -1472,5 +1472,4 @@ dev-python/python-openzwave-mqtt:async - Add async support.
 dev-python/samsungctl:websocket - Build with websocket support
 dev-python/volvooncall:console - add CLI support.
 dev-python/volvooncall:mqtt - Install mqtt client.
-dev-python/zeep:async - Add async support.
 media-libs/lv2:plugins - Enables examples plugins.
