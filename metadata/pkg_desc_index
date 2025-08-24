@@ -390,7 +390,7 @@ dev-python/construct-typing 0.6.2: Extension for the python package 'construct' 
 dev-python/convertdate 2.4.0: Converts between Gregorian dates and other calendar systems.
 dev-python/convertertools 0.5.0: Tools for converting python data types
 dev-python/coronavirus 1.1.1: Asynchronous Python client for getting Corona virus info.
-dev-python/coverage 7.6.1 7.6.8: Code coverage measurement for Python
+dev-python/coverage 7.6.1 7.6.8 7.10.0: Code coverage measurement for Python
 dev-python/coveralls 3.3.1-r1 4.0.1: Show coverage stats online via coveralls.io
 dev-python/crc 5.0.0: Library and CLI to calculate and verify all kinds of CRC checksums
 dev-python/crc16 0.1.1: Library for calculating CRC16
@@ -508,7 +508,7 @@ dev-python/fortiosapi 1.0.5: Python modules to use Fortigate APIs
 dev-python/freebox-api 1.1.0 1.2.1: Provides asynchronous authentication and access to Freebox servers
 dev-python/freenub 0.1.0: This is a fork of pubnub when it still had an MIT license
 dev-python/freesms 0.2.0: Send SMS with Free Mobile
-dev-python/freezegun 1.4.0 1.5.0: Let your Python tests travel through time
+dev-python/freezegun 1.5.2: Let your Python tests travel through time
 dev-python/fritzconnection 1.4.2-r1 1.13.2: Communicate with the AVM FRITZ!Box
 dev-python/frozendict 2.4.4: A simple immutable dictionary
 dev-python/ftfy 6.1.3: Fixes mojibake and other problems with Unicode, after the fact
@@ -536,7 +536,7 @@ dev-python/gios 4.0.0 5.0.0: Python wrapper for getting air quality data from GI
 dev-python/gitterpy 0.1.7: Python interface for the Gitter API
 dev-python/glances-api 0.5.0 0.6.0 0.8.0: Python API for interacting with Glances.
 dev-python/gntp 1.0.3: Growl Notification Transport Protocol for Python
-dev-python/go2rtc-client 0.1.0-r1 0.1.1: Python client for go2rtc
+dev-python/go2rtc-client 0.1.1 0.2.1: Python client for go2rtc
 dev-python/goalzero 0.2.2: Goal Zero REST Api Library
 dev-python/goodwe 0.2.32 0.3.5 0.3.6: Read data from GoodWe inverter via local network
 dev-python/google-ai-generativelanguage 0.3.3 0.4.0 0.6.5: Google Ai Generativelanguage API client library
@@ -691,7 +691,7 @@ dev-python/libpyvivotek 0.4.0: Python Library for Vivotek IP Cameras
 dev-python/librouteros 3.2.0: Python implementation of MikroTik RouterOS API
 dev-python/libsoundtouch 0.8.0-r1: Bose Soundtouch Python library
 dev-python/libusb1 3.0.0: Pure-python wrapper for libusb-1.0
-dev-python/license-expression 30.4.0: Parse, compare, simplify and normalize license expressions
+dev-python/license-expression 30.4.0 30.4.3: Parse, compare, simplify and normalize license expressions
 dev-python/life360 6.0.1: Life360 Communications Module
 dev-python/liffylights 0.9.4: LIFX Python library
 dev-python/lightify 1.0.7.3: A library to work with OSRAM lightify.
@@ -1021,7 +1021,7 @@ dev-python/pylaunches 1.4.0 2.0.0: A python packages to get information form upc
 dev-python/pylgnetcast 0.3.7 0.3.9: Client for the LG Smart TV running NetCast 3 or 4.
 dev-python/pylibrespot-java 0.1.1: Python Interface for librespot-java
 dev-python/pylint 3.2.2 3.3.1: Python code static checker
-dev-python/pylint-per-file-ignores 1.2.1 1.3.2: A pylint plugin to ignore error codes per file.
+dev-python/pylint-per-file-ignores 1.3.2 1.4.0: A pylint plugin to ignore error codes per file.
 dev-python/pylitejet 0.6.2 0.6.3: A library for controlling a LiteJet lighting system.
 dev-python/pylitterbot 2023.4.9 2023.4.11 2023.5.0: Python package for controlling Whisker automatic robots.
 dev-python/pyloopenergy 0.2.1: Access Loop Energy energy monitors via Socket.IO API
@@ -1133,13 +1133,14 @@ dev-python/pytedee-async 0.2.13 0.2.17 0.2.20: A Tedee Lock Client package
 dev-python/pytest 8.1.1 8.2.0-r1 8.3.3: Simple powerful testing with Python
 dev-python/pytest-aio 1.9.0: Pytest plugin for testing async python code
 dev-python/pytest-asyncio 0.23.6 0.24.0: Library for testing asyncio code with pytest
+dev-python/pytest-cov 6.2.1: pytest plugin for coverage reporting
 dev-python/pytest-freezer 0.4.8: Pytest plugin providing a fixture interface for spulec/freezegun
-dev-python/pytest-github-actions-annotate-failures 0.2.0: pytest plugin to annotate failed tests with a workflow command for GitHub Actions
-dev-python/pytest-picked 0.5.0: Run the tests related to the changed files
+dev-python/pytest-github-actions-annotate-failures 0.2.0 0.3.0: pytest plugin to annotate failed tests with a workflow command for GitHub Actions
+dev-python/pytest-picked 0.5.0 0.5.1: Run the tests related to the changed files
 dev-python/pytest-runner 6.0.0: Invoke py.test as distutils command with dependency resolution
 dev-python/pytest-socket 0.6.0 0.7.0: Pytest Plugin to disable socket calls during tests
 dev-python/pytest-test-groups 1.0.3: A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups.
-dev-python/pytest-unordered 0.5.2 0.6.0 0.6.1: Test equality of unordered collections in pytest
+dev-python/pytest-unordered 0.6.1 0.7.0: Test equality of unordered collections in pytest
 dev-python/pytest-xdist 3.3.1-r1 3.5.0: Distributed testing and loop-on-failing modes
 dev-python/pytfiac 0.4: API for Tfiac AC
 dev-python/pythinkingcleaner 0.0.3: Library to control ThinkingCleaner devices
@@ -1358,7 +1359,7 @@ dev-python/svg-py 1.4.3: SVG drawing library
 dev-python/swisshydrodata 0.1.0: A library to fetch data from the Swiss federal Office for Environment FEON
 dev-python/switchbot-api 2.0.0 2.1.0 2.2.1: An asynchronous library to use Switchbot API
 dev-python/synology-srm 0.2.0: Synology SRM API
-dev-python/syrupy 4.6.1 4.7.1 4.7.2: Pytest Snapshot Test Utility
+dev-python/syrupy 4.6.1 4.7.2 4.9.1: Pytest Snapshot Test Utility
 dev-python/systembridgeconnector 3.10.0 4.0.3 4.1.5: System Bridge Connector
 dev-python/systembridgemodels 4.0.4 4.2.4: System Bridge Models
 dev-python/tahoma-api 0.0.16: Tahoma Api - Python connect to Tahoma REST API
