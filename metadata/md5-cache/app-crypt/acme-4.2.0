@@ -6,4 +6,4 @@ KEYWORDS=amd64 arm arm64 x86
 LICENSE=metapackage
 RDEPEND=>=app-crypt/certbot-4.2.0
 SLOT=0
-_md5_=45b15beb472a846dc665107030efe0ab
+_md5_=c6070d4b13f95716fd81cb9d23a1e1e7

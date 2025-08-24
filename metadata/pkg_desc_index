@@ -1316,7 +1316,7 @@ dev-python/smart-meter-texas 0.4.7 0.5.5: Package to connect to and retrieve dat
 dev-python/smbus-cffi 0.5.1: SMBus access through the I2C /dev interface on Linux hosts.
 dev-python/smhi-pkg 1.0.16 1.0.18: Gets the weather forecast data from Swedish weather institute
 dev-python/snapcast 2.3.3 2.3.6: Control Snapcast.
-dev-python/snitun 0.36.2 0.39.1 0.40.0: SNI proxy with TCP multiplexer
+dev-python/snitun 0.44.0: SNI proxy with TCP multiplexer
 dev-python/sockio 0.15.0: Concurrency agnostic socket API
 dev-python/soco 0.30.4 0.30.6: SoCo (Sonos Controller) is a simple library to control Sonos speakers.
 dev-python/solaredge 0.0.2: A python API wrapper for Solaredge monitoring service
