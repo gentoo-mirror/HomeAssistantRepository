@@ -1199,7 +1199,7 @@ dev-python/python-telegram-bot 13.1 21.0.1 21.5: We have made you a wrapper you 
 dev-python/python-vlc 3.0.18122: VLC bindings for python.
 dev-python/python-wink 1.10.5: Access Wink devices via the Wink API
 dev-python/pythonegardia 1.0.52: Python 3 support for Egardia / Woonveilig alarm
-dev-python/pytile 2023.4.0 2023.12.0: A simple Python API for Tile Bluetooth trackers
+dev-python/pytile 2023.4.0 2023.12.0 2024.12.0: A simple Python API for Tile Bluetooth trackers
 dev-python/pytomorrowio 0.3.6: Async Python3.9+ package to access the Tomorrow.io API
 dev-python/pytouchline 0.7: A Roth Touchline interface library
 dev-python/pytouchlinesl 0.1.8: An API client for Roth's TouchlineSL control system.
