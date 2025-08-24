@@ -1459,7 +1459,7 @@ dev-python/vsure 2.6.6 2.6.7: Read and change status of verisure devices through
 dev-python/vtjp 0.2.1: Vasttrafik API
 dev-python/vulcan-api 2.3.0 2.3.2: Nieoficjalne API do dzienniczka elektronicznego UONET+
 dev-python/vultr 0.1.2: Vultr.com API Client
-dev-python/wakeonlan 2.1.0: A small python module for wake on lan.
+dev-python/wakeonlan 2.1.0 3.1.0: A small python module for wake on lan.
 dev-python/wallbox 0.4.14 0.6.0 0.7.0: Module for interacting with Wallbox EV charger api
 dev-python/waqiasync 1.0.0: asyncio-friendly python API for aqicn.org
 dev-python/warrant-lite 1.0.4-r1: Small Python library for process SRP requests for AWS Cognito.
