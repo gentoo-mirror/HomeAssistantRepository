@@ -5,11 +5,10 @@ EAPI=8
 
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="A better mock for file I/O"
-HOMEPAGE="https://github.com/nivbend/mock-open https://pypi.org/project/mock-open/"
+DESCRIPTION="Run the tests related to the changed files"
+HOMEPAGE="https://github.com/anapaulagomes/pytest-picked https://pypi.org/project/pytest-picked/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,14 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/mock[${PYTHON_USEDEP}]"
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+RDEPEND=">=dev-python/pytest-3.7.0[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
