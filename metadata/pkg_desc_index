@@ -1199,7 +1199,7 @@ dev-python/python-telegram-bot 13.1 21.0.1 21.5: We have made you a wrapper you 
 dev-python/python-vlc 3.0.18122: VLC bindings for python.
 dev-python/python-wink 1.10.5: Access Wink devices via the Wink API
 dev-python/pythonegardia 1.0.52: Python 3 support for Egardia / Woonveilig alarm
-dev-python/pytile 2023.4.0 2023.12.0 2024.12.0: A simple Python API for Tile Bluetooth trackers
+dev-python/pytile 2023.12.0 2024.12.0: A simple Python API for Tile Bluetooth trackers
 dev-python/pytomorrowio 0.3.6: Async Python3.9+ package to access the Tomorrow.io API
 dev-python/pytouchline 0.7: A Roth Touchline interface library
 dev-python/pytouchlinesl 0.1.8: An API client for Roth's TouchlineSL control system.
@@ -1220,7 +1220,7 @@ dev-python/pyvolumio 0.1.5: A python library to control Volumio.
 dev-python/pywaze 1.0.1 1.0.2: Asynchronous Waze client for calculating routes and travel times.
 dev-python/pyweatherflowudp 1.4.5: An event-based asynchronous library to read UDP packets from Weatherflow weather systems on a local network without any reliance on the cloud.
 dev-python/pywebpush 1.9.2 1.14.1: WebPush publication library
-dev-python/pywemo 1.3.0 1.4.0: Lightweight Python module to discover and control WeMo devices
+dev-python/pywemo 1.4.0: Lightweight Python module to discover and control WeMo devices
 dev-python/pywilight 0.0.74: Python API for WiLight in Home Assistant
 dev-python/pywizlight 0.5.14: A python connector for WiZ light bulbs (e.g SLV Play)
 dev-python/pywmspro 0.2.1: Python library for WMS WebControl pro API
