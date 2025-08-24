@@ -635,7 +635,7 @@ dev-python/importlib_resources 5.12.0: Read resources from Python packages
 dev-python/imutils 0.5.4: A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images, sorting contours, detecting edges, and much more easier with OpenCV and both Python 2.7 and Python 3.
 dev-python/incomfort-client 0.6.3 0.6.3-r1 0.6.4: A aiohttp-based client for Intergas InComfort/InTouch Lan2RF systems
 dev-python/influxdb 5.3.1: InfluxDB client
-dev-python/influxdb-client 1.24.0: InfluxDB 2.0 Python client library
+dev-python/influxdb-client 1.24.0 1.48.0: InfluxDB 2.0 Python client library
 dev-python/inkbird-ble 0.5.6 0.5.8: Parser for INKBIRD BLE devices
 dev-python/inquirerpy 0.3.4: Python port of Inquirer.js (A collection of common interactive command-line user interfaces)
 dev-python/insteon-frontend-home-assistant 0.4.0 0.5.0: The Insteon frontend for Home Assistant
