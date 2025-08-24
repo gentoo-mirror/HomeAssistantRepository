@@ -96,7 +96,7 @@ dev-python/Tami4EdgeAPI 2.1 3.0: Tami 4 Edge / Edge+ API in Python
 dev-python/TravisPy 0.3.5: Python API for Travis CI.
 dev-python/TwitterAPI 2.7.12: Minimal wrapper for Twitter's REST and Streaming APIs
 dev-python/VL53L1X2 0.1.5: vl53l1x distance sensor driver for Raspberry Pi
-dev-python/WSDiscovery 2.0.0: WS-Discovery implementation for python
+dev-python/WSDiscovery 2.0.0 2.1.2: WS-Discovery implementation for python
 dev-python/WazeRouteCalculator 0.14: Calculate actual route time and distance with waze api.
 dev-python/XBee 2.3.2: Python tools for working with XBee radios
 dev-python/abodepy 1.2.0: An Abode alarm Python library running on Python 3.
@@ -623,7 +623,7 @@ dev-python/ibm-cloud-sdk-core 3.11.3: Core library used by SDKs for IBM Cloud Se
 dev-python/ibm-watson 5.2.2: Client library to use the IBM Watson Services
 dev-python/ibmiotf 0.3.4: Python Client for IBM Watson IoT Platform
 dev-python/ical 8.0.0 8.0.1 8.1.1 8.2.0: Python iCalendar implementation (rfc 2445)
-dev-python/icmplib 3.0.4: Easily forge ICMP packets and make your own ping and traceroute.
+dev-python/icmplib 3.0 3.0.4: Easily forge ICMP packets and make your own ping and traceroute.
 dev-python/idasen 0.10.3: ikea IDASEN desk API and CLI.
 dev-python/idasen-ha 2.5 2.5.1 2.5.3 2.6.2: Home Assistant helper lib for the IKEA Idasen Desk integration
 dev-python/ifaddr 0.1.7: Enumerate IP addresses on the local network adapters
