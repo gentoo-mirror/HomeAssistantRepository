@@ -151,7 +151,7 @@ dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2023.5.0 2024.2.1 2025.3.1: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 0.1.5 0.4.0: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 25.3.1 27.0.0 27.0.1 28.0.0-r1 29.3.2: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 25.3.1 27.0.1 28.0.0-r1 29.3.2 37.2.2: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.21.3: ftp client/server for asyncio
@@ -303,7 +303,7 @@ dev-python/awesomeversion 24.6.0 25.5.0: One version package to rule them all, O
 dev-python/aws-request-signer 1.2.0: A python library to sign AWS requests using AWS Signature V4.
 dev-python/awscrt 0.21.1 0.23.0: A common runtime for AWS Python projects
 dev-python/awsiotsdk 1.22.0: AWS IoT SDK based on the AWS Common Runtime
-dev-python/axis 61 62 63: A Python library for communicating with devices from Axis Communications
+dev-python/axis 61 62 63 65: A Python library for communicating with devices from Axis Communications
 dev-python/ayla-iot-unofficial 1.4.2 1.4.3: Python API for Ayla IoT products
 dev-python/azure-core 1.30.2: Microsoft Azure Core Library for Python
 dev-python/azure-identity 1.17.1: Microsoft Azure Identity Library for Python
