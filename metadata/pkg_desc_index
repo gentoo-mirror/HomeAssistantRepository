@@ -303,7 +303,7 @@ dev-python/awesomeversion 24.6.0 25.5.0: One version package to rule them all, O
 dev-python/aws-request-signer 1.2.0: A python library to sign AWS requests using AWS Signature V4.
 dev-python/awscrt 0.21.1 0.23.0: A common runtime for AWS Python projects
 dev-python/awsiotsdk 1.22.0: AWS IoT SDK based on the AWS Common Runtime
-dev-python/axis 61 62 63 65: A Python library for communicating with devices from Axis Communications
+dev-python/axis 62 63 65: A Python library for communicating with devices from Axis Communications
 dev-python/ayla-iot-unofficial 1.4.2 1.4.3: Python API for Ayla IoT products
 dev-python/azure-core 1.30.2: Microsoft Azure Core Library for Python
 dev-python/azure-identity 1.17.1: Microsoft Azure Identity Library for Python
@@ -501,7 +501,7 @@ dev-python/flexit-bacnet 2.1.0 2.2.1: Client BACnet library for Flexit Nordic se
 dev-python/flipr-api 1.5.1 1.6.1: Python client for flipr API.
 dev-python/flux-led 1.0.4: A Python library to communicate with the flux_led smart bulbs
 dev-python/fnv-hash-fast 0.5.0 1.0.2: A fast version of fnv1a
-dev-python/fnvhash 0.1.0: Pure Python FNV hash implementation
+dev-python/fnvhash 0.1.0 0.2.1: Pure Python FNV hash implementation
 dev-python/foobot_async 1.0.0: API Client for Foobot Air Quality Monitoring devices.
 dev-python/forecast-solar 3.1.0 4.0.0: Asynchronous Python client for getting forecast solar information
 dev-python/fortigate-api 2.0.2: Python package to configure Fortigate (Fortios) devices using REST API and SSH
