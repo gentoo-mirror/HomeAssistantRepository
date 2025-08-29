@@ -251,6 +251,7 @@ dev-python/amqtt 0.10.1: MQTT client/broker using Python asyncio
 dev-python/androidtv 0.0.73-r1 0.0.75: Communicate with an Android TV or Fire TV device via ADB over a network.
 dev-python/androidtvremote2 0.0.14 0.0.15 0.1.1 0.1.2: A Python library for interacting with Android TV using the Android TV Remote protocol v2
 dev-python/anel-pwrctrl-homeassistant 0.0.1: Discover and control ANEL NET-PwrCtrl devices.
+dev-python/annotatedyaml 0.4.5 1.0.0: Annotated YAML that supports secrets for Python
 dev-python/anova-wifi 0.10.0 0.12.0 0.17.0: A package to get read only data from Anova precision cookers with wifi
 dev-python/anthemav 1.4.1: Python API for controlling Anthem Receivers
 dev-python/anthropic 0.31.2: The official Python library for the anthropic API
@@ -1294,6 +1295,7 @@ dev-python/sensor-state-data 2.18.0: Models for storing and converting Sensor Da
 dev-python/sensorpro-ble 0.5.3: SensorPro BLE Devices
 dev-python/sensorpush-ble 1.6.2 1.7.1: Parser for SensorPush BLE devices
 dev-python/sensoterra 2.0.1: Query Sensoterra probes using the Customer API
+dev-python/sentence-stream 1.1.0: A small sentence splitter for text streams
 dev-python/sentry-sdk 1.37.1 1.39.2 1.40.3: Python client for Sentry
 dev-python/sepaxml 2.2.0: Python SEPA XML implementations
 dev-python/setuptools-markdown 0.4.1: [Deprecated] Use Markdown for your project description
