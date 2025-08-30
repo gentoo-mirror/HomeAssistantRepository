@@ -159,9 +159,10 @@ dev-python/aiogithubapi 23.11.0-r1 24.6.0: Asynchronous Python client for the Gi
 dev-python/aioguardian 2022.7.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aiohappyeyeballs 2.3.1: Happy Eyeballs
 dev-python/aioharmony 0.2.10: Asyncio Python library for connecting to and controlling the Logitech Harmony
-dev-python/aiohasupervisor 0.1.0 0.2.1: Asynchronous python client for Home Assistant Supervisor.
+dev-python/aiohasupervisor 0.1.0 0.2.1 0.3.2: Asynchronous python client for Home Assistant Supervisor.
 dev-python/aiohomekit 3.2.3 3.2.6 3.2.7 3.2.15: An asyncio HomeKit client
 dev-python/aiohttp 3.9.5 3.10.8 3.10.10 3.10.11: HTTP client/server for asyncio
+dev-python/aiohttp-asyncmdnsresolver 0.1.1: An async resolver for aiohttp that supports MDNS
 dev-python/aiohttp-fast-url-dispatcher 0.3.0: A faster URL dispatcher for aiohttp
 dev-python/aiohttp-fast-zlib 0.1.1 0.2.0 0.3.0: Use the fastest installed zlib compatible library with aiohttp
 dev-python/aiohttp-isal 0.3.1-r1: isal support for aiohttp
@@ -598,7 +599,7 @@ dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.58 0.59 0.61 0.63: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.11.0 1.12.0 1.12.2 1.13.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2 2024.5.2 2024.9.0: Python-base APIs and tools for CHIP.
-dev-python/home-assistant-frontend 20241002.3 20241002.4 20241106.2 20241127.8: The Home Assistant frontend
+dev-python/home-assistant-frontend 20241002.3 20241002.4 20241106.2 20241127.8 20250811.1: The Home Assistant frontend
 dev-python/home-assistant-intents 2024.9.4 2024.10.2 2024.11.6 2024.12.9: Intents for Home Assistant
 dev-python/homeconnect 0.7.2 0.8.0: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.1.0 1.1.1 1.1.2 1.1.3: An API for the homematicip cloud
