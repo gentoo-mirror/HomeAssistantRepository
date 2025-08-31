@@ -159,7 +159,7 @@ dev-python/aiogithubapi 23.11.0-r1 24.6.0: Asynchronous Python client for the Gi
 dev-python/aioguardian 2022.7.0: A Python3 library for Elexa Guardian water valves and sensors
 dev-python/aiohappyeyeballs 2.3.1: Happy Eyeballs
 dev-python/aioharmony 0.2.10: Asyncio Python library for connecting to and controlling the Logitech Harmony
-dev-python/aiohasupervisor 0.1.0 0.2.1 0.3.2: Asynchronous python client for Home Assistant Supervisor.
+dev-python/aiohasupervisor 0.1.0 0.2.1 0.3.1 0.3.2: Asynchronous python client for Home Assistant Supervisor.
 dev-python/aiohomekit 3.2.3 3.2.6 3.2.7 3.2.15: An asyncio HomeKit client
 dev-python/aiohttp 3.9.5 3.10.8 3.10.10 3.10.11: HTTP client/server for asyncio
 dev-python/aiohttp-asyncmdnsresolver 0.1.1: An async resolver for aiohttp that supports MDNS
