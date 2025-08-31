@@ -186,7 +186,7 @@ dev-python/aiolookin 1.0.0: Client for interaction of the LOOKin device with the
 dev-python/aiolyric 1.1.0 2.0.1: AIO package for the Honeywell Lyric Platform.
 dev-python/aiomealie 0.9.3: Asynchronous Python client for Mealie.
 dev-python/aiomodernforms 0.1.8: Asynchronous Python client for Modern Forms fans.
-dev-python/aiomqtt 2.0.0 2.1.0: The idiomatic asyncio MQTT client, wrapped around paho-mqtt
+dev-python/aiomqtt 2.0.0 2.1.0 2.3.2: The idiomatic asyncio MQTT client, wrapped around paho-mqtt
 dev-python/aiomusiccast 0.14.8: Companion library for musiccast devices intended for the Home Assistant integration.
 dev-python/aionanoleaf 0.2.1: Async Python package for the Nanoleaf API
 dev-python/aionotify 0.2.0: Asyncio-powered inotify library
@@ -598,7 +598,7 @@ dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.8.0: Python API for interacting with *hole.
 dev-python/holidays 0.61 0.63 0.79: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.12.2 1.13.0 1.13.1: Home Assistant Bluetooth Models and Helpers
-dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2 2024.5.2 2024.9.0: Python-base APIs and tools for CHIP.
+dev-python/home-assistant-chip-clusters 2024.3.2 2024.5.2 2024.9.0 2025.7.0: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20241002.3 20241002.4 20241106.2 20241127.8 20250811.1: The Home Assistant frontend
 dev-python/home-assistant-intents 2024.9.4 2024.11.6 2024.12.9 2025.7.30: Intents for Home Assistant
 dev-python/homeconnect 0.7.2 0.8.0: Python client for the BSH Home Connect REST API
@@ -625,7 +625,7 @@ dev-python/ibeacon-ble 1.0.1 1.2.0: Parser for iBeacon devices
 dev-python/ibm-cloud-sdk-core 3.11.3: Core library used by SDKs for IBM Cloud Services
 dev-python/ibm-watson 5.2.2: Client library to use the IBM Watson Services
 dev-python/ibmiotf 0.3.4: Python Client for IBM Watson IoT Platform
-dev-python/ical 8.0.0 8.0.1 8.1.1 8.2.0: Python iCalendar implementation (rfc 2445)
+dev-python/ical 8.1.1 8.2.0 11.0.0: Python iCalendar implementation (rfc 2445)
 dev-python/icmplib 3.0 3.0.4: Easily forge ICMP packets and make your own ping and traceroute.
 dev-python/idasen 0.10.3: ikea IDASEN desk API and CLI.
 dev-python/idasen-ha 2.5 2.5.1 2.5.3 2.6.2: Home Assistant helper lib for the IKEA Idasen Desk integration
@@ -1039,7 +1039,7 @@ dev-python/pymfy 0.11.0: A Somfy Open API library
 dev-python/pymicro-vad 1.0.1-r1: Self-contained voice activity detector
 dev-python/pymitv 1.4.3: A Python 3 based Xiaomi TV remote
 dev-python/pymochad 0.2.0: A python library for interacting with moch
-dev-python/pymodbus 3.6.9 3.7.4: A fully featured modbus protocol stack in python
+dev-python/pymodbus 3.6.9 3.7.4 3.9.2: A fully featured modbus protocol stack in python
 dev-python/pymodbus-repl 2.0.4: REPL (Read-Eval-Print Loop) tool for working with Modbus devices using the Pymodbus library.
 dev-python/pymonoprice 0.4: Python API for talking to Monoprice 6-zone amplifier
 dev-python/pymsteams 0.1.12: Format messages and post to Microsoft Teams.
@@ -1061,7 +1061,7 @@ dev-python/pyombi 0.1.10: A python module to retrieve information from Ombi.
 dev-python/pyopensprinkler 0.7.6 0.7.12: Python module for OpenSprinker API
 dev-python/pyopenssl 24.1.0: Python interface to the OpenSSL library
 dev-python/pyopenuv 2023.2.0: A simple Python API data from openuv.io
-dev-python/pyopenweathermap 0.0.9 0.1.1 0.2.1: lib for OpenWeatherMap for Home Assistant
+dev-python/pyopenweathermap 0.1.1 0.2.1 0.2.2: lib for OpenWeatherMap for Home Assistant
 dev-python/pyopnsense 0.4.0: A python API client for OPNsense
 dev-python/pyoppleio 1.0.5: Python library for interfacing with opple mobile control light
 dev-python/pyoppleio-legacy 1.0.8: Python library for interfacing with old models of opple lights with wifi control.
@@ -1173,7 +1173,7 @@ dev-python/python-join-api 0.0.9: Python API for interacting with Join by joaoap
 dev-python/python-juicenet 1.1.0: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
 dev-python/python-kasa 0.7.3 0.7.7 0.8.1 0.10.2: Python API for TP-Link Kasa Smarthome devices
 dev-python/python-linkplay 0.0.15 0.0.20: A Python Library for Seamless LinkPlay Device Control
-dev-python/python-matter-server 5.10.0 6.1.0 6.3.0 6.5.2 6.6.0: Python Matter WebSocket Server
+dev-python/python-matter-server 6.3.0 6.6.0 8.0.0: Python Matter WebSocket Server
 dev-python/python-metar 1.4.0: Metar - a package to parse METAR coded weather reports
 dev-python/python-miio 0.5.12: Python library for interfacing with Xiaomi smart appliances
 dev-python/python-mpd2 3.0.5: A Python MPD client library
