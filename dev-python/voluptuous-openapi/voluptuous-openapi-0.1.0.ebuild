@@ -1,14 +1,14 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{11..13} )
+PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
 DESCRIPTION="Convert voluptuous schemas to OpenAPI Schema object"
-HOMEPAGE="http://github.com/Shulyaka/voluptuous-openapi https://pypi.org/project/voluptuous-openapi/"
+HOMEPAGE="https://github.com/home-assistant-libs/voluptuous-openapi https://pypi.org/project/voluptuous-openapi/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
