@@ -186,7 +186,7 @@ dev-python/aiolookin 1.0.0: Client for interaction of the LOOKin device with the
 dev-python/aiolyric 1.1.0 2.0.1: AIO package for the Honeywell Lyric Platform.
 dev-python/aiomealie 0.9.3: Asynchronous Python client for Mealie.
 dev-python/aiomodernforms 0.1.8: Asynchronous Python client for Modern Forms fans.
-dev-python/aiomqtt 2.0.0 2.1.0 2.3.2: The idiomatic asyncio MQTT client, wrapped around paho-mqtt
+dev-python/aiomqtt 2.0.0 2.3.2: The idiomatic asyncio MQTT client, wrapped around paho-mqtt
 dev-python/aiomusiccast 0.14.8: Companion library for musiccast devices intended for the Home Assistant integration.
 dev-python/aionanoleaf 0.2.1: Async Python package for the Nanoleaf API
 dev-python/aionotify 0.2.0: Asyncio-powered inotify library
@@ -502,7 +502,7 @@ dev-python/flake8-docstrings 1.6.0-r1: Extension for flake8 which uses pydocstyl
 dev-python/flexit-bacnet 2.1.0 2.2.1: Client BACnet library for Flexit Nordic series of air handling units.
 dev-python/flipr-api 1.5.1 1.6.1: Python client for flipr API.
 dev-python/flux-led 1.0.4: A Python library to communicate with the flux_led smart bulbs
-dev-python/fnv-hash-fast 0.5.0 1.0.2: A fast version of fnv1a
+dev-python/fnv-hash-fast 1.0.2 1.5.0: A fast version of fnv1a
 dev-python/fnvhash 0.1.0 0.2.1: Pure Python FNV hash implementation
 dev-python/foobot_async 1.0.0: API Client for Foobot Air Quality Monitoring devices.
 dev-python/forecast-solar 3.1.0 4.0.0 4.2.0: Asynchronous Python client for getting forecast solar information
@@ -940,7 +940,7 @@ dev-python/pycketcasts 1.0.1: Interact with PocketCast's unofficial API
 dev-python/pyclimacell 0.18.2: Async Python3.7+ package to access the ClimaCell API
 dev-python/pycmus 0.1.1: A python cmus remote library
 dev-python/pycocotools 2.0.6: Official APIs for the MS-COCO dataset
-dev-python/pycognito 2023.5.0 2024.2.0 2024.5.1: Python class to integrate Boto3's Cognito client so it is easy to login users. With SRP support.
+dev-python/pycognito 2024.5.1: Python class to integrate Boto3's Cognito client so it is easy to login users. With SRP support.
 dev-python/pycomfoconnect 0.5.1: Python interface for the Zehnder ComfoConnect LAN C bridge.
 dev-python/pycoolmasternet-async 0.1.5 0.2.2: A python library to control CoolMasterNet HVAC bridges over asyncio.
 dev-python/pycountry-convert 0.7.2: Extension of Python package pycountry providing conversion functions.
@@ -1188,7 +1188,7 @@ dev-python/python-picnic-api 1.1.0: Unofficial Python wrapper for the Picnic API
 dev-python/python-qbittorrent 0.4.3: Python wrapper for qBittorrent >4.1.x
 dev-python/python-rabbitair 0.0.8: Python library for local control of Rabbit Air air purifiers
 dev-python/python-ripple-api 0.0.3: Python API for interacting with ripple.com.
-dev-python/python-roborock 2.6.1 2.7.2 2.8.1: A package to control Roborock vacuums.
+dev-python/python-roborock 2.7.2 2.8.1 2.18.2: A package to control Roborock vacuums.
 dev-python/python-sense-hat 2.2.0-r3: Raspberry Pi Sense HAT python library
 dev-python/python-singleton 0.1.2: Singleton Metaclass.
 dev-python/python-slugify 4.0.1 8.0.1: A Python Slugify application that handles Unicode
@@ -1458,7 +1458,7 @@ dev-python/vol 0.1.1: volume control in the shell for your mac
 dev-python/volkszaehler 0.4.0: Python Wrapper for interacting with the Volkszahler API.
 dev-python/voluptuous 0.13.1-r1 0.14.1 0.14.2: A Python data validation library
 dev-python/voluptuous-openapi 0.0.5 0.1.0: Convert voluptuous schemas to OpenAPI Schema object
-dev-python/voluptuous-serialize 2.6.0: Convert voluptuous schemas to dictionaries
+dev-python/voluptuous-serialize 2.6.0 2.7.0: Convert voluptuous schemas to dictionaries
 dev-python/volvooncall 0.10.3: Communicate with VOC
 dev-python/vsure 2.6.6 2.6.7: Read and change status of verisure devices through mypages.
 dev-python/vtjp 0.2.1: Vasttrafik API
