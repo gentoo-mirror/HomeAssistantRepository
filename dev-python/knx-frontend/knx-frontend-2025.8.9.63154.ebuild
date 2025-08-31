@@ -7,8 +7,8 @@ PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Generate and work with holidays in Python"
-HOMEPAGE="https://github.com/vacanza/holidays https://pypi.org/project/holidays/"
+DESCRIPTION="KNX panel for Home Assistant"
+HOMEPAGE="https://github.com/XKNX/knx-frontend https://pypi.org/project/knx-frontend/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -16,6 +16,6 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
+DOCS="README.md"
 
-RDEPEND="dev-python/python-dateutil[${PYTHON_USEDEP}]"
+distutils_enable_tests pytest
