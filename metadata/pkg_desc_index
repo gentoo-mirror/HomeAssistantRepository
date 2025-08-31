@@ -404,7 +404,7 @@ dev-python/crownstone-cloud 1.4.9 1.4.11: Asynchronous Python library to get dat
 dev-python/crownstone-core 3.0.1: This is the core of the python lib. It contains shared classes, definitions and utils
 dev-python/crownstone-sse 2.0.4 2.0.5: Asynchronous Python library that listens to Crownstone SSE events.
 dev-python/crownstone-uart 2.1.0: Official Python lib for Crownstone: "Crownstone Unified System Bridge", or Crownstone USB implementation
-dev-python/cryptography 42.0.5 43.0.1 44.0.3 45.0.3: Library providing cryptographic recipes and primitives
+dev-python/cryptography 42.0.5 43.0.1 45.0.3: Library providing cryptographic recipes and primitives
 dev-python/csrmesh 0.10.0: Reverse engineered implementation of the CSRMesh bridge protocol
 dev-python/curio-compat 1.6.7: Curio is a coroutine-based library for concurrent systems programming.
 dev-python/curlify 2.2.1: Library to convert python requests object to curl command.
