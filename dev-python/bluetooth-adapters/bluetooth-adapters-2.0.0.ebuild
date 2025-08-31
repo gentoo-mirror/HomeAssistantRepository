@@ -1,9 +1,9 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{11..13} )
+PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
@@ -21,7 +21,7 @@ DOCS="README.md"
 RDEPEND="
 	$(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' python3_10)
 	>=dev-python/dbus-fast-1.21.0[${PYTHON_USEDEP}]
-	>=dev-python/bleak-0.21.1[${PYTHON_USEDEP}]
+	>=dev-python/bleak-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/usb-devices-0.4.5[${PYTHON_USEDEP}]
 	>=dev-python/aiooui-0.1.1[${PYTHON_USEDEP}]
 	>=dev-python/uart-devices-0.1.0[${PYTHON_USEDEP}]"
