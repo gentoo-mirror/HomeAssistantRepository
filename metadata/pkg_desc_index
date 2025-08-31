@@ -100,7 +100,7 @@ dev-python/WSDiscovery 2.0.0 2.1.2: WS-Discovery implementation for python
 dev-python/WazeRouteCalculator 0.14: Calculate actual route time and distance with waze api.
 dev-python/XBee 2.3.2: Python tools for working with XBee radios
 dev-python/abodepy 1.2.0: An Abode alarm Python library running on Python 3.
-dev-python/accuweather 3.0.0 4.0.0: Python wrapper for getting weather data from AccuWeather servers.
+dev-python/accuweather 3.0.0 4.0.0 4.2.0: Python wrapper for getting weather data from AccuWeather servers.
 dev-python/adafruit-circuitpython-bmp280 3.1.1: CircuitPython driver for the BMP280.
 dev-python/adafruit-circuitpython-busdevice 5.1.8: CircuitPython bus device classes to manage bus sharing.
 dev-python/adafruit-circuitpython-dht 3.7.0: CircuitPython support for DHT11 and DHT22 type temperature/humidity devices
@@ -600,7 +600,7 @@ dev-python/holidays 0.58 0.59 0.61 0.63: Generate and work with holidays in Pyth
 dev-python/home-assistant-bluetooth 1.12.2 1.13.0 1.13.1: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2024.2.2 2024.3.2 2024.5.2 2024.9.0: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20241002.3 20241002.4 20241106.2 20241127.8 20250811.1: The Home Assistant frontend
-dev-python/home-assistant-intents 2024.9.4 2024.10.2 2024.11.6 2024.12.9 2025.7.30: Intents for Home Assistant
+dev-python/home-assistant-intents 2024.9.4 2024.11.6 2024.12.9 2025.7.30: Intents for Home Assistant
 dev-python/homeconnect 0.7.2 0.8.0: Python client for the BSH Home Connect REST API
 dev-python/homematicip 1.1.0 1.1.1 1.1.2 1.1.3: An API for the homematicip cloud
 dev-python/homepluscontrol 0.0.5: Python-based API to interact with the Legrand Home + Control interface
@@ -1457,7 +1457,7 @@ dev-python/voip-utils 0.1.0: Voice over IP Utilities
 dev-python/vol 0.1.1: volume control in the shell for your mac
 dev-python/volkszaehler 0.4.0: Python Wrapper for interacting with the Volkszahler API.
 dev-python/voluptuous 0.13.1-r1 0.14.1 0.14.2: A Python data validation library
-dev-python/voluptuous-openapi 0.0.4 0.0.5: Convert voluptuous schemas to OpenAPI Schema object
+dev-python/voluptuous-openapi 0.0.5 0.1.0: Convert voluptuous schemas to OpenAPI Schema object
 dev-python/voluptuous-serialize 2.6.0: Convert voluptuous schemas to dictionaries
 dev-python/volvooncall 0.10.3: Communicate with VOC
 dev-python/vsure 2.6.6 2.6.7: Read and change status of verisure devices through mypages.
