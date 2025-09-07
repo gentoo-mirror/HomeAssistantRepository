@@ -15,7 +15,7 @@ app-crypt/acme 4.2.0: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.6 9999: The Home Assistant Command-line Interface (hass-cli)
 app-misc/homeassistant 2024.9.3 2024.11.3 2024.12.5: Open-source home automation platform running on Python.
 app-misc/homeassistant-full 2024.11.3-r1 9999: Open-source home automation platform running on Python.
-app-misc/homeassistant-min 2024.11.3 2024.12.5 2025.8.3: Open-source home automation platform running on Python.
+app-misc/homeassistant-min 2024.11.3 2024.12.5 2025.8.3 2025.9.1: Open-source home automation platform running on Python.
 app-misc/zigbee2mqtt 1.35.2 1.39.1 1.40.1: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2024.10.2-r2 2025.2.2 2025.8.2: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20240319.0 20240412.0 20240620.0 20250212.0 20250814.0: ESPHome dashboard
