@@ -1174,7 +1174,7 @@ dev-python/python-join-api 0.0.9: Python API for interacting with Join by joaoap
 dev-python/python-juicenet 1.1.0: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
 dev-python/python-kasa 0.7.3 0.7.7 0.8.1 0.10.2: Python API for TP-Link Kasa Smarthome devices
 dev-python/python-linkplay 0.0.15 0.0.20: A Python Library for Seamless LinkPlay Device Control
-dev-python/python-matter-server 6.3.0 6.6.0 8.0.0: Python Matter WebSocket Server
+dev-python/python-matter-server 6.3.0 6.6.0 8.0.0 8.1.0: Python Matter WebSocket Server
 dev-python/python-metar 1.4.0: Metar - a package to parse METAR coded weather reports
 dev-python/python-miio 0.5.12: Python library for interfacing with Xiaomi smart appliances
 dev-python/python-mpd2 3.0.5: A Python MPD client library
