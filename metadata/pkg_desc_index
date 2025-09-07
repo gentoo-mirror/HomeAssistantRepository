@@ -331,7 +331,7 @@ dev-python/bitstruct 8.17.0: This module performs conversions between Python val
 dev-python/bizkaibus 0.1.1: Online information for buses of Biscay bus services (Basque Country, Spain).
 dev-python/bleak 0.22.2 0.22.3 1.0.1: Bluetooth Low Energy platform Agnostic Klient
 dev-python/bleak-esphome 1.0.0 1.1.0 3.1.0: Bleak backend of ESPHome
-dev-python/bleak-retry-connector 3.5.0 3.6.0 4.0.2 4.2.0: A connector for Bleak Clients that handles transient connection failures
+dev-python/bleak-retry-connector 3.5.0 3.6.0 4.0.2 4.2.0 4.4.3: A connector for Bleak Clients that handles transient connection failures
 dev-python/blebox-uniapi 2.2.2 2.4.2 2.5.0: Python API for accessing BleBox smart home devices
 dev-python/blinkpy 0.22.6 0.23.0: A Blink camera Python library running on Python 3.
 dev-python/blinkt 0.1.0: Python library for driving Pimoroni Blinkt!
